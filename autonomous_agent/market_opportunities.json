@@ -1,0 +1,233 @@
+{
+  "updated_at": "2026-09-28 16:44:21",
+  "total_analyzed": 40,
+  "high_priority_opportunities": [
+    {
+      "source": "GitHub Trending",
+      "title": "PhialsBasement/LibreCrawl - Free desktop SEO crawler - open source alternative to Screaming Frog and similar tools. Crawl websites, analyze links, extract SEO data, and export results without subscription fees. Fully customizable and extensible!",
+      "text": "Free desktop SEO crawler - open source alternative to Screaming Frog and similar tools. Crawl websites, analyze links, extract SEO data, and export results without subscription fees. Fully customizable and extensible!",
+      "score": 992,
+      "comments": 208,
+      "url": "https://github.com/PhialsBasement/LibreCrawl",
+      "intent_score": 75,
+      "matched_keywords": [
+        "alternative to",
+        "seo"
+      ]
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: TinyAIArena watch AI agents battle it out",
+      "text": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8×8 grid. May the most intelligent one win!<p>Click on any of the matches to spectate them.<p>Code: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;hp6&#x2F;ai-arena\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com",
+      "score": 108,
+      "comments": 24,
+      "url": "https://news.ycombinator.com/item?id=49867775",
+      "intent_score": 50,
+      "matched_keywords": [
+        "ai agent"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "artesaos/seotools - SEO Tools for Laravel",
+      "text": "SEO Tools for Laravel",
+      "score": 3367,
+      "comments": 513,
+      "url": "https://github.com/artesaos/seotools",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "sethblack/python-seo-analyzer - An SEO tool that analyzes the structure of a site, crawls the site, count words in the body of the site and warns of any technical SEO issues.",
+      "text": "An SEO tool that analyzes the structure of a site, crawls the site, count words in the body of the site and warns of any technical SEO issues.",
+      "score": 1482,
+      "comments": 348,
+      "url": "https://github.com/sethblack/python-seo-analyzer",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "serpapi/awesome-seo-tools - Curated list of awesome SEO tools",
+      "text": "Curated list of awesome SEO tools",
+      "score": 1101,
+      "comments": 363,
+      "url": "https://github.com/serpapi/awesome-seo-tools",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "StanGirard/seo-audits-toolkit - SEO & Security Audit for Websites. Lighthouse & Security Headers crawler, Sitemap/Keywords/Images Extractor,  Summarizer, etc ...",
+      "text": "SEO & Security Audit for Websites. Lighthouse & Security Headers crawler, Sitemap/Keywords/Images Extractor,  Summarizer, etc ...",
+      "score": 813,
+      "comments": 155,
+      "url": "https://github.com/StanGirard/seo-audits-toolkit",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "StJudeWasHere/seonaut - Open source SEO audit tool.",
+      "text": "Open source SEO audit tool.",
+      "score": 796,
+      "comments": 133,
+      "url": "https://github.com/StJudeWasHere/seonaut",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "butschster/LaravelMetaTags - The most powerful and extendable tools for managing SEO Meta Tags in your Laravel project",
+      "text": "The most powerful and extendable tools for managing SEO Meta Tags in your Laravel project",
+      "score": 634,
+      "comments": 56,
+      "url": "https://github.com/butschster/LaravelMetaTags",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "iannuttall/seo - The only SEO skill your agent needs. 70+ SEO audit tools through a local CLI and MCP server, using your own crawl, Search Console, and GA4 data.",
+      "text": "The only SEO skill your agent needs. 70+ SEO audit tools through a local CLI and MCP server, using your own crawl, Search Console, and GA4 data.",
+      "score": 540,
+      "comments": 43,
+      "url": "https://github.com/iannuttall/seo",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "sneg55/curatedseotools - Best SEO Tools Stash",
+      "text": "Best SEO Tools Stash",
+      "score": 471,
+      "comments": 92,
+      "url": "https://github.com/sneg55/curatedseotools",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "Hacker News (ask)",
+      "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
+      "text": "Do you currently work with or know anyone who is still using:<p>* dBase&#x2F;Clipper&#x2F;CLARION&#x2F;Paradox&#x2F;other DOS RAD environments on period hardware to run business processes?<p>* CNC mills&#x2F;spectrometers&#x2F;microscopes&#x2F;other industrial instruments controlled by ISA cards (either bespoke or standards like GPIB)?<p>* Anything with a parallel port dongle?<p>If so, I&#x27;d be",
+      "score": 274,
+      "comments": 83,
+      "url": "https://news.ycombinator.com/item?id=49848955",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (ask)",
+      "title": "Management is forcing us to use AI",
+      "text": "I’m paraphrasing; «You use AI or you’re not working here. Humans are not perfect coders nor are AIs. So why should you be allowed to code without AI. It’s a netloss for us. You either use it or you start looking for a different job.»<p>Can’t believe Im being forced to make myself dumber. I really dont want to spend even more hours in front of my laptop, but looks like I have to because this whole ",
+      "score": 7,
+      "comments": 5,
+      "url": "https://news.ycombinator.com/item?id=49873913",
+      "intent_score": 25,
+      "matched_keywords": [
+        "looking for"
+      ]
+    },
+    {
+      "source": "Hacker News (ask)",
+      "title": "Ask HN: Any nerds out there who've read a lot of research papers?",
+      "text": "Which are the most memorable abstracts you have read? I know I am a jackass who usually vibecodes my way through assignments but even I don&#x27;t want to write a cookie-cutter intro for my paper. I wanna write something that stays with the reader. What paper has stuck with you, what made it memorable?",
+      "score": 29,
+      "comments": 19,
+      "url": "https://news.ycombinator.com/item?id=49835866",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (ask)",
+      "title": "Ask HN: Hypothesis: Cellular providers are deprioritizing voice calls?",
+      "text": "I switched from Verizon to T-Mobile, specifically because there were too many silent missed calls. Silent meaning my device never showed I had a missed call.<p>This was a pattern across more than a year, spanning multiple devices (all iphones). It happens on both wifi and cellular. It happens with wifi calling enabled and disabled. It happens with people I call every day, in my address book, as we",
+      "score": 21,
+      "comments": 12,
+      "url": "https://news.ycombinator.com/item?id=49833212",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+      "text": "",
+      "score": 245,
+      "comments": 40,
+      "url": "https://news.ycombinator.com/item?id=49869574",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: Jev Plays Pokémon Red",
+      "text": "Hey HN! Wanted to share a fun project I&#x27;ve been hacking on. Given Jev can make decisions really fast (but not fast enough to play Doom yet sadly), I wanted to try and push it to play a more complex game than Tetris. So I went with Pokémon.<p>I&#x27;ve spent endless hours playing this game as a child so building this was a ton of fun.<p>I open sourced everything in case you want to hack on it ",
+      "score": 272,
+      "comments": 36,
+      "url": "https://news.ycombinator.com/item?id=49845172",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+      "text": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don&#x27;t let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulate).<p>I wanted to have the benefits of both, where you can define a diagram in a diagram langua",
+      "score": 395,
+      "comments": 45,
+      "url": "https://news.ycombinator.com/item?id=49858513",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: Stepgate – AI agents that can't skip steps, in one portable file",
+      "text": "",
+      "score": 2,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=49872350",
+      "intent_score": 25,
+      "matched_keywords": [
+        "ai agent"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "merklefruit/SaaS4Devs - Awesome collection of content for developers trying to bootstrap their SaaS",
+      "text": "Awesome collection of content for developers trying to bootstrap their SaaS",
+      "score": 751,
+      "comments": 111,
+      "url": "https://github.com/merklefruit/SaaS4Devs",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Dev.to (#saas)",
+      "title": "Why 24/7 AI Agents Fail and What Actually Works",
+      "text": "In 2026, the pitch is everywhere: deploy an AI agent, walk away, let it run. We tried this. By day...",
+      "score": 0,
+      "comments": 1,
+      "url": "https://dev.to/forgeflows/why-247-ai-agents-fail-and-what-actually-works-47m9",
+      "intent_score": 25,
+      "matched_keywords": [
+        "ai agent"
+      ]
+    }
+  ]
+}

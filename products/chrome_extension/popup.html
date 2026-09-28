@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SynapseGEO Extension</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="ext-container">
+    <!-- Header -->
+    <header class="ext-header">
+      <div class="ext-brand">
+        <span class="ext-logo">⚡</span>
+        <span class="ext-name">Synapse<strong>GEO</strong></span>
+      </div>
+      <span class="ext-version">v1.0</span>
+    </header>
+
+    <!-- Active Tab Info -->
+    <div class="tab-target-box">
+      <span class="tab-label">CURRENT TAB:</span>
+      <div id="tab-domain" class="tab-domain">Inspecting page...</div>
+    </div>
+
+    <!-- Live Scan Results -->
+    <div id="scan-results" class="scan-card">
+      <div class="score-row">
+        <div class="score-circle-sm" id="score-badge">--</div>
+        <div class="score-status">
+          <h4 id="score-text">Calculating Score...</h4>
+          <p id="score-sub">Scanning AI readability signals</p>
+        </div>
+      </div>
+
+      <div class="signal-checks">
+        <div class="check-item" id="check-schema">
+          <span class="check-icon">⏳</span>
+          <span class="check-name">JSON-LD Schema Markup</span>
+          <span class="check-val" id="val-schema">Detecting...</span>
+        </div>
+        <div class="check-item" id="check-og">
+          <span class="check-icon">⏳</span>
+          <span class="check-name">OpenGraph Citation Card</span>
+          <span class="check-val" id="val-og">Detecting...</span>
+        </div>
+        <div class="check-item" id="check-headers">
+          <span class="check-icon">⏳</span>
+          <span class="check-name">Semantic H1 Structure</span>
+          <span class="check-val" id="val-headers">Detecting...</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="action-footer">
+      <button id="deep-audit-btn" class="btn-primary-ext" onclick="openWebApp()">
+        🚀 Open Deep Audit & Schema Generator
+      </button>
+      <a href="https://your-domain.com" target="_blank" class="ext-link">Visit SynapseGEO Web Platform</a>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

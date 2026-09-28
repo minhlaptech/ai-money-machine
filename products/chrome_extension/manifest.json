@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "SynapseGEO — AI Search & Schema Auditor",
+  "version": "1.0.0",
+  "description": "Instant GEO audit for any webpage. Check ChatGPT, Perplexity & Google AI Overview citation readiness.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SynapseGEO Instant Auditor"
+  }
+}
