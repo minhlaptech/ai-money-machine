@@ -1,0 +1,68 @@
+{
+  "name": "Client Home Anniversary & Equity Update Engine",
+  "blueprint_id": "bp_09_realestate_past_client_nurture",
+  "version": "2.1.0",
+  "category": "Real Estate",
+  "author": "MinhLap AI Systems",
+  "license": "Commercial / Agency Client Deliverable",
+  "description": "Triggers on the 1-year, 2-year, and 5-year closing anniversary. Dispatches personalized home value appreciation estimates and invites coffee catchups.",
+  "metadata": {
+    "difficulty": "Beginner",
+    "estimated_setup_minutes": 30,
+    "tools_required": [
+      "Make.com / n8n",
+      "Google Sheets / CRM",
+      "Gmail / Outlook"
+    ]
+  },
+  "flow": {
+    "modules": [
+      {
+        "id": 1,
+        "module": "google-sheets:searchRows",
+        "name": "Daily Query: ClosingDate == Today (Anniversary)"
+      },
+      {
+        "id": 2,
+        "module": "openai:CreateChatCompletion",
+        "name": "Draft Warm Personalized Congratulatory Note"
+      },
+      {
+        "id": 3,
+        "module": "gmail:sendEmail",
+        "name": "Send Realtor Anniversary Check-in"
+      },
+      {
+        "id": 4,
+        "module": "google-calendar:createReminder",
+        "name": "Remind Agent to Drop Off Anniversary Gift Card"
+      }
+    ]
+  },
+  "environment_variables": [
+    {
+      "key": "OPENAI_API_KEY",
+      "description": "API Key for AI qualification and drafting"
+    },
+    {
+      "key": "TWILIO_ACCOUNT_SID",
+      "description": "Twilio Account SID for SMS integration"
+    },
+    {
+      "key": "TWILIO_AUTH_TOKEN",
+      "description": "Twilio Auth Token"
+    },
+    {
+      "key": "NOTIFICATION_WEBHOOK",
+      "description": "Slack / Telegram webhook URL for staff alerts"
+    }
+  ],
+  "setup_guide": [
+    "1. Log in to Make.com or n8n dashboard.",
+    "2. Click 'Create a new scenario' -> '...' (Options) -> 'Import Blueprint'.",
+    "3. Upload this file: bp_09_realestate_past_client_nurture.json.",
+    "4. Connect your required API accounts indicated in the metadata.",
+    "5. Run 'Run once' with test data to verify all green checks.",
+    "6. Toggle scenario scheduling to ON."
+  ]
+}

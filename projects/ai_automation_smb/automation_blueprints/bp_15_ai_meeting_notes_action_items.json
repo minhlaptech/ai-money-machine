@@ -1,0 +1,74 @@
+{
+  "name": "Meeting Audio Transcript to Action Items & Notion Tasks",
+  "blueprint_id": "bp_15_ai_meeting_notes_action_items",
+  "version": "2.1.0",
+  "category": "AI-Powered",
+  "author": "MinhLap AI Systems",
+  "license": "Commercial / Agency Client Deliverable",
+  "description": "Takes raw call transcripts from Fireflies.ai/Fathom, extracts core decisions, key takeaways, and action items with owners, and creates Notion tasks instantly.",
+  "metadata": {
+    "difficulty": "Intermediate",
+    "estimated_setup_minutes": 35,
+    "tools_required": [
+      "Make.com / n8n",
+      "Fireflies.ai / Zoom",
+      "OpenAI GPT-4o",
+      "Notion / Asana"
+    ]
+  },
+  "flow": {
+    "modules": [
+      {
+        "id": 1,
+        "module": "gateway:CustomWebHook",
+        "name": "Receive Meeting Transcript Webhook"
+      },
+      {
+        "id": 2,
+        "module": "openai:extractKeyTakeaways",
+        "name": "Extract Decisions, Deadlines & Assignees"
+      },
+      {
+        "id": 3,
+        "module": "builtin:iterator",
+        "name": "Iterate Over Identified Action Items"
+      },
+      {
+        "id": 4,
+        "module": "notion:createPage",
+        "name": "Create Task Item in Notion Engineering/Marketing Board"
+      },
+      {
+        "id": 5,
+        "module": "slack:postMessage",
+        "name": "Post Meeting Executive Summary in Project Slack Channel"
+      }
+    ]
+  },
+  "environment_variables": [
+    {
+      "key": "OPENAI_API_KEY",
+      "description": "API Key for AI qualification and drafting"
+    },
+    {
+      "key": "TWILIO_ACCOUNT_SID",
+      "description": "Twilio Account SID for SMS integration"
+    },
+    {
+      "key": "TWILIO_AUTH_TOKEN",
+      "description": "Twilio Auth Token"
+    },
+    {
+      "key": "NOTIFICATION_WEBHOOK",
+      "description": "Slack / Telegram webhook URL for staff alerts"
+    }
+  ],
+  "setup_guide": [
+    "1. Log in to Make.com or n8n dashboard.",
+    "2. Click 'Create a new scenario' -> '...' (Options) -> 'Import Blueprint'.",
+    "3. Upload this file: bp_15_ai_meeting_notes_action_items.json.",
+    "4. Connect your required API accounts indicated in the metadata.",
+    "5. Run 'Run once' with test data to verify all green checks.",
+    "6. Toggle scenario scheduling to ON."
+  ]
+}

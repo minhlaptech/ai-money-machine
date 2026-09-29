@@ -1,0 +1,74 @@
+{
+  "name": "30-Second Speed-to-Lead Instant Response & CRM Router",
+  "blueprint_id": "bp_07_realestate_speed_to_lead",
+  "version": "2.1.0",
+  "category": "Real Estate",
+  "author": "MinhLap AI Systems",
+  "license": "Commercial / Agency Client Deliverable",
+  "description": "Grabs incoming leads from Facebook Lead Ads or Zillow, fires a personalized text within 30 seconds, and dials the realtor's phone via bridge call.",
+  "metadata": {
+    "difficulty": "Intermediate",
+    "estimated_setup_minutes": 35,
+    "tools_required": [
+      "Make.com / n8n",
+      "Facebook Lead Ads",
+      "Twilio Voice & SMS",
+      "HubSpot / FollowUpBoss"
+    ]
+  },
+  "flow": {
+    "modules": [
+      {
+        "id": 1,
+        "module": "facebook:watchLeadGenForm",
+        "name": "New Property Inquiry Received"
+      },
+      {
+        "id": 2,
+        "module": "openai:CreateChatCompletion",
+        "name": "Generate Hyper-Personalized SMS referencing Listing"
+      },
+      {
+        "id": 3,
+        "module": "twilio:SendSms",
+        "name": "Send SMS within 30 Seconds"
+      },
+      {
+        "id": 4,
+        "module": "crm:createContact",
+        "name": "Sync Lead to Follow Up Boss / HubSpot"
+      },
+      {
+        "id": 5,
+        "module": "telegram:SendMessage",
+        "name": "High Priority Mobile Push Alert to Lead Agent"
+      }
+    ]
+  },
+  "environment_variables": [
+    {
+      "key": "OPENAI_API_KEY",
+      "description": "API Key for AI qualification and drafting"
+    },
+    {
+      "key": "TWILIO_ACCOUNT_SID",
+      "description": "Twilio Account SID for SMS integration"
+    },
+    {
+      "key": "TWILIO_AUTH_TOKEN",
+      "description": "Twilio Auth Token"
+    },
+    {
+      "key": "NOTIFICATION_WEBHOOK",
+      "description": "Slack / Telegram webhook URL for staff alerts"
+    }
+  ],
+  "setup_guide": [
+    "1. Log in to Make.com or n8n dashboard.",
+    "2. Click 'Create a new scenario' -> '...' (Options) -> 'Import Blueprint'.",
+    "3. Upload this file: bp_07_realestate_speed_to_lead.json.",
+    "4. Connect your required API accounts indicated in the metadata.",
+    "5. Run 'Run once' with test data to verify all green checks.",
+    "6. Toggle scenario scheduling to ON."
+  ]
+}

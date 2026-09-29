@@ -1,0 +1,69 @@
+{
+  "name": "Post-Purchase VIP UGC & Photo Review Automation",
+  "blueprint_id": "bp_06_ecom_vip_review_request",
+  "version": "2.1.0",
+  "category": "E-Commerce",
+  "author": "MinhLap AI Systems",
+  "license": "Commercial / Agency Client Deliverable",
+  "description": "Waits 7 days post-delivery to allow product usage, then reaches out offering VIP loyalty points in exchange for verified customer photo/video reviews.",
+  "metadata": {
+    "difficulty": "Beginner",
+    "estimated_setup_minutes": 30,
+    "tools_required": [
+      "Make.com / n8n",
+      "Shopify",
+      "Loox / Judge.me",
+      "SendGrid"
+    ]
+  },
+  "flow": {
+    "modules": [
+      {
+        "id": 1,
+        "module": "shopify:watchOrdersFulfilled",
+        "name": "Watch Fulfilled Orders"
+      },
+      {
+        "id": 2,
+        "module": "builtin:sleep",
+        "name": "Wait 7 Days Post-Delivery"
+      },
+      {
+        "id": 3,
+        "module": "sendgrid:SendEmail",
+        "name": "Send VIP Photo Review Request with Incentive"
+      },
+      {
+        "id": 4,
+        "module": "loox:createReviewRequest",
+        "name": "Sync with Review Engine"
+      }
+    ]
+  },
+  "environment_variables": [
+    {
+      "key": "OPENAI_API_KEY",
+      "description": "API Key for AI qualification and drafting"
+    },
+    {
+      "key": "TWILIO_ACCOUNT_SID",
+      "description": "Twilio Account SID for SMS integration"
+    },
+    {
+      "key": "TWILIO_AUTH_TOKEN",
+      "description": "Twilio Auth Token"
+    },
+    {
+      "key": "NOTIFICATION_WEBHOOK",
+      "description": "Slack / Telegram webhook URL for staff alerts"
+    }
+  ],
+  "setup_guide": [
+    "1. Log in to Make.com or n8n dashboard.",
+    "2. Click 'Create a new scenario' -> '...' (Options) -> 'Import Blueprint'.",
+    "3. Upload this file: bp_06_ecom_vip_review_request.json.",
+    "4. Connect your required API accounts indicated in the metadata.",
+    "5. Run 'Run once' with test data to verify all green checks.",
+    "6. Toggle scenario scheduling to ON."
+  ]
+}

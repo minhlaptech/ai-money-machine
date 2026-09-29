@@ -1,0 +1,94 @@
+{
+  "name": "3-Stage High-Conversion Abandoned Cart Recovery Funnel",
+  "blueprint_id": "bp_04_ecom_abandoned_cart_recovery",
+  "version": "2.1.0",
+  "category": "E-Commerce",
+  "author": "MinhLap AI Systems",
+  "license": "Commercial / Agency Client Deliverable",
+  "description": "Recovers lost revenue with a staged sequence: 1h friendly nudge, 24h dynamic 10% coupon generation, and 48h last-chance urgency countdown.",
+  "metadata": {
+    "difficulty": "Intermediate",
+    "estimated_setup_minutes": 40,
+    "tools_required": [
+      "Make.com / n8n",
+      "Shopify / WooCommerce",
+      "Klaviyo / SendGrid",
+      "OpenAI"
+    ]
+  },
+  "flow": {
+    "modules": [
+      {
+        "id": 1,
+        "module": "shopify:watchAbandonedCheckouts",
+        "name": "Catch Abandoned Checkout"
+      },
+      {
+        "id": 2,
+        "module": "builtin:sleep",
+        "name": "Wait 60 Minutes"
+      },
+      {
+        "id": 3,
+        "module": "builtin:filter",
+        "name": "Check if order already placed"
+      },
+      {
+        "id": 4,
+        "module": "email:send",
+        "name": "Stage 1: 'Did you leave something behind?'"
+      },
+      {
+        "id": 5,
+        "module": "builtin:sleep",
+        "name": "Wait 23 Hours"
+      },
+      {
+        "id": 6,
+        "module": "shopify:createDiscountCode",
+        "name": "Generate Unique 10% Single-Use Promo Code"
+      },
+      {
+        "id": 7,
+        "module": "email:send",
+        "name": "Stage 2: 'Here is 10% off for the next 24 hours'"
+      },
+      {
+        "id": 8,
+        "module": "builtin:sleep",
+        "name": "Wait 24 Hours"
+      },
+      {
+        "id": 9,
+        "module": "email:send",
+        "name": "Stage 3: 'Final 2 hours before your cart expires'"
+      }
+    ]
+  },
+  "environment_variables": [
+    {
+      "key": "OPENAI_API_KEY",
+      "description": "API Key for AI qualification and drafting"
+    },
+    {
+      "key": "TWILIO_ACCOUNT_SID",
+      "description": "Twilio Account SID for SMS integration"
+    },
+    {
+      "key": "TWILIO_AUTH_TOKEN",
+      "description": "Twilio Auth Token"
+    },
+    {
+      "key": "NOTIFICATION_WEBHOOK",
+      "description": "Slack / Telegram webhook URL for staff alerts"
+    }
+  ],
+  "setup_guide": [
+    "1. Log in to Make.com or n8n dashboard.",
+    "2. Click 'Create a new scenario' -> '...' (Options) -> 'Import Blueprint'.",
+    "3. Upload this file: bp_04_ecom_abandoned_cart_recovery.json.",
+    "4. Connect your required API accounts indicated in the metadata.",
+    "5. Run 'Run once' with test data to verify all green checks.",
+    "6. Toggle scenario scheduling to ON."
+  ]
+}

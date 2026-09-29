@@ -1,0 +1,73 @@
+{
+  "name": "Executive Email AI Classifier & One-Click Reply Drafter",
+  "blueprint_id": "bp_13_ai_smart_inbox_autoresponder",
+  "version": "2.1.0",
+  "category": "AI-Powered",
+  "author": "MinhLap AI Systems",
+  "license": "Commercial / Agency Client Deliverable",
+  "description": "Continuously filters Gmail inbox for high-priority business inquiries, writes 3 distinct response drafts (Positive, Decline, Request Info), and saves to Drafts folder.",
+  "metadata": {
+    "difficulty": "Intermediate",
+    "estimated_setup_minutes": 30,
+    "tools_required": [
+      "Make.com / n8n",
+      "Gmail / Outlook",
+      "OpenAI GPT-4o"
+    ]
+  },
+  "flow": {
+    "modules": [
+      {
+        "id": 1,
+        "module": "gmail:watchNewEmails",
+        "name": "Watch Unread Inbound Emails"
+      },
+      {
+        "id": 2,
+        "module": "builtin:filter",
+        "name": "Exclude Newsletters and Automated System Notifications"
+      },
+      {
+        "id": 3,
+        "module": "openai:CreateChatCompletion",
+        "name": "Analyze Intent & Draft 3 Contextual Replies"
+      },
+      {
+        "id": 4,
+        "module": "gmail:createDraft",
+        "name": "Save Formatted Response in User Gmail Drafts Folder"
+      },
+      {
+        "id": 5,
+        "module": "gmail:addLabel",
+        "name": "Apply Label: 'AI_Draft_Ready'"
+      }
+    ]
+  },
+  "environment_variables": [
+    {
+      "key": "OPENAI_API_KEY",
+      "description": "API Key for AI qualification and drafting"
+    },
+    {
+      "key": "TWILIO_ACCOUNT_SID",
+      "description": "Twilio Account SID for SMS integration"
+    },
+    {
+      "key": "TWILIO_AUTH_TOKEN",
+      "description": "Twilio Auth Token"
+    },
+    {
+      "key": "NOTIFICATION_WEBHOOK",
+      "description": "Slack / Telegram webhook URL for staff alerts"
+    }
+  ],
+  "setup_guide": [
+    "1. Log in to Make.com or n8n dashboard.",
+    "2. Click 'Create a new scenario' -> '...' (Options) -> 'Import Blueprint'.",
+    "3. Upload this file: bp_13_ai_smart_inbox_autoresponder.json.",
+    "4. Connect your required API accounts indicated in the metadata.",
+    "5. Run 'Run once' with test data to verify all green checks.",
+    "6. Toggle scenario scheduling to ON."
+  ]
+}

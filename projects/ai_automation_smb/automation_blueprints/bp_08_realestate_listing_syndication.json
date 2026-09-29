@@ -1,0 +1,79 @@
+{
+  "name": "Autonomous Property Listing Multi-Channel Syndicator",
+  "blueprint_id": "bp_08_realestate_listing_syndication",
+  "version": "2.1.0",
+  "category": "Real Estate",
+  "author": "MinhLap AI Systems",
+  "license": "Commercial / Agency Client Deliverable",
+  "description": "Drops new listing photos into Google Drive; AI analyzes property highlights, writes viral captions, and automatically publishes to Instagram, Facebook, and LinkedIn.",
+  "metadata": {
+    "difficulty": "Intermediate",
+    "estimated_setup_minutes": 40,
+    "tools_required": [
+      "Make.com / n8n",
+      "Google Drive",
+      "OpenAI Vision (GPT-4o)",
+      "Buffer / Meta Graph API"
+    ]
+  },
+  "flow": {
+    "modules": [
+      {
+        "id": 1,
+        "module": "google-drive:watchNewFiles",
+        "name": "Watch New Listing Folder for Images"
+      },
+      {
+        "id": 2,
+        "module": "openai:analyzeImages",
+        "name": "Analyze Architectural Features & Luxury Touches"
+      },
+      {
+        "id": 3,
+        "module": "openai:CreateChatCompletion",
+        "name": "Draft Instagram Caption + Hashtags + Facebook Copy"
+      },
+      {
+        "id": 4,
+        "module": "meta:publishInstagramCarousel",
+        "name": "Post Listing to Instagram Business Account"
+      },
+      {
+        "id": 5,
+        "module": "meta:publishFacebookPost",
+        "name": "Post Listing to Agency Facebook Page"
+      },
+      {
+        "id": 6,
+        "module": "linkedin:createPost",
+        "name": "Post to Broker LinkedIn Profile"
+      }
+    ]
+  },
+  "environment_variables": [
+    {
+      "key": "OPENAI_API_KEY",
+      "description": "API Key for AI qualification and drafting"
+    },
+    {
+      "key": "TWILIO_ACCOUNT_SID",
+      "description": "Twilio Account SID for SMS integration"
+    },
+    {
+      "key": "TWILIO_AUTH_TOKEN",
+      "description": "Twilio Auth Token"
+    },
+    {
+      "key": "NOTIFICATION_WEBHOOK",
+      "description": "Slack / Telegram webhook URL for staff alerts"
+    }
+  ],
+  "setup_guide": [
+    "1. Log in to Make.com or n8n dashboard.",
+    "2. Click 'Create a new scenario' -> '...' (Options) -> 'Import Blueprint'.",
+    "3. Upload this file: bp_08_realestate_listing_syndication.json.",
+    "4. Connect your required API accounts indicated in the metadata.",
+    "5. Run 'Run once' with test data to verify all green checks.",
+    "6. Toggle scenario scheduling to ON."
+  ]
+}

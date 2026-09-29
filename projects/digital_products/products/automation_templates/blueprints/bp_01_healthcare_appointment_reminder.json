@@ -1,0 +1,79 @@
+{
+  "name": "24h Automated SMS & Email Appointment Reminder System",
+  "blueprint_id": "bp_01_healthcare_appointment_reminder",
+  "version": "2.1.0",
+  "category": "Healthcare & Wellness",
+  "author": "MinhLap AI Systems",
+  "license": "Commercial / Agency Client Deliverable",
+  "description": "Scans upcoming appointments, qualifies confirmation status, and dispatches personalized Twilio SMS and SendGrid email with 1-tap reschedule webhook.",
+  "metadata": {
+    "difficulty": "Beginner",
+    "estimated_setup_minutes": 25,
+    "tools_required": [
+      "Make.com / n8n",
+      "Twilio",
+      "SendGrid / Gmail",
+      "Google Calendar / EHR"
+    ]
+  },
+  "flow": {
+    "modules": [
+      {
+        "id": 1,
+        "module": "google-calendar:watchEvents",
+        "name": "Watch Upcoming Appointments (Next 24h)"
+      },
+      {
+        "id": 2,
+        "module": "builtin:filter",
+        "name": "Filter: Status != Confirmed"
+      },
+      {
+        "id": 3,
+        "module": "openai:CreateChatCompletion",
+        "name": "AI Personalize Friendly Reminder (GPT-4o-mini)"
+      },
+      {
+        "id": 4,
+        "module": "twilio:SendSms",
+        "name": "Dispatch Instant SMS with Reschedule Keyword"
+      },
+      {
+        "id": 5,
+        "module": "sendgrid:SendEmail",
+        "name": "Dispatch Calendar Invite & Prep Instructions Email"
+      },
+      {
+        "id": 6,
+        "module": "google-sheets:updateRow",
+        "name": "Update EHR Sheet Status to 'Reminder_Sent'"
+      }
+    ]
+  },
+  "environment_variables": [
+    {
+      "key": "OPENAI_API_KEY",
+      "description": "API Key for AI qualification and drafting"
+    },
+    {
+      "key": "TWILIO_ACCOUNT_SID",
+      "description": "Twilio Account SID for SMS integration"
+    },
+    {
+      "key": "TWILIO_AUTH_TOKEN",
+      "description": "Twilio Auth Token"
+    },
+    {
+      "key": "NOTIFICATION_WEBHOOK",
+      "description": "Slack / Telegram webhook URL for staff alerts"
+    }
+  ],
+  "setup_guide": [
+    "1. Log in to Make.com or n8n dashboard.",
+    "2. Click 'Create a new scenario' -> '...' (Options) -> 'Import Blueprint'.",
+    "3. Upload this file: bp_01_healthcare_appointment_reminder.json.",
+    "4. Connect your required API accounts indicated in the metadata.",
+    "5. Run 'Run once' with test data to verify all green checks.",
+    "6. Toggle scenario scheduling to ON."
+  ]
+}

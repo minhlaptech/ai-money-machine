@@ -1,0 +1,68 @@
+{
+  "name": "Autonomous Real-Time Fulfillment & Tracking Courier Alerts",
+  "blueprint_id": "bp_05_ecom_order_tracking_alerts",
+  "version": "2.1.0",
+  "category": "E-Commerce",
+  "author": "MinhLap AI Systems",
+  "license": "Commercial / Agency Client Deliverable",
+  "description": "Integrates tracking status updates, sending instant WhatsApp/SMS notifications when orders are dispatched, out for delivery, and safely delivered.",
+  "metadata": {
+    "difficulty": "Beginner",
+    "estimated_setup_minutes": 25,
+    "tools_required": [
+      "Make.com / n8n",
+      "AfterShip / ShipStation",
+      "Twilio / WhatsApp API"
+    ]
+  },
+  "flow": {
+    "modules": [
+      {
+        "id": 1,
+        "module": "aftership:watchTrackingUpdates",
+        "name": "Watch Tracking Status Change"
+      },
+      {
+        "id": 2,
+        "module": "builtin:router",
+        "name": "Route by Checkpoint: Dispatched / OutForDelivery / Delivered"
+      },
+      {
+        "id": 3,
+        "module": "twilio:SendSms",
+        "name": "Dispatch Instant Status SMS to Customer"
+      },
+      {
+        "id": 4,
+        "module": "google-sheets:updateRow",
+        "name": "Log Fulfillment Milestone"
+      }
+    ]
+  },
+  "environment_variables": [
+    {
+      "key": "OPENAI_API_KEY",
+      "description": "API Key for AI qualification and drafting"
+    },
+    {
+      "key": "TWILIO_ACCOUNT_SID",
+      "description": "Twilio Account SID for SMS integration"
+    },
+    {
+      "key": "TWILIO_AUTH_TOKEN",
+      "description": "Twilio Auth Token"
+    },
+    {
+      "key": "NOTIFICATION_WEBHOOK",
+      "description": "Slack / Telegram webhook URL for staff alerts"
+    }
+  ],
+  "setup_guide": [
+    "1. Log in to Make.com or n8n dashboard.",
+    "2. Click 'Create a new scenario' -> '...' (Options) -> 'Import Blueprint'.",
+    "3. Upload this file: bp_05_ecom_order_tracking_alerts.json.",
+    "4. Connect your required API accounts indicated in the metadata.",
+    "5. Run 'Run once' with test data to verify all green checks.",
+    "6. Toggle scenario scheduling to ON."
+  ]
+}

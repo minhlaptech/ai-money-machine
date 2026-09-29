@@ -1,0 +1,69 @@
+{
+  "name": "Autonomous Notion-to-Multi-Channel Social Publisher",
+  "blueprint_id": "bp_11_business_social_content_autoposter",
+  "version": "2.1.0",
+  "category": "General Business",
+  "author": "MinhLap AI Systems",
+  "license": "Commercial / Agency Client Deliverable",
+  "description": "Watches a Notion Content Calendar database for items marked 'Approved'. Automatically publishes to Twitter/X, LinkedIn, and Threads, updating status to 'Live'.",
+  "metadata": {
+    "difficulty": "Beginner",
+    "estimated_setup_minutes": 30,
+    "tools_required": [
+      "Make.com / n8n",
+      "Notion API",
+      "Twitter API",
+      "LinkedIn API"
+    ]
+  },
+  "flow": {
+    "modules": [
+      {
+        "id": 1,
+        "module": "notion:watchDatabaseRows",
+        "name": "Watch Notion Rows: Status == 'Approved' & Time <= Now"
+      },
+      {
+        "id": 2,
+        "module": "twitter:postTweet",
+        "name": "Post to Twitter / X Account"
+      },
+      {
+        "id": 3,
+        "module": "linkedin:sharePost",
+        "name": "Post to LinkedIn Company / Founder Page"
+      },
+      {
+        "id": 4,
+        "module": "notion:updateRow",
+        "name": "Update Notion Status to 'Published' + Add Post URLs"
+      }
+    ]
+  },
+  "environment_variables": [
+    {
+      "key": "OPENAI_API_KEY",
+      "description": "API Key for AI qualification and drafting"
+    },
+    {
+      "key": "TWILIO_ACCOUNT_SID",
+      "description": "Twilio Account SID for SMS integration"
+    },
+    {
+      "key": "TWILIO_AUTH_TOKEN",
+      "description": "Twilio Auth Token"
+    },
+    {
+      "key": "NOTIFICATION_WEBHOOK",
+      "description": "Slack / Telegram webhook URL for staff alerts"
+    }
+  ],
+  "setup_guide": [
+    "1. Log in to Make.com or n8n dashboard.",
+    "2. Click 'Create a new scenario' -> '...' (Options) -> 'Import Blueprint'.",
+    "3. Upload this file: bp_11_business_social_content_autoposter.json.",
+    "4. Connect your required API accounts indicated in the metadata.",
+    "5. Run 'Run once' with test data to verify all green checks.",
+    "6. Toggle scenario scheduling to ON."
+  ]
+}

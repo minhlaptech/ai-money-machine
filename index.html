@@ -274,7 +274,7 @@
           <p>Autonomous customer review response generator. Converts negative feedback into 5-star customer loyalty in under 5 seconds.</p>
         </div>
         <div class="saas-footer">
-          <a href="https://reviewgenius-beta.vercel.app" target="_blank" class="btn-launch">Launch ReviewGenius ↗</a>
+          <a href="https://work-minh-lap.vercel.app/products/review_genius/index.html" target="_blank" class="btn-launch">Launch ReviewGenius ↗</a>
         </div>
       </div>
 
@@ -316,7 +316,7 @@
           <p>Production-ready demo showcasing 24/7 client booking and customer support. The ultimate proof-of-work link for freelancing.</p>
         </div>
         <div class="saas-footer">
-          <a href="https://chatbotdemo-hazel.vercel.app" target="_blank" class="btn-launch">Launch Chatbot Demo ↗</a>
+          <a href="https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/demo_chatbot.html" target="_blank" class="btn-launch">Launch Chatbot Demo ↗</a>
         </div>
       </div>
 
@@ -476,11 +476,18 @@ RT the first tweet if you found this valuable! 🔄</div>
         </div>
 
         <!-- Filter Pill Controls -->
-        <div style="display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap;">
-          <button class="batch-pill-btn active" onclick="filterBatch('all', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#fff; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">All Leads (30)</button>
-          <button class="batch-pill-btn" onclick="filterBatch('1', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#b794f4; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🦷 Batch 1: Local SMBs (10)</button>
-          <button class="batch-pill-btn" onclick="filterBatch('2', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#00f2fe; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🛍️ Batch 2: E-Com & SaaS (10)</button>
-          <button class="batch-pill-btn" onclick="filterBatch('3', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#ffb74d; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🏛️ Batch 3: High-Ticket Legal/CPA (10)</button>
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:12px;">
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <button class="batch-pill-btn active" onclick="filterBatch('all', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#fff; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">All Leads (30)</button>
+            <button class="batch-pill-btn" onclick="filterBatch('1', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#b794f4; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🦷 Batch 1: Local SMBs (10)</button>
+            <button class="batch-pill-btn" onclick="filterBatch('2', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#00f2fe; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🛍️ Batch 2: E-Com & SaaS (10)</button>
+            <button class="batch-pill-btn" onclick="filterBatch('3', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#ffb74d; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🏛️ Batch 3: High-Ticket Legal/CPA (10)</button>
+          </div>
+          <div style="display:flex; gap:6px; background:rgba(0,0,0,0.3); padding:4px; border-radius:10px; border:1px solid var(--border);">
+            <button class="stage-pill-btn active" onclick="filterStage(1, this)" style="background:linear-gradient(135deg,var(--accent),var(--cyan)); border:none; color:#fff; padding:5px 12px; border-radius:6px; font-size:11px; font-weight:700; cursor:pointer;">🎯 Day 1: Hook</button>
+            <button class="stage-pill-btn" onclick="filterStage(2, this)" style="background:transparent; border:none; color:var(--text-muted); padding:5px 12px; border-radius:6px; font-size:11px; font-weight:600; cursor:pointer;">📈 Day 3: ROI Value</button>
+            <button class="stage-pill-btn" onclick="filterStage(3, this)" style="background:transparent; border:none; color:var(--text-muted); padding:5px 12px; border-radius:6px; font-size:11px; font-weight:600; cursor:pointer;">🚪 Day 7: Break-Up</button>
+          </div>
         </div>
 
         <div style="overflow-x:auto;">
@@ -491,7 +498,8 @@ RT the first tweet if you found this valuable! 🔄</div>
                 <th style="padding:10px;">Prospect Name</th>
                 <th style="padding:10px;">Niche & City</th>
                 <th style="padding:10px;">Target Email</th>
-                <th style="padding:10px; text-align:right;">1-Click Dispatch</th>
+                <th style="padding:10px; text-align:center;">Client Deliverable</th>
+                <th style="padding:10px; text-align:right;">1-Click Sequence Dispatch</th>
               </tr>
             </thead>
             <tbody id="leads-table-body"></tbody>
@@ -561,43 +569,44 @@ RT the first tweet if you found this valuable! 🔄</div>
 
 const LEADS_DATA = [
   // --- BATCH 1: Local SMBs ---
-  { id: 1, batch: 1, name: 'Austin Dental Co', niche: 'Cosmetic Dentistry', city: 'Austin, TX', to: 'contact@austindentalco.example', doc: 'Dr. Miller', type: 'dental' },
-  { id: 2, batch: 1, name: 'Pure Radiance MedSpa', niche: 'Aesthetics & Spa', city: 'Miami, FL', to: 'info@pureradiancemedspa.example', doc: 'Sarah', type: 'medspa' },
-  { id: 3, batch: 1, name: 'Premier 24/7 HVAC', niche: 'Heating & AC Repair', city: 'Dallas, TX', to: 'service@premierairdfw.example', doc: 'Mark', type: 'hvac' },
-  { id: 4, batch: 1, name: 'Elite Smile Studio', niche: 'Orthodontics', city: 'San Jose, CA', to: 'hello@elitesmilestudio.example', doc: 'Dr. Nguyen', type: 'dental' },
-  { id: 5, batch: 1, name: 'Apex Roofing & Solar', niche: 'Roofing & Solar', city: 'Phoenix, AZ', to: 'bids@apexroofsolar.example', doc: 'David', type: 'hvac' },
-  { id: 6, batch: 1, name: 'Lumina Wellness', niche: 'Regenerative Med', city: 'Seattle, WA', to: 'frontdesk@luminawellness.example', doc: 'Dr. Adams', type: 'medspa' },
-  { id: 7, batch: 1, name: 'Vanguard Luxury RE', niche: 'Luxury Real Estate', city: 'Denver, CO', to: 'team@vanguardluxuryre.example', doc: 'Alex', type: 'realestate' },
-  { id: 8, batch: 1, name: 'ProActive Spine & Chiro', niche: 'Chiropractic', city: 'Chicago, IL', to: 'appointments@proactivechiro.example', doc: 'Dr. Davis', type: 'dental' },
-  { id: 9, batch: 1, name: 'Rapid Response Plumbing', niche: '24/7 Emergency Plumber', city: 'Atlanta, GA', to: 'dispatch@rapidplumbatl.example', doc: 'Robert', type: 'hvac' },
-  { id: 10, batch: 1, name: 'Silicon Valley Skin Lab', niche: 'Dermatology & Laser', city: 'Palo Alto, CA', to: 'support@svskinlab.example', doc: 'Dr. Patel', type: 'medspa' },
+  { id: 1, batch: 1, name: 'Austin Dental Co', niche: 'Cosmetic Dentistry', city: 'Austin, TX', to: 'contact@austindentalco.example', doc: 'Dr. Miller', type: 'dental', val: 750, lost: 14 },
+  { id: 2, batch: 1, name: 'Pure Radiance MedSpa', niche: 'Aesthetics & Spa', city: 'Miami, FL', to: 'info@pureradiancemedspa.example', doc: 'Sarah', type: 'medspa', val: 650, lost: 16 },
+  { id: 3, batch: 1, name: 'Premier 24/7 HVAC', niche: 'Heating & AC Repair', city: 'Dallas, TX', to: 'service@premierairdfw.example', doc: 'Mark', type: 'hvac', val: 1200, lost: 10 },
+  { id: 4, batch: 1, name: 'Elite Smile Studio', niche: 'Orthodontics', city: 'San Jose, CA', to: 'hello@elitesmilestudio.example', doc: 'Dr. Nguyen', type: 'dental', val: 1500, lost: 8 },
+  { id: 5, batch: 1, name: 'Apex Roofing & Solar', niche: 'Roofing & Solar', city: 'Phoenix, AZ', to: 'bids@apexroofsolar.example', doc: 'David', type: 'hvac', val: 2500, lost: 6 },
+  { id: 6, batch: 1, name: 'Lumina Wellness', niche: 'Regenerative Med', city: 'Seattle, WA', to: 'frontdesk@luminawellness.example', doc: 'Dr. Adams', type: 'medspa', val: 850, lost: 12 },
+  { id: 7, batch: 1, name: 'Vanguard Luxury RE', niche: 'Luxury Real Estate', city: 'Denver, CO', to: 'team@vanguardluxuryre.example', doc: 'Alex', type: 'realestate', val: 4500, lost: 4 },
+  { id: 8, batch: 1, name: 'ProActive Spine & Chiro', niche: 'Chiropractic', city: 'Chicago, IL', to: 'appointments@proactivechiro.example', doc: 'Dr. Davis', type: 'dental', val: 400, lost: 18 },
+  { id: 9, batch: 1, name: 'Rapid Response Plumbing', niche: '24/7 Emergency Plumber', city: 'Atlanta, GA', to: 'dispatch@rapidplumbatl.example', doc: 'Robert', type: 'hvac', val: 800, lost: 15 },
+  { id: 10, batch: 1, name: 'Silicon Valley Skin Lab', niche: 'Dermatology & Laser', city: 'Palo Alto, CA', to: 'support@svskinlab.example', doc: 'Dr. Patel', type: 'medspa', val: 950, lost: 11 },
 
   // --- BATCH 2: E-Commerce & SaaS ---
-  { id: 11, batch: 2, name: 'Velora Activewear', niche: 'Athleisure Apparel', city: 'Los Angeles, CA', to: 'hello@veloraactive.example', doc: 'Team Velora', type: 'ecom' },
-  { id: 12, batch: 2, name: 'NuvoGlow Skincare', niche: 'Clean D2C Beauty', city: 'New York, NY', to: 'partners@nuvoglowbeauty.example', doc: 'Founder', type: 'ecom' },
-  { id: 13, batch: 2, name: 'PulseMetrics AI', niche: 'B2B Analytics SaaS', city: 'San Francisco, CA', to: 'growth@pulsemetrics.example', doc: 'Founder', type: 'saas' },
-  { id: 14, batch: 2, name: 'HydroFlow Bottle', niche: 'Eco Hydration D2C', city: 'Boulder, CO', to: 'support@hydroflowbottle.example', doc: 'Team HydroFlow', type: 'ecom' },
-  { id: 15, batch: 2, name: 'CloudDesk Help', niche: 'Customer Support SaaS', city: 'Austin, TX', to: 'hello@clouddeskhelp.example', doc: 'Product Lead', type: 'saas' },
-  { id: 16, batch: 2, name: 'Artisan Roast Club', niche: 'Subscription Coffee', city: 'Portland, OR', to: 'orders@artisanroastclub.example', doc: 'Founder', type: 'ecom' },
-  { id: 17, batch: 2, name: 'StackSync Dev', niche: 'Developer Workflows', city: 'Seattle, WA', to: 'founders@stacksyncdev.example', doc: 'Engineering Lead', type: 'saas' },
-  { id: 18, batch: 2, name: 'Pawsome Pet Boxes', niche: 'Pet Subscription D2C', city: 'Denver, CO', to: 'hello@pawsomepetbox.example', doc: 'Customer Team', type: 'ecom' },
-  { id: 19, batch: 2, name: 'LeadFlow CRM', niche: 'SMB Sales CRM SaaS', city: 'Boston, MA', to: 'inquiries@leadflowcrm.example', doc: 'Growth Team', type: 'saas' },
-  { id: 20, batch: 2, name: 'ZenSleep Mattress', niche: 'D2C Sleep Wellness', city: 'Chicago, IL', to: 'concierge@zensleepbed.example', doc: 'Marketing Team', type: 'ecom' },
+  { id: 11, batch: 2, name: 'Velora Activewear', niche: 'Athleisure Apparel', city: 'Los Angeles, CA', to: 'hello@veloraactive.example', doc: 'Team Velora', type: 'ecom', val: 120, lost: 65 },
+  { id: 12, batch: 2, name: 'NuvoGlow Skincare', niche: 'Clean D2C Beauty', city: 'New York, NY', to: 'partners@nuvoglowbeauty.example', doc: 'Founder', type: 'ecom', val: 85, lost: 90 },
+  { id: 13, batch: 2, name: 'PulseMetrics AI', niche: 'B2B Analytics SaaS', city: 'San Francisco, CA', to: 'growth@pulsemetrics.example', doc: 'Founder', type: 'saas', val: 1800, lost: 7 },
+  { id: 14, batch: 2, name: 'HydroFlow Bottle', niche: 'Eco Hydration D2C', city: 'Boulder, CO', to: 'support@hydroflowbottle.example', doc: 'Team HydroFlow', type: 'ecom', val: 60, lost: 110 },
+  { id: 15, batch: 2, name: 'CloudDesk Help', niche: 'Customer Support SaaS', city: 'Austin, TX', to: 'hello@clouddeskhelp.example', doc: 'Product Lead', type: 'saas', val: 2200, lost: 6 },
+  { id: 16, batch: 2, name: 'Artisan Roast Club', niche: 'Subscription Coffee', city: 'Portland, OR', to: 'orders@artisanroastclub.example', doc: 'Founder', type: 'ecom', val: 45, lost: 140 },
+  { id: 17, batch: 2, name: 'StackSync Dev', niche: 'Developer Workflows', city: 'Seattle, WA', to: 'founders@stacksyncdev.example', doc: 'Engineering Lead', type: 'saas', val: 3000, lost: 5 },
+  { id: 18, batch: 2, name: 'Pawsome Pet Boxes', niche: 'Pet Subscription D2C', city: 'Denver, CO', to: 'hello@pawsomepetbox.example', doc: 'Customer Team', type: 'ecom', val: 70, lost: 85 },
+  { id: 19, batch: 2, name: 'LeadFlow CRM', niche: 'SMB Sales CRM SaaS', city: 'Boston, MA', to: 'inquiries@leadflowcrm.example', doc: 'Growth Team', type: 'saas', val: 1500, lost: 8 },
+  { id: 20, batch: 2, name: 'ZenSleep Mattress', niche: 'D2C Sleep Wellness', city: 'Chicago, IL', to: 'concierge@zensleepbed.example', doc: 'Marketing Team', type: 'ecom', val: 650, lost: 22 },
 
   // --- BATCH 3: High-Ticket Professional Services ---
-  { id: 21, batch: 3, name: 'Sterling & Partners Legal', niche: 'Personal Injury Law', city: 'Chicago, IL', to: 'contact@sterlinglegalchi.example', doc: 'David Sterling', type: 'legal' },
-  { id: 22, batch: 3, name: 'Summit Crest Luxury Realty', niche: 'Luxury Real Estate', city: 'Aspen, CO', to: 'inquiries@summitcrestrealty.example', doc: 'Victoria Vance', type: 'realestate' },
-  { id: 23, batch: 3, name: 'Beacon Hill CPA & Tax', niche: 'Tax & Advisory Firm', city: 'Boston, MA', to: 'tax@beaconhillcpa.example', doc: 'Marcus Brody', type: 'cpa' },
-  { id: 24, batch: 3, name: 'Pacific Coast Family Law', niche: 'Divorce & Family Law', city: 'San Diego, CA', to: 'help@pacificfamilylawsd.example', doc: 'Elena Rostova', type: 'legal' },
-  { id: 25, batch: 3, name: 'Vanguard Wealth & Accounting', niche: 'Family Office & CPA', city: 'New York, NY', to: 'office@vanguardwealthnyc.example', doc: 'Jonathan Vance', type: 'cpa' },
-  { id: 26, batch: 3, name: 'Redwood Corporate Counsel', niche: 'Corporate & M&A', city: 'Austin, TX', to: 'hello@redwoodcounseltx.example', doc: 'Sarah Jenkins', type: 'legal' },
-  { id: 27, batch: 3, name: 'Pinnacle Commercial RE', niche: 'Commercial Brokerage', city: 'Dallas, TX', to: 'deals@pinnaclecredfw.example', doc: 'Robert Miller', type: 'realestate' },
-  { id: 28, batch: 3, name: 'Harborview Estate Planning', niche: 'Trusts & Estates', city: 'Seattle, WA', to: 'info@harborviewestateswa.example', doc: 'Cynthia Thorne', type: 'legal' },
-  { id: 29, batch: 3, name: 'Apex Audit & Valuation', niche: 'Audit & Valuation', city: 'Atlanta, GA', to: 'valuation@apexauditadvisory.example', doc: 'Richard Hall', type: 'cpa' },
-  { id: 30, batch: 3, name: 'Metro Injury Defense Group', niche: 'Insurance Litigation', city: 'Miami, FL', to: 'litigation@metroinjurydefense.example', doc: 'Carlos Mendez', type: 'legal' }
+  { id: 21, batch: 3, name: 'Sterling & Partners Legal', niche: 'Personal Injury Law', city: 'Chicago, IL', to: 'contact@sterlinglegalchi.example', doc: 'David Sterling', type: 'legal', val: 3500, lost: 5 },
+  { id: 22, batch: 3, name: 'Summit Crest Luxury Realty', niche: 'Luxury Real Estate', city: 'Aspen, CO', to: 'inquiries@summitcrestrealty.example', doc: 'Victoria Vance', type: 'realestate', val: 6000, lost: 3 },
+  { id: 23, batch: 3, name: 'Beacon Hill CPA & Tax', niche: 'Tax & Advisory Firm', city: 'Boston, MA', to: 'tax@beaconhillcpa.example', doc: 'Marcus Brody', type: 'cpa', val: 2000, lost: 7 },
+  { id: 24, batch: 3, name: 'Pacific Coast Family Law', niche: 'Divorce & Family Law', city: 'San Diego, CA', to: 'help@pacificfamilylawsd.example', doc: 'Elena Rostova', type: 'legal', val: 2800, lost: 6 },
+  { id: 25, batch: 3, name: 'Vanguard Wealth & Accounting', niche: 'Family Office & CPA', city: 'New York, NY', to: 'office@vanguardwealthnyc.example', doc: 'Jonathan Vance', type: 'cpa', val: 4000, lost: 4 },
+  { id: 26, batch: 3, name: 'Redwood Corporate Counsel', niche: 'Corporate & M&A', city: 'Austin, TX', to: 'hello@redwoodcounseltx.example', doc: 'Sarah Jenkins', type: 'legal', val: 5000, lost: 3 },
+  { id: 27, batch: 3, name: 'Pinnacle Commercial RE', niche: 'Commercial Brokerage', city: 'Dallas, TX', to: 'deals@pinnaclecredfw.example', doc: 'Robert Miller', type: 'realestate', val: 8000, lost: 2 },
+  { id: 28, batch: 3, name: 'Harborview Estate Planning', niche: 'Trusts & Estates', city: 'Seattle, WA', to: 'info@harborviewestateswa.example', doc: 'Cynthia Thorne', type: 'legal', val: 2400, lost: 7 },
+  { id: 29, batch: 3, name: 'Apex Audit & Valuation', niche: 'Audit & Valuation', city: 'Atlanta, GA', to: 'valuation@apexauditadvisory.example', doc: 'Richard Hall', type: 'cpa', val: 3200, lost: 5 },
+  { id: 30, batch: 3, name: 'Metro Injury Defense Group', niche: 'Insurance Litigation', city: 'Miami, FL', to: 'litigation@metroinjurydefense.example', doc: 'Carlos Mendez', type: 'legal', val: 4500, lost: 4 }
 ];
 
 let currentBatchFilter = 'all';
+let currentStageFilter = 1;
 
 function filterBatch(batch, btn) {
   currentBatchFilter = batch;
@@ -606,151 +615,75 @@ function filterBatch(batch, btn) {
   renderLeadsTable();
 }
 
-function buildMailto(lead) {
+function filterStage(stage, btn) {
+  currentStageFilter = stage;
+  document.querySelectorAll('.stage-pill-btn').forEach(b => {
+    b.classList.remove('active');
+    b.style.background = 'transparent';
+    b.style.color = 'var(--text-muted)';
+    b.style.fontWeight = '600';
+  });
+  btn.classList.add('active');
+  btn.style.background = 'linear-gradient(135deg,var(--accent),var(--cyan))';
+  btn.style.color = '#fff';
+  btn.style.fontWeight = '700';
+  renderLeadsTable();
+}
+
+function buildMailto(lead, stage) {
   let subj = '', body = '';
-  if (lead.type === 'dental') {
-    subj = 'quick question regarding ' + lead.name + "'s after-hours patient inquiries";
-    body = 'Hi ' + lead.doc + ',
-
-I was reviewing your website yesterday around 8 PM and noticed that when a patient has an urgent dental question or wants to book an appointment after closing, their only option is to wait until morning.
-
-In most competitive markets, clinics lose 4 to 8 high-intent new patient inquiries every single week simply because competitors with instant AI booking respond within 30 seconds.
-
-To show you how easy this is to solve, I set up a quick 60-second interactive demo specifically for high-ticket clinics:
-👉 Live Demo: https://chatbotdemo-hazel.vercel.app
-
-It answers common treatment questions, qualifies insurance, and books appointments directly into your calendar 24/7.
-
-Would you be open to a quick 5-minute call this Thursday at 2 PM to see if this makes sense for ' + lead.name + '?
-
-Best regards,
-Minh Lap
-AI Solutions Architect
-Portfolio: https://chatbotdemo-hazel.vercel.app';
-  } else if (lead.type === 'hvac') {
-    subj = 'noticed your phone line around 7:15pm yesterday';
-    body = 'Hi ' + lead.doc + ',
-
-When a homeowner has an emergency leak or broken AC after 6 PM, 85% of them will immediately hang up if they reach a voicemail and call the next contractor on Google.
-
-We implemented an automated 15-second AI text-back workflow: whenever your line is busy or closed, an instant text goes out:
-"Hi! We are currently assisting another client. Do you have an urgent service request?"
-
-This single workflow captured $9,200 in recovered emergency jobs for a local contractor last month.
-
-I also ran an AI search audit on your domain to see if voice search (ChatGPT / Perplexity) recommends your business:
-👉 Audit Engine: https://synapse-geo-audit.vercel.app
-
-Happy to share a 2-minute video walkthrough showing how this works if you find it helpful.
-
-Cheers,
-Minh Lap
-AI Workflow Specialist';
-  } else if (lead.type === 'ecom') {
-    subj = 'quick idea on recovering abandoned carts for ' + lead.name;
-    body = 'Hi ' + lead.doc + ',
-
-Love what you\'re building at ' + lead.name + '!
-
-Noticed that visitors who leave items in cart often drop off due to sizing, delivery, or return policy questions before checkout.
-
-We build autonomous AI shopper assistants that engage hesitant shoppers right before drop-off, answering questions in real-time and offering personalized incentive bundles.
-
-Take a look at how this operates live:
-👉 Demo: https://chatbotdemo-hazel.vercel.app
-
-Would love to share 2 quick ideas that boosted checkout conversions by 14% for similar D2C brands. Free for a 5-min chat this week?
-
-Best,
-Minh Lap
-E-Commerce Automation Consultant';
-  } else if (lead.type === 'saas') {
-    subj = 'boosting activation for ' + lead.name + ' trial signups';
-    body = 'Hi ' + lead.doc + ',
-
-Big fan of ' + lead.name + '!
-
-I noticed that many self-serve SaaS users drop off during the first 48 hours when they hit an integration or setup blocker. Static documentation often isn\'t enough to prevent churn.
-
-We build conversational onboarding AI copilots trained on your API docs and changelog that proactively assist trial users in hitting their \'Aha!\' moment within minutes.
-
-Check out a live prototype here:
-👉 Copilot Demo: https://chatbotdemo-hazel.vercel.app
-
-Open to a quick 5-min feedback chat this Wednesday at 10 AM PST?
-
-Cheers,
-Minh Lap
-SaaS Growth & AI Systems';
-  } else if (lead.type === 'legal') {
-    subj = 'quick question regarding ' + lead.name + "'s after-hours intake process";
-    body = 'Hi ' + lead.doc + ',
-
-I was reviewing your website yesterday evening around 8:30 PM and noticed that potential new clients facing an urgent legal matter only have a standard static form.
-
-In high-stakes cases, 67% of prospective claimants contact 2 to 3 firms simultaneously. The firm that responds, qualifies, and schedules within 3 minutes captures 80% of retained cases.
-
-We built an intelligent legal intake assistant that conducts an empathetic intake questionnaire, screens jurisdiction & merit, and schedules onto your calendar 24/7.
-
-Test a 60-second interactive demo here:
-👉 Live Demo: https://chatbotdemo-hazel.vercel.app
-
-Open to a brief 7-minute call this Thursday at 2 PM to explore if this could add 3-5 retained cases/month to ' + lead.name + '?
-
-Best regards,
-Minh Lap
-AI Legal Workflow Automation';
-  } else if (lead.type === 'realestate') {
-    subj = 'capturing after-hours buyer inquiries for ' + lead.name + ' listings';
-    body = 'Hi ' + lead.doc + ',
-
-Your active luxury listings look exceptional.
-
-When high-net-worth buyers browse properties on weekends or late at night, they expect instant answers regarding HOA rules, lot dimensions, and private showing availability.
-
-We deploy bespoke AI Concierge agents that answer deep questions from your MLS data, pre-qualify buyers, and coordinate VIP private showings straight into your calendar 24/7.
-
-Test the concierge demo here:
-👉 Demo: https://chatbotdemo-hazel.vercel.app
-
-Available for a 5-minute conversation this Thursday to see what this looks like with your active listings?
-
-Warm regards,
-Minh Lap
-High-Ticket Automation Systems';
-  } else if (lead.type === 'cpa') {
-    subj = 'eliminating 15+ hours/week of client document chasing for ' + lead.name;
-    body = 'Hi ' + lead.doc + ',
-
-As tax season and quarterly filings approach, the single biggest drain on billable partner hours is chasing clients for missing 1099s, W2s, and receipts.
-
-We build autonomous document-collection pipelines using AI OCR and Make.com that send automated reminder loops, verify document clarity with AI vision, and sync files directly into client folders and accounting software.
-
-Firms save an average of 18 hours per accountant every month while accelerating client turnaround by 40%.
-
-Would you be against me sending over a 2-minute video walkthrough showing how this workflow operates?
-
-Cheers,
-Minh Lap
-AI Workflow Automation Consultant';
+  
+  if (stage === 2) {
+    // Stage 2: Day 3 Value Follow-up + ROI Calculator
+    const monthlyLoss = (lead.lost * lead.val).toLocaleString();
+    subj = 're: ' + lead.name + ' after-hours intake (ran the numbers)';
+    body = 'Hi ' + lead.doc + ',\n\n' +
+      'Following up briefly on my note from earlier this week regarding ' + lead.name + "'s after-hours client intake.\n\n" +
+      'I ran ' + lead.name + "'s estimated inquiry volume through our revenue recovery model:\n" +
+      '• Estimated monthly inquiries after 6 PM: ~' + lead.lost + ' prospects\n' +
+      '• Estimated missed revenue: ~$' + monthlyLoss + '/month\n\n' +
+      'You can test your exact numbers on our interactive calculator here:\n' +
+      '👉 Live ROI Calculator: https://ai-automation-guide-omega.vercel.app/calculator.html\n\n' +
+      'Our AI intake copilot typically recovers 4 to 8 qualified client bookings within the first 30 days, paying for itself several times over.\n\n' +
+      'I also prepared a customized 2-page implementation audit for ' + lead.name + '. Would you be against me sending it over?\n\n' +
+      'Best regards,\nMinh Lap\nAI Solutions Architect\nLive Demo: https://chatbotdemo-hazel.vercel.app';
+  } else if (stage === 3) {
+    // Stage 3: Day 7 Break-Up Email (Permission to close file)
+    subj = 'permission to close your file, ' + lead.doc + '?';
+    body = 'Hi ' + lead.doc + ',\n\n' +
+      'I haven\'t heard back, so I assume that automating after-hours client intake and recapturing missed inquiries isn\'t a priority for ' + lead.name + ' right now.\n\n' +
+      'I\'m closing out your file so I don\'t clutter your inbox.\n\n' +
+      'If priorities ever shift and you\'d like to see how similar businesses in ' + lead.city + ' are automatically booking clients 24/7 without extra staff, you\'re always welcome to test our live demo:\n' +
+      '👉 https://chatbotdemo-hazel.vercel.app\n\n' +
+      'Wishing ' + lead.name + ' continued growth and success!\n\n' +
+      'Warm regards,\nMinh Lap\nAI Solutions Architect';
   } else {
-    subj = 'automated consultation booking for ' + lead.name;
-    body = 'Hi ' + lead.doc + ',
-
-Love the work you do at ' + lead.name + '!
-
-I noticed that you receive a lot of inquiries regarding treatment pricing and booking. Many potential clients browse late at night and drop off before ever booking a consultation.
-
-We build custom AI assistants that engage visitors, recommend treatment options, and lock in paid consultation deposits while you sleep.
-
-Take a look at how seamless the patient experience is:
-👉 Interactive Sample: https://chatbotdemo-hazel.vercel.app
-
-Would you be against me sending over a 3-minute video showing what this would look like for ' + lead.name + '?
-
-Warm regards,
-Minh Lap
-AI Client Acquisition Systems';
+    // Stage 1: Day 1 Cold Hook
+    if (lead.type === 'dental') {
+      subj = 'quick question regarding ' + lead.name + "'s after-hours patient inquiries";
+      body = 'Hi ' + lead.doc + ',\n\nI was reviewing your website yesterday around 8 PM and noticed that when a patient has an urgent dental question or wants to book an appointment after closing, their only option is to wait until morning.\n\nIn most competitive markets, clinics lose 4 to 8 high-intent new patient inquiries every single week simply because competitors with instant AI booking respond within 30 seconds.\n\nTo show you how easy this is to solve, I set up a quick 60-second interactive demo specifically for high-ticket clinics:\n👉 Live Demo: https://chatbotdemo-hazel.vercel.app\n\nIt answers common treatment questions, qualifies insurance, and books appointments directly into your calendar 24/7.\n\nWould you be open to a quick 5-minute call this Thursday at 2 PM to see if this makes sense for ' + lead.name + '?\n\nBest regards,\nMinh Lap\nAI Solutions Architect\nPortfolio: https://chatbotdemo-hazel.vercel.app';
+    } else if (lead.type === 'hvac') {
+      subj = 'noticed your phone line around 7:15pm yesterday';
+      body = 'Hi ' + lead.doc + ',\n\nWhen a homeowner has an emergency leak or broken AC after 6 PM, 85% of them will immediately hang up if they reach a voicemail and call the next contractor on Google.\n\nWe implemented an automated 15-second AI text-back workflow: whenever your line is busy or closed, an instant text goes out:\n"Hi! We are currently assisting another client. Do you have an urgent service request?"\n\nThis single workflow captured $9,200 in recovered emergency jobs for a local contractor last month.\n\nI also ran an AI search audit on your domain to see if voice search (ChatGPT / Perplexity) recommends your business:\n👉 Audit Engine: https://synapse-geo-audit.vercel.app\n\nHappy to share a 2-minute video walkthrough showing how this works if you find it helpful.\n\nCheers,\nMinh Lap\nAI Workflow Specialist';
+    } else if (lead.type === 'ecom') {
+      subj = 'quick idea on recovering abandoned carts for ' + lead.name;
+      body = 'Hi ' + lead.doc + ',\n\nLove what you\'re building at ' + lead.name + '!\n\nNoticed that visitors who leave items in cart often drop off due to sizing, delivery, or return policy questions before checkout.\n\nWe build autonomous AI shopper assistants that engage hesitant shoppers right before drop-off, answering questions in real-time and offering personalized incentive bundles.\n\nTake a look at how this operates live:\n👉 Demo: https://chatbotdemo-hazel.vercel.app\n\nWould love to share 2 quick ideas that boosted checkout conversions by 14% for similar D2C brands. Free for a 5-min chat this week?\n\nBest,\nMinh Lap\nE-Commerce Automation Consultant';
+    } else if (lead.type === 'saas') {
+      subj = 'boosting activation for ' + lead.name + ' trial signups';
+      body = 'Hi ' + lead.doc + ',\n\nBig fan of ' + lead.name + '!\n\nI noticed that many self-serve SaaS users drop off during the first 48 hours when they hit an integration or setup blocker. Static documentation often isn\'t enough to prevent churn.\n\nWe build conversational onboarding AI copilots trained on your API docs and changelog that proactively assist trial users in hitting their \'Aha!\' moment within minutes.\n\nCheck out a live prototype here:\n👉 Copilot Demo: https://chatbotdemo-hazel.vercel.app\n\nOpen to a quick 5-min feedback chat this Wednesday at 10 AM PST?\n\nCheers,\nMinh Lap\nSaaS Growth & AI Systems';
+    } else if (lead.type === 'legal') {
+      subj = 'quick question regarding ' + lead.name + "'s after-hours intake process";
+      body = 'Hi ' + lead.doc + ',\n\nI was reviewing your website yesterday evening around 8:30 PM and noticed that potential new clients facing an urgent legal matter only have a standard static form.\n\nIn high-stakes cases, 67% of prospective claimants contact 2 to 3 firms simultaneously. The firm that responds, qualifies, and schedules within 3 minutes captures 80% of retained cases.\n\nWe built an intelligent legal intake assistant that conducts an empathetic intake questionnaire, screens jurisdiction & merit, and schedules onto your calendar 24/7.\n\nTest a 60-second interactive demo here:\n👉 Live Demo: https://chatbotdemo-hazel.vercel.app\n\nOpen to a brief 7-minute call this Thursday at 2 PM to explore if this could add 3-5 retained cases/month to ' + lead.name + '?\n\nBest regards,\nMinh Lap\nAI Legal Workflow Automation';
+    } else if (lead.type === 'realestate') {
+      subj = 'capturing after-hours buyer inquiries for ' + lead.name + ' listings';
+      body = 'Hi ' + lead.doc + ',\n\nYour active luxury listings look exceptional.\n\nWhen high-net-worth buyers browse properties on weekends or late at night, they expect instant answers regarding HOA rules, lot dimensions, and private showing availability.\n\nWe deploy bespoke AI Concierge agents that answer deep questions from your MLS data, pre-qualify buyers, and coordinate VIP private showings straight into your calendar 24/7.\n\nTest the concierge demo here:\n👉 Demo: https://chatbotdemo-hazel.vercel.app\n\nAvailable for a 5-minute conversation this Thursday to see what this looks like with your active listings?\n\nWarm regards,\nMinh Lap\nHigh-Ticket Automation Systems';
+    } else if (lead.type === 'cpa') {
+      subj = 'eliminating 15+ hours/week of client document chasing for ' + lead.name;
+      body = 'Hi ' + lead.doc + ',\n\nAs tax season and quarterly filings approach, the single biggest drain on billable partner hours is chasing clients for missing 1099s, W2s, and receipts.\n\nWe build autonomous document-collection pipelines using AI OCR and Make.com that send automated reminder loops, verify document clarity with AI vision, and sync files directly into client folders and accounting software.\n\nFirms save an average of 18 hours per accountant every month while accelerating client turnaround by 40%.\n\nWould you be against me sending over a 2-minute video walkthrough showing how this workflow operates?\n\nCheers,\nMinh Lap\nAI Workflow Automation Consultant';
+    } else {
+      subj = 'automated consultation booking for ' + lead.name;
+      body = 'Hi ' + lead.doc + ',\n\nLove the work you do at ' + lead.name + '!\n\nI noticed that you receive a lot of inquiries regarding treatment pricing and booking. Many potential clients browse late at night and drop off before ever booking a consultation.\n\nWe build custom AI assistants that engage visitors, recommend treatment options, and lock in paid consultation deposits while you sleep.\n\nTake a look at how seamless the patient experience is:\n👉 Interactive Sample: https://chatbotdemo-hazel.vercel.app\n\nWould you be against me sending over a 3-minute video showing what this would look like for ' + lead.name + '?\n\nWarm regards,\nMinh Lap\nAI Client Acquisition Systems';
+    }
   }
   return 'mailto:' + lead.to + '?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
 }
@@ -763,7 +696,8 @@ function renderLeadsTable() {
     : LEADS_DATA.filter(l => l.batch === parseInt(currentBatchFilter));
   
   const countEl = document.getElementById('leads-count-label');
-  if (countEl) countEl.innerText = `Showing ${filtered.length} of ${LEADS_DATA.length} Prospects`;
+  const stageNames = { 1: 'Day 1: Cold Hook', 2: 'Day 3: ROI Value Follow-Up', 3: 'Day 7: Break-Up Email' };
+  if (countEl) countEl.innerHTML = `Showing <strong>${filtered.length}</strong> Leads • Sequence: <span style="color:#fff;">${stageNames[currentStageFilter]}</span>`;
 
   tbody.innerHTML = filtered.map(l => {
     let batchBadge = l.batch === 1 
@@ -771,6 +705,17 @@ function renderLeadsTable() {
       : l.batch === 2
       ? '<span style="background:rgba(0,242,254,0.18); color:#00f2fe; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 2: E-Com</span>'
       : '<span style="background:rgba(255,183,77,0.18); color:#ffb74d; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 3: High-Ticket</span>';
+      
+    let slug = l.name.toLowerCase().replace(/ /g, '_').replace(/&/g, 'and').replace(/\//g, '-').replace(/\\/g, '-').replace(/,/g, '').replace(/\./g, '');
+    let proposalLink = `proposals/${slug}_proposal.html`;
+    
+    let btnText = currentStageFilter === 1 ? '✉️ Send Day 1' : currentStageFilter === 2 ? '📈 Send Day 3' : '🚪 Send Day 7';
+    let btnGradient = currentStageFilter === 1 
+      ? 'linear-gradient(135deg,var(--accent),var(--cyan))' 
+      : currentStageFilter === 2 
+      ? 'linear-gradient(135deg,#00f2fe,#4facfe)' 
+      : 'linear-gradient(135deg,#f5576c,#f093fb)';
+
     return `
     <tr style="border-bottom:1px solid rgba(255,255,255,0.05); transition:background 0.15s;" onmouseover="this.style.background='rgba(255,255,255,0.02)'" onmouseout="this.style.background='transparent'">
       <td style="padding:12px 10px; color:var(--text-muted); font-family:var(--font-mono);">#${l.id}</td>
@@ -780,8 +725,11 @@ function renderLeadsTable() {
       </td>
       <td style="padding:12px 10px; color:var(--text-muted); font-size:12px;">${l.niche} • <span style="color:var(--cyan);">${l.city}</span></td>
       <td style="padding:12px 10px; font-family:var(--font-mono); font-size:12px; color:var(--text-sub);">${l.to}</td>
+      <td style="padding:12px 10px; text-align:center;">
+        <a href="${proposalLink}" target="_blank" style="display:inline-block; background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#cbd5e1; text-decoration:none; padding:5px 10px; border-radius:6px; font-size:11px; font-weight:600; transition:all 0.15s;" onmouseover="this.style.borderColor='var(--cyan)'; this.style.color='#fff';" onmouseout="this.style.borderColor='var(--border)'; this.style.color='#cbd5e1';">📄 Audit & Proposal</a>
+      </td>
       <td style="padding:12px 10px; text-align:right;">
-        <a href="${buildMailto(l)}" style="display:inline-block; background:linear-gradient(135deg,var(--accent),var(--cyan)); color:#fff; text-decoration:none; padding:6px 14px; border-radius:6px; font-size:12px; font-weight:600; box-shadow: 0 2px 8px rgba(124,92,252,0.3); transition:transform 0.15s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='none'">✉️ Open Email</a>
+        <a href="${buildMailto(l, currentStageFilter)}" style="display:inline-block; background:${btnGradient}; color:#fff; text-decoration:none; padding:6px 14px; border-radius:6px; font-size:12px; font-weight:700; box-shadow: 0 2px 8px rgba(0,0,0,0.3); transition:transform 0.15s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='none'">${btnText}</a>
       </td>
     </tr>
   `}).join('');

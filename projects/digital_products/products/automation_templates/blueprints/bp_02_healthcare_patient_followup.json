@@ -1,0 +1,84 @@
+{
+  "name": "Post-Care AI Recovery & Symptom Check-in Flow",
+  "blueprint_id": "bp_02_healthcare_patient_followup",
+  "version": "2.1.0",
+  "category": "Healthcare & Wellness",
+  "author": "MinhLap AI Systems",
+  "license": "Commercial / Agency Client Deliverable",
+  "description": "Triggered 48 hours post-procedure. Inquires on patient recovery comfort, parses pain levels using AI, and alerts clinical staff instantly if triage is required.",
+  "metadata": {
+    "difficulty": "Intermediate",
+    "estimated_setup_minutes": 35,
+    "tools_required": [
+      "Make.com / n8n",
+      "OpenAI API",
+      "Twilio SMS",
+      "Telegram / Slack"
+    ]
+  },
+  "flow": {
+    "modules": [
+      {
+        "id": 1,
+        "module": "gateway:CustomWebHook",
+        "name": "Procedure Completed Webhook"
+      },
+      {
+        "id": 2,
+        "module": "builtin:sleep",
+        "name": "Delay for 48 Hours"
+      },
+      {
+        "id": 3,
+        "module": "twilio:SendSms",
+        "name": "Send Care Check-in SMS ('How are you feeling 1-10?')"
+      },
+      {
+        "id": 4,
+        "module": "gateway:InboundSmsWebhook",
+        "name": "Receive Patient Reply"
+      },
+      {
+        "id": 5,
+        "module": "openai:CreateChatCompletion",
+        "name": "AI Sentiment & Urgency Classification"
+      },
+      {
+        "id": 6,
+        "module": "builtin:router",
+        "name": "Route: Urgent vs Routine"
+      },
+      {
+        "id": 7,
+        "module": "telegram:SendMessage",
+        "name": "Alert Head Nurse (If Pain Score > 5)"
+      }
+    ]
+  },
+  "environment_variables": [
+    {
+      "key": "OPENAI_API_KEY",
+      "description": "API Key for AI qualification and drafting"
+    },
+    {
+      "key": "TWILIO_ACCOUNT_SID",
+      "description": "Twilio Account SID for SMS integration"
+    },
+    {
+      "key": "TWILIO_AUTH_TOKEN",
+      "description": "Twilio Auth Token"
+    },
+    {
+      "key": "NOTIFICATION_WEBHOOK",
+      "description": "Slack / Telegram webhook URL for staff alerts"
+    }
+  ],
+  "setup_guide": [
+    "1. Log in to Make.com or n8n dashboard.",
+    "2. Click 'Create a new scenario' -> '...' (Options) -> 'Import Blueprint'.",
+    "3. Upload this file: bp_02_healthcare_patient_followup.json.",
+    "4. Connect your required API accounts indicated in the metadata.",
+    "5. Run 'Run once' with test data to verify all green checks.",
+    "6. Toggle scenario scheduling to ON."
+  ]
+}

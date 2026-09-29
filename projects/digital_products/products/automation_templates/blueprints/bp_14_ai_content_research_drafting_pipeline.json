@@ -1,0 +1,79 @@
+{
+  "name": "Autonomous Trend Research to Long-Form Draft Engine",
+  "blueprint_id": "bp_14_ai_content_research_drafting_pipeline",
+  "version": "2.1.0",
+  "category": "AI-Powered",
+  "author": "MinhLap AI Systems",
+  "license": "Commercial / Agency Client Deliverable",
+  "description": "Captures trending industry topics from RSS or Hacker News, extracts key data points, and writes a comprehensive 2,000-word draft in Google Docs automatically.",
+  "metadata": {
+    "difficulty": "Advanced",
+    "estimated_setup_minutes": 40,
+    "tools_required": [
+      "Make.com / n8n",
+      "RSS Feed",
+      "Perplexity / OpenAI",
+      "Google Docs"
+    ]
+  },
+  "flow": {
+    "modules": [
+      {
+        "id": 1,
+        "module": "rss:watchFeed",
+        "name": "Watch Target Industry Tech & Business Feeds"
+      },
+      {
+        "id": 2,
+        "module": "builtin:filter",
+        "name": "Keyword Filter: AI, SaaS, Automation, ROI"
+      },
+      {
+        "id": 3,
+        "module": "openai:generateComprehensiveOutline",
+        "name": "Create H2/H3 Structure & SEO Angle"
+      },
+      {
+        "id": 4,
+        "module": "openai:writeFullArticleBody",
+        "name": "Draft Complete 2,000-Word Article with Citations"
+      },
+      {
+        "id": 5,
+        "module": "google-docs:createDocument",
+        "name": "Create Formatted Google Doc in Review Folder"
+      },
+      {
+        "id": 6,
+        "module": "slack:postMessage",
+        "name": "Notify Editor on Slack with Document Link"
+      }
+    ]
+  },
+  "environment_variables": [
+    {
+      "key": "OPENAI_API_KEY",
+      "description": "API Key for AI qualification and drafting"
+    },
+    {
+      "key": "TWILIO_ACCOUNT_SID",
+      "description": "Twilio Account SID for SMS integration"
+    },
+    {
+      "key": "TWILIO_AUTH_TOKEN",
+      "description": "Twilio Auth Token"
+    },
+    {
+      "key": "NOTIFICATION_WEBHOOK",
+      "description": "Slack / Telegram webhook URL for staff alerts"
+    }
+  ],
+  "setup_guide": [
+    "1. Log in to Make.com or n8n dashboard.",
+    "2. Click 'Create a new scenario' -> '...' (Options) -> 'Import Blueprint'.",
+    "3. Upload this file: bp_14_ai_content_research_drafting_pipeline.json.",
+    "4. Connect your required API accounts indicated in the metadata.",
+    "5. Run 'Run once' with test data to verify all green checks.",
+    "6. Toggle scenario scheduling to ON."
+  ]
+}

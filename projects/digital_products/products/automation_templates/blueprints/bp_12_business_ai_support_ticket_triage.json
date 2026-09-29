@@ -1,0 +1,73 @@
+{
+  "name": "Intelligent Support Ticket Classifier & AI Drafter",
+  "blueprint_id": "bp_12_business_ai_support_ticket_triage",
+  "version": "2.1.0",
+  "category": "General Business",
+  "author": "MinhLap AI Systems",
+  "license": "Commercial / Agency Client Deliverable",
+  "description": "Inspects incoming Zendesk/Freshdesk customer support tickets, predicts sentiment & urgency, and prepares a verified AI solution draft for 1-click human review.",
+  "metadata": {
+    "difficulty": "Advanced",
+    "estimated_setup_minutes": 45,
+    "tools_required": [
+      "Make.com / n8n",
+      "Zendesk / Freshdesk",
+      "OpenAI Embeddings & GPT-4o"
+    ]
+  },
+  "flow": {
+    "modules": [
+      {
+        "id": 1,
+        "module": "zendesk:watchNewTickets",
+        "name": "Inbound Customer Support Ticket"
+      },
+      {
+        "id": 2,
+        "module": "openai:classifyTicket",
+        "name": "Extract Category, Sentiment & Urgency (P1 - P4)"
+      },
+      {
+        "id": 3,
+        "module": "openai:generateResolutionDraft",
+        "name": "Synthesize Knowledge Base Answer & Draft Reply"
+      },
+      {
+        "id": 4,
+        "module": "zendesk:updateTicketInternalNote",
+        "name": "Attach AI Suggested Solution into Internal Note"
+      },
+      {
+        "id": 5,
+        "module": "zendesk:assignTicket",
+        "name": "Auto-Route to Relevant Technical / Billing Pod"
+      }
+    ]
+  },
+  "environment_variables": [
+    {
+      "key": "OPENAI_API_KEY",
+      "description": "API Key for AI qualification and drafting"
+    },
+    {
+      "key": "TWILIO_ACCOUNT_SID",
+      "description": "Twilio Account SID for SMS integration"
+    },
+    {
+      "key": "TWILIO_AUTH_TOKEN",
+      "description": "Twilio Auth Token"
+    },
+    {
+      "key": "NOTIFICATION_WEBHOOK",
+      "description": "Slack / Telegram webhook URL for staff alerts"
+    }
+  ],
+  "setup_guide": [
+    "1. Log in to Make.com or n8n dashboard.",
+    "2. Click 'Create a new scenario' -> '...' (Options) -> 'Import Blueprint'.",
+    "3. Upload this file: bp_12_business_ai_support_ticket_triage.json.",
+    "4. Connect your required API accounts indicated in the metadata.",
+    "5. Run 'Run once' with test data to verify all green checks.",
+    "6. Toggle scenario scheduling to ON."
+  ]
+}
