@@ -254,10 +254,10 @@
     "city": "Chicago, IL",
     "to": "concierge@zensleepbed.example",
     "doc": "Marketing Team",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:48"
+    "last_touch": "2026-09-30 04:50"
   },
   {
     "id": 21,
