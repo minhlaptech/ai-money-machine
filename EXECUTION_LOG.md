@@ -646,5 +646,21 @@
   - Cổng Telegram Bridge hoạt động trơn tru (Message ID: 220).
 
 
+---
 
+## 📅 2026-09-29 | Phiên #25 | Bộ Hóa Đơn Khách Hàng B2B Chuyên Nghiệp (30 Invoices Pack), Tích Hợp CRM Dashboard & Nâng Cấp CLI
 
+### 🎉 Milestones Hoàn Thành:
+- ✅ **Bộ Sinh Hóa Đơn Tự Động B2B Chuẩn Quốc Tế ([scripts/generate_client_invoice.py](file:///d:/Project/work/scripts/generate_client_invoice.py))**:
+  - Xây dựng công cụ tự động xuất hóa đơn thanh toán chuẩn quốc tế với thiết kế Dark Glassmorphism sang trọng và CSS hỗ trợ in/xuất PDF chuẩn khổ A4 sạch sẽ (`@media print`).
+  - Cấu trúc thanh toán minh bạch: Gói AI Automation Implementation & Setup ($1,200.00) + Phí Dịch Vụ Vận Hành Hàng Tháng ($650.00) = **Tổng cộng: $1,850.00 USD**.
+  - Tích hợp 3 hình thức thanh toán thuận tiện: Thẻ quốc tế qua Lemon Squeezy, Wire Transfer (SWIFT/IBAN), và quét mã VietQR ngân hàng.
+- ✅ **Xuất Trọn Bộ 30 Hóa Đơn Cá Nhân Hóa ([invoices/](file:///d:/Project/work/invoices/))**:
+  - Đã xuất thành công 30 file hóa đơn riêng biệt cho từng doanh nghiệp trong danh sách khách hàng mục tiêu (Batch 1: Local SMBs, Batch 2: E-Commerce, Batch 3: High-Ticket Professional Services).
+  - Tự động gán mã hóa đơn duy nhất dạng `INV-2026-001` đến `INV-2026-030` cùng thời hạn thanh toán Net-14.
+- ✅ **Tích Hợp Trực Tiếp Nút Hóa Đơn Lên Bảng Điều Khiển CRM ([dashboard.html](file:///d:/Project/work/dashboard.html) & [index.html](file:///d:/Project/work/index.html))**:
+  - Bổ sung nút **`💳 Invoice`** song song với **`📄 Proposal`** trong cột "Client Deliverable" của bảng phễu CRM 30 leads.
+  - Người dùng có thể nhấn xem ngay đề xuất hoặc xuất hóa đơn thanh toán cho khách hàng chỉ với 1 cú click chuột.
+  - Cập nhật kịch bản đồng bộ [`scripts/update_dashboard_multitouch.py`](file:///d:/Project/work/scripts/update_dashboard_multitouch.py) để bảo toàn cấu trúc giao diện.
+- ✅ **Nâng Cấp Master Command Center CLI Lên 13 Lệnh Điều Hành ([scripts/ai_empire_cli.py](file:///d:/Project/work/scripts/ai_empire_cli.py))**:
+  - Bổ sung tùy chọn `[5] 💳 Xuất Hóa Đơn Khách Hàng B2B Chuyên Nghiệp (Invoices: $1,200 Setup + $650 Retainer)` hỗ trợ tạo nhanh hóa đơn cho 1 khách hàng tùy chọn hoặc xuất lại toàn bộ 30 hóa đơn.
