@@ -61,6 +61,8 @@ Congratulations on initiating your partnership with **MinhLap AI Automation Solu
    - Your quantified monthly performance forecast modeling an estimated **+${monthly_loss}/month** in recovered gross revenue.
 7. **`07_Client_VIP_Portal.html`**
    - Your dedicated Executive VIP Command Portal providing real-time AI copilot performance metrics, 99.98% SLA infrastructure health, 5-day white-glove onboarding progress, 1-click script embeds, and direct Telegram VIP engineering escalation.
+8. **`08_Weekly_Performance_Statement.html`** (Active Retainer Clients)
+   - Real-time quantitative retention statement demonstrating inquiries handled, 68% after-hours inquiries saved, booked appointments, and weekly protected revenue.
 
 ---
 
@@ -82,6 +84,7 @@ Congratulations on initiating your partnership with **MinhLap AI Automation Solu
 - 📑 **Digital MSA Agreement:** `https://work-minh-lap.vercel.app/agreements/{slug}_agreement.html`
 - 💳 **Official Invoice:** `https://work-minh-lap.vercel.app/invoices/{slug}_invoice.html`
 - 📊 **Monthly ROI Report:** `https://work-minh-lap.vercel.app/reports/{slug}_roi_report.html`
+- 📈 **Weekly Performance Statement:** `https://work-minh-lap.vercel.app/weekly-report/{slug}`
 - 🚀 **Intake Form:** `https://work-minh-lap.vercel.app/onboarding?name={client_url_name}&niche={niche_url}`
 
 
@@ -125,7 +128,7 @@ def package_client(lead):
         slug=slug
     )
 
-    # Deliverables file mapping (7 Key Executive Deliverables)
+    # Deliverables file mapping (8 Key Executive Deliverables)
     file_map = [
         ("01_AI_Audit_and_Proposal.html", ROOT_DIR / "proposals" / f"{slug}_proposal.html"),
         ("02_Sales_Pitch_Deck.html", ROOT_DIR / "pitches" / f"{slug}_pitch.html"),
@@ -134,6 +137,7 @@ def package_client(lead):
         ("05_Official_Invoice_INV.html", ROOT_DIR / "invoices" / f"{slug}_invoice.html"),
         ("06_Monthly_ROI_Report.html", ROOT_DIR / "reports" / f"{slug}_roi_report.html"),
         ("07_Client_VIP_Portal.html", ROOT_DIR / "portals" / f"{slug}_portal.html"),
+        ("08_Weekly_Performance_Statement.html", ROOT_DIR / "client_reports" / f"{slug}_weekly_report.html"),
     ]
 
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:

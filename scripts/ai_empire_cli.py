@@ -26,7 +26,7 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v15.0 ⚡
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v16.0 ⚡
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
@@ -39,7 +39,7 @@ def print_banner():
   [8] 💳 Xuất Hóa Đơn Khách Hàng B2B Chuyên Nghiệp (Invoices: $1,200 Setup + $650 Retainer)
   [9] 📊 Tạo Báo Cáo Đo Lường ROI Hàng Tháng Khách Hàng (Monthly Performance & ROI Report)
   [10] 📬 Điều Hướng Chiến Dịch Cold Outreach Đa Chạm (Multi-Touch Outreach: 6 Batches / 60 Leads)
-  [11] 💼 Tạo Thư Ứng Tuyển Upwork Thắng Thầu (Upwork Cover Letter)
+  [11] 💼 Tạo Thư Ứng Tuyển Upwork Thắng Thầu (Upwork Winning Proposals: 10 Chuyên Mục & Live Demos)
   [12] 📱 Tái Chế Nội Dung Đa Kênh (Twitter / LinkedIn / TikTok / Reddit)
   [13] 📺 Xuất Trọn Bộ Metadata Video YouTube (Titles, Tags, Timestamps)
   [14] 👕 Tạo Bài Đăng Print-on-Demand (6 Sản Phẩm: Hoodie, Tee, Mug, DeskMat, Tote, Cap)
@@ -71,6 +71,7 @@ def print_banner():
   [40] 💳 Giả Lập & Kiểm Thử Doanh Thu Webhook Đa Kênh (/api/webhook Simulator)
   [41] 📋 Giả Lập & Kiểm Thử Nộp Hồ Sơ Onboarding VIP (/api/contact Simulator)
   [42] 📈 Xuất Báo Cáo Hiệu Suất Tuần Khách Hàng Retainer (Weekly Retention Reporter & Telegram Ping)
+  [43] 🔄 Đồng Bộ Điểm Truy Cập Gốc & Chuẩn Hóa Canonical URLs (Sync Root Endpoints & URLs)
   [0] Thoát
 ======================================================================
 """)
@@ -90,7 +91,7 @@ def run_script(rel_path, args=None):
 def main_loop():
     while True:
         print_banner()
-        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-42]: ").strip()
+        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-43]: ").strip()
 
         if choice == '1':
             ping = input("Bạn có muốn gửi báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
@@ -178,7 +179,7 @@ def main_loop():
             run_script("scripts/outreach_dispatcher.py", args)
 
         elif choice == '11':
-            sub = input("Tạo trọn bộ 6 Cover Letters hay 1 loại cụ thể? (all: Trọn bộ 6 / Enter: Chọn 1 loại): ").strip().lower()
+            sub = input("Tạo trọn bộ 10 Winning Proposals hay 1 loại cụ thể? (all: Trọn bộ 10 / Enter: Chọn 1 loại): ").strip().lower()
             if sub == 'all':
                 tg = input("Gửi bản xem trước về Telegram không? (y/n, mặc định y): ").strip().lower()
                 args = ["--all"]
@@ -186,7 +187,7 @@ def main_loop():
                     args.append("--telegram")
                 run_script("scripts/upwork_proposal_generator.py", args)
             else:
-                print("Các loại công việc: chatbot / automation / scraping / geo_seo / review_management / client_portal")
+                print("Các loại công việc: chatbot / automation / scraping / geo_seo / review_management / client_portal / ai_voice_caller / content_repurposing / rag_knowledge_base / ecommerce_ai_agent")
                 jtype = input("Chọn loại công việc (mặc định chatbot): ").strip() or "chatbot"
                 client = input("Tên khách hàng trên Upwork (nếu biết, mặc định there): ").strip() or "there"
                 notes = input("Yêu cầu cụ thể từ bài đăng Upwork: ").strip()
@@ -525,11 +526,16 @@ def main_loop():
                 args.append("--telegram")
             run_script("scripts/weekly_client_reporter.py", args)
 
+        elif choice == '43':
+            print("\n[*] Đang thực thi đồng bộ toàn bộ điểm truy cập gốc và chuẩn hóa Canonical URLs...")
+            run_script("scripts/sync_root_endpoints.py")
+            run_script("scripts/unify_canonical_urls.py")
+
         elif choice == '0':
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 42.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 43.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 

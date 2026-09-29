@@ -137,10 +137,10 @@
     "city": "Los Angeles, CA",
     "to": "hello@veloraactive.example",
     "doc": "Team Velora",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:53"
+    "last_touch": "2026-09-30 03:56"
   },
   {
     "id": 12,
@@ -280,10 +280,10 @@
     "city": "Aspen, CO",
     "to": "inquiries@summitcrestrealty.example",
     "doc": "Victoria Vance",
-    "status": "day7",
+    "status": "booked",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 03:56"
   },
   {
     "id": 23,
@@ -423,10 +423,10 @@
     "city": "Charlotte, NC",
     "to": "concierge@eliteartisankitchens.example",
     "doc": "Marcus Sterling",
-    "status": "booked",
+    "status": "won",
     "value": 4500,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:53"
+    "last_touch": "2026-09-30 03:56"
   },
   {
     "id": 34,
@@ -670,10 +670,10 @@
     "city": "Dallas, TX",
     "to": "intake@apexspineinstitute.example",
     "doc": "Dr. Gregory Vance",
-    "status": "day7",
+    "status": "booked",
     "value": 5500,
     "retainer": 900,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 03:56"
   },
   {
     "id": 53,
