@@ -26,19 +26,19 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v10.0 ⚡
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v11.0 ⚡
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
   [2] 📡 Quét Thị Trường & Bắt Xu Hướng AI Nóng (AI Market Scout)
   [3] 🎯 Săn Tìm & Trích Xuất Khách Hàng Địa Phương Mới (Lead Finder)
-  [4] 📑 Tạo Bản Đề Xuất & Báo Cáo Kiểm Toán (Tùy Chọn Cá Nhân hoặc Trọn Bộ 30 Leads)
-  [5] 🖥️ Tạo Bộ Trình Chiếu Chốt Sale Tương Tác (10-Slide Sales Pitch Deck)
+  [4] 📑 Tạo Bản Đề Xuất & Báo Cáo Kiểm Toán (Tùy Chọn Cá Nhân hoặc Trọn Bộ 60 Leads)
+  [5] 🖥️ Tạo Bộ Trình Chiếu Chốt Sale Tương Tác (10-Slide Sales Pitch Deck: 60 Decks)
   [6] 🧪 Tạo Môi Trường Thử Nghiệm Tương Tác (Live Client Sandbox & 5 Automated Tests)
   [7] 📝 Tạo Hợp Đồng Dịch Vụ Master Services Agreement (MSA & Chữ Ký Số Trực Tuyến)
   [8] 💳 Xuất Hóa Đơn Khách Hàng B2B Chuyên Nghiệp (Invoices: $1,200 Setup + $650 Retainer)
   [9] 📊 Tạo Báo Cáo Đo Lường ROI Hàng Tháng Khách Hàng (Monthly Performance & ROI Report)
-  [10] 📬 Điều Hướng Chiến Dịch Cold Outreach Đa Chạm (Multi-Touch Outreach Dispatcher)
+  [10] 📬 Điều Hướng Chiến Dịch Cold Outreach Đa Chạm (Multi-Touch Outreach: 6 Batches / 60 Leads)
   [11] 💼 Tạo Thư Ứng Tuyển Upwork Thắng Thầu (Upwork Cover Letter)
   [12] 📱 Tái Chế Nội Dung Đa Kênh (Twitter / LinkedIn / TikTok / Reddit)
   [13] 📺 Xuất Trọn Bộ Metadata Video YouTube (Titles, Tags, Timestamps)
@@ -46,12 +46,12 @@ def print_banner():
   [15] 📦 Đóng Gói Bộ 15 Kịch Bản Tự Động Hóa Make.com/n8n (Blueprint Pack ZIP)
   [16] 📈 Xem Báo Cáo Phễu Khách Hàng B2B CRM (Pipeline Summary & Deal Value)
   [17] ☀️ Chạy Bản Tin Chỉ Huy Sáng (Daily Morning Briefing & Telegram Ping)
-  [18] 🎯 Mở Trung Tâm Trình Chiếu Pitch Decks Showcase Hub (/pitches)
-  [19] 📦 Đóng Gói Bộ Hồ Sơ Onboarding VIP ZIP Cho Khách Hàng (30 Client Packages)
+  [18] 🎯 Mở Trung Tâm Trình Chiếu Pitch Decks Showcase Hub (/pitches - 60 Decks)
+  [19] 📦 Đóng Gói Bộ Hồ Sơ Onboarding VIP ZIP Cho Khách Hàng (60 Client Packages)
   [20] 🚀 Mở Executive Command Center Dashboard trên Trình Duyệt Web
   [21] 💰 Bắn Thử Nghiệm Webhook Bán Hàng & Đơn Hàng Mới (Simulate Sales Webhook)
-  [22] 📋 Xuất Trọn Bộ Dữ Liệu Phễu B2B CRM Ra File CSV / JSON (Export 30 Leads & Live URLs)
-  [23] 🏛️ Mở Executive Client VIP Portal Hub (/portal & 30 Dedicated Portals)
+  [22] 📋 Xuất Trọn Bộ Dữ Liệu Phễu B2B CRM Ra File CSV / JSON (Export 60 Leads & Live URLs)
+  [23] 🏛️ Mở Executive Client VIP Portal Hub (/portal & 60 Dedicated Portals)
   [24] 🤝 Mở Cổng Quản Lý Đối Tác & Tiếp Thị Liên Kết (/referral - 50% RevShare)
   [25] 🎙️ Studio Sản Xuất Voiceover AI & Phụ Đề SRT (30 Shorts / 10 Full Episodes)
   [26] 🎬 Xưởng Render Video MP4 Tự Động (FFmpeg Broadcast H.264 / 4K Thumbnails / Subtitles)
@@ -61,6 +61,8 @@ def print_banner():
   [30] 💼 Mở Sàn Dịch Vụ AI Freelance & Agency Hub (/freelance - 8 High-Ticket Gigs)
   [31] 👕 Mở Sàn Thương Mại Merch Đồ Lập Trình Viên POD (/merch - 6 Sản Phẩm)
   [32] 📺 Xuất Lịch Phát Sóng YouTube 40 Video & Gửi Lộ Trình (YouTube Publishing Engine)
+  [33] 🚀 Mở Rộng Phễu Doanh Nghiệp Lên 60 Accounts & $161,700 Pipeline (Expand CRM Pipeline)
+  [34] ⚡ Kích Hoạt Nhanh Chiến Dịch Cold Outreach Stage 1-3 Kèm Telegram Ping
   [0] Thoát
 ======================================================================
 """)
@@ -157,11 +159,11 @@ def main_loop():
                 run_script("scripts/generate_client_roi_report.py", ["--all"])
 
         elif choice == '10':
-            batch = input("Chọn Batch tiếp cận (1: SMBs / 2: E-Com & SaaS / 3: High-Ticket / Enter: Tất cả): ").strip()
+            batch = input("Chọn Batch tiếp cận (1: SMBs / 2: E-Com & SaaS / 3: High-Ticket / 4: Contracting / 5: Agency / 6: Healthcare / Enter: Tất cả): ").strip()
             stage = input("Chọn giai đoạn (1: Day 1 Hook / 2: Day 3 ROI / 3: Day 7 Break-Up, mặc định 1): ").strip() or "1"
             tg = input("Bắn danh sách hàng đợi về Telegram không? (y/n, mặc định y): ").strip().lower()
             args = ["--stage", stage]
-            if batch in ['1', '2', '3']:
+            if batch in ['1', '2', '3', '4', '5', '6']:
                 args.extend(["--batch", batch])
             if tg != 'n':
                 args.append("--telegram")
@@ -405,11 +407,23 @@ def main_loop():
                 args.append("--telegram")
             run_script("scripts/youtube_publisher.py", args)
 
+        elif choice == '33':
+            print("\n[*] Đang khởi chạy quy trình mở rộng phễu khách hàng lên 60 doanh nghiệp...")
+            run_script("scripts/expand_crm_pipeline.py")
+
+        elif choice == '34':
+            batch = input("Chọn Batch tiếp cận (1-6 / Enter: Tất cả 60 leads): ").strip()
+            stage = input("Chọn giai đoạn (1: Day 1 Hook / 2: Day 3 ROI / 3: Day 7 Break-Up, mặc định 1): ").strip() or "1"
+            args = ["--stage", stage, "--mark-sent", "--telegram"]
+            if batch in ['1', '2', '3', '4', '5', '6']:
+                args.extend(["--batch", batch])
+            run_script("scripts/outreach_dispatcher.py", args)
+
         elif choice == '0':
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 32.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 34.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 

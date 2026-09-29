@@ -69,15 +69,43 @@ LEADS = [
   {"id": 30, "batch": 3, "name": "Metro Injury Defense Group", "niche": "Insurance Litigation", "city": "Miami, FL", "to": "litigation@metroinjurydefense.example", "contact_person": "Carlos Mendez, Esq.", "val": 4000, "lost": 4, "status": "Ready for Outreach"}
 ]
 
+try:
+    from expand_crm_pipeline import NEW_LEADS
+    for nl in NEW_LEADS:
+        if not any(l["id"] == nl["id"] for l in LEADS):
+            LEADS.append({
+                "id": nl["id"],
+                "batch": nl["batch"],
+                "name": nl["name"],
+                "niche": nl["niche"],
+                "city": nl["city"],
+                "to": nl["to"],
+                "contact_person": nl["doc"],
+                "val": nl["val"],
+                "lost": nl["lost"],
+                "status": "Ready for Outreach"
+            })
+except Exception:
+    pass
+
 def get_slug(name):
     return name.lower().replace(" ", "_").replace("&", "and").replace("/", "-").replace("\\", "-").replace(",", "").replace(".", "")
+
+BATCH_DESCS = {
+    1: "Batch 1 (Local SMBs)",
+    2: "Batch 2 (E-Com & SaaS)",
+    3: "Batch 3 (High-Ticket Legal & Wealth)",
+    4: "Batch 4 (Luxury Contracting & Construction)",
+    5: "Batch 5 (B2B Agencies & Tech Search)",
+    6: "Batch 6 (Specialized Luxury Healthcare)"
+}
 
 def export_pipeline():
     PROSPECTS_DIR.mkdir(parents=True, exist_ok=True)
     records = []
 
     print("=" * 80)
-    print("🚀 EXPORTING MASTER B2B CRM PIPELINE & 7-DELIVERABLE DIGITAL ARSENAL")
+    print("🚀 EXPORTING MASTER B2B CRM PIPELINE & 8-DELIVERABLE DIGITAL ARSENAL (60 LEADS)")
     print("=" * 80)
 
     for l in LEADS:
@@ -87,16 +115,16 @@ def export_pipeline():
 
         monthly_loss = l["val"] * l["lost"]
         annual_loss = monthly_loss * 12
-        setup_fee = 1200 if l["batch"] < 3 else 1500
-        retainer_fee = 650 if l["batch"] < 3 else 750
+        setup_fee = 1200 if l["batch"] < 3 else (1500 if l["batch"] == 3 else 1800)
+        retainer_fee = 650 if l["batch"] < 3 else (750 if l["batch"] == 3 else 850)
 
         record = {
             "Lead_ID": l["id"],
-            "Batch": f"Batch {l['batch']} (" + ("SMB" if l['batch'] == 1 else "E-Com & SaaS" if l['batch'] == 2 else "High-Ticket Legal & Wealth") + ")",
+            "Batch": BATCH_DESCS.get(l["batch"], f"Batch {l['batch']}"),
             "Business_Name": l["name"],
             "Industry_Niche": l["niche"],
             "City_Location": l["city"],
-            "Contact_Person": l["contact_person"],
+            "Contact_Person": l.get("contact_person", l.get("doc", "Owner")),
             "Email_Address": l["to"],
             "Average_Deal_Value_USD": l["val"],
             "Monthly_Missed_Inquiries": l["lost"],
@@ -106,12 +134,13 @@ def export_pipeline():
             "Proposed_Monthly_Retainer_USD": retainer_fee,
             "Initial_Invoice_Total_USD": setup_fee + retainer_fee,
             "Outreach_Status": l["status"],
-            "Proposal_URL": f"{BASE_URL}/proposals/{slug}_proposal.html",
+            "VIP_Client_Portal_URL": f"{BASE_URL}/portal/{slug}",
             "Pitch_Deck_10_Slides_URL": f"{BASE_URL}/pitches/{slug}_pitch.html",
             "Live_Sandbox_Prototype_URL": f"{BASE_URL}/sandboxes/{slug}_sandbox.html",
+            "Monthly_ROI_Report_URL": f"{BASE_URL}/reports/{slug}_roi_report.html",
+            "Proposal_URL": f"{BASE_URL}/proposals/{slug}_proposal.html",
             "Master_Agreement_MSA_URL": f"{BASE_URL}/agreements/{slug}_agreement.html",
             "B2B_Invoice_URL": f"{BASE_URL}/invoices/{slug}_invoice.html",
-            "Monthly_ROI_Report_URL": f"{BASE_URL}/reports/{slug}_roi_report.html",
             "VIP_Onboarding_ZIP_Dossier_URL": f"{BASE_URL}/client_packages/{slug}_executive_dossier.zip",
             "Interactive_ROI_Simulator_URL": f"{BASE_URL}/calculator?client={name_url}&val={l['val']}&lost={l['lost']}&slug={slug}",
             "Client_Intake_Portal_URL": f"{BASE_URL}/onboarding?name={name_url}&niche={niche_url}"
@@ -136,7 +165,7 @@ def export_pipeline():
     print(f"  [✓] Master CSV Exported:  {CSV_OUT} ({CSV_OUT.stat().st_size / 1024:.1f} KB)")
     print(f"  [✓] Master JSON Exported: {JSON_OUT} ({JSON_OUT.stat().st_size / 1024:.1f} KB)")
     print("-" * 80)
-    print(f"  📊 Total Prospects Exported:      30 High-Intent Businesses")
+    print(f"  📊 Total Prospects Exported:      {len(records)} High-Intent Businesses")
     print(f"  💸 Total Market Bleed Identified: ${total_market_lost:,} / month")
     print(f"  💵 Total Pipeline Setup Value:    ${total_upfront:,} Upfront Cash")
     print(f"  🔄 Total Recurring Potential:     ${total_mrr:,} / month MRR")

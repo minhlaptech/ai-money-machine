@@ -17,7 +17,7 @@ export default function handler(req, res) {
   
   return res.status(200).json({
     status: 'operational',
-    version: '6.5.0',
+    version: '7.0.0',
     timestamp: now.toISOString(),
     local_time_vn: now.toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' }),
     author: 'Minh Lap',
@@ -25,25 +25,35 @@ export default function handler(req, res) {
     ecosystem: {
       saas_tools: 5,
       blueprints: 15,
-      curated_leads: 30,
-      client_portals: 30,
-      pitch_decks: 30,
-      youtube_episodes: 8,
+      curated_leads: 60,
+      client_portals: 60,
+      pitch_decks: 60,
+      sandboxes: 60,
+      roi_reports: 60,
+      youtube_videos: 40,
       blog_guides: 8,
-      upwork_proposals: 6,
+      freelance_gigs: 8,
+      pod_merch_items: 6,
       social_repurpose_kits: 6
     },
     services: [
       { name: 'SynapseGEO AI SEO Audit', status: 'live', url: 'https://work-minh-lap.vercel.app/synapsegeo' },
       { name: 'ReviewGenius AI Responder', status: 'live', url: 'https://work-minh-lap.vercel.app/reviewgenius' },
       { name: 'HeadlineIQ Viral Scorer', status: 'live', url: 'https://work-minh-lap.vercel.app/headlineiq' },
+      { name: 'AI Freelance & Agency Hub', status: 'live', url: 'https://work-minh-lap.vercel.app/freelance' },
+      { name: 'Developer Merch Store (POD)', status: 'live', url: 'https://work-minh-lap.vercel.app/merch' },
+      { name: 'AI Media & Video Studio Hub', status: 'live', url: 'https://work-minh-lap.vercel.app/studio' },
+      { name: 'Affiliate Partner Hub (50%)', status: 'live', url: 'https://work-minh-lap.vercel.app/referral' },
+      { name: 'The AI Empire Master Bundle ($39)', status: 'live', url: 'https://work-minh-lap.vercel.app/bundle' },
       { name: 'AI Resource Hub & Guides', status: 'live', url: 'https://work-minh-lap.vercel.app/blog' },
       { name: 'Interactive Chatbot Demo', status: 'live', url: 'https://work-minh-lap.vercel.app/chatbotdemo' },
-      { name: 'Sales Pitch Decks Hub', status: 'live', url: 'https://work-minh-lap.vercel.app/pitches' },
+      { name: 'Sales Pitch Decks Hub (60)', status: 'live', url: 'https://work-minh-lap.vercel.app/pitches' },
       { name: 'Dynamic ROI Simulator', status: 'live', url: 'https://work-minh-lap.vercel.app/calculator' },
       { name: 'Universal Copilot Embed Tag', status: 'live', url: 'https://work-minh-lap.vercel.app/copilot-widget.js' },
-      { name: 'Executive VIP Portals Hub', status: 'live', url: 'https://work-minh-lap.vercel.app/portal' },
+      { name: 'Executive VIP Portals Hub (60)', status: 'live', url: 'https://work-minh-lap.vercel.app/portal' },
       { name: 'Executive Command Center', status: 'live', url: 'https://work-minh-lap.vercel.app' },
+      { name: 'Serverless Contact & Lead Intake API', status: 'live', url: 'https://work-minh-lap.vercel.app/api/contact' },
+      { name: 'Serverless Multi-Platform Payment Webhook', status: 'live', url: 'https://work-minh-lap.vercel.app/api/webhook' },
       { name: 'Serverless Health API', status: 'live', url: 'https://work-minh-lap.vercel.app/api/health' }
     ]
   });
