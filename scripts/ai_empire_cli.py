@@ -38,7 +38,8 @@ def print_banner():
   [7] 📺 Xuất Trọn Bộ Metadata Video YouTube (Titles, Tags, Timestamps)
   [8] 👕 Tạo Bài Đăng Bán Hàng Print-on-Demand (Etsy / Printify Listing)
   [9] 📦 Đóng Gói Bộ 15 Kịch Bản Tự Động Hóa Make.com/n8n (Blueprint Pack ZIP)
-  [10] 🚀 Mở Executive Command Center Dashboard trên Trình Duyệt Web
+  [10] 📊 Xem Báo Cáo Phễu Khách Hàng B2B CRM (Pipeline Summary & Deal Value)
+  [11] 🚀 Mở Executive Command Center Dashboard trên Trình Duyệt Web
   [0] Thoát
 ======================================================================
 """)
@@ -106,6 +107,9 @@ def main_loop():
             run_script("scripts/generate_all_blueprints.py")
 
         elif choice == '10':
+            run_script("scripts/crm_tracker.py", ["--summary"])
+
+        elif choice == '11':
             dash_url = "https://work-minh-lap.vercel.app"
             local_dash = ROOT_DIR / "index.html"
             print(f"[*] Đang mở Dashboard trên trình duyệt: {dash_url}")
@@ -118,7 +122,7 @@ def main_loop():
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 10.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 11.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 

@@ -200,15 +200,25 @@
       document.getElementById('onboarding-form').style.display = 'none';
       document.getElementById('success-msg').style.display = 'block';
 
-      // Attempt Telegram Notification if webhook configured
-      fetch('/api/contact', {
+      // Dispatch instant Telegram alert
+      const endpoint = window.location.hostname.includes('vercel.app') 
+        ? 'https://work-minh-lap.vercel.app/api/contact'
+        : '/api/contact';
+
+      fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
+          name: data.name,
           email: data.contact,
-          message: `[NEW CLIENT ONBOARDING]\\nClient: ${data.name}\\nWebsite: ${data.website}\\nCalendar: ${data.calendar}\\nEscalation: ${data.escalation}`
+          website: data.website,
+          service: 'AI Intake Copilot ($1,200 Setup + $650/mo Retainer)',
+          source: 'Client Onboarding Portal',
+          calendar: data.calendar,
+          escalation: data.escalation,
+          message: `Booking Link: ${data.booking} | Brand Tone: ${data.tone} | Services: ${data.services.substring(0, 100)}...`
         })
-      }).catch(() => {});
+      }).catch(err => console.log('Telegram dispatch silent:', err));
     }
   </script>
 </body>
