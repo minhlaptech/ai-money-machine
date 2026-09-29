@@ -343,3 +343,18 @@
   - Đã commit và push tất cả thay đổi lên repository `minhlaptech/ai-money-machine`.
 
 ---
+
+## 📅 2026-09-29 | Phiên #10 | 1-Click Mailto Outreach Engine & Live Root Deployment
+
+### 🎉 Milestones Hoàn Thành:
+- ✅ **1-Click Mailto Outreach Launcher Engine**:
+  - Tạo script [scripts/outreach_dispatcher.py](file:///d:/Project/work/scripts/outreach_dispatcher.py) tạo link mailto siêu tốc cho 10 leads mục tiêu.
+  - Tích hợp trực tiếp bảng gửi email 1-click vào tab `🚀 1-Click Send Leads (10)` trên cả `dashboard.html` và `index.html`.
+  - Giúp người dùng bấm 1 nút là mở ngay ứng dụng email (Gmail/Outlook) với địa chỉ người nhận, tiêu đề và nội dung chào hàng đã điền sẵn, gửi 10 email chỉ mất chưa đầy 60 giây.
+- ✅ **Triển khai Index Trang Chủ Thống Nhất**:
+  - Đưa `dashboard.html` thành `index.html` tại thư mục gốc kèm cấu hình `vercel.json`.
+  - Cập nhật live dashboard trực tiếp trên URL Vercel.
+- ✅ **Đồng bộ mã nguồn**:
+  - Đã commit và push tất cả thay đổi lên repository `minhlaptech/ai-money-machine`.
+
+---
