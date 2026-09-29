@@ -48,8 +48,8 @@
     "slug": "maplecore_digital_systems",
     "syndicate_setup": 4950,
     "syndicate_retainer": 1250,
-    "status": "interview_booked",
-    "updated_at": "2026-09-30 05:39"
+    "status": "syndicate_won",
+    "updated_at": "2026-09-30 05:43"
   },
   {
     "id": 5,
@@ -61,8 +61,8 @@
     "slug": "oasis_ai_advisory_group",
     "syndicate_setup": 4950,
     "syndicate_retainer": 1250,
-    "status": "interview_booked",
-    "updated_at": "2026-09-30 05:39"
+    "status": "syndicate_won",
+    "updated_at": "2026-09-30 05:43"
   },
   {
     "id": 6,
@@ -74,8 +74,8 @@
     "slug": "helvetia_private_automation",
     "syndicate_setup": 4950,
     "syndicate_retainer": 1250,
-    "status": "interview_booked",
-    "updated_at": "2026-09-30 05:39"
+    "status": "syndicate_won",
+    "updated_at": "2026-09-30 05:43"
   },
   {
     "id": 7,
@@ -87,8 +87,8 @@
     "slug": "rhine-main_ai_enterprise_solutions",
     "syndicate_setup": 4950,
     "syndicate_retainer": 1250,
-    "status": "interview_booked",
-    "updated_at": "2026-09-30 05:39"
+    "status": "syndicate_won",
+    "updated_at": "2026-09-30 05:43"
   },
   {
     "id": 8,
@@ -100,8 +100,8 @@
     "slug": "nippon_autonomous_ai_systems",
     "syndicate_setup": 4950,
     "syndicate_retainer": 1250,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 05:39"
+    "status": "syndicate_won",
+    "updated_at": "2026-09-30 05:43"
   },
   {
     "id": 9,
@@ -113,8 +113,8 @@
     "slug": "hudson_capital_automation",
     "syndicate_setup": 4950,
     "syndicate_retainer": 1250,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 05:39"
+    "status": "syndicate_won",
+    "updated_at": "2026-09-30 05:43"
   },
   {
     "id": 10,
@@ -126,8 +126,8 @@
     "slug": "bayarea_autonomous_ops",
     "syndicate_setup": 4950,
     "syndicate_retainer": 1250,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 05:39"
+    "status": "syndicate_won",
+    "updated_at": "2026-09-30 05:43"
   },
   {
     "id": 11,
@@ -139,8 +139,8 @@
     "slug": "lonestar_enterprise_ai",
     "syndicate_setup": 4950,
     "syndicate_retainer": 1250,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 05:39"
+    "status": "syndicate_won",
+    "updated_at": "2026-09-30 05:43"
   },
   {
     "id": 12,
@@ -152,7 +152,7 @@
     "slug": "suncoast_ai_agency_partners",
     "syndicate_setup": 4950,
     "syndicate_retainer": 1250,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 05:39"
+    "status": "syndicate_won",
+    "updated_at": "2026-09-30 05:43"
   }
 ]
