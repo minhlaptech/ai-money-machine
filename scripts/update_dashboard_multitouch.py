@@ -238,6 +238,7 @@ function renderLeadsTable() {
     let agreementLink = `agreements/\${slug}_agreement.html`;
     let invoiceLink = `invoices/\${slug}_invoice.html`;
     let reportLink = `reports/\${slug}_roi_report.html`;
+    let portalLink = `portals/\${slug}.html`;
     let intakeLink = `https://work-minh-lap.vercel.app/onboarding?name=\${encodeURIComponent(l.name)}&niche=\${encodeURIComponent(l.niche)}`;
     
     let btnText = currentStageFilter === 1 ? '✉️ Send Day 1' : currentStageFilter === 2 ? '📈 Send Day 3' : '🚪 Send Day 7';
@@ -274,6 +275,7 @@ function renderLeadsTable() {
         <a href="\${agreementLink}" target="_blank" style="display:inline-block; background:rgba(124,92,252,0.12); border:1px solid rgba(124,92,252,0.3); color:#b794f4; text-decoration:none; padding:3px 5px; border-radius:5px; font-size:10.5px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='#7c5cfc'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(124,92,252,0.3)'; this.style.color='#b794f4';">📑 Contract</a>
         <a href="\${invoiceLink}" target="_blank" style="display:inline-block; background:rgba(16,185,129,0.12); border:1px solid rgba(16,185,129,0.3); color:#34d399; text-decoration:none; padding:3px 5px; border-radius:5px; font-size:10.5px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='#10b981'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(16,185,129,0.3)'; this.style.color='#34d399';">💳 Invoice</a>
         <a href="\${reportLink}" target="_blank" style="display:inline-block; background:rgba(255,183,77,0.12); border:1px solid rgba(255,183,77,0.3); color:#ffb74d; text-decoration:none; padding:3px 5px; border-radius:5px; font-size:10.5px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='#ffb74d'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(255,183,77,0.3)'; this.style.color='#ffb74d';">📊 ROI</a>
+        <a href="\${portalLink}" target="_blank" style="display:inline-block; background:rgba(124,92,252,0.22); border:1px solid rgba(124,92,252,0.45); color:#c4b5fd; text-decoration:none; padding:3px 5px; border-radius:5px; font-size:10.5px; font-weight:700; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='#a78bfa'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(124,92,252,0.45)'; this.style.color='#c4b5fd';">🏛️ Portal</a>
         <a href="\${intakeLink}" target="_blank" style="display:inline-block; background:rgba(236,72,153,0.12); border:1px solid rgba(236,72,153,0.3); color:#f472b6; text-decoration:none; padding:3px 5px; border-radius:5px; font-size:10.5px; font-weight:600; transition:all 0.15s;" onmouseover="this.style.borderColor='#ec4899'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(236,72,153,0.3)'; this.style.color='#f472b6';">🚀 Intake</a>
       </td>
       <td style="padding:12px 10px; text-align:right;">

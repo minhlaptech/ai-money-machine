@@ -19,6 +19,7 @@ import sys
 import re
 import argparse
 import urllib.parse
+import urllib.request
 import json
 from pathlib import Path
 from datetime import datetime
@@ -74,6 +75,7 @@ def build_email_content(lead, stage=1):
     sandbox_url = f"https://work-minh-lap.vercel.app/sandboxes/{slug}_sandbox.html"
     report_url = f"https://work-minh-lap.vercel.app/reports/{slug}_roi_report.html"
     pitch_url = f"https://work-minh-lap.vercel.app/pitches/{slug}_pitch.html"
+    portal_url = f"https://work-minh-lap.vercel.app/portal/{slug}"
 
     monthly_loss = f"{(lead['lost'] * lead['val']):,}"
     name = lead["name"]
@@ -93,6 +95,7 @@ I ran {name}'s estimated inquiry volume through our revenue recovery model:
 You can review your customized monthly performance & ROI forecast here:
 👉 Live Custom ROI Report: {report_url}
 👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator
+👉 Executive VIP Client Portal: {portal_url}
 
 Our AI intake copilot typically recovers 4 to 8 qualified client bookings within the first 30 days, paying for itself several times over.
 
@@ -112,7 +115,8 @@ I haven't heard back, so I assume that automating after-hours client intake and 
 I'm closing out your file so I don't clutter your inbox.
 
 If priorities ever shift and you'd like to see how similar businesses in {city} are automatically booking clients 24/7 without extra staff, you're always welcome to test your live sandbox prototype:
-👉 {sandbox_url}
+👉 Live Sandbox: {sandbox_url}
+👉 Executive VIP Portal: {portal_url}
 
 Wishing {name} continued growth and success!
 
@@ -313,11 +317,48 @@ def display_campaign(batch=None, stage=1):
     print("\n" + "=" * 80)
     print(f"[✓] Displayed {len(filtered)} targeted outreach records!")
 
+def send_telegram_campaign_digest(filtered, stage):
+    stage_titles = {
+        1: "Stage 1: Day 1 Cold Hook",
+        2: "Stage 2: Day 3 ROI Follow-Up",
+        3: "Stage 3: Day 7 Break-Up Email"
+    }
+    bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "7756122540:AAErx-TV78dUcB0ch7IlZW10R0nIpt1pBhU")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "1624883046")
+    
+    lines = [
+        "📬 <b>OUTREACH CAMPAIGN DISPATCH READY</b>",
+        f"🎯 <b>Sequence:</b> {stage_titles.get(stage, 'Stage 1')}",
+        f"📊 <b>Targets:</b> {len(filtered)} Enterprise Accounts",
+        "🌐 <b>VIP Portal Hub:</b> <a href='https://work-minh-lap.vercel.app/portal'>Launch Hub</a>",
+        "",
+        "<b>Top Leads in Queue:</b>"
+    ]
+    for l in filtered[:5]:
+        slug = l["name"].lower().replace(" ", "_").replace("&", "and").replace("/", "-").replace("\\", "-").replace(",", "").replace(".", "")
+        lines.append(f"• <b>{l['name']}</b> ({l['city']}) — <a href='https://work-minh-lap.vercel.app/portal/{slug}'>VIP Portal</a> | <a href='https://work-minh-lap.vercel.app/sandboxes/{slug}_sandbox.html'>Sandbox</a>")
+    
+    lines.append("\n👉 <i>1-Click Send available in Command Center at https://work-minh-lap.vercel.app</i>")
+    
+    html_msg = "\n".join(lines)
+    try:
+        req = urllib.request.Request(
+            f"https://api.telegram.org/bot{bot_token}/sendMessage",
+            headers={"Content-Type": "application/json"},
+            data=json.dumps({"chat_id": chat_id, "text": html_msg, "parse_mode": "HTML"}).encode("utf-8")
+        )
+        with urllib.request.urlopen(req, timeout=10) as r:
+            if r.status == 200:
+                print("[✓] Dispatched Outreach Campaign Digest to Telegram (@Minhpv_bot)!")
+    except Exception as e:
+        print(f"[!] Telegram notification error: {e}")
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Multi-Touch Outreach Campaign Dispatcher")
     parser.add_argument("--batch", type=int, choices=[1, 2, 3], help="Filter by Batch (1: SMBs, 2: E-Com, 3: High-Ticket)")
     parser.add_argument("--stage", type=int, default=1, choices=[1, 2, 3], help="Stage (1: Day 1 Hook, 2: Day 3 ROI, 3: Day 7 Break-Up)")
     parser.add_argument("--lead", type=int, help="Single Lead ID (1-30)")
+    parser.add_argument("--telegram", action="store_true", help="Send campaign digest to Telegram")
 
     args = parser.parse_args()
 
@@ -338,3 +379,6 @@ if __name__ == "__main__":
             print(f"[!] Lead ID #{args.lead} not found.")
     else:
         display_campaign(args.batch, args.stage)
+        if args.telegram:
+            filtered = LEADS if not args.batch else [l for l in LEADS if l["batch"] == args.batch]
+            send_telegram_campaign_digest(filtered, args.stage)

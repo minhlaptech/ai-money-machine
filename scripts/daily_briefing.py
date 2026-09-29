@@ -65,8 +65,11 @@ def generate_briefing(send_telegram=False):
 ======================================================================
 
 🌐 1. TRẠNG THÁI HỆ THỐNG (SYSTEM HEALTH)
-  • 6 Ứng dụng đám mây Vercel: 100% Hoạt động (HTTP 200)
+  • 11 Ứng dụng & API đám mây Vercel: 100% Hoạt động (HTTP 200)
   • Cổng thanh toán: Lemon Squeezy (Store ID: 485872) & Gumroad Live
+  • Cổng VIP Client Portals: https://work-minh-lap.vercel.app/portal (30 Doanh nghiệp)
+  • Sales Pitch Decks Showcase: https://work-minh-lap.vercel.app/pitches (30 Decks)
+  • Webhook xử lý đơn hàng: Serverless /api/webhook (Stripe, LemonSqueezy, Gumroad)
   • Cổng tiếp nhận Lead: Serverless API POST /api/contact sẵn sàng
 
 📊 2. TIẾN ĐỘ PHỄU KHÁCH HÀNG (CRM PIPELINE)
@@ -80,12 +83,12 @@ def generate_briefing(send_telegram=False):
 ⚡ 3. NHIỆM VỤ TÁC CHIẾN 30 PHÚT TRONG NGÀY (SOP ROUTINE)
   1️⃣ Buổi Sáng (10 Phút):
      - Mở https://work-minh-lap.vercel.app -> Tab "🚀 1-Click Send Leads"
-     - Bấm "✉️ Send Day 1" gửi 3 email chào hàng đầu tiên.
+     - Bấm "✉️ Send Day 1" gửi 3 email chào hàng đầu tiên kèm link Sandbox & VIP Portal.
   2️⃣ Buổi Trưa (10 Phút):
      - Lấy 1 chủ đề từ "30_DAYS_SHORTS_SPRINT.md" đăng lên Twitter & LinkedIn.
   3️⃣ Buổi Tối (10 Phút):
      - Nộp 1 proposal Upwork từ "UPWORK_MASTERY_KIT.md".
-     - Kiểm tra đơn hàng mới trên Lemon Squeezy.
+     - Kiểm tra đơn hàng mới trên Lemon Squeezy / Gumroad.
 
 📡 4. CƠ HỘI NÓNG TRONG NGÀY (MARKET RADAR)
   • Tiêu điểm: {top_trend}
@@ -98,23 +101,31 @@ def generate_briefing(send_telegram=False):
         bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "7756122540:AAErx-TV78dUcB0ch7IlZW10R0nIpt1pBhU")
         chat_id = os.environ.get("TELEGRAM_CHAT_ID", "1624883046")
 
-        tg_msg = f"☀️ *[AI MONEY MACHINE — MORNING BRIEFING]*\n\n" + \
-                 f"⏰ *Ngày:* `{now_vn}`\n\n" + \
-                 f"🌐 *Hệ thống:* `6/6 Tools Live (100% Operational)`\n" + \
-                 f"📊 *CRM Pipeline:* `{crm['total']} Leads` • *Tiềm năng:* `${crm['pipeline']:,}`\n" + \
-                 f"🎯 *Đã gửi email:* `{crm['contacted']}` | 📞 *Lịch hẹn:* `{crm['booked']}` | 🏆 *Ký:* `{crm['won']}`\n\n" + \
-                 f"⚡ *Mục tiêu 30 phút hôm nay:*\n" + \
-                 f"1. Gửi 3 email chào hàng qua Dashboard 1-click.\n" + \
-                 f"2. Đăng 1 bài mạng xã hội (Day Short Sprint).\n" + \
-                 f"3. Nộp 1 cover letter Upwork chuyên sâu.\n\n" + \
-                 f"👉 [Mở Command Center](https://work-minh-lap.vercel.app)\n" + \
-                 f"🚀 _Chúc bạn ngày mới bùng nổ doanh số!_"
+        tg_msg = f"""☀️ <b>[AI MONEY MACHINE — MORNING BRIEFING]</b>
+
+⏰ <b>Thời gian:</b> <code>{now_vn}</code>
+
+🌐 <b>Hệ thống:</b> <code>11/11 Tools Live (100% Operational)</code>
+📊 <b>CRM Pipeline:</b> <code>{crm['total']} Leads</code> • <b>Tiềm năng:</b> <code>${crm['pipeline']:,}</code>
+🎯 <b>Đã gửi email:</b> <code>{crm['contacted']}</code> | 📞 <b>Lịch hẹn:</b> <code>{crm['booked']}</code> | 🏆 <b>Ký:</b> <code>{crm['won']}</code>
+
+🏛️ <b>VIP Portals:</b> <a href="https://work-minh-lap.vercel.app/portal">30 Client Portals Live</a>
+🎯 <b>Sales Pitches:</b> <a href="https://work-minh-lap.vercel.app/pitches">Showcase Hub Live</a>
+🧮 <b>ROI Simulator:</b> <a href="https://work-minh-lap.vercel.app/calculator">Interactive Calculator</a>
+
+⚡ <b>Mục tiêu 30 phút hôm nay:</b>
+1. Gửi 3 email chào hàng qua Dashboard 1-click.
+2. Đăng 1 bài mạng xã hội (Day Short Sprint).
+3. Nộp 1 cover letter Upwork chuyên sâu.
+
+👉 <a href="https://work-minh-lap.vercel.app"><b>Mở Command Center Dashboard</b></a>
+🚀 <i>Chúc bạn ngày mới bùng nổ doanh số!</i>"""
 
         try:
             req = urllib.request.Request(
                 f"https://api.telegram.org/bot{bot_token}/sendMessage",
                 headers={"Content-Type": "application/json"},
-                data=json.dumps({"chat_id": chat_id, "text": tg_msg, "parse_mode": "Markdown"}).encode("utf-8")
+                data=json.dumps({"chat_id": chat_id, "text": tg_msg, "parse_mode": "HTML"}).encode("utf-8")
             )
             with urllib.request.urlopen(req, timeout=10) as r:
                 if r.status == 200:
