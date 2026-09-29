@@ -34,7 +34,12 @@ MAPPINGS = [
     ("projects/digital_products/bundle_showcase.html", "bundle/index.html"),
     ("projects/ai_automation_smb/roi_calculator.html", "calculator/index.html"),
     ("projects/affiliate_blog/website/referrals.html", "referral/index.html"),
-    ("portals", "portal")
+    ("portals", "portal"),
+    ("projects/youtube_faceless/studio.html", "studio/index.html"),
+    ("projects/youtube_faceless/thumbnails", "studio/thumbnails"),
+    ("projects/youtube_faceless/audio_episodes", "studio/audio_episodes"),
+    ("projects/youtube_faceless/audio_shorts", "studio/audio_shorts"),
+    ("projects/youtube_faceless/thumbnails", "thumbnails")
 ]
 
 def sync_endpoints():

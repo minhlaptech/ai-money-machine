@@ -23,3 +23,9 @@ scratch/
 projects/youtube_faceless/rendered_shorts/
 projects/youtube_faceless/rendered_episodes/
 *.mp4
+ 
+# Synced local media cache
+studio/audio_episodes/
+studio/audio_shorts/
+studio/thumbnails/
+thumbnails/

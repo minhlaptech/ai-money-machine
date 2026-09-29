@@ -1,0 +1,1883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Media & Video Studio Hub | Autonomous Content Machine</title>
+  <meta name="description" content="Production hub for 10 Full YouTube Faceless Episodes, 30-Day Viral Shorts Sprint, and Multi-Platform Social Repurposing Kits.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #070913;
+      --bg-card: rgba(13, 17, 34, 0.75);
+      --bg-card-hover: rgba(22, 28, 54, 0.85);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(0, 242, 254, 0.3);
+      --cyan: #00f2fe;
+      --accent: #7c5cfc;
+      --accent-glow: rgba(124, 92, 252, 0.35);
+      --emerald: #00e676;
+      --amber: #ffb74d;
+      --rose: #f43f5e;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    /* Glow backdrop background */
+    .bg-mesh {
+      position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+      background: 
+        radial-gradient(circle at 15% 15%, rgba(124, 92, 252, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 85% 25%, rgba(0, 242, 254, 0.10) 0%, transparent 35%),
+        radial-gradient(circle at 50% 85%, rgba(0, 230, 118, 0.06) 0%, transparent 40%);
+      pointer-events: none; z-index: 0;
+    }
+
+    /* Header */
+    header {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(7, 9, 19, 0.85); backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border); padding: 14px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .brand-wrap { display: flex; align-items: center; gap: 14px; text-decoration: none; color: inherit; }
+    .logo-badge {
+      width: 40px; height: 40px; border-radius: 12px;
+      background: linear-gradient(135deg, var(--rose), var(--accent));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px; box-shadow: 0 0 25px rgba(244, 63, 94, 0.4);
+    }
+    .brand-text h1 {
+      font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .brand-text span { font-size: 11px; color: var(--text-muted); font-family: var(--font-mono); }
+
+    .nav-actions { display: flex; align-items: center; gap: 12px; }
+    .btn-nav {
+      text-decoration: none; padding: 7px 16px; border-radius: 10px;
+      font-size: 13px; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;
+      transition: all 0.2s;
+    }
+    .btn-nav-primary {
+      background: linear-gradient(135deg, var(--accent), var(--cyan));
+      color: #000; font-weight: 700;
+    }
+    .btn-nav-secondary {
+      background: rgba(255, 255, 255, 0.06); border: 1px solid var(--border);
+      color: var(--text);
+    }
+    .btn-nav:hover { transform: translateY(-1px); opacity: 0.95; }
+
+    /* Container */
+    .container {
+      max-width: 1340px; margin: 0 auto; padding: 32px 24px 80px;
+      position: relative; z-index: 1;
+    }
+
+    /* Hero Banner */
+    .studio-hero {
+      text-align: center; margin-bottom: 40px; padding: 32px 20px;
+      background: linear-gradient(180deg, rgba(124, 92, 252, 0.08) 0%, transparent 100%);
+      border-radius: 24px; border: 1px solid var(--border);
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(244, 63, 94, 0.15); border: 1px solid rgba(244, 63, 94, 0.35);
+      color: #fb7185; padding: 5px 14px; border-radius: 30px; font-size: 12px; font-weight: 700;
+      margin-bottom: 16px; letter-spacing: 0.5px; text-transform: uppercase;
+    }
+    .studio-hero h2 {
+      font-family: 'Outfit', sans-serif; font-size: 38px; font-weight: 900;
+      letter-spacing: -1px; margin-bottom: 12px;
+      background: linear-gradient(135deg, #fff 40%, var(--cyan) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .studio-hero p {
+      max-width: 720px; margin: 0 auto 24px; color: var(--text-muted); font-size: 16px;
+    }
+
+    /* Stat Counters */
+    .stat-row {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px; margin-bottom: 36px;
+    }
+    .stat-box {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 18px 22px; text-align: center;
+      backdrop-filter: blur(12px);
+    }
+    .stat-num {
+      font-family: 'Outfit', sans-serif; font-size: 32px; font-weight: 800; color: #fff;
+    }
+    .stat-lbl { font-size: 12px; text-transform: uppercase; color: var(--text-muted); font-weight: 600; letter-spacing: 0.8px; margin-top: 4px; }
+
+    /* Main Navigation Tabs */
+    .studio-tabs {
+      display: flex; gap: 12px; border-bottom: 1px solid var(--border);
+      padding-bottom: 14px; margin-bottom: 32px; overflow-x: auto;
+    }
+    .studio-tab-btn {
+      background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border);
+      color: var(--text-muted); padding: 10px 22px; border-radius: 12px;
+      font-size: 14px; font-weight: 600; cursor: pointer; white-space: nowrap;
+      transition: all 0.25s; display: flex; align-items: center; gap: 8px;
+    }
+    .studio-tab-btn.active {
+      background: linear-gradient(135deg, rgba(124, 92, 252, 0.25), rgba(0, 242, 254, 0.2));
+      border-color: var(--cyan); color: #fff; box-shadow: 0 0 20px rgba(0, 242, 254, 0.2);
+    }
+    .studio-tab-btn:hover:not(.active) {
+      background: rgba(255, 255, 255, 0.08); color: var(--text);
+    }
+
+    /* Panels */
+    .studio-panel { display: none; }
+    .studio-panel.active { display: block; animation: fadeIn 0.3s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* Episodes Grid */
+    .episodes-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+      gap: 26px;
+    }
+    .ep-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 20px; overflow: hidden; display: flex; flex-direction: column;
+      backdrop-filter: blur(12px); transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .ep-card:hover {
+      border-color: var(--cyan); transform: translateY(-4px);
+      box-shadow: 0 12px 35px rgba(0, 242, 254, 0.15);
+    }
+    .ep-thumb-wrap {
+      position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #000;
+    }
+    .ep-thumb {
+      width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;
+    }
+    .ep-card:hover .ep-thumb { transform: scale(1.04); }
+    .ep-badge {
+      position: absolute; top: 12px; left: 12px;
+      background: rgba(0, 0, 0, 0.75); border: 1px solid rgba(255,255,255,0.2);
+      backdrop-filter: blur(8px); padding: 4px 10px; border-radius: 8px;
+      font-size: 11px; font-weight: 700; color: #fff; font-family: var(--font-mono);
+    }
+    .ep-dur-badge {
+      position: absolute; bottom: 12px; right: 12px;
+      background: rgba(0, 0, 0, 0.85); border: 1px solid rgba(0, 242, 254, 0.4);
+      padding: 4px 10px; border-radius: 8px; font-size: 11px; font-weight: 700; color: var(--cyan);
+    }
+
+    .ep-body { padding: 22px; display: flex; flex-direction: column; flex: 1; justify-content: space-between; }
+    .ep-title {
+      font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 700;
+      line-height: 1.35; margin-bottom: 8px; color: #fff;
+    }
+    .ep-meta {
+      font-size: 12px; color: var(--text-muted); display: flex; align-items: center; gap: 8px;
+      margin-bottom: 16px;
+    }
+    .audio-player-box {
+      background: rgba(0, 0, 0, 0.35); border: 1px solid var(--border);
+      border-radius: 12px; padding: 10px 14px; margin-bottom: 16px;
+    }
+    audio.custom-audio {
+      width: 100%; height: 36px; outline: none;
+    }
+    .ep-actions {
+      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px;
+    }
+    .btn-action {
+      text-align: center; text-decoration: none; padding: 8px 10px;
+      background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
+      border-radius: 8px; font-size: 12px; font-weight: 600; color: var(--text);
+      transition: all 0.2s;
+    }
+    .btn-action:hover {
+      background: linear-gradient(135deg, var(--accent), var(--cyan));
+      border-color: transparent; color: #000;
+    }
+
+    /* Shorts Filter & Grid */
+    .filter-bar {
+      display: flex; gap: 8px; margin-bottom: 24px; align-items: center;
+      background: var(--bg-card); padding: 10px 16px; border-radius: 14px; border: 1px solid var(--border);
+    }
+    .filter-btn {
+      background: transparent; border: none; color: var(--text-muted);
+      padding: 6px 14px; border-radius: 8px; font-size: 13px; font-weight: 600;
+      cursor: pointer; transition: all 0.2s;
+    }
+    .filter-btn.active {
+      background: var(--accent); color: #fff;
+    }
+
+    .shorts-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+    }
+    .short-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 18px; padding: 20px; display: flex; flex-direction: column;
+      justify-content: space-between; backdrop-filter: blur(12px);
+      transition: all 0.25s ease;
+    }
+    .short-card:hover {
+      border-color: var(--cyan); transform: translateY(-3px);
+    }
+    .short-header {
+      display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;
+    }
+    .short-badge {
+      font-size: 11px; font-weight: 700; color: var(--cyan); font-family: var(--font-mono);
+      background: rgba(0, 242, 254, 0.1); padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(0, 242, 254, 0.25);
+    }
+    .short-pill {
+      font-size: 10px; color: var(--text-muted); text-transform: uppercase; font-weight: 600;
+    }
+    .short-title {
+      font-family: 'Outfit', sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 14px;
+    }
+    .box-label { font-size: 10px; font-weight: 700; color: var(--text-muted); letter-spacing: 0.5px; margin-bottom: 4px; }
+    .short-hook-box, .short-content-box, .short-cta-box {
+      background: rgba(0, 0, 0, 0.25); border: 1px solid var(--border);
+      border-radius: 10px; padding: 10px 12px; margin-bottom: 10px; font-size: 12px;
+    }
+    .short-hook-box p { color: #ffe600; font-weight: 600; }
+    .short-cta-box p { color: var(--emerald); font-weight: 600; }
+
+    .short-footer {
+      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: 12px;
+    }
+    .btn-mini {
+      text-align: center; text-decoration: none; padding: 7px 8px;
+      background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
+      border-radius: 6px; font-size: 11px; font-weight: 600; color: var(--text);
+      transition: all 0.2s;
+    }
+    .btn-mini:hover {
+      background: var(--cyan); color: #000; border-color: transparent;
+    }
+
+    /* Social Repurposing UI */
+    .social-kit-box {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 20px; padding: 28px; backdrop-filter: blur(14px);
+    }
+    .topic-selector-wrap {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+    }
+    .topic-pill {
+      background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
+      color: var(--text-muted); padding: 8px 16px; border-radius: 30px;
+      font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.2s;
+    }
+    .topic-pill.active {
+      background: linear-gradient(135deg, var(--accent), var(--cyan));
+      color: #000; border-color: transparent; font-weight: 700;
+    }
+    .social-quad-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 20px;
+    }
+    .quad-card {
+      background: rgba(0, 0, 0, 0.35); border: 1px solid var(--border);
+      border-radius: 14px; padding: 20px; display: flex; flex-direction: column; justify-content: space-between;
+    }
+    .quad-header {
+      display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;
+    }
+    .quad-header h4 { font-family: 'Outfit', sans-serif; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+    .btn-copy {
+      background: rgba(255, 255, 255, 0.08); border: 1px solid var(--border);
+      color: var(--text); padding: 5px 12px; border-radius: 6px; font-size: 11px;
+      font-weight: 600; cursor: pointer; transition: all 0.2s;
+    }
+    .btn-copy:hover { background: var(--emerald); color: #000; }
+    .quad-content {
+      background: rgba(7, 9, 19, 0.6); border: 1px solid var(--border);
+      border-radius: 10px; padding: 14px; font-size: 13px; line-height: 1.5;
+      max-height: 320px; overflow-y: auto; white-space: pre-wrap; font-family: 'Inter', sans-serif;
+    }
+
+    @media (max-width: 768px) {
+      .studio-hero h2 { font-size: 28px; }
+      .episodes-grid, .social-quad-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-mesh"></div>
+
+  <header>
+    <a href="/" class="brand-wrap">
+      <div class="logo-badge">🎬</div>
+      <div class="brand-text">
+        <h1>AI MEDIA STUDIO</h1>
+        <span>AUTONOMOUS BROADCAST CENTER</span>
+      </div>
+    </a>
+    <div class="nav-actions">
+      <a href="/" class="btn-nav btn-nav-secondary">← Command Center</a>
+      <a href="/portal" class="btn-nav btn-nav-secondary">VIP Portals ↗</a>
+      <a href="/bundle" class="btn-nav btn-nav-primary">Master Bundle ($39) ↗</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="studio-hero">
+      <span class="hero-badge">⚡ 100% Autonomous Studio Engine</span>
+      <h2>Broadcast-Quality Media & Content Empire</h2>
+      <p>Instant audio streaming, subtitle downloads, 4K visual assets, and 1-click social media distribution packages across all 8 monetization streams.</p>
+      
+      <div class="stat-row">
+        <div class="stat-box">
+          <div class="stat-num">77.6 mins</div>
+          <div class="stat-lbl">Full Episodes Audio</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">10 / 10</div>
+          <div class="stat-lbl">4K Photorealistic Thumbnails</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">30 Days</div>
+          <div class="stat-lbl">Viral Shorts Synthesized</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">40 Assets</div>
+          <div class="stat-lbl">Repurposed Social Posts</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="studio-tabs">
+      <button class="studio-tab-btn active" onclick="switchStudioTab('tab-episodes', this)">
+        <span>🎬</span> 10 Full YouTube Episodes
+      </button>
+      <button class="studio-tab-btn" onclick="switchStudioTab('tab-shorts', this)">
+        <span>📱</span> 30-Day Viral Shorts Sprint
+      </button>
+      <button class="studio-tab-btn" onclick="switchStudioTab('tab-social', this)">
+        <span>🔄</span> Social Media Repurposing (10 Kits)
+      </button>
+    </div>
+
+    <!-- Panel 1: Full Episodes -->
+    <div id="tab-episodes" class="studio-panel active">
+      <div class="episodes-grid">
+        
+        <div class="ep-card">
+          <div class="ep-thumb-wrap">
+            <img src="/studio/thumbnails/thumb_001_5_ai_tools.jpg" alt="5 AI Tools That Can Make You $1000/Month" class="ep-thumb" loading="lazy">
+            <span class="ep-badge">EPISODE #01</span>
+            <span class="ep-dur-badge">⏱️ 9.9 min</span>
+          </div>
+          <div class="ep-body">
+            <h3 class="ep-title">5 AI Tools That Can Make You $1000/Month</h3>
+            <div class="ep-meta">
+              <span>🗣️ Studio AI Narration</span>
+              <span>•</span>
+              <span>📝 1,206 words</span>
+              <span>•</span>
+              <span>⚡ 1080p Broadcast</span>
+            </div>
+            
+            <div class="audio-player-box">
+              <audio controls preload="none" class="custom-audio">
+                <source src="/studio/audio_episodes/episode_001_voiceover.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
+            <div class="ep-actions">
+              <a href="/studio/audio_episodes/episode_001_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
+              <a href="/studio/audio_episodes/episode_001_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
+              <a href="/studio/audio_episodes/episode_001_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="ep-card">
+          <div class="ep-thumb-wrap">
+            <img src="/studio/thumbnails/thumb_002_chatbot_15min.jpg" alt="How to Build an AI Chatbot in 15 Minutes" class="ep-thumb" loading="lazy">
+            <span class="ep-badge">EPISODE #02</span>
+            <span class="ep-dur-badge">⏱️ 6.2 min</span>
+          </div>
+          <div class="ep-body">
+            <h3 class="ep-title">How to Build an AI Chatbot in 15 Minutes</h3>
+            <div class="ep-meta">
+              <span>🗣️ Studio AI Narration</span>
+              <span>•</span>
+              <span>📝 861 words</span>
+              <span>•</span>
+              <span>⚡ 1080p Broadcast</span>
+            </div>
+            
+            <div class="audio-player-box">
+              <audio controls preload="none" class="custom-audio">
+                <source src="/studio/audio_episodes/episode_002_voiceover.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
+            <div class="ep-actions">
+              <a href="/studio/audio_episodes/episode_002_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
+              <a href="/studio/audio_episodes/episode_002_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
+              <a href="/studio/audio_episodes/episode_002_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="ep-card">
+          <div class="ep-thumb-wrap">
+            <img src="/studio/thumbnails/thumb_003_automate_500.jpg" alt="How to Automate a Local Business for $500" class="ep-thumb" loading="lazy">
+            <span class="ep-badge">EPISODE #03</span>
+            <span class="ep-dur-badge">⏱️ 9.1 min</span>
+          </div>
+          <div class="ep-body">
+            <h3 class="ep-title">How to Automate a Local Business for $500</h3>
+            <div class="ep-meta">
+              <span>🗣️ Studio AI Narration</span>
+              <span>•</span>
+              <span>📝 1,176 words</span>
+              <span>•</span>
+              <span>⚡ 1080p Broadcast</span>
+            </div>
+            
+            <div class="audio-player-box">
+              <audio controls preload="none" class="custom-audio">
+                <source src="/studio/audio_episodes/episode_003_voiceover.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
+            <div class="ep-actions">
+              <a href="/studio/audio_episodes/episode_003_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
+              <a href="/studio/audio_episodes/episode_003_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
+              <a href="/studio/audio_episodes/episode_003_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="ep-card">
+          <div class="ep-thumb-wrap">
+            <img src="/studio/thumbnails/thumb_004_3_products_1_day.jpg" alt="I Built 3 AI Products in 1 Day" class="ep-thumb" loading="lazy">
+            <span class="ep-badge">EPISODE #04</span>
+            <span class="ep-dur-badge">⏱️ 8.7 min</span>
+          </div>
+          <div class="ep-body">
+            <h3 class="ep-title">I Built 3 AI Products in 1 Day</h3>
+            <div class="ep-meta">
+              <span>🗣️ Studio AI Narration</span>
+              <span>•</span>
+              <span>📝 1,159 words</span>
+              <span>•</span>
+              <span>⚡ 1080p Broadcast</span>
+            </div>
+            
+            <div class="audio-player-box">
+              <audio controls preload="none" class="custom-audio">
+                <source src="/studio/audio_episodes/episode_004_voiceover.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
+            <div class="ep-actions">
+              <a href="/studio/audio_episodes/episode_004_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
+              <a href="/studio/audio_episodes/episode_004_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
+              <a href="/studio/audio_episodes/episode_004_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="ep-card">
+          <div class="ep-thumb-wrap">
+            <img src="/studio/thumbnails/thumb_005_microsaas.jpg" alt="How to Build & Monetize a Micro-SaaS with AI" class="ep-thumb" loading="lazy">
+            <span class="ep-badge">EPISODE #05</span>
+            <span class="ep-dur-badge">⏱️ 6.0 min</span>
+          </div>
+          <div class="ep-body">
+            <h3 class="ep-title">How to Build & Monetize a Micro-SaaS with AI</h3>
+            <div class="ep-meta">
+              <span>🗣️ Studio AI Narration</span>
+              <span>•</span>
+              <span>📝 736 words</span>
+              <span>•</span>
+              <span>⚡ 1080p Broadcast</span>
+            </div>
+            
+            <div class="audio-player-box">
+              <audio controls preload="none" class="custom-audio">
+                <source src="/studio/audio_episodes/episode_005_voiceover.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
+            <div class="ep-actions">
+              <a href="/studio/audio_episodes/episode_005_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
+              <a href="/studio/audio_episodes/episode_005_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
+              <a href="/studio/audio_episodes/episode_005_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="ep-card">
+          <div class="ep-thumb-wrap">
+            <img src="/studio/thumbnails/thumb_006_ai_agency.jpg" alt="Starting an AI Automation Agency in 2026" class="ep-thumb" loading="lazy">
+            <span class="ep-badge">EPISODE #06</span>
+            <span class="ep-dur-badge">⏱️ 7.6 min</span>
+          </div>
+          <div class="ep-body">
+            <h3 class="ep-title">Starting an AI Automation Agency in 2026</h3>
+            <div class="ep-meta">
+              <span>🗣️ Studio AI Narration</span>
+              <span>•</span>
+              <span>📝 962 words</span>
+              <span>•</span>
+              <span>⚡ 1080p Broadcast</span>
+            </div>
+            
+            <div class="audio-player-box">
+              <audio controls preload="none" class="custom-audio">
+                <source src="/studio/audio_episodes/episode_006_voiceover.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
+            <div class="ep-actions">
+              <a href="/studio/audio_episodes/episode_006_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
+              <a href="/studio/audio_episodes/episode_006_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
+              <a href="/studio/audio_episodes/episode_006_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="ep-card">
+          <div class="ep-thumb-wrap">
+            <img src="/studio/thumbnails/thumb_007_pod_ai.jpg" alt="AI + Print on Demand: The Automated Merch Store" class="ep-thumb" loading="lazy">
+            <span class="ep-badge">EPISODE #07</span>
+            <span class="ep-dur-badge">⏱️ 6.4 min</span>
+          </div>
+          <div class="ep-body">
+            <h3 class="ep-title">AI + Print on Demand: The Automated Merch Store</h3>
+            <div class="ep-meta">
+              <span>🗣️ Studio AI Narration</span>
+              <span>•</span>
+              <span>📝 790 words</span>
+              <span>•</span>
+              <span>⚡ 1080p Broadcast</span>
+            </div>
+            
+            <div class="audio-player-box">
+              <audio controls preload="none" class="custom-audio">
+                <source src="/studio/audio_episodes/episode_007_voiceover.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
+            <div class="ep-actions">
+              <a href="/studio/audio_episodes/episode_007_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
+              <a href="/studio/audio_episodes/episode_007_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
+              <a href="/studio/audio_episodes/episode_007_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="ep-card">
+          <div class="ep-thumb-wrap">
+            <img src="/studio/thumbnails/thumb_008_upwork_ai.jpg" alt="The $0 to $3,000/Month AI Freelancing Roadmap" class="ep-thumb" loading="lazy">
+            <span class="ep-badge">EPISODE #08</span>
+            <span class="ep-dur-badge">⏱️ 8.2 min</span>
+          </div>
+          <div class="ep-body">
+            <h3 class="ep-title">The $0 to $3,000/Month AI Freelancing Roadmap</h3>
+            <div class="ep-meta">
+              <span>🗣️ Studio AI Narration</span>
+              <span>•</span>
+              <span>📝 963 words</span>
+              <span>•</span>
+              <span>⚡ 1080p Broadcast</span>
+            </div>
+            
+            <div class="audio-player-box">
+              <audio controls preload="none" class="custom-audio">
+                <source src="/studio/audio_episodes/episode_008_voiceover.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
+            <div class="ep-actions">
+              <a href="/studio/audio_episodes/episode_008_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
+              <a href="/studio/audio_episodes/episode_008_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
+              <a href="/studio/audio_episodes/episode_008_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="ep-card">
+          <div class="ep-thumb-wrap">
+            <img src="/studio/thumbnails/thumb_009_agency_48h.jpg" alt="How to Build an AI Agency in 48 Hours" class="ep-thumb" loading="lazy">
+            <span class="ep-badge">EPISODE #09</span>
+            <span class="ep-dur-badge">⏱️ 7.9 min</span>
+          </div>
+          <div class="ep-body">
+            <h3 class="ep-title">How to Build an AI Agency in 48 Hours</h3>
+            <div class="ep-meta">
+              <span>🗣️ Studio AI Narration</span>
+              <span>•</span>
+              <span>📝 976 words</span>
+              <span>•</span>
+              <span>⚡ 1080p Broadcast</span>
+            </div>
+            
+            <div class="audio-player-box">
+              <audio controls preload="none" class="custom-audio">
+                <source src="/studio/audio_episodes/episode_009_voiceover.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
+            <div class="ep-actions">
+              <a href="/studio/audio_episodes/episode_009_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
+              <a href="/studio/audio_episodes/episode_009_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
+              <a href="/studio/audio_episodes/episode_009_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="ep-card">
+          <div class="ep-thumb-wrap">
+            <img src="/studio/thumbnails/thumb_010_blueprints.jpg" alt="5 Make.com Automation Blueprints That Make $1000/Month" class="ep-thumb" loading="lazy">
+            <span class="ep-badge">EPISODE #10</span>
+            <span class="ep-dur-badge">⏱️ 7.6 min</span>
+          </div>
+          <div class="ep-body">
+            <h3 class="ep-title">5 Make.com Automation Blueprints That Make $1000/Month</h3>
+            <div class="ep-meta">
+              <span>🗣️ Studio AI Narration</span>
+              <span>•</span>
+              <span>📝 886 words</span>
+              <span>•</span>
+              <span>⚡ 1080p Broadcast</span>
+            </div>
+            
+            <div class="audio-player-box">
+              <audio controls preload="none" class="custom-audio">
+                <source src="/studio/audio_episodes/episode_010_voiceover.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
+            <div class="ep-actions">
+              <a href="/studio/audio_episodes/episode_010_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
+              <a href="/studio/audio_episodes/episode_010_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
+              <a href="/studio/audio_episodes/episode_010_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Panel 2: 30-Day Shorts Sprint -->
+    <div id="tab-shorts" class="studio-panel">
+      <div class="filter-bar">
+        <span style="font-size:12px; font-weight:700; color:var(--text-muted); margin-right:8px;">FILTER WEEK:</span>
+        <button class="filter-btn active" onclick="filterShorts('all', this)">All (30 Days)</button>
+        <button class="filter-btn" onclick="filterShorts('1', this)">Week 1 (Day 1-7)</button>
+        <button class="filter-btn" onclick="filterShorts('2', this)">Week 2 (Day 8-14)</button>
+        <button class="filter-btn" onclick="filterShorts('3', this)">Week 3 (Day 15-21)</button>
+        <button class="filter-btn" onclick="filterShorts('4', this)">Week 4 (Day 22-30)</button>
+      </div>
+      <div class="shorts-grid">
+        
+        <div class="short-card" data-week="1">
+          <div class="short-header">
+            <div class="short-badge">DAY #01 • WEEK 1</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Agency Secret] Why local businesses lose 40% of customers after 7 PM</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Stop pitching ChatGPT. Here is the single sentence that closed a $1,500 client in 24 hours."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Local businesses don't care about AI. They care about missed calls. An AI receptionist answers late-night inquiries and books directly into ...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Check our live 60-second interactive demo in bio!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_01_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_01_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_01_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_01_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="1">
+          <div class="short-header">
+            <div class="short-badge">DAY #02 • WEEK 1</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Chatbot Demo] I tested this dental AI chatbot on mobile (Mind blown)</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Look what happens when I ask a local clinic for Invisalign prices at 2 AM."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Instead of waiting until 9 AM, the bot quotes prices, checks insurance, and locks down an appointment slot in 20 seconds flat....</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Link to the exact working template is in the description!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_02_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_02_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_02_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_02_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="1">
+          <div class="short-header">
+            <div class="short-badge">DAY #03 • WEEK 1</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Agency Math] How to make $3,000/month with only 4 clients</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"You don't need 100 clients to quit your 9-to-5. You only need 4."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Charge $1,500 setup once, then $750/month maintenance retainer. 4 clients = $3,000/month recurring revenue for 5 hours of work a week....</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Grab our 30-lead client outreach playbook for free in bio!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_03_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_03_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_03_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_03_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="1">
+          <div class="short-header">
+            <div class="short-badge">DAY #04 • WEEK 1</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Niche Breakdown] The #1 richest niche for AI automation in 2026</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Don't sell AI to coffee shops. Target this high-ticket niche instead."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Cosmetic dentists and orthodontists. A single dental implant is worth $4,000. If your bot captures 1 extra patient, the owner makes 400% ROI...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Full breakdown inside our 16,000-word blueprint eBook!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_04_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_04_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_04_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_04_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="1">
+          <div class="short-header">
+            <div class="short-badge">DAY #05 • WEEK 1</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Emergency Services] How this HVAC company recovered $9,200 with 1 automated text</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"What happens when a homeowner's AC breaks in the summer at 8 PM?"</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>85% hang up on voicemail. Our 15-second AI text-back captures the emergency job before they call the competitor on Google....</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Get the Make.com blueprint in our template pack!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_05_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_05_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_05_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_05_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="1">
+          <div class="short-header">
+            <div class="short-badge">DAY #06 • WEEK 1</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Client Acquisition] The 1-Click cold email that gets 35% reply rates</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Never send a PDF proposal. Send this 60-second link instead."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>When you send a customized interactive demo link instead of a boring slide deck, business owners test it on their phone immediately....</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Copy-paste this exact email script from our free guide!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_06_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_06_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_06_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_06_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="1">
+          <div class="short-header">
+            <div class="short-badge">DAY #07 • WEEK 1</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Overcoming Fear] Do you need coding skills to start an AI agency?</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Think you need a computer science degree to sell AI? Absolutely not."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>You can connect Voiceflow or OpenAI Assistants to webhooks using no-code tools like Make.com in under 30 minutes without writing a single li...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Follow for daily AI automation blueprints!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_07_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_07_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_07_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_07_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="2">
+          <div class="short-header">
+            <div class="short-badge">DAY #08 • WEEK 2</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Micro-SaaS] I built a software tool in 48 hours that charges $19</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"You don't need venture capital to launch a profitable SaaS in 2026."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Find one hyper-specific problem like robots.txt AI auditing. We built SynapseGEO in a weekend, deployed on Vercel Edge for zero dollars, and...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Test the live tool at work-minh-lap.vercel.app/synapsegeo!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_08_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_08_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_08_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_08_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="2">
+          <div class="short-header">
+            <div class="short-badge">DAY #09 • WEEK 2</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[AI Search Shift] Google SEO is declining. Here is what is replacing it.</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"If your site isn't optimized for Perplexity and ChatGPT, you are losing 40% of future traffic."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Generative Engine Optimization (GEO) relies on clean JSON-LD Schema and robots.txt bot permissions. If you block GPTBot, you are invisible....</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Run a free 10-second audit on your domain (link in bio)!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_09_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_09_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_09_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_09_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="2">
+          <div class="short-header">
+            <div class="short-badge">DAY #10 • WEEK 2</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Review Genius] Turn 1-star angry reviews into 5-star loyal fans</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Replying to angry Google reviews manually takes hours and emotional stress."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>ReviewGenius AI analyzes negative sentiment and drafts de-escalation responses that protect your business reputation in 3 seconds....</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Try ReviewGenius free (link in description)!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_10_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_10_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_10_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_10_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="2">
+          <div class="short-header">
+            <div class="short-badge">DAY #11 • WEEK 2</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Headline IQ] The psychological secret to viral headlines</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Why do some articles get 100k views while yours get 12 clicks?"</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Emotional resonance and curiosity gaps. HeadlineIQ scores your headline CTR potential and suggests 10 AI variations backed by copywriting ps...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Check your headline score for free in bio!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_11_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_11_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_11_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_11_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="2">
+          <div class="short-header">
+            <div class="short-badge">DAY #12 • WEEK 2</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Zero-Cost Hosting] How to host your web apps for $0 forever</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Stop paying $50/month for cloud servers when you're just starting out."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Vercel Edge, GitHub Pages, and Cloudflare Pages allow you to run serverless edge applications with worldwide CDN speed completely free....</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Full tech stack tutorial inside our free Resource Hub!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_12_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_12_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_12_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_12_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="2">
+          <div class="short-header">
+            <div class="short-badge">DAY #13 • WEEK 2</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Chrome Extension] How to build a Chrome extension as a lead magnet</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"The smartest way to get 1,000 free SaaS users without paying for ads."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Package a simple audit tool into a Manifest V3 Chrome Extension. Users install it for free, see their errors, and click through to your paid...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Download our open-source extension zip in bio!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_13_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_13_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_13_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_13_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="2">
+          <div class="short-header">
+            <div class="short-badge">DAY #14 • WEEK 2</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[SaaS Monetization] Stripe vs Lemon Squeezy for solo founders</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Which payment processor should you use for digital products and SaaS?"</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Lemon Squeezy acts as a Merchant of Record (MoR), handling international sales taxes and VAT compliance automatically so you don't have tax ...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Follow for more indie hacker breakdown!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_14_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_14_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_14_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_14_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="3">
+          <div class="short-header">
+            <div class="short-badge">DAY #15 • WEEK 3</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Make vs Zapier] Make.com vs Zapier: The brutal truth in 2026</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Are you wasting $200/month on Zapier? Here is the real difference."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Zapier charges per task. Make.com charges per operation and offers visual routers and error-handlers at one-fifth of the price for complex b...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Read our complete in-depth comparison on our blog!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_15_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_15_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_15_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_15_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="3">
+          <div class="short-header">
+            <div class="short-badge">DAY #16 • WEEK 3</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Telegram Alert] Get an instant phone notification whenever you get a lead</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Never miss a high-ticket customer inquiry while away from your desk."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Connect your website form to a Telegram Bot via webhook. Whenever a lead submits, your phone buzzes within 2 seconds with customer details....</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Import this blueprint from our 15-pack templates!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_16_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_16_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_16_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_16_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="3">
+          <div class="short-header">
+            <div class="short-badge">DAY #17 • WEEK 3</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[OCR Pipeline] Automating 20 hours of invoice data entry for accountants</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Chasing receipts and 1099 forms is the biggest waste of billable CPA hours."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>An automated pipeline with AI Vision extracts vendor, tax ID, and line items, writing them directly into QuickBooks without manual typing....</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Grab the full blueprint package in our Master Bundle!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_17_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_17_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_17_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_17_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="3">
+          <div class="short-header">
+            <div class="short-badge">DAY #18 • WEEK 3</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Multi-Platform Repurpose] Turn 1 blog post into 10 social media posts in 60s</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Stop writing content separately for Twitter, LinkedIn, and TikTok."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Use an AI repurposing script that extracts the key hook, formats a 7-tweet thread, a professional LinkedIn carousel, and a 60-second video s...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Try our open repurposing engine (link in bio)!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_18_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_18_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_18_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_18_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="3">
+          <div class="short-header">
+            <div class="short-badge">DAY #19 • WEEK 3</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Error Handling] Why 90% of Make.com scenarios break (And the fix)</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Ever wake up to find your automation stopped running 3 days ago?"</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Always add an Error Handler route with Resume or Ignore directives and a fallback alert to your Slack or Telegram. Never let an API 429 kill...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Full troubleshooting guide in our resource vault!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_19_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_19_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_19_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_19_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="3">
+          <div class="short-header">
+            <div class="short-badge">DAY #20 • WEEK 3</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Airtable CRM] Build a custom $5,000 CRM in Airtable in 15 minutes</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Don't pay Salesforce $150/user/month for small businesses."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Combine Airtable relational databases with AI automations to score leads, assign tasks, and trigger email sequences automatically....</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Download our ready-to-use Airtable base template in bio!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_20_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_20_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_20_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_20_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="3">
+          <div class="short-header">
+            <div class="short-badge">DAY #21 • WEEK 3</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[AI Agent Future] The death of static websites: Meet autonomous web agents</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"In 2 years, people won't browse menus and click forms. They will talk to web agents."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Websites are shifting from static brochures to interactive conversational copilot interfaces that understand intent and complete actions....</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Experience the prototype at work-minh-lap.vercel.app/chatbotdemo!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_21_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_21_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_21_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_21_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="4">
+          <div class="short-header">
+            <div class="short-badge">DAY #22 • WEEK 4</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Digital Product] How to create and sell your first digital eBook with AI</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"How we wrote a 16,000-word technical guide in 7 days and listed it on Gumroad."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Structure your outline first. Use deep AI prompting for real-world case studies and frameworks. Export to crisp PDF and launch on Gumroad an...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Get The AI Money Blueprint eBook in bio!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_22_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_22_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_22_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_22_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="4">
+          <div class="short-header">
+            <div class="short-badge">DAY #23 • WEEK 4</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Prompt Engineering] Stop writing bad prompts: The 4-step framework</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"99% of people get robotic answers from ChatGPT because of this mistake."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Role + Context + Exact Constraint + Desired Output Schema. Never say 'write a blog post'. Say 'Act as an enterprise copywriter, write an H2 ...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Download our 110+ production prompt pack today!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_23_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_23_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_23_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_23_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="4">
+          <div class="short-header">
+            <div class="short-badge">DAY #24 • WEEK 4</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Fiverr Gigs] 3 Fiverr gigs you can offer today with zero portfolio</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"How to get your first 5-star review on Fiverr in week one."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>1. Custom Chatbot Setup. 2. Zapier/Make Automation Fix. 3. GEO & AI Search Readiness Audit. Deliver within 24 hours with Loom video support....</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Copy our gig descriptions from our free freelancing guide!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_24_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_24_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_24_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_24_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="4">
+          <div class="short-header">
+            <div class="short-badge">DAY #25 • WEEK 4</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Upwork Strategy] How to charge $95/hour on Upwork as an AI developer</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Stop competing on $5 gigs. Here is how to position for high-ticket contracts."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Create specialized profiles for AI Automations. Apply to verified clients with $1,000+ budgets within 1 hour of posting. Include a live work...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Read our Upwork Mastery Kit on our blog!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_25_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_25_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_25_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_25_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="4">
+          <div class="short-header">
+            <div class="short-badge">DAY #26 • WEEK 4</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Print on Demand] Can you still make money with Print-on-Demand in 2026?</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Is POD dead? Not if you target this high-spending niche."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Programmers, data scientists, and AI builders love clever, minimalist tech humor. A single hoodie design brings $18.00 in pure profit on Pri...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Check our POD case study in our Resource Hub!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_26_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_26_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_26_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_26_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="4">
+          <div class="short-header">
+            <div class="short-badge">DAY #27 • WEEK 4</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Gumroad Strategy] How to get sales on Gumroad with zero social following</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Listing a product on Gumroad won't get sales by itself. Here is the distribution loop."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Build free Micro-SaaS tools or post valuable short tutorials. Offer free lead magnets (prompt packs) and link to your paid Master Bundle ins...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Explore the full AI Empire Bundle in bio!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_27_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_27_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_27_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_27_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="4">
+          <div class="short-header">
+            <div class="short-badge">DAY #28 • WEEK 4</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Client Proposal] The 2-page AI audit proposal that closes 4 out of 5 clients</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"What does a high-ticket client proposal actually look like?"</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Section 1: Lost Revenue Calculation. Section 2: Recommended Copilot Architecture. Section 3: Projected ROI. Section 4: Fixed Setup Fee + Mon...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Generate your own custom proposal using our free script!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_28_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_28_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_28_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_28_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="5">
+          <div class="short-header">
+            <div class="short-badge">DAY #29 • WEEK 5</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Roadmap Part 1] Month 1 vs Month 3: The 90-Day AI Income Roadmap</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"Where should you focus your time during the first 30 days?"</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Month 1: Skills & proof-of-work (build 1 micro-tool and 1 demo). Month 2: Client outreach & digital products. Month 3: Recurring retainers a...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Read Chapter 10 of The AI Money Blueprint eBook!"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_29_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_29_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_29_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_29_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+        <div class="short-card" data-week="5">
+          <div class="short-header">
+            <div class="short-badge">DAY #30 • WEEK 5</div>
+            <span class="short-pill">9:16 Vertical</span>
+          </div>
+          <h4 class="short-title">[Roadmap Part 2] The 8-stream AI money machine explained in 60 seconds</h4>
+          
+          <div class="short-hook-box">
+            <div class="box-label">🎯 HOOK:</div>
+            <p>"How 8 small income streams combine into $3,500/month recurring cashflow."</p>
+          </div>
+
+          <div class="short-content-box">
+            <div class="box-label">💡 VALUE & SCRIPT:</div>
+            <p>Micro-SaaS subscriptions + Agency Retainers + Digital Product sales + YouTube AdSense + Affiliate commissions + Freelance gigs. Diversified,...</p>
+          </div>
+
+          <div class="short-cta-box">
+            <div class="box-label">🚀 CALL TO ACTION:</div>
+            <p>"Start your journey today at https://work-minh-lap.vercel.app/blog !"</p>
+          </div>
+
+          <div class="audio-player-box">
+            <audio controls preload="none" class="custom-audio">
+              <source src="/studio/audio_shorts/day_30_voiceover.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="short-footer">
+            <a href="/studio/audio_shorts/day_30_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <a href="/studio/audio_shorts/day_30_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
+            <a href="/studio/audio_shorts/day_30_script.txt" target="_blank" class="btn-mini">📝 Script</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Panel 3: Social Repurposing Kits -->
+    <div id="tab-social" class="studio-panel">
+      <div class="social-kit-box">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:18px;">
+          <h3 style="font-family:'Outfit'; font-size:20px; font-weight:800;">Choose Topic to Dispatch:</h3>
+          <a href="/projects/ai_content_social/buffer_schedule.csv" download class="btn-nav btn-nav-primary" style="padding:6px 14px; font-size:12px;">📥 Download Buffer CSV (20 Posts)</a>
+        </div>
+        <div class="topic-selector-wrap" id="topicSelector">
+          <!-- Populated by JS -->
+        </div>
+
+        <div class="social-quad-grid">
+          <div class="quad-card">
+            <div class="quad-header">
+              <h4>💼 LinkedIn Post</h4>
+              <button class="btn-copy" onclick="copyQuad('liContent', this)">Copy Post</button>
+            </div>
+            <div class="quad-content" id="liContent">Loading...</div>
+          </div>
+
+          <div class="quad-card">
+            <div class="quad-header">
+              <h4>🐦 Twitter / X 7-Tweet Thread</h4>
+              <button class="btn-copy" onclick="copyQuad('twContent', this)">Copy Thread</button>
+            </div>
+            <div class="quad-content" id="twContent">Loading...</div>
+          </div>
+
+          <div class="quad-card">
+            <div class="quad-header">
+              <h4>🎬 60s TikTok / Shorts Script</h4>
+              <button class="btn-copy" onclick="copyQuad('ttContent', this)">Copy Script</button>
+            </div>
+            <div class="quad-content" id="ttContent">Loading...</div>
+          </div>
+
+          <div class="quad-card">
+            <div class="quad-header">
+              <h4>👾 Reddit Discussion Starter</h4>
+              <button class="btn-copy" onclick="copyQuad('rdContent', this)">Copy Reddit</button>
+            </div>
+            <div class="quad-content" id="rdContent">Loading...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/ref-tracker.js"></script>
+  <script>
+    const SOCIAL_KITS = [{"topic": "affiliate_partner_engine", "title": "How We Pay Creators 50% Instant SaaS & 20% Recurring Retainer Commissions", "filename": "content_kit_affiliate_partner_engine.md", "tweets": ["Stop promoting $2 Amazon affiliate links that pay 30 cents. The real affiliate money in 2026 is high-ticket AI software and SMB automation retainers.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Most affiliate programs pay 5-10% with 30-day payout delays and high clawbacks.", "2/ Our Partner Program pays 50% upfront ($14.50 - $19.50) on digital bundles and SaaS tools.", "3/ For SMB retainers, partners earn 20% recurring ($300 - $700 upfront + $100-$300/mo passive MRR) per referred client.", "4/ Every partner gets real-time link tracking with 30-day cookie persistence and ready-to-copy promo swipes.", "5/ You don't need a massive audience — just send targeted traffic using our 4-platform swipe vault.", "Join the MinhLap AI Partner Network today: https://work-minh-lap.vercel.app/referral\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "Stop promoting $2 Amazon affiliate links that pay 30 cents. The real affiliate money in 2026 is high-ticket AI software and SMB automation retainers.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nMost affiliate programs pay 5-10% with 30-day payout delays and high clawbacks.\n\n🔹 2. The Core Problem:\nOur Partner Program pays 50% upfront ($14.50 - $19.50) on digital bundles and SaaS tools.\n\n🔹 3. The Unfair Advantage:\nFor SMB retainers, partners earn 20% recurring ($300 - $700 upfront + $100-$300/mo passive MRR) per referred client.\n\n💡 Bottom line:\nYou don't need a massive audience — just send targeted traffic using our 4-platform swipe vault.\n\n👉 Join the MinhLap AI Partner Network today: https://work-minh-lap.vercel.app/referral\n\nAre you focusing on low-ticket volume or high-ticket B2B software affiliate offers?", "tiktok": "", "reddit": ""}, {"topic": "ai_automation", "title": "How a Local Dentist Recovers $8,400/mo Using a 15-Minute AI Bot", "filename": "content_kit_ai_automation.md", "tweets": ["Most clinics lose their highest-value patients between 7 PM and 8 AM. Here is how simple AI workflows fix this instantly.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Patients browsing cosmetic procedures (implants, invisalign) after dinner don't want to wait until 9 AM tomorrow for front desk callback.", "2/ If competitors answer and lock down a calendar appointment in 30 seconds, you lose the patient forever.", "3/ We deployed a conversational AI assistant that answers pricing, verifies insurance eligibility, and writes directly to Google Calendar.", "4/ Result: 14 new booked consultations in month one, with zero manual staff hours.", "5/ You can test the exact interactive patient experience here: https://work-minh-lap.vercel.app/chatbotdemo", "Explore the full AI Automation Playbook & blueprints at https://work-minh-lap.vercel.app/blog\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "Most clinics lose their highest-value patients between 7 PM and 8 AM. Here is how simple AI workflows fix this instantly.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nPatients browsing cosmetic procedures (implants, invisalign) after dinner don't want to wait until 9 AM tomorrow for front desk callback.\n\n🔹 2. The Core Problem:\nIf competitors answer and lock down a calendar appointment in 30 seconds, you lose the patient forever.\n\n🔹 3. The Unfair Advantage:\nWe deployed a conversational AI assistant that answers pricing, verifies insurance eligibility, and writes directly to Google Calendar.\n\n💡 Bottom line:\nYou can test the exact interactive patient experience here: https://work-minh-lap.vercel.app/chatbotdemo\n\n👉 Explore the full AI Automation Playbook & blueprints at https://work-minh-lap.vercel.app/blog\n\nWhat has been your experience with this trend so far? Let's discuss!", "tiktok": "", "reddit": ""}, {"topic": "ai_freelancing_retainers", "title": "How to Land $1,500/mo AI Automation Retainers on Upwork Without Writing Code", "filename": "content_kit_ai_freelancing_retainers.md", "tweets": ["Stop bidding $15/hr on data entry. Local clinics, real estate brokers, and law firms are desperately bleeding revenue from missed calls and manual data entry.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Don't sell 'AI services' — sell 'Instant Speed-to-Lead Patient Recovery' or 'Zero-Missed-Call Inbound Router'.", "2/ Send prospects a personalized interactive ROI calculator showing they lose $8,400/month from missed after-hours leads.", "3/ Include a live sandbox demo link so the business owner tests the bot with their own business data before the call.", "4/ Package it into a standard $1,500 setup fee + $500/mo maintenance retainer with a 14-day SLA guarantee.", "5/ Our 30-Client Outreach Playbook contains exact swipe templates that achieved a 26% meeting booking rate.", "Access the complete AI Automation Agency kit and ROI calculator at https://work-minh-lap.vercel.app/calculator\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "Stop bidding $15/hr on data entry. Local clinics, real estate brokers, and law firms are desperately bleeding revenue from missed calls and manual data entry.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nDon't sell 'AI services' — sell 'Instant Speed-to-Lead Patient Recovery' or 'Zero-Missed-Call Inbound Router'.\n\n🔹 2. The Core Problem:\nSend prospects a personalized interactive ROI calculator showing they lose $8,400/month from missed after-hours leads.\n\n🔹 3. The Unfair Advantage:\nInclude a live sandbox demo link so the business owner tests the bot with their own business data before the call.\n\n💡 Bottom line:\nOur 30-Client Outreach Playbook contains exact swipe templates that achieved a 26% meeting booking rate.\n\n👉 Access the complete AI Automation Agency kit and ROI calculator at https://work-minh-lap.vercel.app/calculator\n\nHave you transitioned from hourly rate billing to fixed-price value retainers yet?", "tiktok": "", "reddit": ""}, {"topic": "client_vip_portal", "title": "Why We Stopped Sending PDF Proposals and Started Giving Clients Dedicated Software Portals", "filename": "content_kit_client_vip_portal.md", "tweets": ["PDF proposals get lost in inboxes and compared on price. When you send clients a live branded software portal with real-time AI uptime and a 5-day roadmap, price objections vanish.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Traditional agency proposals take 4 hours to write and have a 15% close rate.", "2/ A dedicated VIP Command Portal features live AI Copilot SLA monitoring, a 1-click HTML embed tag, and certified deliverable vaults.", "3/ Clients see their own logo, customized industry prompts, and a quantified revenue recovery counter ($13,500/mo bleed).", "4/ Retainers transform from a recurring expense into an indispensable software infrastructure asset.", "5/ Explore our central VIP Hub with 30 live client portals: https://work-minh-lap.vercel.app/portal", "Explore the Executive Client VIP Command Hub at https://work-minh-lap.vercel.app/portal\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "PDF proposals get lost in inboxes and compared on price. When you send clients a live branded software portal with real-time AI uptime and a 5-day roadmap, price objections vanish.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nTraditional agency proposals take 4 hours to write and have a 15% close rate.\n\n🔹 2. The Core Problem:\nA dedicated VIP Command Portal features live AI Copilot SLA monitoring, a 1-click HTML embed tag, and certified deliverable vaults.\n\n🔹 3. The Unfair Advantage:\nClients see their own logo, customized industry prompts, and a quantified revenue recovery counter ($13,500/mo bleed).\n\n💡 Bottom line:\nExplore our central VIP Hub with 30 live client portals: https://work-minh-lap.vercel.app/portal\n\n👉 Explore the Executive Client VIP Command Hub at https://work-minh-lap.vercel.app/portal\n\nWhat has been your experience with this trend so far? Let's discuss!", "tiktok": "", "reddit": ""}, {"topic": "geo_audit", "title": "Why 90% of Websites are Invisible to ChatGPT and Perplexity Search", "filename": "content_kit_geo_audit.md", "tweets": ["Search is dead. AI Discovery is the new Google. If your robots.txt or schema isn't configured for LLM bots, you are losing 40% of future traffic.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Traditional Google SEO relies on backlinks and H1 tags. Generative engines (ChatGPT Search, Perplexity) rely on LLM crawlers like GPTBot and PerplexityBot.", "2/ If your robots.txt inadvertently disallows GPTBot, you are completely omitted from AI citations.", "3/ LLMs require deep JSON-LD Schema (Organization, WebSite, FAQPage, SoftwareApplication) to extract factual confidence scores.", "4/ Our audit tool SynapseGEO (https://work-minh-lap.vercel.app/synapsegeo) found that 68% of local businesses have zero structured data for voice assistants.", "5/ The fix takes 5 minutes: update robots.txt permissions and embed structured Schema markup.", "Check your domain's AI Search score in 10 seconds: https://work-minh-lap.vercel.app/synapsegeo\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "Search is dead. AI Discovery is the new Google. If your robots.txt or schema isn't configured for LLM bots, you are losing 40% of future traffic.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nTraditional Google SEO relies on backlinks and H1 tags. Generative engines (ChatGPT Search, Perplexity) rely on LLM crawlers like GPTBot and PerplexityBot.\n\n🔹 2. The Core Problem:\nIf your robots.txt inadvertently disallows GPTBot, you are completely omitted from AI citations.\n\n🔹 3. The Unfair Advantage:\nLLMs require deep JSON-LD Schema (Organization, WebSite, FAQPage, SoftwareApplication) to extract factual confidence scores.\n\n💡 Bottom line:\nThe fix takes 5 minutes: update robots.txt permissions and embed structured Schema markup.\n\n👉 Check your domain's AI Search score in 10 seconds: https://work-minh-lap.vercel.app/synapsegeo\n\nWhat has been your experience with this trend so far? Let's discuss!", "tiktok": "", "reddit": ""}, {"topic": "headline_iq_viral_hook", "title": "Why 80% of Marketing Headlines Fail Before Anyone Reads the Second Line", "filename": "content_kit_headline_iq_viral_hook.md", "tweets": ["You have 1.8 seconds to capture attention on modern feeds. If your hook lacks curiosity, emotional tension, or specificity, your conversion rate is zero.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ HeadlineIQ tests your copy across 6 viral emotional vectors: FOMO, Urgency, Authority, Specificity, Story Hook, and Brevity.", "2/ Headlines scoring above 85 out-click generic corporate headlines by 3.4x in A/B split tests.", "3/ The tool instantly suggests 3 high-converting rewrites trained on top viral creator frameworks.", "4/ Zero signup required: paste your draft title and get an instant audit score in 3 seconds.", "5/ Use it for YouTube titles, cold email subject lines, Twitter threads, and landing page hero headers.", "Test your headline score for free right now: https://work-minh-lap.vercel.app/headlineiq\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "You have 1.8 seconds to capture attention on modern feeds. If your hook lacks curiosity, emotional tension, or specificity, your conversion rate is zero.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nHeadlineIQ tests your copy across 6 viral emotional vectors: FOMO, Urgency, Authority, Specificity, Story Hook, and Brevity.\n\n🔹 2. The Core Problem:\nHeadlines scoring above 85 out-click generic corporate headlines by 3.4x in A/B split tests.\n\n🔹 3. The Unfair Advantage:\nThe tool instantly suggests 3 high-converting rewrites trained on top viral creator frameworks.\n\n💡 Bottom line:\nUse it for YouTube titles, cold email subject lines, Twitter threads, and landing page hero headers.\n\n👉 Test your headline score for free right now: https://work-minh-lap.vercel.app/headlineiq\n\nWhat is the single highest-converting headline formula you've ever tested?", "tiktok": "", "reddit": ""}, {"topic": "make_automation_secrets", "title": "5 Make.com Automation Blueprints That Make $1,000/Month on Autopilot", "filename": "content_kit_make_automation_secrets.md", "tweets": ["You don't need to write thousands of lines of code to build high-value software systems. Here are 5 no-code automation workflows SMBs eagerly pay $500–$1,500 for.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Workflow 1: Instant Speed-to-Lead SMS (<30s response time).", "2/ Workflow 2: Automated Google Review Response & Sentiment Router.", "3/ Workflow 3: Multi-Platform Social Content Repurposing (Blog to X, LinkedIn, TikTok).", "4/ Workflow 4: Two-Way Calendar Booking & No-Show Eliminator.", "5/ Workflow 5: Stripe/Lemon Squeezy Order Fulfillment & Telegram Sales Dispatcher.", "Download the complete 15-Blueprint Pack at https://work-minh-lap.vercel.app/bundle\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "You don't need to write thousands of lines of code to build high-value software systems. Here are 5 no-code automation workflows SMBs eagerly pay $500–$1,500 for.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nWorkflow 1: Instant Speed-to-Lead SMS (<30s response time).\n\n🔹 2. The Core Problem:\nWorkflow 2: Automated Google Review Response & Sentiment Router.\n\n🔹 3. The Unfair Advantage:\nWorkflow 3: Multi-Platform Social Content Repurposing (Blog to X, LinkedIn, TikTok).\n\n💡 Bottom line:\nWorkflow 5: Stripe/Lemon Squeezy Order Fulfillment & Telegram Sales Dispatcher.\n\n👉 Download the complete 15-Blueprint Pack at https://work-minh-lap.vercel.app/bundle\n\nWhich tedious task inside your business are you dying to automate next?", "tiktok": "", "reddit": ""}, {"topic": "microsaas_blueprint", "title": "How to Build and Launch a Micro-SaaS in 7 Days with Zero Funding", "filename": "content_kit_microsaas_blueprint.md", "tweets": ["You don't need a team of 10 engineers or $100k in VC money to launch software that prints $2,000/month.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Find a narrow, unglamorous problem: e.g. Robots.txt audit, review response generation, or headline scoring.", "2/ Keep the tech stack dead simple: Vanilla HTML/JS, serverless edge functions on Vercel, and Lemon Squeezy for global payments.", "3/ Build in 48 hours: Focus on one killer feature that gives value in under 10 seconds.", "4/ Launch on Product Hunt, Hacker News (Show HN), and Reddit r/SaaS with honest, transparent copy.", "5/ Turn free users into paying subscribers by offering deep reports, API access, and PDF exports.", "Download the complete 16,000-word AI Money Blueprint eBook & Bundle at https://work-minh-lap.vercel.app/bundle\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "You don't need a team of 10 engineers or $100k in VC money to launch software that prints $2,000/month.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nFind a narrow, unglamorous problem: e.g. Robots.txt audit, review response generation, or headline scoring.\n\n🔹 2. The Core Problem:\nKeep the tech stack dead simple: Vanilla HTML/JS, serverless edge functions on Vercel, and Lemon Squeezy for global payments.\n\n🔹 3. The Unfair Advantage:\nBuild in 48 hours: Focus on one killer feature that gives value in under 10 seconds.\n\n💡 Bottom line:\nTurn free users into paying subscribers by offering deep reports, API access, and PDF exports.\n\n👉 Download the complete 16,000-word AI Money Blueprint eBook & Bundle at https://work-minh-lap.vercel.app/bundle\n\nWhat has been your experience with this trend so far? Let's discuss!", "tiktok": "", "reddit": ""}, {"topic": "pod_developer_merch", "title": "How I Made $2,400 Selling Cynical AI Hoodies & Desk Mats with Zero Inventory", "filename": "content_kit_pod_developer_merch.md", "tweets": ["Tech merch usually sucks: cheesy clip art and corny puns. But when you target hyper-specific developer memes with cyberpunk aesthetics, conversion rates jump to 4.8%.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ The secret is extreme specificity: 'Heavy Canvas Automate Or Be Automated Tote' and 'Prompt Engineering Extended Desk Mat'.", "2/ Zero inventory risk: We design high-res assets with Midjourney/Flux, then connect Printful to Etsy and Shopify via Make.com.", "3/ Net profit margins average $10.00 to $16.50 per unit sold, shipped globally without ever touching a box.", "4/ Every garment uses premium ring-spun cotton and structured embroidery for high perceived value.", "5/ Automated order routing and tracking numbers eliminate 100% of customer support friction.", "Explore our automated POD line and design mockups at https://work-minh-lap.vercel.app\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "Tech merch usually sucks: cheesy clip art and corny puns. But when you target hyper-specific developer memes with cyberpunk aesthetics, conversion rates jump to 4.8%.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nThe secret is extreme specificity: 'Heavy Canvas Automate Or Be Automated Tote' and 'Prompt Engineering Extended Desk Mat'.\n\n🔹 2. The Core Problem:\nZero inventory risk: We design high-res assets with Midjourney/Flux, then connect Printful to Etsy and Shopify via Make.com.\n\n🔹 3. The Unfair Advantage:\nNet profit margins average $10.00 to $16.50 per unit sold, shipped globally without ever touching a box.\n\n💡 Bottom line:\nAutomated order routing and tracking numbers eliminate 100% of customer support friction.\n\n👉 Explore our automated POD line and design mockups at https://work-minh-lap.vercel.app\n\nWhat's the best programmer inside joke or slogan you'd actually wear on a hoodie?", "tiktok": "", "reddit": ""}, {"topic": "review_management", "title": "How Local Businesses Turn 1-Star Google Reviews into 5-Star Loyalty with AI", "filename": "content_kit_review_management.md", "tweets": ["Unanswered 1-star reviews on Google Maps destroy up to 30% of foot traffic. Here is how autonomous AI review responder workflows solve this in 5 seconds.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ 88% of consumers read reviews before choosing a local service, doctor, or restaurant.", "2/ Leaving negative reviews without prompt empathetic answers signals neglect to potential buyers.", "3/ We built ReviewGenius AI — an autonomous responder that validates customer sentiment, crafts de-escalating replies, and offers resolution vouchers in 5 seconds.", "4/ It boosts local SEO ranking factors by embedding natural keywords into positive review responses.", "5/ You can test ReviewGenius live on the web: https://work-minh-lap.vercel.app/reviewgenius", "Test ReviewGenius AI live on the web: https://work-minh-lap.vercel.app/reviewgenius\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "Unanswered 1-star reviews on Google Maps destroy up to 30% of foot traffic. Here is how autonomous AI review responder workflows solve this in 5 seconds.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\n88% of consumers read reviews before choosing a local service, doctor, or restaurant.\n\n🔹 2. The Core Problem:\nLeaving negative reviews without prompt empathetic answers signals neglect to potential buyers.\n\n🔹 3. The Unfair Advantage:\nWe built ReviewGenius AI — an autonomous responder that validates customer sentiment, crafts de-escalating replies, and offers resolution vouchers in 5 seconds.\n\n💡 Bottom line:\nYou can test ReviewGenius live on the web: https://work-minh-lap.vercel.app/reviewgenius\n\n👉 Test ReviewGenius AI live on the web: https://work-minh-lap.vercel.app/reviewgenius\n\nWhat has been your experience with this trend so far? Let's discuss!", "tiktok": "", "reddit": ""}];
+
+    function switchStudioTab(tabId, btn) {
+      document.querySelectorAll('.studio-tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.studio-panel').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(tabId).classList.add('active');
+    }
+
+    function filterShorts(week, btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const cards = document.querySelectorAll('.short-card');
+      cards.forEach(card => {
+        if (week === 'all' || card.dataset.week === week) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    function initSocialPills() {
+      const wrap = document.getElementById('topicSelector');
+      if (!wrap || !SOCIAL_KITS.length) return;
+      wrap.innerHTML = '';
+      SOCIAL_KITS.forEach((k, idx) => {
+        const pill = document.createElement('button');
+        pill.className = 'topic-pill' + (idx === 0 ? ' active' : '');
+        pill.textContent = k.topic.replace(/_/g, ' ').toUpperCase();
+        pill.onclick = () => selectTopic(idx, pill);
+        wrap.appendChild(pill);
+      });
+      renderTopicContent(0);
+    }
+
+    function selectTopic(idx, pill) {
+      document.querySelectorAll('.topic-pill').forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      renderTopicContent(idx);
+    }
+
+    function renderTopicContent(idx) {
+      const kit = SOCIAL_KITS[idx];
+      if (!kit) return;
+      document.getElementById('liContent').textContent = kit.linkedin || 'No LinkedIn post available.';
+      document.getElementById('twContent').textContent = (kit.tweets || []).join('\n\n---\n\n') || 'No tweets available.';
+      document.getElementById('ttContent').textContent = kit.tiktok || 'No TikTok script available.';
+      document.getElementById('rdContent').textContent = kit.reddit || 'No Reddit starter available.';
+    }
+
+    function copyQuad(elementId, btn) {
+      const text = document.getElementById(elementId).textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        const oldText = btn.textContent;
+        btn.textContent = '✓ Copied!';
+        btn.style.background = 'var(--emerald)';
+        btn.style.color = '#000';
+        setTimeout(() => {
+          btn.textContent = oldText;
+          btn.style.background = '';
+          btn.style.color = '';
+        }, 2000);
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initSocialPills();
+    });
+  </script>
+</body>
+</html>
