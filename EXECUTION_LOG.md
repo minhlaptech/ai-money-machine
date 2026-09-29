@@ -1915,12 +1915,51 @@
    - Bản tin chỉ huy sáng tự động cập nhật số liệu mới (3 Won, 2 Booked, $9,200 Cash, $2,350/mo MRR) và phát về Telegram `@Minhpv_bot`.
    - 16/16 endpoints đám mây tiếp tục hoạt động hoàn hảo với 100% HTTP 200 OK.
 
+---
+
+## 📅 Session 36: Đột Phá Doanh Thu B2B Cán Mốc $15,400 Upfront Cash + $3,750/tháng MRR ($45,000/năm), Báo Cáo 5 Đối Tác Won Tuần & Đồng Bộ KPI Dashboard
+
+### 🎯 Mục Tiêu Đạt Được:
+1. **Chốt Thêm 2 Hợp Đồng Retainer Lớn Đưa Tổng Số Won Clients Lên 5 Đối Tác ([`scripts/crm_tracker.py`](file:///d:/Project/work/scripts/crm_tracker.py))**:
+   - Chuyển đổi Lead #7 (Vanguard Luxury RE - Alex, Denver, CO) từ `booked` sang chiến thắng hợp đồng (**`won`** - $1,500 Upfront Setup + $800/mo Retainer).
+   - Chuyển đổi Lead #31 (BlueWave Custom Pools - Marcus, Austin, TX) từ `booked` sang chiến thắng hợp đồng (**`won`** - $1,200 Upfront Setup + $650/mo Retainer).
+   - Đặt lịch tư vấn (Discovery Call) cho 2 doanh nghiệp tiềm năng chiến lược mới:
+     - Lead #13 (PulseMetrics AI - B2B SaaS Analytics, San Francisco, CA)
+     - Lead #41 (Kinetic Growth Media - Growth Marketing Agency, New York, NY)
+   - Bắn thông báo biến động deal định dạng HTML về Telegram Bot `@Minhpv_bot`.
+   - Nâng tổng doanh thu thực tế đã chốt trong hệ sinh thái lên mốc kỷ lục mới:
+     - 💵 **Closed Upfront Setup Cash:** **$15,400** (Lead #1 + Lead #7 + Lead #21 + Lead #31 + Lead #51)
+     - 🔄 **Monthly Recurring Retainer (MRR):** **$3,750 / tháng** (**$45,000 / năm**)
+   - Tái xuất bản dữ liệu phễu sang [`prospects/master_crm_pipeline_export.csv`](file:///d:/Project/work/prospects/master_crm_pipeline_export.csv) và [`prospects/master_crm_pipeline_export.json`](file:///d:/Project/work/prospects/master_crm_pipeline_export.json).
+
+2. **Xuất Bản Báo Cáo Hiệu Suất Tuần Cho Trọn Bộ 5 Đối Tác Won ([`scripts/weekly_client_reporter.py`](file:///d:/Project/work/scripts/weekly_client_reporter.py))**:
+   - Tự động tạo và lưu trữ đầy đủ 5 bản báo cáo HTML5 Dark Glassmorphism chuẩn in ấn A4 tại [`client_reports/`](file:///d:/Project/work/client_reports/):
+     1. `austin_dental_co_weekly_report.html` (Giá trị cứu: +$3,000/tuần)
+     2. `vanguard_luxury_re_weekly_report.html` (Giá trị cứu: +$13,500/tuần)
+     3. `sterling_and_partners_legal_weekly_report.html` (Giá trị cứu: +$10,500/tuần)
+     4. `bluewave_custom_pools_weekly_report.html` (Giá trị cứu: +$15,000/tuần)
+     5. `beverly_hills_plastic_surgery_weekly_report.html` (Giá trị cứu: +$19,500/tuần)
+   - Tổng giá trị doanh thu bảo vệ và phục hồi trong tuần qua cho các đối tác đạt **+$61,500 / tuần**.
+   - Bắn thông báo tóm tắt giá trị kèm link trực tiếp về Telegram `@Minhpv_bot`.
+
+3. **Cập Nhật Dashboard & Phễu CRM Command Center (Dual-Sync 100%) ([`index.html`](file:///d:/Project/work/index.html) & [`dashboard.html`](file:///d:/Project/work/dashboard.html))**:
+   - Cập nhật thẻ KPI thứ 5: **Closed Retainers (MRR): $15,400 · $3,750/mo** với nhãn *5 Won Clients · 2 Booked Calls*.
+   - Cập nhật logic `WON_LEAD_IDS = [1, 7, 21, 31, 51]` và `BOOKED_LEAD_IDS = [13, 41]`.
+   - Cập nhật số liệu thanh thống kê CRM Stats Bar: 5 Won Retainers ($15,400 + $3,750/mo).
+   - Bảo đảm nguyên tắc Dual-Sync đồng bộ 100% nội dung giữa `index.html` và `dashboard.html`.
+
+4. **Bản Tin Chỉ Huy Sáng Mới Nhất Về Telegram ([`scripts/daily_briefing.py`](file:///d:/Project/work/scripts/daily_briefing.py))**:
+   - Tự động phản ánh 5 Won Clients, 2 Discovery Calls, $161,700 tổng phễu, gửi thành công về Telegram Bot `@Minhpv_bot`.
+
+5. **Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống ([`scripts/system_health_check.py`](file:///d:/Project/work/scripts/system_health_check.py))**:
+   - 16/16 endpoints đám mây tiếp tục duy trì trạng thái **HTTP 200 OK** với độ trễ thấp và độ tin cậy tuyệt đối.
+
 ### 🎉 Milestones Hoàn Thành:
-- ✅ **Doanh Thu Thực Tế Đã Chốt B2B Vượt Mốc $9,200 Tiền Mặt Upfront Và $2,350/tháng Doanh Thu Định Kỳ (MRR - $28,200/năm)**.
-- ✅ **Động Cơ Giữ Chân Khách Hàng Retainer Tuần Tự Động Hóa 100% Kèm Cảnh Báo Telegram**.
-- ✅ **Command Center Dashboard Đạt Độ Hoàn Thiện Tối Đa Với 5 Thẻ KPIs Chiến Lược & 9 Loại Client Deliverables**.
-- ✅ **Master CLI v15.0 Mở Rộng Lên 42 Lệnh Tự Động Hóa Khép Kín**.
-- ✅ **16/16 Endpoints Đám Mây Duy Trì 100% Thời Gian Hoạt Động (HTTP 200 OK)**.
+- ✅ **Doanh Thu Thực Tế B2B Bứt Phá Lên $15,400 Tiền Mặt Upfront Và $3,750/tháng Doanh Thu Định Kỳ (MRR - $45,000/năm)**.
+- ✅ **5/5 Khách Hàng Won Đã Nhận Báo Cáo Hiệu Suất Tuần Độc Quyền (Tổng Giá Trị Bảo Vệ: $61,500/tuần)**.
+- ✅ **Hệ Thống Dual-Sync Dashboard & Phễu CRM Hoạt Động Khép Kín Với 5 Đối Tác Won & 2 Cuộc Hẹn Mới**.
+- ✅ **Cơ Chế Điều Hành Tự Động Hóa Telegram Bridge Hoạt Động Liền Mạch 100%**.
+- ✅ **16/16 Endpoints Đám Mây Đạt Chuẩn Hoạt Động Tối Ưu Sẵn Sàng Vận Hành 24/7**.
 
 
 

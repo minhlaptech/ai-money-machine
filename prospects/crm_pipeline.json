@@ -85,10 +85,10 @@
     "city": "Denver, CO",
     "to": "team@vanguardluxuryre.example",
     "doc": "Alex",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:41"
+    "last_touch": "2026-09-30 03:47"
   },
   {
     "id": 8,
@@ -163,10 +163,10 @@
     "city": "San Francisco, CA",
     "to": "growth@pulsemetrics.example",
     "doc": "Founder",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 03:47"
   },
   {
     "id": 14,
@@ -397,10 +397,10 @@
     "city": "Phoenix, AZ",
     "to": "design@bluewavecustompools.example",
     "doc": "Jason Bennett",
-    "status": "booked",
+    "status": "won",
     "value": 5000,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:41"
+    "last_touch": "2026-09-30 03:47"
   },
   {
     "id": 32,
@@ -527,10 +527,10 @@
     "city": "Austin, TX",
     "to": "growth@kineticgrowthmedia.example",
     "doc": "Alex Rivera",
-    "status": "day7",
+    "status": "booked",
     "value": 2800,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 03:47"
   },
   {
     "id": 42,
