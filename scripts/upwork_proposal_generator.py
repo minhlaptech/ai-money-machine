@@ -72,6 +72,46 @@ PROPOSAL_TEMPLATES = {
             "Do you require role-based access for multiple team members or clients?"
         ],
         "turnaround": "5-day white-glove implementation sprint (Kickoff -> Calibration -> Testing -> Go-Live)."
+    },
+    "ai_voice_caller": {
+        "subject": "AI Voice Receptionist & Inbound/Outbound Calling Agent",
+        "hook": "Traditional voicemail loses 80% of inbound callers. I deploy conversational AI voice agents (Vapi/Bland.ai + Twilio) that answer incoming phone calls with sub-800ms latency, qualify prospects, check calendar availability, and book appointments directly.",
+        "proof": "Our AI intake systems handle real-time customer dialogues, two-way Google Calendar synchronization, and speed-to-lead SMS routing.",
+        "questions": [
+            "Do you already have a Twilio or phone number account set up, or should we provision one?",
+            "What specific FAQs or qualification criteria should the voice agent check before transferring to your team?"
+        ],
+        "turnaround": "3 to 4 business days including live phone number provisioning, prompt engineering, and test call calibration."
+    },
+    "content_repurposing": {
+        "subject": "Autonomous Multi-Platform Social Content Repurposing Engine",
+        "hook": "Repurposing long-form YouTube videos, podcasts, or blog posts manually takes 10+ hours a week. I build automated content engines that ingest your media and automatically output viral Twitter threads, LinkedIn thought leadership posts, 60-second TikTok/Shorts scripts, and Reddit community discussions.",
+        "proof": "I built and deployed an autonomous multi-platform content engine powering 10 distinct content formats across social media.",
+        "questions": [
+            "What is your primary source format (YouTube video URLs, audio podcasts, or blog articles)?",
+            "Which social media platforms do you want the final formatted copy pushed to?"
+        ],
+        "turnaround": "48 hours to build, test, and deliver your automated repurposing workflow."
+    },
+    "rag_knowledge_base": {
+        "subject": "Custom Enterprise RAG (Retrieval-Augmented Generation) & Knowledge Base",
+        "hook": "Generic ChatGPT answers don't know your company's proprietary SOPs, PDF contracts, or internal wiki. I build private RAG assistants using vector embeddings (Pinecone/Chroma/Supabase) that cite exact document pages and maintain strict factual grounding.",
+        "proof": "I specialize in grounded LLM architectures with strict context injection and anti-hallucination guardrails.",
+        "questions": [
+            "What format are your source documents in (PDFs, Notion workspaces, Google Docs, CSVs)?",
+            "Where will the assistant be accessed by your team (Slack, internal web dashboard, Discord)?"
+        ],
+        "turnaround": "4 to 6 business days including vector database setup, chunking strategy optimization, and evaluation testing."
+    },
+    "ecommerce_ai_agent": {
+        "subject": "Shopify & E-Commerce AI Sales Concierge & Cart Recovery Agent",
+        "hook": "Most online shoppers abandon carts because their sizing, shipping, or compatibility questions aren't answered instantly. I deploy proactive AI shopping concierges that recommend personalized products, answer stock questions, and trigger high-converting SMS recovery discounts.",
+        "proof": "Our e-commerce AI prototypes simulate instant order lookups, inventory checks, and checkout parameter generation.",
+        "questions": [
+            "What e-commerce platform are you running (Shopify, WooCommerce, Magento)?",
+            "Do you already have Klaviyo or an SMS provider (Twilio, Attentive) connected for checkout recovery?"
+        ],
+        "turnaround": "3 to 5 business days including product catalog ingestion, conversational testing, and tracking integration."
     }
 }
 
@@ -142,18 +182,18 @@ AI Solutions Architect | Upwork Specialist
 
 def generate_all_proposals(send_telegram=False):
     print("=" * 75)
-    print("🚀 GENERATING ALL 6 UPWORK WINNING PROPOSALS")
+    print("🚀 GENERATING ALL 10 UPWORK WINNING PROPOSALS")
     print("=" * 75)
     for k in PROPOSAL_TEMPLATES.keys():
         generate_upwork_proposal(k, send_telegram=send_telegram)
     print("-" * 75)
-    print("🎉 SUCCESS: All 6 Upwork proposals generated in projects/ai_freelancing/proposals/")
+    print("🎉 SUCCESS: All 10 Upwork proposals generated in projects/ai_freelancing/proposals/")
     print("=" * 75)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Upwork Winning Proposal Generator")
     parser.add_argument("--type", default="chatbot", choices=list(PROPOSAL_TEMPLATES.keys()), help="Job Type")
-    parser.add_argument("--all", action="store_true", help="Generate all 6 proposals at once")
+    parser.add_argument("--all", action="store_true", help="Generate all 10 proposals at once")
     parser.add_argument("--client", default="there", help="Client Name if known")
     parser.add_argument("--notes", default="", help="Custom note or requirement mentioned in job description")
     parser.add_argument("--telegram", action="store_true", help="Send proposal preview to Telegram")
