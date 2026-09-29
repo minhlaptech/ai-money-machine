@@ -36,7 +36,6 @@ MAPPINGS = [
     ("projects/affiliate_blog/website/referrals.html", "referral/index.html"),
     ("portals", "portal"),
     ("projects/youtube_faceless/studio.html", "studio/index.html"),
-    ("projects/youtube_faceless/studio.html", "studio.html"),
     ("projects/youtube_faceless/thumbnails", "studio/thumbnails"),
     ("projects/youtube_faceless/audio_episodes", "studio/audio_episodes"),
     ("projects/youtube_faceless/audio_shorts", "studio/audio_shorts"),
