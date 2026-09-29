@@ -59,10 +59,10 @@
     "city": "Phoenix, AZ",
     "to": "bids@apexroofsolar.example",
     "doc": "David",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:05"
+    "last_touch": "2026-09-30 04:07"
   },
   {
     "id": 6,
@@ -410,10 +410,10 @@
     "city": "Las Vegas, NV",
     "to": "quotes@solarmatrixepc.example",
     "doc": "Elena Hayes",
-    "status": "day7",
+    "status": "booked",
     "value": 6000,
     "retainer": 850,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:07"
   },
   {
     "id": 33,
@@ -618,10 +618,10 @@
     "city": "Miami, FL",
     "to": "engineers@devsprintstaffing.example",
     "doc": "Ricardo Silva",
-    "status": "booked",
+    "status": "won",
     "value": 3500,
     "retainer": 800,
-    "last_touch": "2026-09-30 04:05"
+    "last_touch": "2026-09-30 04:07"
   },
   {
     "id": 49,
@@ -774,9 +774,9 @@
     "city": "San Jose, CA",
     "to": "eval@thriveneurohealth.example",
     "doc": "Dr. Rachel Green",
-    "status": "day7",
+    "status": "booked",
     "value": 3000,
     "retainer": 800,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:07"
   }
 ]
