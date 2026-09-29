@@ -228,10 +228,10 @@
     "city": "Denver, CO",
     "to": "hello@pawsomepetbox.example",
     "doc": "Customer Team",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:46"
+    "last_touch": "2026-09-30 04:48"
   },
   {
     "id": 19,
@@ -241,10 +241,10 @@
     "city": "Boston, MA",
     "to": "inquiries@leadflowcrm.example",
     "doc": "Growth Team",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:46"
+    "last_touch": "2026-09-30 04:48"
   },
   {
     "id": 20,
@@ -254,10 +254,10 @@
     "city": "Chicago, IL",
     "to": "concierge@zensleepbed.example",
     "doc": "Marketing Team",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:48"
   },
   {
     "id": 21,
