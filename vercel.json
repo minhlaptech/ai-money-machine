@@ -46,6 +46,10 @@
     { "source": "/voice-ai", "destination": "/voice/index.html" },
     { "source": "/voice-demo", "destination": "/voice/index.html" },
     { "source": "/enterprise/:slug", "destination": "/enterprise_upsell_proposals/:slug_enterprise_expansion.html" },
-    { "source": "/sovereign/:slug", "destination": "/sovereign_proposals/:slug_sovereign_proposal.html" }
+    { "source": "/sovereign/:slug", "destination": "/sovereign_proposals/:slug_sovereign_proposal.html" },
+    { "source": "/syndicate", "destination": "/syndicate/index.html" },
+    { "source": "/syndicate-partner", "destination": "/syndicate/index.html" },
+    { "source": "/franchise", "destination": "/syndicate/index.html" },
+    { "source": "/syndicate/:slug", "destination": "/syndicate_proposals/:slug_syndicate_prospectus.html" }
   ]
 }
