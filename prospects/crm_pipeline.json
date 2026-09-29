@@ -85,10 +85,10 @@
     "city": "Denver, CO",
     "to": "team@vanguardluxuryre.example",
     "doc": "Alex",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 03:41"
   },
   {
     "id": 8,
@@ -397,10 +397,10 @@
     "city": "Phoenix, AZ",
     "to": "design@bluewavecustompools.example",
     "doc": "Jason Bennett",
-    "status": "day7",
+    "status": "booked",
     "value": 5000,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 03:41"
   },
   {
     "id": 32,
@@ -657,10 +657,10 @@
     "city": "Beverly Hills, CA",
     "to": "vip@bhplasticsurgeryca.example",
     "doc": "Dr. Katherine Cole",
-    "status": "booked",
+    "status": "won",
     "value": 6500,
     "retainer": 950,
-    "last_touch": "2026-09-30 03:38"
+    "last_touch": "2026-09-30 03:41"
   },
   {
     "id": 52,

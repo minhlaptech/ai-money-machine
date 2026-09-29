@@ -36,6 +36,11 @@
     { "source": "/studio/audio_shorts/:file", "destination": "/projects/youtube_faceless/audio_shorts/:file" },
     { "source": "/studio/thumbnails/:file", "destination": "/projects/youtube_faceless/thumbnails/:file" },
     { "source": "/thumbnails/:file", "destination": "/projects/youtube_faceless/thumbnails/:file" },
-    { "source": "/downloads/:file", "destination": "/projects/affiliate_blog/website/downloads/:file" }
+    { "source": "/downloads/:file", "destination": "/projects/affiliate_blog/website/downloads/:file" },
+    { "source": "/weekly-report/:slug", "destination": "/client_reports/:slug_weekly_report.html" },
+    { "source": "/reports/:slug", "destination": "/reports/:slug_roi_report.html" },
+    { "source": "/agreements/:slug", "destination": "/agreements/:slug_agreement.html" },
+    { "source": "/invoices/:slug", "destination": "/invoices/:slug_invoice.html" },
+    { "source": "/sandboxes/:slug", "destination": "/sandboxes/:slug_sandbox.html" }
   ]
 }
