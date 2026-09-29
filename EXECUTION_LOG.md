@@ -751,3 +751,45 @@
   - Bổ sung tùy chọn `[8] 📊 Tạo Báo Cáo Đo Lường ROI Hàng Tháng Khách Hàng (Monthly ROI Report)`
   - Hỗ trợ thao tác 1 chạm cho cả khách hàng đơn lẻ và toàn bộ 30 leads.
 
+---
+
+## 📅 2026-09-29 | Phiên #29 | Bộ Trình Chiếu Chốt Sale Tương Tác (30 Sales Pitch Decks), Bộ 7 Deliverables B2B CRM, Nâng Cấp Outreach Engine & Master CLI v4.5
+
+### 🎉 Milestones Hoàn Thành:
+- ✅ **Bộ Sinh Slide Trình Chiếu Bán Hàng Tương Tác Cho Cuộc Gọi Demo ([scripts/generate_client_pitch_deck.py](file:///d:/Project/work/scripts/generate_client_pitch_deck.py))**:
+  - Xây dựng công cụ chuyên dụng tự động tạo bộ Slide thuyết trình tương tác HTML5 10 slide (`pitches/{slug}_pitch.html`) chuẩn tỷ lệ 16:9, tối ưu cho các cuộc gọi chốt hợp đồng qua Zoom / Google Meet.
+  - Thiết kế Dark Glassmorphism sang trọng với hiệu ứng chuyển trang mượt mà, hỗ trợ phím mũi tên / phím cách / phím PageUp/PageDown / phím Home/End và chế độ toàn màn hình (`F`).
+  - **Tích Hợp Kịch Bản Thoại Cho Người Thuyết Trình (Speaker Notes Drawer - Phím `N`)**:
+    - Hiển thị từng lời thoại mở đầu (Verbal Hook), câu hỏi thăm dò (Probing Question), giải thích giá trị và cách xử lý từ chối (Objection Handling) tương ứng cho từng slide cụ thể.
+  - Cấu trúc 10 Slide chiến lược:
+    1. `Slide 1`: Tổng quan kiến trúc tiếp nhận khách hàng 24/7 dành riêng cho đối tác.
+    2. `Slide 2`: Điểm mù ngoài giờ (The After-Hours Bleed) & lượng hóa doanh thu thất thoát (~${lost*val}/tháng).
+    3. `Slide 3`: Khoa học tốc độ phản hồi (Speed-to-Lead Economics) — 28 giây vs sáng hôm sau (Tăng 391% tỷ lệ chốt).
+    4. `Slide 4`: Trình diễn trực tiếp với nút kích hoạt Live Sandbox riêng của khách hàng.
+    5. `Slide 5`: Lộ trình triển khai 5 ngày (5-Day White-Glove Sprint) — Khách chỉ mất dưới 30 phút tham gia.
+    6. `Slide 6`: An toàn dữ liệu & Quyền sở hữu trí tuệ tuyệt đối (Zero training on public AI, SOC2/HIPAA).
+    7. `Slide 7`: Bài toán đầu tư & Dự phóng ROI vượt trội ($1,850 đầu tư vs $13,500+ thu hồi, ROI >1,900%).
+    8. `Slide 8`: Cam kết đảo ngược rủi ro (30-Day Bug-Free Warranty & Hoàn tiền nếu không thu hút ít nhất 3 lịch hẹn).
+    9. `Slide 9`: Trình bày và ký kết Hợp đồng dịch vụ MSA trực tuyến ngay trên màn hình chia sẻ.
+    10. `Slide 10`: Kích hoạt dự án ngay lập tức với thanh 5 nút hành động trực tiếp.
+- ✅ **Xuất Trọn Bộ 30 Sales Pitch Decks Riêng Biệt ([pitches/](file:///d:/Project/work/pitches/))**:
+  - Đã xuất bản thành công 30 file trình chiếu HTML5 cá nhân hóa cho từng doanh nghiệp trong danh sách leads.
+- ✅ **Nâng Cấp Kho Vũ Khí Thành Bộ 7 Deliverables B2B Trên CRM Dashboard ([dashboard.html](file:///d:/Project/work/dashboard.html) & [index.html](file:///d:/Project/work/index.html))**:
+  - Bổ sung nút **`🎯 Pitch`** trực tiếp trong cột "Client Deliverables" của bảng quản lý phễu CRM, tạo thành chuỗi 7 vũ khí liền mạch:
+    1. `📄 Proposal` — Bản đề xuất & kiểm toán chuyên sâu
+    2. `🎯 Pitch` — Bộ trình chiếu bán hàng tương tác 10 slide
+    3. `🧪 Sandbox` — Môi trường thử nghiệm AI trực tiếp có thương hiệu
+    4. `📑 Contract` — Hợp đồng dịch vụ MSA kèm bảng chữ ký số
+    5. `💳 Invoice` — Hóa đơn thanh toán $1,850 đa cổng
+    6. `📊 ROI` — Báo cáo đo lường hiệu suất định kỳ chứng minh giá trị
+    7. `🚀 Intake` — Cổng tiếp nhận thông tin khách hàng điền sẵn
+- ✅ **Đồng Bộ Kịch Bản Tự Động Hóa Dashboard ([scripts/update_dashboard_multitouch.py](file:///d:/Project/work/scripts/update_dashboard_multitouch.py))**:
+  - Tích hợp biến `pitchLink` và nút `🎯 Pitch` trong template JavaScript của kịch bản cập nhật.
+- ✅ **Nâng Cấp Động Cơ Outreach Dispatcher Hợp Nhất ([scripts/outreach_dispatcher.py](file:///d:/Project/work/scripts/outreach_dispatcher.py))**:
+  - Mở rộng hỗ trợ toàn bộ 30 leads trên cả 3 Batch (SMB, E-Com, High-Ticket).
+  - Tự động hóa tạo liên kết `mailto:` và nội dung email chuẩn xác cho cả 3 giai đoạn (Day 1 Hook, Day 3 ROI, Day 7 Break-Up) kèm link Live Sandbox và Custom ROI Report.
+- ✅ **Nâng Cấp Master Command Center CLI Lên Phiên Bản v4.5 với 18 Lệnh Điều Hành ([scripts/ai_empire_cli.py](file:///d:/Project/work/scripts/ai_empire_cli.py))**:
+  - Bổ sung `[5] 🖥️ Tạo Bộ Trình Chiếu Chốt Sale Tương Tác (10-Slide Sales Pitch Deck)`
+  - Bổ sung `[10] 📬 Điều Hướng Chiến Dịch Cold Outreach Đa Chạm (Multi-Touch Outreach Dispatcher)`
+
+
