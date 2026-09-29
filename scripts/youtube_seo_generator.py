@@ -104,6 +104,35 @@ VIDEO_METADATA_PRESETS = {
             "tech merchandise", "programmer hoodie", "ai art for commercial use", "etsy digital store"
         ],
         "pinned_comment": "👕 Download our complete Print-on-Demand listing generator & prompt guide inside our free resource vault: https://ai-automation-guide-omega.vercel.app\n\nGrab the 16,000-word launch blueprint eBook: https://minhlap.gumroad.com/l/xqckmu\n\nWhich niche are you building for: Tech, Gaming, or Fitness? Drop a comment below! 👇"
+    },
+    "video_008": {
+        "title": "How to Make $5,000/Month as an AI Freelancer in 2026 (Zero Prior Experience)",
+        "alt_titles": [
+            "The 2026 AI Freelancing Blueprint: From $0 to $5,000/Month",
+            "How to Charge $95/Hour on Upwork as an AI Automation Architect",
+            "Make $5,000/Mo Freelancing with AI (No Coding, No Degree Needed)"
+        ],
+        "timestamps": [
+            "00:00 - The $5,000/Month Freelancing Shift in 2026",
+            "01:50 - Step 1: The 3 Highest-Paying AI Services in Demand",
+            "04:30 - Step 2: The Proof-First Profile Setup on Upwork & Fiverr",
+            "07:15 - Step 3: Landing Your First 3 Clients Without Reviews",
+            "10:00 - Step 4: The 40% Interview Rate Cover Letter Formula",
+            "12:30 - Step 5: Escalating from Hourly to Recurring Retainers",
+            "14:20 - Free Freelancing Starter Kit & Tools"
+        ],
+        "links": [
+            ("💼 Upwork Mastery Kit & Cover Letter Templates", "https://ai-automation-guide-omega.vercel.app"),
+            ("🤖 Interactive Chatbot Portfolio Demo", "https://chatbotdemo-hazel.vercel.app"),
+            ("📖 The AI Money Blueprint eBook", "https://minhlap.gumroad.com/l/xqckmu"),
+            ("🎁 The AI Empire Master Bundle ($39)", "https://minhlap.lemonsqueezy.com")
+        ],
+        "tags": [
+            "ai freelancing", "make money on upwork with ai", "ai automation freelancer", "freelancing in 2026",
+            "fiverr ai gigs", "how to freelance with ai", "make.com freelancer", "ai agency freelancer",
+            "upwork cover letter 2026", "high paying remote jobs", "chatgpt side hustle", "remote freelance work"
+        ],
+        "pinned_comment": "💼 Download our Upwork Mastery Kit and 5 winning proposal templates inside our free resource vault: https://ai-automation-guide-omega.vercel.app\n\nGrab the 16,000-word launch blueprint eBook: https://minhlap.gumroad.com/l/xqckmu\n\nWhat hourly rate are you aiming for: $50/hr, $75/hr, or $100+/hr? Let's discuss below! 👇"
     }
 }
 
@@ -170,6 +199,6 @@ In this video, I break down the exact step-by-step roadmap to start your own AI 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="YouTube SEO & Metadata Package Generator")
-    parser.add_argument("--video", default="video_007", choices=["video_005", "video_006", "video_007"], help="Video ID")
+    parser.add_argument("--video", default="video_008", choices=["video_005", "video_006", "video_007", "video_008"], help="Video ID")
     args = parser.parse_args()
     generate_youtube_metadata(args.video)
