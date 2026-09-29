@@ -60,3 +60,60 @@ Morning espresso, late-night hackathons, desk decor, and the ultimate tech works
 ```
 
 - **Tags / Keywords:** `ai coffee mug`, `neural network mug`, `data science gift`, `machine learning`, `artificial intelligence desk decor`, `tech mug`
+
+---
+
+# 🧥 SẢN PHẨM 3: ÁO HOODIE "PROMPT ENGINEER: I SPEAK FLUENTLY TO MACHINES"
+
+### 📌 Thông tin listing:
+- **Title:** `Prompt Engineer Streetwear Hoodie | AI Whisperer ChatGPT Coder Unisex Heavyweight Pullover`
+- **Category:** `Apparel > Unisex Hoodies & Sweatshirts`
+- **Price đề xuất:** `$44.99`
+  - *Base cost (Printify Gildan 18500 / Lane Seven):* ~$21.50
+  - *Lợi nhuận ròng:* **~$23.49 / áo**
+
+### 📝 Description:
+```text
+The official uniform of the Generative AI revolution.
+
+Whether you're crafting system prompts for LLMs, generating Midjourney masterworks, or orchestrating autonomous AI agents, wear your title with pride: "Prompt Engineer — I Speak Fluently to Machines."
+
+✨ PRODUCT DETAILS:
+• Heavyweight 50/50 cotton-poly fleece blend (8.0 oz/yd²)
+• Ultra-warm brushed interior with double-lined hood and matching drawstrings
+• Front pouch kangaroo pocket with reinforced seams
+• 1x1 athletic rib-knit cuffs and waistband with spandex
+• Fade-resistant digital apparel print
+
+🎁 GIFT FOR:
+AI builders, prompt engineers, prompt designers, tech founders, and digital futurists.
+```
+
+- **Tags / Keywords:** `prompt engineer hoodie`, `chatgpt pullover`, `ai enthusiast clothing`, `tech streetwear`, `coder sweatshirt`, `machine learning hoodie`
+
+---
+
+# 👜 SẢN PHẨM 4: TÚI TOTE CANVAS "AI VS NATURAL STUPIDITY"
+
+### 📌 Thông tin listing:
+- **Title:** `Artificial Intelligence vs Natural Stupidity Heavy Canvas Tote Bag | Tech Satire Eco Bag`
+- **Category:** `Accessories > Bags > Tote Bags`
+- **Price đề xuất:** `$19.99`
+  - *Base cost (Printify Eco Canvas Tote):* ~$7.20
+  - *Lợi nhuận ròng:* **~$12.79 / túi**
+
+### 📝 Description:
+```text
+"The real danger is not that computers will begin to think like men, but that men will begin to think like computers."
+
+A witty, minimalist quote design for people who love AI but keep a healthy sense of humor about humanity. High-contrast typography printed on durable 100% natural organic cotton canvas.
+
+✨ PRODUCT DETAILS:
+• 100% heavy-duty natural cotton canvas (10 oz/yd²)
+• Reinforced long shoulder handles for comfortable everyday carry
+• Spacious main compartment fits 15" laptops, books, groceries, and tech gear
+• Machine washable and reusable eco-friendly alternative to plastic bags
+```
+
+- **Tags / Keywords:** `tech tote bag`, `ai quote bag`, `developer canvas tote`, `geek eco bag`, `computer science gift`, `minimalist typography tote`
+
