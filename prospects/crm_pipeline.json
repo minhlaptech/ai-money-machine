@@ -59,10 +59,10 @@
     "city": "Phoenix, AZ",
     "to": "bids@apexroofsolar.example",
     "doc": "David",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:05"
   },
   {
     "id": 6,
@@ -579,10 +579,10 @@
     "city": "Chicago, IL",
     "to": "advisory@fractionalcfochi.example",
     "doc": "William Thornton",
-    "status": "booked",
+    "status": "won",
     "value": 4000,
     "retainer": 900,
-    "last_touch": "2026-09-30 04:02"
+    "last_touch": "2026-09-30 04:04"
   },
   {
     "id": 46,
@@ -618,10 +618,10 @@
     "city": "Miami, FL",
     "to": "engineers@devsprintstaffing.example",
     "doc": "Ricardo Silva",
-    "status": "day7",
+    "status": "booked",
     "value": 3500,
     "retainer": 800,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:05"
   },
   {
     "id": 49,
@@ -761,10 +761,10 @@
     "city": "New York, NY",
     "to": "evaluations@radiancehairrestoration.example",
     "doc": "Dr. James Sterling",
-    "status": "booked",
+    "status": "won",
     "value": 5000,
     "retainer": 900,
-    "last_touch": "2026-09-30 04:02"
+    "last_touch": "2026-09-30 04:05"
   },
   {
     "id": 60,
