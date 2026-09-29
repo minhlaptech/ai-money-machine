@@ -130,22 +130,18 @@ def send_telegram_alert(lead, old_status, new_status):
     msg += f"🧪 <a href='https://work-minh-lap.vercel.app/sandboxes/{slug}_sandbox.html'>Live Sandbox</a>\n"
 
     try:
-        import subprocess
-        payload_file = ROOT_DIR / "temp_tg_crm.json"
-        payload_file.write_text(json.dumps({"chat_id": chat_id, "text": msg, "parse_mode": "HTML"}, ensure_ascii=False), encoding="utf-8")
-        res = subprocess.run(
-            ["curl.exe", "-s", "--connect-timeout", "10", "--max-time", "20", "-X", "POST",
-             "-H", "Content-Type: application/json; charset=utf-8",
-             "-d", f"@{payload_file.name}",
-             f"https://api.telegram.org/bot{bot_token}/sendMessage"],
-            capture_output=True, text=True, timeout=22, cwd=str(ROOT_DIR)
+        import urllib.request
+        payload_data = json.dumps({"chat_id": chat_id, "text": msg, "parse_mode": "HTML"}, ensure_ascii=False).encode("utf-8")
+        req = urllib.request.Request(
+            f"https://api.telegram.org/bot{bot_token}/sendMessage",
+            headers={"Content-Type": "application/json; charset=utf-8"},
+            data=payload_data
         )
-        if payload_file.exists():
-            payload_file.unlink()
-        if '"ok":true' in res.stdout:
-            print("[✓] Dispatched CRM update alert to Telegram (@Minhpv_bot)!")
-        else:
-            print(f"[!] Telegram alert notice: {res.stdout[:100]}")
+        with urllib.request.urlopen(req, timeout=15) as r:
+            if r.status == 200:
+                print("[✓] Dispatched CRM update alert to Telegram (@Minhpv_bot)!")
+            else:
+                print(f"[!] Telegram alert notice: status {r.status}")
     except Exception as e:
         print(f"[!] Telegram notification error: {e}")
 

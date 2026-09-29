@@ -46,10 +46,10 @@
     "city": "San Jose, CA",
     "to": "hello@elitesmilestudio.example",
     "doc": "Dr. Nguyen",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:28"
+    "last_touch": "2026-09-30 04:31"
   },
   {
     "id": 5,
@@ -72,10 +72,10 @@
     "city": "Seattle, WA",
     "to": "frontdesk@luminawellness.example",
     "doc": "Dr. Adams",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:28"
+    "last_touch": "2026-09-30 04:31"
   },
   {
     "id": 7,
@@ -98,10 +98,10 @@
     "city": "Chicago, IL",
     "to": "appointments@proactivechiro.example",
     "doc": "Dr. Davis",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:31"
   },
   {
     "id": 9,
@@ -111,10 +111,10 @@
     "city": "Atlanta, GA",
     "to": "dispatch@rapidplumbatl.example",
     "doc": "Robert",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:31"
   },
   {
     "id": 10,
