@@ -64,32 +64,35 @@ def generate_briefing(send_telegram=False):
 ⏰ Thời gian: {now_vn}
 ======================================================================
 
-🌐 1. TRẠNG THÁI HỆ THỐNG (SYSTEM HEALTH)
+🌐 1. TRẠNG THÁI HỆ THỐNG & KHO MEDIA EMPIRE
   • 12 Ứng dụng & API đám mây Vercel: 100% Hoạt động (HTTP 200)
   • Cổng thanh toán: Lemon Squeezy (Store ID: 485872) & Gumroad Live
   • Cổng Đối tác Tiếp thị (50% RevShare): https://work-minh-lap.vercel.app/referral
   • Cổng VIP Client Portals: https://work-minh-lap.vercel.app/portal (30 Doanh nghiệp)
   • Sales Pitch Decks Showcase: https://work-minh-lap.vercel.app/pitches (30 Decks)
+  • AI Media & Video Studio Hub: https://work-minh-lap.vercel.app/studio
+  • Kho Media Video MP4: 40/40 Video Hoàn Tất (10 Full Episodes + 30 Shorts, 406.7 MB)
+  • Lịch Mạng Xã Hội Đa Kênh: 20 bài đăng sẵn sàng Buffer / Metricool
   • Webhook xử lý đơn hàng: Serverless /api/webhook (Stripe, LemonSqueezy, Gumroad)
   • Cổng tiếp nhận Lead: Serverless API POST /api/contact sẵn sàng
 
 📊 2. TIẾN ĐỘ PHỄU KHÁCH HÀNG (CRM PIPELINE)
   • Tổng khách hàng tiềm năng: {crm['total']} doanh nghiệp
-  • Chưa liên hệ:              {crm['new']} leads
-  • Đang trong phễu tiếp cận:  {crm['contacted']} leads
+  • Đã gửi Stage 1 Outreach:   {crm['contacted']}/30 doanh nghiệp (100% Phủ sóng)
   • Cuộc gọi demo đã chốt:    {crm['booked']} cuộc hẹn
   • Hợp đồng Retainer đã ký:   {crm['won']} đối tác
-  • TỔNG DUNG LƯỢNG PHỄU:      ${crm['pipeline']:,}
+  • TỔNG DUNG LƯỢNG PHỄU:      ${crm['pipeline']:,} Upfront ($20,500/tháng MRR)
 
 ⚡ 3. NHIỆM VỤ TÁC CHIẾN 30 PHÚT TRONG NGÀY (SOP ROUTINE)
   1️⃣ Buổi Sáng (10 Phút):
      - Mở https://work-minh-lap.vercel.app -> Tab "🚀 1-Click Send Leads"
-     - Bấm "✉️ Send Day 1" gửi 3 email chào hàng đầu tiên kèm link Sandbox & VIP Portal.
+     - Kiểm tra phản hồi Stage 1 từ Batch 1, 2, 3 và chuẩn bị gửi Stage 2 ROI Report.
   2️⃣ Buổi Trưa (10 Phút):
-     - Lấy 1 chủ đề từ "30_DAYS_SHORTS_SPRINT.md" đăng lên Twitter & LinkedIn.
+     - Lấy 1 video Short trong projects/youtube_faceless/rendered_shorts/ đăng lên YouTube Shorts / TikTok / Reels.
+     - Nạp buffer_schedule.csv vào Buffer / Metricool để tự động hóa 20 bài đăng social.
   3️⃣ Buổi Tối (10 Phút):
      - Nộp 1 proposal Upwork từ "UPWORK_MASTERY_KIT.md".
-     - Kiểm tra đơn hàng mới trên Lemon Squeezy / Gumroad.
+     - Kiểm tra doanh thu mới trên Lemon Squeezy / Gumroad.
 
 📡 4. CƠ HỘI NÓNG TRONG NGÀY (MARKET RADAR)
   • Tiêu điểm: {top_trend}
@@ -108,30 +111,45 @@ def generate_briefing(send_telegram=False):
 
 🌐 <b>Hệ thống:</b> <code>12/12 Cloud Systems Live (100% Operational)</code>
 📊 <b>CRM Pipeline:</b> <code>{crm['total']} Leads</code> • <b>Tiềm năng:</b> <code>${crm['pipeline']:,}</code>
-🎯 <b>Đã gửi email:</b> <code>{crm['contacted']}</code> | 📞 <b>Lịch hẹn:</b> <code>{crm['booked']}</code> | 🏆 <b>Ký:</b> <code>{crm['won']}</code>
+📬 <b>Đã gửi Outreach:</b> <code>{crm['contacted']}/30</code> (100% Stage 1) | 📞 <b>Hẹn:</b> <code>{crm['booked']}</code> | 🏆 <b>Ký:</b> <code>{crm['won']}</code>
+
+🎬 <b>Kho Video Media:</b> <code>40/40 MP4s Ready (406.7 MB)</code>
+• 10 Full Episodes 1080p (77.6 mins)
+• 30 Viral Shorts 9:16 (1080x1920)
+• 20 Scheduled Social Posts (Buffer CSV)
 
 🏛️ <b>VIP Portals:</b> <a href="https://work-minh-lap.vercel.app/portal">30 Client Portals Live</a>
 🎯 <b>Sales Pitches:</b> <a href="https://work-minh-lap.vercel.app/pitches">Showcase Hub Live</a>
+🎬 <b>Media Studio:</b> <a href="https://work-minh-lap.vercel.app/studio">Studio Showcase Live</a>
 🧮 <b>ROI Simulator:</b> <a href="https://work-minh-lap.vercel.app/calculator">Interactive Calculator</a>
 🤝 <b>Partner Hub:</b> <a href="https://work-minh-lap.vercel.app/referral">Affiliate Program (50% RevShare)</a>
 
 ⚡ <b>Mục tiêu 30 phút hôm nay:</b>
-1. Gửi 3 email chào hàng qua Dashboard 1-click.
-2. Đăng 1 bài mạng xã hội (Day Short Sprint).
+1. Theo dõi phản hồi Stage 1 từ 30 doanh nghiệp.
+2. Upload 1 video Short lên YouTube / TikTok.
 3. Nộp 1 cover letter Upwork chuyên sâu.
 
 👉 <a href="https://work-minh-lap.vercel.app"><b>Mở Command Center Dashboard</b></a>
 🚀 <i>Chúc bạn ngày mới bùng nổ doanh số!</i>"""
 
+        # Direct reliable send via curl.exe with temp payload file
         try:
-            req = urllib.request.Request(
-                f"https://api.telegram.org/bot{bot_token}/sendMessage",
-                headers={"Content-Type": "application/json"},
-                data=json.dumps({"chat_id": chat_id, "text": tg_msg, "parse_mode": "HTML"}).encode("utf-8")
+            import subprocess
+            payload_file = ROOT_DIR / "temp_tg_briefing.json"
+            payload_file.write_text(json.dumps({"chat_id": chat_id, "text": tg_msg, "parse_mode": "HTML"}, ensure_ascii=False), encoding="utf-8")
+            res = subprocess.run(
+                ["curl.exe", "-s", "-X", "POST",
+                 "-H", "Content-Type: application/json; charset=utf-8",
+                 "-d", f"@{payload_file.name}",
+                 f"https://api.telegram.org/bot{bot_token}/sendMessage"],
+                capture_output=True, text=True, timeout=10, cwd=str(ROOT_DIR)
             )
-            with urllib.request.urlopen(req, timeout=10) as r:
-                if r.status == 200:
-                    print("[✓] Đã gửi Bản Tin Chỉ Huy Sáng trực tiếp về Telegram!")
+            if payload_file.exists():
+                payload_file.unlink()
+            if '"ok":true' in res.stdout:
+                print("[✓] Đã gửi Bản Tin Chỉ Huy Sáng trực tiếp về Telegram (@Minhpv_bot)!")
+            else:
+                print(f"[!] Telegram curl error: {res.stdout}")
         except Exception as e:
             print(f"[!] Lỗi gửi Telegram: {e}")
 

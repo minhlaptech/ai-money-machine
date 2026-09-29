@@ -1,5 +1,5 @@
 # 👕 Print-on-Demand Ready-to-Publish Listing: MUG_AI_BRAIN
-> **Tạo lúc**: 2026-09-29 23:56:02  
+> **Tạo lúc**: 2026-09-30 01:50:55  
 > **Ngách mục tiêu**: `Data Scientists, AI Researchers, Tech Enthusiasts`  
 > **Tệp thiết kế / Mockup**: `projects/print_on_demand/designs/mug_ai_circuit_brain.jpg`
 

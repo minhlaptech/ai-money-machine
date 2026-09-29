@@ -17,6 +17,9 @@ if sys.stdout.encoding != 'utf-8':
     except Exception:
         pass
 
+ROOT_DIR = Path(__file__).resolve().parent.parent
+POD_DIR = ROOT_DIR / "projects" / "print_on_demand"
+
 POD_PRODUCTS_CONFIG = {
     "hoodie_coffee_llms": {
         "title": "Powered by Coffee & LLMs Heavyweight Hoodie | Cyberpunk AI Developer Sweatshirt",
@@ -204,16 +207,49 @@ SHIPPING & PROCESSING:
     print(f"[✓] Created POD listing package: {out_file} (Net profit: ${gross_profit:.2f}/item)")
     return out_file
 
+def export_pod_csv():
+    """Export standard bulk CSV for Etsy / Shopify / Printful"""
+    import csv
+    csv_file = POD_DIR / "pod_catalog_bulk_upload.csv"
+    
+    with open(csv_file, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow([
+            "Handle", "Title", "Niche", "Retail_Price_USD", "Printify_Cost_USD", 
+            "Shipping_Est_USD", "Net_Profit_USD", "Margin_Percent", 
+            "Etsy_Tags", "Mockup_Image", "Status"
+        ])
+        for key, p in POD_PRODUCTS_CONFIG.items():
+            net = p["retail_price"] - p["printify_cost"] - p["shipping_est"]
+            margin = (net / p["retail_price"]) * 100
+            tags = ", ".join(p["etsy_tags"])
+            writer.writerow([
+                key,
+                p["title"],
+                p["niche"],
+                f"{p['retail_price']:.2f}",
+                f"{p['printify_cost']:.2f}",
+                f"{p['shipping_est']:.2f}",
+                f"{net:.2f}",
+                f"{margin:.1f}%",
+                tags,
+                p["mockup"],
+                "Active"
+            ])
+    print(f"[✓] Exported POD bulk upload CSV: {csv_file}")
+    return csv_file
+
 def send_telegram_pod_digest():
-    import urllib.request
     import json
+    import subprocess
     bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "7756122540:AAErx-TV78dUcB0ch7IlZW10R0nIpt1pBhU")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID", "1624883046")
 
     lines = [
         "👕 <b>[POD MERCH PIPELINE EXPANDED (6 PRODUCTS)]</b>",
         f"📅 <b>Updated:</b> {datetime.now().strftime('%Y-%m-%d %H:%M')}",
-        "🏭 <b>Fulfillment Engine:</b> Printify + Etsy / Redbubble",
+        "🏭 <b>Fulfillment Engine:</b> Printify + Etsy / Shopify / Redbubble",
+        "📄 <b>Bulk CSV Export:</b> <code>projects/print_on_demand/pod_catalog_bulk_upload.csv</code>",
         "",
         "<b>Catalog & Profit Margins:</b>"
     ]
@@ -226,18 +262,25 @@ def send_telegram_pod_digest():
         lines.append(f"• <b>{p['title'][:38]}...</b>\n  Retail: <code>${p['retail_price']:.2f}</code> | Cost: <code>${p['printify_cost']:.2f}</code> | <b>Profit: ${net:.2f} ({margin:.0f}%)</b>")
 
     lines.append(f"\n💰 <b>Avg Profit / Bundle:</b> <code>${total_net:.2f}</code>")
-    lines.append("📁 <i>Listings & mockups stored in projects/print_on_demand/</i>")
+    lines.append("📁 <i>Listings, bulk CSV & mockups stored in projects/print_on_demand/</i>")
 
     msg = "\n".join(lines)
     try:
-        req = urllib.request.Request(
-            f"https://api.telegram.org/bot${bot_token}/sendMessage",
-            headers={"Content-Type": "application/json"},
-            data=json.dumps({"chat_id": chat_id, "text": msg, "parse_mode": "HTML"}).encode("utf-8")
+        payload_file = ROOT_DIR / "temp_tg_pod.json"
+        payload_file.write_text(json.dumps({"chat_id": chat_id, "text": msg, "parse_mode": "HTML"}, ensure_ascii=False), encoding="utf-8")
+        res = subprocess.run(
+            ["curl.exe", "-s", "-X", "POST",
+             "-H", "Content-Type: application/json; charset=utf-8",
+             "-d", f"@{payload_file.name}",
+             f"https://api.telegram.org/bot{bot_token}/sendMessage"],
+            capture_output=True, text=True, timeout=10, cwd=str(ROOT_DIR)
         )
-        with urllib.request.urlopen(req, timeout=10) as r:
-            if r.status == 200:
-                print("[✓] Dispatched POD Catalog Digest to Telegram (@Minhpv_bot)!")
+        if payload_file.exists():
+            payload_file.unlink()
+        if '"ok":true' in res.stdout:
+            print("[✓] Dispatched POD Catalog Digest to Telegram (@Minhpv_bot)!")
+        else:
+            print(f"[!] Telegram alert error: {res.stdout}")
     except Exception as e:
         print(f"[!] Telegram notification error: {e}")
 
@@ -246,13 +289,17 @@ if __name__ == "__main__":
     parser.add_argument("--item", choices=list(POD_PRODUCTS_CONFIG.keys()), help="Product key")
     parser.add_argument("--all", action="store_true", help="Generate all 6 POD listings")
     parser.add_argument("--telegram", action="store_true", help="Send catalog digest to Telegram")
+    parser.add_argument("--export-csv", action="store_true", help="Export bulk upload CSV")
     args = parser.parse_args()
 
     if args.all or not args.item:
         for k in POD_PRODUCTS_CONFIG.keys():
             generate_pod_listing(k)
+        export_pod_csv()
     else:
         generate_pod_listing(args.item)
+        if args.export_csv:
+            export_pod_csv()
 
     if args.telegram:
         send_telegram_pod_digest()
