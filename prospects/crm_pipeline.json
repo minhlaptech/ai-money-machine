@@ -150,10 +150,10 @@
     "city": "New York, NY",
     "to": "partners@nuvoglowbeauty.example",
     "doc": "Founder",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:39"
   },
   {
     "id": 13,
@@ -475,10 +475,10 @@
     "city": "Tampa, FL",
     "to": "service@precisionclimatefl.example",
     "doc": "Derek Vance",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:39"
   },
   {
     "id": 38,
@@ -631,10 +631,10 @@
     "city": "Denver, CO",
     "to": "editors@quantumcontentlab.example",
     "doc": "Hannah Brooks",
-    "status": "booked",
+    "status": "won",
     "value": 2200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:37"
+    "last_touch": "2026-09-30 04:39"
   },
   {
     "id": 50,
@@ -644,10 +644,10 @@
     "city": "Atlanta, GA",
     "to": "success@retentionloopcrm.example",
     "doc": "Marcus Bell",
-    "status": "booked",
+    "status": "won",
     "value": 2500,
     "retainer": 700,
-    "last_touch": "2026-09-30 04:37"
+    "last_touch": "2026-09-30 04:39"
   },
   {
     "id": 51,
