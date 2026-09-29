@@ -98,10 +98,10 @@
     "city": "Chicago, IL",
     "to": "appointments@proactivechiro.example",
     "doc": "Dr. Davis",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:31"
+    "last_touch": "2026-09-30 04:33"
   },
   {
     "id": 9,
@@ -111,10 +111,10 @@
     "city": "Atlanta, GA",
     "to": "dispatch@rapidplumbatl.example",
     "doc": "Robert",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:31"
+    "last_touch": "2026-09-30 04:33"
   },
   {
     "id": 10,
@@ -124,10 +124,10 @@
     "city": "Palo Alto, CA",
     "to": "support@svskinlab.example",
     "doc": "Dr. Patel",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:33"
   },
   {
     "id": 11,
@@ -449,10 +449,10 @@
     "city": "Salt Lake City, UT",
     "to": "inquiries@sierravistalandscape.example",
     "doc": "Chloe Davies",
-    "status": "day7",
+    "status": "booked",
     "value": 3500,
     "retainer": 700,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:33"
   },
   {
     "id": 36,
