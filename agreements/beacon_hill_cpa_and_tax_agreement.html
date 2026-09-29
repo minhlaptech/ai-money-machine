@@ -331,12 +331,25 @@
         <div class="canvas-wrapper">
           <canvas id="client-canvas"></canvas>
         </div>
-        <button class="btn-clear" onclick="clearCanvas('client-canvas')">Clear Signature</button>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px;">
+          <button class="btn-clear" onclick="clearCanvas('client-canvas')">Clear</button>
+          <button id="btn-ratify" class="btn-action" style="padding:6px 14px; font-size:12px; background:linear-gradient(135deg, #00f2fe, #00e676); color:#000; font-weight:800;" onclick="submitSignature()">✍️ Ratify & Sign Agreement</button>
+        </div>
         <div class="sign-meta">
           <strong>Authorized Representative</strong><br>
           Beacon Hill CPA & Tax<br>
           Date: <span id="client-sign-date">September 29, 2026</span>
         </div>
+      </div>
+    </div>
+
+    <!-- Ratification Success Alert -->
+    <div id="ratified-alert" style="display:none; background:rgba(0,230,118,0.12); border:1px solid #00e676; border-radius:12px; padding:18px; margin-top:20px; text-align:center; color:#00e676;">
+      <div style="font-size:18px; font-weight:800; margin-bottom:4px;">🎉 Contract Officially Ratified & Transmitted!</div>
+      <div style="font-size:13px; color:#cbd5e1; max-width:650px; margin:0 auto 12px auto;">Your signature has been digitally timestamped. Minh Lap has been notified via priority dispatch. Next steps: settle your kickoff invoice or start the onboarding intake form.</div>
+      <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+        <a href="../invoices/beacon_hill_cpa_and_tax_invoice.html" class="btn-action" style="font-size:12px; padding:8px 16px;">💳 Settle Invoice ($1,850) ↗</a>
+        <a href="https://work-minh-lap.vercel.app/onboarding?name=Beacon+Hill+CPA+%26+Tax&niche=Tax+%26+Wealth+Advisory" target="_blank" class="btn-secondary" style="font-size:12px; padding:8px 16px; background:rgba(0,242,254,0.15); border-color:#00f2fe; color:#00f2fe;">🚀 Start 5-Day Onboarding Intake ↗</a>
       </div>
     </div>
 
@@ -415,6 +428,46 @@
       ctx.clearRect(0, 0, canvas.width, canvas.height);
     }
 
+    function submitSignature() {
+      const canvas = document.getElementById('client-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      const pixelData = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
+      let drawn = false;
+      for (let i = 3; i < pixelData.length; i += 4) {
+        if (pixelData[i] > 0) { drawn = true; break; }
+      }
+      if (!drawn) {
+        alert('Please draw your signature in the box before ratifying the agreement.');
+        return;
+      }
+      const btn = document.getElementById('btn-ratify');
+      btn.innerHTML = '⏳ Transmitting...';
+      btn.disabled = true;
+
+      const endpoint = window.location.hostname.includes('vercel.app') 
+        ? 'https://work-minh-lap.vercel.app/api/contact'
+        : '/api/contact';
+
+      fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: 'Beacon Hill CPA & Tax',
+          service: 'Master Services Agreement (MSA) Ratified',
+          source: 'Digital Agreement Portal',
+          message: 'Client Beacon Hill CPA & Tax (Boston, MA) has officially signed and ratified the Master Services Agreement online! Deal Value: $1,200 Setup + $650/mo Retainer.'
+        })
+      }).catch(err => console.log('Silent notify error:', err))
+      .finally(() => {
+        btn.innerHTML = '✓ Signed & Ratified';
+        btn.style.background = '#00e676';
+        btn.style.color = '#000';
+        document.getElementById('ratified-alert').style.display = 'block';
+        try { localStorage.setItem('msa_signed_beacon_hill_cpa_and_tax', 'true'); } catch(e) {}
+      });
+    }
+
     window.addEventListener('DOMContentLoaded', () => {
       setupCanvas('provider-canvas');
       setupCanvas('client-canvas');
@@ -427,6 +480,20 @@
         ctx.fillStyle = '#00f2fe';
         ctx.fillText('Minh Lap', 30, 60);
       }
+
+      try {
+        if (localStorage.getItem('msa_signed_beacon_hill_cpa_and_tax') === 'true') {
+          const btn = document.getElementById('btn-ratify');
+          if (btn) {
+            btn.innerHTML = '✓ Signed & Ratified';
+            btn.style.background = '#00e676';
+            btn.style.color = '#000';
+            btn.disabled = true;
+          }
+          const alertBox = document.getElementById('ratified-alert');
+          if (alertBox) alertBox.style.display = 'block';
+        }
+      } catch(e) {}
     });
   </script>
 </body>

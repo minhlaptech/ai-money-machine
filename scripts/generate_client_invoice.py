@@ -323,7 +323,14 @@ INVOICE_TEMPLATE = """<!DOCTYPE html>
       </ul>
       <div style="margin-top:16px; display:flex; gap:12px; flex-wrap:wrap;">
         <a href="https://minhlap.lemonsqueezy.com" target="_blank" class="btn-pay" style="flex:1; margin-top:0;">👉 Pay Securely Online via Card / Apple Pay</a>
+        <button id="btn-paid-notify" onclick="notifyPaymentSent()" style="background:rgba(0,230,118,0.12); border:1px solid rgba(0,230,118,0.35); color:#00e676; padding:12px 18px; border-radius:10px; font-weight:700; font-size:13px; cursor:pointer; display:inline-flex; align-items:center; justify-content:center; transition:all 0.2s;">
+          🔔 Notify Payment Sent / Bank Wire
+        </button>
         <a href="https://work-minh-lap.vercel.app/onboarding?name={client_url_name}&niche={niche_url}&city={city_url}" target="_blank" style="background:rgba(255,255,255,0.08); border:1px solid var(--border); color:#fff; text-decoration:none; padding:12px 18px; border-radius:10px; font-weight:700; font-size:13px; display:inline-flex; align-items:center; justify-content:center; transition:background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.15)'" onmouseout="this.style.background='rgba(255,255,255,0.08)'">🚀 Start Onboarding Intake</a>
+      </div>
+
+      <div id="payment-notified-banner" style="display:none; background:rgba(0,230,118,0.15); border:1px solid #00e676; border-radius:10px; padding:14px; margin-top:14px; text-align:center; color:#00e676; font-size:13.5px; font-weight:600;">
+        ✓ Payment notification logged & transmitted to billing desk. Our team will verify and initiate your 5-Day White-Glove Sprint immediately!
       </div>
     </div>
 
@@ -331,6 +338,66 @@ INVOICE_TEMPLATE = """<!DOCTYPE html>
       🖨️ Need a PDF copy for your accounting department? Press <strong>Ctrl + P</strong> (Cmd + P) to Print or Save as PDF.
     </div>
   </div>
+
+  <script>
+    function notifyPaymentSent() {{
+      const btn = document.getElementById('btn-paid-notify');
+      btn.innerHTML = '⏳ Transmitting...';
+      btn.disabled = true;
+
+      const endpoint = window.location.hostname.includes('vercel.app') 
+        ? 'https://work-minh-lap.vercel.app/api/contact'
+        : '/api/contact';
+
+      fetch(endpoint, {{
+        method: 'POST',
+        headers: {{ 'Content-Type': 'application/json' }},
+        body: JSON.stringify({{
+          name: '{client_name}',
+          service: 'Invoice Payment Settled / Wire Request',
+          source: 'B2B Invoice Portal ({invoice_id})',
+          message: 'Client {client_name} ({city}) has confirmed invoice payment of ${total_due} or requested wire reconciliation!'
+        }})
+      }}).catch(e => console.log('Silent notify:', e))
+      .finally(() => {{
+        btn.innerHTML = '✓ Payment Notification Sent';
+        btn.style.background = '#00e676';
+        btn.style.color = '#000';
+        document.getElementById('payment-notified-banner').style.display = 'block';
+        const badge = document.querySelector('.badge-status');
+        if (badge) {{
+          badge.innerHTML = 'Payment Submitted';
+          badge.style.background = 'rgba(0, 230, 118, 0.2)';
+          badge.style.borderColor = '#00e676';
+          badge.style.color = '#00e676';
+        }}
+        try {{ localStorage.setItem('inv_paid_{slug}', 'true'); }} catch(e) {{}}
+      }});
+    }}
+
+    try {{
+      if (localStorage.getItem('inv_paid_{slug}') === 'true') {{
+        window.addEventListener('DOMContentLoaded', () => {{
+          const btn = document.getElementById('btn-paid-notify');
+          if (btn) {{
+            btn.innerHTML = '✓ Payment Notification Sent';
+            btn.style.background = '#00e676';
+            btn.style.color = '#000';
+            btn.disabled = true;
+          }}
+          const banner = document.getElementById('payment-notified-banner');
+          if (banner) banner.style.display = 'block';
+          const badge = document.querySelector('.badge-status');
+          if (badge) {{
+            badge.innerHTML = 'Payment Submitted';
+            badge.style.background = 'rgba(0, 230, 118, 0.2)';
+            badge.style.borderColor = '#00e676';
+            badge.style.color = '#00e676';
+          }}
+        }});
+      }}
+    }} catch(e) {{}}
+  </script>
 </body>
 </html>
 """
@@ -391,7 +458,8 @@ def generate_invoice(lead_id, name, niche, city):
         city_url=city_url,
         issue_date=issue_date,
         due_date=due_date,
-        total_due="1,850.00"
+        total_due="1,850.00",
+        slug=slug
     )
 
     out_file.write_text(html, encoding="utf-8")

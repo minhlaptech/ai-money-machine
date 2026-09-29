@@ -823,4 +823,22 @@
   - Bổ sung tùy chọn `[19] 📦 Đóng Gói Bộ Hồ Sơ Onboarding VIP ZIP Cho Khách Hàng (30 Client Packages)`.
   - Cập nhật tùy chọn `[20] 🚀 Mở Executive Command Center Dashboard trên Trình Duyệt Web`.
 
+---
+
+## 📅 2026-09-29 | Phiên #31 | Tự Động Hóa Ký Kết Hợp Đồng Trực Tuyến & Báo Cáo Thanh Toán Đa Kênh Qua Telegram, Cập Nhật 30 Hồ Sơ VIP Dossiers
+
+### 🎉 Milestones Hoàn Thành:
+- ✅ **Kích Hoạt Khả Năng Ký Kết & Phê Chuẩn Hợp Đồng Điện Tử Trực Tuyến 1 Chạm ([scripts/generate_client_agreement.py](file:///d:/Project/work/scripts/generate_client_agreement.py))**:
+  - Tích hợp nút `[✍️ Ratify & Sign Agreement]` trên toàn bộ 30 văn bản Master Services Agreement ([agreements/](file:///d:/Project/work/agreements/)).
+  - Kiểm tra chữ ký vẽ tay trên Canvas HTML5 trước khi cho phép phê chuẩn; ngăn chặn việc bấm nhầm khi chưa ký.
+  - Tự động gửi cảnh báo khẩn cấp qua Telegram `@Minhpv_bot` qua endpoint `POST /api/contact` kèm tên khách, thành phố và giá trị hợp đồng ($1,200 Setup + $650/tháng Retainer).
+  - Tích hợp lưu trạng thái vào `localStorage` (`msa_signed_{slug}`) và hiển thị thông báo thành công hướng dẫn bước tiếp theo (Thanh toán hóa đơn / Nhập thông tin Onboarding).
+- ✅ **Kích Hoạt Nút Báo Cáo Thanh Toán & Yêu Cầu Chuyển Khoản Trên Hóa Đơn B2B ([scripts/generate_client_invoice.py](file:///d:/Project/work/scripts/generate_client_invoice.py))**:
+  - Bổ sung nút `[🔔 Notify Payment Sent / Bank Wire]` trên toàn bộ 30 hóa đơn điện tử ([invoices/](file:///d:/Project/work/invoices/)).
+  - Tự động dispatch thông báo thanh toán về Telegram của Minh Lập để kích hoạt ngay quy trình Sprint 5 ngày.
+  - Lưu trạng thái vào `localStorage` (`inv_paid_{slug}`) và tự động chuyển đổi huy hiệu trạng thái sang `Payment Submitted` màu xanh lục.
+- ✅ **Tái Tạo & Đóng Gói Lại Toàn Bộ 30 Hồ Sơ Onboarding VIP ZIP ([client_packages/](file:///d:/Project/work/client_packages/))**:
+  - Toàn bộ 30 file zip dossier (~32.5 KB/file) được cập nhật phiên bản mới nhất chứa hợp đồng điện tử có tính năng phê chuẩn trực tuyến và hóa đơn có báo cáo chuyển khoản.
+
+
 
