@@ -1,77 +1,117 @@
-# ⚡ AI MONEY MACHINE - HỆ THỐNG TỰ HÀNH KIẾM TIỀN BẰNG AI
-*Hệ thống tự động tìm kiếm, triển khai, và quản lý các kênh thu nhập USD bằng AI*
+# 🤖 AI Money Machine
 
----
+> A comprehensive AI-powered income generation system with tools, content, and automation.
 
-## 🧭 HƯỚNG DẪN NHANH
+[![GitHub](https://img.shields.io/badge/GitHub-minhlaptech-181717?logo=github)](https://github.com/minhlaptech)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-### Cho AI (mỗi phiên chat):
-1. Đọc [`MASTER_CONTROL.md`](file:///d:/Project/work/MASTER_CONTROL.md) → Biết trạng thái tổng thể
-2. Đọc [`USER_INPUT.md`](file:///d:/Project/work/USER_INPUT.md) → Kiểm tra thông tin từ user
-3. Đọc [`DAILY_PLAN.md`](file:///d:/Project/work/DAILY_PLAN.md) → Biết kế hoạch hôm nay
-4. Thực hiện nhiệm vụ → Ghi vào [`EXECUTION_LOG.md`](file:///d:/Project/work/EXECUTION_LOG.md)
+## 🚀 What's Inside
 
-### Cho User:
-1. Mở [`USER_INPUT.md`](file:///d:/Project/work/USER_INPUT.md) → Điền thông tin AI yêu cầu
-2. Chat tiếp tục → AI tự động thực hiện nhiệm vụ tiếp theo
-3. Xem [`EXECUTION_LOG.md`](file:///d:/Project/work/EXECUTION_LOG.md) → Biết AI đã làm gì
+### 🛠️ Products (3 Micro-SaaS Tools)
+| Tool | Description | Demo |
+|------|-------------|------|
+| **SynapseGEO** | AI Search Audit Engine — check if your website is visible to AI search engines | [Live Demo](#) |
+| **ReviewGenius** | AI Review Response Generator — professional responses to customer reviews | [Live Demo](#) |
+| **HeadlineIQ** | Headline Analyzer — score and improve headlines for SEO and engagement | [Live Demo](#) |
 
----
+### 📦 Digital Products (3 Products on Gumroad)
+| Product | Description | Price |
+|---------|-------------|-------|
+| 📖 **The AI Money Blueprint** | 10-chapter eBook (16,000 words) — proven strategies to earn $1K-5K/month with AI | $14.99 |
+| 🎯 **AI Marketing Prompt Pack** | 110+ ready-to-use prompts across 7 marketing categories | $29 |
+| 🔧 **Automation Blueprint Pack** | 15 ready-to-deploy workflows for Make.com & Zapier | $24.99 |
 
-## 📁 CẤU TRÚC DỰ ÁN
+### 📝 Content Library
+- **6 SEO-optimized blog posts** (16,000+ words total)
+- **4 YouTube video scripts** (45+ minutes of content)
+- **60 days of social media content** (Twitter + LinkedIn)
+- **10 cold outreach email templates** + follow-up sequences
+- **Client proposal template**
+- **Distribution strategy** (Reddit, Product Hunt, communities)
+
+## 📂 Project Structure
 
 ```
-d:\Project\work\
-│
-├── 📋 MASTER_CONTROL.md          # Trung tâm điều khiển (AI đọc đầu tiên)
-├── 📥 USER_INPUT.md              # File giao tiếp User ↔ AI
-├── 📅 DAILY_PLAN.md              # Kế hoạch hàng ngày
-├── 📝 EXECUTION_LOG.md           # Nhật ký thực hiện
-├── 📚 RESEARCH_BIBLE.md          # Kiến thức tổng hợp
-├── 📖 README.md                  # File này
-│
-├── 🏭 products/                  # Sản phẩm đã build
-│   └── geo_audit_engine/         # SynapseGEO - Micro SaaS MVP
-│
-├── 📦 projects/                  # 7 dự án con
-│   ├── ai_freelancing/           # #6: Freelancing Upwork/Fiverr
-│   ├── ai_automation_smb/        # #2: AI Automation cho SMB
-│   ├── youtube_faceless/         # #3: YouTube Faceless Channel
-│   ├── digital_products/         # #4: Digital Products (Gumroad)
-│   ├── print_on_demand/          # #5: Print-on-Demand
-│   ├── affiliate_blog/           # #7: Affiliate Marketing Blog
-│   └── ai_content_social/        # #8: AI Content & Social Media
-│
-├── 🤖 autonomous_agent/         # Bot tự động quét thị trường
-└── 📢 distribution_kit/         # Tài liệu marketing
+ai-money-machine/
+├── products/                    # Micro-SaaS tools
+│   ├── geo_audit_engine/        # SynapseGEO
+│   ├── review_genius/           # ReviewGenius AI  
+│   └── headline_iq/             # HeadlineIQ
+├── projects/
+│   ├── affiliate_blog/          # Blog content + website
+│   ├── ai_freelancing/          # Fiverr profile, outreach
+│   ├── ai_content_social/       # Social media content
+│   ├── digital_products/        # eBook, prompts, templates
+│   └── youtube_faceless/        # YouTube scripts + thumbnails
+├── EXECUTION_LOG.md             # Session tracking
+├── LAUNCH_CHECKLIST.md          # Step-by-step go-live guide
+├── WEEKLY_PLAN.md               # Weekly execution schedule
+├── MASTER_CONTROL.md            # Project management
+└── README.md                    # This file
 ```
 
+## 🏗️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript (vanilla — no frameworks needed)
+- **Hosting:** Vercel (free tier)
+- **Payments:** Gumroad, LemonSqueezy
+- **Automation:** Make.com
+- **AI Tools:** ChatGPT, Claude, ElevenLabs
+- **Design:** Canva
+
+## 📊 Income Streams
+
+```
+┌─────────────────────────────────────────────┐
+│           AI MONEY MACHINE                  │
+├──────────────┬──────────────────────────────┤
+│ Stream       │ Monthly Target              │
+├──────────────┼──────────────────────────────┤
+│ Freelancing  │ $500 - $1,500              │
+│ Digital Prods│ $200 - $500                │
+│ Affiliate    │ $200 - $500                │
+│ YouTube      │ $200 - $500 (after month 3)│
+│ Micro-SaaS   │ $100 - $500 (after month 6)│
+├──────────────┼──────────────────────────────┤
+│ TOTAL        │ $1,200 - $3,500/month      │
+└──────────────┴──────────────────────────────┘
+```
+
+## 🚀 Quick Start
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/minhlaptech/ai-money-machine.git
+```
+
+2. **Deploy tools on Vercel** (free)
+```bash
+# Each tool is a standalone HTML file — just deploy the folder
+```
+
+3. **Upload products to Gumroad** (free)
+```
+Products are in projects/digital_products/products/
+```
+
+4. **Follow the Launch Checklist**
+```
+See LAUNCH_CHECKLIST.md for step-by-step instructions
+```
+
+## 📈 Revenue Projections
+
+| Month | Conservative | Optimistic |
+|-------|-------------|------------|
+| 1 | $250 | $650 |
+| 3 | $1,000 | $2,200 |
+| 6 | $2,400 | $4,800 |
+| 12 | $4,000 | $8,000+ |
+
+## 📝 License
+
+MIT License — feel free to fork and build your own version!
+
 ---
 
-## 💰 8 KÊNH THU NHẬP
-
-| # | Kênh | Thu Nhập Mục Tiêu | Ưu Tiên | Trạng Thái |
-|---|------|-------------------|---------|-----------|
-| 1 | Micro-SaaS (SynapseGEO) | $380/tuần | ⭐⭐⭐ | 🟡 Có MVP |
-| 2 | AI Automation cho SMB | $500-2500/tháng | ⭐⭐⭐ | 🔴 Mới |
-| 3 | Faceless YouTube | $500-2000/tháng | ⭐⭐ | 🔴 Mới |
-| 4 | Digital Products | $200-500/tháng | ⭐⭐ | 🔴 Mới |
-| 5 | Print-on-Demand | $100-300/tháng | ⭐ | 🔴 Mới |
-| 6 | AI Freelancing | $500-2000/tháng | ⭐⭐⭐ | 🔴 Mới |
-| 7 | Affiliate Blog | $300-1000/tháng | ⭐⭐ | 🔴 Mới |
-| 8 | AI Content & Social | $200-500/tháng | ⭐⭐ | 🔴 Mới |
-
-**Mục tiêu tổng: $3000-5000 USD/tháng**
-
----
-
-## 🚀 CÁCH SỬ DỤNG
-
-1. **Lần đầu**: Mở `USER_INPUT.md`, điền thông tin cơ bản (tài khoản, kỹ năng, thời gian)
-2. **Mỗi lần chat**: Chỉ cần gõ "tiếp tục" hoặc bất kỳ tin nhắn nào
-3. **AI sẽ tự động**: Đọc trạng thái → Chọn task → Thực hiện → Ghi log → Lên kế hoạch tiếp
-4. **Nếu AI cần gì**: Kiểm tra `USER_INPUT.md` → Điền thông tin → Chat tiếp
-
----
-
-*Khởi tạo: 2026-09-29 | Phiên #1*
+*Built with ❤️ and AI by [@minhlaptech](https://github.com/minhlaptech)*
