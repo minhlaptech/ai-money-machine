@@ -20,10 +20,10 @@
     "city": "Miami, FL",
     "to": "info@pureradiancemedspa.example",
     "doc": "Sarah",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 03:50"
   },
   {
     "id": 3,
@@ -163,10 +163,10 @@
     "city": "San Francisco, CA",
     "to": "growth@pulsemetrics.example",
     "doc": "Founder",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:47"
+    "last_touch": "2026-09-30 03:50"
   },
   {
     "id": 14,
@@ -527,10 +527,10 @@
     "city": "Austin, TX",
     "to": "growth@kineticgrowthmedia.example",
     "doc": "Alex Rivera",
-    "status": "booked",
+    "status": "won",
     "value": 2800,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:47"
+    "last_touch": "2026-09-30 03:50"
   },
   {
     "id": 42,
@@ -683,10 +683,10 @@
     "city": "San Diego, CA",
     "to": "care@novogenfertility.example",
     "doc": "Dr. Maria Santos",
-    "status": "day7",
+    "status": "booked",
     "value": 7000,
     "retainer": 1000,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 03:50"
   },
   {
     "id": 54,
