@@ -18,7 +18,7 @@
     { "source": "/headlineiq", "destination": "/products/headline_iq/index.html" },
     { "source": "/chatbotdemo", "destination": "/projects/ai_freelancing/portfolio/chatbot_demo/index.html" },
     { "source": "/calculator", "destination": "/projects/ai_automation_smb/roi_calculator.html" },
-    { "source": "/onboarding", "destination": "/projects/ai_automation_smb/client_onboarding_portal.html" },
+    { "source": "/onboarding", "destination": "/onboarding/index.html" },
     { "source": "/bundle", "destination": "/projects/digital_products/bundle_showcase.html" },
     { "source": "/pitches", "destination": "/pitches/index.html" },
     { "source": "/blog", "destination": "/projects/affiliate_blog/website/index.html" },
