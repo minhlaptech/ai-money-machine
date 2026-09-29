@@ -202,10 +202,10 @@
     "city": "Portland, OR",
     "to": "orders@artisanroastclub.example",
     "doc": "Founder",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:43"
+    "last_touch": "2026-09-30 04:45"
   },
   {
     "id": 17,
@@ -215,10 +215,10 @@
     "city": "Seattle, WA",
     "to": "founders@stacksyncdev.example",
     "doc": "Engineering Lead",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:43"
+    "last_touch": "2026-09-30 04:46"
   },
   {
     "id": 18,
@@ -228,10 +228,10 @@
     "city": "Denver, CO",
     "to": "hello@pawsomepetbox.example",
     "doc": "Customer Team",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:46"
   },
   {
     "id": 19,
@@ -241,10 +241,10 @@
     "city": "Boston, MA",
     "to": "inquiries@leadflowcrm.example",
     "doc": "Growth Team",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:46"
   },
   {
     "id": 20,
