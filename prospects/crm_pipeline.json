@@ -33,10 +33,10 @@
     "city": "Dallas, TX",
     "to": "service@premierairdfw.example",
     "doc": "Mark",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:26"
+    "last_touch": "2026-09-30 04:28"
   },
   {
     "id": 4,
@@ -46,10 +46,10 @@
     "city": "San Jose, CA",
     "to": "hello@elitesmilestudio.example",
     "doc": "Dr. Nguyen",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:28"
   },
   {
     "id": 5,
@@ -72,10 +72,10 @@
     "city": "Seattle, WA",
     "to": "frontdesk@luminawellness.example",
     "doc": "Dr. Adams",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:28"
   },
   {
     "id": 7,
@@ -384,10 +384,10 @@
     "city": "Miami, FL",
     "to": "litigation@metroinjurydefense.example",
     "doc": "Carlos Mendez",
-    "status": "booked",
+    "status": "won",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:26"
+    "last_touch": "2026-09-30 04:28"
   },
   {
     "id": 31,

@@ -268,8 +268,8 @@
       </div>
       <div class="metric-card" style="border-color: rgba(255, 215, 0, 0.35); background: linear-gradient(180deg, rgba(255, 215, 0, 0.06) 0%, rgba(18, 18, 36, 0.7) 100%);">
         <div class="metric-label" style="color: #ffd700;">Closed Retainers (MRR)</div>
-        <div class="metric-val" style="color: #ffd700;">$129,000 · $30,600/mo</div>
-        <div class="metric-sub" style="color: #4ade80;">🏆 39 Won Clients · 2 Booked Calls</div>
+        <div class="metric-val" style="color: #ffd700;">$131,700 · $32,000/mo</div>
+        <div class="metric-sub" style="color: #4ade80;">🏆 41 Won Clients · 2 Booked Calls</div>
       </div>
     </div>
 
@@ -819,8 +819,8 @@ const LEADS_DATA = [
 let currentBatchFilter = 'all';
 let currentStageFilter = 1;
 
-const WON_LEAD_IDS = [1, 2, 5, 7, 11, 13, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 36, 38, 39, 40, 41, 42, 43, 44, 45, 48, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60];
-const BOOKED_LEAD_IDS = [3, 30];
+const WON_LEAD_IDS = [1, 2, 3, 5, 7, 11, 13, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 36, 38, 39, 40, 41, 42, 43, 44, 45, 48, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60];
+const BOOKED_LEAD_IDS = [4, 6];
 
 function getLeadStatus(id) {
   const saved = localStorage.getItem('lead_crm_status_' + id);
@@ -980,7 +980,7 @@ function renderCRMStats() {
     </div>
     <div style="background:rgba(255,215,0,0.08); border:1px solid rgba(255,215,0,0.3); padding:10px 14px; border-radius:8px;">
       <div style="font-size:11px; color:#ffd700; text-transform:uppercase;">🏆 Won Retainers</div>
-      <div style="font-size:18px; font-weight:700; color:#ffd700;">${wonC} ($129,000 + $30,600/mo)</div>
+      <div style="font-size:18px; font-weight:700; color:#ffd700;">${wonC} ($131,700 + $32,000/mo)</div>
     </div>
   `;
 }
