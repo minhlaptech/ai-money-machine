@@ -2,6 +2,9 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
+    { "source": "/merch", "destination": "/merch/index.html" },
+    { "source": "/store", "destination": "/merch/index.html" },
+    { "source": "/apparel", "destination": "/merch/index.html" },
     { "source": "/freelance", "destination": "/freelance/index.html" },
     { "source": "/gigs", "destination": "/freelance/index.html" },
     { "source": "/fiverr", "destination": "/freelance/index.html" },

@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer & AI Merch Store — Cyberpunk Streetwear & Desk Setup</title>
+  <meta name="description" content="Explore premium developer streetwear, cynical AI hoodies, extended prompt engineering desk mats, ceramic mugs, and snapback caps. Global fulfillment with 100% satisfaction guarantee.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #070712;
+      --bg-card: rgba(18, 18, 36, 0.75);
+      --bg-card-hover: rgba(28, 28, 56, 0.9);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(124, 92, 252, 0.4);
+      --accent: #7c5cfc;
+      --accent-glow: rgba(124, 92, 252, 0.35);
+      --cyan: #00f2fe;
+      --cyan-glow: rgba(0, 242, 254, 0.25);
+      --green: #00e676;
+      --green-glow: rgba(0, 230, 118, 0.25);
+      --orange: #ff9100;
+      --pink: #ff2a85;
+      --text: #f0f0ff;
+      --text-muted: #8c8ca8;
+      --text-sub: #555577;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+      padding-bottom: 80px;
+      line-height: 1.6;
+    }
+
+    /* Ambient dynamic glow */
+    .glow-orb {
+      position: fixed; border-radius: 50%; filter: blur(150px);
+      pointer-events: none; opacity: 0.12; z-index: 0;
+    }
+    .orb-1 { width: 550px; height: 550px; background: var(--pink); top: -120px; left: -100px; }
+    .orb-2 { width: 500px; height: 500px; background: var(--cyan); top: 40%; right: -160px; }
+    .orb-3 { width: 450px; height: 450px; background: var(--accent); bottom: -120px; left: 25%; }
+
+    /* Top Navigation */
+    header {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(7, 7, 18, 0.88); backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border); padding: 14px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .brand-wrap { display: flex; align-items: center; gap: 14px; text-decoration: none; color: inherit; }
+    .logo-badge {
+      width: 40px; height: 40px; border-radius: 10px;
+      background: linear-gradient(135deg, var(--pink), var(--cyan));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; box-shadow: 0 0 20px rgba(255, 42, 133, 0.4);
+    }
+    .brand-text h1 { font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 700; letter-spacing: -0.02em; }
+    .brand-text p { font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono); }
+
+    .nav-actions { display: flex; align-items: center; gap: 12px; }
+    .currency-selector {
+      background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
+      color: #fff; padding: 6px 12px; border-radius: 8px; font-size: 0.8rem;
+      font-weight: 600; outline: none; cursor: pointer; font-family: var(--font-mono);
+    }
+    .currency-selector option { background: #0c0c1a; color: #fff; }
+
+    .btn-nav {
+      background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
+      color: var(--text); padding: 7px 16px; border-radius: 8px;
+      font-size: 0.82rem; font-weight: 500; text-decoration: none; transition: all 0.2s;
+    }
+    .btn-nav:hover { background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2); }
+    .btn-nav-primary {
+      background: linear-gradient(135deg, var(--pink), var(--accent));
+      border: 1px solid rgba(255, 42, 133, 0.5); color: #fff; font-weight: 600;
+      box-shadow: 0 0 16px rgba(255, 42, 133, 0.35);
+    }
+    .btn-nav-primary:hover { opacity: 0.95; transform: translateY(-1px); }
+
+    /* Main Container */
+    .container { max-width: 1320px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
+
+    /* Hero Section */
+    .hero { text-align: center; padding: 50px 0 35px; }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255, 42, 133, 0.12); border: 1px solid rgba(255, 42, 133, 0.4);
+      color: #ff80bf; padding: 6px 16px; border-radius: 30px;
+      font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
+      margin-bottom: 18px;
+    }
+    .hero h1 {
+      font-family: 'Outfit', sans-serif; font-size: clamp(2.2rem, 5vw, 3.6rem);
+      font-weight: 800; line-height: 1.15; margin-bottom: 18px; letter-spacing: -0.03em;
+    }
+    .hero-gradient {
+      background: linear-gradient(135deg, #fff 30%, var(--pink) 70%, var(--cyan) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero p {
+      max-width: 760px; margin: 0 auto 30px;
+      font-size: 1.05rem; color: var(--text-muted); font-weight: 400;
+    }
+
+    /* Key Value Stats Banner */
+    .metrics-bar {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px; margin-bottom: 40px;
+    }
+    .metric-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 18px 20px; text-align: left;
+      backdrop-filter: blur(12px); transition: all 0.25s;
+    }
+    .metric-card:hover { border-color: var(--border-accent); transform: translateY(-2px); }
+    .metric-val { font-family: 'Outfit', sans-serif; font-size: 1.55rem; font-weight: 800; color: #fff; margin-bottom: 4px; }
+    .metric-lbl { font-size: 0.78rem; color: var(--text-muted); font-weight: 500; }
+
+    /* Filter & Controls Toolbar */
+    .controls-panel {
+      background: rgba(14, 14, 28, 0.7); border: 1px solid var(--border);
+      border-radius: 16px; padding: 16px 20px; margin-bottom: 36px;
+      display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center;
+      backdrop-filter: blur(14px);
+    }
+    .filter-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+    .filter-pill {
+      background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border);
+      color: var(--text-muted); padding: 7px 15px; border-radius: 30px;
+      font-size: 0.8rem; font-weight: 500; cursor: pointer; transition: all 0.2s; user-select: none;
+    }
+    .filter-pill:hover { background: rgba(255, 255, 255, 0.08); color: #fff; }
+    .filter-pill.active {
+      background: linear-gradient(135deg, var(--pink), var(--accent));
+      border-color: rgba(255, 42, 133, 0.5); color: #fff; font-weight: 600;
+      box-shadow: 0 0 14px rgba(255, 42, 133, 0.3);
+    }
+
+    .action-tools { display: flex; align-items: center; gap: 10px; }
+    .btn-download-csv {
+      background: rgba(0, 230, 118, 0.1); border: 1px solid rgba(0, 230, 118, 0.3);
+      color: var(--green); padding: 7px 14px; border-radius: 8px;
+      font-size: 0.78rem; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 6px;
+      transition: all 0.2s;
+    }
+    .btn-download-csv:hover { background: rgba(0, 230, 118, 0.2); }
+
+    /* Products Grid */
+    .products-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+      gap: 28px; margin-bottom: 60px;
+    }
+    @media (max-width: 480px) {
+      .products-grid { grid-template-columns: 1fr; }
+    }
+
+    /* Product Card */
+    .product-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 18px; overflow: hidden; display: flex; flex-direction: column;
+      backdrop-filter: blur(16px); transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+    }
+    .product-card:hover {
+      border-color: rgba(255, 42, 133, 0.4);
+      transform: translateY(-5px);
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4), 0 0 24px rgba(255, 42, 133, 0.15);
+    }
+
+    /* Thumbnail Wrap */
+    .product-thumb-wrap {
+      position: relative; width: 100%; aspect-ratio: 1 / 1;
+      overflow: hidden; background: #0c0c1a; cursor: pointer;
+    }
+    .product-thumb-img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .product-card:hover .product-thumb-img { transform: scale(1.05); }
+
+    .product-badge-tag {
+      position: absolute; top: 12px; left: 12px;
+      background: rgba(7, 7, 18, 0.85); backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 6px;
+      padding: 4px 10px; font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.05em; text-transform: uppercase; color: #fff;
+    }
+    .badge-bestseller { border-color: rgba(255, 145, 0, 0.5); color: #ffab40; background: rgba(255, 145, 0, 0.15); }
+    .badge-highmargin { border-color: rgba(0, 230, 118, 0.5); color: #69f0ae; background: rgba(0, 230, 118, 0.15); }
+    .badge-trending { border-color: rgba(0, 242, 254, 0.5); color: #80d8ff; background: rgba(0, 242, 254, 0.15); }
+
+    .product-margin-tag {
+      position: absolute; bottom: 10px; right: 12px;
+      background: rgba(7, 7, 18, 0.85); backdrop-filter: blur(6px);
+      border: 1px solid rgba(0, 230, 118, 0.3); border-radius: 6px;
+      padding: 3px 8px; font-size: 0.72rem; font-weight: 600; color: var(--green);
+      font-family: var(--font-mono);
+    }
+
+    /* Product Body */
+    .product-body { padding: 22px; display: flex; flex-direction: column; flex-grow: 1; }
+    
+    .product-category {
+      font-size: 0.72rem; color: var(--pink); font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;
+    }
+    .product-title {
+      font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 700;
+      line-height: 1.35; margin-bottom: 10px; color: #fff;
+    }
+    .product-niche {
+      font-size: 0.78rem; color: var(--text-muted); margin-bottom: 14px;
+      display: flex; align-items: center; gap: 5px;
+    }
+
+    /* Options Selectors */
+    .selectors-row {
+      display: flex; gap: 10px; margin-bottom: 16px;
+    }
+    .selector-group { flex: 1; }
+    .selector-label { font-size: 0.7rem; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; text-transform: uppercase; }
+    .option-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+    .option-pill {
+      background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border);
+      color: #ccc; padding: 3px 8px; border-radius: 4px; font-size: 0.72rem;
+      cursor: pointer; user-select: none; transition: all 0.15s; font-family: var(--font-mono);
+    }
+    .option-pill:hover { background: rgba(255, 255, 255, 0.1); color: #fff; }
+    .option-pill.active {
+      background: rgba(255, 42, 133, 0.25); border-color: rgba(255, 42, 133, 0.5);
+      color: #fff; font-weight: 700;
+    }
+
+    /* Pricing & Economics Box */
+    .economics-box {
+      background: rgba(12, 12, 24, 0.6); border: 1px solid var(--border);
+      border-radius: 10px; padding: 12px 14px; margin-bottom: 16px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .price-display { font-family: 'Outfit', sans-serif; font-size: 1.45rem; font-weight: 800; color: #fff; }
+    .profit-pill {
+      text-align: right; font-size: 0.72rem; color: var(--text-muted);
+    }
+    .profit-pill strong { color: var(--green); font-family: var(--font-mono); font-size: 0.85rem; }
+
+    /* Action Buttons */
+    .card-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: auto; }
+    .btn-action-outline {
+      background: transparent; border: 1px solid var(--border);
+      color: var(--text); padding: 9px 12px; border-radius: 8px;
+      font-size: 0.8rem; font-weight: 600; text-align: center; cursor: pointer;
+      text-decoration: none; transition: all 0.2s; display: flex; align-items: center; justify-content: center; gap: 6px;
+    }
+    .btn-action-outline:hover { background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.2); }
+    
+    .btn-action-primary {
+      background: linear-gradient(135deg, var(--pink), var(--accent));
+      border: 1px solid rgba(255, 42, 133, 0.5); color: #fff; padding: 9px 12px;
+      border-radius: 8px; font-size: 0.8rem; font-weight: 600; text-align: center;
+      cursor: pointer; text-decoration: none; transition: all 0.2s;
+      box-shadow: 0 0 14px rgba(255, 42, 133, 0.3); display: flex; align-items: center; justify-content: center; gap: 6px;
+    }
+    .btn-action-primary:hover { opacity: 0.92; transform: translateY(-1px); }
+
+    /* Modal System */
+    .modal-overlay {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(12px);
+      z-index: 1000; display: none; align-items: center; justify-content: center;
+      padding: 20px;
+    }
+    .modal-overlay.active { display: flex; }
+    .modal-box {
+      background: #0d0d1e; border: 1px solid rgba(255, 42, 133, 0.4);
+      border-radius: 20px; max-width: 680px; width: 100%; max-height: 90vh;
+      overflow-y: auto; padding: 32px; position: relative;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7), 0 0 40px rgba(255, 42, 133, 0.2);
+    }
+    .modal-close {
+      position: absolute; top: 20px; right: 20px;
+      background: rgba(255, 255, 255, 0.06); border: 1px solid var(--border);
+      border-radius: 50%; width: 34px; height: 34px; display: flex;
+      align-items: center; justify-content: center; color: var(--text-muted);
+      cursor: pointer; transition: all 0.2s; font-size: 1.1rem;
+    }
+    .modal-close:hover { background: rgba(255, 255, 255, 0.15); color: #fff; }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border); padding-top: 40px;
+      margin-top: 60px; text-align: center; color: var(--text-sub); font-size: 0.82rem;
+    }
+    .footer-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-bottom: 20px; }
+    .footer-links a { color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: #fff; }
+  </style>
+</head>
+<body>
+
+  <!-- Ambient Glow Orbs -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Header -->
+  <header>
+    <a href="/" class="brand-wrap">
+      <div class="logo-badge">👕</div>
+      <div class="brand-text">
+        <h1>AI & DEVELOPER MERCH STORE</h1>
+        <p>Print-on-Demand • Global Fulfillment</p>
+      </div>
+    </a>
+    <div class="nav-actions">
+      <select class="currency-selector" id="currencySelector" onchange="changeCurrency(this.value)">
+        <option value="USD">USD ($)</option>
+        <option value="EUR">EUR (€)</option>
+        <option value="GBP">GBP (£)</option>
+        <option value="VND">VND (₫)</option>
+      </select>
+      <a href="/" class="btn-nav">Command Center</a>
+      <a href="/freelance" class="btn-nav">Freelance Hub</a>
+      <a href="/bundle" class="btn-nav btn-nav-primary">Master Bundle ($39)</a>
+    </div>
+  </header>
+
+  <!-- Container -->
+  <main class="container">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-eyebrow">
+        <span>⚡</span> Premium Apparel & Desk Gear for AI Engineers
+      </div>
+      <h1>
+        Cynical Developer Aesthetics.<br>
+        <span class="hero-gradient">Zero Inventory. 39.6% Net Margin.</span>
+      </h1>
+      <p>
+        Printed on heavyweight ring-spun cotton and micro-weave desk surfaces. Automated dropship routing via Printify & Etsy directly to customers in 180+ countries.
+      </p>
+
+      <!-- Key Metrics -->
+      <div class="metrics-bar">
+        <div class="metric-card">
+          <div class="metric-val">6 Products</div>
+          <div class="metric-lbl">Fully scoped & mockup rendered</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val" style="color: var(--green);">39.6%</div>
+          <div class="metric-lbl">Average solopreneur net margin</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val" style="color: var(--pink);">$6 - $18</div>
+          <div class="metric-lbl">Net profit per unit sold</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val" style="color: var(--cyan);">180+</div>
+          <div class="metric-lbl">Countries fulfilled via Printify / Etsy</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val" style="color: var(--orange);">100%</div>
+          <div class="metric-lbl">Automated order & tracking sync</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Controls & Filters -->
+    <section id="catalog">
+      <div class="controls-panel">
+        <div class="filter-pills" id="categoryFilters">
+          <div class="filter-pill active" data-cat="all">All Products (6)</div>
+          <div class="filter-pill" data-cat="apparel">Apparel & Hoodies (2)</div>
+          <div class="filter-pill" data-cat="desk">Desk Setup (1)</div>
+          <div class="filter-pill" data-cat="drinkware">Drinkware & Mugs (1)</div>
+          <div class="filter-pill" data-cat="accessories">Bags & Snapbacks (2)</div>
+        </div>
+        <div class="action-tools">
+          <a href="pod_catalog_bulk_upload.csv" download class="btn-download-csv">
+            📥 Download Catalog CSV (Etsy / Shopify)
+          </a>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsContainer">
+        <!-- Injected via JavaScript -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Quick View / Buy Modal -->
+  <div class="modal-overlay" id="productModal">
+    <div class="modal-box">
+      <div class="modal-close" onclick="closeProductModal()">✕</div>
+      <div id="modalContent">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <a href="/">Command Center</a>
+      <a href="/freelance">Freelance & Agency Hub</a>
+      <a href="/synapsegeo">SynapseGEO</a>
+      <a href="/reviewgenius">ReviewGenius</a>
+      <a href="/headlineiq">HeadlineIQ</a>
+      <a href="/portal">VIP Portals</a>
+      <a href="/calculator">ROI Calculator</a>
+      <a href="/studio">Media Studio</a>
+      <a href="/referral">Affiliate Program (50%)</a>
+    </div>
+    <p>© 2026 AI Money Machine & Developer Merch Line. Print-on-Demand Automated Dropshipping. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    const PRODUCTS_DATA = [
+      {
+        id: "hoodie_coffee_llms",
+        handle: "hoodie_coffee_llms",
+        title: "Powered by Coffee & LLMs Heavyweight Hoodie",
+        category: "apparel",
+        categoryLabel: "Hoodies & Sweatshirts",
+        badge: "BESTSELLER",
+        badgeClass: "badge-bestseller",
+        image: "images/hoodie_coffee_llms.jpg",
+        priceUSD: 48.00,
+        costUSD: 23.50,
+        shippingUSD: 6.50,
+        profitUSD: 18.00,
+        margin: "37.5%",
+        niche: "Programmers, AI Engineers, Indie Hackers",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
+        colors: ["Obsidian Black", "Cyber Charcoal", "Deep Navy"],
+        description: "Heavyweight 380 GSM fleece hoodie built for late-night coding sessions. High-density embroidered cyber chest emblem and vibrant cyberpunk neon print on back. Pre-shrunk 100% ring-spun cotton exterior.",
+        tags: ["ai engineer", "hoodie", "coding sweatshirt", "cyberpunk", "chatgpt gift"]
+      },
+      {
+        id: "tshirt_it_works",
+        handle: "tshirt_it_works",
+        title: "It Works On My Machine Vintage Developer Tee",
+        category: "apparel",
+        categoryLabel: "Graphic Tees",
+        badge: "HIGH MARGIN",
+        badgeClass: "badge-highmargin",
+        image: "images/tshirt_it_works_on_my_machine.jpg",
+        priceUSD: 26.00,
+        costUSD: 10.20,
+        shippingUSD: 4.50,
+        profitUSD: 11.30,
+        margin: "43.5%",
+        niche: "Software Engineers, DevOps, IT Support",
+        sizes: ["XS", "S", "M", "L", "XL", "2XL"],
+        colors: ["Vintage Black", "Dark Heather", "Asphalt"],
+        description: "The timeless programmer excuse, printed in distressed phosphor green terminal font on ultra-soft 100% Airlume combed cotton. Tagless comfort collar, durable double-needle sleeve hem.",
+        tags: ["funny programmer", "devops", "coding shirt", "git push", "tech humor"]
+      },
+      {
+        id: "mug_ai_brain",
+        handle: "mug_ai_brain",
+        title: "Neural Circuit Brain Ceramic Coffee Mug (15oz)",
+        category: "drinkware",
+        categoryLabel: "Deskware & Drinkware",
+        badge: "TRENDING",
+        badgeClass: "badge-trending",
+        image: "images/mug_ai_circuit_brain.jpg",
+        priceUSD: 18.00,
+        costUSD: 6.80,
+        shippingUSD: 5.20,
+        profitUSD: 6.00,
+        margin: "33.3%",
+        niche: "Data Scientists, AI Researchers, Tech Enthusiasts",
+        sizes: ["15 oz Large"],
+        colors: ["Glossy Cyber Black"],
+        description: "Large 15oz ceramic mug featuring glowing neon neural synapsing circuits. High-definition thermal dye sublimation that will not fade. 100% microwave and dishwasher safe.",
+        tags: ["neural network", "ai mug", "tech desk", "data science", "coffee cup"]
+      },
+      {
+        id: "deskmat_prompt_architect",
+        handle: "deskmat_prompt_architect",
+        title: "Prompt Engineering Architecture Extended Desk Mat",
+        category: "desk",
+        categoryLabel: "Desk Accessories",
+        badge: "POPULAR",
+        badgeClass: "badge-bestseller",
+        image: "images/deskmat_prompt_architect.jpg",
+        priceUSD: 34.00,
+        costUSD: 14.50,
+        shippingUSD: 6.00,
+        profitUSD: 13.50,
+        margin: "39.7%",
+        niche: "Full-Stack Devs, Keyboard Enthusiasts",
+        sizes: ["31.5\" x 15.5\" (80x39cm)"],
+        colors: ["Deep Cyber Cyan & Violet"],
+        description: "Massive 31.5\" x 15.5\" x 4mm desk pad. Micro-woven water-repellent surface optimized for optical precision mouse tracking. Anti-fraying precision stitched edges with non-slip natural rubber base.",
+        tags: ["desk mat", "cyberpunk mousepad", "prompt engineer", "indie hacker desk"]
+      },
+      {
+        id: "totebag_automate_or_die",
+        handle: "totebag_automate_or_die",
+        title: "Automate Or Be Automated Heavy Canvas Tote",
+        category: "accessories",
+        categoryLabel: "Bags & Streetwear",
+        badge: "HIGH MARGIN",
+        badgeClass: "badge-highmargin",
+        image: "images/totebag_automate_or_die.jpg",
+        priceUSD: 24.00,
+        costUSD: 9.20,
+        shippingUSD: 4.80,
+        profitUSD: 10.00,
+        margin: "41.7%",
+        niche: "Solopreneurs, Indie Hackers, Remote Builders",
+        sizes: ["Standard 15\" x 16\""],
+        colors: ["Natural Raw Cotton", "Obsidian Black"],
+        description: "Heavyweight 12oz natural cotton canvas tote built to carry laptops, mechanical keyboards, and daily gear. Reinforced dual handles with box-stitching for extreme durability.",
+        tags: ["tech tote", "automate or die", "indie hacker", "remote work", "canvas bag"]
+      },
+      {
+        id: "cap_10x_engineer",
+        handle: "cap_10x_engineer",
+        title: "10x [AI] Augmented Developer Snapback Cap",
+        category: "accessories",
+        categoryLabel: "Headwear",
+        badge: "TRENDING",
+        badgeClass: "badge-trending",
+        image: "images/cap_10x_engineer.jpg",
+        priceUSD: 28.00,
+        costUSD: 11.00,
+        shippingUSD: 5.20,
+        profitUSD: 11.80,
+        margin: "42.1%",
+        niche: "Founders, AI Hackers, Tech Enthusiasts",
+        sizes: ["Adjustable Snapback (One Size)"],
+        colors: ["Black on Black", "Electric Cyan Embroidery"],
+        description: "Structured 6-panel high-profile wool-blend cap with retro green undervisor. 3D high-density embroidered '10x [AI]' glyphs with breathable eyelets and snap plastic closure.",
+        tags: ["10x engineer", "snapback", "tech cap", "developer hat", "cyberpunk hat"]
+      }
+    ];
+
+    let currentCurrency = 'USD';
+    const RATES = {
+      USD: { rate: 1.0, symbol: '$', prefix: true },
+      EUR: { rate: 0.92, symbol: '€', prefix: false },
+      GBP: { rate: 0.79, symbol: '£', prefix: true },
+      VND: { rate: 25400, symbol: '₫', prefix: false }
+    };
+
+    function formatPrice(usdVal) {
+      const c = RATES[currentCurrency] || RATES.USD;
+      const converted = usdVal * c.rate;
+      if (currentCurrency === 'VND') {
+        return Math.round(converted).toLocaleString('vi-VN') + ' ' + c.symbol;
+      }
+      return c.prefix ? `${c.symbol}${converted.toFixed(2)}` : `${converted.toFixed(2)} ${c.symbol}`;
+    }
+
+    function changeCurrency(curr) {
+      currentCurrency = curr;
+      const activePill = document.querySelector('.filter-pill.active');
+      const cat = activePill ? activePill.getAttribute('data-cat') : 'all';
+      renderProducts(cat);
+    }
+
+    function renderProducts(filterCat = 'all') {
+      const container = document.getElementById('productsContainer');
+      container.innerHTML = '';
+
+      const filtered = PRODUCTS_DATA.filter(p => {
+        return (filterCat === 'all') || (p.category === filterCat);
+      });
+
+      filtered.forEach(p => {
+        const card = document.createElement('div');
+        card.className = 'product-card';
+        card.innerHTML = `
+          <div class="product-thumb-wrap" onclick="openProductModal('${p.id}')">
+            <img src="${p.image}" alt="${p.title}" class="product-thumb-img" loading="lazy">
+            <div class="product-badge-tag ${p.badgeClass}">★ ${p.badge}</div>
+            <div class="product-margin-tag">+${p.margin} Margin</div>
+          </div>
+          <div class="product-body">
+            <div class="product-category">${p.categoryLabel}</div>
+            <h3 class="product-title">${p.title}</h3>
+            <div class="product-niche">🎯 Target: ${p.niche}</div>
+
+            <div class="selectors-row">
+              <div class="selector-group">
+                <div class="selector-label">Sizes</div>
+                <div class="option-pills">
+                  ${p.sizes.slice(0, 4).map((s, idx) => `<span class="option-pill ${idx === 0 ? 'active' : ''}">${s}</span>`).join('')}
+                </div>
+              </div>
+            </div>
+
+            <div class="economics-box">
+              <div class="price-display">${formatPrice(p.priceUSD)}</div>
+              <div class="profit-pill">
+                Net Profit: <strong>+${formatPrice(p.profitUSD)}</strong><br>
+                <span>Printify Cost: ${formatPrice(p.costUSD)}</span>
+              </div>
+            </div>
+
+            <div class="card-actions">
+              <button class="btn-action-outline" onclick="openProductModal('${p.id}')">
+                🔍 Quick View
+              </button>
+              <button class="btn-action-primary" onclick="orderProduct('${p.id}')">
+                ⚡ Instant Order
+              </button>
+            </div>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // Filter pills
+    document.querySelectorAll('.filter-pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        const cat = pill.getAttribute('data-cat');
+        renderProducts(cat);
+      });
+    });
+
+    // Modal
+    function openProductModal(prodId) {
+      const p = PRODUCTS_DATA.find(item => item.id === prodId);
+      if (!p) return;
+
+      const modalContent = document.getElementById('modalContent');
+      modalContent.innerHTML = `
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start;">
+          <div>
+            <img src="${p.image}" alt="${p.title}" style="width: 100%; aspect-ratio: 1/1; border-radius: 12px; object-fit: cover; border: 1px solid var(--border);">
+            <div style="margin-top: 12px; background: rgba(0, 230, 118, 0.1); border: 1px solid rgba(0, 230, 118, 0.3); border-radius: 8px; padding: 10px; font-size: 0.78rem; color: #a3e635;">
+              ✔ Print-on-Demand Global Fulfillment via Printify & Etsy<br>
+              ✔ 100% Ring-Spun / Micro-Weave Premium Materials
+            </div>
+          </div>
+          <div>
+            <div style="font-size: 0.72rem; color: var(--pink); font-weight: 700; text-transform: uppercase;">${p.categoryLabel}</div>
+            <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.35rem; font-weight: 700; margin: 6px 0 12px; color: #fff;">${p.title}</h2>
+            <div style="font-size: 1.5rem; font-weight: 800; color: #fff; margin-bottom: 12px;">${formatPrice(p.priceUSD)}</div>
+            
+            <p style="font-size: 0.84rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px;">
+              ${p.description}
+            </p>
+
+            <div style="margin-bottom: 14px;">
+              <div style="font-size: 0.74rem; font-weight: 600; color: #fff; margin-bottom: 6px;">Available Sizes:</div>
+              <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+                ${p.sizes.map((s, idx) => `<span style="background: rgba(255,255,255,0.06); border: 1px solid var(--border); padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; color: #fff; font-family: var(--font-mono);">${s}</span>`).join('')}
+              </div>
+            </div>
+
+            <div style="margin-bottom: 18px;">
+              <div style="font-size: 0.74rem; font-weight: 600; color: #fff; margin-bottom: 6px;">Available Colorways:</div>
+              <div style="font-size: 0.8rem; color: #bbb;">${p.colors.join(' • ')}</div>
+            </div>
+
+            <button onclick="orderProduct('${p.id}')" class="btn-action-primary" style="width: 100%; padding: 12px; font-size: 0.95rem;">
+              🛍️ Buy Now (${formatPrice(p.priceUSD)}) &rarr;
+            </button>
+
+            <div style="margin-top: 12px; text-align: center; font-size: 0.72rem; color: var(--text-sub);">
+              Ships within 2-4 business days • Tracking number provided automatically
+            </div>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('productModal').classList.add('active');
+    }
+
+    function closeProductModal() {
+      document.getElementById('productModal').classList.remove('active');
+    }
+
+    function orderProduct(prodId) {
+      const p = PRODUCTS_DATA.find(item => item.id === prodId);
+      if (!p) return;
+
+      const subject = encodeURIComponent(`[Merch Order] ${p.title} (${formatPrice(p.priceUSD)})`);
+      const body = encodeURIComponent(
+        `Hello Team,\n\nI would like to order:\nProduct: ${p.title}\nSKU: ${p.handle}\nPrice: ${formatPrice(p.priceUSD)}\n\nPlease provide invoice and shipping intake details.\n`
+      );
+
+      alert(`🛍️ Checkout Initiated!\n\nProduct: ${p.title}\nPrice: ${formatPrice(p.priceUSD)}\n\nOrder inquiry created. We are routing to our automated customer fulfillment desk.`);
+      window.location.href = `mailto:contact@aimoneymachine.com?subject=${subject}&body=${body}`;
+      closeProductModal();
+    }
+
+    window.onclick = function(event) {
+      const m = document.getElementById('productModal');
+      if (event.target === m) closeProductModal();
+    };
+
+    renderProducts();
+  </script>
+
+  <!-- Global Referral Tracker -->
+  <script src="/ref-tracker.js"></script>
+  <!-- Global Copilot Widget -->
+  <script src="/copilot-widget.js"></script>
+</body>
+</html>

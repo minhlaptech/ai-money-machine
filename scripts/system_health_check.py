@@ -59,6 +59,7 @@ LIVE_URLS = [
     ("Executive Command Center (Monorepo Root)", "https://work-minh-lap.vercel.app"),
     ("AI Media & Video Studio Hub", "https://work-minh-lap.vercel.app/studio"),
     ("AI Freelance & Agency Hub", "https://work-minh-lap.vercel.app/freelance"),
+    ("AI & Developer Merch Store", "https://work-minh-lap.vercel.app/merch"),
     ("Serverless Health API (/api/health)", "https://work-minh-lap.vercel.app/api/health"),
 ]
 
