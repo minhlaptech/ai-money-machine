@@ -342,6 +342,20 @@ function executeMockPayment() {
   payBtn.disabled = true;
   payBtn.textContent = "Connecting to LemonSqueezy Gateway...";
 
+  // Dispatch inbound checkout lead to Telegram alert desk
+  const currentDomain = (typeof currentAuditData !== 'undefined' && currentAuditData) ? currentAuditData.domain : 'Direct Prospect';
+  fetch('/api/contact', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      name: email.split('@')[0],
+      email: email,
+      service: 'SynapseGEO Pro Founder Pass ($19)',
+      source: 'SynapseGEO Web App',
+      message: `User ${email} initiated Pro Lifetime ($19) purchase for domain: ${currentDomain}`
+    })
+  }).catch(e => console.log('Lead dispatch:', e));
+
   setTimeout(() => {
     closePricingModal();
     payBtn.disabled = false;

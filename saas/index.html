@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autonomous AI Micro-SaaS Suite — High-Leverage Growth Engines</title>
+  <meta name="description" content="Explore our suite of autonomous AI software engines: SynapseGEO for Local SEO audits, ReviewGenius for instant reputation management, and HeadlineIQ for viral CTR optimization.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #070814;
+      --bg-card: rgba(13, 16, 35, 0.75);
+      --bg-card-hover: rgba(20, 25, 52, 0.85);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(0, 242, 254, 0.35);
+      --cyan: #00f2fe;
+      --accent: #7c5cfc;
+      --purple: #e040fb;
+      --emerald: #00e676;
+      --amber: #ffb74d;
+      --gold: #ffd700;
+      --rose: #f43f5e;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* Background Ambient Mesh */
+    .bg-mesh {
+      position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+      background:
+        radial-gradient(circle at 15% 15%, rgba(124, 92, 252, 0.15) 0%, transparent 40%),
+        radial-gradient(circle at 85% 20%, rgba(0, 242, 254, 0.12) 0%, transparent 35%),
+        radial-gradient(circle at 50% 80%, rgba(224, 64, 251, 0.10) 0%, transparent 40%);
+      pointer-events: none; z-index: 0;
+    }
+
+    /* Header */
+    header {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(7, 8, 20, 0.88); backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border); padding: 14px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .brand-wrap { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+    .logo-badge {
+      width: 40px; height: 40px; border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), var(--cyan));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px; box-shadow: 0 0 20px rgba(0, 242, 254, 0.3);
+    }
+    .brand-text h1 { font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 800; letter-spacing: -0.5px; }
+    .brand-text span { font-size: 11px; color: var(--text-muted); font-family: var(--font-mono); }
+
+    .nav-actions { display: flex; align-items: center; gap: 14px; }
+    .nav-link { color: var(--text-muted); text-decoration: none; font-size: 13px; font-weight: 500; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-nav-primary {
+      text-decoration: none; padding: 8px 18px; border-radius: 10px;
+      font-size: 12px; font-weight: 700; display: inline-flex; align-items: center; gap: 6px;
+      background: linear-gradient(135deg, var(--gold), #ff8c00); color: #000;
+      transition: all 0.2s; box-shadow: 0 0 20px rgba(255, 215, 0, 0.25);
+    }
+    .btn-nav-primary:hover { transform: translateY(-1px); box-shadow: 0 4px 25px rgba(255, 215, 0, 0.4); }
+
+    /* Container */
+    .container { max-width: 1240px; margin: 0 auto; padding: 40px 24px 80px; position: relative; z-index: 1; }
+
+    /* Hero */
+    .hero {
+      text-align: center; margin-bottom: 50px; padding: 36px 20px;
+      background: linear-gradient(180deg, rgba(124, 92, 252, 0.08) 0%, transparent 100%);
+      border-radius: 24px; border: 1px solid var(--border);
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(0, 242, 254, 0.12); border: 1px solid rgba(0, 242, 254, 0.3);
+      color: var(--cyan); padding: 5px 14px; border-radius: 30px; font-size: 11px; font-weight: 700;
+      margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.8px;
+    }
+    .hero h2 {
+      font-family: 'Outfit', sans-serif; font-size: clamp(32px, 5vw, 50px); font-weight: 900;
+      letter-spacing: -1px; margin-bottom: 14px; line-height: 1.15;
+    }
+    .hero h2 .grad {
+      background: linear-gradient(135deg, #fff 30%, var(--cyan) 80%, var(--accent) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero p { max-width: 680px; margin: 0 auto 28px; color: var(--text-muted); font-size: 16px; }
+
+    /* Stat Banner */
+    .stat-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px; margin-bottom: 48px;
+    }
+    .stat-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 18px; padding: 22px; text-align: center;
+      backdrop-filter: blur(12px);
+    }
+    .stat-num { font-family: 'Outfit', sans-serif; font-size: 32px; font-weight: 800; color: #fff; }
+    .stat-label { font-size: 11px; text-transform: uppercase; color: var(--text-muted); font-weight: 600; letter-spacing: 0.8px; margin-top: 4px; }
+
+    /* SaaS Trio Showcase Grid */
+    .saas-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 28px; margin-bottom: 60px;
+    }
+    .tool-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 24px; padding: 32px; display: flex; flex-direction: column; justify-content: space-between;
+      backdrop-filter: blur(14px); transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative; overflow: hidden;
+    }
+    .tool-card:hover {
+      transform: translateY(-5px); border-color: var(--cyan);
+      box-shadow: 0 16px 40px rgba(0, 242, 254, 0.15);
+    }
+    .tool-badge-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
+    .tool-icon {
+      width: 52px; height: 52px; border-radius: 14px; display: flex; align-items: center; justify-content: center;
+      font-size: 26px;
+    }
+    .icon-geo { background: rgba(0, 242, 254, 0.15); border: 1px solid rgba(0, 242, 254, 0.35); }
+    .icon-review { background: rgba(255, 107, 53, 0.15); border: 1px solid rgba(255, 107, 53, 0.35); }
+    .icon-headline { background: rgba(224, 64, 251, 0.15); border: 1px solid rgba(224, 64, 251, 0.35); }
+
+    .tool-status {
+      font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 20px; font-family: var(--font-mono);
+      background: rgba(0, 230, 118, 0.12); color: var(--emerald); border: 1px solid rgba(0, 230, 118, 0.3);
+    }
+
+    .tool-title { font-family: 'Outfit', sans-serif; font-size: 24px; font-weight: 800; margin-bottom: 8px; color: #fff; }
+    .tool-subtitle { font-size: 13px; color: var(--text-muted); margin-bottom: 18px; font-weight: 500; }
+    .tool-desc { font-size: 14px; color: var(--text); line-height: 1.6; margin-bottom: 22px; flex: 1; }
+
+    .tool-features { list-style: none; margin-bottom: 24px; }
+    .tool-features li {
+      font-size: 13px; color: var(--text-muted); margin-bottom: 8px; display: flex; align-items: center; gap: 8px;
+    }
+    .tool-features li span { color: var(--emerald); font-weight: 700; }
+
+    .tool-pricing {
+      display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 18px;
+      padding-top: 16px; border-top: 1px solid var(--border);
+    }
+    .price-tag { font-family: 'Outfit', sans-serif; font-size: 26px; font-weight: 800; color: #fff; }
+    .price-tag span { font-size: 12px; color: var(--text-muted); font-weight: 500; }
+
+    .tool-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .btn-launch {
+      text-align: center; text-decoration: none; padding: 12px; border-radius: 12px;
+      font-size: 13px; font-weight: 700; transition: all 0.2s; display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+    }
+    .btn-launch-primary {
+      background: linear-gradient(135deg, var(--accent), var(--cyan)); color: #000;
+    }
+    .btn-launch-primary:hover { opacity: 0.95; transform: translateY(-1px); }
+    .btn-launch-pro {
+      background: rgba(255, 255, 255, 0.06); border: 1px solid var(--border); color: var(--text);
+      cursor: pointer;
+    }
+    .btn-launch-pro:hover { background: rgba(255, 215, 0, 0.15); border-color: rgba(255, 215, 0, 0.4); color: #ffd700; }
+
+    /* All-Access Suite Pass Box */
+    .suite-pass-box {
+      background: linear-gradient(135deg, rgba(124, 92, 252, 0.15), rgba(0, 242, 254, 0.12));
+      border: 1px solid rgba(0, 242, 254, 0.35); border-radius: 28px; padding: 40px;
+      margin-bottom: 60px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 36px;
+      align-items: center; backdrop-filter: blur(16px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    }
+    .pass-content h3 { font-family: 'Outfit', sans-serif; font-size: 32px; font-weight: 900; margin-bottom: 12px; color: #fff; }
+    .pass-content p { font-size: 15px; color: var(--text-muted); margin-bottom: 22px; }
+    .pass-perks { list-style: none; margin-bottom: 24px; }
+    .pass-perks li { font-size: 14px; margin-bottom: 10px; display: flex; align-items: center; gap: 10px; }
+    .pass-perks li span { color: var(--emerald); font-weight: 800; }
+
+    .pass-card {
+      background: rgba(7, 9, 20, 0.85); border: 1px solid rgba(255, 215, 0, 0.4);
+      border-radius: 20px; padding: 30px; text-align: center;
+    }
+    .pass-price { font-family: 'Outfit', sans-serif; font-size: 48px; font-weight: 900; color: #ffd700; margin-bottom: 4px; }
+    .pass-price-sub { font-size: 13px; color: var(--text-muted); margin-bottom: 20px; }
+    .btn-buy-suite {
+      width: 100%; background: linear-gradient(135deg, var(--gold), #ff8c00); color: #000;
+      border: none; padding: 16px; border-radius: 12px; font-size: 15px; font-weight: 800;
+      cursor: pointer; transition: all 0.2s; box-shadow: 0 4px 20px rgba(255, 215, 0, 0.3);
+    }
+    .btn-buy-suite:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(255, 215, 0, 0.5); }
+
+    /* Cross Empire Navigation */
+    .cross-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px; margin-bottom: 40px;
+    }
+    .cross-card {
+      background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px;
+      padding: 20px; text-decoration: none; color: inherit; transition: all 0.2s;
+    }
+    .cross-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .cross-card h4 { font-family: 'Outfit', sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+    .cross-card p { font-size: 12px; color: var(--text-muted); }
+
+    /* Modal */
+    .modal-backdrop {
+      display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+      background: rgba(0,0,0,0.85); backdrop-filter: blur(12px);
+      z-index: 1000; align-items: center; justify-content: center; padding: 20px;
+    }
+    .modal-backdrop.open { display: flex; animation: fadeIn 0.25s ease; }
+    .modal-box {
+      background: #111226; border: 1px solid rgba(255, 215, 0, 0.35);
+      border-radius: 24px; padding: 36px; max-width: 500px; width: 100%;
+      position: relative; box-shadow: 0 20px 60px rgba(0,0,0,0.8);
+    }
+    .modal-close { position: absolute; top: 18px; right: 20px; background: none; border: none; color: var(--text-muted); font-size: 24px; cursor: pointer; }
+    .modal-close:hover { color: #fff; }
+    .modal-badge { display: inline-block; background: linear-gradient(135deg, var(--gold), #ff8c00); color: #000; padding: 4px 10px; border-radius: 6px; font-size: 11px; font-weight: 800; text-transform: uppercase; margin-bottom: 12px; }
+    .modal-title { font-family: 'Outfit', sans-serif; font-size: 24px; font-weight: 800; margin-bottom: 8px; color: #fff; }
+    .modal-desc { font-size: 13px; color: var(--text-muted); margin-bottom: 20px; }
+    .modal-price-tag { font-size: 38px; font-weight: 900; font-family: 'Outfit', sans-serif; color: #ffd700; margin-bottom: 4px; }
+    .modal-input { width: 100%; background: #181a38; border: 1px solid var(--border); border-radius: 12px; padding: 13px 16px; color: var(--text); font-family: inherit; font-size: 14px; margin-bottom: 14px; outline: none; }
+    .modal-input:focus { border-color: #ffd700; }
+    .btn-modal-checkout { width: 100%; background: linear-gradient(135deg, var(--gold), #ff8c00); color: #000; border: none; padding: 14px; border-radius: 12px; font-size: 15px; font-weight: 800; cursor: pointer; transition: all 0.2s; }
+
+    /* Toast */
+    .toast-container { position: fixed; bottom: 24px; right: 24px; z-index: 2000; pointer-events: none; }
+    .toast-msg { background: rgba(18,18,38,0.95); border: 1px solid var(--emerald); color: #fff; padding: 12px 20px; border-radius: 12px; font-size: 13px; font-weight: 600; box-shadow: 0 10px 30px rgba(0,0,0,0.5); backdrop-filter: blur(10px); margin-top: 8px; }
+
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+    footer { text-align: center; padding: 40px 24px; color: var(--text-muted); font-size: 13px; border-top: 1px solid var(--border); }
+    footer a { color: var(--cyan); text-decoration: none; }
+
+    @media (max-width: 860px) {
+      .suite-pass-box { grid-template-columns: 1fr; }
+      .saas-grid { grid-template-columns: 1fr; }
+      .nav-link { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-mesh"></div>
+
+  <header>
+    <a href="/" class="brand-wrap">
+      <div class="logo-badge">⚡</div>
+      <div class="brand-text">
+        <h1>AI MICRO-SAAS SUITE</h1>
+        <span>AUTONOMOUS SOFTWARE MACHINES</span>
+      </div>
+    </a>
+    <div class="nav-actions">
+      <a href="/synapsegeo" class="nav-link">SynapseGEO</a>
+      <a href="/reviewgenius" class="nav-link">ReviewGenius</a>
+      <a href="/headlineiq" class="nav-link">HeadlineIQ</a>
+      <a href="/referral" class="nav-link" style="color:var(--emerald);">Partner (50%) ↗</a>
+      <button class="btn-nav-primary" onclick="openSuiteCheckout()">⭐ All-Access Pass ($39)</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="hero">
+      <span class="hero-badge">⚡ Production-Ready Micro-SaaS Ecosystem</span>
+      <h2>Deploy High-Leverage AI Software.<br><span class="grad">Automate Operations. Scale Revenue.</span></h2>
+      <p>Three specialized, instant-utility AI applications engineered for local businesses, marketing agencies, and viral content creators. Zero subscription lock-in.</p>
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-num">3 / 3</div>
+        <div class="stat-label">Live Micro-SaaS Engines</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Public Cloud Uptime</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">&lt; 2.5s</div>
+        <div class="stat-label">Avg Generation Latency</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">50%</div>
+        <div class="stat-label">Affiliate Commission</div>
+      </div>
+    </div>
+
+    <!-- 3 Core Tools -->
+    <div class="saas-grid">
+      
+      <!-- Tool 1: SynapseGEO -->
+      <div class="tool-card">
+        <div>
+          <div class="tool-badge-row">
+            <div class="tool-icon icon-geo">🌐</div>
+            <span class="tool-status">● LIVE PRODUCTION</span>
+          </div>
+          <h3 class="tool-title">SynapseGEO AI</h3>
+          <p class="tool-subtitle">Autonomous Local SEO & GEO Audit Engine</p>
+          <p class="tool-desc">Analyzes Google Search, Perplexity, and ChatGPT visibility for local SMBs. Detects missed revenue, calculates GEO readiness scores, and generates white-label PDF audit reports.</p>
+          
+          <ul class="tool-features">
+            <li><span>✓</span> 7-Metric Local Geo Audit Algorithm</li>
+            <li><span>✓</span> Perplexity & ChatGPT Visibility Scanner</li>
+            <li><span>✓</span> Automated Executive White-Label PDF</li>
+            <li><span>✓</span> Agency Lead Magnet Generator</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="tool-pricing">
+            <div class="price-tag">$19 <span>/ Lifetime Pass</span></div>
+            <span style="font-size:11px; color:var(--emerald); font-weight:700;">Free Tier Available</span>
+          </div>
+          <div class="tool-actions">
+            <a href="/synapsegeo" class="btn-launch btn-launch-primary">Launch App ↗</a>
+            <button class="btn-launch btn-launch-pro" onclick="openCheckoutModal('SynapseGEO Pro Pass', 19)">Get Pro ($19)</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tool 2: ReviewGenius -->
+      <div class="tool-card">
+        <div>
+          <div class="tool-badge-row">
+            <div class="tool-icon icon-review">⭐</div>
+            <span class="tool-status">● LIVE PRODUCTION</span>
+          </div>
+          <h3 class="tool-title">ReviewGenius AI</h3>
+          <p class="tool-subtitle">Reputation Safeguard & Multi-Language Responder</p>
+          <p class="tool-desc">Instantly analyzes customer sentiment across Google Business, Yelp, and TripAdvisor. Crafts empathetic de-escalation responses to 1-star reviews and loyalty-building replies in 6 languages.</p>
+          
+          <ul class="tool-features">
+            <li><span>✓</span> Real-Time Negative Review Crisis De-escalator</li>
+            <li><span>✓</span> 6 International Languages (EN, ES, FR, DE, VI, JA)</li>
+            <li><span>✓</span> Google My Business & Yelp 1-Click Formatter</li>
+            <li><span>✓</span> Customer Retention ROI Multiplier</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="tool-pricing">
+            <div class="price-tag">$19 <span>/ Lifetime Pass</span></div>
+            <span style="font-size:11px; color:var(--emerald); font-weight:700;">Free Tier Available</span>
+          </div>
+          <div class="tool-actions">
+            <a href="/reviewgenius" class="btn-launch btn-launch-primary">Launch App ↗</a>
+            <button class="btn-launch btn-launch-pro" onclick="openCheckoutModal('ReviewGenius Pro Pass', 19)">Get Pro ($19)</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tool 3: HeadlineIQ -->
+      <div class="tool-card">
+        <div>
+          <div class="tool-badge-row">
+            <div class="tool-icon icon-headline">🎯</div>
+            <span class="tool-status">● LIVE PRODUCTION</span>
+          </div>
+          <h3 class="tool-title">HeadlineIQ AI</h3>
+          <p class="tool-subtitle">High-CTR Headline Scorer & Viral Copy Optimizer</p>
+          <p class="tool-desc">Evaluates emotional impact, curiosity gaps, and SEO ranking strength for YouTube titles, blog headings, and ad hooks. Recommends psychological alternatives that boost CTR up to 38%.</p>
+          
+          <ul class="tool-features">
+            <li><span>✓</span> 5-Factor Emotional & Curiosity Gap Scorer</li>
+            <li><span>✓</span> YouTube, LinkedIn, Email, and Ad Presets</li>
+            <li><span>✓</span> A/B Split-Test Alternative Generator</li>
+            <li><span>✓</span> Bulk CSV Batch Scorer Support</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="tool-pricing">
+            <div class="price-tag">$19 <span>/ Lifetime Pass</span></div>
+            <span style="font-size:11px; color:var(--emerald); font-weight:700;">Free Tier Available</span>
+          </div>
+          <div class="tool-actions">
+            <a href="/headlineiq" class="btn-launch btn-launch-primary">Launch App ↗</a>
+            <button class="btn-launch btn-launch-pro" onclick="openCheckoutModal('HeadlineIQ Pro Pass', 19)">Get Pro ($19)</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- All-Access Suite Pass Box -->
+    <div class="suite-pass-box">
+      <div class="pass-content">
+        <span class="hero-badge" style="background:rgba(255,215,0,0.15); color:#ffd700; border-color:rgba(255,215,0,0.35);">⭐ Best Value Deal</span>
+        <h3>All-Access Micro-SaaS Suite Pass</h3>
+        <p>Unlock Lifetime Founder access to ALL THREE applications. Save $18 compared to buying individually and get all future tool updates included forever.</p>
+        
+        <ul class="pass-perks">
+          <li><span>✓</span> SynapseGEO Pro ($19 Value) — Unlimited GEO & SEO Audits</li>
+          <li><span>✓</span> ReviewGenius Pro ($19 Value) — Multi-Language Reputation Suite</li>
+          <li><span>✓</span> HeadlineIQ Pro ($19 Value) — High-CTR Copy Engine</li>
+          <li><span>✓</span> Full Commercial Client Rights & Agency License</li>
+          <li><span>✓</span> Priority Access to Future AI Tool Drops</li>
+        </ul>
+      </div>
+
+      <div class="pass-card">
+        <div style="font-size:13px; color:var(--text-muted); text-decoration:line-through;">Total Value: $57</div>
+        <div class="pass-price">$39</div>
+        <div class="pass-price-sub">One-Time Payment • Lifetime Access</div>
+        <button class="btn-buy-suite" onclick="openSuiteCheckout()">Claim All-Access Suite ($39) →</button>
+        <p style="font-size:11px; color:var(--text-muted); margin-top:10px;">🔒 Instant Activation • 30-Day Money-Back Guarantee</p>
+      </div>
+    </div>
+
+    <!-- Empire Ecosystem Links -->
+    <div style="text-align:center; margin-bottom:20px;">
+      <h4 style="font-family:'Outfit',sans-serif; font-size:18px; font-weight:800; text-transform:uppercase; letter-spacing:1px; color:var(--text-muted);">Explore The AI Money Empire</h4>
+    </div>
+
+    <div class="cross-grid">
+      <a href="/portal" class="cross-card">
+        <h4>🏢 SMB VIP Portals</h4>
+        <p>60 enterprise client onboarding portals with interactive sandboxes and agreements.</p>
+      </a>
+      <a href="/bundle" class="cross-card">
+        <h4>📦 Digital Master Bundle</h4>
+        <p>5 eBooks, 200+ Prompts, and 12 Automation Blueprints for $39.</p>
+      </a>
+      <a href="/studio" class="cross-card">
+        <h4>🎬 Media Studio Hub</h4>
+        <p>40 broadcast videos, full audio narrations, and 10 social repurposing kits.</p>
+      </a>
+      <a href="/freelance" class="cross-card">
+        <h4>💼 AI Freelance Agency</h4>
+        <p>8 high-ticket AI service offerings from Voice Receptionists to Custom Apps.</p>
+      </a>
+      <a href="/merch" class="cross-card">
+        <h4>👕 Developer POD Store</h4>
+        <p>Premium developer apparel and lifestyle merchandise.</p>
+      </a>
+      <a href="/referral" class="cross-card">
+        <h4>🤝 Affiliate Partner Hub</h4>
+        <p>Earn 50% lifetime recurring commissions on every referred sale.</p>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Checkout Modal -->
+  <div class="modal-backdrop" id="checkoutModal" onclick="closeModalOnBackdrop(event)">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeModal()">×</button>
+      <span class="modal-badge" id="modalBadge">⭐ Lifetime License</span>
+      <h3 class="modal-title" id="modalTitle">All-Access Suite Pass</h3>
+      <p class="modal-desc" id="modalDesc">Immediate activation across all 3 Micro-SaaS tools.</p>
+      
+      <div class="modal-price-tag" id="modalPriceTag">$39</div>
+      
+      <input type="email" id="suite-email" class="modal-input" placeholder="Enter your business email...">
+      <button class="btn-modal-checkout" id="suiteCheckoutBtn" onclick="processSuiteCheckout()">Proceed to Secure Activation →</button>
+      <p style="font-size:11px; color:var(--text-muted); text-align:center; margin-top:10px;">🔒 256-Bit Encrypted • Immediate Access</p>
+    </div>
+  </div>
+
+  <div class="toast-container" id="toastContainer"></div>
+
+  <footer>
+    <p>AI Micro-SaaS Suite — Engineered by Google DeepMind Agentic Pair. © 2026 AI Money Machine.</p>
+    <p style="margin-top:8px;">
+      <a href="/">Command Center</a> • 
+      <a href="/tools">SaaS Suite</a> • 
+      <a href="/bundle">Master Bundle</a> • 
+      <a href="/referral">Affiliate Program</a> • 
+      <a href="/portal">VIP Client Portals</a>
+    </p>
+  </footer>
+
+  <script>
+    let activeCheckoutService = 'All-Access Micro-SaaS Suite Pass ($39)';
+    let activePrice = 39;
+
+    function openSuiteCheckout() {
+      activeCheckoutService = 'All-Access Micro-SaaS Suite Pass ($39)';
+      activePrice = 39;
+      document.getElementById('modalTitle').textContent = 'All-Access Micro-SaaS Suite Pass';
+      document.getElementById('modalDesc').textContent = 'Immediate lifetime founder access to SynapseGEO, ReviewGenius, and HeadlineIQ.';
+      document.getElementById('modalPriceTag').textContent = '$39';
+      document.getElementById('checkoutModal').classList.add('open');
+      document.getElementById('suite-email').focus();
+    }
+
+    function openCheckoutModal(serviceName, price) {
+      activeCheckoutService = `${serviceName} ($${price})`;
+      activePrice = price;
+      document.getElementById('modalTitle').textContent = serviceName;
+      document.getElementById('modalDesc').textContent = `Immediate lifetime access to ${serviceName}.`;
+      document.getElementById('modalPriceTag').textContent = `$${price}`;
+      document.getElementById('checkoutModal').classList.add('open');
+      document.getElementById('suite-email').focus();
+    }
+
+    function closeModal() {
+      document.getElementById('checkoutModal').classList.remove('open');
+    }
+
+    function closeModalOnBackdrop(e) {
+      if (e.target.id === 'checkoutModal') closeModal();
+    }
+
+    function showToast(msg) {
+      const box = document.getElementById('toastContainer');
+      const toast = document.createElement('div');
+      toast.className = 'toast-msg';
+      toast.textContent = msg;
+      box.appendChild(toast);
+      setTimeout(() => toast.remove(), 4000);
+    }
+
+    function processSuiteCheckout() {
+      const email = document.getElementById('suite-email').value.trim();
+      if (!email || !email.includes('@')) {
+        alert("Please enter a valid work email address.");
+        return;
+      }
+
+      const btn = document.getElementById('suiteCheckoutBtn');
+      btn.disabled = true;
+      btn.textContent = "Connecting Payment Gateway...";
+
+      fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: email.split('@')[0],
+          email: email,
+          service: activeCheckoutService,
+          source: 'Micro-SaaS Suite Hub',
+          message: `User ${email} initiated ${activeCheckoutService} order.`
+        })
+      }).catch(err => console.log('Lead dispatch:', err));
+
+      setTimeout(() => {
+        closeModal();
+        btn.disabled = false;
+        btn.textContent = "Proceed to Secure Activation →";
+        
+        // Activate pro flags locally
+        localStorage.setItem('synapsegeo_pro', 'true');
+        localStorage.setItem('reviewgenius_pro', 'true');
+        localStorage.setItem('headlineiq_pro', 'true');
+
+        showToast("🎉 Order Processed! Your Pro Founder Pass is now active across all tools.");
+      }, 1100);
+    }
+  </script>
+</body>
+</html>

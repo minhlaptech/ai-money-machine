@@ -49,7 +49,7 @@
     /* Header */
     header {
       position: sticky; top: 0; z-index: 100;
-      background: rgba(7, 9, 19, 0.85); backdrop-filter: blur(20px);
+      background: rgba(7, 9, 19, 0.88); backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border); padding: 14px 28px;
       display: flex; justify-content: space-between; align-items: center;
     }
@@ -165,6 +165,7 @@
     }
     .ep-thumb-wrap {
       position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #000;
+      cursor: pointer;
     }
     .ep-thumb {
       width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;
@@ -175,12 +176,31 @@
       background: rgba(0, 0, 0, 0.75); border: 1px solid rgba(255,255,255,0.2);
       backdrop-filter: blur(8px); padding: 4px 10px; border-radius: 8px;
       font-size: 11px; font-weight: 700; color: #fff; font-family: var(--font-mono);
+      z-index: 2;
     }
     .ep-dur-badge {
       position: absolute; bottom: 12px; right: 12px;
       background: rgba(0, 0, 0, 0.85); border: 1px solid rgba(0, 242, 254, 0.4);
       padding: 4px 10px; border-radius: 8px; font-size: 11px; font-weight: 700; color: var(--cyan);
+      z-index: 2;
     }
+
+    .ep-play-overlay {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.55); backdrop-filter: blur(3px);
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 8px; opacity: 0; transition: opacity 0.25s ease; z-index: 3;
+    }
+    .ep-thumb-wrap:hover .ep-play-overlay { opacity: 1; }
+    .play-btn-circle {
+      width: 48px; height: 48px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--rose), var(--accent));
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-size: 18px; box-shadow: 0 0 25px rgba(244, 63, 94, 0.6);
+      transform: scale(0.9); transition: transform 0.2s;
+    }
+    .ep-thumb-wrap:hover .play-btn-circle { transform: scale(1.05); }
+    .ep-play-overlay span { font-size: 12px; font-weight: 700; color: #fff; letter-spacing: 0.5px; text-transform: uppercase; }
 
     .ep-body { padding: 22px; display: flex; flex-direction: column; flex: 1; justify-content: space-between; }
     .ep-title {
@@ -198,29 +218,39 @@
     audio.custom-audio {
       width: 100%; height: 36px; outline: none;
     }
+
     .ep-actions {
-      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px;
+      display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px;
     }
     .btn-action {
-      text-align: center; text-decoration: none; padding: 8px 10px;
+      text-align: center; text-decoration: none; padding: 8px 6px;
       background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
-      border-radius: 8px; font-size: 12px; font-weight: 600; color: var(--text);
-      transition: all 0.2s;
+      border-radius: 8px; font-size: 11px; font-weight: 600; color: var(--text);
+      transition: all 0.2s; display: inline-flex; align-items: center; justify-content: center;
     }
     .btn-action:hover {
       background: linear-gradient(135deg, var(--accent), var(--cyan));
       border-color: transparent; color: #000;
+    }
+    .btn-watch-act {
+      background: linear-gradient(135deg, var(--rose), var(--accent)) !important;
+      color: #fff !important; font-weight: 700 !important; border-color: transparent !important;
+      cursor: pointer;
+    }
+    .btn-watch-act:hover {
+      box-shadow: 0 0 15px rgba(244, 63, 94, 0.5); transform: translateY(-1px);
     }
 
     /* Shorts Filter & Grid */
     .filter-bar {
       display: flex; gap: 8px; margin-bottom: 24px; align-items: center;
       background: var(--bg-card); padding: 10px 16px; border-radius: 14px; border: 1px solid var(--border);
+      overflow-x: auto;
     }
     .filter-btn {
       background: transparent; border: none; color: var(--text-muted);
       padding: 6px 14px; border-radius: 8px; font-size: 13px; font-weight: 600;
-      cursor: pointer; transition: all 0.2s;
+      cursor: pointer; transition: all 0.2s; white-space: nowrap;
     }
     .filter-btn.active {
       background: var(--accent); color: #fff;
@@ -261,13 +291,13 @@
     .short-cta-box p { color: var(--emerald); font-weight: 600; }
 
     .short-footer {
-      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: 12px;
+      display: grid; grid-template-columns: 1.2fr 1fr 1fr 1fr; gap: 6px; margin-top: 12px;
     }
     .btn-mini {
-      text-align: center; text-decoration: none; padding: 7px 8px;
+      text-align: center; text-decoration: none; padding: 7px 6px;
       background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
       border-radius: 6px; font-size: 11px; font-weight: 600; color: var(--text);
-      transition: all 0.2s;
+      transition: all 0.2s; display: inline-flex; align-items: center; justify-content: center;
     }
     .btn-mini:hover {
       background: var(--cyan); color: #000; border-color: transparent;
@@ -314,9 +344,64 @@
       max-height: 320px; overflow-y: auto; white-space: pre-wrap; font-family: 'Inter', sans-serif;
     }
 
+    /* Video Player Modal */
+    .video-modal-backdrop {
+      display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+      background: rgba(0, 0, 0, 0.90); backdrop-filter: blur(14px);
+      z-index: 1000; align-items: center; justify-content: center; padding: 20px;
+    }
+    .video-modal-backdrop.open { display: flex; animation: fadeIn 0.25s ease; }
+    .video-modal-box {
+      background: #0d1124; border: 1px solid var(--border-accent);
+      border-radius: 24px; padding: 24px; max-width: 900px; width: 100%;
+      position: relative; box-shadow: 0 25px 60px rgba(0,0,0,0.85);
+      display: flex; flex-direction: column; gap: 16px;
+    }
+    .video-modal-header {
+      display: flex; justify-content: space-between; align-items: flex-start; gap: 16px;
+    }
+    .video-format-pill {
+      font-size: 11px; font-weight: 700; color: var(--cyan); font-family: var(--font-mono);
+      background: rgba(0, 242, 254, 0.12); padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(0, 242, 254, 0.3);
+      display: inline-block; margin-bottom: 6px; text-transform: uppercase;
+    }
+    .video-modal-title { font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 800; color: #fff; line-height: 1.3; }
+    .video-modal-close {
+      background: rgba(255,255,255,0.08); border: 1px solid var(--border); color: #fff;
+      width: 36px; height: 36px; border-radius: 50%; font-size: 18px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center; transition: all 0.2s; flex-shrink: 0;
+    }
+    .video-modal-close:hover { background: var(--rose); border-color: transparent; }
+
+    .video-screen-container {
+      background: #000; border-radius: 16px; overflow: hidden;
+      aspect-ratio: 16 / 9; display: flex; align-items: center; justify-content: center;
+      position: relative; border: 1px solid var(--border);
+    }
+    .video-screen-container.vertical { aspect-ratio: 9 / 16; max-height: 60vh; margin: 0 auto; }
+    .video-screen-player { width: 100%; height: 100%; outline: none; }
+
+    .video-modal-footer {
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;
+      padding-top: 10px; border-top: 1px solid var(--border);
+    }
+    .video-engine-status {
+      font-size: 12px; color: var(--text-muted); display: flex; align-items: center; gap: 8px;
+    }
+    .status-bulb {
+      width: 8px; height: 8px; border-radius: 50%; background: var(--emerald); box-shadow: 0 0 10px var(--emerald);
+    }
+    .btn-download-mp4 {
+      background: linear-gradient(135deg, var(--accent), var(--cyan)); color: #000;
+      text-decoration: none; padding: 9px 18px; border-radius: 10px; font-size: 13px; font-weight: 700;
+      display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s;
+    }
+    .btn-download-mp4:hover { opacity: 0.95; transform: translateY(-1px); }
+
     @media (max-width: 768px) {
       .studio-hero h2 { font-size: 28px; }
       .episodes-grid, .social-quad-grid { grid-template-columns: 1fr; }
+      .ep-actions, .short-footer { grid-template-columns: 1fr 1fr; }
     }
   </style>
 </head>
@@ -333,6 +418,7 @@
     </a>
     <div class="nav-actions">
       <a href="/" class="btn-nav btn-nav-secondary">← Command Center</a>
+      <a href="/tools" class="btn-nav btn-nav-secondary">SaaS Suite ↗</a>
       <a href="/portal" class="btn-nav btn-nav-secondary">VIP Portals ↗</a>
       <a href="/bundle" class="btn-nav btn-nav-primary">Master Bundle ($39) ↗</a>
     </div>
@@ -342,9 +428,13 @@
     <div class="studio-hero">
       <span class="hero-badge">⚡ 100% Autonomous Studio Engine</span>
       <h2>Broadcast-Quality Media & Content Empire</h2>
-      <p>Instant audio streaming, subtitle downloads, 4K visual assets, and 1-click social media distribution packages across all 8 monetization streams.</p>
+      <p>40 rendered broadcast MP4 videos, instant browser video previews, full audio narrations, subtitle downloads, and 1-click social distribution packages across all 8 monetization streams.</p>
       
       <div class="stat-row">
+        <div class="stat-box">
+          <div class="stat-num">40 / 40</div>
+          <div class="stat-lbl">Rendered MP4 Videos</div>
+        </div>
         <div class="stat-box">
           <div class="stat-num">77.6 mins</div>
           <div class="stat-lbl">Full Episodes Audio</div>
@@ -356,10 +446,6 @@
         <div class="stat-box">
           <div class="stat-num">30 Days</div>
           <div class="stat-lbl">Viral Shorts Synthesized</div>
-        </div>
-        <div class="stat-box">
-          <div class="stat-num">40 Assets</div>
-          <div class="stat-lbl">Repurposed Social Posts</div>
         </div>
       </div>
     </div>
@@ -382,10 +468,14 @@
       <div class="episodes-grid">
         
         <div class="ep-card">
-          <div class="ep-thumb-wrap">
+          <div class="ep-thumb-wrap" onclick="openStudioVideo('5 AI Tools That Can Make You $1000/Month', '/studio/rendered_episodes/episode_001_video.mp4', '1080p 16:9 Broadcast Episode')">
             <img src="/studio/thumbnails/thumb_001_5_ai_tools.jpg" alt="5 AI Tools That Can Make You $1000/Month" class="ep-thumb" loading="lazy">
             <span class="ep-badge">EPISODE #01</span>
             <span class="ep-dur-badge">⏱️ 9.9 min</span>
+            <div class="ep-play-overlay">
+              <div class="play-btn-circle">▶</div>
+              <span>Watch Video Preview</span>
+            </div>
           </div>
           <div class="ep-body">
             <h3 class="ep-title">5 AI Tools That Can Make You $1000/Month</h3>
@@ -405,18 +495,23 @@
             </div>
 
             <div class="ep-actions">
-              <a href="/studio/audio_episodes/episode_001_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
-              <a href="/studio/audio_episodes/episode_001_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
-              <a href="/studio/audio_episodes/episode_001_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+              <button class="btn-action btn-watch-act" onclick="openStudioVideo('5 AI Tools That Can Make You $1000/Month', '/studio/rendered_episodes/episode_001_video.mp4', '1080p 16:9 Broadcast Episode')">▶ Watch</button>
+              <a href="/studio/rendered_episodes/episode_001_video.mp4" download class="btn-action">📥 Video</a>
+              <a href="/studio/audio_episodes/episode_001_voiceover.mp3" download class="btn-action">🎧 Audio</a>
+              <a href="/studio/audio_episodes/episode_001_subtitles.srt" target="_blank" class="btn-action">📄 SRT</a>
             </div>
           </div>
         </div>
         
         <div class="ep-card">
-          <div class="ep-thumb-wrap">
+          <div class="ep-thumb-wrap" onclick="openStudioVideo('How to Build an AI Chatbot in 15 Minutes', '/studio/rendered_episodes/episode_002_video.mp4', '1080p 16:9 Broadcast Episode')">
             <img src="/studio/thumbnails/thumb_002_chatbot_15min.jpg" alt="How to Build an AI Chatbot in 15 Minutes" class="ep-thumb" loading="lazy">
             <span class="ep-badge">EPISODE #02</span>
             <span class="ep-dur-badge">⏱️ 6.2 min</span>
+            <div class="ep-play-overlay">
+              <div class="play-btn-circle">▶</div>
+              <span>Watch Video Preview</span>
+            </div>
           </div>
           <div class="ep-body">
             <h3 class="ep-title">How to Build an AI Chatbot in 15 Minutes</h3>
@@ -436,18 +531,23 @@
             </div>
 
             <div class="ep-actions">
-              <a href="/studio/audio_episodes/episode_002_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
-              <a href="/studio/audio_episodes/episode_002_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
-              <a href="/studio/audio_episodes/episode_002_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+              <button class="btn-action btn-watch-act" onclick="openStudioVideo('How to Build an AI Chatbot in 15 Minutes', '/studio/rendered_episodes/episode_002_video.mp4', '1080p 16:9 Broadcast Episode')">▶ Watch</button>
+              <a href="/studio/rendered_episodes/episode_002_video.mp4" download class="btn-action">📥 Video</a>
+              <a href="/studio/audio_episodes/episode_002_voiceover.mp3" download class="btn-action">🎧 Audio</a>
+              <a href="/studio/audio_episodes/episode_002_subtitles.srt" target="_blank" class="btn-action">📄 SRT</a>
             </div>
           </div>
         </div>
         
         <div class="ep-card">
-          <div class="ep-thumb-wrap">
+          <div class="ep-thumb-wrap" onclick="openStudioVideo('How to Automate a Local Business for $500', '/studio/rendered_episodes/episode_003_video.mp4', '1080p 16:9 Broadcast Episode')">
             <img src="/studio/thumbnails/thumb_003_automate_500.jpg" alt="How to Automate a Local Business for $500" class="ep-thumb" loading="lazy">
             <span class="ep-badge">EPISODE #03</span>
             <span class="ep-dur-badge">⏱️ 9.1 min</span>
+            <div class="ep-play-overlay">
+              <div class="play-btn-circle">▶</div>
+              <span>Watch Video Preview</span>
+            </div>
           </div>
           <div class="ep-body">
             <h3 class="ep-title">How to Automate a Local Business for $500</h3>
@@ -467,18 +567,23 @@
             </div>
 
             <div class="ep-actions">
-              <a href="/studio/audio_episodes/episode_003_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
-              <a href="/studio/audio_episodes/episode_003_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
-              <a href="/studio/audio_episodes/episode_003_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+              <button class="btn-action btn-watch-act" onclick="openStudioVideo('How to Automate a Local Business for $500', '/studio/rendered_episodes/episode_003_video.mp4', '1080p 16:9 Broadcast Episode')">▶ Watch</button>
+              <a href="/studio/rendered_episodes/episode_003_video.mp4" download class="btn-action">📥 Video</a>
+              <a href="/studio/audio_episodes/episode_003_voiceover.mp3" download class="btn-action">🎧 Audio</a>
+              <a href="/studio/audio_episodes/episode_003_subtitles.srt" target="_blank" class="btn-action">📄 SRT</a>
             </div>
           </div>
         </div>
         
         <div class="ep-card">
-          <div class="ep-thumb-wrap">
+          <div class="ep-thumb-wrap" onclick="openStudioVideo('I Built 3 AI Products in 1 Day', '/studio/rendered_episodes/episode_004_video.mp4', '1080p 16:9 Broadcast Episode')">
             <img src="/studio/thumbnails/thumb_004_3_products_1_day.jpg" alt="I Built 3 AI Products in 1 Day" class="ep-thumb" loading="lazy">
             <span class="ep-badge">EPISODE #04</span>
             <span class="ep-dur-badge">⏱️ 8.7 min</span>
+            <div class="ep-play-overlay">
+              <div class="play-btn-circle">▶</div>
+              <span>Watch Video Preview</span>
+            </div>
           </div>
           <div class="ep-body">
             <h3 class="ep-title">I Built 3 AI Products in 1 Day</h3>
@@ -498,18 +603,23 @@
             </div>
 
             <div class="ep-actions">
-              <a href="/studio/audio_episodes/episode_004_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
-              <a href="/studio/audio_episodes/episode_004_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
-              <a href="/studio/audio_episodes/episode_004_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+              <button class="btn-action btn-watch-act" onclick="openStudioVideo('I Built 3 AI Products in 1 Day', '/studio/rendered_episodes/episode_004_video.mp4', '1080p 16:9 Broadcast Episode')">▶ Watch</button>
+              <a href="/studio/rendered_episodes/episode_004_video.mp4" download class="btn-action">📥 Video</a>
+              <a href="/studio/audio_episodes/episode_004_voiceover.mp3" download class="btn-action">🎧 Audio</a>
+              <a href="/studio/audio_episodes/episode_004_subtitles.srt" target="_blank" class="btn-action">📄 SRT</a>
             </div>
           </div>
         </div>
         
         <div class="ep-card">
-          <div class="ep-thumb-wrap">
+          <div class="ep-thumb-wrap" onclick="openStudioVideo('How to Build & Monetize a Micro-SaaS with AI', '/studio/rendered_episodes/episode_005_video.mp4', '1080p 16:9 Broadcast Episode')">
             <img src="/studio/thumbnails/thumb_005_microsaas.jpg" alt="How to Build & Monetize a Micro-SaaS with AI" class="ep-thumb" loading="lazy">
             <span class="ep-badge">EPISODE #05</span>
             <span class="ep-dur-badge">⏱️ 6.0 min</span>
+            <div class="ep-play-overlay">
+              <div class="play-btn-circle">▶</div>
+              <span>Watch Video Preview</span>
+            </div>
           </div>
           <div class="ep-body">
             <h3 class="ep-title">How to Build & Monetize a Micro-SaaS with AI</h3>
@@ -529,18 +639,23 @@
             </div>
 
             <div class="ep-actions">
-              <a href="/studio/audio_episodes/episode_005_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
-              <a href="/studio/audio_episodes/episode_005_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
-              <a href="/studio/audio_episodes/episode_005_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+              <button class="btn-action btn-watch-act" onclick="openStudioVideo('How to Build & Monetize a Micro-SaaS with AI', '/studio/rendered_episodes/episode_005_video.mp4', '1080p 16:9 Broadcast Episode')">▶ Watch</button>
+              <a href="/studio/rendered_episodes/episode_005_video.mp4" download class="btn-action">📥 Video</a>
+              <a href="/studio/audio_episodes/episode_005_voiceover.mp3" download class="btn-action">🎧 Audio</a>
+              <a href="/studio/audio_episodes/episode_005_subtitles.srt" target="_blank" class="btn-action">📄 SRT</a>
             </div>
           </div>
         </div>
         
         <div class="ep-card">
-          <div class="ep-thumb-wrap">
+          <div class="ep-thumb-wrap" onclick="openStudioVideo('Starting an AI Automation Agency in 2026', '/studio/rendered_episodes/episode_006_video.mp4', '1080p 16:9 Broadcast Episode')">
             <img src="/studio/thumbnails/thumb_006_ai_agency.jpg" alt="Starting an AI Automation Agency in 2026" class="ep-thumb" loading="lazy">
             <span class="ep-badge">EPISODE #06</span>
             <span class="ep-dur-badge">⏱️ 7.6 min</span>
+            <div class="ep-play-overlay">
+              <div class="play-btn-circle">▶</div>
+              <span>Watch Video Preview</span>
+            </div>
           </div>
           <div class="ep-body">
             <h3 class="ep-title">Starting an AI Automation Agency in 2026</h3>
@@ -560,18 +675,23 @@
             </div>
 
             <div class="ep-actions">
-              <a href="/studio/audio_episodes/episode_006_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
-              <a href="/studio/audio_episodes/episode_006_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
-              <a href="/studio/audio_episodes/episode_006_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+              <button class="btn-action btn-watch-act" onclick="openStudioVideo('Starting an AI Automation Agency in 2026', '/studio/rendered_episodes/episode_006_video.mp4', '1080p 16:9 Broadcast Episode')">▶ Watch</button>
+              <a href="/studio/rendered_episodes/episode_006_video.mp4" download class="btn-action">📥 Video</a>
+              <a href="/studio/audio_episodes/episode_006_voiceover.mp3" download class="btn-action">🎧 Audio</a>
+              <a href="/studio/audio_episodes/episode_006_subtitles.srt" target="_blank" class="btn-action">📄 SRT</a>
             </div>
           </div>
         </div>
         
         <div class="ep-card">
-          <div class="ep-thumb-wrap">
+          <div class="ep-thumb-wrap" onclick="openStudioVideo('AI + Print on Demand: The Automated Merch Store', '/studio/rendered_episodes/episode_007_video.mp4', '1080p 16:9 Broadcast Episode')">
             <img src="/studio/thumbnails/thumb_007_pod_ai.jpg" alt="AI + Print on Demand: The Automated Merch Store" class="ep-thumb" loading="lazy">
             <span class="ep-badge">EPISODE #07</span>
             <span class="ep-dur-badge">⏱️ 6.4 min</span>
+            <div class="ep-play-overlay">
+              <div class="play-btn-circle">▶</div>
+              <span>Watch Video Preview</span>
+            </div>
           </div>
           <div class="ep-body">
             <h3 class="ep-title">AI + Print on Demand: The Automated Merch Store</h3>
@@ -591,18 +711,23 @@
             </div>
 
             <div class="ep-actions">
-              <a href="/studio/audio_episodes/episode_007_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
-              <a href="/studio/audio_episodes/episode_007_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
-              <a href="/studio/audio_episodes/episode_007_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+              <button class="btn-action btn-watch-act" onclick="openStudioVideo('AI + Print on Demand: The Automated Merch Store', '/studio/rendered_episodes/episode_007_video.mp4', '1080p 16:9 Broadcast Episode')">▶ Watch</button>
+              <a href="/studio/rendered_episodes/episode_007_video.mp4" download class="btn-action">📥 Video</a>
+              <a href="/studio/audio_episodes/episode_007_voiceover.mp3" download class="btn-action">🎧 Audio</a>
+              <a href="/studio/audio_episodes/episode_007_subtitles.srt" target="_blank" class="btn-action">📄 SRT</a>
             </div>
           </div>
         </div>
         
         <div class="ep-card">
-          <div class="ep-thumb-wrap">
+          <div class="ep-thumb-wrap" onclick="openStudioVideo('The $0 to $3,000/Month AI Freelancing Roadmap', '/studio/rendered_episodes/episode_008_video.mp4', '1080p 16:9 Broadcast Episode')">
             <img src="/studio/thumbnails/thumb_008_upwork_ai.jpg" alt="The $0 to $3,000/Month AI Freelancing Roadmap" class="ep-thumb" loading="lazy">
             <span class="ep-badge">EPISODE #08</span>
             <span class="ep-dur-badge">⏱️ 8.2 min</span>
+            <div class="ep-play-overlay">
+              <div class="play-btn-circle">▶</div>
+              <span>Watch Video Preview</span>
+            </div>
           </div>
           <div class="ep-body">
             <h3 class="ep-title">The $0 to $3,000/Month AI Freelancing Roadmap</h3>
@@ -622,18 +747,23 @@
             </div>
 
             <div class="ep-actions">
-              <a href="/studio/audio_episodes/episode_008_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
-              <a href="/studio/audio_episodes/episode_008_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
-              <a href="/studio/audio_episodes/episode_008_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+              <button class="btn-action btn-watch-act" onclick="openStudioVideo('The $0 to $3,000/Month AI Freelancing Roadmap', '/studio/rendered_episodes/episode_008_video.mp4', '1080p 16:9 Broadcast Episode')">▶ Watch</button>
+              <a href="/studio/rendered_episodes/episode_008_video.mp4" download class="btn-action">📥 Video</a>
+              <a href="/studio/audio_episodes/episode_008_voiceover.mp3" download class="btn-action">🎧 Audio</a>
+              <a href="/studio/audio_episodes/episode_008_subtitles.srt" target="_blank" class="btn-action">📄 SRT</a>
             </div>
           </div>
         </div>
         
         <div class="ep-card">
-          <div class="ep-thumb-wrap">
+          <div class="ep-thumb-wrap" onclick="openStudioVideo('How to Build an AI Agency in 48 Hours', '/studio/rendered_episodes/episode_009_video.mp4', '1080p 16:9 Broadcast Episode')">
             <img src="/studio/thumbnails/thumb_009_agency_48h.jpg" alt="How to Build an AI Agency in 48 Hours" class="ep-thumb" loading="lazy">
             <span class="ep-badge">EPISODE #09</span>
             <span class="ep-dur-badge">⏱️ 7.9 min</span>
+            <div class="ep-play-overlay">
+              <div class="play-btn-circle">▶</div>
+              <span>Watch Video Preview</span>
+            </div>
           </div>
           <div class="ep-body">
             <h3 class="ep-title">How to Build an AI Agency in 48 Hours</h3>
@@ -653,18 +783,23 @@
             </div>
 
             <div class="ep-actions">
-              <a href="/studio/audio_episodes/episode_009_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
-              <a href="/studio/audio_episodes/episode_009_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
-              <a href="/studio/audio_episodes/episode_009_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+              <button class="btn-action btn-watch-act" onclick="openStudioVideo('How to Build an AI Agency in 48 Hours', '/studio/rendered_episodes/episode_009_video.mp4', '1080p 16:9 Broadcast Episode')">▶ Watch</button>
+              <a href="/studio/rendered_episodes/episode_009_video.mp4" download class="btn-action">📥 Video</a>
+              <a href="/studio/audio_episodes/episode_009_voiceover.mp3" download class="btn-action">🎧 Audio</a>
+              <a href="/studio/audio_episodes/episode_009_subtitles.srt" target="_blank" class="btn-action">📄 SRT</a>
             </div>
           </div>
         </div>
         
         <div class="ep-card">
-          <div class="ep-thumb-wrap">
+          <div class="ep-thumb-wrap" onclick="openStudioVideo('5 Make.com Automation Blueprints That Make $1000/Month', '/studio/rendered_episodes/episode_010_video.mp4', '1080p 16:9 Broadcast Episode')">
             <img src="/studio/thumbnails/thumb_010_blueprints.jpg" alt="5 Make.com Automation Blueprints That Make $1000/Month" class="ep-thumb" loading="lazy">
             <span class="ep-badge">EPISODE #10</span>
             <span class="ep-dur-badge">⏱️ 7.6 min</span>
+            <div class="ep-play-overlay">
+              <div class="play-btn-circle">▶</div>
+              <span>Watch Video Preview</span>
+            </div>
           </div>
           <div class="ep-body">
             <h3 class="ep-title">5 Make.com Automation Blueprints That Make $1000/Month</h3>
@@ -684,9 +819,10 @@
             </div>
 
             <div class="ep-actions">
-              <a href="/studio/audio_episodes/episode_010_voiceover.mp3" download class="btn-action">📥 Audio MP3</a>
-              <a href="/studio/audio_episodes/episode_010_subtitles.srt" target="_blank" class="btn-action">📄 Subtitles SRT</a>
-              <a href="/studio/audio_episodes/episode_010_script.txt" target="_blank" class="btn-action">📝 Teleprompter</a>
+              <button class="btn-action btn-watch-act" onclick="openStudioVideo('5 Make.com Automation Blueprints That Make $1000/Month', '/studio/rendered_episodes/episode_010_video.mp4', '1080p 16:9 Broadcast Episode')">▶ Watch</button>
+              <a href="/studio/rendered_episodes/episode_010_video.mp4" download class="btn-action">📥 Video</a>
+              <a href="/studio/audio_episodes/episode_010_voiceover.mp3" download class="btn-action">🎧 Audio</a>
+              <a href="/studio/audio_episodes/episode_010_subtitles.srt" target="_blank" class="btn-action">📄 SRT</a>
             </div>
           </div>
         </div>
@@ -735,9 +871,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_01_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Agency Secret] Why local businesses lose 40% of customers after 7 PM', '/studio/rendered_shorts/day_01_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_01_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_01_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_01_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_01_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -770,9 +907,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_02_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Chatbot Demo] I tested this dental AI chatbot on mobile (Mind blown)', '/studio/rendered_shorts/day_02_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_02_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_02_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_02_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_02_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -805,9 +943,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_03_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Agency Math] How to make $3,000/month with only 4 clients', '/studio/rendered_shorts/day_03_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_03_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_03_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_03_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_03_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -840,9 +979,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_04_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Niche Breakdown] The #1 richest niche for AI automation in 2026', '/studio/rendered_shorts/day_04_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_04_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_04_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_04_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_04_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -875,9 +1015,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_05_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Emergency Services] How this HVAC company recovered $9,200 with 1 automated text', '/studio/rendered_shorts/day_05_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_05_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_05_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_05_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_05_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -910,9 +1051,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_06_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Client Acquisition] The 1-Click cold email that gets 35% reply rates', '/studio/rendered_shorts/day_06_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_06_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_06_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_06_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_06_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -945,9 +1087,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_07_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Overcoming Fear] Do you need coding skills to start an AI agency?', '/studio/rendered_shorts/day_07_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_07_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_07_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_07_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_07_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -980,9 +1123,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_08_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Micro-SaaS] I built a software tool in 48 hours that charges $19', '/studio/rendered_shorts/day_08_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_08_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_08_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_08_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_08_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1015,9 +1159,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_09_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[AI Search Shift] Google SEO is declining. Here is what is replacing it.', '/studio/rendered_shorts/day_09_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_09_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_09_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_09_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_09_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1050,9 +1195,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_10_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Review Genius] Turn 1-star angry reviews into 5-star loyal fans', '/studio/rendered_shorts/day_10_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_10_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_10_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_10_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_10_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1085,9 +1231,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_11_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Headline IQ] The psychological secret to viral headlines', '/studio/rendered_shorts/day_11_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_11_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_11_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_11_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_11_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1120,9 +1267,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_12_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Zero-Cost Hosting] How to host your web apps for $0 forever', '/studio/rendered_shorts/day_12_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_12_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_12_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_12_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_12_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1155,9 +1303,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_13_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Chrome Extension] How to build a Chrome extension as a lead magnet', '/studio/rendered_shorts/day_13_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_13_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_13_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_13_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_13_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1190,9 +1339,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_14_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[SaaS Monetization] Stripe vs Lemon Squeezy for solo founders', '/studio/rendered_shorts/day_14_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_14_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_14_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_14_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_14_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1225,9 +1375,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_15_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Make vs Zapier] Make.com vs Zapier: The brutal truth in 2026', '/studio/rendered_shorts/day_15_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_15_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_15_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_15_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_15_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1260,9 +1411,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_16_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Telegram Alert] Get an instant phone notification whenever you get a lead', '/studio/rendered_shorts/day_16_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_16_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_16_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_16_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_16_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1295,9 +1447,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_17_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[OCR Pipeline] Automating 20 hours of invoice data entry for accountants', '/studio/rendered_shorts/day_17_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_17_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_17_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_17_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_17_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1330,9 +1483,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_18_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Multi-Platform Repurpose] Turn 1 blog post into 10 social media posts in 60s', '/studio/rendered_shorts/day_18_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_18_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_18_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_18_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_18_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1365,9 +1519,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_19_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Error Handling] Why 90% of Make.com scenarios break (And the fix)', '/studio/rendered_shorts/day_19_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_19_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_19_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_19_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_19_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1400,9 +1555,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_20_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Airtable CRM] Build a custom $5,000 CRM in Airtable in 15 minutes', '/studio/rendered_shorts/day_20_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_20_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_20_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_20_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_20_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1435,9 +1591,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_21_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[AI Agent Future] The death of static websites: Meet autonomous web agents', '/studio/rendered_shorts/day_21_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_21_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_21_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_21_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_21_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1470,9 +1627,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_22_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Digital Product] How to create and sell your first digital eBook with AI', '/studio/rendered_shorts/day_22_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_22_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_22_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_22_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_22_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1505,9 +1663,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_23_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Prompt Engineering] Stop writing bad prompts: The 4-step framework', '/studio/rendered_shorts/day_23_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_23_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_23_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_23_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_23_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1540,9 +1699,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_24_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Fiverr Gigs] 3 Fiverr gigs you can offer today with zero portfolio', '/studio/rendered_shorts/day_24_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_24_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_24_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_24_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_24_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1575,9 +1735,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_25_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Upwork Strategy] How to charge $95/hour on Upwork as an AI developer', '/studio/rendered_shorts/day_25_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_25_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_25_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_25_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_25_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1610,9 +1771,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_26_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Print on Demand] Can you still make money with Print-on-Demand in 2026?', '/studio/rendered_shorts/day_26_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_26_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_26_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_26_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_26_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1645,9 +1807,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_27_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Gumroad Strategy] How to get sales on Gumroad with zero social following', '/studio/rendered_shorts/day_27_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_27_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_27_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_27_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_27_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1680,9 +1843,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_28_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Client Proposal] The 2-page AI audit proposal that closes 4 out of 5 clients', '/studio/rendered_shorts/day_28_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_28_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_28_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_28_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_28_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1715,9 +1879,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_29_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Roadmap Part 1] Month 1 vs Month 3: The 90-Day AI Income Roadmap', '/studio/rendered_shorts/day_29_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_29_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_29_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_29_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_29_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1750,9 +1915,10 @@
           </div>
 
           <div class="short-footer">
-            <a href="/studio/audio_shorts/day_30_voiceover.mp3" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('[Roadmap Part 2] The 8-stream AI money machine explained in 60 seconds', '/studio/rendered_shorts/day_30_short.mp4', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="/studio/rendered_shorts/day_30_short.mp4" download class="btn-mini">📥 MP4</a>
+            <a href="/studio/audio_shorts/day_30_voiceover.mp3" download class="btn-mini">🎧 Audio</a>
             <a href="/studio/audio_shorts/day_30_subtitles.srt" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="/studio/audio_shorts/day_30_script.txt" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         
@@ -1762,18 +1928,15 @@
     <!-- Panel 3: Social Repurposing Kits -->
     <div id="tab-social" class="studio-panel">
       <div class="social-kit-box">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:18px;">
-          <h3 style="font-family:'Outfit'; font-size:20px; font-weight:800;">Choose Topic to Dispatch:</h3>
-          <a href="/projects/ai_content_social/buffer_schedule.csv" download class="btn-nav btn-nav-primary" style="padding:6px 14px; font-size:12px;">📥 Download Buffer CSV (20 Posts)</a>
-        </div>
-        <div class="topic-selector-wrap" id="topicSelector">
-          <!-- Populated by JS -->
-        </div>
+        <h3 style="font-family:'Outfit', sans-serif; font-size:20px; font-weight:800; margin-bottom:8px;">10 Multi-Platform Distribution Kits</h3>
+        <p style="font-size:13px; color:var(--text-muted); margin-bottom:20px;">Select a core topic below to copy pre-formatted content packages for LinkedIn, X (Twitter Threads), TikTok scripts, and Reddit communities.</p>
+
+        <div class="topic-selector-wrap" id="topicPillsWrap"></div>
 
         <div class="social-quad-grid">
           <div class="quad-card">
             <div class="quad-header">
-              <h4>💼 LinkedIn Post</h4>
+              <h4>💼 LinkedIn Authority Post</h4>
               <button class="btn-copy" onclick="copyQuad('liContent', this)">Copy Post</button>
             </div>
             <div class="quad-content" id="liContent">Loading...</div>
@@ -1781,7 +1944,7 @@
 
           <div class="quad-card">
             <div class="quad-header">
-              <h4>🐦 Twitter / X 7-Tweet Thread</h4>
+              <h4>🐦 X / Twitter Thread (3-5 Tweets)</h4>
               <button class="btn-copy" onclick="copyQuad('twContent', this)">Copy Thread</button>
             </div>
             <div class="quad-content" id="twContent">Loading...</div>
@@ -1789,7 +1952,7 @@
 
           <div class="quad-card">
             <div class="quad-header">
-              <h4>🎬 60s TikTok / Shorts Script</h4>
+              <h4>📱 TikTok / Shorts Video Script</h4>
               <button class="btn-copy" onclick="copyQuad('ttContent', this)">Copy Script</button>
             </div>
             <div class="quad-content" id="ttContent">Loading...</div>
@@ -1797,17 +1960,59 @@
 
           <div class="quad-card">
             <div class="quad-header">
-              <h4>👾 Reddit Discussion Starter</h4>
-              <button class="btn-copy" onclick="copyQuad('rdContent', this)">Copy Reddit</button>
+              <h4>👽 Reddit Discussion Starter</h4>
+              <button class="btn-copy" onclick="copyQuad('rdContent', this)">Copy Discussion</button>
             </div>
             <div class="quad-content" id="rdContent">Loading...</div>
           </div>
         </div>
       </div>
     </div>
+
   </div>
 
-  <script src="/ref-tracker.js"></script>
+  <!-- Video Player Preview Modal -->
+  <div class="video-modal-backdrop" id="studioVideoModal" onclick="closeVideoModalOnBackdrop(event)">
+    <div class="video-modal-box">
+      <div class="video-modal-header">
+        <div>
+          <span class="video-format-pill" id="studioModalFormat">1080p 16:9 Broadcast Episode</span>
+          <h3 class="video-modal-title" id="studioModalTitle">Episode Video Preview</h3>
+        </div>
+        <button class="video-modal-close" onclick="closeStudioVideo()">✕</button>
+      </div>
+
+      <div class="video-screen-container" id="videoScreenContainer">
+        <video id="studioVideoPlayer" controls playsinline preload="metadata" class="video-screen-player">
+          <source id="studioVideoPlayerSrc" src="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-modal-footer">
+        <div class="video-engine-status">
+          <span class="status-bulb"></span>
+          <span>100% Autonomous Render Engine • Ready to Broadcast</span>
+        </div>
+        <div style="display:flex; gap:10px;">
+          <a id="studioModalDownloadBtn" href="" download class="btn-download-mp4">📥 Download Full MP4</a>
+          <button onclick="closeStudioVideo()" class="btn-action" style="padding:9px 16px; cursor:pointer;">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer style="text-align:center; padding:40px 24px; color:var(--text-muted); font-size:13px; border-top:1px solid var(--border);">
+    <p>AI Media & Video Studio Hub — Faceless Production Machine. © 2026 AI Money Machine.</p>
+    <p style="margin-top:8px;">
+      <a href="/" style="color:var(--cyan); text-decoration:none;">Command Center</a> • 
+      <a href="/tools" style="color:var(--cyan); text-decoration:none;">Micro-SaaS Suite</a> • 
+      <a href="/bundle" style="color:var(--cyan); text-decoration:none;">Master Bundle ($39)</a> • 
+      <a href="/portal" style="color:var(--cyan); text-decoration:none;">VIP Portals Hub</a> • 
+      <a href="/referral" style="color:var(--cyan); text-decoration:none;">Affiliate Program</a>
+    </p>
+  </footer>
+
   <script>
     const SOCIAL_KITS = [{"topic": "affiliate_partner_engine", "title": "How We Pay Creators 50% Instant SaaS & 20% Recurring Retainer Commissions", "filename": "content_kit_affiliate_partner_engine.md", "tweets": ["Stop promoting $2 Amazon affiliate links that pay 30 cents. The real affiliate money in 2026 is high-ticket AI software and SMB automation retainers.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Most affiliate programs pay 5-10% with 30-day payout delays and high clawbacks.", "2/ Our Partner Program pays 50% upfront ($14.50 - $19.50) on digital bundles and SaaS tools.", "3/ For SMB retainers, partners earn 20% recurring ($300 - $700 upfront + $100-$300/mo passive MRR) per referred client.", "4/ Every partner gets real-time link tracking with 30-day cookie persistence and ready-to-copy promo swipes.", "5/ You don't need a massive audience — just send targeted traffic using our 4-platform swipe vault.", "Join the MinhLap AI Partner Network today: https://work-minh-lap.vercel.app/referral\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "Stop promoting $2 Amazon affiliate links that pay 30 cents. The real affiliate money in 2026 is high-ticket AI software and SMB automation retainers.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nMost affiliate programs pay 5-10% with 30-day payout delays and high clawbacks.\n\n🔹 2. The Core Problem:\nOur Partner Program pays 50% upfront ($14.50 - $19.50) on digital bundles and SaaS tools.\n\n🔹 3. The Unfair Advantage:\nFor SMB retainers, partners earn 20% recurring ($300 - $700 upfront + $100-$300/mo passive MRR) per referred client.\n\n💡 Bottom line:\nYou don't need a massive audience — just send targeted traffic using our 4-platform swipe vault.\n\n👉 Join the MinhLap AI Partner Network today: https://work-minh-lap.vercel.app/referral\n\nAre you focusing on low-ticket volume or high-ticket B2B software affiliate offers?", "tiktok": "", "reddit": ""}, {"topic": "ai_automation", "title": "How a Local Dentist Recovers $8,400/mo Using a 15-Minute AI Bot", "filename": "content_kit_ai_automation.md", "tweets": ["Most clinics lose their highest-value patients between 7 PM and 8 AM. Here is how simple AI workflows fix this instantly.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Patients browsing cosmetic procedures (implants, invisalign) after dinner don't want to wait until 9 AM tomorrow for front desk callback.", "2/ If competitors answer and lock down a calendar appointment in 30 seconds, you lose the patient forever.", "3/ We deployed a conversational AI assistant that answers pricing, verifies insurance eligibility, and writes directly to Google Calendar.", "4/ Result: 14 new booked consultations in month one, with zero manual staff hours.", "5/ You can test the exact interactive patient experience here: https://work-minh-lap.vercel.app/chatbotdemo", "Explore the full AI Automation Playbook & blueprints at https://work-minh-lap.vercel.app/blog\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "Most clinics lose their highest-value patients between 7 PM and 8 AM. Here is how simple AI workflows fix this instantly.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nPatients browsing cosmetic procedures (implants, invisalign) after dinner don't want to wait until 9 AM tomorrow for front desk callback.\n\n🔹 2. The Core Problem:\nIf competitors answer and lock down a calendar appointment in 30 seconds, you lose the patient forever.\n\n🔹 3. The Unfair Advantage:\nWe deployed a conversational AI assistant that answers pricing, verifies insurance eligibility, and writes directly to Google Calendar.\n\n💡 Bottom line:\nYou can test the exact interactive patient experience here: https://work-minh-lap.vercel.app/chatbotdemo\n\n👉 Explore the full AI Automation Playbook & blueprints at https://work-minh-lap.vercel.app/blog\n\nWhat has been your experience with this trend so far? Let's discuss!", "tiktok": "", "reddit": ""}, {"topic": "ai_freelancing_retainers", "title": "How to Land $1,500/mo AI Automation Retainers on Upwork Without Writing Code", "filename": "content_kit_ai_freelancing_retainers.md", "tweets": ["Stop bidding $15/hr on data entry. Local clinics, real estate brokers, and law firms are desperately bleeding revenue from missed calls and manual data entry.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Don't sell 'AI services' — sell 'Instant Speed-to-Lead Patient Recovery' or 'Zero-Missed-Call Inbound Router'.", "2/ Send prospects a personalized interactive ROI calculator showing they lose $8,400/month from missed after-hours leads.", "3/ Include a live sandbox demo link so the business owner tests the bot with their own business data before the call.", "4/ Package it into a standard $1,500 setup fee + $500/mo maintenance retainer with a 14-day SLA guarantee.", "5/ Our 30-Client Outreach Playbook contains exact swipe templates that achieved a 26% meeting booking rate.", "Access the complete AI Automation Agency kit and ROI calculator at https://work-minh-lap.vercel.app/calculator\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "Stop bidding $15/hr on data entry. Local clinics, real estate brokers, and law firms are desperately bleeding revenue from missed calls and manual data entry.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nDon't sell 'AI services' — sell 'Instant Speed-to-Lead Patient Recovery' or 'Zero-Missed-Call Inbound Router'.\n\n🔹 2. The Core Problem:\nSend prospects a personalized interactive ROI calculator showing they lose $8,400/month from missed after-hours leads.\n\n🔹 3. The Unfair Advantage:\nInclude a live sandbox demo link so the business owner tests the bot with their own business data before the call.\n\n💡 Bottom line:\nOur 30-Client Outreach Playbook contains exact swipe templates that achieved a 26% meeting booking rate.\n\n👉 Access the complete AI Automation Agency kit and ROI calculator at https://work-minh-lap.vercel.app/calculator\n\nHave you transitioned from hourly rate billing to fixed-price value retainers yet?", "tiktok": "", "reddit": ""}, {"topic": "client_vip_portal", "title": "Why We Stopped Sending PDF Proposals and Started Giving Clients Dedicated Software Portals", "filename": "content_kit_client_vip_portal.md", "tweets": ["PDF proposals get lost in inboxes and compared on price. When you send clients a live branded software portal with real-time AI uptime and a 5-day roadmap, price objections vanish.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Traditional agency proposals take 4 hours to write and have a 15% close rate.", "2/ A dedicated VIP Command Portal features live AI Copilot SLA monitoring, a 1-click HTML embed tag, and certified deliverable vaults.", "3/ Clients see their own logo, customized industry prompts, and a quantified revenue recovery counter ($13,500/mo bleed).", "4/ Retainers transform from a recurring expense into an indispensable software infrastructure asset.", "5/ Explore our central VIP Hub with 30 live client portals: https://work-minh-lap.vercel.app/portal", "Explore the Executive Client VIP Command Hub at https://work-minh-lap.vercel.app/portal\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "PDF proposals get lost in inboxes and compared on price. When you send clients a live branded software portal with real-time AI uptime and a 5-day roadmap, price objections vanish.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nTraditional agency proposals take 4 hours to write and have a 15% close rate.\n\n🔹 2. The Core Problem:\nA dedicated VIP Command Portal features live AI Copilot SLA monitoring, a 1-click HTML embed tag, and certified deliverable vaults.\n\n🔹 3. The Unfair Advantage:\nClients see their own logo, customized industry prompts, and a quantified revenue recovery counter ($13,500/mo bleed).\n\n💡 Bottom line:\nExplore our central VIP Hub with 30 live client portals: https://work-minh-lap.vercel.app/portal\n\n👉 Explore the Executive Client VIP Command Hub at https://work-minh-lap.vercel.app/portal\n\nWhat has been your experience with this trend so far? Let's discuss!", "tiktok": "", "reddit": ""}, {"topic": "geo_audit", "title": "Why 90% of Websites are Invisible to ChatGPT and Perplexity Search", "filename": "content_kit_geo_audit.md", "tweets": ["Search is dead. AI Discovery is the new Google. If your robots.txt or schema isn't configured for LLM bots, you are losing 40% of future traffic.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Traditional Google SEO relies on backlinks and H1 tags. Generative engines (ChatGPT Search, Perplexity) rely on LLM crawlers like GPTBot and PerplexityBot.", "2/ If your robots.txt inadvertently disallows GPTBot, you are completely omitted from AI citations.", "3/ LLMs require deep JSON-LD Schema (Organization, WebSite, FAQPage, SoftwareApplication) to extract factual confidence scores.", "4/ Our audit tool SynapseGEO (https://work-minh-lap.vercel.app/synapsegeo) found that 68% of local businesses have zero structured data for voice assistants.", "5/ The fix takes 5 minutes: update robots.txt permissions and embed structured Schema markup.", "Check your domain's AI Search score in 10 seconds: https://work-minh-lap.vercel.app/synapsegeo\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "Search is dead. AI Discovery is the new Google. If your robots.txt or schema isn't configured for LLM bots, you are losing 40% of future traffic.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nTraditional Google SEO relies on backlinks and H1 tags. Generative engines (ChatGPT Search, Perplexity) rely on LLM crawlers like GPTBot and PerplexityBot.\n\n🔹 2. The Core Problem:\nIf your robots.txt inadvertently disallows GPTBot, you are completely omitted from AI citations.\n\n🔹 3. The Unfair Advantage:\nLLMs require deep JSON-LD Schema (Organization, WebSite, FAQPage, SoftwareApplication) to extract factual confidence scores.\n\n💡 Bottom line:\nThe fix takes 5 minutes: update robots.txt permissions and embed structured Schema markup.\n\n👉 Check your domain's AI Search score in 10 seconds: https://work-minh-lap.vercel.app/synapsegeo\n\nWhat has been your experience with this trend so far? Let's discuss!", "tiktok": "", "reddit": ""}, {"topic": "headline_iq_viral_hook", "title": "Why 80% of Marketing Headlines Fail Before Anyone Reads the Second Line", "filename": "content_kit_headline_iq_viral_hook.md", "tweets": ["You have 1.8 seconds to capture attention on modern feeds. If your hook lacks curiosity, emotional tension, or specificity, your conversion rate is zero.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ HeadlineIQ tests your copy across 6 viral emotional vectors: FOMO, Urgency, Authority, Specificity, Story Hook, and Brevity.", "2/ Headlines scoring above 85 out-click generic corporate headlines by 3.4x in A/B split tests.", "3/ The tool instantly suggests 3 high-converting rewrites trained on top viral creator frameworks.", "4/ Zero signup required: paste your draft title and get an instant audit score in 3 seconds.", "5/ Use it for YouTube titles, cold email subject lines, Twitter threads, and landing page hero headers.", "Test your headline score for free right now: https://work-minh-lap.vercel.app/headlineiq\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "You have 1.8 seconds to capture attention on modern feeds. If your hook lacks curiosity, emotional tension, or specificity, your conversion rate is zero.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nHeadlineIQ tests your copy across 6 viral emotional vectors: FOMO, Urgency, Authority, Specificity, Story Hook, and Brevity.\n\n🔹 2. The Core Problem:\nHeadlines scoring above 85 out-click generic corporate headlines by 3.4x in A/B split tests.\n\n🔹 3. The Unfair Advantage:\nThe tool instantly suggests 3 high-converting rewrites trained on top viral creator frameworks.\n\n💡 Bottom line:\nUse it for YouTube titles, cold email subject lines, Twitter threads, and landing page hero headers.\n\n👉 Test your headline score for free right now: https://work-minh-lap.vercel.app/headlineiq\n\nWhat is the single highest-converting headline formula you've ever tested?", "tiktok": "", "reddit": ""}, {"topic": "make_automation_secrets", "title": "5 Make.com Automation Blueprints That Make $1,000/Month on Autopilot", "filename": "content_kit_make_automation_secrets.md", "tweets": ["You don't need to write thousands of lines of code to build high-value software systems. Here are 5 no-code automation workflows SMBs eagerly pay $500–$1,500 for.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Workflow 1: Instant Speed-to-Lead SMS (<30s response time).", "2/ Workflow 2: Automated Google Review Response & Sentiment Router.", "3/ Workflow 3: Multi-Platform Social Content Repurposing (Blog to X, LinkedIn, TikTok).", "4/ Workflow 4: Two-Way Calendar Booking & No-Show Eliminator.", "5/ Workflow 5: Stripe/Lemon Squeezy Order Fulfillment & Telegram Sales Dispatcher.", "Download the complete 15-Blueprint Pack at https://work-minh-lap.vercel.app/bundle\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "You don't need to write thousands of lines of code to build high-value software systems. Here are 5 no-code automation workflows SMBs eagerly pay $500–$1,500 for.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nWorkflow 1: Instant Speed-to-Lead SMS (<30s response time).\n\n🔹 2. The Core Problem:\nWorkflow 2: Automated Google Review Response & Sentiment Router.\n\n🔹 3. The Unfair Advantage:\nWorkflow 3: Multi-Platform Social Content Repurposing (Blog to X, LinkedIn, TikTok).\n\n💡 Bottom line:\nWorkflow 5: Stripe/Lemon Squeezy Order Fulfillment & Telegram Sales Dispatcher.\n\n👉 Download the complete 15-Blueprint Pack at https://work-minh-lap.vercel.app/bundle\n\nWhich tedious task inside your business are you dying to automate next?", "tiktok": "", "reddit": ""}, {"topic": "microsaas_blueprint", "title": "How to Build and Launch a Micro-SaaS in 7 Days with Zero Funding", "filename": "content_kit_microsaas_blueprint.md", "tweets": ["You don't need a team of 10 engineers or $100k in VC money to launch software that prints $2,000/month.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ Find a narrow, unglamorous problem: e.g. Robots.txt audit, review response generation, or headline scoring.", "2/ Keep the tech stack dead simple: Vanilla HTML/JS, serverless edge functions on Vercel, and Lemon Squeezy for global payments.", "3/ Build in 48 hours: Focus on one killer feature that gives value in under 10 seconds.", "4/ Launch on Product Hunt, Hacker News (Show HN), and Reddit r/SaaS with honest, transparent copy.", "5/ Turn free users into paying subscribers by offering deep reports, API access, and PDF exports.", "Download the complete 16,000-word AI Money Blueprint eBook & Bundle at https://work-minh-lap.vercel.app/bundle\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "You don't need a team of 10 engineers or $100k in VC money to launch software that prints $2,000/month.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nFind a narrow, unglamorous problem: e.g. Robots.txt audit, review response generation, or headline scoring.\n\n🔹 2. The Core Problem:\nKeep the tech stack dead simple: Vanilla HTML/JS, serverless edge functions on Vercel, and Lemon Squeezy for global payments.\n\n🔹 3. The Unfair Advantage:\nBuild in 48 hours: Focus on one killer feature that gives value in under 10 seconds.\n\n💡 Bottom line:\nTurn free users into paying subscribers by offering deep reports, API access, and PDF exports.\n\n👉 Download the complete 16,000-word AI Money Blueprint eBook & Bundle at https://work-minh-lap.vercel.app/bundle\n\nWhat has been your experience with this trend so far? Let's discuss!", "tiktok": "", "reddit": ""}, {"topic": "pod_developer_merch", "title": "How I Made $2,400 Selling Cynical AI Hoodies & Desk Mats with Zero Inventory", "filename": "content_kit_pod_developer_merch.md", "tweets": ["Tech merch usually sucks: cheesy clip art and corny puns. But when you target hyper-specific developer memes with cyberpunk aesthetics, conversion rates jump to 4.8%.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ The secret is extreme specificity: 'Heavy Canvas Automate Or Be Automated Tote' and 'Prompt Engineering Extended Desk Mat'.", "2/ Zero inventory risk: We design high-res assets with Midjourney/Flux, then connect Printful to Etsy and Shopify via Make.com.", "3/ Net profit margins average $10.00 to $16.50 per unit sold, shipped globally without ever touching a box.", "4/ Every garment uses premium ring-spun cotton and structured embroidery for high perceived value.", "5/ Automated order routing and tracking numbers eliminate 100% of customer support friction.", "Explore our automated POD line and design mockups at https://work-minh-lap.vercel.app\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "Tech merch usually sucks: cheesy clip art and corny puns. But when you target hyper-specific developer memes with cyberpunk aesthetics, conversion rates jump to 4.8%.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\nThe secret is extreme specificity: 'Heavy Canvas Automate Or Be Automated Tote' and 'Prompt Engineering Extended Desk Mat'.\n\n🔹 2. The Core Problem:\nZero inventory risk: We design high-res assets with Midjourney/Flux, then connect Printful to Etsy and Shopify via Make.com.\n\n🔹 3. The Unfair Advantage:\nNet profit margins average $10.00 to $16.50 per unit sold, shipped globally without ever touching a box.\n\n💡 Bottom line:\nAutomated order routing and tracking numbers eliminate 100% of customer support friction.\n\n👉 Explore our automated POD line and design mockups at https://work-minh-lap.vercel.app\n\nWhat's the best programmer inside joke or slogan you'd actually wear on a hoodie?", "tiktok": "", "reddit": ""}, {"topic": "review_management", "title": "How Local Businesses Turn 1-Star Google Reviews into 5-Star Loyalty with AI", "filename": "content_kit_review_management.md", "tweets": ["Unanswered 1-star reviews on Google Maps destroy up to 30% of foot traffic. Here is how autonomous AI review responder workflows solve this in 5 seconds.\n\nHere is the exact breakdown of why this happens (and how to fix it in 5 mins) 🧵👇", "1/ 88% of consumers read reviews before choosing a local service, doctor, or restaurant.", "2/ Leaving negative reviews without prompt empathetic answers signals neglect to potential buyers.", "3/ We built ReviewGenius AI — an autonomous responder that validates customer sentiment, crafts de-escalating replies, and offers resolution vouchers in 5 seconds.", "4/ It boosts local SEO ranking factors by embedding natural keywords into positive review responses.", "5/ You can test ReviewGenius live on the web: https://work-minh-lap.vercel.app/reviewgenius", "Test ReviewGenius AI live on the web: https://work-minh-lap.vercel.app/reviewgenius\n\nRT the first tweet if you found this valuable! 🔄"], "linkedin": "Unanswered 1-star reviews on Google Maps destroy up to 30% of foot traffic. Here is how autonomous AI review responder workflows solve this in 5 seconds.\n\nOver the past 6 months, we observed a massive shift in how high-intent buyers discover software and service providers.\n\nHere are 3 critical observations every founder and marketer needs to know:\n\n🔹 1. The Industry Shift:\n88% of consumers read reviews before choosing a local service, doctor, or restaurant.\n\n🔹 2. The Core Problem:\nLeaving negative reviews without prompt empathetic answers signals neglect to potential buyers.\n\n🔹 3. The Unfair Advantage:\nWe built ReviewGenius AI — an autonomous responder that validates customer sentiment, crafts de-escalating replies, and offers resolution vouchers in 5 seconds.\n\n💡 Bottom line:\nYou can test ReviewGenius live on the web: https://work-minh-lap.vercel.app/reviewgenius\n\n👉 Test ReviewGenius AI live on the web: https://work-minh-lap.vercel.app/reviewgenius\n\nWhat has been your experience with this trend so far? Let's discuss!", "tiktok": "", "reddit": ""}];
 
@@ -1815,7 +2020,8 @@
       document.querySelectorAll('.studio-tab-btn').forEach(b => b.classList.remove('active'));
       document.querySelectorAll('.studio-panel').forEach(p => p.classList.remove('active'));
       btn.classList.add('active');
-      document.getElementById(tabId).classList.add('active');
+      const target = document.getElementById(tabId);
+      if (target) target.classList.add('active');
     }
 
     function filterShorts(week, btn) {
@@ -1832,7 +2038,7 @@
     }
 
     function initSocialPills() {
-      const wrap = document.getElementById('topicSelector');
+      const wrap = document.getElementById('topicPillsWrap');
       if (!wrap || !SOCIAL_KITS.length) return;
       wrap.innerHTML = '';
       SOCIAL_KITS.forEach((k, idx) => {
@@ -1874,6 +2080,50 @@
         }, 2000);
       });
     }
+
+    /* Video Player Modal Logic */
+    function openStudioVideo(title, src, format) {
+      const modal = document.getElementById('studioVideoModal');
+      const player = document.getElementById('studioVideoPlayer');
+      const playerSrc = document.getElementById('studioVideoPlayerSrc');
+      const modalTitle = document.getElementById('studioModalTitle');
+      const modalFormat = document.getElementById('studioModalFormat');
+      const downloadBtn = document.getElementById('studioModalDownloadBtn');
+      const container = document.getElementById('videoScreenContainer');
+
+      modalTitle.textContent = title;
+      modalFormat.textContent = format;
+      downloadBtn.href = src;
+      playerSrc.src = src;
+
+      if (format.includes('Vertical') || format.includes('9:16')) {
+        container.classList.add('vertical');
+      } else {
+        container.classList.remove('vertical');
+      }
+
+      player.load();
+      modal.classList.add('open');
+      player.play().catch(e => console.log('Autoplay deferred:', e));
+    }
+
+    function closeStudioVideo() {
+      const modal = document.getElementById('studioVideoModal');
+      const player = document.getElementById('studioVideoPlayer');
+      if (player) {
+        player.pause();
+        player.currentTime = 0;
+      }
+      if (modal) modal.classList.remove('open');
+    }
+
+    function closeVideoModalOnBackdrop(e) {
+      if (e.target.id === 'studioVideoModal') closeStudioVideo();
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeStudioVideo();
+    });
 
     document.addEventListener('DOMContentLoaded', () => {
       initSocialPills();

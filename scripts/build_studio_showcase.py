@@ -3,11 +3,11 @@
 """
 AI Money Machine — Studio Showcase Hub Builder
 ------------------------------------------------
-Generates projects/youtube_faceless/studio.html with:
-- 10 Full YouTube Episodes (4K Thumbnails, Audio Players, SRTs, Teleprompter Scripts)
-- 30-Day Viral Shorts Sprint (Audio Players, Hooks, CTAs, Weekly Filter)
+Generates projects/youtube_faceless/studio.html and studio/index.html with:
+- 10 Full YouTube Episodes (4K Thumbnails, Video Previews, Audio Players, SRTs, Teleprompter Scripts)
+- 30-Day Viral Shorts Sprint (Video Previews, Audio Players, Hooks, CTAs, Weekly Filter)
+- Integrated HTML5 Broadcast Video Modal Player (Instant preview across all 40 rendered MP4s)
 - 10 Multi-Platform Social Repurposing Kits (1-Click Copy for LinkedIn, X, TikTok, Reddit)
-- Merch Vault (5 Developer Apparel Designs)
 """
 
 import sys
@@ -24,6 +24,7 @@ if sys.stdout.encoding != 'utf-8':
 
 ROOT = Path(__file__).resolve().parent.parent
 STUDIO_HTML = ROOT / "projects" / "youtube_faceless" / "studio.html"
+STUDIO_ROOT = ROOT / "studio" / "index.html"
 SCRIPTS_DIR = ROOT / "projects" / "youtube_faceless" / "scripts"
 AUDIO_EP_DIR = ROOT / "projects" / "youtube_faceless" / "audio_episodes"
 AUDIO_SHORTS_DIR = ROOT / "projects" / "youtube_faceless" / "audio_shorts"
@@ -88,13 +89,18 @@ def build_html():
         srt_rel = f"/studio/audio_episodes/episode_{ep['num']:03d}_subtitles.srt"
         txt_rel = f"/studio/audio_episodes/episode_{ep['num']:03d}_script.txt"
         thumb_rel = f"/studio/thumbnails/{ep['thumb']}"
+        video_rel = f"/studio/rendered_episodes/episode_{ep['num']:03d}_video.mp4"
 
         episodes_cards_html += f"""
         <div class="ep-card">
-          <div class="ep-thumb-wrap">
+          <div class="ep-thumb-wrap" onclick="openStudioVideo('{ep['title']}', '{video_rel}', '1080p 16:9 Broadcast Episode')">
             <img src="{thumb_rel}" alt="{ep['title']}" class="ep-thumb" loading="lazy">
             <span class="ep-badge">EPISODE #{ep['num']:02d}</span>
             <span class="ep-dur-badge">⏱️ {ep['dur']}</span>
+            <div class="ep-play-overlay">
+              <div class="play-btn-circle">▶</div>
+              <span>Watch Video Preview</span>
+            </div>
           </div>
           <div class="ep-body">
             <h3 class="ep-title">{ep['title']}</h3>
@@ -114,9 +120,10 @@ def build_html():
             </div>
 
             <div class="ep-actions">
-              <a href="{mp3_rel}" download class="btn-action">📥 Audio MP3</a>
-              <a href="{srt_rel}" target="_blank" class="btn-action">📄 Subtitles SRT</a>
-              <a href="{txt_rel}" target="_blank" class="btn-action">📝 Teleprompter</a>
+              <button class="btn-action btn-watch-act" onclick="openStudioVideo('{ep['title']}', '{video_rel}', '1080p 16:9 Broadcast Episode')">▶ Watch</button>
+              <a href="{video_rel}" download class="btn-action">📥 Video</a>
+              <a href="{mp3_rel}" download class="btn-action">🎧 Audio</a>
+              <a href="{srt_rel}" target="_blank" class="btn-action">📄 SRT</a>
             </div>
           </div>
         </div>
@@ -160,9 +167,10 @@ def build_html():
           </div>
 
           <div class="short-footer">
-            <a href="{mp3_rel}" download class="btn-mini">📥 Audio</a>
+            <button class="btn-mini btn-watch-act" onclick="openStudioVideo('{sh['title']}', '{video_rel}', '9:16 Vertical Reel (1080x1920)')">▶ Watch</button>
+            <a href="{video_rel}" download class="btn-mini">📥 MP4</a>
+            <a href="{mp3_rel}" download class="btn-mini">🎧 Audio</a>
             <a href="{srt_rel}" target="_blank" class="btn-mini">📄 SRT</a>
-            <a href="{txt_rel}" target="_blank" class="btn-mini">📝 Script</a>
           </div>
         </div>
         """
@@ -220,7 +228,7 @@ def build_html():
     /* Header */
     header {{
       position: sticky; top: 0; z-index: 100;
-      background: rgba(7, 9, 19, 0.85); backdrop-filter: blur(20px);
+      background: rgba(7, 9, 19, 0.88); backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border); padding: 14px 28px;
       display: flex; justify-content: space-between; align-items: center;
     }}
@@ -336,6 +344,7 @@ def build_html():
     }}
     .ep-thumb-wrap {{
       position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #000;
+      cursor: pointer;
     }}
     .ep-thumb {{
       width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;
@@ -346,12 +355,31 @@ def build_html():
       background: rgba(0, 0, 0, 0.75); border: 1px solid rgba(255,255,255,0.2);
       backdrop-filter: blur(8px); padding: 4px 10px; border-radius: 8px;
       font-size: 11px; font-weight: 700; color: #fff; font-family: var(--font-mono);
+      z-index: 2;
     }}
     .ep-dur-badge {{
       position: absolute; bottom: 12px; right: 12px;
       background: rgba(0, 0, 0, 0.85); border: 1px solid rgba(0, 242, 254, 0.4);
       padding: 4px 10px; border-radius: 8px; font-size: 11px; font-weight: 700; color: var(--cyan);
+      z-index: 2;
     }}
+
+    .ep-play-overlay {{
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.55); backdrop-filter: blur(3px);
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 8px; opacity: 0; transition: opacity 0.25s ease; z-index: 3;
+    }}
+    .ep-thumb-wrap:hover .ep-play-overlay {{ opacity: 1; }}
+    .play-btn-circle {{
+      width: 48px; height: 48px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--rose), var(--accent));
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-size: 18px; box-shadow: 0 0 25px rgba(244, 63, 94, 0.6);
+      transform: scale(0.9); transition: transform 0.2s;
+    }}
+    .ep-thumb-wrap:hover .play-btn-circle {{ transform: scale(1.05); }}
+    .ep-play-overlay span {{ font-size: 12px; font-weight: 700; color: #fff; letter-spacing: 0.5px; text-transform: uppercase; }}
 
     .ep-body {{ padding: 22px; display: flex; flex-direction: column; flex: 1; justify-content: space-between; }}
     .ep-title {{
@@ -369,29 +397,39 @@ def build_html():
     audio.custom-audio {{
       width: 100%; height: 36px; outline: none;
     }}
+
     .ep-actions {{
-      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px;
+      display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px;
     }}
     .btn-action {{
-      text-align: center; text-decoration: none; padding: 8px 10px;
+      text-align: center; text-decoration: none; padding: 8px 6px;
       background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
-      border-radius: 8px; font-size: 12px; font-weight: 600; color: var(--text);
-      transition: all 0.2s;
+      border-radius: 8px; font-size: 11px; font-weight: 600; color: var(--text);
+      transition: all 0.2s; display: inline-flex; align-items: center; justify-content: center;
     }}
     .btn-action:hover {{
       background: linear-gradient(135deg, var(--accent), var(--cyan));
       border-color: transparent; color: #000;
+    }}
+    .btn-watch-act {{
+      background: linear-gradient(135deg, var(--rose), var(--accent)) !important;
+      color: #fff !important; font-weight: 700 !important; border-color: transparent !important;
+      cursor: pointer;
+    }}
+    .btn-watch-act:hover {{
+      box-shadow: 0 0 15px rgba(244, 63, 94, 0.5); transform: translateY(-1px);
     }}
 
     /* Shorts Filter & Grid */
     .filter-bar {{
       display: flex; gap: 8px; margin-bottom: 24px; align-items: center;
       background: var(--bg-card); padding: 10px 16px; border-radius: 14px; border: 1px solid var(--border);
+      overflow-x: auto;
     }}
     .filter-btn {{
       background: transparent; border: none; color: var(--text-muted);
       padding: 6px 14px; border-radius: 8px; font-size: 13px; font-weight: 600;
-      cursor: pointer; transition: all 0.2s;
+      cursor: pointer; transition: all 0.2s; white-space: nowrap;
     }}
     .filter-btn.active {{
       background: var(--accent); color: #fff;
@@ -432,13 +470,13 @@ def build_html():
     .short-cta-box p {{ color: var(--emerald); font-weight: 600; }}
 
     .short-footer {{
-      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: 12px;
+      display: grid; grid-template-columns: 1.2fr 1fr 1fr 1fr; gap: 6px; margin-top: 12px;
     }}
     .btn-mini {{
-      text-align: center; text-decoration: none; padding: 7px 8px;
+      text-align: center; text-decoration: none; padding: 7px 6px;
       background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
       border-radius: 6px; font-size: 11px; font-weight: 600; color: var(--text);
-      transition: all 0.2s;
+      transition: all 0.2s; display: inline-flex; align-items: center; justify-content: center;
     }}
     .btn-mini:hover {{
       background: var(--cyan); color: #000; border-color: transparent;
@@ -485,9 +523,64 @@ def build_html():
       max-height: 320px; overflow-y: auto; white-space: pre-wrap; font-family: 'Inter', sans-serif;
     }}
 
+    /* Video Player Modal */
+    .video-modal-backdrop {{
+      display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+      background: rgba(0, 0, 0, 0.90); backdrop-filter: blur(14px);
+      z-index: 1000; align-items: center; justify-content: center; padding: 20px;
+    }}
+    .video-modal-backdrop.open {{ display: flex; animation: fadeIn 0.25s ease; }}
+    .video-modal-box {{
+      background: #0d1124; border: 1px solid var(--border-accent);
+      border-radius: 24px; padding: 24px; max-width: 900px; width: 100%;
+      position: relative; box-shadow: 0 25px 60px rgba(0,0,0,0.85);
+      display: flex; flex-direction: column; gap: 16px;
+    }}
+    .video-modal-header {{
+      display: flex; justify-content: space-between; align-items: flex-start; gap: 16px;
+    }}
+    .video-format-pill {{
+      font-size: 11px; font-weight: 700; color: var(--cyan); font-family: var(--font-mono);
+      background: rgba(0, 242, 254, 0.12); padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(0, 242, 254, 0.3);
+      display: inline-block; margin-bottom: 6px; text-transform: uppercase;
+    }}
+    .video-modal-title {{ font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 800; color: #fff; line-height: 1.3; }}
+    .video-modal-close {{
+      background: rgba(255,255,255,0.08); border: 1px solid var(--border); color: #fff;
+      width: 36px; height: 36px; border-radius: 50%; font-size: 18px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center; transition: all 0.2s; flex-shrink: 0;
+    }}
+    .video-modal-close:hover {{ background: var(--rose); border-color: transparent; }}
+
+    .video-screen-container {{
+      background: #000; border-radius: 16px; overflow: hidden;
+      aspect-ratio: 16 / 9; display: flex; align-items: center; justify-content: center;
+      position: relative; border: 1px solid var(--border);
+    }}
+    .video-screen-container.vertical {{ aspect-ratio: 9 / 16; max-height: 60vh; margin: 0 auto; }}
+    .video-screen-player {{ width: 100%; height: 100%; outline: none; }}
+
+    .video-modal-footer {{
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;
+      padding-top: 10px; border-top: 1px solid var(--border);
+    }}
+    .video-engine-status {{
+      font-size: 12px; color: var(--text-muted); display: flex; align-items: center; gap: 8px;
+    }}
+    .status-bulb {{
+      width: 8px; height: 8px; border-radius: 50%; background: var(--emerald); box-shadow: 0 0 10px var(--emerald);
+    }}
+    .btn-download-mp4 {{
+      background: linear-gradient(135deg, var(--accent), var(--cyan)); color: #000;
+      text-decoration: none; padding: 9px 18px; border-radius: 10px; font-size: 13px; font-weight: 700;
+      display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s;
+    }}
+    .btn-download-mp4:hover {{ opacity: 0.95; transform: translateY(-1px); }}
+
     @media (max-width: 768px) {{
       .studio-hero h2 {{ font-size: 28px; }}
       .episodes-grid, .social-quad-grid {{ grid-template-columns: 1fr; }}
+      .ep-actions, .short-footer {{ grid-template-columns: 1fr 1fr; }}
     }}
   </style>
 </head>
@@ -504,6 +597,7 @@ def build_html():
     </a>
     <div class="nav-actions">
       <a href="/" class="btn-nav btn-nav-secondary">← Command Center</a>
+      <a href="/tools" class="btn-nav btn-nav-secondary">SaaS Suite ↗</a>
       <a href="/portal" class="btn-nav btn-nav-secondary">VIP Portals ↗</a>
       <a href="/bundle" class="btn-nav btn-nav-primary">Master Bundle ($39) ↗</a>
     </div>
@@ -513,9 +607,13 @@ def build_html():
     <div class="studio-hero">
       <span class="hero-badge">⚡ 100% Autonomous Studio Engine</span>
       <h2>Broadcast-Quality Media & Content Empire</h2>
-      <p>Instant audio streaming, subtitle downloads, 4K visual assets, and 1-click social media distribution packages across all 8 monetization streams.</p>
+      <p>40 rendered broadcast MP4 videos, instant browser video previews, full audio narrations, subtitle downloads, and 1-click social distribution packages across all 8 monetization streams.</p>
       
       <div class="stat-row">
+        <div class="stat-box">
+          <div class="stat-num">40 / 40</div>
+          <div class="stat-lbl">Rendered MP4 Videos</div>
+        </div>
         <div class="stat-box">
           <div class="stat-num">77.6 mins</div>
           <div class="stat-lbl">Full Episodes Audio</div>
@@ -527,10 +625,6 @@ def build_html():
         <div class="stat-box">
           <div class="stat-num">30 Days</div>
           <div class="stat-lbl">Viral Shorts Synthesized</div>
-        </div>
-        <div class="stat-box">
-          <div class="stat-num">40 Assets</div>
-          <div class="stat-lbl">Repurposed Social Posts</div>
         </div>
       </div>
     </div>
@@ -573,18 +667,15 @@ def build_html():
     <!-- Panel 3: Social Repurposing Kits -->
     <div id="tab-social" class="studio-panel">
       <div class="social-kit-box">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:18px;">
-          <h3 style="font-family:'Outfit'; font-size:20px; font-weight:800;">Choose Topic to Dispatch:</h3>
-          <a href="/projects/ai_content_social/buffer_schedule.csv" download class="btn-nav btn-nav-primary" style="padding:6px 14px; font-size:12px;">📥 Download Buffer CSV (20 Posts)</a>
-        </div>
-        <div class="topic-selector-wrap" id="topicSelector">
-          <!-- Populated by JS -->
-        </div>
+        <h3 style="font-family:'Outfit', sans-serif; font-size:20px; font-weight:800; margin-bottom:8px;">10 Multi-Platform Distribution Kits</h3>
+        <p style="font-size:13px; color:var(--text-muted); margin-bottom:20px;">Select a core topic below to copy pre-formatted content packages for LinkedIn, X (Twitter Threads), TikTok scripts, and Reddit communities.</p>
+
+        <div class="topic-selector-wrap" id="topicPillsWrap"></div>
 
         <div class="social-quad-grid">
           <div class="quad-card">
             <div class="quad-header">
-              <h4>💼 LinkedIn Post</h4>
+              <h4>💼 LinkedIn Authority Post</h4>
               <button class="btn-copy" onclick="copyQuad('liContent', this)">Copy Post</button>
             </div>
             <div class="quad-content" id="liContent">Loading...</div>
@@ -592,7 +683,7 @@ def build_html():
 
           <div class="quad-card">
             <div class="quad-header">
-              <h4>🐦 Twitter / X 7-Tweet Thread</h4>
+              <h4>🐦 X / Twitter Thread (3-5 Tweets)</h4>
               <button class="btn-copy" onclick="copyQuad('twContent', this)">Copy Thread</button>
             </div>
             <div class="quad-content" id="twContent">Loading...</div>
@@ -600,7 +691,7 @@ def build_html():
 
           <div class="quad-card">
             <div class="quad-header">
-              <h4>🎬 60s TikTok / Shorts Script</h4>
+              <h4>📱 TikTok / Shorts Video Script</h4>
               <button class="btn-copy" onclick="copyQuad('ttContent', this)">Copy Script</button>
             </div>
             <div class="quad-content" id="ttContent">Loading...</div>
@@ -608,17 +699,59 @@ def build_html():
 
           <div class="quad-card">
             <div class="quad-header">
-              <h4>👾 Reddit Discussion Starter</h4>
-              <button class="btn-copy" onclick="copyQuad('rdContent', this)">Copy Reddit</button>
+              <h4>👽 Reddit Discussion Starter</h4>
+              <button class="btn-copy" onclick="copyQuad('rdContent', this)">Copy Discussion</button>
             </div>
             <div class="quad-content" id="rdContent">Loading...</div>
           </div>
         </div>
       </div>
     </div>
+
   </div>
 
-  <script src="/ref-tracker.js"></script>
+  <!-- Video Player Preview Modal -->
+  <div class="video-modal-backdrop" id="studioVideoModal" onclick="closeVideoModalOnBackdrop(event)">
+    <div class="video-modal-box">
+      <div class="video-modal-header">
+        <div>
+          <span class="video-format-pill" id="studioModalFormat">1080p 16:9 Broadcast Episode</span>
+          <h3 class="video-modal-title" id="studioModalTitle">Episode Video Preview</h3>
+        </div>
+        <button class="video-modal-close" onclick="closeStudioVideo()">✕</button>
+      </div>
+
+      <div class="video-screen-container" id="videoScreenContainer">
+        <video id="studioVideoPlayer" controls playsinline preload="metadata" class="video-screen-player">
+          <source id="studioVideoPlayerSrc" src="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-modal-footer">
+        <div class="video-engine-status">
+          <span class="status-bulb"></span>
+          <span>100% Autonomous Render Engine • Ready to Broadcast</span>
+        </div>
+        <div style="display:flex; gap:10px;">
+          <a id="studioModalDownloadBtn" href="" download class="btn-download-mp4">📥 Download Full MP4</a>
+          <button onclick="closeStudioVideo()" class="btn-action" style="padding:9px 16px; cursor:pointer;">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer style="text-align:center; padding:40px 24px; color:var(--text-muted); font-size:13px; border-top:1px solid var(--border);">
+    <p>AI Media & Video Studio Hub — Faceless Production Machine. © 2026 AI Money Machine.</p>
+    <p style="margin-top:8px;">
+      <a href="/" style="color:var(--cyan); text-decoration:none;">Command Center</a> • 
+      <a href="/tools" style="color:var(--cyan); text-decoration:none;">Micro-SaaS Suite</a> • 
+      <a href="/bundle" style="color:var(--cyan); text-decoration:none;">Master Bundle ($39)</a> • 
+      <a href="/portal" style="color:var(--cyan); text-decoration:none;">VIP Portals Hub</a> • 
+      <a href="/referral" style="color:var(--cyan); text-decoration:none;">Affiliate Program</a>
+    </p>
+  </footer>
+
   <script>
     const SOCIAL_KITS = {social_kits_json_escaped};
 
@@ -626,7 +759,8 @@ def build_html():
       document.querySelectorAll('.studio-tab-btn').forEach(b => b.classList.remove('active'));
       document.querySelectorAll('.studio-panel').forEach(p => p.classList.remove('active'));
       btn.classList.add('active');
-      document.getElementById(tabId).classList.add('active');
+      const target = document.getElementById(tabId);
+      if (target) target.classList.add('active');
     }}
 
     function filterShorts(week, btn) {{
@@ -643,7 +777,7 @@ def build_html():
     }}
 
     function initSocialPills() {{
-      const wrap = document.getElementById('topicSelector');
+      const wrap = document.getElementById('topicPillsWrap');
       if (!wrap || !SOCIAL_KITS.length) return;
       wrap.innerHTML = '';
       SOCIAL_KITS.forEach((k, idx) => {{
@@ -686,6 +820,50 @@ def build_html():
       }});
     }}
 
+    /* Video Player Modal Logic */
+    function openStudioVideo(title, src, format) {{
+      const modal = document.getElementById('studioVideoModal');
+      const player = document.getElementById('studioVideoPlayer');
+      const playerSrc = document.getElementById('studioVideoPlayerSrc');
+      const modalTitle = document.getElementById('studioModalTitle');
+      const modalFormat = document.getElementById('studioModalFormat');
+      const downloadBtn = document.getElementById('studioModalDownloadBtn');
+      const container = document.getElementById('videoScreenContainer');
+
+      modalTitle.textContent = title;
+      modalFormat.textContent = format;
+      downloadBtn.href = src;
+      playerSrc.src = src;
+
+      if (format.includes('Vertical') || format.includes('9:16')) {{
+        container.classList.add('vertical');
+      }} else {{
+        container.classList.remove('vertical');
+      }}
+
+      player.load();
+      modal.classList.add('open');
+      player.play().catch(e => console.log('Autoplay deferred:', e));
+    }}
+
+    function closeStudioVideo() {{
+      const modal = document.getElementById('studioVideoModal');
+      const player = document.getElementById('studioVideoPlayer');
+      if (player) {{
+        player.pause();
+        player.currentTime = 0;
+      }}
+      if (modal) modal.classList.remove('open');
+    }}
+
+    function closeVideoModalOnBackdrop(e) {{
+      if (e.target.id === 'studioVideoModal') closeStudioVideo();
+    }}
+
+    document.addEventListener('keydown', (e) => {{
+      if (e.key === 'Escape') closeStudioVideo();
+    }});
+
     document.addEventListener('DOMContentLoaded', () => {{
       initSocialPills();
     }});
@@ -697,6 +875,10 @@ def build_html():
     STUDIO_HTML.parent.mkdir(parents=True, exist_ok=True)
     STUDIO_HTML.write_text(html_content, encoding="utf-8")
     print(f"[✓] Generated Studio Showcase: {STUDIO_HTML} ({len(html_content):,} bytes)")
+
+    STUDIO_ROOT.parent.mkdir(parents=True, exist_ok=True)
+    STUDIO_ROOT.write_text(html_content, encoding="utf-8")
+    print(f"[✓] Generated Studio Root: {STUDIO_ROOT} ({len(html_content):,} bytes)")
 
 if __name__ == "__main__":
     build_html()

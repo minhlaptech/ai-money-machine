@@ -106,10 +106,32 @@ def export_pipeline():
     print("🚀 EXPORTING MASTER B2B CRM PIPELINE & 8-DELIVERABLE DIGITAL ARSENAL (60 LEADS)")
     print("=" * 80)
 
+    # Read live CRM statuses if available
+    status_map = {}
+    crm_json_path = PROSPECTS_DIR / "crm_pipeline.json"
+    if crm_json_path.exists():
+        try:
+            with open(crm_json_path, "r", encoding="utf-8") as f:
+                crm_items = json.load(f)
+                for item in crm_items:
+                    status_map[item["id"]] = item.get("status", "ready")
+        except Exception:
+            pass
+
     for l in LEADS:
         slug = get_slug(l["name"])
         name_url = urllib.parse.quote_plus(l["name"])
         niche_url = urllib.parse.quote_plus(l["niche"])
+
+        st = status_map.get(l["id"], l.get("status", "ready"))
+        if st == "day3":
+            status_desc = "Stage 2: Day 3 ROI Value Sent"
+        elif st == "day1":
+            status_desc = "Stage 1: Day 1 Cold Hook Sent"
+        elif st == "day7":
+            status_desc = "Stage 3: Day 7 Break-Up Sent"
+        else:
+            status_desc = "Ready for Outreach"
 
         monthly_loss = l["val"] * l["lost"]
         annual_loss = monthly_loss * 12
@@ -131,7 +153,7 @@ def export_pipeline():
             "Proposed_Setup_Fee_USD": setup_fee,
             "Proposed_Monthly_Retainer_USD": retainer_fee,
             "Initial_Invoice_Total_USD": setup_fee + retainer_fee,
-            "Outreach_Status": l["status"],
+            "Outreach_Status": status_desc,
             "VIP_Client_Portal_URL": f"{BASE_URL}/portal/{slug}",
             "Pitch_Deck_10_Slides_URL": f"{BASE_URL}/pitches/{slug}_pitch.html",
             "Live_Sandbox_Prototype_URL": f"{BASE_URL}/sandboxes/{slug}_sandbox.html",
