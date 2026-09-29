@@ -150,10 +150,10 @@
     "city": "New York, NY",
     "to": "partners@nuvoglowbeauty.example",
     "doc": "Founder",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:39"
+    "last_touch": "2026-09-30 04:41"
   },
   {
     "id": 13,
@@ -176,10 +176,10 @@
     "city": "Boulder, CO",
     "to": "support@hydroflowbottle.example",
     "doc": "Team HydroFlow",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:41"
   },
   {
     "id": 15,
@@ -189,10 +189,10 @@
     "city": "Austin, TX",
     "to": "hello@clouddeskhelp.example",
     "doc": "Product Lead",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:41"
   },
   {
     "id": 16,
@@ -475,10 +475,10 @@
     "city": "Tampa, FL",
     "to": "service@precisionclimatefl.example",
     "doc": "Derek Vance",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:39"
+    "last_touch": "2026-09-30 04:41"
   },
   {
     "id": 38,
