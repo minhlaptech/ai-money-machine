@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:02,517
+Chasing receipts and 1099 forms
+
+2
+00:00:02,517 --> 00:00:04,385
+is the biggest waste of
+
+3
+00:00:04,385 --> 00:00:05,928
+billable CPA hours.
+
+4
+00:00:05,928 --> 00:00:08,283
+An automated pipeline with AI
+
+5
+00:00:08,283 --> 00:00:10,151
+Vision extracts vendor,
+
+6
+00:00:10,151 --> 00:00:10,951
+tax ID,
+
+7
+00:00:10,951 --> 00:00:12,169
+and line items,
+
+8
+00:00:12,169 --> 00:00:15,174
+writing them directly into QuickBooks
+
+9
+00:00:15,174 --> 00:00:16,960
+without manual typing.
+
+10
+00:00:16,960 --> 00:00:19,478
+Grab the full blueprint package
+
+11
+00:00:19,478 --> 00:00:20,952
+in our Master Bundle!

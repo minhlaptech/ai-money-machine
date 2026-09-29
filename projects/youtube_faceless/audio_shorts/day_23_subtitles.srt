@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:02,291
+99% of people get robotic
+
+2
+00:00:02,291 --> 00:00:05,133
+answers from ChatGPT because of
+
+3
+00:00:05,133 --> 00:00:06,324
+this mistake.
+
+4
+00:00:06,324 --> 00:00:08,341
+Role + Context + Exact
+
+5
+00:00:08,341 --> 00:00:11,549
+Constraint + Desired Output Schema.
+
+6
+00:00:11,549 --> 00:00:14,299
+Never say 'write a blog post'.
+
+7
+00:00:14,299 --> 00:00:17,691
+Say 'Act as an enterprise copywriter,
+
+8
+00:00:17,691 --> 00:00:19,983
+write an H2 section under
+
+9
+00:00:19,983 --> 00:00:23,191
+200 words with zero passive voice'.
+
+10
+00:00:23,191 --> 00:00:26,399
+Download our 110+ production prompt
+
+11
+00:00:26,399 --> 00:00:27,408
+pack today!

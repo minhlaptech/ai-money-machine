@@ -1,0 +1,14 @@
+DAY #23: [Prompt Engineering] Stop writing bad prompts: The 4-step framework
+Duration: 27.4s
+
+HOOK:
+99% of people get robotic answers from ChatGPT because of this mistake.
+
+CONTENT:
+Role + Context + Exact Constraint + Desired Output Schema. Never say 'write a blog post'. Say 'Act as an enterprise copywriter, write an H2 section under 200 words with zero passive voice'.
+
+CTA:
+Download our 110+ production prompt pack today!
+
+CLEAN SPEECH:
+99% of people get robotic answers from ChatGPT because of this mistake. Role + Context + Exact Constraint + Desired Output Schema. Never say 'write a blog post'. Say 'Act as an enterprise copywriter, write an H2 section under 200 words with zero passive voice'. Download our 110+ production prompt pack today!

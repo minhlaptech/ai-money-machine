@@ -1,0 +1,14 @@
+DAY #21: [AI Agent Future] The death of static websites: Meet autonomous web agents
+Duration: 23.1s
+
+HOOK:
+In 2 years, people won't browse menus and click forms. They will talk to web agents.
+
+CONTENT:
+Websites are shifting from static brochures to interactive conversational copilot interfaces that understand intent and complete actions.
+
+CTA:
+Experience the prototype at work-minh-lap.vercel.app/chatbotdemo!
+
+CLEAN SPEECH:
+In 2 years, people won't browse menus and click forms. They will talk to web agents. Websites are shifting from static brochures to interactive conversational copilot interfaces that understand intent and complete actions. Experience the prototype at work-minh-lap.vercel.app/chatbotdemo!

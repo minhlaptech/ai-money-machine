@@ -1,0 +1,14 @@
+DAY #16: [Telegram Alert] Get an instant phone notification whenever you get a lead
+Duration: 19.0s
+
+HOOK:
+Never miss a high-ticket customer inquiry while away from your desk.
+
+CONTENT:
+Connect your website form to a Telegram Bot via webhook. Whenever a lead submits, your phone buzzes within 2 seconds with customer details.
+
+CTA:
+Import this blueprint from our 15-pack templates!
+
+CLEAN SPEECH:
+Never miss a high-ticket customer inquiry while away from your desk. Connect your website form to a Telegram Bot via webhook. Whenever a lead submits, your phone buzzes within 2 seconds with customer details. Import this blueprint from our 15-pack templates!

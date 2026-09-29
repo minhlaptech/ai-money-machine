@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:01,011
+Is POD dead?
+
+2
+00:00:01,011 --> 00:00:02,867
+Not if you target this
+
+3
+00:00:02,867 --> 00:00:04,553
+high-spending niche.
+
+4
+00:00:04,553 --> 00:00:05,565
+Programmers,
+
+5
+00:00:05,565 --> 00:00:06,915
+data scientists,
+
+6
+00:00:06,915 --> 00:00:09,276
+and AI builders love clever,
+
+7
+00:00:09,276 --> 00:00:11,131
+minimalist tech humor.
+
+8
+00:00:11,131 --> 00:00:13,914
+A single hoodie design brings 18.
+
+9
+00:00:13,914 --> 00:00:16,023
+00 dollars in pure profit
+
+10
+00:00:16,023 --> 00:00:17,625
+on Printify + Etsy.
+
+11
+00:00:17,625 --> 00:00:19,649
+Check our POD case study
+
+12
+00:00:19,649 --> 00:00:21,336
+in our Resource Hub!

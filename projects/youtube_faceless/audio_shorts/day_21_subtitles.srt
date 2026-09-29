@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:00,907
+In 2 years,
+
+2
+00:00:00,907 --> 00:00:03,298
+people won't browse menus and
+
+3
+00:00:03,298 --> 00:00:04,287
+click forms.
+
+4
+00:00:04,287 --> 00:00:06,679
+They will talk to web agents.
+
+5
+00:00:06,679 --> 00:00:09,400
+Websites are shifting from static
+
+6
+00:00:09,400 --> 00:00:13,275
+brochures to interactive conversational copilot
+
+7
+00:00:13,275 --> 00:00:16,326
+interfaces that understand intent and
+
+8
+00:00:16,326 --> 00:00:17,728
+complete actions.
+
+9
+00:00:17,728 --> 00:00:21,191
+Experience the prototype at work-minh-lap.
+
+10
+00:00:21,191 --> 00:00:21,991
+vercel.
+
+11
+00:00:21,991 --> 00:00:23,088
+app/chatbotdemo!

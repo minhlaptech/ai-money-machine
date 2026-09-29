@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:01,627
+Ever wake up to find
+
+2
+00:00:01,627 --> 00:00:04,312
+your automation stopped running 3
+
+3
+00:00:04,312 --> 00:00:05,112
+days ago?
+
+4
+00:00:05,112 --> 00:00:07,310
+Always add an Error Handler
+
+5
+00:00:07,310 --> 00:00:09,507
+route with Resume or Ignore
+
+6
+00:00:09,507 --> 00:00:12,029
+directives and a fallback alert
+
+7
+00:00:12,029 --> 00:00:14,145
+to your Slack or Telegram.
+
+8
+00:00:14,145 --> 00:00:15,773
+Never let an API 429
+
+9
+00:00:15,773 --> 00:00:16,993
+kill your flow.
+
+10
+00:00:16,993 --> 00:00:19,679
+Full troubleshooting guide in our
+
+11
+00:00:19,679 --> 00:00:20,832
+resource vault!

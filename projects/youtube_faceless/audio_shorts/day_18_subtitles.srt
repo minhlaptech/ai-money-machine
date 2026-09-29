@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:03,719
+Stop writing content separately for Twitter,
+
+2
+00:00:03,719 --> 00:00:04,519
+LinkedIn,
+
+3
+00:00:04,519 --> 00:00:05,448
+and TikTok.
+
+4
+00:00:05,448 --> 00:00:07,815
+Use an AI repurposing script
+
+5
+00:00:07,815 --> 00:00:10,097
+that extracts the key hook,
+
+6
+00:00:10,097 --> 00:00:12,210
+formats a 7-tweet thread,
+
+7
+00:00:12,210 --> 00:00:15,000
+a professional LinkedIn carousel,
+
+8
+00:00:15,000 --> 00:00:17,451
+and a 60-second video script.
+
+9
+00:00:17,451 --> 00:00:20,071
+Try our open repurposing engine
+
+10
+00:00:20,071 --> 00:00:21,216
+(link in bio)!

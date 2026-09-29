@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:02,512
+Never miss a high-ticket customer
+
+2
+00:00:02,512 --> 00:00:05,100
+inquiry while away from your desk.
+
+3
+00:00:05,100 --> 00:00:07,232
+Connect your website form to
+
+4
+00:00:07,232 --> 00:00:09,287
+a Telegram Bot via webhook.
+
+5
+00:00:09,287 --> 00:00:11,114
+Whenever a lead submits,
+
+6
+00:00:11,114 --> 00:00:13,094
+your phone buzzes within 2
+
+7
+00:00:13,094 --> 00:00:15,377
+seconds with customer details.
+
+8
+00:00:15,377 --> 00:00:17,661
+Import this blueprint from our
+
+9
+00:00:17,661 --> 00:00:19,032
+15-pack templates!

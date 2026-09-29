@@ -1,0 +1,14 @@
+DAY #13: [Chrome Extension] How to build a Chrome extension as a lead magnet
+Duration: 20.9s
+
+HOOK:
+The smartest way to get 1,000 free SaaS users without paying for ads.
+
+CONTENT:
+Package a simple audit tool into a Manifest V3 Chrome Extension. Users install it for free, see their errors, and click through to your paid web app.
+
+CTA:
+Download our open-source extension zip in bio!
+
+CLEAN SPEECH:
+The smartest way to get 1,000 free SaaS users without paying for ads. Package a simple audit tool into a Manifest V3 Chrome Extension. Users install it for free, see their errors, and click through to your paid web app. Download our open-source extension zip in bio!

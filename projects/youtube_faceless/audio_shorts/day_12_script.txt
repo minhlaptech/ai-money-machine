@@ -1,0 +1,14 @@
+DAY #12: [Zero-Cost Hosting] How to host your web apps for $0 forever
+Duration: 21.0s
+
+HOOK:
+Stop paying $50/month for cloud servers when you're just starting out.
+
+CONTENT:
+Vercel Edge, GitHub Pages, and Cloudflare Pages allow you to run serverless edge applications with worldwide CDN speed completely free.
+
+CTA:
+Full tech stack tutorial inside our free Resource Hub!
+
+CLEAN SPEECH:
+Stop paying 50 dollars per month for cloud servers when you're just starting out. Vercel Edge, GitHub Pages, and Cloudflare Pages allow you to run serverless edge applications with worldwide CDN speed completely free. Full tech stack tutorial inside our free Resource Hub!

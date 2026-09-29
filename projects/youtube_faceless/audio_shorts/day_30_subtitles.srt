@@ -1,0 +1,51 @@
+1
+00:00:00,000 --> 00:00:02,415
+How 8 small income streams
+
+2
+00:00:02,415 --> 00:00:03,809
+combine into 3,
+
+3
+00:00:03,809 --> 00:00:07,619
+500 dollars per month recurring cashflow.
+
+4
+00:00:07,619 --> 00:00:11,615
+Micro-SaaS subscriptions + Agency Retainers
+
+5
+00:00:11,615 --> 00:00:13,938
++ Digital Product sales +
+
+6
+00:00:13,938 --> 00:00:17,562
+YouTube AdSense + Affiliate commissions
+
+7
+00:00:17,562 --> 00:00:19,141
++ Freelance gigs.
+
+8
+00:00:19,141 --> 00:00:20,256
+Diversified,
+
+9
+00:00:20,256 --> 00:00:21,186
+resilient,
+
+10
+00:00:21,186 --> 00:00:22,115
+automated.
+
+11
+00:00:22,115 --> 00:00:26,761
+Start your journey today at https://work-minh-lap.
+
+12
+00:00:26,761 --> 00:00:27,561
+vercel.
+
+13
+00:00:27,561 --> 00:00:28,248
+app/blog!

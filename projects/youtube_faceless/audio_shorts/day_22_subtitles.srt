@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:01,463
+How we wrote a 16,
+
+2
+00:00:01,463 --> 00:00:03,821
+000-word technical guide in 7
+
+3
+00:00:03,821 --> 00:00:06,261
+days and listed it on Gumroad.
+
+4
+00:00:06,261 --> 00:00:08,619
+Structure your outline first.
+
+5
+00:00:08,619 --> 00:00:10,652
+Use deep AI prompting for
+
+6
+00:00:10,652 --> 00:00:13,823
+real-world case studies and frameworks.
+
+7
+00:00:13,823 --> 00:00:15,693
+Export to crisp PDF and
+
+8
+00:00:15,693 --> 00:00:18,620
+launch on Gumroad and Lemon Squeezy.
+
+9
+00:00:18,620 --> 00:00:20,734
+Get The AI Money Blueprint
+
+10
+00:00:20,734 --> 00:00:21,792
+eBook in bio!

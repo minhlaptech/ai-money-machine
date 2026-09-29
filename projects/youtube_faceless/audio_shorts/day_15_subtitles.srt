@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:02,115
+Are you wasting 200 dollars
+
+2
+00:00:02,115 --> 00:00:03,681
+per month on Zapier?
+
+3
+00:00:03,681 --> 00:00:05,875
+Here is the real difference.
+
+4
+00:00:05,875 --> 00:00:07,755
+Zapier charges per task.
+
+5
+00:00:07,755 --> 00:00:08,555
+Make.
+
+6
+00:00:08,555 --> 00:00:10,826
+com charges per operation and
+
+7
+00:00:10,826 --> 00:00:13,960
+offers visual routers and error-handlers
+
+8
+00:00:13,960 --> 00:00:15,918
+at one-fifth of the price
+
+9
+00:00:15,918 --> 00:00:17,641
+for complex branching.
+
+10
+00:00:17,641 --> 00:00:20,540
+Read our complete in-depth comparison
+
+11
+00:00:20,540 --> 00:00:21,072
+on our blog!

@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:02,788
+You don't need venture capital
+
+2
+00:00:02,788 --> 00:00:05,298
+to launch a profitable SaaS
+
+3
+00:00:05,298 --> 00:00:06,098
+in 2026.
+
+4
+00:00:06,098 --> 00:00:10,188
+Find one hyper-specific problem like robots.
+
+5
+00:00:10,188 --> 00:00:11,676
+txt AI auditing.
+
+6
+00:00:11,676 --> 00:00:14,743
+We built SynapseGEO in a weekend,
+
+7
+00:00:14,743 --> 00:00:17,253
+deployed on Vercel Edge for
+
+8
+00:00:17,253 --> 00:00:18,461
+zero dollars,
+
+9
+00:00:18,461 --> 00:00:21,064
+and connected Lemon Squeezy.
+
+10
+00:00:21,064 --> 00:00:24,411
+Test the live tool at work-minh-lap.
+
+11
+00:00:24,411 --> 00:00:25,211
+vercel.
+
+12
+00:00:25,211 --> 00:00:26,400
+app/synapsegeo!

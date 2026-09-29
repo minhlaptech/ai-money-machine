@@ -1,0 +1,14 @@
+DAY #07: [Overcoming Fear] Do you need coding skills to start an AI agency?
+Duration: 19.5s
+
+HOOK:
+Think you need a computer science degree to sell AI? Absolutely not.
+
+CONTENT:
+You can connect Voiceflow or OpenAI Assistants to webhooks using no-code tools like Make.com in under 30 minutes without writing a single line of code.
+
+CTA:
+Follow for daily AI automation blueprints!
+
+CLEAN SPEECH:
+Think you need a computer science degree to sell AI? Absolutely not. You can connect Voiceflow or OpenAI Assistants to webhooks using no-code tools like Make.com in under 30 minutes without writing a single line of code. Follow for daily AI automation blueprints!

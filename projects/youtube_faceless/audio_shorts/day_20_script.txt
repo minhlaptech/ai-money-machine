@@ -1,0 +1,14 @@
+DAY #20: [Airtable CRM] Build a custom $5,000 CRM in Airtable in 15 minutes
+Duration: 20.8s
+
+HOOK:
+Don't pay Salesforce $150/user/month for small businesses.
+
+CONTENT:
+Combine Airtable relational databases with AI automations to score leads, assign tasks, and trigger email sequences automatically.
+
+CTA:
+Download our ready-to-use Airtable base template in bio!
+
+CLEAN SPEECH:
+Don't pay Salesforce 150 dollars/user per month for small businesses. Combine Airtable relational databases with AI automations to score leads, assign tasks, and trigger email sequences automatically. Download our ready-to-use Airtable base template in bio!

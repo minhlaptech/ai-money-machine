@@ -1,0 +1,14 @@
+DAY #14: [SaaS Monetization] Stripe vs Lemon Squeezy for solo founders
+Duration: 18.6s
+
+HOOK:
+Which payment processor should you use for digital products and SaaS?
+
+CONTENT:
+Lemon Squeezy acts as a Merchant of Record (MoR), handling international sales taxes and VAT compliance automatically so you don't have tax headaches.
+
+CTA:
+Follow for more indie hacker breakdown!
+
+CLEAN SPEECH:
+Which payment processor should you use for digital products and SaaS? Lemon Squeezy acts as a Merchant of Record (MoR), handling international sales taxes and VAT compliance automatically so you don't have tax headaches. Follow for more indie hacker breakdown!

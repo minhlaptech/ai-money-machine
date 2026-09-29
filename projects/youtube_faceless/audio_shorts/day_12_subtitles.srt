@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:02,080
+Stop paying 50 dollars per
+
+2
+00:00:02,080 --> 00:00:04,321
+month for cloud servers when
+
+3
+00:00:04,321 --> 00:00:06,322
+you're just starting out.
+
+4
+00:00:06,322 --> 00:00:07,282
+Vercel Edge,
+
+5
+00:00:07,282 --> 00:00:08,323
+GitHub Pages,
+
+6
+00:00:08,323 --> 00:00:10,724
+and Cloudflare Pages allow you
+
+7
+00:00:10,724 --> 00:00:13,525
+to run serverless edge applications
+
+8
+00:00:13,525 --> 00:00:16,806
+with worldwide CDN speed completely free.
+
+9
+00:00:16,806 --> 00:00:19,287
+Full tech stack tutorial inside
+
+10
+00:00:19,287 --> 00:00:21,048
+our free Resource Hub!

@@ -1,0 +1,14 @@
+DAY #09: [AI Search Shift] Google SEO is declining. Here is what is replacing it.
+Duration: 26.2s
+
+HOOK:
+If your site isn't optimized for Perplexity and ChatGPT, you are losing 40% of future traffic.
+
+CONTENT:
+Generative Engine Optimization (GEO) relies on clean JSON-LD Schema and robots.txt bot permissions. If you block GPTBot, you are invisible.
+
+CTA:
+Run a free 10-second audit on your domain (link in bio)!
+
+CLEAN SPEECH:
+If your site isn't optimized for Perplexity and ChatGPT, you are losing 40% of future traffic. Generative Engine Optimization (GEO) relies on clean JSON-LD Schema and robots.txt bot permissions. If you block GPTBot, you are invisible. Run a free 10-second audit on your domain (link in bio)!

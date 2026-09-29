@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:02,499
+Which payment processor should you
+
+2
+00:00:02,499 --> 00:00:04,999
+use for digital products and SaaS?
+
+3
+00:00:04,999 --> 00:00:06,690
+Lemon Squeezy acts as a
+
+4
+00:00:06,690 --> 00:00:08,528
+Merchant of Record (MoR),
+
+5
+00:00:08,528 --> 00:00:11,321
+handling international sales taxes and
+
+6
+00:00:11,321 --> 00:00:13,894
+VAT compliance automatically so you
+
+7
+00:00:13,894 --> 00:00:15,732
+don't have tax headaches.
+
+8
+00:00:15,732 --> 00:00:18,600
+Follow for more indie hacker breakdown!

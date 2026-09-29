@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:01,915
+Think you need a computer
+
+2
+00:00:01,915 --> 00:00:03,907
+science degree to sell AI?
+
+3
+00:00:03,907 --> 00:00:05,056
+Absolutely not.
+
+4
+00:00:05,056 --> 00:00:07,201
+You can connect Voiceflow or
+
+5
+00:00:07,201 --> 00:00:09,882
+OpenAI Assistants to webhooks using
+
+6
+00:00:09,882 --> 00:00:11,721
+no-code tools like Make.
+
+7
+00:00:11,721 --> 00:00:13,483
+com in under 30 minutes
+
+8
+00:00:13,483 --> 00:00:15,705
+without writing a single line
+
+9
+00:00:15,705 --> 00:00:16,505
+of code.
+
+10
+00:00:16,505 --> 00:00:19,536
+Follow for daily AI automation blueprints!

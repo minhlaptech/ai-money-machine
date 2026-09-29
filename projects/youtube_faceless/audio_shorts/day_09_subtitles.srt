@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:02,599
+If your site isn't optimized
+
+2
+00:00:02,599 --> 00:00:05,106
+for Perplexity and ChatGPT,
+
+3
+00:00:05,106 --> 00:00:07,056
+you are losing 40% of
+
+4
+00:00:07,056 --> 00:00:08,449
+future traffic.
+
+5
+00:00:08,449 --> 00:00:12,442
+Generative Engine Optimization (GEO) relies
+
+6
+00:00:12,442 --> 00:00:15,691
+on clean JSON-LD Schema and robots.
+
+7
+00:00:15,691 --> 00:00:17,548
+txt bot permissions.
+
+8
+00:00:17,548 --> 00:00:19,405
+If you block GPTBot,
+
+9
+00:00:19,405 --> 00:00:21,077
+you are invisible.
+
+10
+00:00:21,077 --> 00:00:23,491
+Run a free 10-second audit
+
+11
+00:00:23,491 --> 00:00:26,184
+on your domain (link in bio)!

@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:02,117
+The smartest way to get 1,
+
+2
+00:00:02,117 --> 00:00:04,315
+000 free SaaS users without
+
+3
+00:00:04,315 --> 00:00:05,537
+paying for ads.
+
+4
+00:00:05,537 --> 00:00:07,736
+Package a simple audit tool
+
+5
+00:00:07,736 --> 00:00:10,667
+into a Manifest V3 Chrome Extension.
+
+6
+00:00:10,667 --> 00:00:12,784
+Users install it for free,
+
+7
+00:00:12,784 --> 00:00:14,169
+see their errors,
+
+8
+00:00:14,169 --> 00:00:16,204
+and click through to your
+
+9
+00:00:16,204 --> 00:00:17,263
+paid web app.
+
+10
+00:00:17,263 --> 00:00:20,357
+Download our open-source extension zip
+
+11
+00:00:20,357 --> 00:00:20,928
+in bio!

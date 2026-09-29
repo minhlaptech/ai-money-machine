@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:02,566
+What does a high-ticket client
+
+2
+00:00:02,566 --> 00:00:04,962
+proposal actually look like?
+
+3
+00:00:04,962 --> 00:00:08,043
+Section 1: Lost Revenue Calculation.
+
+4
+00:00:08,043 --> 00:00:11,808
+Section 2: Recommended Copilot Architecture.
+
+5
+00:00:11,808 --> 00:00:13,947
+Section 3: Projected ROI.
+
+6
+00:00:13,947 --> 00:00:16,171
+Section 4: Fixed Setup Fee
+
+7
+00:00:16,171 --> 00:00:18,909
++ Monthly Maintenance Guarantee.
+
+8
+00:00:18,909 --> 00:00:21,733
+Generate your own custom proposal
+
+9
+00:00:21,733 --> 00:00:23,616
+using our free script!

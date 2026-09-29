@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:03,083
+Don't pay Salesforce 150 dollars/user
+
+2
+00:00:03,083 --> 00:00:05,666
+per month for small businesses.
+
+3
+00:00:05,666 --> 00:00:09,166
+Combine Airtable relational databases with
+
+4
+00:00:09,166 --> 00:00:11,665
+AI automations to score leads,
+
+5
+00:00:11,665 --> 00:00:12,749
+assign tasks,
+
+6
+00:00:12,749 --> 00:00:16,248
+and trigger email sequences automatically.
+
+7
+00:00:16,248 --> 00:00:19,498
+Download our ready-to-use Airtable base
+
+8
+00:00:19,498 --> 00:00:20,832
+template in bio!

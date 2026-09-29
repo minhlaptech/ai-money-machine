@@ -1,0 +1,14 @@
+DAY #17: [OCR Pipeline] Automating 20 hours of invoice data entry for accountants
+Duration: 21.0s
+
+HOOK:
+Chasing receipts and 1099 forms is the biggest waste of billable CPA hours.
+
+CONTENT:
+An automated pipeline with AI Vision extracts vendor, tax ID, and line items, writing them directly into QuickBooks without manual typing.
+
+CTA:
+Grab the full blueprint package in our Master Bundle!
+
+CLEAN SPEECH:
+Chasing receipts and 1099 forms is the biggest waste of billable CPA hours. An automated pipeline with AI Vision extracts vendor, tax ID, and line items, writing them directly into QuickBooks without manual typing. Grab the full blueprint package in our Master Bundle!
