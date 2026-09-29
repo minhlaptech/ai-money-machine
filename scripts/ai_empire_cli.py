@@ -26,7 +26,7 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v5.5 ⚡
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v6.0 ⚡
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
@@ -50,6 +50,7 @@ def print_banner():
   [19] 📦 Đóng Gói Bộ Hồ Sơ Onboarding VIP ZIP Cho Khách Hàng (30 Client Packages)
   [20] 🚀 Mở Executive Command Center Dashboard trên Trình Duyệt Web
   [21] 💰 Bắn Thử Nghiệm Webhook Bán Hàng & Đơn Hàng Mới (Simulate Sales Webhook)
+  [22] 📋 Xuất Trọn Bộ Dữ Liệu Phễu B2B CRM Ra File CSV / JSON (Export 30 Leads & Live URLs)
   [0] Thoát
 ======================================================================
 """)
@@ -69,7 +70,7 @@ def run_script(rel_path, args=None):
 def main_loop():
     while True:
         print_banner()
-        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-21]: ").strip()
+        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-22]: ").strip()
 
         if choice == '1':
             ping = input("Bạn có muốn gửi báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
@@ -217,11 +218,14 @@ def main_loop():
             key = sc_map.get(sc, "lemonsqueezy_blueprint")
             run_script("scripts/test_sales_webhook.py", ["--scenario", key])
 
+        elif choice == '22':
+            run_script("scripts/export_crm_pipeline.py")
+
         elif choice == '0':
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 21.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 22.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 
