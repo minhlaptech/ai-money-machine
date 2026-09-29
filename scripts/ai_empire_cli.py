@@ -26,7 +26,7 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v12.0 ⚡
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v13.0 ⚡
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
@@ -66,6 +66,9 @@ def print_banner():
   [35] ⚡ Khởi Chạy Micro-SaaS Suite Hub & Bộ 3 AI Tools (/tools & /saas - $39 Pass)
   [36] 🚪 Kích Hoạt Chiến Dịch Stage 3 Break-Up Outreach (Day 7 FOMO Close 60 Leads)
   [37] 📦 Mở Trang Bán Hàng Master Bundle Showcase (/bundle - Lemon Squeezy Store ID 485872)
+  [38] 📋 Mở VIP Client Onboarding Intake Hub (/onboarding - 48h SLA Sprint)
+  [39] 📊 Cập Nhật Trạng Thái Deal B2B CRM & Bắn Cảnh Báo Telegram (CRM Deal Tracker)
+  [40] 💳 Giả Lập & Kiểm Thử Doanh Thu Webhook Đa Kênh (/api/webhook Simulator)
   [0] Thoát
 ======================================================================
 """)
@@ -85,7 +88,7 @@ def run_script(rel_path, args=None):
 def main_loop():
     while True:
         print_banner()
-        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-37]: ").strip()
+        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-40]: ").strip()
 
         if choice == '1':
             ping = input("Bạn có muốn gửi báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
@@ -450,11 +453,51 @@ def main_loop():
             except Exception:
                 webbrowser.open(local_bundle.as_uri())
 
+        elif choice == '38':
+            onboard_url = "https://work-minh-lap.vercel.app/onboarding"
+            local_onboard = ROOT_DIR / "onboarding" / "index.html"
+            print(f"[*] Đang mở VIP Client Onboarding Intake Hub trên trình duyệt: {onboard_url}")
+            try:
+                webbrowser.open(onboard_url)
+            except Exception:
+                webbrowser.open(local_onboard.as_uri())
+
+        elif choice == '39':
+            sub = input("Chọn tác vụ CRM: 1: Xem Dashboard tổng quan / 2: Cập nhật trạng thái deal (1/2, mặc định 1): ").strip()
+            if sub == '2':
+                lead_id = input("Nhập ID khách hàng cần cập nhật (1-60): ").strip()
+                status = input("Chọn trạng thái mới (booked / won / day7 / day3 / day1 / new, mặc định booked): ").strip() or "booked"
+                tg = input("Bắn thông báo biến động về Telegram không? (y/n, mặc định y): ").strip().lower()
+                args = ["--id", lead_id, "--status", status]
+                if tg != 'n':
+                    args.append("--telegram")
+                run_script("scripts/crm_tracker.py", args)
+            else:
+                run_script("scripts/crm_tracker.py", ["--summary"])
+
+        elif choice == '40':
+            print("\nCác kịch bản giả lập giao dịch doanh thu Webhook:")
+            print("  1: Lemon Squeezy - Micro-SaaS All-Access Pass ($39)")
+            print("  2: Lemon Squeezy - ReviewGenius Pro Lifetime ($19)")
+            print("  3: Lemon Squeezy - Master Bundle ($47)")
+            print("  4: Gumroad - Marketing Prompt Pack ($27)")
+            print("  5: Stripe - B2B Retainer Setup ($1,850)")
+            sc_choice = input("Chọn kịch bản [1-5, mặc định 1]: ").strip()
+            sc_map = {
+                "1": "microsaas_all_access",
+                "2": "reviewgenius_pro",
+                "3": "lemonsqueezy_blueprint",
+                "4": "gumroad_prompts",
+                "5": "b2b_retainer_setup"
+            }
+            scenario = sc_map.get(sc_choice, "microsaas_all_access")
+            run_script("scripts/test_sales_webhook.py", ["--scenario", scenario])
+
         elif choice == '0':
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 37.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 40.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 
