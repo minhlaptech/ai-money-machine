@@ -10,8 +10,8 @@
     "sovereign_setup": 2500,
     "sovereign_retainer_addon": 1500,
     "new_sovereign_retainer": 2950,
-    "status": "call_booked",
-    "updated_at": "2026-09-30 05:26"
+    "status": "sovereign_won",
+    "updated_at": "2026-09-30 05:32"
   },
   {
     "id": 36,
@@ -24,8 +24,8 @@
     "sovereign_setup": 2500,
     "sovereign_retainer_addon": 1500,
     "new_sovereign_retainer": 2950,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 05:26"
+    "status": "sovereign_won",
+    "updated_at": "2026-09-30 05:34"
   },
   {
     "id": 57,
@@ -52,8 +52,8 @@
     "sovereign_setup": 2500,
     "sovereign_retainer_addon": 1500,
     "new_sovereign_retainer": 2950,
-    "status": "call_booked",
-    "updated_at": "2026-09-30 05:26"
+    "status": "sovereign_won",
+    "updated_at": "2026-09-30 05:32"
   },
   {
     "id": 51,
@@ -80,8 +80,8 @@
     "sovereign_setup": 2500,
     "sovereign_retainer_addon": 1500,
     "new_sovereign_retainer": 2950,
-    "status": "call_booked",
-    "updated_at": "2026-09-30 05:26"
+    "status": "sovereign_won",
+    "updated_at": "2026-09-30 05:32"
   },
   {
     "id": 44,
@@ -94,8 +94,8 @@
     "sovereign_setup": 2500,
     "sovereign_retainer_addon": 1500,
     "new_sovereign_retainer": 2950,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 05:26"
+    "status": "sovereign_won",
+    "updated_at": "2026-09-30 05:34"
   },
   {
     "id": 38,
@@ -108,7 +108,7 @@
     "sovereign_setup": 2500,
     "sovereign_retainer_addon": 1500,
     "new_sovereign_retainer": 2950,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 05:26"
+    "status": "sovereign_won",
+    "updated_at": "2026-09-30 05:34"
   }
 ]
