@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 21:23:34",
+  "updated_at": "2026-09-30 03:23:47",
   "total_analyzed": 40,
   "high_priority_opportunities": [
     {
@@ -13,6 +13,30 @@
       "matched_keywords": [
         "alternative to",
         "seo"
+      ]
+    },
+    {
+      "source": "Hacker News (ask)",
+      "title": "Ask HN: What are you reading?",
+      "text": "I&#x27;m plowing through the Dungeon Crawler Carl series, which is not particularly challenging as sci-fi&#x2F;LitRPG goes, but entertaining enough.  I&#x27;m also wrapping up Doctorow&#x27;s _Enshittification_, and I&#x27;m looking for something a little meaty to keep the brain working...",
+      "score": 23,
+      "comments": 43,
+      "url": "https://news.ycombinator.com/item?id=49893157",
+      "intent_score": 50,
+      "matched_keywords": [
+        "looking for"
+      ]
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: Free alternative to graphics design giants",
+      "text": "A webassembly web based app that help editing raster and vector on browser without any subscription or signups",
+      "score": 130,
+      "comments": 22,
+      "url": "https://news.ycombinator.com/item?id=49875308",
+      "intent_score": 50,
+      "matched_keywords": [
+        "alternative to"
       ]
     },
     {
@@ -43,7 +67,7 @@
       "source": "GitHub Trending",
       "title": "serpapi/awesome-seo-tools - Curated list of awesome SEO tools",
       "text": "Curated list of awesome SEO tools",
-      "score": 1101,
+      "score": 1102,
       "comments": 368,
       "url": "https://github.com/serpapi/awesome-seo-tools",
       "intent_score": 50,
@@ -67,7 +91,7 @@
       "source": "GitHub Trending",
       "title": "StJudeWasHere/seonaut - Open source SEO audit tool.",
       "text": "Open source SEO audit tool.",
-      "score": 796,
+      "score": 797,
       "comments": 134,
       "url": "https://github.com/StJudeWasHere/seonaut",
       "intent_score": 50,
@@ -115,8 +139,8 @@
       "source": "Hacker News (ask)",
       "title": "Management is forcing us to use AI",
       "text": "I’m paraphrasing; «You use AI or you’re not working here. Humans are not perfect coders nor are AIs. So why should you be allowed to code without AI. It’s a netloss for us. You either use it or you start looking for a different job.»<p>Can’t believe Im being forced to make myself dumber. I really dont want to spend even more hours in front of my laptop, but looks like I have to because this whole ",
-      "score": 17,
-      "comments": 18,
+      "score": 18,
+      "comments": 22,
       "url": "https://news.ycombinator.com/item?id=49873913",
       "intent_score": 40,
       "matched_keywords": [
@@ -127,11 +151,23 @@
       "source": "Hacker News (ask)",
       "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
       "text": "Do you currently work with or know anyone who is still using:<p>* dBase&#x2F;Clipper&#x2F;CLARION&#x2F;Paradox&#x2F;other DOS RAD environments on period hardware to run business processes?<p>* CNC mills&#x2F;spectrometers&#x2F;microscopes&#x2F;other industrial instruments controlled by ISA cards (either bespoke or standards like GPIB)?<p>* Anything with a parallel port dongle?<p>If so, I&#x27;d be",
-      "score": 290,
+      "score": 291,
       "comments": 85,
       "url": "https://news.ycombinator.com/item?id=49848955",
       "intent_score": 25,
       "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (ask)",
+      "title": "Is there a lanscaping tool which can take photos of my garden and make 3D model?",
+      "text": "I am looking for a tool which would allow me to take photos of my garden and then generate a 3D editable garden where I can drag and move things. Something like Blender or CAD but with the photos as inputs.",
+      "score": 3,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=49896742",
+      "intent_score": 25,
+      "matched_keywords": [
+        "looking for"
+      ]
     },
     {
       "source": "Hacker News (ask)",
@@ -147,7 +183,7 @@
       "source": "Hacker News (show)",
       "title": "Show HN: HN.watch – Videos of all Hacker News posts",
       "text": "Hi HN, I’m Per, founder of Scrimba (YC S20). We’ve spent the last decade teaching people how to code with an HTML-based video format. We’ve now plugged an LLM into it, so that people can create explainer videos about anything. It’s called “Scrimba Explain”.<p>To demo this technology for Hacker News, we built HN.watch. It’s like HN, but with explainer videos instead of articles. We create them on-t",
-      "score": 202,
+      "score": 207,
       "comments": 51,
       "url": "https://news.ycombinator.com/item?id=49879401",
       "intent_score": 25,
@@ -157,7 +193,7 @@
       "source": "Hacker News (show)",
       "title": "Show HN: Destroy Any Website with Stickman",
       "text": "",
-      "score": 151,
+      "score": 163,
       "comments": 26,
       "url": "https://news.ycombinator.com/item?id=49880601",
       "intent_score": 25,
@@ -165,11 +201,11 @@
     },
     {
       "source": "Hacker News (show)",
-      "title": "Show HN: Pac-Bench – How well can models one-shot a Pac-Man game?",
-      "text": "Benchmarks how well Harness+models can create a Pac-Man game from a single prompt:<p>“Create a Pac-Man game in a single HTML page”<p>Each model gets one shot — no follow-up prompts or fixes.",
-      "score": 74,
-      "comments": 23,
-      "url": "https://news.ycombinator.com/item?id=49885493",
+      "title": "Show HN: PaperMono, e-ink fridge magnet shopping list with mobile web page",
+      "text": "Fridge magnet shopping list on an M5Stack PaperMono (ESP32-S3, e-ink\ntouchscreen), synced with a phone web app over Wi-Fi. Works offline,\n~2,400 lines of C++.<p>This is a great wee device! BLE, Wi-Fi and LoRa on one board makes it flexible\nfor way more than a shopping list, this is just what I built first. This\nfirmware only uses Wi-Fi.<p>Fully vibe-coded with Claude Code, I didn&#x27;t hand-write",
+      "score": 145,
+      "comments": 25,
+      "url": "https://news.ycombinator.com/item?id=49875801",
       "intent_score": 25,
       "matched_keywords": []
     },
