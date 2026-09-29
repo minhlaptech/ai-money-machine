@@ -454,3 +454,25 @@
   - Chuyển đổi toàn bộ 8 bài viết Markdown (10,000+ từ) thành 8 trang đọc HTML chuẩn SEO (`guide_001.html` đến `guide_008.html`) kèm thời gian đọc và banner chào bán Master Bundle $39.
 - ✅ **Nâng Cấp Lưới Bài Viết Trang Chủ Blog ([index.html](file:///d:/Project/work/projects/affiliate_blog/website/index.html))**:
   - Hiển thị trọn vẹn 8 bài viết chuyên sâu trên trang chủ với link đọc trực tiếp cho từng bài viết, tối ưu hóa cấu trúc internal link cho Google SEO.
+
+---
+
+## 📅 2026-09-29 | Phiên #17 | Bộ Tính Toán ROI Khách Hàng, Dashboard 8 Công Cụ & Chiến Dịch 30 Ngày Video Ngắn (Shorts Sprint)
+
+### 🎉 Milestones Hoàn Thành:
+- ✅ **Công Cụ Tính Toán ROI & Doanh Thu Thu Hồi Bị Bỏ Lỡ ([roi_calculator.html](file:///d:/Project/work/projects/ai_automation_smb/roi_calculator.html))**:
+  - Xây dựng ứng dụng web tương tác trực quan với thanh trượt real-time (Lượng lead mỗi tháng, giá trị khách hàng trọn đời, tỷ lệ tin nhắn ngoài giờ, tỷ lệ AI thu hồi).
+  - Tích hợp 5 bộ preset cho ngành nghề: Nha khoa thẩm mỹ, HVAC/Điện nước, Công ty Luật, MedSpa và B2B SaaS.
+  - Tính toán tức thời doanh thu thất thoát, doanh thu thu hồi hàng tháng/hàng năm và tỷ suất ROI trên gói retainer $750/tháng (lên tới 1,600%+).
+  - Đã sao chép sang cổng thông tin blog tại `projects/affiliate_blog/website/calculator.html`.
+- ✅ **Mở Rộng Command Center Lên Đủ 8 Ứng Dụng ([index.html](file:///d:/Project/work/index.html) & [dashboard.html](file:///d:/Project/work/dashboard.html))**:
+  - Cập nhật chỉ số KPI lên **8 Tools Live**.
+  - Bổ sung hoàn chỉnh thẻ ứng dụng cho **AI Revenue Recovery Calculator** và **The AI Empire Master Bundle ($39)**, tạo thành mạng lưới 8 công cụ kinh doanh và sản phẩm số hoàn chỉnh.
+- ✅ **Chiến Dịch 30 Ngày Phủ Sóng Video Ngắn ([30_DAYS_SHORTS_SPRINT.md](file:///d:/Project/work/projects/youtube_faceless/shorts_sprint/30_DAYS_SHORTS_SPRINT.md))**:
+  - Xây dựng kịch bản chi tiết 30 video 60 giây cho YouTube Shorts, TikTok và Instagram Reels phân bổ theo 4 tuần:
+    - Tuần 1: Bí mật AI Chatbot & Agency Retainers.
+    - Tuần 2: Micro-SaaS Quick Wins & Làn sóng GEO SEO.
+    - Tuần 3: Kịch bản tự động hóa No-Code Make.com & Zapier.
+    - Tuần 4: Kiếm tiền từ Sản phẩm số, Prompt Pack & Freelancing.
+    - 2 Ngày Bonus: Lộ trình 90 ngày tự do tài chính với 8 nguồn thu nhập AI.
+  - Tự động hóa bằng script [`scripts/batch_shorts_generator.py`](file:///d:/Project/work/scripts/batch_shorts_generator.py).
