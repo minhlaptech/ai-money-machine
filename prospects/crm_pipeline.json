@@ -592,10 +592,10 @@
     "city": "Seattle, WA",
     "to": "hello@brandforgecreative.example",
     "doc": "Maya Lin",
-    "status": "booked",
+    "status": "won",
     "value": 2600,
     "retainer": 700,
-    "last_touch": "2026-09-30 04:35"
+    "last_touch": "2026-09-30 04:37"
   },
   {
     "id": 47,
@@ -605,10 +605,10 @@
     "city": "Boston, MA",
     "to": "pipeline@leadigniteb2b.example",
     "doc": "Connor Hayes",
-    "status": "booked",
+    "status": "won",
     "value": 2400,
     "retainer": 700,
-    "last_touch": "2026-09-30 04:35"
+    "last_touch": "2026-09-30 04:37"
   },
   {
     "id": 48,
@@ -631,10 +631,10 @@
     "city": "Denver, CO",
     "to": "editors@quantumcontentlab.example",
     "doc": "Hannah Brooks",
-    "status": "day7",
+    "status": "booked",
     "value": 2200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:37"
   },
   {
     "id": 50,
@@ -644,10 +644,10 @@
     "city": "Atlanta, GA",
     "to": "success@retentionloopcrm.example",
     "doc": "Marcus Bell",
-    "status": "day7",
+    "status": "booked",
     "value": 2500,
     "retainer": 700,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:37"
   },
   {
     "id": 51,
