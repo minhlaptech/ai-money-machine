@@ -462,10 +462,10 @@
     "city": "Houston, TX",
     "to": "estimates@paramountcommroofing.example",
     "doc": "Robert Lang",
-    "status": "day7",
+    "status": "booked",
     "value": 7500,
     "retainer": 950,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:12"
   },
   {
     "id": 37,
@@ -501,10 +501,10 @@
     "city": "Raleigh, NC",
     "to": "plans@benchmarkcustomnc.example",
     "doc": "Jonathan Drake",
-    "status": "booked",
+    "status": "won",
     "value": 8000,
     "retainer": 1000,
-    "last_touch": "2026-09-30 04:10"
+    "last_touch": "2026-09-30 04:12"
   },
   {
     "id": 40,
@@ -540,10 +540,10 @@
     "city": "San Francisco, CA",
     "to": "talent@hyperscalesearch.example",
     "doc": "Samantha Reed",
-    "status": "day7",
+    "status": "booked",
     "value": 4500,
     "retainer": 900,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:12"
   },
   {
     "id": 43,
@@ -696,10 +696,10 @@
     "city": "Miami, FL",
     "to": "concierge@serenitylongevity.example",
     "doc": "Dr. Lucas Meyer",
-    "status": "booked",
+    "status": "won",
     "value": 2500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:10"
+    "last_touch": "2026-09-30 04:12"
   },
   {
     "id": 55,
