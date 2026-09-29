@@ -7,12 +7,14 @@
 
 ## 🚀 What's Inside
 
-### 🛠️ Products (3 Micro-SaaS Tools)
-| Tool | Description | Demo |
-|------|-------------|------|
-| **SynapseGEO** | AI Search Audit Engine — check if your website is visible to AI search engines | [Live Demo](#) |
-| **ReviewGenius** | AI Review Response Generator — professional responses to customer reviews | [Live Demo](#) |
-| **HeadlineIQ** | Headline Analyzer — score and improve headlines for SEO and engagement | [Live Demo](#) |
+### 🛠️ Products (Live Micro-SaaS & Web Apps)
+| Tool | Description | Live Demo |
+|------|-------------|-----------|
+| **SynapseGEO** | AI Search Audit Engine — check if your website is visible to AI search engines | [synapse-geo-audit.vercel.app](https://synapse-geo-audit.vercel.app) |
+| **ReviewGenius** | AI Review Response Generator — professional responses to customer reviews | [reviewgenius-beta.vercel.app](https://reviewgenius-beta.vercel.app) |
+| **HeadlineIQ** | Headline Analyzer — score and improve headlines for SEO and engagement | [headlineiq-eta.vercel.app](https://headlineiq-eta.vercel.app) |
+| **AI Resource Hub** | AI Automation Blog & Knowledge Base | [ai-automation-guide-omega.vercel.app](https://ai-automation-guide-omega.vercel.app) |
+| **Chatbot Portfolio** | Live AI Chatbot Demo for Freelancing Clients | [chatbotdemo-hazel.vercel.app](https://chatbotdemo-hazel.vercel.app) |
 
 ### 📦 Digital Products (3 Products on Gumroad)
 | Product | Description | Price |
