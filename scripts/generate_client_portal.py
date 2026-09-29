@@ -63,6 +63,14 @@ LEADS = [
   {"id": 30, "batch": 3, "name": "Metro Injury Defense Group", "niche": "Insurance Litigation", "city": "Miami, FL", "val": 4000, "lost": 4, "icon": "🛡️"}
 ]
 
+try:
+    from expand_crm_pipeline import NEW_LEADS
+    for nl in NEW_LEADS:
+        if not any(l["id"] == nl["id"] for l in LEADS):
+            LEADS.append(nl)
+except Exception:
+    pass
+
 def get_slug(name):
     return name.lower().replace(" ", "_").replace("&", "and").replace("/", "-").replace("\\", "-").replace(",", "").replace(".", "")
 
@@ -873,10 +881,13 @@ def generate_portal_index():
       </div>
 
       <div class="filter-pills">
-        <button class="filter-btn active" onclick="setFilter('all', this)">All Clients (30)</button>
-        <button class="filter-btn" onclick="setFilter('1', this)">Batch 1: High-Ticket Services (10)</button>
-        <button class="filter-btn" onclick="setFilter('2', this)">Batch 2: E-Commerce & SaaS (10)</button>
-        <button class="filter-btn" onclick="setFilter('3', this)">Batch 3: Enterprise Legal & Wealth (10)</button>
+        <button class="filter-btn active" onclick="setFilter('all', this)">All Clients ({total_leads})</button>
+        <button class="filter-btn" onclick="setFilter('1', this)">Batch 1: SMBs (10)</button>
+        <button class="filter-btn" onclick="setFilter('2', this)">Batch 2: E-Com & SaaS (10)</button>
+        <button class="filter-btn" onclick="setFilter('3', this)">Batch 3: Legal & Wealth (10)</button>
+        <button class="filter-btn" onclick="setFilter('4', this)">Batch 4: Luxury Home (10)</button>
+        <button class="filter-btn" onclick="setFilter('5', this)">Batch 5: B2B Agencies (10)</button>
+        <button class="filter-btn" onclick="setFilter('6', this)">Batch 6: Luxury Health (10)</button>
       </div>
     </section>
 

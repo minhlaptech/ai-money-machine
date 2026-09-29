@@ -216,7 +216,7 @@
         💼 Freelance Hub (8 Gigs)
       </a>
       <a href="/portal" target="_blank" class="status-pill" style="color:var(--accent); border-color:rgba(124,92,252,0.3); background:rgba(124,92,252,0.08); text-decoration:none;">
-        🏛️ VIP Portals (30)
+        🏛️ VIP Portals (60)
       </a>
       <a href="/pitches" target="_blank" class="status-pill" style="color:#fb7185; border-color:rgba(244,63,94,0.3); background:rgba(244,63,94,0.08); text-decoration:none;">
         🎯 Pitch Decks Hub
@@ -257,8 +257,8 @@
       </div>
       <div class="metric-card">
         <div class="metric-label">Client Outreach Pipeline</div>
-        <div class="metric-val">30 VIP Portals Live</div>
-        <div class="metric-sub">✉️ 3 Batches · 8 Weapons Each</div>
+        <div class="metric-val">60 VIP Portals Live</div>
+        <div class="metric-sub">✉️ 6 Batches · $161,700 Pipeline</div>
       </div>
     </div>
 
@@ -584,10 +584,13 @@ RT the first tweet if you found this valuable! 🔄</div>
         <!-- Filter Pill Controls & Sequence Switcher -->
         <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:12px;">
           <div style="display:flex; gap:8px; flex-wrap:wrap;">
-            <button class="batch-pill-btn active" onclick="filterBatch('all', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#fff; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">All Leads (30)</button>
-            <button class="batch-pill-btn" onclick="filterBatch('1', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#b794f4; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🦷 Batch 1: Local SMBs (10)</button>
-            <button class="batch-pill-btn" onclick="filterBatch('2', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#00f2fe; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🛍️ Batch 2: E-Com & SaaS (10)</button>
-            <button class="batch-pill-btn" onclick="filterBatch('3', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#ffb74d; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🏛️ Batch 3: High-Ticket Legal/CPA (10)</button>
+            <button class="batch-pill-btn active" onclick="filterBatch('all', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#fff; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">All Leads (60)</button>
+            <button class="batch-pill-btn" onclick="filterBatch('1', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#b794f4; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🦷 B1: SMBs (10)</button>
+            <button class="batch-pill-btn" onclick="filterBatch('2', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#00f2fe; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🛍️ B2: E-Com & SaaS (10)</button>
+            <button class="batch-pill-btn" onclick="filterBatch('3', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#ffb74d; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🏛️ B3: Legal & CPA (10)</button>
+            <button class="batch-pill-btn" onclick="filterBatch('4', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#38bdf8; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🏡 B4: Contracting (10)</button>
+            <button class="batch-pill-btn" onclick="filterBatch('5', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#a78bfa; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🚀 B5: Agency/Tech (10)</button>
+            <button class="batch-pill-btn" onclick="filterBatch('6', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#fb7185; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🩺 B6: Healthcare (10)</button>
           </div>
           <div style="display:flex; gap:6px; background:rgba(0,0,0,0.3); padding:4px; border-radius:10px; border:1px solid var(--border);">
             <button class="stage-pill-btn active" onclick="filterStage(1, this)" style="background:linear-gradient(135deg,var(--accent),var(--cyan)); border:none; color:#fff; padding:5px 12px; border-radius:6px; font-size:11px; font-weight:700; cursor:pointer;">🎯 Day 1: Hook</button>
@@ -736,14 +739,52 @@ const LEADS_DATA = [
   { id: 27, batch: 3, name: 'Pinnacle Commercial RE', niche: 'Commercial Brokerage', city: 'Dallas, TX', to: 'deals@pinnaclecredfw.example', doc: 'Robert Miller', type: 'realestate', val: 8000, lost: 2 },
   { id: 28, batch: 3, name: 'Harborview Estate Planning', niche: 'Trusts & Estates', city: 'Seattle, WA', to: 'info@harborviewestateswa.example', doc: 'Cynthia Thorne', type: 'legal', val: 2400, lost: 7 },
   { id: 29, batch: 3, name: 'Apex Audit & Valuation', niche: 'Audit & Valuation', city: 'Atlanta, GA', to: 'valuation@apexauditadvisory.example', doc: 'Richard Hall', type: 'cpa', val: 3200, lost: 5 },
-  { id: 30, batch: 3, name: 'Metro Injury Defense Group', niche: 'Insurance Litigation', city: 'Miami, FL', to: 'litigation@metroinjurydefense.example', doc: 'Carlos Mendez', type: 'legal', val: 4500, lost: 4 }
+  { id: 30, batch: 3, name: 'Metro Injury Defense Group', niche: 'Insurance Litigation', city: 'Miami, FL', to: 'litigation@metroinjurydefense.example', doc: 'Carlos Mendez', type: 'legal', val: 4500, lost: 4 },
+
+  // --- BATCH 4: High-End Home Services & Luxury Contracting ---
+  { id: 31, batch: 4, name: 'BlueWave Custom Pools', niche: 'Luxury Pools & Spas', city: 'Phoenix, AZ', to: 'design@bluewavecustompools.example', doc: 'Jason Bennett', type: 'contractor', val: 5000, lost: 4 },
+  { id: 32, batch: 4, name: 'SolarMatrix EPC', niche: 'Commercial & Residential Solar', city: 'Las Vegas, NV', to: 'quotes@solarmatrixepc.example', doc: 'Elena Hayes', type: 'contractor', val: 6000, lost: 3 },
+  { id: 33, batch: 4, name: 'Elite Artisan Kitchens', niche: 'Luxury Kitchen Remodeling', city: 'Charlotte, NC', to: 'concierge@eliteartisankitchens.example', doc: 'Marcus Sterling', type: 'contractor', val: 4500, lost: 4 },
+  { id: 34, batch: 4, name: 'Ironclad Foundation Repair', niche: 'Structural Foundation Engineering', city: 'Nashville, TN', to: 'inspections@ironcladfoundation.example', doc: 'Travis Cole', type: 'contractor', val: 3800, lost: 5 },
+  { id: 35, batch: 4, name: 'Sierra Vista Landscape Architecture', niche: 'High-End Hardscaping', city: 'Salt Lake City, UT', to: 'inquiries@sierravistalandscape.example', doc: 'Chloe Davies', type: 'contractor', val: 3500, lost: 5 },
+  { id: 36, batch: 4, name: 'Paramount Commercial Roofing', niche: 'Industrial Roofing Systems', city: 'Houston, TX', to: 'estimates@paramountcommroofing.example', doc: 'Robert Lang', type: 'contractor', val: 7500, lost: 3 },
+  { id: 37, batch: 4, name: 'Precision Climate HVAC', niche: 'Commercial Smart HVAC', city: 'Tampa, FL', to: 'service@precisionclimatefl.example', doc: 'Derek Vance', type: 'hvac', val: 1200, lost: 12 },
+  { id: 38, batch: 4, name: 'Tri-State Architectural Glass', niche: 'Custom Glazing & Railings', city: 'Philadelphia, PA', to: 'bids@tristateglasspa.example', doc: 'Anthony Russo', type: 'contractor', val: 4200, lost: 4 },
+  { id: 39, batch: 4, name: 'Benchmark Custom Builders', niche: 'Modern Luxury Custom Homes', city: 'Raleigh, NC', to: 'plans@benchmarkcustomnc.example', doc: 'Jonathan Drake', type: 'contractor', val: 8000, lost: 3 },
+  { id: 40, batch: 4, name: 'Apex Disaster Restoration', niche: '24/7 Fire & Water Mitigation', city: 'Minneapolis, MN', to: 'emergency@apexrestorationmn.example', doc: 'Sarah Lindqvist', type: 'hvac', val: 5500, lost: 4 },
+
+  // --- BATCH 5: High-Growth B2B Agencies & Tech Staffing ---
+  { id: 41, batch: 5, name: 'Kinetic Growth Media', niche: 'Paid Acquisition & Performance Ads', city: 'Austin, TX', to: 'growth@kineticgrowthmedia.example', doc: 'Alex Rivera', type: 'agency', val: 2800, lost: 6 },
+  { id: 42, batch: 5, name: 'HyperScale Search', niche: 'Executive Tech Search & Staffing', city: 'San Francisco, CA', to: 'talent@hyperscalesearch.example', doc: 'Samantha Reed', type: 'agency', val: 4500, lost: 4 },
+  { id: 43, batch: 5, name: 'CinemaCraft Studios', niche: 'B2B SaaS 3D & Product Video', city: 'Los Angeles, CA', to: 'producers@cinemacraftstudios.example', doc: 'Julian Mercer', type: 'agency', val: 3200, lost: 5 },
+  { id: 44, batch: 5, name: 'SearchVelocity AI', niche: 'Enterprise AI Search & SEO', city: 'New York, NY', to: 'strategy@searchvelocityai.example', doc: 'Nathan Ross', type: 'agency', val: 3000, lost: 6 },
+  { id: 45, batch: 5, name: 'Fractional CFO Partners', niche: 'Strategic Finance & M&A Advisory', city: 'Chicago, IL', to: 'advisory@fractionalcfochi.example', doc: 'William Thornton', type: 'cpa', val: 4000, lost: 4 },
+  { id: 46, batch: 5, name: 'BrandForge Creative', niche: 'Luxury Brand Identity & Design', city: 'Seattle, WA', to: 'hello@brandforgecreative.example', doc: 'Maya Lin', type: 'agency', val: 2600, lost: 7 },
+  { id: 47, batch: 5, name: 'LeadIgnite B2B', niche: 'Outbound Sales & Lead Gen Engine', city: 'Boston, MA', to: 'pipeline@leadigniteb2b.example', doc: 'Connor Hayes', type: 'agency', val: 2400, lost: 8 },
+  { id: 48, batch: 5, name: 'DevSprint Staffing', niche: 'Nearshore Cloud & AI Engineers', city: 'Miami, FL', to: 'engineers@devsprintstaffing.example', doc: 'Ricardo Silva', type: 'agency', val: 3500, lost: 5 },
+  { id: 49, batch: 5, name: 'Quantum Content Lab', niche: 'Technical Writing & Thought Leadership', city: 'Denver, CO', to: 'editors@quantumcontentlab.example', doc: 'Hannah Brooks', type: 'agency', val: 2200, lost: 8 },
+  { id: 50, batch: 5, name: 'RetentionLoop CRM', niche: 'Customer Success & Churn Mitigation', city: 'Atlanta, GA', to: 'success@retentionloopcrm.example', doc: 'Marcus Bell', type: 'saas', val: 2500, lost: 7 },
+
+  // --- BATCH 6: Specialized Luxury Healthcare & Wellness ---
+  { id: 51, batch: 6, name: 'Beverly Hills Plastic Surgery', niche: 'Aesthetic & Reconstructive Surgery', city: 'Beverly Hills, CA', to: 'vip@bhplasticsurgeryca.example', doc: 'Dr. Katherine Cole', type: 'medical', val: 6500, lost: 3 },
+  { id: 52, batch: 6, name: 'Apex Orthopedic Spine Institute', niche: 'Minimally Invasive Spine Surgery', city: 'Dallas, TX', to: 'intake@apexspineinstitute.example', doc: 'Dr. Gregory Vance', type: 'medical', val: 5500, lost: 4 },
+  { id: 53, batch: 6, name: 'NovoGen Fertility Specialists', niche: 'IVF & Reproductive Genetics', city: 'San Diego, CA', to: 'care@novogenfertility.example', doc: 'Dr. Maria Santos', type: 'medical', val: 7000, lost: 3 },
+  { id: 54, batch: 6, name: 'Serenity Longevity & Cryo', niche: 'Executive Biohacking & Anti-Aging', city: 'Miami, FL', to: 'concierge@serenitylongevity.example', doc: 'Dr. Lucas Meyer', type: 'medical', val: 2500, lost: 8 },
+  { id: 55, batch: 6, name: 'Optima Concierge Medicine', niche: 'Private Executive Primary Care', city: 'Scottsdale, AZ', to: 'membership@optimaconciergemed.example', doc: 'Dr. Arthur Pendelton', type: 'medical', val: 3800, lost: 5 },
+  { id: 56, batch: 6, name: 'Restore Regenerative Ortho', niche: 'Cellular Therapy & PRP Injections', city: 'Chicago, IL', to: 'appointments@restoreregenortho.example', doc: 'Dr. Steven Choi', type: 'medical', val: 3200, lost: 6 },
+  { id: 57, batch: 6, name: 'ClearVision Lasik Center', niche: 'Contoura Vision & Refractive Surgery', city: 'Atlanta, GA', to: 'consult@clearvisionlasikatl.example', doc: 'Dr. Angela White', type: 'medical', val: 3500, lost: 6 },
+  { id: 58, batch: 6, name: 'PureBreathe Sinus Institute', niche: 'Advanced Balloon Sinuplasty & ENT', city: 'Houston, TX', to: 'relief@purebreathesinus.example', doc: 'Dr. Farhan Qasim', type: 'medical', val: 2800, lost: 7 },
+  { id: 59, batch: 6, name: 'Radiance Hair Restoration', niche: 'Robotic ARTAS FUE Transplants', city: 'New York, NY', to: 'evaluations@radiancehairrestoration.example', doc: 'Dr. James Sterling', type: 'medical', val: 5000, lost: 4 },
+  { id: 60, batch: 6, name: 'Thrive Neuro & Brain Health', niche: 'Deep TMS & Cognitive Optimization', city: 'San Jose, CA', to: 'eval@thriveneurohealth.example', doc: 'Dr. Rachel Green', type: 'medical', val: 3000, lost: 6 }
 ];
 
 let currentBatchFilter = 'all';
 let currentStageFilter = 1;
 
 function getLeadStatus(id) {
-  return localStorage.getItem('lead_crm_status_' + id) || 'new';
+  const saved = localStorage.getItem('lead_crm_status_' + id);
+  if (saved) return saved;
+  return id <= 30 ? 'day3' : 'day1';
 }
 
 function setLeadStatus(id, st) {
@@ -784,34 +825,62 @@ function buildMailto(lead, stage) {
   let slug = lead.name.toLowerCase().replace(/ /g, '_').replace(/&/g, 'and').replace(/\//g, '-').replace(/\\/g, '-').replace(/,/g, '').replace(/\./g, '');
   let sandboxUrl = 'https://work-minh-lap.vercel.app/sandboxes/' + slug + '_sandbox.html';
   let reportUrl = 'https://work-minh-lap.vercel.app/reports/' + slug + '_roi_report.html';
+  let portalUrl = 'https://work-minh-lap.vercel.app/portal/' + slug;
+  const monthlyLoss = (lead.lost * lead.val).toLocaleString();
   
   if (stage === 2) {
-    const monthlyLoss = (lead.lost * lead.val).toLocaleString();
-    subj = 're: ' + lead.name + ' after-hours intake (ran the numbers)';
-    body = 'Hi ' + lead.doc + ',\n\n' +
-      'Following up briefly on my note from earlier this week regarding ' + lead.name + "'s after-hours client intake.\n\n" +
-      'I ran ' + lead.name + "'s estimated inquiry volume through our revenue recovery model:\n" +
-      '• Estimated monthly inquiries after 6 PM: ~' + lead.lost + ' prospects\n' +
-      '• Estimated missed revenue: ~$' + monthlyLoss + '/month\n\n' +
-      'You can review your customized monthly performance & ROI forecast here:\n' +
-      '👉 Live Custom ROI Report: ' + reportUrl + '\n' +
-      '👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator\n\n' +
-      'Our AI intake copilot typically recovers 4 to 8 qualified client bookings within the first 30 days, paying for itself several times over.\n\n' +
-      'I also prepared a customized 2-page implementation audit for ' + lead.name + '. Would you be against me sending it over?\n\n' +
-      'Best regards,\nMinh Lap\nAI Solutions Architect\nLive Sandbox: ' + sandboxUrl;
+    if (lead.type === 'ecom') {
+      subj = 're: ' + lead.name + ' cart abandonment & shopper questions (ran the numbers)';
+      body = 'Hi ' + lead.doc + ',\n\nFollowing up briefly on my note from earlier this week regarding ' + lead.name + "'s on-site conversion.\n\nI ran " + lead.name + "'s estimated shopper volume through our revenue recovery model:\n• Estimated monthly abandoned carts from hesitation: ~" + lead.lost + ' shoppers\n• Estimated uncaptured revenue: ~$' + monthlyLoss + '/month\n\nYou can review your customized performance & ROI forecast here:\n👉 Live Custom ROI Report: ' + reportUrl + '\n👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator\n👉 Executive VIP Client Portal: ' + portalUrl + '\n\nOur AI shopping copilot proactively assists shoppers right before drop-off, recovering 8% to 15% of abandoned carts within the first 30 days.\n\nI also prepared a customized 2-page implementation audit for ' + lead.name + '. Would you be against me sending it over?\n\nBest regards,\nMinh Lap\nE-Commerce Automation Consultant\nLive Sandbox: ' + sandboxUrl;
+    } else if (lead.type === 'saas') {
+      subj = 're: ' + lead.name + ' trial user drop-off & activation (ran the numbers)';
+      body = 'Hi ' + lead.doc + ',\n\nFollowing up briefly on my note from earlier this week regarding ' + lead.name + "'s trial user onboarding experience.\n\nI ran " + lead.name + "'s estimated user funnel through our activation model:\n• Estimated trial signups hitting setup friction: ~" + lead.lost + ' users/month\n• Estimated lost expansion / ARR: ~$' + monthlyLoss + '/month\n\nYou can review your customized activation & ROI forecast here:\n👉 Live Custom ROI Report: ' + reportUrl + '\n👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator\n👉 Executive VIP Client Portal: ' + portalUrl + '\n\nOur conversational AI onboarding agent resolves integration blockers in real-time, accelerating time-to-value and lifting trial conversion by 12% to 20%.\n\nI also prepared a customized 2-page implementation audit for ' + lead.name + '. Would you be against me sending it over?\n\nBest regards,\nMinh Lap\nSaaS Growth & AI Systems\nLive Sandbox: ' + sandboxUrl;
+    } else if (lead.type === 'contractor') {
+      subj = 're: ' + lead.name + ' high-value project inquiries (ran the numbers)';
+      body = 'Hi ' + lead.doc + ',\n\nFollowing up briefly on my note from earlier this week regarding ' + lead.name + "'s after-hours project leads.\n\nI ran " + lead.name + "'s estimated inquiry volume through our contractor revenue model:\n• Estimated monthly project inquiries after 6 PM / weekends: ~" + lead.lost + ' project briefs\n• Estimated uncaptured project contract value: ~$' + monthlyLoss + '/month\n\nYou can review your customized firm performance & ROI forecast here:\n👉 Live Custom ROI Report: ' + reportUrl + '\n👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator\n👉 Executive VIP Client Portal: ' + portalUrl + '\n\nOur AI project estimator pre-qualifies project scopes, budget ranges, and books site inspections directly into your schedule 24/7.\n\nI also prepared a customized 2-page implementation plan for ' + lead.name + '. Would you be against me sending it over?\n\nBest regards,\nMinh Lap\nConstruction & High-End Trades AI Systems\nLive Sandbox: ' + sandboxUrl;
+    } else if (lead.type === 'agency') {
+      subj = 're: ' + lead.name + ' inbound lead qualification (ran the numbers)';
+      body = 'Hi ' + lead.doc + ',\n\nFollowing up briefly on my note from earlier this week regarding ' + lead.name + "'s inbound client qualification.\n\nI ran " + lead.name + "'s estimated inbound volume through our agency conversion model:\n• Estimated monthly inbound briefs lost to delayed response: ~" + lead.lost + ' qualified accounts\n• Estimated uncaptured retainer/deal value: ~$' + monthlyLoss + '/month\n\nYou can review your customized agency performance & ROI forecast here:\n👉 Live Custom ROI Report: ' + reportUrl + '\n👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator\n👉 Executive VIP Client Portal: ' + portalUrl + '\n\nOur conversational AI agency copilot pre-qualifies budget fit and books qualified discovery calls directly into your calendar 24/7.\n\nI also prepared a customized 2-page workflow audit for ' + lead.name + '. Would you be against me sending it over?\n\nBest regards,\nMinh Lap\nAgency Automation & Growth Architect\nLive Sandbox: ' + sandboxUrl;
+    } else if (lead.type === 'medical') {
+      subj = 're: ' + lead.name + ' private patient inquiry triage (ran the numbers)';
+      body = 'Hi ' + lead.doc + ',\n\nFollowing up briefly on my note from earlier this week regarding ' + lead.name + "'s after-hours patient inquiries.\n\nI ran " + lead.name + "'s estimated high-intent patient volume through our consultation recovery model:\n• Estimated monthly patients researching treatments after clinic hours: ~" + lead.lost + ' qualified patients\n• Estimated uncaptured case/procedure revenue: ~$' + monthlyLoss + '/month\n\nYou can review your customized clinic performance & ROI forecast here:\n👉 Live Custom ROI Report: ' + reportUrl + '\n👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator\n👉 Executive VIP Client Portal: ' + portalUrl + '\n\nOur AI patient copilot pre-screens procedure candidacy and books private consultations directly into your clinic calendar 24/7, paying for itself on the first booked procedure.\n\nI also prepared a customized 2-page implementation roadmap for ' + lead.name + '. Would you be against me sending it over?\n\nBest regards,\nMinh Lap\nHealthcare AI Systems Specialist\nLive Sandbox: ' + sandboxUrl;
+    } else {
+      subj = 're: ' + lead.name + ' high-intent client inquiries (ran the numbers)';
+      body = 'Hi ' + lead.doc + ',\n\nFollowing up briefly on my note from earlier this week regarding ' + lead.name + "'s after-hours intake.\n\nI ran " + lead.name + "'s estimated inquiry volume through our revenue recovery model:\n• Estimated monthly inquiries after 6 PM: ~' + lead.lost + ' prospects\n• Estimated missed revenue: ~$' + monthlyLoss + '/month\n\nYou can review your customized monthly performance & ROI forecast here:\n👉 Live Custom ROI Report: ' + reportUrl + '\n👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator\n👉 Executive VIP Client Portal: ' + portalUrl + '\n\nOur AI intake copilot pre-qualifies prospective clients and books appointments into your calendar 24/7, paying for itself several times over.\n\nI also prepared a customized 2-page implementation audit for ' + lead.name + '. Would you be against me sending it over?\n\nBest regards,\nMinh Lap\nAI Solutions Architect\nLive Sandbox: ' + sandboxUrl;
+    }
   } else if (stage === 3) {
-    subj = 'permission to close your file, ' + lead.doc + '?';
-    body = 'Hi ' + lead.doc + ',\n\n' +
-      'I haven\'t heard back, so I assume that automating after-hours client intake and recapturing missed inquiries isn\'t a priority for ' + lead.name + ' right now.\n\n' +
-      'I\'m closing out your file so I don\'t clutter your inbox.\n\n' +
-      'If priorities ever shift and you\'d like to see how similar businesses in ' + lead.city + ' are automatically booking clients 24/7 without extra staff, you\'re always welcome to test your live sandbox prototype:\n' +
-      '👉 ' + sandboxUrl + '\n\n' +
-      'Wishing ' + lead.name + ' continued growth and success!\n\n' +
-      'Warm regards,\nMinh Lap\nAI Solutions Architect';
+    if (lead.type === 'ecom') {
+      subj = 'permission to close out ' + lead.name + "'s conversion audit, " + lead.doc + '?';
+      body = 'Hi ' + lead.doc + ',\n\nI haven\'t heard back, so I assume that recapturing abandoned carts and deploying autonomous shopper assistance isn\'t a priority for ' + lead.name + ' right now.\n\nI\'m archiving ' + lead.name + "'s conversion audit so I don't clutter your inbox.\n\nIf checkout conversion ever becomes a focus and you'd like to see how similar D2C brands are lifting revenue by 12% to 18% with conversational AI, your live prototype will remain active here:\n👉 Live Shopper Sandbox: ' + sandboxUrl + '\n👉 Executive VIP Client Portal: ' + portalUrl + '\n\nWishing ' + lead.name + ' continued scale and success!\n\nWarm regards,\nMinh Lap\nE-Commerce Automation Consultant';
+    } else if (lead.type === 'saas') {
+      subj = 'closing out ' + lead.name + "'s onboarding audit, " + lead.doc + '?';
+      body = 'Hi ' + lead.doc + ',\n\nI haven\'t heard back, so I assume accelerating trial user activation and eliminating onboarding friction isn\'t on your radar for ' + lead.name + ' this quarter.\n\nI\'m archiving ' + lead.name + "'s copilot file so I don't crowd your inbox.\n\nIf trial activation and self-serve retention become a priority down the road, your team can always explore your live interactive copilot here:\n👉 Live Copilot Sandbox: ' + sandboxUrl + '\n👉 Executive VIP Client Portal: ' + portalUrl + '\n\nWishing ' + lead.name + ' massive product growth!\n\nCheers,\nMinh Lap\nSaaS Growth & AI Systems';
+    } else if (lead.type === 'contractor') {
+      subj = 'permission to close ' + lead.name + "'s estimating file, " + lead.doc + '?';
+      body = 'Hi ' + lead.doc + ',\n\nI haven\'t heard back, so I assume that capturing after-hours project briefs and automating consultation bookings isn\'t a focus for ' + lead.name + ' right now.\n\nI\'m archiving your firm\'s file so I don\'t crowd your inbox. We only partner with one top firm in ' + lead.city + ' to prevent competitive overlap.\n\nIf you ever want to see how high-end builders and contractors in ' + lead.city + ' are capturing high-ticket projects 24/7 without extra estimating staff, your live prototype remains open:\n👉 Project Live Sandbox: ' + sandboxUrl + '\n👉 Executive VIP Client Portal: ' + portalUrl + '\n\nWishing ' + lead.name + ' continued scale on your projects!\n\nCheers,\nMinh Lap\nConstruction & High-End Trades AI Systems';
+    } else if (lead.type === 'agency') {
+      subj = 'closing out ' + lead.name + "'s qualification file, " + lead.doc + '?';
+      body = 'Hi ' + lead.doc + ',\n\nI haven\'t heard back, so I assume that automating inbound client pre-qualification and discovery booking isn\'t a priority for ' + lead.name + ' right now.\n\nI\'m archiving your agency\'s file so I don\'t crowd your inbox.\n\nIf inbound lead velocity and pre-qualification become a focus down the road, your team can always test your live interactive copilot here:\n👉 Live Copilot Sandbox: ' + sandboxUrl + '\n👉 Executive VIP Client Portal: ' + portalUrl + '\n\nWishing ' + lead.name + ' continued growth and killer client results!\n\nBest regards,\nMinh Lap\nAgency Automation & Growth Architect';
+    } else if (lead.type === 'medical') {
+      subj = 'permission to archive ' + lead.name + "'s patient intake file, " + lead.doc + '?';
+      body = 'Hi ' + lead.doc + ',\n\nI haven\'t heard back, so I assume that automating after-hours patient inquiry triage and consultation booking isn\'t a priority for ' + lead.name + ' right now.\n\nI\'m closing out your practice\'s file so I don\'t clutter your inbox. We only work with one premier provider in ' + lead.city + ' to prevent competitive overlap.\n\nIf your team ever decides to explore how AI triage copilots pre-screen and retain high-value private patients 24/7, your prototype remains accessible:\n👉 Practice Live Sandbox: ' + sandboxUrl + '\n👉 Executive VIP Client Portal: ' + portalUrl + '\n\nWishing ' + lead.name + ' continued clinical distinction and patient growth!\n\nWarm regards,\nMinh Lap\nHealthcare AI Systems Specialist';
+    } else {
+      subj = 'permission to close your file, ' + lead.doc + '?';
+      body = 'Hi ' + lead.doc + ',\n\nI haven\'t heard back, so I assume that automating after-hours client intake and recapturing missed inquiries isn\'t a priority for ' + lead.name + ' right now.\n\nI\'m closing out your file so I don\'t clutter your inbox. We only partner with one provider in ' + lead.city + ' to avoid competitive overlap.\n\nIf priorities ever shift and you\'d like to see how similar businesses in ' + lead.city + ' are automatically booking clients 24/7 without extra staff, you\'re always welcome to test your live sandbox prototype:\n👉 ' + sandboxUrl + '\n👉 Executive VIP Client Portal: ' + portalUrl + '\n\nWishing ' + lead.name + ' continued growth and success!\n\nWarm regards,\nMinh Lap\nAI Solutions Architect';
+    }
   } else {
-    if (lead.type === 'dental') {
+    if (lead.type === 'dental' || lead.type === 'medspa') {
       subj = 'quick question regarding ' + lead.name + "'s after-hours patient inquiries";
-      body = 'Hi ' + lead.doc + ',\n\nI was reviewing your website yesterday around 8 PM and noticed that when a patient has an urgent dental question or wants to book an appointment after closing, their only option is to wait until morning.\n\nIn most competitive markets, clinics lose 4 to 8 high-intent new patient inquiries every single week simply because competitors with instant AI booking respond within 30 seconds.\n\nTo show you how easy this is to solve, I set up a live interactive sandbox prototype specifically for ' + lead.name + ':\n👉 Live Sandbox Demo: ' + sandboxUrl + '\n\nIt answers common treatment questions, qualifies insurance, and books appointments directly into your calendar 24/7.\n\nWould you be open to a quick 5-minute call this Thursday at 2 PM to see if this makes sense for ' + lead.name + '?\n\nBest regards,\nMinh Lap\nAI Solutions Architect\nLive Sandbox: ' + sandboxUrl;
+      body = 'Hi ' + lead.doc + ',\n\nI was reviewing your website yesterday around 8 PM and noticed that when a patient has an urgent question or wants to book an appointment after closing, their only option is to wait until morning.\n\nIn most competitive markets, clinics lose 4 to 8 high-intent new patient inquiries every single week simply because competitors with instant AI booking respond within 30 seconds.\n\nTo show you how easy this is to solve, I set up a live interactive sandbox prototype specifically for ' + lead.name + ':\n👉 Live Sandbox Demo: ' + sandboxUrl + '\n\nIt answers common treatment questions, qualifies insurance, and books appointments directly into your calendar 24/7.\n\nWould you be open to a quick 5-minute call this Thursday at 2 PM to see if this makes sense for ' + lead.name + '?\n\nBest regards,\nMinh Lap\nAI Solutions Architect\nLive Sandbox: ' + sandboxUrl;
+    } else if (lead.type === 'contractor') {
+      subj = 'capturing after-hours project inquiries for ' + lead.name;
+      body = 'Hi ' + lead.doc + ',\n\nWhen property owners or developers are researching high-end renovation, construction, or installation projects in the evening or over the weekend, they want immediate answers on project scopes, estimating timelines, and consultation bookings.\n\nWhen they hit an after-hours contact form or voicemail, over 60% continue browsing and submit project briefs to competitors.\n\nWe deploy intelligent intake and estimating copilots that engage prospects immediately, gather project specs, qualify budget ranges, and book design consultations directly into your calendar 24/7.\n\nCheck out your firm\'s customized project intake sandbox here:\n👉 Live Project Sandbox: ' + sandboxUrl + '\n\nWould you be open to a quick 5-minute conversation this Thursday to see how this captures 3 to 5 additional high-ticket contracts every month?\n\nCheers,\nMinh Lap\nConstruction & High-End Trades AI Systems\nLive Sandbox: ' + sandboxUrl;
+    } else if (lead.type === 'agency') {
+      subj = 'streamlining inbound client qualification for ' + lead.name;
+      body = 'Hi ' + lead.doc + ',\n\nLove what ' + lead.name + ' is doing in ' + lead.niche + '.\n\nWhen high-intent enterprise brands or hiring managers land on your site, they want immediate clarity on service fit, bandwidth, pricing tiers, and case studies before committing to a discovery call.\n\nWe deploy conversational AI agency copilots that pre-qualify inbound briefs, verify budget thresholds, showcase relevant case study wins, and book qualified discovery calls 24/7.\n\nCheck out your agency\'s interactive intake copilot here:\n👉 Live Sandbox: ' + sandboxUrl + '\n\nOpen to a brief 5-minute chat this Wednesday to see how this saves your leadership team 10+ hours a week on unqualified calls?\n\nBest,\nMinh Lap\nAgency Automation & Growth Architect\nLive Sandbox: ' + sandboxUrl;
+    } else if (lead.type === 'medical') {
+      subj = 'quick question regarding ' + lead.name + "'s after-hours patient inquiries";
+      body = 'Hi ' + lead.doc + ',\n\nI was reviewing your website yesterday around 8 PM and noticed that when a prospective patient has questions about high-ticket elective procedures or wants to book a private consultation after clinic hours, their only option is to wait until morning.\n\nIn specialized private healthcare, prospective patients typically compare 2 to 3 top clinics in ' + lead.city + '. Practices with instant AI patient triage & scheduling convert 35%+ more high-ticket consultations directly into the calendar.\n\nTo show you how this works, I built an interactive patient triage sandbox specifically for ' + lead.name + ':\n👉 Live Patient Sandbox: ' + sandboxUrl + '\n\nIt conducts confidential pre-qualification, answers procedure FAQs, and schedules private consultations 24/7.\n\nWould you be open to a quick 5-minute call this Thursday at 2 PM to explore if this makes sense for ' + lead.name + '?\n\nBest regards,\nMinh Lap\nHealthcare AI Systems Specialist\nLive Sandbox: ' + sandboxUrl;
     } else if (lead.type === 'hvac') {
       subj = 'noticed your phone line around 7:15pm yesterday';
       body = 'Hi ' + lead.doc + ',\n\nWhen a homeowner has an emergency leak or broken AC after 6 PM, 85% of them will immediately hang up if they reach a voicemail and call the next contractor on Google.\n\nWe implemented an automated 15-second AI text-back workflow: whenever your line is busy or closed, an instant text goes out:\n"Hi! We are currently assisting another client. Do you have an urgent service request?"\n\nThis single workflow captured $9,200 in recovered emergency jobs for a local contractor last month.\n\nI also set up an interactive test sandbox for ' + lead.name + ':\n👉 Live Sandbox: ' + sandboxUrl + '\n\nHappy to share a 2-minute video walkthrough showing how this works if you find it helpful.\n\nCheers,\nMinh Lap\nAI Workflow Specialist';
@@ -895,7 +964,13 @@ function renderLeadsTable() {
       ? '<span style="background:rgba(124,92,252,0.18); color:#b794f4; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 1: SMB</span>'
       : l.batch === 2
       ? '<span style="background:rgba(0,242,254,0.18); color:#00f2fe; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 2: E-Com</span>'
-      : '<span style="background:rgba(255,183,77,0.18); color:#ffb74d; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 3: High-Ticket</span>';
+      : l.batch === 3
+      ? '<span style="background:rgba(255,183,77,0.18); color:#ffb74d; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 3: High-Ticket</span>'
+      : l.batch === 4
+      ? '<span style="background:rgba(56,189,248,0.18); color:#38bdf8; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 4: Contracting</span>'
+      : l.batch === 5
+      ? '<span style="background:rgba(167,139,250,0.18); color:#a78bfa; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 5: Agency/Tech</span>'
+      : '<span style="background:rgba(251,113,133,0.18); color:#fb7185; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 6: Healthcare</span>';
       
     let slug = l.name.toLowerCase().replace(/ /g, '_').replace(/&/g, 'and').replace(/\//g, '-').replace(/\\/g, '-').replace(/,/g, '').replace(/\./g, '');
     let proposalLink = `proposals/${slug}_proposal.html`;

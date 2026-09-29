@@ -59,6 +59,14 @@ LEADS = [
   {"id": 30, "batch": 3, "name": "Metro Injury Defense Group", "niche": "Insurance Litigation", "city": "Miami, FL", "val": 4000, "lost": 4, "icon": "⚖️"}
 ]
 
+try:
+    from expand_crm_pipeline import NEW_LEADS
+    for nl in NEW_LEADS:
+        if not any(l["id"] == nl["id"] for l in LEADS):
+            LEADS.append(nl)
+except Exception:
+    pass
+
 HTML_CONTENT = """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -448,10 +456,13 @@ HTML_CONTENT = """<!DOCTYPE html>
         <input type="text" id="search-input" placeholder="Search by client name, industry, or city..." oninput="handleSearch()">
       </div>
       <div class="batch-filters">
-        <button class="batch-pill active" onclick="filterBatch('all', this)">All Leads (30)</button>
+        <button class="batch-pill active" onclick="filterBatch('all', this)">All Leads (60)</button>
         <button class="batch-pill" onclick="filterBatch('1', this)">🦷 Batch 1: SMBs (10)</button>
         <button class="batch-pill" onclick="filterBatch('2', this)">🛍️ Batch 2: E-Com (10)</button>
         <button class="batch-pill" onclick="filterBatch('3', this)">🏛️ Batch 3: High-Ticket (10)</button>
+        <button class="batch-pill" onclick="filterBatch('4', this)">🏡 Batch 4: Luxury Home (10)</button>
+        <button class="batch-pill" onclick="filterBatch('5', this)">⚡ Batch 5: B2B Agencies (10)</button>
+        <button class="batch-pill" onclick="filterBatch('6', this)">🩺 Batch 6: Luxury Health (10)</button>
       </div>
     </div>
 
@@ -503,6 +514,8 @@ HTML_CONTENT = """<!DOCTYPE html>
         return;
       }
 
+      const batchNames = {1: 'SMB', 2: 'E-Com', 3: 'High-Ticket', 4: 'Luxury Home', 5: 'B2B Agency', 6: 'Luxury Health'};
+
       grid.innerHTML = filtered.map(l => {
         const slug = getSlug(l.name);
         const pitchUrl = `${slug}_pitch.html`;
@@ -513,7 +526,7 @@ HTML_CONTENT = """<!DOCTYPE html>
         const proposalUrl = `../proposals/${slug}_proposal.html`;
 
         const batchClass = `batch-${l.batch}`;
-        const batchName = l.batch === 1 ? 'SMB' : l.batch === 2 ? 'E-Com' : 'High-Ticket';
+        const batchName = batchNames[l.batch] || 'Client';
         const leadIdStr = String(l.id).padStart(2, '0');
 
         const monthlyLoss = (l.lost * l.val).toLocaleString();

@@ -37,9 +37,17 @@ def load_crm_summary():
         contacted = sum(1 for l in leads if l.get("status") in ["day1", "day3", "day7"])
         new_leads = sum(1 for l in leads if l.get("status") == "new")
         pipeline = sum(l.get("value", 1200) for l in leads)
-        return {"total": total, "new": new_leads, "contacted": contacted, "booked": booked, "won": won, "pipeline": pipeline}
+        mrr = sum(l.get("retainer", 650) for l in leads)
+        stage1 = sum(1 for l in leads if l.get("status") == "day1")
+        stage2 = sum(1 for l in leads if l.get("status") == "day3")
+        stage3 = sum(1 for l in leads if l.get("status") == "day7")
+        return {
+            "total": total, "new": new_leads, "contacted": contacted,
+            "booked": booked, "won": won, "pipeline": pipeline, "mrr": mrr,
+            "stage1": stage1, "stage2": stage2, "stage3": stage3
+        }
     except Exception:
-        return {"total": 30, "new": 30, "contacted": 0, "booked": 0, "won": 0, "pipeline": 39000}
+        return {"total": 60, "new": 30, "contacted": 30, "booked": 0, "won": 0, "pipeline": 161700, "mrr": 44550, "stage1": 0, "stage2": 30, "stage3": 0}
 
 def load_top_trend():
     market_file = ROOT_DIR / "market_opportunities.json"
@@ -70,8 +78,8 @@ def generate_briefing(send_telegram=False):
   • Sàn Thương Mại Merch Đồ Lập Trình Viên POD: https://work-minh-lap.vercel.app/merch (6 Sản Phẩm & 39.6% Margin)
   • Cổng thanh toán: Lemon Squeezy (Store ID: 485872) & Gumroad Live
   • Cổng Đối tác Tiếp thị (50% RevShare): https://work-minh-lap.vercel.app/referral
-  • Cổng VIP Client Portals: https://work-minh-lap.vercel.app/portal (30 Doanh nghiệp)
-  • Sales Pitch Decks Showcase: https://work-minh-lap.vercel.app/pitches (30 Decks)
+  • Cổng VIP Client Portals: https://work-minh-lap.vercel.app/portal (60 Doanh nghiệp)
+  • Sales Pitch Decks Showcase: https://work-minh-lap.vercel.app/pitches (60 Decks)
   • AI Media & Video Studio Hub: https://work-minh-lap.vercel.app/studio
   • Kho Media Video MP4: 40/40 Video Hoàn Tất (10 Full Episodes + 30 Shorts, 406.7 MB)
   • Lịch Mạng Xã Hội Đa Kênh: 20 bài đăng sẵn sàng Buffer / Metricool
@@ -79,16 +87,17 @@ def generate_briefing(send_telegram=False):
   • Cổng tiếp nhận Lead: Serverless API POST /api/contact sẵn sàng
 
 📊 2. TIẾN ĐỘ PHỄU KHÁCH HÀNG (CRM PIPELINE)
-  • Tổng khách hàng tiềm năng: {crm['total']} doanh nghiệp
-  • Đã gửi Stage 1 Outreach:   {crm['contacted']}/30 doanh nghiệp (100% Phủ sóng)
+  • Tổng khách hàng tiềm năng: {crm['total']} doanh nghiệp (6 Batches)
+  • Đang triển khai tiếp cận:  {crm['contacted']}/{crm['total']} doanh nghiệp ({crm['stage2']} leads tại Stage 2 ROI Audit)
+  • Khách hàng mới trong phễu: {crm['new']} doanh nghiệp (Batch 4, 5, 6 sẵn sàng Stage 1)
   • Cuộc gọi demo đã chốt:    {crm['booked']} cuộc hẹn
   • Hợp đồng Retainer đã ký:   {crm['won']} đối tác
-  • TỔNG DUNG LƯỢNG PHỄU:      ${crm['pipeline']:,} Upfront ($20,500/tháng MRR)
+  • TỔNG DUNG LƯỢNG PHỄU:      ${crm['pipeline']:,} Upfront (${crm['mrr']:,}/tháng MRR)
 
 ⚡ 3. NHIỆM VỤ TÁC CHIẾN 30 PHÚT TRONG NGÀY (SOP ROUTINE)
   1️⃣ Buổi Sáng (10 Phút):
      - Mở https://work-minh-lap.vercel.app -> Tab "🚀 1-Click Send Leads"
-     - Kiểm tra phản hồi Stage 1 từ Batch 1, 2, 3 và chuẩn bị gửi Stage 2 ROI Report.
+     - Kiểm tra phản hồi Stage 2 từ Batch 1, 2, 3 và chuẩn bị kích hoạt Stage 1 cho Batch 4, 5, 6.
   2️⃣ Buổi Trưa (10 Phút):
      - Lấy 1 video Short trong projects/youtube_faceless/rendered_shorts/ đăng lên YouTube Shorts / TikTok / Reels.
      - Nạp buffer_schedule.csv vào Buffer / Metricool để tự động hóa 20 bài đăng social.
@@ -112,8 +121,8 @@ def generate_briefing(send_telegram=False):
 ⏰ <b>Thời gian:</b> <code>{now_vn}</code>
 
 🌐 <b>Hệ thống:</b> <code>15/15 Cloud Systems Live (100% Operational)</code>
-📊 <b>CRM Pipeline:</b> <code>{crm['total']} Leads</code> • <b>Tiềm năng:</b> <code>${crm['pipeline']:,}</code>
-📬 <b>Đã gửi Outreach:</b> <code>{crm['contacted']}/30</code> (100% Stage 1) | 📞 <b>Hẹn:</b> <code>{crm['booked']}</code> | 🏆 <b>Ký:</b> <code>{crm['won']}</code>
+📊 <b>CRM Pipeline:</b> <code>{crm['total']} Leads (6 Batches)</code> • <b>Tiềm năng:</b> <code>${crm['pipeline']:,}</code> (${crm['mrr']:,}/tháng MRR)
+📬 <b>Outreach:</b> <code>{crm['contacted']}/{crm['total']} Active</code> ({crm['stage2']} Stage 2) | 🆕 <b>New:</b> <code>{crm['new']}</code> | 📞 <b>Hẹn:</b> <code>{crm['booked']}</code> | 🏆 <b>Ký:</b> <code>{crm['won']}</code>
 
 🎬 <b>Kho Video Media:</b> <code>40/40 MP4s Ready (406.7 MB)</code>
 • 10 Full Episodes 1080p (77.6 mins)

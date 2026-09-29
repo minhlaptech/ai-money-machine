@@ -70,6 +70,15 @@ LEADS = [
     {"id": 30, "batch": 3, "name": "Metro Injury Defense Group", "niche": "Insurance Litigation", "city": "Miami, FL", "to": "litigation@metroinjurydefense.example", "doc": "Carlos Mendez", "type": "legal", "val": 4000, "lost": 4}
 ]
 
+# Dynamically append Batch 4, 5, 6
+try:
+    from expand_crm_pipeline import NEW_LEADS
+    for nl in NEW_LEADS:
+        if not any(l["id"] == nl["id"] for l in LEADS):
+            LEADS.append(nl)
+except Exception:
+    pass
+
 def build_email_content(lead, stage=1):
     slug = lead["name"].lower().replace(" ", "_").replace("&", "and").replace("/", "-").replace("\\", "-").replace(",", "").replace(".", "")
     sandbox_url = f"https://work-minh-lap.vercel.app/sandboxes/{slug}_sandbox.html"
@@ -81,6 +90,7 @@ def build_email_content(lead, stage=1):
     name = lead["name"]
     doc = lead["doc"]
     city = lead["city"]
+    niche = lead.get("niche", "")
 
     ltype = lead.get("type", "dental")
 
@@ -157,6 +167,78 @@ Minh Lap
 AI Solutions Architect
 Live Sandbox: {sandbox_url}"""
 
+        elif ltype == "medical":
+            subject = f"re: {name} private patient inquiry triage (ran the numbers)"
+            body = f"""Hi {doc},
+
+Following up briefly on my note from earlier this week regarding {name}'s after-hours patient inquiries.
+
+I ran {name}'s estimated high-intent patient volume through our consultation recovery model:
+• Estimated monthly patients researching treatments after clinic hours: ~{lead['lost']} qualified patients
+• Estimated uncaptured case/procedure revenue: ~${monthly_loss}/month
+
+You can review your customized clinic performance & ROI forecast here:
+👉 Live Custom ROI Report: {report_url}
+👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator
+👉 Executive VIP Client Portal: {portal_url}
+
+Our AI patient copilot pre-screens procedure candidacy and books private consultations directly into your clinic calendar 24/7, paying for itself on the first booked procedure.
+
+I also prepared a customized 2-page implementation roadmap for {name}. Would you be against me sending it over?
+
+Best regards,
+Minh Lap
+Healthcare AI Systems Specialist
+Live Sandbox: {sandbox_url}"""
+
+        elif ltype == "contractor":
+            subject = f"re: {name} high-value project inquiries (ran the numbers)"
+            body = f"""Hi {doc},
+
+Following up briefly on my note from earlier this week regarding {name}'s after-hours project leads.
+
+I ran {name}'s estimated inquiry volume through our contractor revenue model:
+• Estimated monthly project inquiries after 6 PM / weekends: ~{lead['lost']} project briefs
+• Estimated uncaptured project contract value: ~${monthly_loss}/month
+
+You can review your customized firm performance & ROI forecast here:
+👉 Live Custom ROI Report: {report_url}
+👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator
+👉 Executive VIP Client Portal: {portal_url}
+
+Our AI project estimator pre-qualifies project scopes, budget ranges, and books site inspections directly into your schedule 24/7.
+
+I also prepared a customized 2-page implementation plan for {name}. Would you be against me sending it over?
+
+Best regards,
+Minh Lap
+Construction & High-End Trades AI Systems
+Live Sandbox: {sandbox_url}"""
+
+        elif ltype in ("agency", "staffing"):
+            subject = f"re: {name} inbound lead qualification (ran the numbers)"
+            body = f"""Hi {doc},
+
+Following up briefly on my note from earlier this week regarding {name}'s inbound client qualification.
+
+I ran {name}'s estimated inbound volume through our agency conversion model:
+• Estimated monthly inbound briefs lost to delayed response: ~{lead['lost']} qualified accounts
+• Estimated uncaptured retainer/deal value: ~${monthly_loss}/month
+
+You can review your customized agency performance & ROI forecast here:
+👉 Live Custom ROI Report: {report_url}
+👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator
+👉 Executive VIP Client Portal: {portal_url}
+
+Our conversational AI agency copilot pre-qualifies budget fit and books qualified discovery calls directly into your calendar 24/7.
+
+I also prepared a customized 2-page workflow audit for {name}. Would you be against me sending it over?
+
+Best regards,
+Minh Lap
+Agency Automation & Growth Architect
+Live Sandbox: {sandbox_url}"""
+
         else:
             subject = f"re: {name} after-hours intake (ran the numbers)"
             body = f"""Hi {doc},
@@ -182,16 +264,125 @@ AI Solutions Architect
 Live Sandbox: {sandbox_url}"""
 
     elif stage == 3:
-        subject = f"permission to close your file, {doc}?"
-        body = f"""Hi {doc},
+        if ltype == "ecom":
+            subject = f"permission to close out {name}'s conversion audit, {doc}?"
+            body = f"""Hi {doc},
 
-I haven't heard back, so I assume that automating after-hours client intake and recapturing missed inquiries isn't a priority for {name} right now.
+I haven't heard back, so I assume that recapturing abandoned carts and deploying autonomous shopper assistance isn't a priority for {name} right now.
 
-I'm closing out your file so I don't clutter your inbox.
+I'm archiving {name}'s conversion audit so I don't clutter your inbox.
+
+If checkout conversion ever becomes a focus and you'd like to see how similar D2C brands are lifting revenue by 12% to 18% with conversational AI, your live prototype will remain active here:
+👉 Live Shopper Sandbox: {sandbox_url}
+👉 Executive VIP Client Portal: {portal_url}
+
+Wishing {name} continued scale and success!
+
+Warm regards,
+Minh Lap
+E-Commerce Automation Consultant"""
+
+        elif ltype == "saas":
+            subject = f"closing out {name}'s onboarding audit, {doc}?"
+            body = f"""Hi {doc},
+
+I haven't heard back, so I assume accelerating trial user activation and eliminating onboarding friction isn't on your radar for {name} this quarter.
+
+I'm archiving {name}'s copilot file so I don't crowd your inbox.
+
+If trial activation and self-serve retention become a priority down the road, your team can always explore your live interactive copilot here:
+👉 Live Copilot Sandbox: {sandbox_url}
+👉 Executive VIP Client Portal: {portal_url}
+
+Wishing {name} massive product growth!
+
+Cheers,
+Minh Lap
+SaaS Growth & AI Systems"""
+
+        elif ltype in ("legal", "realestate", "cpa"):
+            subject = f"permission to archive {name}'s intake file, {doc}?"
+            body = f"""Hi {doc},
+
+I haven't heard back, so I assume capturing after-hours prospective client inquiries and automating intake isn't a priority for {name} right now.
+
+I'm closing out your firm's file so I don't clutter your inbox. We typically only work with one premier practice in {city} to prevent competitive overlap.
+
+If your team ever decides to explore how AI intake copilots pre-qualify and retain high-value matters 24/7, your prototype remains accessible:
+👉 Firm Live Sandbox: {sandbox_url}
+👉 Executive VIP Client Portal: {portal_url}
+
+Wishing {name} continued distinction and growth!
+
+Best regards,
+Minh Lap
+AI Solutions Architect"""
+
+        elif ltype == "medical":
+            subject = f"permission to archive {name}'s patient intake file, {doc}?"
+            body = f"""Hi {doc},
+
+I haven't heard back, so I assume that automating after-hours patient inquiry triage and consultation booking isn't a priority for {name} right now.
+
+I'm closing out your practice's file so I don't clutter your inbox. We only work with one premier provider in {city} to prevent competitive overlap.
+
+If your team ever decides to explore how AI triage copilots pre-screen and retain high-value private patients 24/7, your prototype remains accessible:
+👉 Practice Live Sandbox: {sandbox_url}
+👉 Executive VIP Client Portal: {portal_url}
+
+Wishing {name} continued clinical distinction and patient growth!
+
+Warm regards,
+Minh Lap
+Healthcare AI Systems Specialist"""
+
+        elif ltype == "contractor":
+            subject = f"permission to close {name}'s estimating file, {doc}?"
+            body = f"""Hi {doc},
+
+I haven't heard back, so I assume that capturing after-hours project briefs and automating consultation bookings isn't a focus for {name} right now.
+
+I'm archiving your firm's file so I don't crowd your inbox. We only partner with one top firm in {city} to prevent competitive overlap.
+
+If you ever want to see how high-end builders and contractors in {city} are capturing high-ticket projects 24/7 without extra estimating staff, your live prototype remains open:
+👉 Project Live Sandbox: {sandbox_url}
+👉 Executive VIP Client Portal: {portal_url}
+
+Wishing {name} continued scale on your projects!
+
+Cheers,
+Minh Lap
+Construction & High-End Trades AI Systems"""
+
+        elif ltype in ("agency", "staffing"):
+            subject = f"closing out {name}'s qualification file, {doc}?"
+            body = f"""Hi {doc},
+
+I haven't heard back, so I assume that automating inbound client pre-qualification and discovery booking isn't a priority for {name} right now.
+
+I'm archiving your agency's file so I don't crowd your inbox.
+
+If inbound lead velocity and pre-qualification become a focus down the road, your team can always test your live interactive copilot here:
+👉 Live Copilot Sandbox: {sandbox_url}
+👉 Executive VIP Client Portal: {portal_url}
+
+Wishing {name} continued growth and killer client results!
+
+Best regards,
+Minh Lap
+Agency Automation & Growth Architect"""
+
+        else:
+            subject = f"permission to close your file, {doc}?"
+            body = f"""Hi {doc},
+
+I haven't heard back, so I assume that automating after-hours client booking and recapturing missed calls isn't a priority for {name} right now.
+
+I'm closing out your file so I don't clutter your inbox. We only partner with one provider in {city} to avoid competitive overlap.
 
 If priorities ever shift and you'd like to see how similar businesses in {city} are automatically booking clients 24/7 without extra staff, you're always welcome to test your live sandbox prototype:
 👉 Live Sandbox: {sandbox_url}
-👉 Executive VIP Portal: {portal_url}
+👉 Executive VIP Client Portal: {portal_url}
 
 Wishing {name} continued growth and success!
 
@@ -201,11 +392,11 @@ AI Solutions Architect"""
 
     else: # Stage 1
         ltype = lead.get("type", "dental")
-        if ltype == "dental":
+        if ltype in ("dental", "medspa"):
             subject = f"quick question regarding {name}'s after-hours patient inquiries"
             body = f"""Hi {doc},
 
-I was reviewing your website yesterday around 8 PM and noticed that when a patient has an urgent dental question or wants to book an appointment after closing, their only option is to wait until morning.
+I was reviewing your website yesterday around 8 PM and noticed that when a patient has an urgent question or wants to book an appointment after closing, their only option is to wait until morning.
 
 In most competitive markets, clinics lose 4 to 8 high-intent new patient inquiries every single week simply because competitors with instant AI booking respond within 30 seconds.
 
@@ -219,6 +410,66 @@ Would you be open to a quick 5-minute call this Thursday at 2 PM to see if this 
 Best regards,
 Minh Lap
 AI Solutions Architect
+Live Sandbox: {sandbox_url}"""
+
+        elif ltype == "medical":
+            subject = f"quick question regarding {name}'s after-hours patient inquiries"
+            body = f"""Hi {doc},
+
+I was reviewing your website yesterday around 8 PM and noticed that when a prospective patient has questions about high-ticket elective procedures or wants to book a private consultation after clinic hours, their only option is to wait until morning.
+
+In specialized private healthcare, prospective patients typically compare 2 to 3 top clinics in {city}. Practices with instant AI patient triage & scheduling convert 35%+ more high-ticket consultations directly into the calendar.
+
+To show you how this works, I built an interactive patient triage sandbox specifically for {name}:
+👉 Live Patient Sandbox: {sandbox_url}
+
+It conducts confidential pre-qualification, answers procedure FAQs, and schedules private consultations 24/7.
+
+Would you be open to a quick 5-minute call this Thursday at 2 PM to explore if this makes sense for {name}?
+
+Best regards,
+Minh Lap
+Healthcare AI Systems Specialist
+Live Sandbox: {sandbox_url}"""
+
+        elif ltype == "contractor":
+            subject = f"capturing after-hours project inquiries for {name}"
+            body = f"""Hi {doc},
+
+When property owners or developers are researching high-end renovation, construction, or installation projects in the evening or over the weekend, they want immediate answers on project scopes, estimating timelines, and consultation bookings.
+
+When they hit an after-hours contact form or voicemail, over 60% continue browsing and submit project briefs to competitors.
+
+We deploy intelligent intake and estimating copilots that engage prospects immediately, gather project specs, qualify budget ranges, and book design consultations directly into your calendar 24/7.
+
+Check out your firm's customized project intake sandbox here:
+👉 Live Project Sandbox: {sandbox_url}
+
+Would you be open to a quick 5-minute conversation this Thursday to see how this captures 3 to 5 additional high-ticket contracts every month?
+
+Cheers,
+Minh Lap
+Construction & High-End Trades AI Systems
+Live Sandbox: {sandbox_url}"""
+
+        elif ltype in ("agency", "staffing"):
+            subject = f"streamlining inbound client qualification for {name}"
+            body = f"""Hi {doc},
+
+Love what {name} is doing in {niche}.
+
+When high-intent enterprise brands or hiring managers land on your site, they want immediate clarity on service fit, bandwidth, pricing tiers, and case studies before committing to a discovery call.
+
+We deploy conversational AI agency copilots that pre-qualify inbound briefs, verify budget thresholds, showcase relevant case study wins, and book qualified discovery calls 24/7.
+
+Check out your agency's interactive intake copilot here:
+👉 Live Sandbox: {sandbox_url}
+
+Open to a brief 5-minute chat this Wednesday to see how this saves your leadership team 10+ hours a week on unqualified calls?
+
+Best,
+Minh Lap
+Agency Automation & Growth Architect
 Live Sandbox: {sandbox_url}"""
 
         elif ltype == "hvac":
@@ -477,9 +728,9 @@ def update_pipeline_status(leads_to_update, stage):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Multi-Touch Outreach Campaign Dispatcher")
-    parser.add_argument("--batch", type=int, choices=[1, 2, 3], help="Filter by Batch (1: SMBs, 2: E-Com, 3: High-Ticket)")
+    parser.add_argument("--batch", type=int, choices=[1, 2, 3, 4, 5, 6], help="Filter by Batch (1-6: SMBs, E-Com, High-Ticket, Luxury Home, B2B Agencies, Luxury Health)")
     parser.add_argument("--stage", type=int, default=1, choices=[1, 2, 3], help="Stage (1: Day 1 Hook, 2: Day 3 ROI, 3: Day 7 Break-Up)")
-    parser.add_argument("--lead", type=int, help="Single Lead ID (1-30)")
+    parser.add_argument("--lead", type=int, help="Single Lead ID (1-60)")
     parser.add_argument("--telegram", action="store_true", help="Send campaign digest to Telegram")
     parser.add_argument("--mark-sent", action="store_true", help="Update CRM pipeline status to sent stage (day1/day3/day7)")
 
