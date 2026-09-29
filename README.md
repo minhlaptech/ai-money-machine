@@ -1,61 +1,77 @@
-# ⚡ AUTONOMOUS AI MONETIZATION PLATFORM
-*Hệ Thống Tự Hành Tìm Kiếm & Vận Hành Các Kênh Thu Nhập USD Bằng AI*
-
-Dự án này được thiết kế và lập trình để **AI tự động nghiên cứu, phát triển sản phẩm, và chuẩn bị hệ sinh thái phân phối** nhằm tạo dòng thu nhập USD từ thị trường quốc tế với mức độ can thiệp tối thiểu từ bạn.
+# ⚡ AI MONEY MACHINE - HỆ THỐNG TỰ HÀNH KIẾM TIỀN BẰNG AI
+*Hệ thống tự động tìm kiếm, triển khai, và quản lý các kênh thu nhập USD bằng AI*
 
 ---
 
-## 📁 Cấu Trúc Hệ Sinh Thái Trong Workspace
+## 🧭 HƯỚNG DẪN NHANH
+
+### Cho AI (mỗi phiên chat):
+1. Đọc [`MASTER_CONTROL.md`](file:///d:/Project/work/MASTER_CONTROL.md) → Biết trạng thái tổng thể
+2. Đọc [`USER_INPUT.md`](file:///d:/Project/work/USER_INPUT.md) → Kiểm tra thông tin từ user
+3. Đọc [`DAILY_PLAN.md`](file:///d:/Project/work/DAILY_PLAN.md) → Biết kế hoạch hôm nay
+4. Thực hiện nhiệm vụ → Ghi vào [`EXECUTION_LOG.md`](file:///d:/Project/work/EXECUTION_LOG.md)
+
+### Cho User:
+1. Mở [`USER_INPUT.md`](file:///d:/Project/work/USER_INPUT.md) → Điền thông tin AI yêu cầu
+2. Chat tiếp tục → AI tự động thực hiện nhiệm vụ tiếp theo
+3. Xem [`EXECUTION_LOG.md`](file:///d:/Project/work/EXECUTION_LOG.md) → Biết AI đã làm gì
+
+---
+
+## 📁 CẤU TRÚC DỰ ÁN
 
 ```
 d:\Project\work\
-├── autonomous_agent/               # CỖ MÁY TỰ ĐỘNG NGHIÊN CỨU & QUÉT THỊ TRƯỜNG
-│   ├── market_scout.py             # Bot quét Hacker News, GitHub Trending, Dev.to
-│   ├── market_opportunities.json   # Dữ liệu cơ hội thị trường được chấm điểm
-│   └── market_scout_report.md      # Báo cáo phân tích cơ hội có nhu cầu cao
 │
-├── products/                       # KHO SẢN PHẨM SỐ / MICRO-SAAS DO AI TỰ CODE
-│   └── geo_audit_engine/           # Sản phẩm 1: SynapseGEO (Công cụ đón đầu xu hướng 2026)
-│       ├── index.html              # Giao diện SaaS Dark Mode, Glassmorphism, chuẩn SEO
-│       ├── style.css               # Hệ thống CSS cao cấp, hiệu ứng mượt mà
-│       ├── app.js                  # Logic chấm điểm GEO, sinh mã Schema, xử lý checkout
-│       └── server.py               # Server Python kèm Live URL Inspection API (Port 3030)
+├── 📋 MASTER_CONTROL.md          # Trung tâm điều khiển (AI đọc đầu tiên)
+├── 📥 USER_INPUT.md              # File giao tiếp User ↔ AI
+├── 📅 DAILY_PLAN.md              # Kế hoạch hàng ngày
+├── 📝 EXECUTION_LOG.md           # Nhật ký thực hiện
+├── 📚 RESEARCH_BIBLE.md          # Kiến thức tổng hợp
+├── 📖 README.md                  # File này
 │
-├── distribution_kit/               # BỘ PHÂN PHỐI & MARKETING TỰ ĐỘNG
-│   ├── payment_setup_guide.md      # Hướng dẫn 5 phút kết nối LemonSqueezy rút USD về VN
-│   ├── product_hunt_launch.md      # Kịch bản Launch Product Hunt đạt Top 5
-│   ├── reddit_viral_strategy.md    # Chiến lược kéo 10,000 traffic miễn phí từ r/SaaS
-│   └── twitter_growth_threads.md   # Chuỗi bài đăng Twitter/X định vị chuyên gia
+├── 🏭 products/                  # Sản phẩm đã build
+│   └── geo_audit_engine/         # SynapseGEO - Micro SaaS MVP
 │
-└── README.md                       # Bản điều hướng trung tâm
+├── 📦 projects/                  # 7 dự án con
+│   ├── ai_freelancing/           # #6: Freelancing Upwork/Fiverr
+│   ├── ai_automation_smb/        # #2: AI Automation cho SMB
+│   ├── youtube_faceless/         # #3: YouTube Faceless Channel
+│   ├── digital_products/         # #4: Digital Products (Gumroad)
+│   ├── print_on_demand/          # #5: Print-on-Demand
+│   ├── affiliate_blog/           # #7: Affiliate Marketing Blog
+│   └── ai_content_social/        # #8: AI Content & Social Media
+│
+├── 🤖 autonomous_agent/         # Bot tự động quét thị trường
+└── 📢 distribution_kit/         # Tài liệu marketing
 ```
 
 ---
 
-## 🚀 Trải Nghiệm Sản Phẩm Ngay Trên Máy Tính Của Bạn
+## 💰 8 KÊNH THU NHẬP
 
-1. Server SynapseGEO hiện đang chạy tại: **`http://localhost:3030/`**
-2. Bạn có thể mở trình duyệt và truy cập `http://localhost:3030/` để:
-   - Thử nhập bất kỳ website nào (VD: `github.com`, `stripe.com`, `linear.app`).
-   - Nhấn **Run Autonomous Audit** để thấy đồng hồ đo GEO Score xoay vòng và hệ thống phân tích 4 trụ cột AI.
-   - Nhận mã Schema.org JSON-LD được tạo tự động cho website đó.
-   - Nhấn **Upgrade to Pro ($19)** để xem trải nghiệm thanh toán của khách quốc tế.
+| # | Kênh | Thu Nhập Mục Tiêu | Ưu Tiên | Trạng Thái |
+|---|------|-------------------|---------|-----------|
+| 1 | Micro-SaaS (SynapseGEO) | $380/tuần | ⭐⭐⭐ | 🟡 Có MVP |
+| 2 | AI Automation cho SMB | $500-2500/tháng | ⭐⭐⭐ | 🔴 Mới |
+| 3 | Faceless YouTube | $500-2000/tháng | ⭐⭐ | 🔴 Mới |
+| 4 | Digital Products | $200-500/tháng | ⭐⭐ | 🔴 Mới |
+| 5 | Print-on-Demand | $100-300/tháng | ⭐ | 🔴 Mới |
+| 6 | AI Freelancing | $500-2000/tháng | ⭐⭐⭐ | 🔴 Mới |
+| 7 | Affiliate Blog | $300-1000/tháng | ⭐⭐ | 🔴 Mới |
+| 8 | AI Content & Social | $200-500/tháng | ⭐⭐ | 🔴 Mới |
 
----
-
-## 💰 Dòng Tiền & Kế Hoạch Doanh Thu (USD)
-
-| Kênh Thu Nhập | Giá Bán / Phí | Tỉ Lệ Chuyển Đổi Dự Kiến | Doanh Thu Ước Tính |
-| :--- | :---: | :---: | :---: |
-| **Gói Pro Lifetime (SynapseGEO)** | **$19** / lần | 2% trên 1,000 lượt test free | **$380** / tuần |
-| **Gói Agency Automator** | **$49** / tháng | 5 agencies đăng ký | **$245** / tháng (MRR) |
-| **Dịch vụ Audit & Fix cho khách B2B** | **$150** / website | 2 khách / tuần từ Reddit | **$300** / tuần |
+**Mục tiêu tổng: $3000-5000 USD/tháng**
 
 ---
 
-## 🛠️ Những Việc Bạn Cần Làm (Chỉ Mất 15 Phút)
+## 🚀 CÁCH SỬ DỤNG
 
-1. **Đăng ký LemonSqueezy**: Xem hướng dẫn tại [payment_setup_guide.md](file:///d:/Project/work/distribution_kit/payment_setup_guide.md) để lấy link checkout nhận tiền USD về tài khoản ngân hàng của bạn.
-2. **Deploy sản phẩm lên Internet miễn phí**:
-   - Dùng tài khoản GitHub đẩy thư mục `products/geo_audit_engine` lên **Vercel** hoặc **Cloudflare Pages** (chỉ mất 2 phút, hoàn toàn miễn phí).
-3. **Phát lệnh cho AI**: Khi muốn mở rộng sang sản phẩm Micro-SaaS thứ hai hoặc muốn AI tiếp tục tự động viết nội dung tiếp thị, chỉ cần gửi yêu cầu vào chat.
+1. **Lần đầu**: Mở `USER_INPUT.md`, điền thông tin cơ bản (tài khoản, kỹ năng, thời gian)
+2. **Mỗi lần chat**: Chỉ cần gõ "tiếp tục" hoặc bất kỳ tin nhắn nào
+3. **AI sẽ tự động**: Đọc trạng thái → Chọn task → Thực hiện → Ghi log → Lên kế hoạch tiếp
+4. **Nếu AI cần gì**: Kiểm tra `USER_INPUT.md` → Điền thông tin → Chat tiếp
+
+---
+
+*Khởi tạo: 2026-09-29 | Phiên #1*
