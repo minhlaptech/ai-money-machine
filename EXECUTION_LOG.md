@@ -1090,3 +1090,34 @@
   - Tự động gắn kèm link Báo cáo ROI cá nhân hóa và Sandbox trực tiếp cho từng doanh nghiệp.
   - Gửi thành công Bản Tin Chỉ Huy Sáng ngày 30/09/2026 về Telegram `@Minhpv_bot`!
 
+---
+
+## 📅 Session 12: Xây Dựng Xưởng Sản Xuất Giọng Đọc AI & Phụ Đề Tự Động (Studio Voiceover & SRT Generator), Hoàn Thiện Pipeline Video Faceless & Nâng Cấp CLI v6.7
+
+### 🎯 Mục Tiêu Đạt Được:
+1. Xây dựng công cụ sản xuất giọng đọc studio và phụ đề tự động hóa [`scripts/voiceover_generator.py`](file:///d:/Project/work/scripts/voiceover_generator.py) sử dụng gTTS, pydub và static-ffmpeg (hoàn toàn miễn phí, không tốn chi phí API trả phí).
+2. Tự động hóa sản xuất Voiceover (.mp3) và Phụ đề (.srt) cho cả 2 kênh:
+   - 30 Ngày Kịch Bản Shorts, TikTok & Reels ([`30_DAYS_SHORTS_SPRINT.md`](file:///d:/Project/work/projects/youtube_faceless/shorts_sprint/30_DAYS_SHORTS_SPRINT.md)).
+   - 10 Tập Video Dài Kênh YouTube Faceless ([`projects/youtube_faceless/scripts/`](file:///d:/Project/work/projects/youtube_faceless/scripts/)).
+3. Tích hợp thuật toán chia nhỏ phụ đề tự nhiên (3-6 từ/cue) chuẩn định dạng video dọc TikTok/Reels/Shorts, sẵn sàng kéo thả trực tiếp vào CapCut hoặc Premiere.
+4. Nâng cấp Master Command Center CLI lên **v6.7** ([`scripts/ai_empire_cli.py`](file:///d:/Project/work/scripts/ai_empire_cli.py)) bổ sung Tùy chọn tác vụ `[25]`.
+
+### 🎉 Milestones Hoàn Thành:
+- ✅ **Công Cụ Sản Xuất Giọng Đọc AI & Phụ Đề SRT ([scripts/voiceover_generator.py](file:///d:/Project/work/scripts/voiceover_generator.py))**:
+  - Hỗ trợ 2 chế độ tác chiến:
+    1. `--type shorts`: Phân tích tự động 30 ngày kịch bản, trích xuất Hook + Nội dung + CTA, chuẩn hóa số tiền (`$1,500` -> `1,500 dollars`), xuất trọn bộ `.mp3`, `.srt`, và `.txt` teleprompter.
+    2. `--type episode`: Trích xuất các khối thoại nguyên bản từ 10 kịch bản video dài 8-10 phút, tự động tổng hợp file âm thanh độ phân giải cao và hàng trăm cue phụ đề đồng bộ.
+  - Tích hợp bộ giải mã âm thanh `static_ffmpeg.add_paths()`, tính toán thời lượng audio chính xác tới từng mili-giây qua `pydub.AudioSegment`.
+  - Hỗ trợ cờ `--telegram` tự động bắn báo cáo tổng hợp thời lượng và danh mục file về `@Minhpv_bot`.
+- ✅ **Xuất Bản Bộ Sản Phẩm Mẫu Hoàn Chỉnh**:
+  - `projects/youtube_faceless/audio_shorts/day_01_voiceover.mp3` (24.8 giây, 193 KB, 11 cue phụ đề).
+  - `projects/youtube_faceless/audio_shorts/day_02_voiceover.mp3` (19.6 giây, 153 KB, 9 cue phụ đề).
+  - `projects/youtube_faceless/audio_episodes/episode_001_voiceover.mp3` (9.9 phút, 4.6 MB, 292 cue phụ đề cho tập 1 *5 AI Tools That Can Make You $1000/Month*).
+  - Xuất trọn bộ file `.srt` và kịch bản nhắc lời `.txt` đi kèm mỗi tệp âm thanh.
+- ✅ **Nâng Cấp CLI Master Command Center v6.7 ([scripts/ai_empire_cli.py](file:///d:/Project/work/scripts/ai_empire_cli.py))**:
+  - Bổ sung menu tác vụ **`[25] 🎙️ Studio Sản Xuất Voiceover AI & Phụ Đề SRT (30 Shorts / 10 Full Episodes)`**.
+  - Cho phép người dùng chọn nhanh giữa Shorts và Episode dài, nhập số ngày/tập cụ thể hoặc chọn `all` để sinh hàng loạt kèm cờ gửi Telegram.
+- ✅ **Đồng Bộ Hệ Thống & Lưu Trữ Mã Nguồn**:
+  - Đã commit và push toàn bộ mã nguồn, tệp âm thanh mẫu và phụ đề lên GitHub `master` (Commit `fdac38e`).
+
+
