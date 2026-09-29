@@ -147,24 +147,18 @@ def generate_briefing(send_telegram=False):
 👉 <a href="https://work-minh-lap.vercel.app"><b>Mở Command Center Dashboard</b></a>
 🚀 <i>Chúc bạn ngày mới bùng nổ doanh số!</i>"""
 
-        # Direct reliable send via curl.exe with temp payload file
+        # Direct reliable send via urllib.request
         try:
-            import subprocess
-            payload_file = ROOT_DIR / "temp_tg_briefing.json"
-            payload_file.write_text(json.dumps({"chat_id": chat_id, "text": tg_msg, "parse_mode": "HTML"}, ensure_ascii=False), encoding="utf-8")
-            res = subprocess.run(
-                ["curl.exe", "-s", "-X", "POST",
-                 "-H", "Content-Type: application/json; charset=utf-8",
-                 "-d", f"@{payload_file.name}",
-                 f"https://api.telegram.org/bot{bot_token}/sendMessage"],
-                capture_output=True, text=True, timeout=10, cwd=str(ROOT_DIR)
+            import urllib.request
+            payload_data = json.dumps({"chat_id": chat_id, "text": tg_msg, "parse_mode": "HTML"}, ensure_ascii=False).encode("utf-8")
+            req = urllib.request.Request(
+                f"https://api.telegram.org/bot{bot_token}/sendMessage",
+                headers={"Content-Type": "application/json; charset=utf-8"},
+                data=payload_data
             )
-            if payload_file.exists():
-                payload_file.unlink()
-            if '"ok":true' in res.stdout:
-                print("[✓] Đã gửi Bản Tin Chỉ Huy Sáng trực tiếp về Telegram (@Minhpv_bot)!")
-            else:
-                print(f"[!] Telegram curl error: {res.stdout}")
+            with urllib.request.urlopen(req, timeout=15) as r:
+                if r.status == 200:
+                    print("[✓] Đã gửi Bản Tin Chỉ Huy Sáng trực tiếp về Telegram (@Minhpv_bot)!")
         except Exception as e:
             print(f"[!] Lỗi gửi Telegram: {e}")
 
