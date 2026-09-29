@@ -20,10 +20,10 @@
     "city": "Miami, FL",
     "to": "info@pureradiancemedspa.example",
     "doc": "Sarah",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:50"
+    "last_touch": "2026-09-30 03:52"
   },
   {
     "id": 3,
@@ -137,10 +137,10 @@
     "city": "Los Angeles, CA",
     "to": "hello@veloraactive.example",
     "doc": "Team Velora",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 03:53"
   },
   {
     "id": 12,
@@ -423,10 +423,10 @@
     "city": "Charlotte, NC",
     "to": "concierge@eliteartisankitchens.example",
     "doc": "Marcus Sterling",
-    "status": "day7",
+    "status": "booked",
     "value": 4500,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 03:53"
   },
   {
     "id": 34,
@@ -683,10 +683,10 @@
     "city": "San Diego, CA",
     "to": "care@novogenfertility.example",
     "doc": "Dr. Maria Santos",
-    "status": "booked",
+    "status": "won",
     "value": 7000,
     "retainer": 1000,
-    "last_touch": "2026-09-30 03:50"
+    "last_touch": "2026-09-30 03:53"
   },
   {
     "id": 54,
