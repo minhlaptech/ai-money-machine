@@ -6,3 +6,15 @@ __pycache__
 autonomous_agent
 scripts
 scratch
+*.mp4
+*.mp3
+*.wav
+*.zip
+projects/youtube_faceless/rendered_episodes
+projects/youtube_faceless/rendered_shorts
+projects/youtube_faceless/audio_episodes
+projects/youtube_faceless/audio_shorts
+projects/youtube_faceless/cache
+temp_*
+*.log
+

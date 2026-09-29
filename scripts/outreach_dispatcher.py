@@ -35,33 +35,33 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 LEADS = [
     # --- BATCH 1: Local SMBs ---
     {"id": 1, "batch": 1, "name": "Austin Dental Co", "niche": "Cosmetic Dentistry", "city": "Austin, TX", "to": "contact@austindentalco.example", "doc": "Dr. Miller", "type": "dental", "val": 750, "lost": 18},
-    {"id": 2, "batch": 1, "name": "Pure Radiance MedSpa", "niche": "Aesthetics & Medical Spa", "city": "Miami, FL", "to": "info@pureradiancemedspa.example", "doc": "Sarah", "type": "medspa", "val": 650, "lost": 16},
-    {"id": 3, "batch": 1, "name": "Premier 24/7 HVAC Services", "niche": "Emergency Heating & AC", "city": "Dallas, TX", "to": "service@premierairdfw.example", "doc": "Mark", "type": "hvac", "val": 850, "lost": 15},
-    {"id": 4, "batch": 1, "name": "Sterling & Partners Legal", "niche": "Personal Injury Law", "city": "Chicago, IL", "to": "contact@sterlinglegalchi.example", "doc": "David Sterling", "type": "legal", "val": 2500, "lost": 8},
-    {"id": 5, "batch": 1, "name": "Summit Crest Luxury Realty", "niche": "High-End Real Estate", "city": "Scottsdale, AZ", "to": "inquiries@summitcrestrealty.example", "doc": "Victoria Vance", "type": "realestate", "val": 4000, "lost": 5},
-    {"id": 6, "batch": 1, "name": "ProActive Spine & Chiro", "niche": "Chiropractic & Wellness", "city": "Denver, CO", "to": "appointments@proactivechiro.example", "doc": "Dr. Davis", "type": "dental", "val": 450, "lost": 22},
-    {"id": 7, "batch": 1, "name": "Beacon Hill CPA & Tax", "niche": "Tax & Wealth Advisory", "city": "Boston, MA", "to": "tax@beaconhillcpa.example", "doc": "Marcus Brody", "type": "cpa", "val": 1200, "lost": 10},
-    {"id": 8, "batch": 1, "name": "Elite Smile Studio", "niche": "Orthodontics", "city": "San Diego, CA", "to": "hello@elitesmilestudio.example", "doc": "Dr. Nguyen", "type": "dental", "val": 950, "lost": 14},
-    {"id": 9, "batch": 1, "name": "Rapid Response Plumbing", "niche": "Commercial Plumbing", "city": "Atlanta, GA", "to": "dispatch@rapidplumbatl.example", "doc": "Robert", "type": "hvac", "val": 600, "lost": 20},
-    {"id": 10, "batch": 1, "name": "Apex Roofing & Solar Systems", "niche": "Roofing & Solar EPC", "city": "Orlando, FL", "to": "bids@apexroofsolar.example", "doc": "David", "type": "hvac", "val": 3500, "lost": 6},
+    {"id": 2, "batch": 1, "name": "Pure Radiance MedSpa", "niche": "Aesthetics & Spa", "city": "Miami, FL", "to": "info@pureradiancemedspa.example", "doc": "Sarah", "type": "medspa", "val": 650, "lost": 16},
+    {"id": 3, "batch": 1, "name": "Premier 24/7 HVAC", "niche": "Heating & AC Repair", "city": "Dallas, TX", "to": "service@premierairdfw.example", "doc": "Mark", "type": "hvac", "val": 850, "lost": 15},
+    {"id": 4, "batch": 1, "name": "Elite Smile Studio", "niche": "Orthodontics", "city": "San Jose, CA", "to": "hello@elitesmilestudio.example", "doc": "Dr. Nguyen", "type": "dental", "val": 950, "lost": 14},
+    {"id": 5, "batch": 1, "name": "Apex Roofing & Solar", "niche": "Roofing & Solar", "city": "Phoenix, AZ", "to": "bids@apexroofsolar.example", "doc": "David", "type": "hvac", "val": 3500, "lost": 6},
+    {"id": 6, "batch": 1, "name": "Lumina Wellness", "niche": "Regenerative Med", "city": "Seattle, WA", "to": "frontdesk@luminawellness.example", "doc": "Dr. Adams", "type": "medspa", "val": 600, "lost": 18},
+    {"id": 7, "batch": 1, "name": "Vanguard Luxury RE", "niche": "Luxury Real Estate", "city": "Denver, CO", "to": "team@vanguardluxuryre.example", "doc": "Alex", "type": "realestate", "val": 4000, "lost": 5},
+    {"id": 8, "batch": 1, "name": "ProActive Spine & Chiro", "niche": "Chiropractic", "city": "Chicago, IL", "to": "appointments@proactivechiro.example", "doc": "Dr. Davis", "type": "dental", "val": 450, "lost": 22},
+    {"id": 9, "batch": 1, "name": "Rapid Response Plumbing", "niche": "24/7 Emergency Plumber", "city": "Atlanta, GA", "to": "dispatch@rapidplumbatl.example", "doc": "Robert", "type": "hvac", "val": 600, "lost": 20},
+    {"id": 10, "batch": 1, "name": "Silicon Valley Skin Lab", "niche": "Dermatology & Laser", "city": "Palo Alto, CA", "to": "support@svskinlab.example", "doc": "Dr. Patel", "type": "medspa", "val": 750, "lost": 16},
 
     # --- BATCH 2: E-Commerce & SaaS ---
-    {"id": 11, "batch": 2, "name": "Velora Activewear", "niche": "Athleisure & Fitness", "city": "Los Angeles, CA", "to": "hello@veloraactive.example", "doc": "Team Velora", "type": "ecom", "val": 120, "lost": 65},
-    {"id": 12, "batch": 2, "name": "NuvoGlow Skincare", "niche": "Clean Beauty & Cosmetics", "city": "New York, NY", "to": "partners@nuvoglowbeauty.example", "doc": "Founder", "type": "ecom", "val": 95, "lost": 80},
-    {"id": 13, "batch": 2, "name": "Artisan Roast Club", "niche": "Specialty Coffee Subscription", "city": "Seattle, WA", "to": "orders@artisanroastclub.example", "doc": "Founder", "type": "ecom", "val": 85, "lost": 90},
-    {"id": 14, "batch": 2, "name": "ZenSleep Mattress", "niche": "Sleep Tech & Bedding", "city": "San Francisco, CA", "to": "concierge@zensleepbed.example", "doc": "Marketing Team", "type": "ecom", "val": 850, "lost": 12},
-    {"id": 15, "batch": 2, "name": "HydroFlow Bottle", "niche": "Smart Hydration & Gear", "city": "Boulder, CO", "to": "support@hydroflowbottle.example", "doc": "Team HydroFlow", "type": "ecom", "val": 75, "lost": 95},
-    {"id": 16, "batch": 2, "name": "Pawsome Pet Boxes", "niche": "Pet Supplies & Subscriptions", "city": "Austin, TX", "to": "hello@pawsomepetbox.example", "doc": "Customer Team", "type": "ecom", "val": 65, "lost": 110},
-    {"id": 17, "batch": 2, "name": "Lumina Wellness", "niche": "Nootropics & Supplements", "city": "Miami, FL", "to": "frontdesk@luminawellness.example", "doc": "Dr. Adams", "type": "medspa", "val": 110, "lost": 70},
-    {"id": 18, "batch": 2, "name": "StackSync Dev", "niche": "Developer Tools & SaaS", "city": "San Jose, CA", "to": "founders@stacksyncdev.example", "doc": "Engineering Lead", "type": "saas", "val": 1400, "lost": 8},
-    {"id": 19, "batch": 2, "name": "LeadFlow CRM", "niche": "B2B Sales Automation", "city": "Chicago, IL", "to": "inquiries@leadflowcrm.example", "doc": "Growth Team", "type": "saas", "val": 1800, "lost": 7},
-    {"id": 20, "batch": 2, "name": "CloudDesk Help", "niche": "Customer Support Platform", "city": "Boston, MA", "to": "hello@clouddeskhelp.example", "doc": "Product Lead", "type": "saas", "val": 1200, "lost": 9},
+    {"id": 11, "batch": 2, "name": "Velora Activewear", "niche": "Athleisure Apparel", "city": "Los Angeles, CA", "to": "hello@veloraactive.example", "doc": "Team Velora", "type": "ecom", "val": 120, "lost": 65},
+    {"id": 12, "batch": 2, "name": "NuvoGlow Skincare", "niche": "Clean D2C Beauty", "city": "New York, NY", "to": "partners@nuvoglowbeauty.example", "doc": "Founder", "type": "ecom", "val": 95, "lost": 80},
+    {"id": 13, "batch": 2, "name": "PulseMetrics AI", "niche": "B2B Analytics SaaS", "city": "San Francisco, CA", "to": "growth@pulsemetrics.example", "doc": "Founder", "type": "saas", "val": 2200, "lost": 6},
+    {"id": 14, "batch": 2, "name": "HydroFlow Bottle", "niche": "Eco Hydration D2C", "city": "Boulder, CO", "to": "support@hydroflowbottle.example", "doc": "Team HydroFlow", "type": "ecom", "val": 75, "lost": 95},
+    {"id": 15, "batch": 2, "name": "CloudDesk Help", "niche": "Customer Support SaaS", "city": "Austin, TX", "to": "hello@clouddeskhelp.example", "doc": "Product Lead", "type": "saas", "val": 1200, "lost": 9},
+    {"id": 16, "batch": 2, "name": "Artisan Roast Club", "niche": "Subscription Coffee", "city": "Portland, OR", "to": "orders@artisanroastclub.example", "doc": "Founder", "type": "ecom", "val": 85, "lost": 90},
+    {"id": 17, "batch": 2, "name": "StackSync Dev", "niche": "Developer Workflows", "city": "Seattle, WA", "to": "founders@stacksyncdev.example", "doc": "Engineering Lead", "type": "saas", "val": 1400, "lost": 8},
+    {"id": 18, "batch": 2, "name": "Pawsome Pet Boxes", "niche": "Pet Subscription D2C", "city": "Denver, CO", "to": "hello@pawsomepetbox.example", "doc": "Customer Team", "type": "ecom", "val": 65, "lost": 110},
+    {"id": 19, "batch": 2, "name": "LeadFlow CRM", "niche": "SMB Sales CRM SaaS", "city": "Boston, MA", "to": "inquiries@leadflowcrm.example", "doc": "Growth Team", "type": "saas", "val": 1800, "lost": 7},
+    {"id": 20, "batch": 2, "name": "ZenSleep Mattress", "niche": "D2C Sleep Wellness", "city": "Chicago, IL", "to": "concierge@zensleepbed.example", "doc": "Marketing Team", "type": "ecom", "val": 850, "lost": 12},
 
     # --- BATCH 3: High-Ticket Professional Services ---
-    {"id": 21, "batch": 3, "name": "PulseMetrics AI", "niche": "Product Analytics SaaS", "city": "New York, NY", "to": "growth@pulsemetrics.example", "doc": "Founder", "type": "saas", "val": 2200, "lost": 6},
-    {"id": 22, "batch": 3, "name": "Silicon Valley Skin Lab", "niche": "Dermatology Clinic", "city": "Palo Alto, CA", "to": "support@svskinlab.example", "doc": "Dr. Patel", "type": "medspa", "val": 750, "lost": 16},
-    {"id": 23, "batch": 3, "name": "Pacific Coast Family Law", "niche": "Family Law & Mediation", "city": "Newport Beach, CA", "to": "help@pacificfamilylawsd.example", "doc": "Elena Rostova", "type": "legal", "val": 3000, "lost": 6},
-    {"id": 24, "batch": 3, "name": "Vanguard Luxury RE", "niche": "Luxury Real Estate", "city": "Beverly Hills, CA", "to": "team@vanguardluxuryre.example", "doc": "Alex", "type": "realestate", "val": 5000, "lost": 4},
+    {"id": 21, "batch": 3, "name": "Sterling & Partners Legal", "niche": "Personal Injury Law", "city": "Chicago, IL", "to": "contact@sterlinglegalchi.example", "doc": "David Sterling", "type": "legal", "val": 2500, "lost": 8},
+    {"id": 22, "batch": 3, "name": "Summit Crest Luxury Realty", "niche": "Luxury Real Estate", "city": "Aspen, CO", "to": "inquiries@summitcrestrealty.example", "doc": "Victoria Vance", "type": "realestate", "val": 4000, "lost": 5},
+    {"id": 23, "batch": 3, "name": "Beacon Hill CPA & Tax", "niche": "Tax & Advisory Firm", "city": "Boston, MA", "to": "tax@beaconhillcpa.example", "doc": "Marcus Brody", "type": "cpa", "val": 1200, "lost": 10},
+    {"id": 24, "batch": 3, "name": "Pacific Coast Family Law", "niche": "Divorce & Family Law", "city": "San Diego, CA", "to": "help@pacificfamilylawsd.example", "doc": "Elena Rostova", "type": "legal", "val": 3000, "lost": 6},
     {"id": 25, "batch": 3, "name": "Vanguard Wealth & Accounting", "niche": "Family Office & CPA", "city": "New York, NY", "to": "office@vanguardwealthnyc.example", "doc": "Jonathan Vance", "type": "cpa", "val": 2800, "lost": 5},
     {"id": 26, "batch": 3, "name": "Redwood Corporate Counsel", "niche": "Corporate & M&A", "city": "Austin, TX", "to": "hello@redwoodcounseltx.example", "doc": "Sarah Jenkins", "type": "legal", "val": 3500, "lost": 5},
     {"id": 27, "batch": 3, "name": "Pinnacle Commercial RE", "niche": "Commercial Brokerage", "city": "Dallas, TX", "to": "deals@pinnaclecredfw.example", "doc": "Robert Miller", "type": "realestate", "val": 4500, "lost": 4},
@@ -82,9 +82,84 @@ def build_email_content(lead, stage=1):
     doc = lead["doc"]
     city = lead["city"]
 
+    ltype = lead.get("type", "dental")
+
     if stage == 2:
-        subject = f"re: {name} after-hours intake (ran the numbers)"
-        body = f"""Hi {doc},
+        if ltype == "ecom":
+            subject = f"re: {name} cart abandonment & shopper questions (ran the numbers)"
+            body = f"""Hi {doc},
+
+Following up briefly on my note from earlier this week regarding {name}'s on-site conversion.
+
+I ran {name}'s estimated shopper volume through our revenue recovery model:
+• Estimated monthly abandoned carts from hesitation: ~{lead['lost']} shoppers
+• Estimated uncaptured revenue: ~${monthly_loss}/month
+
+You can review your customized performance & ROI forecast here:
+👉 Live Custom ROI Report: {report_url}
+👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator
+👉 Executive VIP Client Portal: {portal_url}
+
+Our AI shopping copilot proactively assists shoppers right before drop-off, recovering 8% to 15% of abandoned carts within the first 30 days.
+
+I also prepared a customized 2-page implementation audit for {name}. Would you be against me sending it over?
+
+Best regards,
+Minh Lap
+E-Commerce Automation Consultant
+Live Sandbox: {sandbox_url}"""
+
+        elif ltype == "saas":
+            subject = f"re: {name} trial user drop-off & activation (ran the numbers)"
+            body = f"""Hi {doc},
+
+Following up briefly on my note from earlier this week regarding {name}'s trial user onboarding experience.
+
+I ran {name}'s estimated user funnel through our activation model:
+• Estimated trial signups hitting setup friction: ~{lead['lost']} users/month
+• Estimated lost expansion / ARR: ~${monthly_loss}/month
+
+You can review your customized activation & ROI forecast here:
+👉 Live Custom ROI Report: {report_url}
+👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator
+👉 Executive VIP Client Portal: {portal_url}
+
+Our conversational AI onboarding agent resolves integration blockers in real-time, accelerating time-to-value and lifting trial conversion by 12% to 20%.
+
+I also prepared a customized 2-page implementation audit for {name}. Would you be against me sending it over?
+
+Best regards,
+Minh Lap
+SaaS Growth & AI Systems
+Live Sandbox: {sandbox_url}"""
+
+        elif ltype in ("legal", "realestate", "cpa"):
+            subject = f"re: {name} high-intent client inquiries (ran the numbers)"
+            body = f"""Hi {doc},
+
+Following up briefly on my note from earlier this week regarding {name}'s after-hours intake.
+
+I ran {name}'s estimated high-intent inquiry volume through our revenue recovery model:
+• Estimated monthly prospective clients seeking help after 6 PM: ~{lead['lost']} qualified leads
+• Estimated uncaptured case/client value: ~${monthly_loss}/month
+
+You can review your customized firm performance & ROI forecast here:
+👉 Live Custom ROI Report: {report_url}
+👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator
+👉 Executive VIP Client Portal: {portal_url}
+
+Our AI intake copilot pre-qualifies prospective clients and books appointments into your calendar 24/7, paying for itself on the very first retained client.
+
+I also prepared a customized 2-page implementation audit for {name}. Would you be against me sending it over?
+
+Best regards,
+Minh Lap
+AI Solutions Architect
+Live Sandbox: {sandbox_url}"""
+
+        else:
+            subject = f"re: {name} after-hours intake (ran the numbers)"
+            body = f"""Hi {doc},
 
 Following up briefly on my note from earlier this week regarding {name}'s after-hours client intake.
 
@@ -334,9 +409,11 @@ def send_telegram_campaign_digest(filtered, stage):
         "",
         "<b>Top Leads in Queue:</b>"
     ]
+    import html
     for l in filtered[:5]:
         slug = l["name"].lower().replace(" ", "_").replace("&", "and").replace("/", "-").replace("\\", "-").replace(",", "").replace(".", "")
-        lines.append(f"• <b>{l['name']}</b> ({l['city']}) — <a href='https://work-minh-lap.vercel.app/portal/{slug}'>VIP Portal</a> | <a href='https://work-minh-lap.vercel.app/sandboxes/{slug}_sandbox.html'>Sandbox</a>")
+        safe_name = html.escape(l["name"])
+        lines.append(f"• <b>{safe_name}</b> ({l['city']}) — <a href='https://work-minh-lap.vercel.app/portal/{slug}'>VIP Portal</a> | <a href='https://work-minh-lap.vercel.app/sandboxes/{slug}_sandbox.html'>Sandbox</a>")
     
     lines.append("\n👉 <i>1-Click Send available in Command Center at https://work-minh-lap.vercel.app</i>")
     
@@ -347,7 +424,7 @@ def send_telegram_campaign_digest(filtered, stage):
             headers={"Content-Type": "application/json"},
             data=json.dumps({"chat_id": chat_id, "text": html_msg, "parse_mode": "HTML"}).encode("utf-8")
         )
-        with urllib.request.urlopen(req, timeout=5) as r:
+        with urllib.request.urlopen(req, timeout=12) as r:
             if r.status == 200:
                 print("[✓] Dispatched Outreach Campaign Digest to Telegram (@Minhpv_bot)!")
                 return
@@ -360,11 +437,11 @@ def send_telegram_campaign_digest(filtered, stage):
         payload_file = ROOT_DIR / "temp_tg_outreach.json"
         payload_file.write_text(json.dumps({"chat_id": chat_id, "text": html_msg, "parse_mode": "HTML"}, ensure_ascii=False), encoding="utf-8")
         res = subprocess.run(
-            ["curl.exe", "-s", "-X", "POST",
+            ["curl.exe", "-s", "--connect-timeout", "10", "--max-time", "20", "-X", "POST",
              "-H", "Content-Type: application/json; charset=utf-8",
              "-d", f"@{payload_file.name}",
              f"https://api.telegram.org/bot{bot_token}/sendMessage"],
-            capture_output=True, text=True, timeout=10, cwd=str(ROOT_DIR)
+            capture_output=True, text=True, timeout=22, cwd=str(ROOT_DIR)
         )
         if payload_file.exists():
             payload_file.unlink()

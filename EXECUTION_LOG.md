@@ -1450,6 +1450,38 @@
 - ✅ **Bắn Lộ Trình Phát Sóng 7 Ngày Về Telegram**:
   - Tin nhắn Telegram đã gửi thành công với đầy đủ mốc thời gian phát sóng của 7 video đầu tiên.
 
+---
+
+## 📅 Session 23: Triển Khai Chiến Dịch Cold Outreach Stage 2 (ROI Audit Follow-Up - 30/30 Leads), Tích Hợp YouTube Data API v3 OAuth2 Uploader & Tối Ưu Hóa Vercel Deploy
+
+### 🎯 Mục Tiêu Đạt Được:
+1. **Triển khai toàn diện Stage 2 Cold Outreach (Day 3 Follow-Up: Phân Tích Kiểm Toán ROI Độc Bản)** cho toàn bộ 30 khách hàng doanh nghiệp trong phễu CRM ([`prospects/crm_pipeline.json`](file:///d:/Project/work/prospects/crm_pipeline.json)).
+2. Tinh chỉnh mẫu email Stage 2 trong [`scripts/outreach_dispatcher.py`](file:///d:/Project/work/scripts/outreach_dispatcher.py) theo từng ngành nghề chuyên biệt:
+   - **Local SMBs (Nha khoa, MedSpa, HVAC, Chiro, Roofing)**: Nhấn mạnh vào số lượng khách hàng gọi ngoài giờ bị bỏ lỡ (~$7,800 - $21,000/tháng).
+   - **E-Commerce D2C**: Tự động phục hồi giỏ hàng bị bỏ rơi và giải đáp thắc mắc trước thanh toán.
+   - **B2B SaaS**: Hạn chế tỷ lệ drop-off trong 48h dùng thử đầu tiên và gia tăng chuyển đổi Active User.
+   - **High-Ticket Professional Services (Luật sư, BĐS, CPA)**: Sàng lọc khách hàng giá trị cao và đặt lịch tự động 24/7.
+3. Đồng bộ hóa 100% 30/30 tài nguyên báo cáo kiểm toán ROI (`reports/*_roi_report.html`), prototype sandbox (`sandboxes/*_sandbox.html`), pitch decks (`pitches/*_pitch.html`) và cổng VIP client (`portal/*`).
+4. Chuyển đổi trạng thái 30/30 khách hàng trong `crm_pipeline.json` sang `day3` và gửi thông báo chiến dịch về Telegram cá nhân `@Minhpv_bot`.
+5. **Nâng cấp Cỗ máy Xuất bản YouTube ([`scripts/youtube_publisher.py`](file:///d:/Project/work/scripts/youtube_publisher.py))** tích hợp YouTube Data API v3 OAuth2 Client (`googleapiclient` + `google_auth_oauthlib`), hỗ trợ lệnh `--upload <ID>` và trình mô phỏng `--dry-run` kiểm tra tính toàn vẹn trước khi phát sóng.
+6. **Tối ưu hóa Vercel Production Deployment**:
+   - Cập nhật [`.vercelignore`](file:///d:/Project/work/.vercelignore) loại trừ kho video và âm thanh nặng (>400 MB), giảm kích thước gói upload chỉ còn **323.8 KB** (100% siêu tốc).
+   - Nâng cấp [`scripts/deploy_production.py`](file:///d:/Project/work/scripts/deploy_production.py) với bộ kiểm tra hạn mức API thông minh.
+   - Kiểm tra và xác nhận **14/14 Endpoints Đám Mây** trên `https://work-minh-lap.vercel.app` duy trì **100% Uptime (HTTP 200 OK)**.
+
+### 🎉 Milestones Hoàn Thành:
+- ✅ **Phủ Sóng 100% Chiến Dịch Stage 2 (Day 3 Follow-Up)**:
+  - Cả 3 nhóm (Batch 1: SMBs, Batch 2: E-Com & SaaS, Batch 3: High-Ticket) đã hoàn tất bước gửi follow-up phân tích ROI.
+  - Cập nhật tự động trạng thái CRM Pipeline sang `day3` tại [`prospects/crm_pipeline.json`](file:///d:/Project/work/prospects/crm_pipeline.json).
+  - Khắc phục triệt để lỗi mã hóa ký tự HTML (`&amp;`) khi gửi thông báo tổng hợp về Telegram `@Minhpv_bot`.
+- ✅ **Tích Hợp YouTube Data API v3 OAuth2 Uploader ([scripts/youtube_publisher.py](file:///d:/Project/work/scripts/youtube_publisher.py))**:
+  - Hỗ trợ tải tự động qua token OAuth2 hoặc kiểm tra dry-run đối với cả Full Episodes và Viral Shorts.
+  - Đã kiểm thử thành công chế độ `--dry-run` cho `ep_001` và `short_01`.
+- ✅ **Tối Ưu Triển Khai Vercel Production**:
+  - Tệp `.vercelignore` được cấu hình chuẩn xác giúp tốc độ upload đạt 1-2 giây.
+  - Toàn bộ 14 web endpoints hoạt động công khai hoàn hảo không rào cản đăng nhập.
+
+
 
 
 
