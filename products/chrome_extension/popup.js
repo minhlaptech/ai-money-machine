@@ -95,7 +95,7 @@ function fallbackScan(domain) {
 }
 
 function openWebApp() {
-  const target = currentTabUrl ? `https://synapse-geo-audit.vercel.app/?inspect=${encodeURIComponent(currentTabUrl)}` : 'https://synapse-geo-audit.vercel.app/';
+  const target = currentTabUrl ? `https://work-minh-lap.vercel.app/synapsegeo/?inspect=${encodeURIComponent(currentTabUrl)}` : 'https://work-minh-lap.vercel.app/synapsegeo/';
   if (typeof chrome !== 'undefined' && chrome.tabs && chrome.tabs.create) {
     chrome.tabs.create({ url: target });
   } else {

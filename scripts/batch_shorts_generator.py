@@ -5,7 +5,7 @@ Tự động tạo trọn bộ 30 kịch bản video ngắn (Short-Form Video Sc
 cho 30 ngày phủ sóng liên tục trên YouTube Shorts, TikTok và Instagram Reels.
 Tập trung dẫn traffic về:
 - Chatbot Demo: https://work-minh-lap.vercel.app/chatbotdemo
-- SynapseGEO: https://synapse-geo-audit.vercel.app
+- SynapseGEO: https://work-minh-lap.vercel.app/synapsegeo
 - Free Ebook & Guides: https://ai-automation-guide-omega.vercel.app
 - Master Bundle ($39): https://minhlap.lemonsqueezy.com
 """
@@ -33,7 +33,7 @@ SHORTS_DATA = [
     {"day": 7, "theme": "Overcoming Fear", "title": "Do you need coding skills to start an AI agency?", "hook": "Think you need a computer science degree to sell AI? Absolutely not.", "solution": "You can connect Voiceflow or OpenAI Assistants to webhooks using no-code tools like Make.com in under 30 minutes without writing a single line of code.", "cta": "Follow for daily AI automation blueprints!"},
 
     # --- WEEK 2: MICRO-SAAS QUICK WINS & GEO SEO ---
-    {"day": 8, "theme": "Micro-SaaS", "title": "I built a software tool in 48 hours that charges $19", "hook": "You don't need venture capital to launch a profitable SaaS in 2026.", "solution": "Find one hyper-specific problem like robots.txt AI auditing. We built SynapseGEO in a weekend, deployed on Vercel Edge for zero dollars, and connected Lemon Squeezy.", "cta": "Test the live tool at synapse-geo-audit.vercel.app!"},
+    {"day": 8, "theme": "Micro-SaaS", "title": "I built a software tool in 48 hours that charges $19", "hook": "You don't need venture capital to launch a profitable SaaS in 2026.", "solution": "Find one hyper-specific problem like robots.txt AI auditing. We built SynapseGEO in a weekend, deployed on Vercel Edge for zero dollars, and connected Lemon Squeezy.", "cta": "Test the live tool at work-minh-lap.vercel.app/synapsegeo!"},
     {"day": 9, "theme": "AI Search Shift", "title": "Google SEO is declining. Here is what is replacing it.", "hook": "If your site isn't optimized for Perplexity and ChatGPT, you are losing 40% of future traffic.", "solution": "Generative Engine Optimization (GEO) relies on clean JSON-LD Schema and robots.txt bot permissions. If you block GPTBot, you are invisible.", "cta": "Run a free 10-second audit on your domain (link in bio)!"},
     {"day": 10, "theme": "Review Genius", "title": "Turn 1-star angry reviews into 5-star loyal fans", "hook": "Replying to angry Google reviews manually takes hours and emotional stress.", "solution": "ReviewGenius AI analyzes negative sentiment and drafts de-escalation responses that protect your business reputation in 3 seconds.", "cta": "Try ReviewGenius free (link in description)!"},
     {"day": 11, "theme": "Headline IQ", "title": "The psychological secret to viral headlines", "hook": "Why do some articles get 100k views while yours get 12 clicks?", "solution": "Emotional resonance and curiosity gaps. HeadlineIQ scores your headline CTR potential and suggests 10 AI variations backed by copywriting psychology.", "cta": "Check your headline score for free in bio!"},

@@ -30,10 +30,10 @@ CONTENT_PRESETS = {
             "Traditional Google SEO relies on backlinks and H1 tags. Generative engines (ChatGPT Search, Perplexity) rely on LLM crawlers like GPTBot and PerplexityBot.",
             "If your robots.txt inadvertently disallows GPTBot, you are completely omitted from AI citations.",
             "LLMs require deep JSON-LD Schema (Organization, WebSite, FAQPage, SoftwareApplication) to extract factual confidence scores.",
-            "Our audit tool SynapseGEO (https://synapse-geo-audit.vercel.app) found that 68% of local businesses have zero structured data for voice assistants.",
+            "Our audit tool SynapseGEO (https://work-minh-lap.vercel.app/synapsegeo) found that 68% of local businesses have zero structured data for voice assistants.",
             "The fix takes 5 minutes: update robots.txt permissions and embed structured Schema markup."
         ],
-        "cta": "Check your domain's AI Search score in 10 seconds: https://synapse-geo-audit.vercel.app"
+        "cta": "Check your domain's AI Search score in 10 seconds: https://work-minh-lap.vercel.app/synapsegeo"
     },
     "ai_automation": {
         "title": "How a Local Dentist Recovers $8,400/mo Using a 15-Minute AI Bot",

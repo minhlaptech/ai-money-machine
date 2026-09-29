@@ -30,7 +30,7 @@ Traditional SEO is declining. Generative Engine Optimization (GEO) is the new ba
 This tool audits your website visibility across ChatGPT Search, Perplexity AI, and Claude.
 
 Try the free audit:
-🔗 https://synapse-geo-audit.vercel.app
+🔗 https://work-minh-lap.vercel.app/synapsegeo
 ```
 
 ---
@@ -97,7 +97,7 @@ What should I build next? Let me know below 👇
 ```text
 I just launched 5 free AI tools and an open-source automation blueprint:
 
-⚡ SynapseGEO (AI SEO audit): https://synapse-geo-audit.vercel.app
+⚡ SynapseGEO (AI SEO audit): https://work-minh-lap.vercel.app/synapsegeo
 ⭐ ReviewGenius (AI reviews): https://work-minh-lap.vercel.app/reviewgenius
 🔥 HeadlineIQ (Viral CTR): https://headlineiq-eta.vercel.app
 🤖 Chatbot Demo: https://work-minh-lap.vercel.app/chatbotdemo

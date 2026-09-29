@@ -4,7 +4,7 @@
 **Target Audience:** Indie hackers, beginners, solopreneurs, digital nomads  
 **Goal:** Teach viewers how to brainstorm, build with AI, deploy for free, and earn recurring revenue ($1,000 - $3,000/mo).  
 **Affiliate / Product Links in Description:**
-- SynapseGEO (Live demo tool): https://synapse-geo-audit.vercel.app
+- SynapseGEO (Live demo tool): https://work-minh-lap.vercel.app/synapsegeo
 - Free eBook "The AI Money Blueprint": https://ai-automation-guide-omega.vercel.app
 - Gumroad Store: https://minhlap.gumroad.com
 

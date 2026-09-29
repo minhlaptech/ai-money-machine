@@ -100,7 +100,7 @@ export default async function handler(req, res) {
     } else if (pLower.includes('prompt')) {
       fulfillmentUrl = 'https://work-minh-lap.vercel.app/guides/AI_Marketing_Prompt_Pack_110.pdf';
     } else if (pLower.includes('extension') || pLower.includes('geo')) {
-      fulfillmentUrl = 'https://synapse-geo-audit.vercel.app';
+      fulfillmentUrl = 'https://work-minh-lap.vercel.app/synapsegeo';
     } else if (pLower.includes('review')) {
       fulfillmentUrl = 'https://work-minh-lap.vercel.app/reviewgenius';
     } else if (pLower.includes('headline')) {

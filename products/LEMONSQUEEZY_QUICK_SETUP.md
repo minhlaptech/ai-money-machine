@@ -22,7 +22,7 @@ Vào menu bên trái **Products** → **New Product**:
 - **Name:** `SynapseGEO Pro — AI Search Optimization Engine`
 - **Pricing:** Single payment (Một lần) → `$19.00`
 - **Description:** *"Audit unlimited domains for ChatGPT Search, Perplexity AI & Google AI Overviews. Instant license activation."*
-- **Files / Redirect:** Redirect về `https://synapse-geo-audit.vercel.app?license={license_key}`
+- **Files / Redirect:** Redirect về `https://work-minh-lap.vercel.app/synapsegeo?license={license_key}`
 
 #### 2. Sản phẩm 2: The AI Money Blueprint eBook
 - **Name:** `The AI Money Blueprint eBook`

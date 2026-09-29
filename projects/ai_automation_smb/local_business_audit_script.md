@@ -66,7 +66,7 @@ We set up an automated 15-second text-back system: whenever your line is busy or
 
 This single automation recovered $8,400 in lost jobs for a local contractor last month.
 
-Here's how it works: https://synapse-geo-audit.vercel.app
+Here's how it works: https://work-minh-lap.vercel.app/synapsegeo
 
 Happy to send over a 2-minute video breakdown if you'd find it helpful.
 

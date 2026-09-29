@@ -75,7 +75,7 @@
 - **Nội dung chính (3–45s)**:
   > "Find one hyper-specific problem like robots.txt AI auditing. We built SynapseGEO in a weekend, deployed on Vercel Edge for zero dollars, and connected Lemon Squeezy."
 - **Kêu gọi hành động (CTA 45–60s)**:
-  > "Test the live tool at synapse-geo-audit.vercel.app!"
+  > "Test the live tool at work-minh-lap.vercel.app/synapsegeo!"
 - **Thẻ Hashtags**: `#AIAutomation #MicroSaaS #MakeMoneyOnline #ChatGPT #IndieHacker #SideHustle2026`
 
 ---

@@ -26,7 +26,7 @@ https://ai-automation-guide-omega.vercel.app/downloads/AI_Marketing_Prompt_Pack_
 
 💡 3 điều bạn nên làm ngay hôm nay:
 1. Đọc ngay Chương 1 & Chương 2 để nắm rõ lộ trình 90 ngày từ $0 lên $3,000/tháng.
-2. Thử nghiệm công cụ kiểm tra điểm AI Search miễn phí: https://synapse-geo-audit.vercel.app
+2. Thử nghiệm công cụ kiểm tra điểm AI Search miễn phí: https://work-minh-lap.vercel.app/synapsegeo
 3. Lưu email này lại để tra cứu các tài liệu kỹ thuật trong những ngày tới.
 
 Ngày mai, tôi sẽ chia sẻ với bạn một case-study thực tế: Làm thế nào một phòng khám địa phương thu hồi $8,400 doanh thu bị bỏ lỡ mỗi tháng chỉ nhờ 1 con bot AI cài đặt trong 15 phút.
@@ -87,7 +87,7 @@ Bí quyết rất đơn giản: Đừng cố giải quyết mọi thứ. Hãy ch
 
 Dưới đây là 3 công cụ Micro-SaaS tôi đã xây dựng và triển khai hoàn toàn miễn phí trên Vercel Edge:
 
-1. 🌐 **SynapseGEO** (https://synapse-geo-audit.vercel.app):
+1. 🌐 **SynapseGEO** (https://work-minh-lap.vercel.app/synapsegeo):
    Công cụ kiểm tra xem website có bị chặn bot ChatGPT hay Perplexity không. Các agency SEO sẵn sàng trả $19 để xuất báo cáo kiểm toán cho khách hàng.
 
 2. ⭐ **ReviewGenius AI** (https://work-minh-lap.vercel.app/reviewgenius):

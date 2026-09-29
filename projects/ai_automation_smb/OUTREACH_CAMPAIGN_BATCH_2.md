@@ -68,7 +68,7 @@ Here's what our engine detected:
 - Entity Knowledge Graph Schema coverage (JSON-LD)
 - Semantic answer density score
 
-👉 Free Audit Tool: https://synapse-geo-audit.vercel.app
+👉 Free Audit Tool: https://work-minh-lap.vercel.app/synapsegeo
 
 With over 60% of modern software evaluations now starting directly in LLMs rather than Google's 10 blue links, having a high GEO readiness score is crucial to avoid losing trials to competitors.
 
@@ -93,7 +93,7 @@ Hi [Name],
 Just following up to make sure this didn't slip through the cracks.
 
 Did you have a chance to run your domain through our free audit engine?
-👉 https://synapse-geo-audit.vercel.app
+👉 https://work-minh-lap.vercel.app/synapsegeo
 
 Fixing the AI crawler permissions usually takes under 10 minutes and ensures you capture leads researching your software on ChatGPT.
 

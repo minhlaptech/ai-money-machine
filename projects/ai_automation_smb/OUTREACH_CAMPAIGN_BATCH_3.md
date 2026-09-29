@@ -114,7 +114,7 @@ AI Workflow Automation Consultant
   *"Hi [Name], just wanted to float this to the top of your inbox. Did you have a moment to check the interactive demo at https://work-minh-lap.vercel.app/chatbotdemo ? Happy to tailor a mock intake flow specific to [Firm Name]’s practice areas if you’d like."*
 - **Ngày 7 (Giá trị gia tăng - Value Add)**:  
   *Gửi link kiểm tra SEO & AI Search audit:*  
-  *"Hi [Name], while analyzing your digital presence, I also ran an AI search readiness check on your domain. Voice engines (Perplexity & ChatGPT) are increasingly citing law firms directly: https://synapse-geo-audit.vercel.app . Thought this report might be insightful for your marketing team."*
+  *"Hi [Name], while analyzing your digital presence, I also ran an AI search readiness check on your domain. Voice engines (Perplexity & ChatGPT) are increasingly citing law firms directly: https://work-minh-lap.vercel.app/synapsegeo . Thought this report might be insightful for your marketing team."*
 - **Ngày 12 (Breakup Email)**:  
   *Subject: closing out file for [Firm Name]*  
   *"Hi [Name], since I haven't heard back, I assume AI intake automation isn't a priority right now. I’ll close out your file and won’t follow up further. If you ever want to revisit automating patient/client bookings down the road, feel free to reach out anytime. Wishing [Firm Name] continued success!"*

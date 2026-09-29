@@ -44,7 +44,7 @@
   - Đăng 1 bài chia sẻ giá trị trên **LinkedIn**.
 - **Bước 3 (2 phút)**: Đính kèm đường link dẫn về:
   - Cổng thông tin miễn phí: `https://ai-automation-guide-omega.vercel.app`
-  - Hoặc công cụ kiểm tra miễn phí: `https://synapse-geo-audit.vercel.app`
+  - Hoặc công cụ kiểm tra miễn phí: `https://work-minh-lap.vercel.app/synapsegeo`
   *(Tất cả người đọc tải tài liệu miễn phí đều được đưa vào phễu Email 5 ngày tự động chào bán gói Master Bundle $39).*
 
 ---
@@ -79,7 +79,7 @@
 ## 🛠️ DANH MỤC TRUY CẬP NHANH CÁC LIÊN KẾT CỐT LÕI
 
 - 🌐 **Dashboard Chỉ Huy**: `https://work-minh-lap.vercel.app` (hoặc mở [`index.html`](file:///d:/Project/work/index.html))
-- ⚡ **SynapseGEO Audit Engine**: `https://synapse-geo-audit.vercel.app`
+- ⚡ **SynapseGEO Audit Engine**: `https://work-minh-lap.vercel.app/synapsegeo`
 - 💬 **Portfolio Demo Khách Hàng**: `https://work-minh-lap.vercel.app/chatbotdemo`
 - 📚 **Cổng Tri Thức & Blog 8 Bài**: `https://ai-automation-guide-omega.vercel.app`
 - 📊 **Bộ Tính Toán ROI Khách Hàng**: `https://ai-automation-guide-omega.vercel.app/calculator`

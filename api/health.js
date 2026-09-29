@@ -29,7 +29,7 @@ export default function handler(req, res) {
       blog_guides: 8
     },
     services: [
-      { name: 'SynapseGEO', status: 'live', url: 'https://synapse-geo-audit.vercel.app' },
+      { name: 'SynapseGEO', status: 'live', url: 'https://work-minh-lap.vercel.app/synapsegeo' },
       { name: 'ReviewGenius AI', status: 'live', url: 'https://work-minh-lap.vercel.app/reviewgenius' },
       { name: 'HeadlineIQ', status: 'live', url: 'https://work-minh-lap.vercel.app/headlineiq' },
       { name: 'AI Resource Hub', status: 'live', url: 'https://work-minh-lap.vercel.app/blog' },

@@ -20,6 +20,9 @@ if sys.stdout.encoding != 'utf-8':
 ROOT_DIR = Path(__file__).resolve().parent.parent
 
 OLD_NEW_PAIRS = [
+    ("https://synapse-geo-audit.vercel.app", "https://work-minh-lap.vercel.app/synapsegeo"),
+    ("http://synapse-geo-audit.vercel.app", "https://work-minh-lap.vercel.app/synapsegeo"),
+    ("synapse-geo-audit.vercel.app", "work-minh-lap.vercel.app/synapsegeo"),
     ("https://chatbotdemo-hazel.vercel.app", "https://work-minh-lap.vercel.app/chatbotdemo"),
     ("http://chatbotdemo-hazel.vercel.app", "https://work-minh-lap.vercel.app/chatbotdemo"),
     ("chatbotdemo-hazel.vercel.app", "work-minh-lap.vercel.app/chatbotdemo"),

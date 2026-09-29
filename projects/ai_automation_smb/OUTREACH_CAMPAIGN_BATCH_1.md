@@ -65,7 +65,7 @@ We implemented an automated 15-second AI text-back workflow: whenever your line 
 This single workflow captured $9,200 in recovered emergency jobs for a local contractor last month.
 
 I also ran an AI search audit on your domain to see if voice search (ChatGPT / Perplexity) recommends your business:
-👉 Audit Engine: https://synapse-geo-audit.vercel.app
+👉 Audit Engine: https://work-minh-lap.vercel.app/synapsegeo
 
 Happy to share a 2-minute video walkthrough showing how this works if you find it helpful.
 

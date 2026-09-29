@@ -366,7 +366,7 @@
   - Tích hợp thanh điều hướng chéo đồng bộ trên toàn bộ các công cụ Micro-SaaS:
     - [HeadlineIQ](https://headlineiq-eta.vercel.app)
     - [ReviewGenius AI](https://work-minh-lap.vercel.app/reviewgenius)
-    - [SynapseGEO](https://synapse-geo-audit.vercel.app)
+    - [SynapseGEO](https://work-minh-lap.vercel.app/synapsegeo)
     - [AI Resource Hub](https://ai-automation-guide-omega.vercel.app)
   - Tạo vòng lặp lưu lượng truy cập (Traffic Loop) khép kín, người dùng từ công cụ này có thể dễ dàng khám phá và sử dụng các công cụ khác, tối đa hóa tỷ lệ chuyển đổi sang sản phẩm trả phí và tải tài liệu.
 - ✅ **Đồng bộ mã nguồn**:
@@ -983,7 +983,7 @@
 ### 🎉 Milestones Hoàn Thành:
 - ✅ **Nâng Cấp Bộ Sinh Thư Ứng Tuyển Upwork Lên 6 Lĩnh Vực Hot Nhất ([scripts/upwork_proposal_generator.py](file:///d:/Project/work/scripts/upwork_proposal_generator.py))**:
   - Bổ sung 3 lĩnh vực dịch vụ AI có tỷ lệ thắng thầu và giá trị hợp đồng cao nhất ($500 - $3,500/job):
-    1. `geo_seo`: Kiểm toán tối ưu tìm kiếm AI & Schema JSON-LD (Dẫn chứng tool trực tiếp `https://synapse-geo-audit.vercel.app`).
+    1. `geo_seo`: Kiểm toán tối ưu tìm kiếm AI & Schema JSON-LD (Dẫn chứng tool trực tiếp `https://work-minh-lap.vercel.app/synapsegeo`).
     2. `review_management`: Hệ thống phản hồi đánh giá Google & Yelp tự động bằng AI (Dẫn chứng app trực tiếp `https://work-minh-lap.vercel.app/reviewgenius`).
     3. `client_portal`: Triển khai AI Copilot kèm Cổng Quản Trị Khách Hàng VIP thương hiệu riêng (Dẫn chứng `https://work-minh-lap.vercel.app/portal`).
   - Hỗ trợ đầy đủ 6 mẫu Cover Letter chiến lược lưu tại [`projects/ai_freelancing/proposals/`](file:///d:/Project/work/projects/ai_freelancing/proposals/).

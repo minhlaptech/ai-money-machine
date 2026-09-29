@@ -23,7 +23,7 @@ In this video, I break down the exact step-by-step roadmap to start your own AI 
 📌 RESOURCES & LIVE DEMOS MENTIONED:
 👉 🤖 Interactive Chatbot Portfolio Demo: https://work-minh-lap.vercel.app/chatbotdemo
 👉 📖 Free eBook 'The AI Money Blueprint' (16,000 words): https://ai-automation-guide-omega.vercel.app
-👉 ⚡ SynapseGEO AI Search Engine Audit Tool: https://synapse-geo-audit.vercel.app
+👉 ⚡ SynapseGEO AI Search Engine Audit Tool: https://work-minh-lap.vercel.app/synapsegeo
 👉 📦 Gumroad Digital Products & Templates: https://minhlap.gumroad.com
 
 ⏱️ TIMESTAMPS:

@@ -64,7 +64,7 @@
 ---
 
 ### [04:30 - 07:15] STEP 2: THE "PROOF-FIRST" PROFILE BLUEPRINT
-**Visual:** Displaying the Upwork profile layout from our `UPWORK_MASTERY_KIT.md`. Highlighting the headline: "AI Automation Architect | Custom AI Chatbots | Make.com Integration". Showing the portfolio section linking directly to `work-minh-lap.vercel.app/chatbotdemo` and `synapse-geo-audit.vercel.app`.
+**Visual:** Displaying the Upwork profile layout from our `UPWORK_MASTERY_KIT.md`. Highlighting the headline: "AI Automation Architect | Custom AI Chatbots | Make.com Integration". Showing the portfolio section linking directly to `work-minh-lap.vercel.app/chatbotdemo` and `work-minh-lap.vercel.app/synapsegeo`.
 
 **Voiceover:**
 > "When clients look at a freelancer's profile, they spend an average of 4 seconds deciding whether to read or bounce.
@@ -76,7 +76,7 @@
 >
 > Next, include **proof of work**. Even if you have zero Upwork reviews, you can embed working project links in your portfolio:
 > - Link 1: Your interactive chatbot demo at `work-minh-lap.vercel.app/chatbotdemo`.
-> - Link 2: Your live micro-tool at `synapse-geo-audit.vercel.app`.
+> - Link 2: Your live micro-tool at `work-minh-lap.vercel.app/synapsegeo`.
 >
 > When a client clicks and sees that your demo actually works smoothly on their phone, you immediately leapfrog 50 generic applicants who only sent text."
 

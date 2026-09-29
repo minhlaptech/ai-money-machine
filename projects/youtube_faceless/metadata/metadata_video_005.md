@@ -21,7 +21,7 @@ How to Build & Monetize a Micro-SaaS with AI in 2026 (No Coding Required)
 In this video, I break down the exact step-by-step roadmap to start your own AI Automation Agency (AAA) in 2026 with zero coding, land high-ticket local business clients, and build recurring monthly retainers ($1,500 setup + $750/mo).
 
 📌 RESOURCES & LIVE DEMOS MENTIONED:
-👉 🌐 Live Micro-SaaS Demo (SynapseGEO): https://synapse-geo-audit.vercel.app
+👉 🌐 Live Micro-SaaS Demo (SynapseGEO): https://work-minh-lap.vercel.app/synapsegeo
 👉 📖 The AI Money Blueprint eBook: https://minhlap.gumroad.com/l/xqckmu
 👉 📚 AI Resource Hub & Free Guides: https://ai-automation-guide-omega.vercel.app
 
@@ -50,7 +50,7 @@ microsaas, micro saas ai, build saas with ai, chatgpt coding, solo founder, indi
 
 ## 📌 4. Pinned Comment (Pin to Top of Comments)
 ```text
-🛠️ Test the live Micro-SaaS tool we built in this video: https://synapse-geo-audit.vercel.app
+🛠️ Test the live Micro-SaaS tool we built in this video: https://work-minh-lap.vercel.app/synapsegeo
 
 Get the complete 16,000-word launch blueprint here: https://minhlap.gumroad.com/l/xqckmu
 

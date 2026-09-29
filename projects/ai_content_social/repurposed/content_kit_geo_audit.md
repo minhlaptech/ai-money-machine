@@ -35,7 +35,7 @@ Without structured JSON-LD schemas, LLMs hallucinate your pricing and features. 
 ---
 
 **Tweet 5**:
-4/ Our audit tool SynapseGEO (https://synapse-geo-audit.vercel.app) found that 68% of local businesses have zero structured data for voice assistants.
+4/ Our audit tool SynapseGEO (https://work-minh-lap.vercel.app/synapsegeo) found that 68% of local businesses have zero structured data for voice assistants.
 
 The gap between businesses adopting AI search readiness vs traditional SEO is where the biggest traffic arbitrage exists in 2026.
 
@@ -49,7 +49,7 @@ Don't wait for your competitors to take the top recommendation slot on voice ass
 ---
 
 **Tweet 7 (Call to Action)**:
-Check your domain's AI Search score in 10 seconds: https://synapse-geo-audit.vercel.app
+Check your domain's AI Search score in 10 seconds: https://work-minh-lap.vercel.app/synapsegeo
 
 RT the first tweet if you found this valuable! 🔄
 
@@ -76,7 +76,7 @@ LLMs require deep JSON-LD Schema (Organization, WebSite, FAQPage, SoftwareApplic
 💡 Bottom line:
 The fix takes 5 minutes: update robots.txt permissions and embed structured Schema markup.
 
-👉 Check your domain's AI Search score in 10 seconds: https://synapse-geo-audit.vercel.app
+👉 Check your domain's AI Search score in 10 seconds: https://work-minh-lap.vercel.app/synapsegeo
 
 What is your take on generative search vs traditional Google SEO? Let's discuss in the comments below.
 ```
@@ -110,6 +110,6 @@ A few surprising findings:
 - If your robots.txt inadvertently disallows GPTBot, you are completely omitted from AI citations.
 - LLMs require deep JSON-LD Schema (Organization, WebSite, FAQPage, SoftwareApplication) to extract factual confidence scores.
 
-We built a lightweight open tool to check this: Check your domain's AI Search score in 10 seconds: https://synapse-geo-audit.vercel.app
+We built a lightweight open tool to check this: Check your domain's AI Search score in 10 seconds: https://work-minh-lap.vercel.app/synapsegeo
 
 Would love to hear how other founders here are preparing for AI search traffic. Are you noticing a decline in organic Google referrals yet?

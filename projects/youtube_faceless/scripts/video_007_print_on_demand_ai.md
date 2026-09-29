@@ -6,7 +6,7 @@
 **Affiliate & Product Links in Description:**
 - Free 16,000-word Blueprint eBook: https://ai-automation-guide-omega.vercel.app
 - 110+ AI Marketing Prompts Pack: https://minhlap.gumroad.com
-- SynapseGEO AI Search Inspector: https://synapse-geo-audit.vercel.app
+- SynapseGEO AI Search Inspector: https://work-minh-lap.vercel.app/synapsegeo
 - AI Empire Master Bundle ($39): https://minhlap.lemonsqueezy.com
 
 ---

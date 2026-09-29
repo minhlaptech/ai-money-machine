@@ -28,7 +28,7 @@ I help founders, e-commerce brands, and agency owners automate their repetitive 
 
 🌟 PROOF OF WORK & LIVE DEMOS:
 - Interactive Client Chatbot Demo: https://work-minh-lap.vercel.app/chatbotdemo
-- AI Search & SEO Audit Engine: https://synapse-geo-audit.vercel.app
+- AI Search & SEO Audit Engine: https://work-minh-lap.vercel.app/synapsegeo
 - 15+ Production Make.com/Zapier Blueprints deployed for clients.
 
 🤝 HOW I WORK:
@@ -123,7 +123,7 @@ Integrating the OpenAI Assistants API or building a custom Copilot requires prop
 I specialize in building custom AI assistants integrated via lightweight serverless edge functions (Vercel/Node.js or Python FastAPI).
 
 Take a look at one of my public Micro-SaaS tools leveraging AI inspection:
-👉 https://synapse-geo-audit.vercel.app
+👉 https://work-minh-lap.vercel.app/synapsegeo
 
 What specific user inputs will your assistant receive, and what output format do you need returned to your UI?
 

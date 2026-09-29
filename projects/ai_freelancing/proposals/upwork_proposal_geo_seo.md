@@ -5,7 +5,7 @@ Saw your posting regarding the ai search & geo (generative engine optimization) 
 Traditional SEO alone is losing ground to AI search engines (ChatGPT, Perplexity, Claude). Making your brand visible to LLMs requires precise robots.txt permissions and deep JSON-LD Knowledge Graph Schemas.
 
 I built and deployed SynapseGEO, an autonomous Generative Engine Optimization inspector:
-👉 Live Audit Engine: https://synapse-geo-audit.vercel.app
+👉 Live Audit Engine: https://work-minh-lap.vercel.app/synapsegeo
 
 A couple of quick questions to ensure we scope this accurately:
 1. Do you already have access to edit your website's robots.txt and DNS records?

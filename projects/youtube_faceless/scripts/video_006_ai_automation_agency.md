@@ -7,7 +7,7 @@
 - Live Interactive Chatbot Portfolio Demo: https://work-minh-lap.vercel.app/chatbotdemo
 - Free 16,000-word Blueprint eBook: https://ai-automation-guide-omega.vercel.app
 - AI Automation Template Pack (Make.com & Zapier): https://minhlap.gumroad.com
-- SynapseGEO Audit Tool: https://synapse-geo-audit.vercel.app
+- SynapseGEO Audit Tool: https://work-minh-lap.vercel.app/synapsegeo
 
 ---
 

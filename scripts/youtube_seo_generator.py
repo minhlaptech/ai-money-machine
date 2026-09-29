@@ -37,7 +37,7 @@ VIDEO_METADATA_PRESETS = {
         "links": [
             ("🤖 Interactive Chatbot Portfolio Demo", "https://work-minh-lap.vercel.app/chatbotdemo"),
             ("📖 Free eBook 'The AI Money Blueprint' (16,000 words)", "https://ai-automation-guide-omega.vercel.app"),
-            ("⚡ SynapseGEO AI Search Engine Audit Tool", "https://synapse-geo-audit.vercel.app"),
+            ("⚡ SynapseGEO AI Search Engine Audit Tool", "https://work-minh-lap.vercel.app/synapsegeo"),
             ("📦 Gumroad Digital Products & Templates", "https://minhlap.gumroad.com")
         ],
         "tags": [
@@ -65,7 +65,7 @@ VIDEO_METADATA_PRESETS = {
             "12:50 - Free Resource & Next Steps"
         ],
         "links": [
-            ("🌐 Live Micro-SaaS Demo (SynapseGEO)", "https://synapse-geo-audit.vercel.app"),
+            ("🌐 Live Micro-SaaS Demo (SynapseGEO)", "https://work-minh-lap.vercel.app/synapsegeo"),
             ("📖 The AI Money Blueprint eBook", "https://minhlap.gumroad.com/l/xqckmu"),
             ("📚 AI Resource Hub & Free Guides", "https://ai-automation-guide-omega.vercel.app")
         ],
@@ -74,7 +74,7 @@ VIDEO_METADATA_PRESETS = {
             "solo founder", "indie hacker saas", "lemonsqueezy store", "vercel edge",
             "passive income software", "ai money machine", "seo audit tool"
         ],
-        "pinned_comment": "🛠️ Test the live Micro-SaaS tool we built in this video: https://synapse-geo-audit.vercel.app\n\nGet the complete 16,000-word launch blueprint here: https://minhlap.gumroad.com/l/xqckmu\n\nWhat micro-tool idea are you building next? Let me know below!"
+        "pinned_comment": "🛠️ Test the live Micro-SaaS tool we built in this video: https://work-minh-lap.vercel.app/synapsegeo\n\nGet the complete 16,000-word launch blueprint here: https://minhlap.gumroad.com/l/xqckmu\n\nWhat micro-tool idea are you building next? Let me know below!"
     },
     "video_007": {
         "title": "How to Build a $1,000/Month AI Print-on-Demand Store in 2026 (Etsy + Printify)",

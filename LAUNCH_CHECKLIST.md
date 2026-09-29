@@ -19,7 +19,7 @@
   - 15 blueprints Make.com & Zapier kèm tài liệu hướng dẫn
 - [x] **Product 4: SynapseGEO Pro ($19.00 Lifetime)**
   - Store: `MinhLap` (ID: `485872`, URL: `https://minhlap.lemonsqueezy.com`)
-  - Webhook URL: `https://synapse-geo-audit.vercel.app/api/webhook`
+  - Webhook URL: `https://work-minh-lap.vercel.app/synapsegeo/api/webhook`
 
 ---
 
@@ -37,7 +37,7 @@
 
 ## ✅ PHASE 3: Deploy Websites lên Vercel — HOÀN THÀNH
 - [x] **GitHub Monorepo**: https://github.com/minhlaptech/ai-money-machine (Đã push sạch)
-- [x] **SynapseGEO**: https://synapse-geo-audit.vercel.app (HTTP 200 • Live Inspect API)
+- [x] **SynapseGEO**: https://work-minh-lap.vercel.app/synapsegeo (HTTP 200 • Live Inspect API)
 - [x] **ReviewGenius AI**: https://work-minh-lap.vercel.app/reviewgenius (HTTP 200)
 - [x] **HeadlineIQ**: https://headlineiq-eta.vercel.app (HTTP 200)
 - [x] **AI Resource Hub**: https://ai-automation-guide-omega.vercel.app (HTTP 200)

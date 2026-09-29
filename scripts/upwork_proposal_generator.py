@@ -46,7 +46,7 @@ PROPOSAL_TEMPLATES = {
     "geo_seo": {
         "subject": "AI Search & GEO (Generative Engine Optimization) Audit",
         "hook": "Traditional SEO alone is losing ground to AI search engines (ChatGPT, Perplexity, Claude). Making your brand visible to LLMs requires precise robots.txt permissions and deep JSON-LD Knowledge Graph Schemas.",
-        "proof": "I built and deployed SynapseGEO, an autonomous Generative Engine Optimization inspector:\n👉 Live Audit Engine: https://synapse-geo-audit.vercel.app",
+        "proof": "I built and deployed SynapseGEO, an autonomous Generative Engine Optimization inspector:\n👉 Live Audit Engine: https://work-minh-lap.vercel.app/synapsegeo",
         "questions": [
             "Do you already have access to edit your website's robots.txt and DNS records?",
             "Are you targeting local search recommendations or national B2B software queries?"
