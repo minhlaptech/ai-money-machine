@@ -38,8 +38,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "call_booked",
-    "updated_at": "2026-09-30 05:01"
+    "status": "expansion_won",
+    "updated_at": "2026-09-30 05:03"
   },
   {
     "id": 52,
@@ -52,8 +52,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "call_booked",
-    "updated_at": "2026-09-30 05:01"
+    "status": "expansion_won",
+    "updated_at": "2026-09-30 05:03"
   },
   {
     "id": 53,
@@ -66,8 +66,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "call_booked",
-    "updated_at": "2026-09-30 05:01"
+    "status": "expansion_won",
+    "updated_at": "2026-09-30 05:03"
   },
   {
     "id": 57,
@@ -80,8 +80,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 05:01"
+    "status": "call_booked",
+    "updated_at": "2026-09-30 05:04"
   },
   {
     "id": 31,
@@ -94,8 +94,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 05:01"
+    "status": "call_booked",
+    "updated_at": "2026-09-30 05:04"
   },
   {
     "id": 54,
@@ -108,8 +108,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 05:01"
+    "status": "call_booked",
+    "updated_at": "2026-09-30 05:04"
   },
   {
     "id": 59,
@@ -122,8 +122,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "identified",
-    "updated_at": "2026-09-30 04:53"
+    "status": "briefing_sent",
+    "updated_at": "2026-09-30 05:04"
   },
   {
     "id": 58,
@@ -136,8 +136,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "identified",
-    "updated_at": "2026-09-30 04:53"
+    "status": "briefing_sent",
+    "updated_at": "2026-09-30 05:04"
   },
   {
     "id": 51,
@@ -150,8 +150,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "identified",
-    "updated_at": "2026-09-30 04:53"
+    "status": "briefing_sent",
+    "updated_at": "2026-09-30 05:04"
   },
   {
     "id": 47,
@@ -164,8 +164,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "identified",
-    "updated_at": "2026-09-30 04:53"
+    "status": "briefing_sent",
+    "updated_at": "2026-09-30 05:04"
   },
   {
     "id": 56,
