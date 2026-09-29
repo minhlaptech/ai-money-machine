@@ -74,7 +74,37 @@ Vui lòng đăng ký các tài khoản sau và ghi trạng thái bên dưới:
 ---
 
 ## ✅ ĐÃ XỬ LÝ (Lịch sử)
-_Chưa có_
+
+### 2026-09-29: Đăng ký tài khoản
+- ✅ LemonSqueezy, Vercel, Gumroad, Fiverr đã đăng ký
+- ❌ Upwork bị chặn → Dùng alternatives
+
+---
+
+## ⚡ YÊU CẦU MỚI TỪ AI
+
+### 5. 🔗 TẠO GITHUB REPO CHO SYNAPSEGEO
+> **Ưu tiên cao** - Cần để deploy lên Vercel
+
+Bạn cần tạo một GitHub repository và push code SynapseGEO:
+
+**Cách làm nhanh (2 phút):**
+1. Vào https://github.com/new
+2. Repository name: `synapse-geo`
+3. Để Public
+4. Nhấn "Create repository"
+5. Copy URL repo (VD: `https://github.com/username/synapse-geo.git`)
+6. Ghi URL vào đây: `_______________`
+
+Hoặc chạy lệnh trong terminal:
+```
+gh auth login
+gh repo create synapse-geo --public --source=d:\Project\work\products\geo_audit_engine --push
+```
+
+> **User ghi ở đây** (URL repo GitHub):
+>
+> _Chưa có_
 
 ---
 
