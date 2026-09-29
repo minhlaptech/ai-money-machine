@@ -1,0 +1,255 @@
+{
+  "updated_at": "2026-09-29 15:48:29",
+  "total_analyzed": 40,
+  "high_priority_opportunities": [
+    {
+      "source": "GitHub Trending",
+      "title": "PhialsBasement/LibreCrawl - Free desktop SEO crawler - open source alternative to Screaming Frog and similar tools. Crawl websites, analyze links, extract SEO data, and export results without subscription fees. Fully customizable and extensible!",
+      "text": "Free desktop SEO crawler - open source alternative to Screaming Frog and similar tools. Crawl websites, analyze links, extract SEO data, and export results without subscription fees. Fully customizable and extensible!",
+      "score": 995,
+      "comments": 208,
+      "url": "https://github.com/PhialsBasement/LibreCrawl",
+      "intent_score": 75,
+      "matched_keywords": [
+        "alternative to",
+        "seo"
+      ]
+    },
+    {
+      "source": "Dev.to (#saas)",
+      "title": "I built a Chrome extension to stop getting lost in 11,000 startups with real revenue",
+      "text": "I spend a lot of evenings on TrustMRR looking for my next thing to build. It lists 11,000+ startups...",
+      "score": 0,
+      "comments": 1,
+      "url": "https://dev.to/resuhive/i-built-a-chrome-extension-to-stop-getting-lost-in-11000-startups-with-real-revenue-49b1",
+      "intent_score": 75,
+      "matched_keywords": [
+        "looking for",
+        "extension",
+        "mrr"
+      ]
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: Free alternative to graphics design giants",
+      "text": "A webassembly web based app that help editing raster and vector on browser without any subscription or signups",
+      "score": 119,
+      "comments": 21,
+      "url": "https://news.ycombinator.com/item?id=49875308",
+      "intent_score": 50,
+      "matched_keywords": [
+        "alternative to"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "artesaos/seotools - SEO Tools for Laravel",
+      "text": "SEO Tools for Laravel",
+      "score": 3366,
+      "comments": 513,
+      "url": "https://github.com/artesaos/seotools",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "sethblack/python-seo-analyzer - An SEO tool that analyzes the structure of a site, crawls the site, count words in the body of the site and warns of any technical SEO issues.",
+      "text": "An SEO tool that analyzes the structure of a site, crawls the site, count words in the body of the site and warns of any technical SEO issues.",
+      "score": 1482,
+      "comments": 349,
+      "url": "https://github.com/sethblack/python-seo-analyzer",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "serpapi/awesome-seo-tools - Curated list of awesome SEO tools",
+      "text": "Curated list of awesome SEO tools",
+      "score": 1101,
+      "comments": 368,
+      "url": "https://github.com/serpapi/awesome-seo-tools",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "StanGirard/seo-audits-toolkit - SEO & Security Audit for Websites. Lighthouse & Security Headers crawler, Sitemap/Keywords/Images Extractor,  Summarizer, etc ...",
+      "text": "SEO & Security Audit for Websites. Lighthouse & Security Headers crawler, Sitemap/Keywords/Images Extractor,  Summarizer, etc ...",
+      "score": 813,
+      "comments": 155,
+      "url": "https://github.com/StanGirard/seo-audits-toolkit",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "StJudeWasHere/seonaut - Open source SEO audit tool.",
+      "text": "Open source SEO audit tool.",
+      "score": 796,
+      "comments": 134,
+      "url": "https://github.com/StJudeWasHere/seonaut",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "butschster/LaravelMetaTags - The most powerful and extendable tools for managing SEO Meta Tags in your Laravel project",
+      "text": "The most powerful and extendable tools for managing SEO Meta Tags in your Laravel project",
+      "score": 634,
+      "comments": 56,
+      "url": "https://github.com/butschster/LaravelMetaTags",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "iannuttall/seo - The only SEO skill your agent needs. 70+ SEO audit tools through a local CLI and MCP server, using your own crawl, Search Console, and GA4 data.",
+      "text": "The only SEO skill your agent needs. 70+ SEO audit tools through a local CLI and MCP server, using your own crawl, Search Console, and GA4 data.",
+      "score": 543,
+      "comments": 45,
+      "url": "https://github.com/iannuttall/seo",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "sneg55/curatedseotools - Best SEO Tools Stash",
+      "text": "Best SEO Tools Stash",
+      "score": 471,
+      "comments": 92,
+      "url": "https://github.com/sneg55/curatedseotools",
+      "intent_score": 50,
+      "matched_keywords": [
+        "seo"
+      ]
+    },
+    {
+      "source": "Hacker News (ask)",
+      "title": "Management is forcing us to use AI",
+      "text": "I’m paraphrasing; «You use AI or you’re not working here. Humans are not perfect coders nor are AIs. So why should you be allowed to code without AI. It’s a netloss for us. You either use it or you start looking for a different job.»<p>Can’t believe Im being forced to make myself dumber. I really dont want to spend even more hours in front of my laptop, but looks like I have to because this whole ",
+      "score": 16,
+      "comments": 18,
+      "url": "https://news.ycombinator.com/item?id=49873913",
+      "intent_score": 40,
+      "matched_keywords": [
+        "looking for"
+      ]
+    },
+    {
+      "source": "Hacker News (ask)",
+      "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
+      "text": "Do you currently work with or know anyone who is still using:<p>* dBase&#x2F;Clipper&#x2F;CLARION&#x2F;Paradox&#x2F;other DOS RAD environments on period hardware to run business processes?<p>* CNC mills&#x2F;spectrometers&#x2F;microscopes&#x2F;other industrial instruments controlled by ISA cards (either bespoke or standards like GPIB)?<p>* Anything with a parallel port dongle?<p>If so, I&#x27;d be",
+      "score": 289,
+      "comments": 85,
+      "url": "https://news.ycombinator.com/item?id=49848955",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (ask)",
+      "title": "Ask HN: Any nerds out there who've read a lot of research papers?",
+      "text": "Which are the most memorable abstracts you have read? I know I am a jackass who usually vibecodes my way through assignments but even I don&#x27;t want to write a cookie-cutter intro for my paper. I wanna write something that stays with the reader. What paper has stuck with you, what made it memorable?",
+      "score": 33,
+      "comments": 19,
+      "url": "https://news.ycombinator.com/item?id=49835866",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: Pac-Bench – How well can models one-shot a Pac-Man game?",
+      "text": "Benchmarks how well Harness+models can create a Pac-Man game from a single prompt:<p>“Create a Pac-Man game in a single HTML page”<p>Each model gets one shot — no follow-up prompts or fixes.",
+      "score": 52,
+      "comments": 18,
+      "url": "https://news.ycombinator.com/item?id=49885493",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: HN.watch – Videos of all Hacker News posts",
+      "text": "Hi HN, I’m Per, founder of Scrimba (YC S20). We’ve spent the last decade teaching people how to code with an HTML-based video format. We’ve now plugged an LLM into it, so that people can create explainer videos about anything. It’s called “Scrimba Explain”.<p>To demo this technology for Hacker News, we built HN.watch. It’s like HN, but with explainer videos instead of articles. We create them on-t",
+      "score": 170,
+      "comments": 46,
+      "url": "https://news.ycombinator.com/item?id=49879401",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: Destroy Any Website with Stickman",
+      "text": "",
+      "score": 142,
+      "comments": 24,
+      "url": "https://news.ycombinator.com/item?id=49880601",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: PaperMono, e-ink fridge magnet shopping list with mobile web page",
+      "text": "Fridge magnet shopping list on an M5Stack PaperMono (ESP32-S3, e-ink\ntouchscreen), synced with a phone web app over Wi-Fi. Works offline,\n~2,400 lines of C++.<p>This is a great wee device! BLE, Wi-Fi and LoRa on one board makes it flexible\nfor way more than a shopping list, this is just what I built first. This\nfirmware only uses Wi-Fi.<p>Fully vibe-coded with Claude Code, I didn&#x27;t hand-write",
+      "score": 136,
+      "comments": 24,
+      "url": "https://news.ycombinator.com/item?id=49875801",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+      "text": "",
+      "score": 308,
+      "comments": 50,
+      "url": "https://news.ycombinator.com/item?id=49869574",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: Jev Plays Pokémon Red",
+      "text": "Hey HN! Wanted to share a fun project I&#x27;ve been hacking on. Given Jev can make decisions really fast (but not fast enough to play Doom yet sadly), I wanted to try and push it to play a more complex game than Tetris. So I went with Pokémon.<p>I&#x27;ve spent endless hours playing this game as a child so building this was a ton of fun.<p>I open sourced everything in case you want to hack on it ",
+      "score": 278,
+      "comments": 37,
+      "url": "https://news.ycombinator.com/item?id=49845172",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "merklefruit/SaaS4Devs - Awesome collection of content for developers trying to bootstrap their SaaS",
+      "text": "Awesome collection of content for developers trying to bootstrap their SaaS",
+      "score": 751,
+      "comments": 111,
+      "url": "https://github.com/merklefruit/SaaS4Devs",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Dev.to (#saas)",
+      "title": "Designing a tool that uses LLMs to negotiate SaaS prices. Looking for feedback on the architecture.",
+      "text": "One of the easiest ways to make an AI application difficult to use is to turn every capability into...",
+      "score": 0,
+      "comments": 1,
+      "url": "https://dev.to/karunya18/designing-a-tool-that-uses-llms-to-negotiate-saas-prices-looking-for-feedback-on-the-architecture-35kf",
+      "intent_score": 25,
+      "matched_keywords": [
+        "looking for"
+      ]
+    }
+  ]
+}

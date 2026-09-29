@@ -159,5 +159,24 @@ def run_scout():
 
     print(f"[✓] Quét hoàn tất! Đã lưu {len(result['high_priority_opportunities'])} cơ hội tiềm năng vào 'market_scout_report.md'.")
 
+    # Send summary to Telegram
+    try:
+        from pathlib import Path
+        sys.path.append(str(Path(__file__).resolve().parent.parent / "scripts"))
+        from telegram_bridge import send_message
+        top_items = result['high_priority_opportunities'][:3]
+        if top_items:
+            tg_msg = "📡 *[AI MARKET SCOUT - BÁO CÁO THỊ TRƯỜNG]*\n\n"
+            tg_msg += f"Đã quét 40 nguồn công nghệ, phát hiện *{len(result['high_priority_opportunities'])} cơ hội hot*:\n\n"
+            for idx, item in enumerate(top_items, 1):
+                title_short = item['title'][:75].replace("*", "").replace("_", "").replace("[", "").replace("]", "")
+                tg_msg += f"*{idx}. {title_short}*\n"
+                tg_msg += f"• Nguồn: `{item['source']}` | Điểm: `{item['intent_score']}`\n"
+                tg_msg += f"• Link: {item['url']}\n\n"
+            send_message(tg_msg)
+            print("[✓] Đã gửi thông báo tóm tắt cơ hội về Telegram!")
+    except Exception as tg_err:
+        print(f"[!] Không thể gửi Telegram: {tg_err}")
+
 if __name__ == "__main__":
     run_scout()
