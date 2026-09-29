@@ -39,7 +39,8 @@ def print_banner():
   [8] 👕 Tạo Bài Đăng Bán Hàng Print-on-Demand (Etsy / Printify Listing)
   [9] 📦 Đóng Gói Bộ 15 Kịch Bản Tự Động Hóa Make.com/n8n (Blueprint Pack ZIP)
   [10] 📊 Xem Báo Cáo Phễu Khách Hàng B2B CRM (Pipeline Summary & Deal Value)
-  [11] 🚀 Mở Executive Command Center Dashboard trên Trình Duyệt Web
+  [11] ☀️ Chạy Bản Tin Chỉ Huy Sáng (Daily Morning Briefing & Telegram Ping)
+  [12] 🚀 Mở Executive Command Center Dashboard trên Trình Duyệt Web
   [0] Thoát
 ======================================================================
 """)
@@ -110,6 +111,11 @@ def main_loop():
             run_script("scripts/crm_tracker.py", ["--summary"])
 
         elif choice == '11':
+            tg = input("Gửi bản tin chỉ huy sáng về Telegram không? (y/n, mặc định y): ").strip().lower()
+            args = ["--telegram"] if tg != 'n' else []
+            run_script("scripts/daily_briefing.py", args)
+
+        elif choice == '12':
             dash_url = "https://work-minh-lap.vercel.app"
             local_dash = ROOT_DIR / "index.html"
             print(f"[*] Đang mở Dashboard trên trình duyệt: {dash_url}")
@@ -122,7 +128,7 @@ def main_loop():
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 11.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 12.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 

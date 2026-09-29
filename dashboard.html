@@ -375,6 +375,7 @@
         <button class="tab-btn" onclick="switchTab('twitter-thread', this)">🐦 Twitter/X Viral Thread</button>
         <button class="tab-btn" onclick="switchTab('gumroad-links', this)">📦 Gumroad Store Links</button>
         <button class="tab-btn" onclick="switchTab('direct-leads', this)">🚀 1-Click Send Leads (30)</button>
+        <button class="tab-btn" onclick="switchTab('widget-generator', this)">🧩 Client Widget Generator</button>
       </div>
 
       <!-- Tab 1: Dental -->
@@ -508,6 +509,34 @@ RT the first tweet if you found this valuable! 🔄</div>
             <tbody id="leads-table-body"></tbody>
           </table>
         </div>
+      </div>
+
+      <!-- Tab 6: Widget Generator -->
+      <div id="widget-generator" class="copy-panel">
+        <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">
+          🛠️ <strong>Client Deliverable Embed Generator:</strong> Generate the 1-line script tag to install the 24/7 AI Receptionist & Booking Copilot onto any client's website (WordPress, Webflow, Shopify, Wix, custom HTML).
+        </p>
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin-bottom:16px;">
+          <div>
+            <label style="font-size:11px; text-transform:uppercase; color:var(--text-muted); display:block; margin-bottom:4px;">Client Business Name</label>
+            <input type="text" id="cfg-name" value="Austin Dental Co" oninput="updateWidgetSnippet()" style="width:100%; background:rgba(255,255,255,0.05); border:1px solid var(--border); border-radius:6px; padding:8px 12px; color:#fff; font-size:13px;">
+          </div>
+          <div>
+            <label style="font-size:11px; text-transform:uppercase; color:var(--text-muted); display:block; margin-bottom:4px;">Brand Color Theme</label>
+            <input type="text" id="cfg-color" value="#7c5cfc" oninput="updateWidgetSnippet()" style="width:100%; background:rgba(255,255,255,0.05); border:1px solid var(--border); border-radius:6px; padding:8px 12px; color:#fff; font-size:13px;">
+          </div>
+          <div>
+            <label style="font-size:11px; text-transform:uppercase; color:var(--text-muted); display:block; margin-bottom:4px;">Calendar / Booking URL</label>
+            <input type="text" id="cfg-booking" value="https://calendly.com/your-clinic" oninput="updateWidgetSnippet()" style="width:100%; background:rgba(255,255,255,0.05); border:1px solid var(--border); border-radius:6px; padding:8px 12px; color:#fff; font-size:13px;">
+          </div>
+        </div>
+        <div class="snippet-box" id="text-widget" style="font-family:var(--font-mono); font-size:12px; color:#00f2fe;">&lt;!-- MinhLap AI Copilot 24/7 Intake Widget --&gt;
+&lt;script src="https://work-minh-lap.vercel.app/copilot-widget.js" 
+        data-business="Austin Dental Co" 
+        data-color="#7c5cfc" 
+        data-booking="https://calendly.com/your-clinic" 
+        async&gt;&lt;/script&gt;</div>
+        <button class="btn-copy" onclick="copySnippet('text-widget')">📋 Copy 1-Line Embed Code</button>
       </div>
     </div>
 
