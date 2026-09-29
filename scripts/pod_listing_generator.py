@@ -74,6 +74,63 @@ POD_PRODUCTS_CONFIG = {
             "VIBRANT SUBLIMATION PRINT: Crisp, scratch-resistant print that retains its brilliance for years.",
             "SECURE PROTECTIVE PACKAGING: Ships in crush-proof molded foam packaging to ensure zero transit damage."
         ]
+    },
+    "deskmat_prompt_architect": {
+        "title": "Prompt Engineering Architecture Cyberpunk Extended Desk Mat (31.5\" x 15.5\") | Developer Mousepad",
+        "niche": "AI Engineers, Full-Stack Developers, Mechanical Keyboard Enthusiasts",
+        "mockup": "projects/print_on_demand/designs/deskmat_prompt_architect.jpg",
+        "retail_price": 34.00,
+        "printify_cost": 14.50,
+        "shipping_est": 6.00,
+        "etsy_tags": [
+            "desk mat developer", "cyberpunk mousepad", "prompt engineering", "ai desk accessory",
+            "extended gaming mat", "coding setup", "tech desk pad", "mechanical keyboard mat",
+            "developer gift", "minimalist desk mat", "indie hacker desk", "programmer mouse pad", "tech gifts men"
+        ],
+        "bullet_points": [
+            "ULTRA-LARGE DESK COVERAGE (31.5\" x 15.5\"): Ample room for both full-sized keyboard and mouse navigation.",
+            "PRECISION MICRO-WEAVE SURFACE: Engineered for pixel-perfect optical mouse tracking and effortless glide.",
+            "NON-SLIP NATURAL RUBBER BASE: Heavy-duty textured rubber grip keeps mat firmly anchored to your desk.",
+            "STITCHED ANTI-FRAY EDGES: Precision 360° edge stitching prevents peeling, curling, and surface degradation."
+        ]
+    },
+    "totebag_automate_or_die": {
+        "title": "Automate Or Be Automated Heavy Canvas Tote Bag | Tech Solopreneur & AI Engineer Streetwear",
+        "niche": "Solopreneurs, Tech Workers, Indie Hackers, Remote Builders",
+        "mockup": "projects/print_on_demand/designs/totebag_automate_or_die.jpg",
+        "retail_price": 24.00,
+        "printify_cost": 9.20,
+        "shipping_est": 4.80,
+        "etsy_tags": [
+            "tech tote bag", "automate or be automated", "programmer canvas bag", "ai developer merch",
+            "indie hacker tote", "minimalist tech bag", "laptop tote bag", "developer aesthetic",
+            "tech conference tote", "geek tote bag", "remote work bag", "eco canvas tote", "statement tote"
+        ],
+        "bullet_points": [
+            "100% HEAVYWEIGHT ORGANIC COTTON: Sturdy 12 oz canvas construction built to carry laptops, books, and daily tech essentials.",
+            "REINFORCED DUAL STRAPS: Heavy-duty cross-stitching on 24\" handles guarantees comfortable shoulder wear.",
+            "BOLD ARCHITECTURAL TYPOGRAPHY: High-density silk-screened 'AUTOMATE OR BE AUTOMATED' tech statement.",
+            "ECO-FRIENDLY & REUSABLE: Sustainable daily carry eliminating single-use plastic with timeless utility."
+        ]
+    },
+    "cap_10x_engineer": {
+        "title": "10x [AI] Augmented Developer Structured Snapback Cap | Cyberpunk Tech Streetwear Hat",
+        "niche": "Software Engineers, Founders, AI Hackers, Tech Enthusiasts",
+        "mockup": "projects/print_on_demand/designs/cap_10x_engineer.jpg",
+        "retail_price": 28.00,
+        "printify_cost": 11.00,
+        "shipping_est": 5.20,
+        "etsy_tags": [
+            "10x engineer hat", "programmer snapback", "tech cap", "developer baseball cap",
+            "ai hacker hat", "cyberpunk streetwear", "software engineer gift", "founder hat",
+            "minimalist tech hat", "geek snapback", "coding hat", "tech apparel", "indie hacker cap"
+        ],
+        "bullet_points": [
+            "HIGH-DENSITY EMBROIDERY: Crisp white & cyber green '10x [AI]' 3D embroidery that stands out.",
+            "CLASSIC STRUCTURED PROFILE: 6-panel high-profile crown with sturdy buckram front lining for enduring shape.",
+            "ADJUSTABLE SNAPBACK CLOSURE: One size fits most (56–62 cm circumference) with 7-position snap strap.",
+            "BREATHABLE PREMIUM TWILL: 80% acrylic / 20% wool blend offering crisp breathability and street-ready style."
+        ]
     }
 }
 
@@ -121,9 +178,9 @@ Upgrade your daily builder rotation with this high-density piece designed specif
 KEY HIGHLIGHTS:
 {bullets_text}
 
-SIZING & FIT:
-- Standard US Unisex fit. If you prefer an oversized streetwear look, we recommend sizing up one size.
-- Pre-shrunk fabric ensures consistent shape after laundering.
+SIZING & SPECIFICATIONS:
+- Premium direct-to-garment or precision sublimation print.
+- Pre-shrunk high-grade materials for enduring durability.
 
 CARE INSTRUCTIONS:
 - Machine wash cold, inside out, with like colors.
@@ -131,7 +188,7 @@ CARE INSTRUCTIONS:
 - Do not iron directly on print design.
 
 SHIPPING & PROCESSING:
-- Crafted and fulfilled within 2–4 business days.
+- Crafted and fulfilled on-demand within 2–4 business days.
 - Tracking number provided as soon as package is dispatched.
 ```
 
@@ -147,8 +204,56 @@ SHIPPING & PROCESSING:
     print(f"[✓] Created POD listing package: {out_file} (Net profit: ${gross_profit:.2f}/item)")
     return out_file
 
+def send_telegram_pod_digest():
+    import urllib.request
+    import json
+    bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "7756122540:AAErx-TV78dUcB0ch7IlZW10R0nIpt1pBhU")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "1624883046")
+
+    lines = [
+        "👕 <b>[POD MERCH PIPELINE EXPANDED (6 PRODUCTS)]</b>",
+        f"📅 <b>Updated:</b> {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+        "🏭 <b>Fulfillment Engine:</b> Printify + Etsy / Redbubble",
+        "",
+        "<b>Catalog & Profit Margins:</b>"
+    ]
+
+    total_net = 0
+    for key, p in POD_PRODUCTS_CONFIG.items():
+        net = p["retail_price"] - p["printify_cost"] - p["shipping_est"]
+        margin = (net / p["retail_price"]) * 100
+        total_net += net
+        lines.append(f"• <b>{p['title'][:38]}...</b>\n  Retail: <code>${p['retail_price']:.2f}</code> | Cost: <code>${p['printify_cost']:.2f}</code> | <b>Profit: ${net:.2f} ({margin:.0f}%)</b>")
+
+    lines.append(f"\n💰 <b>Avg Profit / Bundle:</b> <code>${total_net:.2f}</code>")
+    lines.append("📁 <i>Listings & mockups stored in projects/print_on_demand/</i>")
+
+    msg = "\n".join(lines)
+    try:
+        req = urllib.request.Request(
+            f"https://api.telegram.org/bot${bot_token}/sendMessage",
+            headers={"Content-Type": "application/json"},
+            data=json.dumps({"chat_id": chat_id, "text": msg, "parse_mode": "HTML"}).encode("utf-8")
+        )
+        with urllib.request.urlopen(req, timeout=10) as r:
+            if r.status == 200:
+                print("[✓] Dispatched POD Catalog Digest to Telegram (@Minhpv_bot)!")
+    except Exception as e:
+        print(f"[!] Telegram notification error: {e}")
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="POD Multi-Platform Listing Generator")
-    parser.add_argument("--item", default="hoodie_coffee_llms", choices=["hoodie_coffee_llms", "tshirt_it_works", "mug_ai_brain"], help="Product key")
+    parser.add_argument("--item", choices=list(POD_PRODUCTS_CONFIG.keys()), help="Product key")
+    parser.add_argument("--all", action="store_true", help="Generate all 6 POD listings")
+    parser.add_argument("--telegram", action="store_true", help="Send catalog digest to Telegram")
     args = parser.parse_args()
-    generate_pod_listing(args.item)
+
+    if args.all or not args.item:
+        for k in POD_PRODUCTS_CONFIG.keys():
+            generate_pod_listing(k)
+    else:
+        generate_pod_listing(args.item)
+
+    if args.telegram:
+        send_telegram_pod_digest()
+

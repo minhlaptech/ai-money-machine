@@ -1,5 +1,5 @@
 # 👕 Print-on-Demand Ready-to-Publish Listing: MUG_AI_BRAIN
-> **Tạo lúc**: 2026-09-29 22:11:14  
+> **Tạo lúc**: 2026-09-29 23:56:02  
 > **Ngách mục tiêu**: `Data Scientists, AI Researchers, Tech Enthusiasts`  
 > **Tệp thiết kế / Mockup**: `projects/print_on_demand/designs/mug_ai_circuit_brain.jpg`
 
@@ -33,9 +33,9 @@ KEY HIGHLIGHTS:
 • VIBRANT SUBLIMATION PRINT: Crisp, scratch-resistant print that retains its brilliance for years.
 • SECURE PROTECTIVE PACKAGING: Ships in crush-proof molded foam packaging to ensure zero transit damage.
 
-SIZING & FIT:
-- Standard US Unisex fit. If you prefer an oversized streetwear look, we recommend sizing up one size.
-- Pre-shrunk fabric ensures consistent shape after laundering.
+SIZING & SPECIFICATIONS:
+- Premium direct-to-garment or precision sublimation print.
+- Pre-shrunk high-grade materials for enduring durability.
 
 CARE INSTRUCTIONS:
 - Machine wash cold, inside out, with like colors.
@@ -43,7 +43,7 @@ CARE INSTRUCTIONS:
 - Do not iron directly on print design.
 
 SHIPPING & PROCESSING:
-- Crafted and fulfilled within 2–4 business days.
+- Crafted and fulfilled on-demand within 2–4 business days.
 - Tracking number provided as soon as package is dispatched.
 ```
 

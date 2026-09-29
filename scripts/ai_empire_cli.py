@@ -42,7 +42,7 @@ def print_banner():
   [11] 💼 Tạo Thư Ứng Tuyển Upwork Thắng Thầu (Upwork Cover Letter)
   [12] 📱 Tái Chế Nội Dung Đa Kênh (Twitter / LinkedIn / TikTok / Reddit)
   [13] 📺 Xuất Trọn Bộ Metadata Video YouTube (Titles, Tags, Timestamps)
-  [14] 👕 Tạo Bài Đăng Bán Hàng Print-on-Demand (Etsy / Printify Listing)
+  [14] 👕 Tạo Bài Đăng Print-on-Demand (6 Sản Phẩm: Hoodie, Tee, Mug, DeskMat, Tote, Cap)
   [15] 📦 Đóng Gói Bộ 15 Kịch Bản Tự Động Hóa Make.com/n8n (Blueprint Pack ZIP)
   [16] 📈 Xem Báo Cáo Phễu Khách Hàng B2B CRM (Pipeline Summary & Deal Value)
   [17] ☀️ Chạy Bản Tin Chỉ Huy Sáng (Daily Morning Briefing & Telegram Ping)
@@ -52,6 +52,7 @@ def print_banner():
   [21] 💰 Bắn Thử Nghiệm Webhook Bán Hàng & Đơn Hàng Mới (Simulate Sales Webhook)
   [22] 📋 Xuất Trọn Bộ Dữ Liệu Phễu B2B CRM Ra File CSV / JSON (Export 30 Leads & Live URLs)
   [23] 🏛️ Mở Executive Client VIP Portal Hub (/portal & 30 Dedicated Portals)
+  [24] 🤝 Mở Cổng Quản Lý Đối Tác & Tiếp Thị Liên Kết (/referral - 50% RevShare)
   [0] Thoát
 ======================================================================
 """)
@@ -71,7 +72,7 @@ def run_script(rel_path, args=None):
 def main_loop():
     while True:
         print_banner()
-        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-23]: ").strip()
+        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-24]: ").strip()
 
         if choice == '1':
             ping = input("Bạn có muốn gửi báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
@@ -202,8 +203,21 @@ def main_loop():
                 run_script("scripts/youtube_seo_generator.py", ["--video", vid])
 
         elif choice == '14':
-            item = input("Chọn sản phẩm (hoodie_coffee_llms / tshirt_it_works / mug_ai_brain, mặc định hoodie_coffee_llms): ").strip() or "hoodie_coffee_llms"
-            run_script("scripts/pod_listing_generator.py", ["--item", item])
+            sub = input("Tạo trọn bộ 6 sản phẩm POD hay 1 sản phẩm cụ thể? (all: Trọn bộ 6 / Enter: Chọn 1): ").strip().lower()
+            if sub == 'all':
+                tg = input("Bắn tóm tắt lợi nhuận về Telegram không? (y/n, mặc định y): ").strip().lower()
+                args = ["--all"]
+                if tg != 'n':
+                    args.append("--telegram")
+                run_script("scripts/pod_listing_generator.py", args)
+            else:
+                print("Sản phẩm: hoodie_coffee_llms / tshirt_it_works / mug_ai_brain / deskmat_prompt_architect / totebag_automate_or_die / cap_10x_engineer")
+                item = input("Chọn sản phẩm (mặc định deskmat_prompt_architect): ").strip() or "deskmat_prompt_architect"
+                tg = input("Bắn tóm tắt về Telegram không? (y/n, mặc định y): ").strip().lower()
+                args = ["--item", item]
+                if tg != 'n':
+                    args.append("--telegram")
+                run_script("scripts/pod_listing_generator.py", args)
 
         elif choice == '15':
             run_script("scripts/generate_all_blueprints.py")
@@ -267,11 +281,20 @@ def main_loop():
                 except Exception:
                     webbrowser.open(local_hub.as_uri())
 
+        elif choice == '24':
+            ref_url = "https://work-minh-lap.vercel.app/referral"
+            local_ref = ROOT_DIR / "projects" / "affiliate_blog" / "website" / "referrals.html"
+            print(f"[*] Đang mở Affiliate & Partner Program Hub trên trình duyệt: {ref_url}")
+            try:
+                webbrowser.open(ref_url)
+            except Exception:
+                webbrowser.open(local_ref.as_uri())
+
         elif choice == '0':
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 23.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 24.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 

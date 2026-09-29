@@ -1,5 +1,5 @@
 # 👕 Print-on-Demand Ready-to-Publish Listing: HOODIE_COFFEE_LLMS
-> **Tạo lúc**: 2026-09-29 22:11:14  
+> **Tạo lúc**: 2026-09-29 23:56:02  
 > **Ngách mục tiêu**: `Programmers, AI Engineers, Tech Workers, Solopreneurs`  
 > **Tệp thiết kế / Mockup**: `projects/print_on_demand/designs/hoodie_coffee_llms.jpg`
 
@@ -33,9 +33,9 @@ KEY HIGHLIGHTS:
 • PERFECT TECH GIFT: Ideal for software engineers, prompt writers, data scientists, and late-night builders.
 • DURABLE DIRECT-TO-GARMENT PRINT: Won't crack or fade after repeated wash cycles. Double-needle stitched hems.
 
-SIZING & FIT:
-- Standard US Unisex fit. If you prefer an oversized streetwear look, we recommend sizing up one size.
-- Pre-shrunk fabric ensures consistent shape after laundering.
+SIZING & SPECIFICATIONS:
+- Premium direct-to-garment or precision sublimation print.
+- Pre-shrunk high-grade materials for enduring durability.
 
 CARE INSTRUCTIONS:
 - Machine wash cold, inside out, with like colors.
@@ -43,7 +43,7 @@ CARE INSTRUCTIONS:
 - Do not iron directly on print design.
 
 SHIPPING & PROCESSING:
-- Crafted and fulfilled within 2–4 business days.
+- Crafted and fulfilled on-demand within 2–4 business days.
 - Tracking number provided as soon as package is dispatched.
 ```
 

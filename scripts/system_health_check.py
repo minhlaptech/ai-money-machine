@@ -47,16 +47,17 @@ ENV = load_env()
 
 LIVE_URLS = [
     ("SynapseGEO (AI SEO Audit)", "https://work-minh-lap.vercel.app/synapsegeo"),
-    ("ReviewGenius AI (Review Responder)", "https://work-minh-lap.vercel.app/products/review_genius/index.html"),
+    ("ReviewGenius AI (Review Responder)", "https://work-minh-lap.vercel.app/reviewgenius"),
     ("HeadlineIQ (Viral Headline Scorer)", "https://work-minh-lap.vercel.app/headlineiq"),
     ("AI Resource Hub (Blog & Lead Capture)", "https://work-minh-lap.vercel.app/blog"),
-    ("Chatbot Portfolio Demo", "https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/chatbot_demo/index.html"),
+    ("Chatbot Portfolio Demo", "https://work-minh-lap.vercel.app/chatbotdemo"),
     ("Sales Pitches Showcase Hub", "https://work-minh-lap.vercel.app/pitches"),
     ("Dynamic ROI Simulator", "https://work-minh-lap.vercel.app/calculator"),
     ("AI Copilot Embed Widget", "https://work-minh-lap.vercel.app/copilot-widget.js"),
-    ("Serverless Health API (/api/health)", "https://work-minh-lap.vercel.app/api/health"),
+    ("Affiliate & Partner Program Hub", "https://work-minh-lap.vercel.app/referral"),
     ("Executive Client VIP Portal Hub (/portal)", "https://work-minh-lap.vercel.app/portal"),
     ("Executive Command Center (Monorepo Root)", "https://work-minh-lap.vercel.app"),
+    ("Serverless Health API (/api/health)", "https://work-minh-lap.vercel.app/api/health"),
 ]
 
 def check_url(name, url):
@@ -115,6 +116,8 @@ def check_digital_assets():
         ("AI Marketing Prompt Pack (PDF)", ROOT_DIR / "projects" / "affiliate_blog" / "website" / "downloads" / "AI_Marketing_Prompt_Pack_110.pdf"),
         ("SynapseGEO Chrome Extension (.zip)", ROOT_DIR / "projects" / "affiliate_blog" / "website" / "downloads" / "synapsegeo_extension.zip"),
         ("Executive Command Center (HTML)", ROOT_DIR / "index.html"),
+        ("Affiliate Partner Program Hub (HTML)", ROOT_DIR / "projects" / "affiliate_blog" / "website" / "referrals.html"),
+        ("Print-on-Demand Merch Catalog (6 Items)", ROOT_DIR / "projects" / "print_on_demand" / "listings" / "listing_deskmat_prompt_architect.md"),
         ("Market Opportunities Radar (JSON)", ROOT_DIR / "market_opportunities.json"),
     ]
     results = []

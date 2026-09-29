@@ -219,10 +219,76 @@
       text-align: center; color: var(--text-3); font-size: 13px;
     }
 
+    /* Interactive Quiz */
+    .quiz-wrap {
+      max-width: 860px; margin: 40px auto 60px; padding: 0 24px; position: relative; z-index: 1;
+    }
+    .quiz-card {
+      background: linear-gradient(145deg, #101026, #161638);
+      border: 1px solid rgba(124, 92, 252, 0.35); border-radius: var(--radius);
+      padding: 40px 36px; box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+    }
+    .quiz-badge {
+      display: inline-block; background: rgba(92, 225, 230, 0.12); color: #5ce1e6;
+      border: 1px solid rgba(92, 225, 230, 0.3); padding: 4px 14px; border-radius: 20px;
+      font-size: 12px; font-weight: 700; margin-bottom: 12px; text-transform: uppercase;
+    }
+    .quiz-title { font-family: 'Outfit', sans-serif; font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+    .quiz-desc { color: var(--text-2); font-size: 15px; margin-bottom: 24px; }
+    .quiz-progress {
+      height: 6px; background: rgba(255,255,255,0.06); border-radius: 3px; overflow: hidden; margin-bottom: 30px;
+    }
+    .quiz-bar {
+      height: 100%; width: 33%; background: var(--gradient); transition: width 0.35s ease;
+    }
+    .quiz-step { display: none; }
+    .quiz-step.active { display: block; animation: fadeIn 0.3s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    .quiz-question { font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 18px; }
+    .quiz-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-bottom: 24px; }
+    .quiz-opt {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm);
+      padding: 16px 20px; cursor: pointer; transition: all 0.2s; display: flex; align-items: center; gap: 12px;
+      font-size: 14px; font-weight: 500; text-align: left; color: var(--text);
+    }
+    .quiz-opt:hover {
+      border-color: #7c5cfc; background: var(--surface-hover); transform: translateY(-2px);
+    }
+    .quiz-opt.selected {
+      border-color: #5ce1e6; background: rgba(92, 225, 230, 0.12); color: #fff; font-weight: 700;
+    }
+    .quiz-opt .opt-icon { font-size: 22px; flex-shrink: 0; }
+    .quiz-result-metrics {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px;
+    }
+    .q-metric {
+      background: rgba(5,5,16,0.7); border: 1px solid var(--border); border-radius: var(--radius-sm);
+      padding: 18px; text-align: center;
+    }
+    .q-metric .q-val {
+      font-family: 'Outfit', sans-serif; font-size: 32px; font-weight: 800; color: #5ce1e6;
+    }
+    .q-metric .q-lbl { font-size: 12px; color: var(--text-3); text-transform: uppercase; margin-top: 4px; }
+    .quiz-lead-form {
+      background: rgba(5,5,16,0.6); border: 1px solid var(--border); border-radius: var(--radius-sm);
+      padding: 24px; margin-top: 20px;
+    }
+    .quiz-input-row { display: flex; gap: 12px; margin-top: 14px; flex-wrap: wrap; }
+    .quiz-input-row input {
+      flex: 1; min-width: 200px; background: #0c0c1d; border: 1px solid var(--border);
+      border-radius: var(--radius-xs); padding: 12px 16px; color: #fff; font-size: 14px;
+    }
+    .quiz-input-row button {
+      background: var(--gradient); border: none; color: #fff; padding: 12px 24px;
+      border-radius: var(--radius-xs); font-weight: 700; cursor: pointer; transition: transform 0.2s;
+    }
+    .quiz-input-row button:hover { transform: scale(1.02); }
+
     @media (max-width: 640px) {
       .nav-links { display: none; }
       .email-cta { flex-direction: column; }
       .stats { gap: 24px; }
+      .quiz-result-metrics { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -235,9 +301,11 @@
       <div class="nav-logo">AI Automation Guide</div>
       <div class="nav-links">
         <a href="#guides">Guides</a>
+        <a href="#assessment">AI Quiz ⚡</a>
         <a href="#tools">Tools</a>
         <a href="#products">Products</a>
         <a href="bundle.html" style="color:var(--accent-2); font-weight:700;">Bundle ($39)</a>
+        <a href="/referral" style="color:#a99bfe; font-weight:700;">Partner (50%) 🤝</a>
         <a href="#about">About</a>
       </div>
       <a href="bundle.html" class="nav-cta">Get The Bundle ↗</a>
@@ -341,6 +409,128 @@
     </div>
   </section>
 
+  <!-- Interactive AI Readiness & ROI Assessment Quiz -->
+  <section class="quiz-wrap" id="assessment">
+    <div class="quiz-card">
+      <div style="text-align: center;">
+        <span class="quiz-badge">⚡ 60-Second Interactive Audit</span>
+        <h2 class="quiz-title">Discover Your AI Automation Readiness & ROI</h2>
+        <p class="quiz-desc">Answer 3 quick questions to benchmark how many hours and missed revenue AI can recover for your business this month.</p>
+      </div>
+
+      <div class="quiz-progress">
+        <div class="quiz-bar" id="quiz-progress-bar"></div>
+      </div>
+
+      <!-- Question 1 -->
+      <div class="quiz-step active" id="quiz-q1">
+        <div class="quiz-question">1. What best describes your primary business model?</div>
+        <div class="quiz-options">
+          <div class="quiz-opt" onclick="chooseQ1('Local Service / Clinic (Dental, MedSpa, HVAC)', 22, 5400, '24/7 AI Receptionist & Booking Copilot')">
+            <span class="opt-icon">🏥</span>
+            <div><strong>Local Practice / SMB</strong><div style="font-size:12px; color:var(--text-3);">Dental, MedSpa, Legal, HVAC</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ1('E-Commerce / D2C Brand', 18, 4200, 'Automated Review & Support AI Agent')">
+            <span class="opt-icon">🛍️</span>
+            <div><strong>E-Commerce / D2C</strong><div style="font-size:12px; color:var(--text-3);">Online store, subscriptions, retail</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ1('B2B SaaS or Marketing Agency', 28, 8500, 'Autonomous Make.com CRM Pipeline')">
+            <span class="opt-icon">💼</span>
+            <div><strong>B2B Agency / SaaS</strong><div style="font-size:12px; color:var(--text-3);">Client services, consulting, software</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ1('Solopreneur / Content Creator', 15, 2900, 'Omnichannel Content Recycling Engine')">
+            <span class="opt-icon">⚡</span>
+            <div><strong>Solopreneur / Creator</strong><div style="font-size:12px; color:var(--text-3);">Digital products, solo builder</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="quiz-step" id="quiz-q2">
+        <div class="quiz-question">2. Where does your team lose the most hours each week?</div>
+        <div class="quiz-options">
+          <div class="quiz-opt" onclick="chooseQ2('Missed after-hours phone calls & website inquiries', 1.3)">
+            <span class="opt-icon">📞</span>
+            <div><strong>After-Hours Inquiries</strong><div style="font-size:12px; color:var(--text-3);">Callers bouncing to competitors</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ2('Repetitive FAQs and customer support tickets', 1.1)">
+            <span class="opt-icon">💬</span>
+            <div><strong>Repetitive Support FAQs</strong><div style="font-size:12px; color:var(--text-3);">Hours spent typing identical replies</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ2('Manual data entry, invoice chasing & document intake', 1.4)">
+            <span class="opt-icon">📑</span>
+            <div><strong>Document & Admin Chasing</strong><div style="font-size:12px; color:var(--text-3);">Manual onboarding bottlenecks</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ2('Content creation, social posting & SEO audits', 1.2)">
+            <span class="opt-icon">✍️</span>
+            <div><strong>Content & Marketing Gruntwork</strong><div style="font-size:12px; color:var(--text-3);">Inconsistent posting & low reach</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="quiz-step" id="quiz-q3">
+        <div class="quiz-question">3. What is your estimated monthly revenue tier?</div>
+        <div class="quiz-options">
+          <div class="quiz-opt" onclick="chooseQ3('$5k – $15k / mo', 1.0)">
+            <span class="opt-icon">🌱</span>
+            <div><strong>$5,000 – $15,000 / mo</strong><div style="font-size:12px; color:var(--text-3);">Early growth & traction</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ3('$15k – $50k / mo', 1.5)">
+            <span class="opt-icon">🚀</span>
+            <div><strong>$15,000 – $50,000 / mo</strong><div style="font-size:12px; color:var(--text-3);">Scaling operations</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ3('$50k – $200k / mo', 2.2)">
+            <span class="opt-icon">💎</span>
+            <div><strong>$50,000 – $200,000 / mo</strong><div style="font-size:12px; color:var(--text-3);">Established business</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ3('$200k+ / mo', 3.0)">
+            <span class="opt-icon">🏛️</span>
+            <div><strong>$200,000+ / mo</strong><div style="font-size:12px; color:var(--text-3);">High-volume enterprise</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result Step -->
+      <div class="quiz-step" id="quiz-result">
+        <div style="text-align: center; margin-bottom: 20px;">
+          <div style="font-size: 40px; margin-bottom: 8px;">🎯</div>
+          <h3 style="font-family:'Outfit', sans-serif; font-size:24px; font-weight:800; color:#fff;">Your AI Automation Benchmark is Ready!</h3>
+          <p style="color:var(--text-2); font-size:14px;">Based on your operational model, here is your estimated recovery capacity:</p>
+        </div>
+
+        <div class="quiz-result-metrics">
+          <div class="q-metric">
+            <div class="q-val" id="result-hours">22 hrs/wk</div>
+            <div class="q-lbl">Recoverable Working Hours</div>
+          </div>
+          <div class="q-metric">
+            <div class="q-val" id="result-rev">$6,400/mo</div>
+            <div class="q-lbl">Recoverable Missed Revenue</div>
+          </div>
+        </div>
+
+        <div style="background: rgba(124,92,252,0.1); border: 1px solid rgba(124,92,252,0.3); border-radius: var(--radius-sm); padding: 16px; margin-bottom: 20px;">
+          <div style="font-size:12px; text-transform:uppercase; color:#a99bfe; font-weight:700; margin-bottom:4px;">Recommended Architecture:</div>
+          <div style="font-size:15px; font-weight:700; color:#fff;" id="result-solution">24/7 AI Receptionist & Booking Copilot</div>
+        </div>
+
+        <div class="quiz-lead-form">
+          <div style="font-size:14px; font-weight:700; color:#fff;">Send My Customized 5-Page AI Implementation Plan:</div>
+          <p style="font-size:12px; color:var(--text-3); margin-top:2px;">Includes step-by-step tool checklist and prompt architecture. Zero spam guarantee.</p>
+          <div class="quiz-input-row">
+            <input type="text" id="quiz-name" placeholder="Your Name" required>
+            <input type="email" id="quiz-email" placeholder="Your Best Email" required>
+            <button id="btn-quiz-submit" onclick="submitQuizLead()">Claim Free Plan 🚀</button>
+          </div>
+          <div id="quiz-success-msg" style="display:none; color:#5ce1e6; font-size:13px; font-weight:600; margin-top:12px;">
+            🎉 Plan generated and dispatched! Check your inbox shortly.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="tools">
     <div class="section-label">Live Micro-SaaS & Tools</div>
     <h2 class="section-title">Built-In AI Automation Apps</h2>
@@ -365,7 +555,7 @@
         <p>Autonomous customer review response generator. Turn negative reviews into 5-star loyalty with smart AI templates.</p>
         <span class="card-tag">Live SaaS · Instant</span>
       </a>
-      <a href="https://headlineiq-eta.vercel.app" class="card" target="_blank" rel="noopener">
+      <a href="https://work-minh-lap.vercel.app/headlineiq" class="card" target="_blank" rel="noopener">
         <div class="card-icon">🔥</div>
         <h3>HeadlineIQ</h3>
         <p>Headline analyzer and viral CTR optimizer. Predict click-through rates and generate irresistible marketing hooks.</p>
@@ -528,6 +718,82 @@
         window.open('/downloads/The_AI_Money_Blueprint.pdf', '_blank');
         btn.innerText = 'Downloaded! 🎉';
       }
+    }
+
+    // Interactive Quiz State
+    let quizData = {
+      niche: '',
+      hours: 20,
+      rev: 5000,
+      solution: '24/7 AI Receptionist Copilot',
+      pain: '',
+      revenueTier: ''
+    };
+
+    function chooseQ1(niche, hours, rev, sol) {
+      quizData.niche = niche;
+      quizData.hours = hours;
+      quizData.rev = rev;
+      quizData.solution = sol;
+
+      document.getElementById('quiz-q1').classList.remove('active');
+      document.getElementById('quiz-q2').classList.add('active');
+      document.getElementById('quiz-progress-bar').style.width = '66%';
+    }
+
+    function chooseQ2(pain, mult) {
+      quizData.pain = pain;
+      quizData.hours = Math.round(quizData.hours * mult);
+      quizData.rev = Math.round(quizData.rev * mult);
+
+      document.getElementById('quiz-q2').classList.remove('active');
+      document.getElementById('quiz-q3').classList.add('active');
+      document.getElementById('quiz-progress-bar').style.width = '100%';
+    }
+
+    function chooseQ3(tier, mult) {
+      quizData.revenueTier = tier;
+      quizData.rev = Math.round(quizData.rev * mult);
+
+      document.getElementById('quiz-q3').classList.remove('active');
+      document.getElementById('quiz-result').classList.add('active');
+
+      document.getElementById('result-hours').innerText = quizData.hours + ' hrs/wk';
+      document.getElementById('result-rev').innerText = '$' + quizData.rev.toLocaleString() + '/mo';
+      document.getElementById('result-solution').innerText = quizData.solution;
+    }
+
+    async function submitQuizLead() {
+      const name = document.getElementById('quiz-name').value.trim();
+      const email = document.getElementById('quiz-email').value.trim();
+      const btn = document.getElementById('btn-quiz-submit');
+
+      if (!email || !email.includes('@')) {
+        alert('Please enter a valid email address.');
+        return;
+      }
+
+      btn.innerText = 'Routing to AI Desk...';
+      btn.disabled = true;
+
+      try {
+        await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            name: name || 'Quiz Prospect',
+            email: email,
+            service: 'AI Readiness Audit: ' + quizData.solution,
+            source: 'Interactive Blog Quiz (/blog#assessment)',
+            message: 'Niche: ' + quizData.niche + ' | Pain Point: ' + quizData.pain + ' | Rev Tier: ' + quizData.revenueTier + ' | Est Recovery: ' + quizData.hours + ' hrs/wk ($' + quizData.rev + '/mo)'
+          })
+        });
+      } catch (e) {
+        console.error(e);
+      }
+
+      btn.innerText = 'Plan Dispatched! 🎉';
+      document.getElementById('quiz-success-msg').style.display = 'block';
     }
 
     // Smooth scroll

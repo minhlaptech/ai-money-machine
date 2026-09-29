@@ -16,6 +16,10 @@
     { "source": "/guides/:file", "destination": "/projects/affiliate_blog/website/:file" },
     { "source": "/portal", "destination": "/portals/index.html" },
     { "source": "/portals", "destination": "/portals/index.html" },
-    { "source": "/portal/:slug", "destination": "/portals/:slug.html" }
+    { "source": "/portal/:slug", "destination": "/portals/:slug.html" },
+    { "source": "/referral", "destination": "/projects/affiliate_blog/website/referrals.html" },
+    { "source": "/affiliate", "destination": "/projects/affiliate_blog/website/referrals.html" },
+    { "source": "/partners", "destination": "/projects/affiliate_blog/website/referrals.html" },
+    { "source": "/downloads/:file", "destination": "/projects/affiliate_blog/website/downloads/:file" }
   ]
 }

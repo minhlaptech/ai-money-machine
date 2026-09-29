@@ -47,18 +47,20 @@ export default async function handler(req, res) {
 
     const now = new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' });
 
-    const telegramText = `🔥 *[NEW INBOUND LEAD CAPTURED!]*\n\n` +
-      `👤 *Khách hàng:* \`${name}\`\n` +
-      `📧 *Email:* \`${email}\`\n` +
-      `📞 *Số điện thoại:* \`${phone}\`\n` +
-      `🌐 *Website:* ${website}\n` +
-      `⚙️ *Dịch vụ quan tâm:* *${service}*\n` +
-      `📍 *Nguồn (Source):* _${source}_\n` +
-      (calendar !== 'N/A' ? `📅 *Lịch hẹn:* ${calendar}\n` : '') +
-      (escalation !== 'N/A' ? `🚨 *Khẩn cấp / SMS:* ${escalation}\n` : '') +
-      (message ? `\n📝 *Chi tiết tin nhắn:*\n_${message}_\n` : '') +
-      `\n⏰ *Thời gian:* ${now}\n` +
-      `👉 _Phản hồi khách trong 5 phút để tối đa tỷ lệ chốt hợp đồng!_`;
+    const sanitize = (str) => String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+    const telegramText = `🔥 <b>[NEW INBOUND LEAD CAPTURED!]</b>\n\n` +
+      `👤 <b>Khách hàng:</b> <code>${sanitize(name)}</code>\n` +
+      `📧 <b>Email:</b> <code>${sanitize(email)}</code>\n` +
+      `📞 <b>Số điện thoại:</b> <code>${sanitize(phone)}</code>\n` +
+      `🌐 <b>Website:</b> ${sanitize(website)}\n` +
+      `⚙️ <b>Dịch vụ quan tâm:</b> <b>${sanitize(service)}</b>\n` +
+      `📍 <b>Nguồn (Source):</b> <i>${sanitize(source)}</i>\n` +
+      (calendar !== 'N/A' ? `📅 <b>Lịch hẹn:</b> ${sanitize(calendar)}\n` : '') +
+      (escalation !== 'N/A' ? `🚨 <b>Khẩn cấp / SMS:</b> ${sanitize(escalation)}\n` : '') +
+      (message ? `\n📝 <b>Chi tiết tin nhắn:</b>\n<i>${sanitize(message)}</i>\n` : '') +
+      `\n⏰ <b>Thời gian:</b> ${now}\n` +
+      `👉 <i>Phản hồi khách trong 5 phút để tối đa tỷ lệ chốt hợp đồng!</i>`;
 
     if (botToken && chatId) {
       const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
@@ -68,7 +70,7 @@ export default async function handler(req, res) {
         body: JSON.stringify({
           chat_id: chatId,
           text: telegramText,
-          parse_mode: 'Markdown'
+          parse_mode: 'HTML'
         })
       });
     }
