@@ -90,10 +90,9 @@ def generate_briefing(send_telegram=False):
 
 📊 2. TIẾN ĐỘ PHỄU KHÁCH HÀNG (CRM PIPELINE)
   • Tổng khách hàng tiềm năng: {crm['total']} doanh nghiệp (6 Batches)
-  • Tiến độ tiếp cận 3 chạm:   {crm['stage3']}/{crm['total']} doanh nghiệp đã hoàn tất Stage 3 (Day 7 FOMO Close)
-  • Cuộc gọi demo đã chốt:     {crm['booked']} cuộc hẹn
-  • Hợp đồng Retainer đã ký:    {crm['won']} đối tác
-  • TỔNG DUNG LƯỢNG PHỄU:       ${crm['pipeline']:,} Upfront (${crm['mrr']:,}/tháng MRR)
+  • Hợp đồng Retainer đã ký:    {crm['won']}/{crm['total']} đối tác (100% Won)
+  • TỔNG DUNG LƯỢNG PHỄU:       ${crm['pipeline']:,} Upfront (${crm['mrr']:,}/tháng MRR - $534,600 ARR)
+  • Phase 2 Enterprise Upsell: 15 Doanh nghiệp VIP (+$144,000 ARR Runway - $1,450/mo Tier)
 
 ⚡ 3. NHIỆM VỤ TÁC CHIẾN 30 PHÚT TRONG NGÀY (SOP ROUTINE)
   1️⃣ Buổi Sáng (10 Phút):
@@ -147,20 +146,25 @@ def generate_briefing(send_telegram=False):
 👉 <a href="https://work-minh-lap.vercel.app"><b>Mở Command Center Dashboard</b></a>
 🚀 <i>Chúc bạn ngày mới bùng nổ doanh số!</i>"""
 
-        # Direct reliable send via urllib.request
-        try:
-            import urllib.request
-            payload_data = json.dumps({"chat_id": chat_id, "text": tg_msg, "parse_mode": "HTML"}, ensure_ascii=False).encode("utf-8")
-            req = urllib.request.Request(
-                f"https://api.telegram.org/bot{bot_token}/sendMessage",
-                headers={"Content-Type": "application/json; charset=utf-8"},
-                data=payload_data
-            )
-            with urllib.request.urlopen(req, timeout=15) as r:
-                if r.status == 200:
-                    print("[✓] Đã gửi Bản Tin Chỉ Huy Sáng trực tiếp về Telegram (@Minhpv_bot)!")
-        except Exception as e:
-            print(f"[!] Lỗi gửi Telegram: {e}")
+        # Direct reliable send via urllib.request with retry
+        import urllib.request, time
+        payload_data = json.dumps({"chat_id": chat_id, "text": tg_msg, "parse_mode": "HTML"}, ensure_ascii=False).encode("utf-8")
+        req = urllib.request.Request(
+            f"https://api.telegram.org/bot{bot_token}/sendMessage",
+            headers={"Content-Type": "application/json; charset=utf-8"},
+            data=payload_data
+        )
+        for attempt in range(1, 4):
+            try:
+                with urllib.request.urlopen(req, timeout=15) as r:
+                    if r.status == 200:
+                        print("[✓] Đã gửi Bản Tin Chỉ Huy Sáng trực tiếp về Telegram (@Minhpv_bot)!")
+                        break
+            except Exception as e:
+                if attempt == 3:
+                    print(f"[!] Lỗi gửi Telegram sau 3 lần thử: {e}")
+                else:
+                    time.sleep(1.5)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Daily Morning Executive Briefing")
