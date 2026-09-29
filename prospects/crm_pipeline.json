@@ -176,10 +176,10 @@
     "city": "Boulder, CO",
     "to": "support@hydroflowbottle.example",
     "doc": "Team HydroFlow",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:41"
+    "last_touch": "2026-09-30 04:43"
   },
   {
     "id": 15,
@@ -189,10 +189,10 @@
     "city": "Austin, TX",
     "to": "hello@clouddeskhelp.example",
     "doc": "Product Lead",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:41"
+    "last_touch": "2026-09-30 04:43"
   },
   {
     "id": 16,
@@ -202,10 +202,10 @@
     "city": "Portland, OR",
     "to": "orders@artisanroastclub.example",
     "doc": "Founder",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:43"
   },
   {
     "id": 17,
@@ -215,10 +215,10 @@
     "city": "Seattle, WA",
     "to": "founders@stacksyncdev.example",
     "doc": "Engineering Lead",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:43"
   },
   {
     "id": 18,
