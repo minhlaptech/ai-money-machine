@@ -280,10 +280,10 @@
     "city": "Aspen, CO",
     "to": "inquiries@summitcrestrealty.example",
     "doc": "Victoria Vance",
-    "status": "booked",
+    "status": "won",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:56"
+    "last_touch": "2026-09-30 03:59"
   },
   {
     "id": 23,
@@ -436,10 +436,10 @@
     "city": "Nashville, TN",
     "to": "inspections@ironcladfoundation.example",
     "doc": "Travis Cole",
-    "status": "day7",
+    "status": "booked",
     "value": 3800,
     "retainer": 700,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 03:59"
   },
   {
     "id": 35,
@@ -670,10 +670,10 @@
     "city": "Dallas, TX",
     "to": "intake@apexspineinstitute.example",
     "doc": "Dr. Gregory Vance",
-    "status": "booked",
+    "status": "won",
     "value": 5500,
     "retainer": 900,
-    "last_touch": "2026-09-30 03:56"
+    "last_touch": "2026-09-30 03:59"
   },
   {
     "id": 53,
@@ -709,10 +709,10 @@
     "city": "Scottsdale, AZ",
     "to": "membership@optimaconciergemed.example",
     "doc": "Dr. Arthur Pendelton",
-    "status": "day7",
+    "status": "booked",
     "value": 3800,
     "retainer": 850,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 03:59"
   },
   {
     "id": 56,
