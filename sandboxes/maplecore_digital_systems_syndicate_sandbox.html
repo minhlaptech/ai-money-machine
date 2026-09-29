@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MapleCore Digital Systems — Syndicate Multi-Tenant Agency Command Console</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand: #a855f7;
+      --bg: #090514;
+      --card-bg: rgba(22, 12, 38, 0.75);
+      --border: rgba(168, 85, 247, 0.3);
+      --text: #f3e8ff;
+      --text-muted: #c084fc;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    .top-bar {
+      background: linear-gradient(90deg, rgba(168,85,247,0.2), rgba(0,242,254,0.15));
+      border-bottom: 1px solid var(--border);
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+    .syndicate-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(168, 85, 247, 0.2);
+      border: 1px solid rgba(168, 85, 247, 0.6);
+      color: #d8b4fe;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .nav-actions { display: flex; gap: 10px; align-items: center; }
+    .nav-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: #e9d5ff;
+      text-decoration: none;
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .nav-btn:hover { background: rgba(168,85,247,0.25); color: #fff; border-color: #a855f7; }
+    .nav-btn.primary {
+      background: linear-gradient(135deg, #a855f7, #06b6d4);
+      border: none;
+      color: #000;
+      font-weight: 700;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .hero-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .hero-header h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 36px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    .hero-header p {
+      color: #d8b4fe;
+      font-size: 15px;
+      max-width: 750px;
+      margin: 0 auto;
+    }
+
+    .grid-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 30px;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    }
+    .card-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    /* Sub-Account Simulator */
+    .provision-box {
+      background: rgba(0,0,0,0.5);
+      border: 1px solid rgba(168,85,247,0.3);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+    .form-group {
+      margin-bottom: 12px;
+    }
+    .form-label {
+      display: block;
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #d8b4fe;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+    .form-input {
+      width: 100%;
+      background: rgba(0,0,0,0.6);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 6px;
+      padding: 8px 12px;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+    }
+    .btn-provision {
+      width: 100%;
+      background: linear-gradient(135deg, #a855f7, #3b82f6);
+      border: none;
+      color: #fff;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-provision:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(168,85,247,0.4);
+    }
+
+    /* Split Revenue Calculator */
+    .calc-slider-box {
+      background: rgba(0,0,0,0.5);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+    .split-metrics {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 12px;
+      text-align: center;
+    }
+    .split-card {
+      background: rgba(168,85,247,0.12);
+      border: 1px solid rgba(168,85,247,0.3);
+      border-radius: 8px;
+      padding: 12px;
+    }
+    .split-val {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 20px;
+      font-weight: 800;
+      color: #00f2fe;
+    }
+    .split-lbl {
+      font-size: 11px;
+      color: #e9d5ff;
+      margin-top: 2px;
+    }
+
+    /* Global Edge Nodes Table */
+    .edge-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+    .edge-table th {
+      text-align: left;
+      padding: 8px;
+      background: rgba(255,255,255,0.05);
+      color: #d8b4fe;
+      font-size: 10.5px;
+      text-transform: uppercase;
+    }
+    .edge-table td {
+      padding: 8px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      color: #f3e8ff;
+    }
+
+    .scenario-btn {
+      width: 100%;
+      text-align: left;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: #f3e8ff;
+      padding: 12px 16px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .scenario-btn:hover {
+      background: rgba(168, 85, 247, 0.18);
+      border-color: #a855f7;
+      transform: translateX(4px);
+    }
+    .scenario-btn strong {
+      color: #d8b4fe;
+      display: block;
+      font-size: 13px;
+      margin-bottom: 2px;
+    }
+    .scenario-btn span {
+      font-size: 11.5px;
+      color: #c084fc;
+    }
+
+    @media (max-width: 900px) {
+      .grid-layout { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div style="display:flex; align-items:center; gap:10px;">
+      <a href="/sandboxes" style="color:#d8b4fe; text-decoration:none; font-weight:700;">← All Sandboxes</a>
+      <span class="syndicate-pill">🌐 Syndicate Franchise Node</span>
+      <span style="color:#fff; font-weight:600;">MapleCore Digital Systems</span>
+      <span style="color:#c084fc; font-size:12px;">• Regional Reseller Agency (Toronto & Vancouver, Canada)</span>
+    </div>
+    <div class="nav-actions">
+      <a href="/portals/maplecore_digital_systems_syndicate_portal.html" class="nav-btn">🏛️ VIP Portal</a>
+      <a href="/fulfillment_packets/maplecore_digital_systems_syndicate_fulfillment_packet.html" class="nav-btn">🛡️ SLA Packet</a>
+      <a href="/invoices/maplecore_digital_systems_syndicate_invoice.html" class="nav-btn">🧾 Invoice</a>
+      <a href="/agreements/maplecore_digital_systems_syndicate_agreement.html" class="nav-btn">📑 Agreement</a>
+      <a href="/syndicate" class="nav-btn primary">🚀 Franchise Hub</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="hero-header">
+      <h1>White-Label Multi-Tenant Agency Command Console</h1>
+      <p>Simulating instant client sub-account spin-up, automated Stripe Connect revenue split, and global edge network routing for <strong>MapleCore Digital Systems</strong>.</p>
+    </div>
+
+    <div class="grid-layout">
+      <!-- Left Column: Sub-Account Provisioning & Split Calculator -->
+      <div class="card">
+        <div class="card-title">
+          <span>🏢 1-Click Sub-Account Provisioner</span>
+          <span style="font-size:11px; color:#10b981; font-family:'JetBrains Mono';">● MULTI-TENANT</span>
+        </div>
+
+        <div class="provision-box">
+          <div class="form-group">
+            <label class="form-label">New Client Brand Name</label>
+            <input type="text" class="form-input" id="new-client-name" value="Apex Financial Advisors">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Target Niche & Region</label>
+            <input type="text" class="form-input" id="new-client-niche" value="Wealth Management • Toronto & Vancouver, Canada">
+          </div>
+          <button class="btn-provision" onclick="simulateProvision()">
+            🚀 Spin Up Client Workspace (< 25s)
+          </button>
+        </div>
+
+        <div class="calc-slider-box">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-weight:700; font-size:13px; color:#fff;">Stripe Revenue Split Simulator</span>
+            <span style="font-size:12px; color:#d8b4fe;" id="clients-count-lbl">12 Active Clients</span>
+          </div>
+          <input type="range" min="1" max="50" value="12" style="width:100%; margin:12px 0;" oninput="updateSplit(this.value)">
+          
+          <div class="split-metrics">
+            <div class="split-card">
+              <div class="split-val" id="franchisee-rev">$10,500/mo</div>
+              <div class="split-lbl">Franchisee Retained (70%)</div>
+            </div>
+            <div class="split-card">
+              <div class="split-val" id="master-royalty">$4,500/mo</div>
+              <div class="split-lbl">Platform Royalty (30%)</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="font-size:12px; font-weight:700; color:#fff; margin-bottom:8px;">Global Anycast Edge Network Routing:</div>
+        <table class="edge-table">
+          <thead>
+            <tr>
+              <th>Region Node</th>
+              <th>Status</th>
+              <th>Avg Latency</th>
+              <th>Active Sub-Tenants</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>London (LHR-1)</td>
+              <td><span style="color:#10b981;">● Healthy</span></td>
+              <td>18ms</td>
+              <td>4 accounts</td>
+            </tr>
+            <tr>
+              <td>Frankfurt (FRA-2)</td>
+              <td><span style="color:#10b981;">● Healthy</span></td>
+              <td>22ms</td>
+              <td>3 accounts</td>
+            </tr>
+            <tr>
+              <td>Tokyo (TYO-1)</td>
+              <td><span style="color:#10b981;">● Healthy</span></td>
+              <td>42ms</td>
+              <td>2 accounts</td>
+            </tr>
+            <tr>
+              <td>North America (Toronto & Vancouver, Canada)</td>
+              <td><span style="color:#10b981;">● Primary Local</span></td>
+              <td>98ms edge CDN</td>
+              <td>Primary Hub</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Right Column: Operational Scenarios -->
+      <div class="card">
+        <div class="card-title">
+          <span>⚡ Agency Operations Scenarios</span>
+          <span style="font-size:11px; color:#d8b4fe;">Simulate Workflows</span>
+        </div>
+
+        <button class="scenario-btn" onclick="runScenario(1)">
+          <strong>Test 1: Instant Client Sub-Account Spin-Up & DNS</strong>
+          <span>Generates isolated vector database, custom branded sub-domain, and Twilio voice routing in 24 seconds.</span>
+        </button>
+
+        <button class="scenario-btn" onclick="runScenario(2)">
+          <strong>Test 2: Automated Stripe Connect Split Payout</strong>
+          <span>Simulate $2,500 client invoice payment; verify 70% direct deposit to franchise bank account.</span>
+        </button>
+
+        <button class="scenario-btn" onclick="runScenario(3)">
+          <strong>Test 3: White-Label Branding & CSS Engine</strong>
+          <span>Customize theme colors, favicon, logo, and welcome copilot copy for high-ticket client pitch.</span>
+        </button>
+
+        <button class="scenario-btn" onclick="runScenario(4)">
+          <strong>Test 4: Franchise Master Analytics Roll-Up</strong>
+          <span>Aggregates conversations, appointments booked, and revenue across all client sub-tenants into single view.</span>
+        </button>
+
+        <button class="scenario-btn" onclick="runScenario(5)">
+          <strong>Test 5: Territory Protection & Non-Compete Audit</strong>
+          <span>Cryptographically validates exclusive commercial rights for Toronto & Vancouver, Canada franchise territory.</span>
+        </button>
+
+        <div style="background:rgba(168,85,247,0.1); border:1px solid rgba(168,85,247,0.3); border-radius:10px; padding:16px; margin-top:16px;">
+          <div style="font-size:12px; font-weight:700; color:#d8b4fe; margin-bottom:4px;">🌐 Syndicate Territory License:</div>
+          <div style="font-size:11.5px; color:#e9d5ff; line-height:1.5;">
+            <strong>MapleCore Digital Systems</strong> operates as an exclusive licensed regional partner. All sub-accounts deployed under this node inherit enterprise SLA guarantees and 24/7 autonomous failover.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function updateSplit(val) {
+      const clients = parseInt(val);
+      document.getElementById('clients-count-lbl').innerText = `${clients} Active Clients`;
+      const avgRetainer = 1250;
+      const totalRev = clients * avgRetainer;
+      const franchisee = Math.round(totalRev * 0.70);
+      const master = Math.round(totalRev * 0.30);
+      document.getElementById('franchisee-rev').innerText = `$${franchisee.toLocaleString()}/mo`;
+      document.getElementById('master-royalty').innerText = `$${master.toLocaleString()}/mo`;
+    }
+
+    function simulateProvision() {
+      const name = document.getElementById('new-client-name').value;
+      const niche = document.getElementById('new-client-niche').value;
+      alert(`Provisioning New Workspace for: ${name} (${niche})\n\n[1/4] Created isolated Pinecone vector namespace.\n[2/4] Assigned dedicated Inbound SIP trunk.\n[3/4] Configured custom branded sandbox.\n[4/4] Workspace Live in 18.2 seconds!`);
+    }
+
+    function runScenario(num) {
+      if (num === 1) {
+        simulateProvision();
+      } else if (num === 2) {
+        alert('Stripe Connect Webhook Simulation:\n- Invoice INV-SUB-881 settled: $2,500.00\n- Franchisee (70%): $1,750.00 deposited\n- Master Royalty (30%): $750.00 settled\n- Net Settlement Time: 420ms.');
+      } else if (num === 3) {
+        alert('White-Label Brand Customizer:\nTheme updated to Emerald Glassmorphism. Logo and client domain custom-mapped.');
+      } else if (num === 4) {
+        alert('Master Analytics Roll-Up:\nTotal Inquiries: 1,482\nAppointments Booked: 194\nClient Retention: 100%\nMRR Run-rate: $15,000/mo.');
+      } else if (num === 5) {
+        alert('Territory Verification:\nExclusive rights confirmed for Toronto & Vancouver, Canada. No conflicting accounts detected within territory radius.');
+      }
+    }
+  </script>
+</body>
+</html>

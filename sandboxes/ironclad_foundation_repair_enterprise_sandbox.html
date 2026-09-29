@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ironclad Foundation Repair — Enterprise Voice AI Swarm Simulator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand: #38bdf8;
+      --bg: #030712;
+      --card-bg: rgba(15, 23, 42, 0.7);
+      --border: rgba(56, 189, 248, 0.25);
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    .top-bar {
+      background: linear-gradient(90deg, rgba(56,189,248,0.15), rgba(124,92,252,0.2));
+      border-bottom: 1px solid var(--border);
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+    .enterprise-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(56, 189, 248, 0.18);
+      border: 1px solid rgba(56, 189, 248, 0.5);
+      color: #38bdf8;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .nav-actions { display: flex; gap: 10px; align-items: center; }
+    .nav-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: #cbd5e1;
+      text-decoration: none;
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .nav-btn:hover { background: rgba(56,189,248,0.2); color: #fff; border-color: #38bdf8; }
+    .nav-btn.primary {
+      background: linear-gradient(135deg, #38bdf8, #818cf8);
+      border: none;
+      color: #030712;
+      font-weight: 700;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .hero-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .hero-header h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 36px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    .hero-header p {
+      color: var(--text-muted);
+      font-size: 15px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .grid-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 30px;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    .card-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    /* Voice Call Simulator Screen */
+    .call-screen {
+      background: rgba(3, 7, 18, 0.85);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      border-radius: 14px;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .caller-avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #0284c7, #38bdf8);
+      margin: 0 auto 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
+    }
+    .call-status {
+      font-size: 13px;
+      font-weight: 600;
+      color: #38bdf8;
+      margin-bottom: 4px;
+    }
+    .call-timer {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+    #voice-canvas {
+      width: 100%;
+      height: 70px;
+      background: rgba(0,0,0,0.4);
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+    .call-controls {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+    }
+    .call-btn {
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: none;
+      font-weight: 700;
+      font-size: 13px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+    .btn-start-call { background: #10b981; color: #fff; }
+    .btn-start-call:hover { background: #059669; }
+    .btn-end-call { background: #ef4444; color: #fff; }
+    .btn-end-call:hover { background: #dc2626; }
+    .btn-mute { background: rgba(255,255,255,0.1); color: #e2e8f0; }
+
+    /* Speech Transcript & Agent Logs */
+    .transcript-box {
+      height: 230px;
+      background: rgba(0,0,0,0.5);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 14px;
+      overflow-y: auto;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .transcript-line {
+      display: flex;
+      gap: 8px;
+      line-height: 1.4;
+    }
+    .transcript-role {
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .transcript-role.caller { color: #38bdf8; }
+    .transcript-role.agent { color: #a78bfa; }
+    .transcript-role.system { color: #10b981; }
+
+    /* Scenario Test Buttons */
+    .test-scenario-btn {
+      width: 100%;
+      text-align: left;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: #e2e8f0;
+      padding: 12px 16px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .test-scenario-btn:hover {
+      background: rgba(56, 189, 248, 0.12);
+      border-color: #38bdf8;
+      transform: translateX(4px);
+    }
+    .test-scenario-btn strong {
+      color: #38bdf8;
+      display: block;
+      font-size: 13px;
+      margin-bottom: 2px;
+    }
+    .test-scenario-btn span {
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+
+    /* Telemetry Grid */
+    .telemetry-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .telemetry-item {
+      background: rgba(0,0,0,0.4);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+    }
+    .telemetry-val {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 16px;
+      font-weight: 700;
+      color: #38bdf8;
+    }
+    .telemetry-lbl {
+      font-size: 10.5px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    @media (max-width: 900px) {
+      .grid-layout { grid-template-columns: 1fr; }
+      .telemetry-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div style="display:flex; align-items:center; gap:10px;">
+      <a href="/sandboxes" style="color:#38bdf8; text-decoration:none; font-weight:700;">← All Sandboxes</a>
+      <span class="enterprise-pill">🎙️ Enterprise Voice Swarm</span>
+      <span style="color:#fff; font-weight:600;">Ironclad Foundation Repair</span>
+      <span style="color:var(--text-muted); font-size:12px;">• Structural Foundation Engineering (Nashville, TN)</span>
+    </div>
+    <div class="nav-actions">
+      <a href="/portals/ironclad_foundation_repair_enterprise_portal.html" class="nav-btn">🏛️ VIP Portal</a>
+      <a href="/fulfillment_packets/ironclad_foundation_repair_enterprise_fulfillment_packet.html" class="nav-btn">🛡️ SLA Packet</a>
+      <a href="/invoices/ironclad_foundation_repair_enterprise_invoice.html" class="nav-btn">🧾 Invoice</a>
+      <a href="/agreements/ironclad_foundation_repair_enterprise_agreement.html" class="nav-btn">📑 Agreement</a>
+      <a href="tel:+1 (888) 720-2034" class="nav-btn primary">📞 Dial Inbound DID</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="hero-header">
+      <h1>Autonomous Inbound Voice AI & Dispatch Sandbox</h1>
+      <p>Simulating sub-150ms conversational telephony, multi-agent qualification, and real-time CRM slot lock for <strong>Ironclad Foundation Repair</strong>.</p>
+    </div>
+
+    <div class="grid-layout">
+      <!-- Left Column: Voice Call Console -->
+      <div class="card">
+        <div class="card-title">
+          <span>📞 Telephony Live Dispatcher</span>
+          <span style="font-size:11px; color:#10b981; font-family:'JetBrains Mono';">● SIP TRUNK READY</span>
+        </div>
+
+        <div class="call-screen">
+          <div class="caller-avatar" id="avatar-icon">🎙️</div>
+          <div class="call-status" id="call-state">READY FOR INBOUND CALL</div>
+          <div class="call-timer" id="call-clock">00:00</div>
+          
+          <canvas id="voice-canvas"></canvas>
+
+          <div class="call-controls">
+            <button class="call-btn btn-start-call" id="btn-call" onclick="startCallSimulation()">
+              <span>📞</span> Simulate Call
+            </button>
+            <button class="call-btn btn-end-call" id="btn-hangup" onclick="endCallSimulation()" disabled>
+              <span>🔴</span> End Call
+            </button>
+            <button class="call-btn btn-mute" onclick="toggleMute()">
+              <span>🔇</span> Mute Mic
+            </button>
+          </div>
+        </div>
+
+        <div style="font-size:12px; font-weight:700; color:#cbd5e1; margin-bottom:8px;">Live Conversational Audio & Text Stream:</div>
+        <div class="transcript-box" id="transcript-stream">
+          <div class="transcript-line"><span class="transcript-role system">[SYSTEM]</span> Connected to Dual-Branch Real-Time Voice & Web Swarm (Sub-200ms) via ns-ent-ironclad_foundat-34.</div>
+          <div class="transcript-line"><span class="transcript-role system">[SYSTEM]</span> Carrier DID: +1 (888) 720-2034 — Latency benchmark: 142ms avg.</div>
+          <div class="transcript-line"><span class="transcript-role agent">[ASSISTANT]</span> Ready to receive voice simulation test.</div>
+        </div>
+
+        <div class="telemetry-grid">
+          <div class="telemetry-item">
+            <div class="telemetry-val" id="tel-latency">112ms</div>
+            <div class="telemetry-lbl">Voice Latency</div>
+          </div>
+          <div class="telemetry-item">
+            <div class="telemetry-val">50 Ch</div>
+            <div class="telemetry-lbl">SIP Concurrency</div>
+          </div>
+          <div class="telemetry-item">
+            <div class="telemetry-val">Llama-3.3</div>
+            <div class="telemetry-lbl">Synthesizer</div>
+          </div>
+          <div class="telemetry-item">
+            <div class="telemetry-val" style="color:#10b981;">0.00%</div>
+            <div class="telemetry-lbl">Packet Loss</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Interactive Voice Scenarios -->
+      <div class="card">
+        <div class="card-title">
+          <span>⚡ 5 Enterprise Voice Test Scenarios</span>
+          <span style="font-size:11px; color:#38bdf8;">Click to Trigger</span>
+        </div>
+
+        <button class="test-scenario-btn" onclick="runScenario(1)">
+          <strong>Test 1: Same-Day Emergency Inbound Routing</strong>
+          <span>Caller reports urgent requirement, AI validates tier-1 escalation and pages on-call director in 8.4s.</span>
+        </button>
+
+        <button class="test-scenario-btn" onclick="runScenario(2)">
+          <strong>Test 2: High-Value Consultation & Cal.com Booking</strong>
+          <span>Caller requests VIP quote, AI matches budget threshold (>$5,000) and locks calendar reservation.</span>
+        </button>
+
+        <button class="test-scenario-btn" onclick="runScenario(3)">
+          <strong>Test 3: Trilingual Language Switch (Spanish / English)</strong>
+          <span>Caller switches from English to Spanish mid-sentence; AI voice instantly adapts accent and idiom.</span>
+        </button>
+
+        <button class="test-scenario-btn" onclick="runScenario(4)">
+          <strong>Test 4: Insurance / Financing Eligibility Verification</strong>
+          <span>Caller asks about corporate billing and coverage, AI checks local policy matrix in real-time vector memory.</span>
+        </button>
+
+        <button class="test-scenario-btn" onclick="runScenario(5)">
+          <strong>Test 5: Complex Multi-Party Callback Dispatch</strong>
+          <span>Caller leaves detailed project specs, AI creates enriched CRM card and triggers SMS confirmation.</span>
+        </button>
+
+        <div style="background:rgba(56,189,248,0.08); border:1px solid rgba(56,189,248,0.25); border-radius:10px; padding:16px; margin-top:16px;">
+          <div style="font-size:12px; font-weight:700; color:#38bdf8; margin-bottom:4px;">📡 Direct SIP Trunk Telephony Routing:</div>
+          <div style="font-size:12px; color:#e2e8f0; font-family:'JetBrains Mono'; margin-bottom:6px;">sip:ironclad_foundation_repair_enterprise@inbound.antigravity.telecom</div>
+          <div style="font-size:11px; color:var(--text-muted); line-height:1.4;">
+            All live calls to <strong>+1 (888) 720-2034</strong> are automatically transcribed, enriched, and pushed to Ironclad Foundation Repair's webhook endpoints with SLA guarantee.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let isCalling = false;
+    let callInterval = null;
+    let callSeconds = 0;
+    const canvas = document.getElementById('voice-canvas');
+    const ctx = canvas.getContext('2d');
+    let animId = null;
+
+    function resizeCanvas() {
+      canvas.width = canvas.parentElement.clientWidth - 40;
+      canvas.height = 70;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    function drawWave() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.lineWidth = 2;
+      ctx.strokeStyle = isCalling ? '#38bdf8' : 'rgba(255,255,255,0.15)';
+      ctx.beginPath();
+      
+      const sliceWidth = canvas.width / 40;
+      let x = 0;
+      const t = Date.now() / 150;
+      
+      for (let i = 0; i < 40; i++) {
+        const amp = isCalling ? (Math.sin(t + i * 0.4) * 18 + Math.cos(t * 1.5 + i * 0.2) * 10) : 0;
+        const y = (canvas.height / 2) + amp;
+        if (i === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+        x += sliceWidth;
+      }
+      ctx.stroke();
+      animId = requestAnimationFrame(drawWave);
+    }
+    drawWave();
+
+    function startCallSimulation() {
+      if (isCalling) return;
+      isCalling = true;
+      document.getElementById('call-state').innerText = "LIVE CALL IN PROGRESS • 112ms";
+      document.getElementById('call-state').style.color = "#10b981";
+      document.getElementById('btn-call').disabled = true;
+      document.getElementById('btn-hangup').disabled = false;
+      document.getElementById('avatar-icon').style.animation = "pulse 1.5s infinite";
+      
+      callSeconds = 0;
+      callInterval = setInterval(() => {
+        callSeconds++;
+        const mins = String(Math.floor(callSeconds / 60)).padStart(2, '0');
+        const secs = String(callSeconds % 60).padStart(2, '0');
+        document.getElementById('call-clock').innerText = `${mins}:${secs}`;
+      }, 1000);
+
+      appendTranscript("caller", "Hello, I am calling for Ironclad Foundation Repair regarding urgent service availability.");
+      setTimeout(() => {
+        if (isCalling) appendTranscript("agent", "Thank you for calling Ironclad Foundation Repair! My name is Sarah, your AI intake specialist. How can I assist you today?");
+      }, 700);
+    }
+
+    function endCallSimulation() {
+      if (!isCalling) return;
+      isCalling = false;
+      clearInterval(callInterval);
+      document.getElementById('call-state').innerText = "CALL TERMINATED • LOGGED TO CRM";
+      document.getElementById('call-state').style.color = "#94a3b8";
+      document.getElementById('btn-call').disabled = false;
+      document.getElementById('btn-hangup').disabled = true;
+      appendTranscript("system", "[CALL CLOSED] Summary & recording encrypted and delivered to VIP Portal.");
+    }
+
+    function toggleMute() {
+      alert('Microphone muted. Speech-to-text pipeline paused.');
+    }
+
+    function appendTranscript(role, text) {
+      const box = document.getElementById('transcript-stream');
+      const div = document.createElement('div');
+      div.className = 'transcript-line';
+      let roleLabel = role.toUpperCase();
+      let colorClass = role;
+      div.innerHTML = `<span class="transcript-role ${colorClass}">[${roleLabel}]</span> ${text}`;
+      box.appendChild(div);
+      box.scrollTop = box.scrollHeight;
+    }
+
+    function runScenario(num) {
+      if (!isCalling) startCallSimulation();
+      if (num === 1) {
+        setTimeout(() => {
+          appendTranscript("caller", "We have a critical breakdown at our site right now, need a crew dispatched today!");
+        }, 400);
+        setTimeout(() => {
+          appendTranscript("agent", "Understood. I am flagging this as Priority Tier-1 Emergency. Let me verify your address and dispatch our nearest supervisor immediately.");
+          appendTranscript("system", "[DISPATCH LOGIC] Page sent to Mobile On-Call Unit. Estimated response: 18 mins.");
+        }, 1100);
+      } else if (num === 2) {
+        setTimeout(() => {
+          appendTranscript("caller", "I am looking for a full custom project consultation. Our planned budget is around $25,000.");
+        }, 400);
+        setTimeout(() => {
+          appendTranscript("agent", "Fantastic, that aligns perfectly with our premium solutions. I have an opening with our Managing Director this Thursday at 2:00 PM. Would you like me to book that slot?");
+          appendTranscript("system", "[CAL.COM SYNC] Slot held: Thursday 2:00 PM CST. Booking confirmation SMS prepared.");
+        }, 1100);
+      } else if (num === 3) {
+        setTimeout(() => {
+          appendTranscript("caller", "Buenas tardes, ¿hablan español? Quisiera consultar sobre los costos de sus servicios.");
+        }, 400);
+        setTimeout(() => {
+          appendTranscript("agent", "¡Buenas tardes! Sí, por supuesto. En Ironclad Foundation Repair ofrecemos atención completa en español. Con gusto le explico nuestros planes.");
+          appendTranscript("system", "[LANGUAGE ROUTING] Synthesizer dynamic shift to es-US neural voice (<95ms).");
+        }, 1100);
+      } else if (num === 4) {
+        setTimeout(() => {
+          appendTranscript("caller", "Do you accept direct corporate invoicing or third-party financing?");
+        }, 400);
+        setTimeout(() => {
+          appendTranscript("agent", "Yes, we accept major corporate cards, ACH transfers, Net-14 invoicing, and flexible installment financing via our portal.");
+        }, 1100);
+      } else if (num === 5) {
+        setTimeout(() => {
+          appendTranscript("caller", "Please have the director call me back at 555-0199 after 4 PM.");
+        }, 400);
+        setTimeout(() => {
+          appendTranscript("agent", "Noted! I have recorded your callback request for 4:00 PM and sent the transcript to the executive desk.");
+          appendTranscript("system", "[WEBHOOK FIRED] POST to /api/contact -> Telegram @Minhpv_bot alert dispatched.");
+        }, 1100);
+      }
+    }
+  </script>
+</body>
+</html>

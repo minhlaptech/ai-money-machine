@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paramount Commercial Roofing — Sovereign Private VPC & GPU Simulation Console</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand: #f59e0b;
+      --bg: #09090b;
+      --card-bg: rgba(24, 24, 27, 0.75);
+      --border: rgba(245, 158, 11, 0.3);
+      --text: #f4f4f5;
+      --text-muted: #a1a1aa;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    .top-bar {
+      background: linear-gradient(90deg, rgba(245,158,11,0.15), rgba(220,38,38,0.15));
+      border-bottom: 1px solid var(--border);
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+    .sovereign-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(245, 158, 11, 0.2);
+      border: 1px solid rgba(245, 158, 11, 0.6);
+      color: #fbbf24;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .nav-actions { display: flex; gap: 10px; align-items: center; }
+    .nav-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: #cbd5e1;
+      text-decoration: none;
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .nav-btn:hover { background: rgba(245,158,11,0.2); color: #fff; border-color: #f59e0b; }
+    .nav-btn.primary {
+      background: linear-gradient(135deg, #f59e0b, #d97706);
+      border: none;
+      color: #000;
+      font-weight: 700;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .hero-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .hero-header h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 36px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    .hero-header p {
+      color: var(--text-muted);
+      font-size: 15px;
+      max-width: 750px;
+      margin: 0 auto;
+    }
+
+    .grid-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 30px;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    }
+    .card-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    /* Hardware Telemetry Screen */
+    .gpu-monitor {
+      background: rgba(0,0,0,0.7);
+      border: 1px solid rgba(245,158,11,0.3);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 20px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .gpu-stat-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      font-size: 12.5px;
+    }
+    .gpu-bar-container {
+      width: 100%;
+      height: 8px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+    .gpu-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #f59e0b, #ef4444);
+      width: 68%;
+    }
+
+    .security-badge {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 20px;
+    }
+    .security-badge span {
+      font-size: 24px;
+    }
+
+    .terminal-window {
+      height: 240px;
+      background: #000;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px;
+      padding: 14px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11.5px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .terminal-line { line-height: 1.4; }
+    .terminal-line.green { color: #10b981; }
+    .terminal-line.yellow { color: #fbbf24; }
+    .terminal-line.cyan { color: #38bdf8; }
+    .terminal-line.gray { color: #71717a; }
+
+    .scenario-btn {
+      width: 100%;
+      text-align: left;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: #f4f4f5;
+      padding: 12px 16px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .scenario-btn:hover {
+      background: rgba(245, 158, 11, 0.15);
+      border-color: #f59e0b;
+      transform: translateX(4px);
+    }
+    .scenario-btn strong {
+      color: #fbbf24;
+      display: block;
+      font-size: 13px;
+      margin-bottom: 2px;
+    }
+    .scenario-btn span {
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+
+    .cluster-metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .metric-card {
+      background: rgba(0,0,0,0.5);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+    }
+    .metric-val {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 15px;
+      font-weight: 700;
+      color: #fbbf24;
+    }
+    .metric-lbl {
+      font-size: 10px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+    @media (max-width: 900px) {
+      .grid-layout { grid-template-columns: 1fr; }
+      .cluster-metrics { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div style="display:flex; align-items:center; gap:10px;">
+      <a href="/sandboxes" style="color:#fbbf24; text-decoration:none; font-weight:700;">← All Sandboxes</a>
+      <span class="sovereign-pill">👑 Sovereign Private VPC</span>
+      <span style="color:#fff; font-weight:600;">Paramount Commercial Roofing</span>
+      <span style="color:var(--text-muted); font-size:12px;">• Industrial Roofing Systems (Houston, TX)</span>
+    </div>
+    <div class="nav-actions">
+      <a href="/portals/paramount_commercial_roofing_sovereign_portal.html" class="nav-btn">🏛️ VIP Portal</a>
+      <a href="/fulfillment_packets/paramount_commercial_roofing_sovereign_fulfillment_packet.html" class="nav-btn">🛡️ SLA Packet</a>
+      <a href="/invoices/paramount_commercial_roofing_sovereign_invoice.html" class="nav-btn">🧾 Invoice</a>
+      <a href="/agreements/paramount_commercial_roofing_sovereign_agreement.html" class="nav-btn">📑 Agreement</a>
+      <button onclick="runAudit()" class="nav-btn primary">🔒 Run Zero-Leakage Audit</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="hero-header">
+      <h1>Sovereign On-Premise Llama-3 70B Simulation Console</h1>
+      <p>Simulating dedicated private hardware, zero outbound data egress, HIPAA / SOC2 boundary containment, and local vector RAG for <strong>Paramount Commercial Roofing</strong>.</p>
+    </div>
+
+    <div class="grid-layout">
+      <!-- Left Column: GPU Hardware & Audit Console -->
+      <div class="card">
+        <div class="card-title">
+          <span>🧠 Hardware Cluster Telemetry</span>
+          <span style="font-size:11px; color:#10b981; font-family:'JetBrains Mono';">● AIR-GAPPED</span>
+        </div>
+
+        <div class="security-badge">
+          <span>🛡️</span>
+          <div>
+            <div style="font-weight:700; color:#10b981; font-size:13px;">100% Zero-Data-Retention Certified</div>
+            <div style="font-size:11.5px; color:#cbd5e1;">No third-party API egress • Private VPC Subnet: 10.240.12.0/24</div>
+          </div>
+        </div>
+
+        <div class="gpu-monitor">
+          <div class="gpu-stat-row">
+            <span style="color:#fbbf24;">NVIDIA H100 80GB SXM5 (Cluster Node 1)</span>
+            <span style="color:#10b981;">Online (46°C)</span>
+          </div>
+          <div class="gpu-stat-row">
+            <span style="color:var(--text-muted);">VRAM Allocated: 54.4 GB / 80 GB</span>
+            <span style="color:#fff;">68% Load</span>
+          </div>
+          <div class="gpu-bar-container">
+            <div class="gpu-bar-fill"></div>
+          </div>
+
+          <div class="gpu-stat-row" style="margin-bottom:0;">
+            <span style="color:var(--text-muted);">Throughput:</span>
+            <span style="color:#38bdf8; font-weight:700;">142.8 tokens/sec</span>
+          </div>
+        </div>
+
+        <div style="font-size:12px; font-weight:700; color:#cbd5e1; margin-bottom:8px;">Live VPC Security & Inference Terminal:</div>
+        <div class="terminal-window" id="terminal">
+          <div class="terminal-line gray">[BOOT] Initializing Sovereign Runtime for Paramount Commercial Roofing...</div>
+          <div class="terminal-line green">[OK] Isolated namespace verified: ns-sov-vpc-paramount_commer-36</div>
+          <div class="terminal-line cyan">[NET] Outbound egress firewall rules active: 0.0.0.0/0 BLOCKED</div>
+          <div class="terminal-line yellow">[MODEL] Llama-3.3 70B Instruct weights verified (SHA256: 7f3b...9a12)</div>
+          <div class="terminal-line green">[READY] Private Cluster ready for sovereign inference testing.</div>
+        </div>
+
+        <div class="cluster-metrics">
+          <div class="metric-card">
+            <div class="metric-val">142 t/s</div>
+            <div class="metric-lbl">Inference Speed</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-val">74ms</div>
+            <div class="metric-lbl">First Token TTFT</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-val" style="color:#10b981;">0 bytes</div>
+            <div class="metric-lbl">External Egress</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-val">3.35 TB/s</div>
+            <div class="metric-lbl">HBM3 Bandwidth</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: High Security Scenarios -->
+      <div class="card">
+        <div class="card-title">
+          <span>⚡ Sovereign Acceptance Scenarios</span>
+          <span style="font-size:11px; color:#fbbf24;">Interactive Tests</span>
+        </div>
+
+        <button class="scenario-btn" onclick="runScenario(1)">
+          <strong>Test 1: HIPAA & Sensitive Health/Legal PII Scrubbing</strong>
+          <span>Simulate input with sensitive medical/patient identifiers; verify 100% local scrub and zero cloud leakage.</span>
+        </button>
+
+        <button class="scenario-btn" onclick="runScenario(2)">
+          <strong>Test 2: Private Isolated Vector RAG Semantic Query</strong>
+          <span>Query client's confidential internal database (vdb-sov-hipaa-paramount_co); verify embeddings remain within VPC boundary.</span>
+        </button>
+
+        <button class="scenario-btn" onclick="runScenario(3)">
+          <strong>Test 3: High-Throughput Batch Processing Simulation</strong>
+          <span>Queue 50 concurrent internal documents; test H100 GPU tensor parallel scaling and latency under load.</span>
+        </button>
+
+        <button class="scenario-btn" onclick="runScenario(4)">
+          <strong>Test 4: Air-Gapped Network Boundary Penetration Test</strong>
+          <span>Simulate attempted unauthorized outbound call; verify immediate kernel drop and firewall audit alert.</span>
+        </button>
+
+        <button class="scenario-btn" onclick="runScenario(5)">
+          <strong>Test 5: Regulatory Compliance Dossier Generator</strong>
+          <span>Generate cryptographic audit proof certifying SOC2 Type II, ISO 27001, and HIPAA compliance for legal team.</span>
+        </button>
+
+        <div style="background:rgba(245,158,11,0.08); border:1px solid rgba(245,158,11,0.25); border-radius:10px; padding:16px; margin-top:16px;">
+          <div style="font-size:12px; font-weight:700; color:#fbbf24; margin-bottom:4px;">👑 Sovereign Infrastructure Guarantee:</div>
+          <div style="font-size:11.5px; color:var(--text-muted); line-height:1.5;">
+            Paramount Commercial Roofing maintains 100% intellectual property ownership. The weights, embeddings, and conversation histories are hosted on dedicated, single-tenant silicon with 0% data cross-contamination.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function printTerm(type, text) {
+      const term = document.getElementById('terminal');
+      const div = document.createElement('div');
+      div.className = `terminal-line ${type}`;
+      div.innerText = text;
+      term.appendChild(div);
+      term.scrollTop = term.scrollHeight;
+    }
+
+    function runAudit() {
+      printTerm('yellow', '[AUDIT] Initiating full Zero-Leakage & HIPAA Compliance Scan...');
+      setTimeout(() => printTerm('cyan', '[AUDIT] Probing 65,535 TCP ports for outbound leaks... 0 detected.'), 500);
+      setTimeout(() => printTerm('cyan', '[AUDIT] Inspecting GPU VRAM encryption buffer (AES-256 GCM)... PASS.'), 1000);
+      setTimeout(() => printTerm('green', '[AUDIT RESULT] 100.0% Sovereign Air-Gap Confirmed. Certificate #SOV-AUDIT-2026.'), 1500);
+    }
+
+    function runScenario(num) {
+      if (num === 1) {
+        printTerm('yellow', '[TEST 1] Ingesting sensitive intake test prompt...');
+        setTimeout(() => printTerm('gray', '  > Payload: "Patient John Doe (SSN: 000-12-3456, DX: Acute Cervical Herniation)..."'), 400);
+        setTimeout(() => printTerm('green', '  [LOCAL SANITIZER] Redacted 2 PII entities in 2.1ms before tokenization.'), 900);
+        setTimeout(() => printTerm('cyan', '  [INFERENCE] Output synthesized with synthetic pseudo-identifiers only.'), 1400);
+      } else if (num === 2) {
+        printTerm('yellow', '[TEST 2] Executing Vector RAG Query on vdb-sov-hipaa-paramount_co...');
+        setTimeout(() => printTerm('gray', '  > Query: "Compare Q3 commercial contract liability clauses vs standard indemnification"'), 400);
+        setTimeout(() => printTerm('green', '  [VECTOR MATCH] Found 4 chunks (cosine similarity 0.941) in 8.3ms.'), 900);
+        setTimeout(() => printTerm('cyan', '  [OUTPUT] Synthesized legal comparison using 100% local weights.'), 1400);
+      } else if (num === 3) {
+        printTerm('yellow', '[TEST 3] Queuing 50 batch documents into tensor parallelism stream...');
+        setTimeout(() => printTerm('cyan', '  [GPU CLUSTER] Peak load 89%, 146.2 tokens/sec maintained across 8 H100 SMs.'), 600);
+        setTimeout(() => printTerm('green', '  [COMPLETE] Processed 78,400 tokens in 536ms. Zero dropped jobs.'), 1200);
+      } else if (num === 4) {
+        printTerm('yellow', '[TEST 4] Simulating simulated malicious egress attempt to external IP 185.199.108.153...');
+        setTimeout(() => printTerm('green', '  [FIREWALL DROP] IPTables rule #14 blocked TCP connection instantly (0.1ms).'), 500);
+        setTimeout(() => printTerm('cyan', '  [SIEM ALERT] Incident logged to SIEM audit trail. Security perimeter intact.'), 1000);
+      } else if (num === 5) {
+        printTerm('yellow', '[TEST 5] Compiling Regulatory Compliance Dossier...');
+        setTimeout(() => printTerm('green', '  [SIGNATURE] Generated SHA-256 cryptographic attestation: b94a...582e'), 600);
+        setTimeout(() => printTerm('cyan', '  [DELIVERED] Compliance dossier generated and synced with Executive Portal.'), 1100);
+      }
+    }
+  </script>
+</body>
+</html>
