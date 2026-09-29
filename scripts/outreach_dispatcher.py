@@ -70,14 +70,15 @@ LEADS = [
     {"id": 30, "batch": 3, "name": "Metro Injury Defense Group", "niche": "Insurance Litigation", "city": "Miami, FL", "to": "litigation@metroinjurydefense.example", "doc": "Carlos Mendez", "type": "legal", "val": 4000, "lost": 4}
 ]
 
-# Dynamically append Batch 4, 5, 6
 try:
-    from expand_crm_pipeline import NEW_LEADS
-    for nl in NEW_LEADS:
-        if not any(l["id"] == nl["id"] for l in LEADS):
-            LEADS.append(nl)
+    from leads_data import ALL_LEADS
+    LEADS = ALL_LEADS
+except ImportError:
+    from scripts.leads_data import ALL_LEADS
+    LEADS = ALL_LEADS
 except Exception:
     pass
+
 
 def build_email_content(lead, stage=1):
     slug = lead["name"].lower().replace(" ", "_").replace("&", "and").replace("/", "-").replace("\\", "-").replace(",", "").replace(".", "")

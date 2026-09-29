@@ -17,38 +17,13 @@ if sys.stdout.encoding != 'utf-8':
     except Exception:
         pass
 
-LEADS = [
-  {"id": 1, "name": "Austin Dental Co", "niche": "Cosmetic Dentistry", "city": "Austin, TX", "doc": "Dr. Miller", "type": "dental", "val": 750, "lost": 14},
-  {"id": 2, "name": "Pure Radiance MedSpa", "niche": "Aesthetics & Spa", "city": "Miami, FL", "doc": "Sarah", "type": "medspa", "val": 650, "lost": 16},
-  {"id": 3, "name": "Premier 24/7 HVAC", "niche": "Heating & AC Repair", "city": "Dallas, TX", "doc": "Mark", "type": "hvac", "val": 1200, "lost": 10},
-  {"id": 4, "name": "Elite Smile Studio", "niche": "Orthodontics", "city": "San Jose, CA", "doc": "Dr. Nguyen", "type": "dental", "val": 1500, "lost": 8},
-  {"id": 5, "name": "Apex Roofing & Solar", "niche": "Roofing & Solar", "city": "Phoenix, AZ", "doc": "David", "type": "hvac", "val": 2500, "lost": 6},
-  {"id": 6, "name": "Lumina Wellness", "niche": "Regenerative Med", "city": "Seattle, WA", "doc": "Dr. Adams", "type": "medspa", "val": 850, "lost": 12},
-  {"id": 7, "name": "Vanguard Luxury RE", "niche": "Luxury Real Estate", "city": "Denver, CO", "doc": "Alex", "type": "realestate", "val": 4500, "lost": 4},
-  {"id": 8, "name": "ProActive Spine & Chiro", "niche": "Chiropractic", "city": "Chicago, IL", "doc": "Dr. Davis", "type": "dental", "val": 400, "lost": 18},
-  {"id": 9, "name": "Rapid Response Plumbing", "niche": "24/7 Emergency Plumber", "city": "Atlanta, GA", "doc": "Robert", "type": "hvac", "val": 800, "lost": 15},
-  {"id": 10, "name": "Silicon Valley Skin Lab", "niche": "Dermatology & Laser", "city": "Palo Alto, CA", "doc": "Dr. Patel", "type": "medspa", "val": 950, "lost": 11},
-  {"id": 11, "name": "Velora Activewear", "niche": "Athleisure Apparel", "city": "Los Angeles, CA", "doc": "Team Velora", "type": "ecom", "val": 120, "lost": 65},
-  {"id": 12, "name": "NuvoGlow Skincare", "niche": "Clean D2C Beauty", "city": "New York, NY", "doc": "Founder", "type": "ecom", "val": 85, "lost": 90},
-  {"id": 13, "name": "PulseMetrics AI", "niche": "B2B Analytics SaaS", "city": "San Francisco, CA", "doc": "Founder", "type": "saas", "val": 1800, "lost": 7},
-  {"id": 14, "name": "HydroFlow Bottle", "niche": "Eco Hydration D2C", "city": "Boulder, CO", "doc": "Team HydroFlow", "type": "ecom", "val": 60, "lost": 110},
-  {"id": 15, "name": "CloudDesk Help", "niche": "Customer Support SaaS", "city": "Austin, TX", "doc": "Product Lead", "type": "saas", "val": 2200, "lost": 6},
-  {"id": 16, "name": "Artisan Roast Club", "niche": "Subscription Coffee", "city": "Portland, OR", "doc": "Founder", "type": "ecom", "val": 45, "lost": 140},
-  {"id": 17, "name": "StackSync Dev", "niche": "Developer Workflows", "city": "Seattle, WA", "doc": "Engineering Lead", "type": "saas", "val": 3000, "lost": 5},
-  {"id": 18, "name": "Pawsome Pet Boxes", "niche": "Pet Subscription D2C", "city": "Denver, CO", "doc": "Customer Team", "type": "ecom", "val": 70, "lost": 85},
-  {"id": 19, "name": "LeadFlow CRM", "niche": "SMB Sales CRM SaaS", "city": "Boston, MA", "doc": "Growth Team", "type": "saas", "val": 1500, "lost": 8},
-  {"id": 20, "name": "ZenSleep Mattress", "niche": "D2C Sleep Wellness", "city": "Chicago, IL", "doc": "Marketing Team", "type": "ecom", "val": 650, "lost": 22},
-  {"id": 21, "name": "Sterling & Partners Legal", "niche": "Personal Injury Law", "city": "Chicago, IL", "doc": "David Sterling", "type": "legal", "val": 3500, "lost": 5},
-  {"id": 22, "name": "Summit Crest Luxury Realty", "niche": "Luxury Real Estate", "city": "Aspen, CO", "doc": "Victoria Vance", "type": "realestate", "val": 6000, "lost": 3},
-  {"id": 23, "name": "Beacon Hill CPA & Tax", "niche": "Tax & Advisory Firm", "city": "Boston, MA", "doc": "Marcus Brody", "type": "cpa", "val": 2000, "lost": 7},
-  {"id": 24, "name": "Pacific Coast Family Law", "niche": "Divorce & Family Law", "city": "San Diego, CA", "doc": "Elena Rostova", "type": "legal", "val": 2800, "lost": 6},
-  {"id": 25, "name": "Vanguard Wealth & Accounting", "niche": "Family Office & CPA", "city": "New York, NY", "doc": "Jonathan Vance", "type": "cpa", "val": 4000, "lost": 4},
-  {"id": 26, "name": "Redwood Corporate Counsel", "niche": "Corporate & M&A", "city": "Austin, TX", "doc": "Sarah Jenkins", "type": "legal", "val": 5000, "lost": 3},
-  {"id": 27, "name": "Pinnacle Commercial RE", "niche": "Commercial Brokerage", "city": "Dallas, TX", "doc": "Robert Miller", "type": "realestate", "val": 8000, "lost": 2},
-  {"id": 28, "name": "Harborview Estate Planning", "niche": "Trusts & Estates", "city": "Seattle, WA", "doc": "Cynthia Thorne", "type": "legal", "val": 2400, "lost": 7},
-  {"id": 29, "name": "Apex Audit & Valuation", "niche": "Audit & Valuation", "city": "Atlanta, GA", "doc": "Richard Hall", "type": "cpa", "val": 3200, "lost": 5},
-  {"id": 30, "name": "Metro Injury Defense Group", "niche": "Insurance Litigation", "city": "Miami, FL", "doc": "Carlos Mendez", "type": "legal", "val": 4500, "lost": 4}
-]
+try:
+    from leads_data import ALL_LEADS, get_slug
+except ImportError:
+    from scripts.leads_data import ALL_LEADS, get_slug
+
+LEADS = ALL_LEADS
+
 
 PROPOSAL_TEMPLATE = """<!DOCTYPE html>
 <html lang="en">
@@ -316,16 +291,18 @@ def generate_all_proposals():
     out_dir.mkdir(exist_ok=True)
     
     print("=" * 70)
-    print("🚀 GENERATING 30 CUSTOM CLIENT PROPOSALS & AI AUDITS")
+    print(f"🚀 GENERATING {len(LEADS)} CUSTOM CLIENT PROPOSALS & AI AUDITS")
     print("=" * 70)
     
     for l in LEADS:
-        slug = l["name"].lower().replace(" ", "_").replace("&", "and").replace("/", "-").replace("\\", "-").replace(",", "").replace(".", "")
+        slug = get_slug(l["name"])
         out_file = out_dir / f"{slug}_proposal.html"
         
         recovered = max(3, l["lost"] // 3)
         monthly_rev = recovered * l["val"]
         annual_rev = monthly_rev * 12
+        setup_fee_str = f"{l.get('value', 1200):,}"
+        retainer_str = f"{l.get('retainer', 650):,}"
         
         html = PROPOSAL_TEMPLATE.format(
             client_name=l["name"],
@@ -337,16 +314,17 @@ def generate_all_proposals():
             avg_client_val=f"{l['val']:,}",
             monthly_recovered=f"{monthly_rev:,}",
             annual_roi=f"{annual_rev:,}",
-            setup_fee="1,200",
-            monthly_retainer="650"
+            setup_fee=setup_fee_str,
+            monthly_retainer=retainer_str
         )
         
         out_file.write_text(html, encoding="utf-8")
         print(f"  [✓] #{l['id']:02d} Generated: {out_file.name}")
         
     print("-" * 70)
-    print(f"🎉 SUCCESS: All 30 custom proposals generated in: {out_dir}")
+    print(f"🎉 SUCCESS: All {len(LEADS)} custom proposals generated in: {out_dir}")
     print("=" * 70)
 
 if __name__ == "__main__":
     generate_all_proposals()
+

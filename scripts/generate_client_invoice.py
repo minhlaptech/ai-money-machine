@@ -402,43 +402,17 @@ INVOICE_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
-LEADS = [
-  {"id": 1, "name": "Austin Dental Co", "niche": "Cosmetic Dentistry", "city": "Austin, TX"},
-  {"id": 2, "name": "Pure Radiance MedSpa", "niche": "Aesthetics & Spa", "city": "Miami, FL"},
-  {"id": 3, "name": "Premier 24/7 HVAC", "niche": "Heating & AC Repair", "city": "Dallas, TX"},
-  {"id": 4, "name": "Elite Smile Studio", "niche": "Orthodontics", "city": "San Jose, CA"},
-  {"id": 5, "name": "Apex Roofing & Solar", "niche": "Roofing & Solar", "city": "Phoenix, AZ"},
-  {"id": 6, "name": "Lumina Wellness", "niche": "Regenerative Med", "city": "Seattle, WA"},
-  {"id": 7, "name": "Vanguard Luxury RE", "niche": "Luxury Real Estate", "city": "Denver, CO"},
-  {"id": 8, "name": "ProActive Spine & Chiro", "niche": "Chiropractic", "city": "Chicago, IL"},
-  {"id": 9, "name": "Rapid Response Plumbing", "niche": "24/7 Emergency Plumber", "city": "Atlanta, GA"},
-  {"id": 10, "name": "Silicon Valley Skin Lab", "niche": "Dermatology & Laser", "city": "Palo Alto, CA"},
-  {"id": 11, "name": "Velora Activewear", "niche": "Athleisure Apparel", "city": "Los Angeles, CA"},
-  {"id": 12, "name": "NuvoGlow Skincare", "niche": "Clean D2C Beauty", "city": "New York, NY"},
-  {"id": 13, "name": "PulseMetrics AI", "niche": "B2B Analytics SaaS", "city": "San Francisco, CA"},
-  {"id": 14, "name": "HydroFlow Bottle", "niche": "Eco Hydration D2C", "city": "Boulder, CO"},
-  {"id": 15, "name": "CloudDesk Help", "niche": "Customer Support SaaS", "city": "Austin, TX"},
-  {"id": 16, "name": "Artisan Roast Club", "niche": "Subscription Coffee", "city": "Portland, OR"},
-  {"id": 17, "name": "StackSync Dev", "niche": "Developer Workflows", "city": "Seattle, WA"},
-  {"id": 18, "name": "Pawsome Pet Boxes", "niche": "Pet Subscription D2C", "city": "Denver, CO"},
-  {"id": 19, "name": "LeadFlow CRM", "niche": "SMB Sales CRM SaaS", "city": "Boston, MA"},
-  {"id": 20, "name": "ZenSleep Mattress", "niche": "D2C Sleep Wellness", "city": "Chicago, IL"},
-  {"id": 21, "name": "Sterling & Partners Legal", "niche": "Personal Injury Law", "city": "Chicago, IL"},
-  {"id": 22, "name": "Summit Crest Luxury Realty", "niche": "Luxury Real Estate", "city": "Aspen, CO"},
-  {"id": 23, "name": "Beacon Hill CPA & Tax", "niche": "Tax & Advisory Firm", "city": "Boston, MA"},
-  {"id": 24, "name": "Pacific Coast Family Law", "niche": "Divorce & Family Law", "city": "San Diego, CA"},
-  {"id": 25, "name": "Vanguard Wealth & Accounting", "niche": "Family Office & CPA", "city": "New York, NY"},
-  {"id": 26, "name": "Redwood Corporate Counsel", "niche": "Corporate & M&A", "city": "Austin, TX"},
-  {"id": 27, "name": "Pinnacle Commercial RE", "niche": "Commercial Brokerage", "city": "Dallas, TX"},
-  {"id": 28, "name": "Harborview Estate Planning", "niche": "Trusts & Estates", "city": "Seattle, WA"},
-  {"id": 29, "name": "Apex Audit & Valuation", "niche": "Audit & Valuation", "city": "Atlanta, GA"},
-  {"id": 30, "name": "Metro Injury Defense Group", "niche": "Insurance Litigation", "city": "Miami, FL"}
-]
+try:
+    from leads_data import ALL_LEADS, get_slug
+except ImportError:
+    from scripts.leads_data import ALL_LEADS, get_slug
+
+LEADS = ALL_LEADS
 
 def generate_invoice(lead_id, name, niche, city):
     import urllib.parse
     INVOICES_DIR.mkdir(parents=True, exist_ok=True)
-    slug = name.lower().replace(" ", "_").replace("&", "and").replace("/", "-").replace("\\", "-").replace(",", "").replace(".", "")
+    slug = get_slug(name)
     out_file = INVOICES_DIR / f"{slug}_invoice.html"
 
     issue_date = datetime.now().strftime("%B %d, %Y")
@@ -467,7 +441,7 @@ def generate_invoice(lead_id, name, niche, city):
 
 def generate_all_invoices():
     print("=" * 70)
-    print("🚀 GENERATING 30 CUSTOM CLIENT B2B INVOICES")
+    print(f"🚀 GENERATING {len(LEADS)} CUSTOM CLIENT B2B INVOICES")
     print("=" * 70)
 
     for l in LEADS:
@@ -475,12 +449,12 @@ def generate_all_invoices():
         print(f"  [✓] #{l['id']:02d} Generated: {f.name}")
 
     print("-" * 70)
-    print(f"🎉 SUCCESS: All 30 custom invoices generated in: {INVOICES_DIR}")
+    print(f"🎉 SUCCESS: All {len(LEADS)} custom invoices generated in: {INVOICES_DIR}")
     print("=" * 70)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Executive B2B Invoices")
-    parser.add_argument("--all", action="store_true", help="Generate invoices for all 30 curated leads")
+    parser.add_argument("--all", action="store_true", help="Generate invoices for all curated leads")
     parser.add_argument("--id", type=int, default=1, help="Lead ID")
     parser.add_argument("--name", default="Austin Dental Co", help="Client name")
     parser.add_argument("--niche", default="Cosmetic Dentistry", help="Niche")
@@ -493,3 +467,4 @@ if __name__ == "__main__":
     else:
         f = generate_invoice(args.id, args.name, args.niche, args.city)
         print(f"[✓] Created custom invoice: {f}")
+

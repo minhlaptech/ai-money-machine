@@ -70,21 +70,19 @@ LEADS = [
 ]
 
 try:
-    from expand_crm_pipeline import NEW_LEADS
-    for nl in NEW_LEADS:
-        if not any(l["id"] == nl["id"] for l in LEADS):
-            LEADS.append({
-                "id": nl["id"],
-                "batch": nl["batch"],
-                "name": nl["name"],
-                "niche": nl["niche"],
-                "city": nl["city"],
-                "to": nl["to"],
-                "contact_person": nl["doc"],
-                "val": nl["val"],
-                "lost": nl["lost"],
-                "status": "Ready for Outreach"
-            })
+    from leads_data import ALL_LEADS
+    LEADS = [{
+        "id": l["id"],
+        "batch": l["batch"],
+        "name": l["name"],
+        "niche": l["niche"],
+        "city": l["city"],
+        "to": l["to"],
+        "contact_person": l.get("doc", "Owner"),
+        "val": l["val"],
+        "lost": l["lost"],
+        "status": "Ready for Outreach"
+    } for l in ALL_LEADS]
 except Exception:
     pass
 

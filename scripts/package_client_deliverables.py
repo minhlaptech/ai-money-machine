@@ -21,38 +21,13 @@ if sys.stdout.encoding != 'utf-8':
 ROOT_DIR = Path(__file__).resolve().parent.parent
 PACKAGES_DIR = ROOT_DIR / "client_packages"
 
-LEADS = [
-  {"id": 1, "name": "Austin Dental Co", "niche": "Cosmetic Dentistry", "city": "Austin, TX", "val": 750, "lost": 18},
-  {"id": 2, "name": "Pure Radiance MedSpa", "niche": "Medical Aesthetics", "city": "Miami, FL", "val": 650, "lost": 16},
-  {"id": 3, "name": "Premier 24/7 HVAC", "niche": "Emergency HVAC", "city": "Dallas, TX", "val": 850, "lost": 15},
-  {"id": 4, "name": "Sterling & Partners Legal", "niche": "Personal Injury Law", "city": "Chicago, IL", "val": 2500, "lost": 8},
-  {"id": 5, "name": "Summit Crest Luxury Realty", "niche": "High-End Real Estate", "city": "Scottsdale, AZ", "val": 4000, "lost": 5},
-  {"id": 6, "name": "ProActive Spine & Chiro", "niche": "Chiropractic & Wellness", "city": "Denver, CO", "val": 450, "lost": 22},
-  {"id": 7, "name": "Beacon Hill CPA & Tax", "niche": "Tax & Wealth Advisory", "city": "Boston, MA", "val": 1200, "lost": 10},
-  {"id": 8, "name": "Elite Smile Studio", "niche": "Orthodontics", "city": "San Diego, CA", "val": 950, "lost": 14},
-  {"id": 9, "name": "Rapid Response Plumbing", "niche": "Commercial Plumbing", "city": "Atlanta, GA", "val": 600, "lost": 20},
-  {"id": 10, "name": "Apex Roofing & Solar", "niche": "Roofing & Solar EPC", "city": "Orlando, FL", "val": 3500, "lost": 6},
-  {"id": 11, "name": "Velora Activewear", "niche": "Athleisure & Fitness", "city": "Los Angeles, CA", "val": 120, "lost": 65},
-  {"id": 12, "name": "NuvoGlow Skincare", "niche": "Clean Beauty & Cosmetics", "city": "New York, NY", "val": 95, "lost": 80},
-  {"id": 13, "name": "Artisan Roast Club", "niche": "Specialty Coffee Subscription", "city": "Seattle, WA", "val": 85, "lost": 90},
-  {"id": 14, "name": "ZenSleep Mattress", "niche": "Sleep Tech & Bedding", "city": "San Francisco, CA", "val": 850, "lost": 12},
-  {"id": 15, "name": "HydroFlow Bottle", "niche": "Smart Hydration & Gear", "city": "Boulder, CO", "val": 75, "lost": 95},
-  {"id": 16, "name": "Pawsome Pet Boxes", "niche": "Pet Supplies & Subscriptions", "city": "Austin, TX", "val": 65, "lost": 110},
-  {"id": 17, "name": "Lumina Wellness", "niche": "Nootropics & Supplements", "city": "Miami, FL", "val": 110, "lost": 70},
-  {"id": 18, "name": "StackSync Dev", "niche": "Developer Tools & SaaS", "city": "San Jose, CA", "val": 1400, "lost": 8},
-  {"id": 19, "name": "LeadFlow CRM", "niche": "B2B Sales Automation", "city": "Chicago, IL", "val": 1800, "lost": 7},
-  {"id": 20, "name": "CloudDesk Help", "niche": "Customer Support Platform", "city": "Boston, MA", "val": 1200, "lost": 9},
-  {"id": 21, "name": "PulseMetrics AI", "niche": "Product Analytics SaaS", "city": "New York, NY", "val": 2200, "lost": 6},
-  {"id": 22, "name": "Silicon Valley Skin Lab", "niche": "Dermatology Clinic", "city": "Palo Alto, CA", "val": 750, "lost": 16},
-  {"id": 23, "name": "Pacific Coast Family Law", "niche": "Family Law & Mediation", "city": "Newport Beach, CA", "val": 3000, "lost": 6},
-  {"id": 24, "name": "Vanguard Luxury RE", "niche": "Luxury Real Estate", "city": "Beverly Hills, CA", "val": 5000, "lost": 4},
-  {"id": 25, "name": "Vanguard Wealth & Accounting", "niche": "Family Office & CPA", "city": "New York, NY", "val": 2800, "lost": 5},
-  {"id": 26, "name": "Redwood Corporate Counsel", "niche": "Corporate & M&A", "city": "Austin, TX", "val": 3500, "lost": 5},
-  {"id": 27, "name": "Pinnacle Commercial RE", "niche": "Commercial Brokerage", "city": "Dallas, TX", "val": 4500, "lost": 4},
-  {"id": 28, "name": "Harborview Estate Planning", "niche": "Trusts & Estates", "city": "Seattle, WA", "val": 2200, "lost": 7},
-  {"id": 29, "name": "Apex Audit & Valuation", "niche": "Audit & Valuation", "city": "Atlanta, GA", "val": 3200, "lost": 5},
-  {"id": 30, "name": "Metro Injury Defense Group", "niche": "Insurance Litigation", "city": "Miami, FL", "val": 4000, "lost": 4}
-]
+try:
+    from leads_data import ALL_LEADS, get_slug
+except ImportError:
+    from scripts.leads_data import ALL_LEADS, get_slug
+
+LEADS = ALL_LEADS
+
 
 WELCOME_GUIDE_TEMPLATE = """# 🌟 EXECUTIVE WELCOME & CLIENT ONBOARDING GUIDE
 > **Prepared Exclusively for:** {client_name}
@@ -84,6 +59,8 @@ Congratulations on initiating your partnership with **MinhLap AI Automation Solu
    - Your itemized billing invoice ($1,200 setup + $650 monthly retainer) with multiple international settlement options.
 6. **`06_Monthly_ROI_Report.html`**
    - Your quantified monthly performance forecast modeling an estimated **+${monthly_loss}/month** in recovered gross revenue.
+7. **`07_Client_VIP_Portal.html`**
+   - Your dedicated Executive VIP Command Portal providing real-time AI copilot performance metrics, 99.98% SLA infrastructure health, 5-day white-glove onboarding progress, 1-click script embeds, and direct Telegram VIP engineering escalation.
 
 ---
 
@@ -99,12 +76,14 @@ Congratulations on initiating your partnership with **MinhLap AI Automation Solu
 
 ## 🌐 Instant Cloud Access Links (Live On Vercel):
 
+- ⚡ **Client VIP Portal:** `https://work-minh-lap.vercel.app/portal?client={slug}`
 - 🖥️ **Live Pitch Deck:** `https://work-minh-lap.vercel.app/pitches/{slug}_pitch.html`
 - 🧪 **Live Sandbox Prototype:** `https://work-minh-lap.vercel.app/sandboxes/{slug}_sandbox.html`
 - 📑 **Digital MSA Agreement:** `https://work-minh-lap.vercel.app/agreements/{slug}_agreement.html`
 - 💳 **Official Invoice:** `https://work-minh-lap.vercel.app/invoices/{slug}_invoice.html`
 - 📊 **Monthly ROI Report:** `https://work-minh-lap.vercel.app/reports/{slug}_roi_report.html`
 - 🚀 **Intake Form:** `https://work-minh-lap.vercel.app/onboarding?name={client_url_name}&niche={niche_url}`
+
 
 ---
 
@@ -123,7 +102,7 @@ AI Solutions Architect | MinhLap AI Automation Solutions
 
 def package_client(lead):
     PACKAGES_DIR.mkdir(parents=True, exist_ok=True)
-    slug = lead["name"].lower().replace(" ", "_").replace("&", "and").replace("/", "-").replace("\\", "-").replace(",", "").replace(".", "")
+    slug = get_slug(lead["name"])
     zip_path = PACKAGES_DIR / f"{slug}_executive_dossier.zip"
 
     import urllib.parse
@@ -146,7 +125,7 @@ def package_client(lead):
         slug=slug
     )
 
-    # Deliverables file mapping
+    # Deliverables file mapping (7 Key Executive Deliverables)
     file_map = [
         ("01_AI_Audit_and_Proposal.html", ROOT_DIR / "proposals" / f"{slug}_proposal.html"),
         ("02_Sales_Pitch_Deck.html", ROOT_DIR / "pitches" / f"{slug}_pitch.html"),
@@ -154,6 +133,7 @@ def package_client(lead):
         ("04_Master_Services_Agreement_MSA.html", ROOT_DIR / "agreements" / f"{slug}_agreement.html"),
         ("05_Official_Invoice_INV.html", ROOT_DIR / "invoices" / f"{slug}_invoice.html"),
         ("06_Monthly_ROI_Report.html", ROOT_DIR / "reports" / f"{slug}_roi_report.html"),
+        ("07_Client_VIP_Portal.html", ROOT_DIR / "portals" / f"{slug}_portal.html"),
     ]
 
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
@@ -170,21 +150,21 @@ def package_client(lead):
 
 def package_all():
     print("=" * 75)
-    print("📦 PACKAGING 30 COMPLETE CLIENT EXECUTIVE ONBOARDING DOSSIERS (ZIP)")
+    print(f"📦 PACKAGING {len(LEADS)} COMPLETE CLIENT EXECUTIVE ONBOARDING DOSSIERS (ZIP)")
     print("=" * 75)
 
     for l in LEADS:
         zp, kb = package_client(l)
-        print(f"  [✓] #{l['id']:02d} {l['name']:<30} -> {zp.name} ({kb:.1f} KB)")
+        print(f"  [✓] #{l['id']:02d} {l['name']:<35} -> {zp.name} ({kb:.1f} KB)")
 
     print("-" * 75)
-    print(f"🎉 SUCCESS: All 30 client dossiers packaged into: {PACKAGES_DIR}")
+    print(f"🎉 SUCCESS: All {len(LEADS)} client dossiers packaged into: {PACKAGES_DIR}")
     print("=" * 75)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Package Complete Client Deliverables into ZIP Dossiers")
-    parser.add_argument("--all", action="store_true", help="Package all 30 clients")
-    parser.add_argument("--lead", type=int, help="Package a single lead ID (1-30)")
+    parser.add_argument("--all", action="store_true", help="Package all clients")
+    parser.add_argument("--lead", type=int, help="Package a single lead ID")
 
     args = parser.parse_args()
 
@@ -197,3 +177,4 @@ if __name__ == "__main__":
             print(f"[!] Lead ID #{args.lead} not found.")
     else:
         package_all()
+

@@ -522,44 +522,17 @@ AGREEMENT_TEMPLATE = """<!DOCTYPE html>
 </body>
 </html>
 """
+try:
+    from leads_data import ALL_LEADS, get_slug
+except ImportError:
+    from scripts.leads_data import ALL_LEADS, get_slug
 
-LEADS = [
-  {"id": 1, "name": "Austin Dental Co", "niche": "Cosmetic Dentistry", "city": "Austin, TX"},
-  {"id": 2, "name": "Pure Radiance MedSpa", "niche": "Medical Aesthetics", "city": "Miami, FL"},
-  {"id": 3, "name": "Premier 24/7 HVAC", "niche": "Emergency HVAC", "city": "Dallas, TX"},
-  {"id": 4, "name": "Sterling & Partners Legal", "niche": "Personal Injury Law", "city": "Chicago, IL"},
-  {"id": 5, "name": "Summit Crest Luxury Realty", "niche": "High-End Real Estate", "city": "Scottsdale, AZ"},
-  {"id": 6, "name": "ProActive Spine & Chiro", "niche": "Chiropractic & Wellness", "city": "Denver, CO"},
-  {"id": 7, "name": "Beacon Hill CPA & Tax", "niche": "Tax & Wealth Advisory", "city": "Boston, MA"},
-  {"id": 8, "name": "Elite Smile Studio", "niche": "Orthodontics", "city": "San Diego, CA"},
-  {"id": 9, "name": "Rapid Response Plumbing", "niche": "Commercial Plumbing", "city": "Atlanta, GA"},
-  {"id": 10, "name": "Apex Roofing & Solar", "niche": "Roofing & Solar EPC", "city": "Orlando, FL"},
-  {"id": 11, "name": "Velora Activewear", "niche": "Athleisure & Fitness", "city": "Los Angeles, CA"},
-  {"id": 12, "name": "NuvoGlow Skincare", "niche": "Clean Beauty & Cosmetics", "city": "New York, NY"},
-  {"id": 13, "name": "Artisan Roast Club", "niche": "Specialty Coffee Subscription", "city": "Seattle, WA"},
-  {"id": 14, "name": "ZenSleep Mattress", "niche": "Sleep Tech & Bedding", "city": "San Francisco, CA"},
-  {"id": 15, "name": "HydroFlow Bottle", "niche": "Smart Hydration & Gear", "city": "Boulder, CO"},
-  {"id": 16, "name": "Pawsome Pet Boxes", "niche": "Pet Supplies & Subscriptions", "city": "Austin, TX"},
-  {"id": 17, "name": "Lumina Wellness", "niche": "Nootropics & Supplements", "city": "Miami, FL"},
-  {"id": 18, "name": "StackSync Dev", "niche": "Developer Tools & SaaS", "city": "San Jose, CA"},
-  {"id": 19, "name": "LeadFlow CRM", "niche": "B2B Sales Automation", "city": "Chicago, IL"},
-  {"id": 20, "name": "CloudDesk Help", "niche": "Customer Support Platform", "city": "Boston, MA"},
-  {"id": 21, "name": "PulseMetrics AI", "niche": "Product Analytics SaaS", "city": "New York, NY"},
-  {"id": 22, "name": "Silicon Valley Skin Lab", "niche": "Dermatology Clinic", "city": "Palo Alto, CA"},
-  {"id": 23, "name": "Pacific Coast Family Law", "niche": "Family Law & Mediation", "city": "Newport Beach, CA"},
-  {"id": 24, "name": "Vanguard Luxury RE", "niche": "Luxury Real Estate", "city": "Beverly Hills, CA"},
-  {"id": 25, "name": "Vanguard Wealth & Accounting", "niche": "Family Office & CPA", "city": "New York, NY"},
-  {"id": 26, "name": "Redwood Corporate Counsel", "niche": "Corporate & M&A", "city": "Austin, TX"},
-  {"id": 27, "name": "Pinnacle Commercial RE", "niche": "Commercial Brokerage", "city": "Dallas, TX"},
-  {"id": 28, "name": "Harborview Estate Planning", "niche": "Trusts & Estates", "city": "Seattle, WA"},
-  {"id": 29, "name": "Apex Audit & Valuation", "niche": "Audit & Valuation", "city": "Atlanta, GA"},
-  {"id": 30, "name": "Metro Injury Defense Group", "niche": "Insurance Litigation", "city": "Miami, FL"}
-]
+LEADS = ALL_LEADS
 
 def generate_agreement(lead_id, name, niche, city):
     import urllib.parse
     AGREEMENTS_DIR.mkdir(parents=True, exist_ok=True)
-    slug = name.lower().replace(" ", "_").replace("&", "and").replace("/", "-").replace("\\", "-").replace(",", "").replace(".", "")
+    slug = get_slug(name)
     out_file = AGREEMENTS_DIR / f"{slug}_agreement.html"
 
     effective_date = datetime.now().strftime("%B %d, %Y")
@@ -583,7 +556,7 @@ def generate_agreement(lead_id, name, niche, city):
 
 def generate_all_agreements():
     print("=" * 70)
-    print("🚀 GENERATING 30 CUSTOM CLIENT B2B MASTER SERVICES AGREEMENTS (MSA)")
+    print(f"🚀 GENERATING {len(LEADS)} CUSTOM CLIENT B2B MASTER SERVICES AGREEMENTS (MSA)")
     print("=" * 70)
 
     for l in LEADS:
@@ -591,12 +564,12 @@ def generate_all_agreements():
         print(f"  [✓] #{l['id']:02d} Generated: {f.name}")
 
     print("-" * 70)
-    print(f"🎉 SUCCESS: All 30 custom agreements generated in: {AGREEMENTS_DIR}")
+    print(f"🎉 SUCCESS: All {len(LEADS)} custom agreements generated in: {AGREEMENTS_DIR}")
     print("=" * 70)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Executive B2B Agreements")
-    parser.add_argument("--all", action="store_true", help="Generate agreements for all 30 curated leads")
+    parser.add_argument("--all", action="store_true", help="Generate agreements for all curated leads")
     parser.add_argument("--id", type=int, default=1, help="Lead ID")
     parser.add_argument("--name", default="Austin Dental Co", help="Client name")
     parser.add_argument("--niche", default="Cosmetic Dentistry", help="Niche")
@@ -609,3 +582,4 @@ if __name__ == "__main__":
     else:
         f = generate_agreement(args.id, args.name, args.niche, args.city)
         print(f"[✓] Created custom agreement: {f}")
+

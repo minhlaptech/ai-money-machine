@@ -21,58 +21,20 @@ if sys.stdout.encoding != 'utf-8':
 ROOT_DIR = Path(__file__).resolve().parent.parent
 OUT_FILE = ROOT_DIR / "pitches" / "index.html"
 
-LEADS = [
-  # Batch 1
-  {"id": 1, "batch": 1, "name": "Austin Dental Co", "niche": "Cosmetic Dentistry", "city": "Austin, TX", "val": 750, "lost": 18, "icon": "🦷"},
-  {"id": 2, "batch": 1, "name": "Pure Radiance MedSpa", "niche": "Medical Aesthetics", "city": "Miami, FL", "val": 650, "lost": 16, "icon": "✨"},
-  {"id": 3, "batch": 1, "name": "Premier 24/7 HVAC", "niche": "Emergency HVAC", "city": "Dallas, TX", "val": 850, "lost": 15, "icon": "❄️"},
-  {"id": 4, "batch": 1, "name": "Sterling & Partners Legal", "niche": "Personal Injury Law", "city": "Chicago, IL", "val": 2500, "lost": 8, "icon": "⚖️"},
-  {"id": 5, "batch": 1, "name": "Summit Crest Luxury Realty", "niche": "High-End Real Estate", "city": "Scottsdale, AZ", "val": 4000, "lost": 5, "icon": "🏰"},
-  {"id": 6, "batch": 1, "name": "ProActive Spine & Chiro", "niche": "Chiropractic & Wellness", "city": "Denver, CO", "val": 450, "lost": 22, "icon": "🩺"},
-  {"id": 7, "batch": 1, "name": "Beacon Hill CPA & Tax", "niche": "Tax & Wealth Advisory", "city": "Boston, MA", "val": 1200, "lost": 10, "icon": "📈"},
-  {"id": 8, "batch": 1, "name": "Elite Smile Studio", "niche": "Orthodontics", "city": "San Diego, CA", "val": 950, "lost": 14, "icon": "😁"},
-  {"id": 9, "batch": 1, "name": "Rapid Response Plumbing", "niche": "Commercial Plumbing", "city": "Atlanta, GA", "val": 600, "lost": 20, "icon": "🔧"},
-  {"id": 10, "batch": 1, "name": "Apex Roofing & Solar", "niche": "Roofing & Solar EPC", "city": "Orlando, FL", "val": 3500, "lost": 6, "icon": "☀️"},
-
-  # Batch 2
-  {"id": 11, "batch": 2, "name": "Velora Activewear", "niche": "Athleisure & Fitness", "city": "Los Angeles, CA", "val": 120, "lost": 65, "icon": "🏃"},
-  {"id": 12, "batch": 2, "name": "NuvoGlow Skincare", "niche": "Clean Beauty & Cosmetics", "city": "New York, NY", "val": 95, "lost": 80, "icon": "🧴"},
-  {"id": 13, "batch": 2, "name": "Artisan Roast Club", "niche": "Specialty Coffee Subscription", "city": "Seattle, WA", "val": 85, "lost": 90, "icon": "☕"},
-  {"id": 14, "batch": 2, "name": "ZenSleep Mattress", "niche": "Sleep Tech & Bedding", "city": "San Francisco, CA", "val": 850, "lost": 12, "icon": "🛏️"},
-  {"id": 15, "batch": 2, "name": "HydroFlow Bottle", "niche": "Smart Hydration & Gear", "city": "Boulder, CO", "val": 75, "lost": 95, "icon": "💧"},
-  {"id": 16, "batch": 2, "name": "Pawsome Pet Boxes", "niche": "Pet Supplies & Subscriptions", "city": "Austin, TX", "val": 65, "lost": 110, "icon": "🐾"},
-  {"id": 17, "batch": 2, "name": "Lumina Wellness", "niche": "Nootropics & Supplements", "city": "Miami, FL", "val": 110, "lost": 70, "icon": "🌿"},
-  {"id": 18, "batch": 2, "name": "StackSync Dev", "niche": "Developer Tools & SaaS", "city": "San Jose, CA", "val": 1400, "lost": 8, "icon": "💻"},
-  {"id": 19, "batch": 2, "name": "LeadFlow CRM", "niche": "B2B Sales Automation", "city": "Chicago, IL", "val": 1800, "lost": 7, "icon": "📊"},
-  {"id": 20, "batch": 2, "name": "CloudDesk Help", "niche": "Customer Support Platform", "city": "Boston, MA", "val": 1200, "lost": 9, "icon": "🎧"},
-
-  # Batch 3
-  {"id": 21, "batch": 3, "name": "PulseMetrics AI", "niche": "Product Analytics SaaS", "city": "New York, NY", "val": 2200, "lost": 6, "icon": "⚡"},
-  {"id": 22, "batch": 3, "name": "Silicon Valley Skin Lab", "niche": "Dermatology Clinic", "city": "Palo Alto, CA", "val": 750, "lost": 16, "icon": "🔬"},
-  {"id": 23, "batch": 3, "name": "Pacific Coast Family Law", "niche": "Family Law & Mediation", "city": "Newport Beach, CA", "val": 3000, "lost": 6, "icon": "🏛️"},
-  {"id": 24, "batch": 3, "name": "Vanguard Luxury RE", "niche": "Luxury Real Estate", "city": "Beverly Hills, CA", "val": 5000, "lost": 4, "icon": "🏡"},
-  {"id": 25, "batch": 3, "name": "Vanguard Wealth & Accounting", "niche": "Family Office & CPA", "city": "New York, NY", "val": 2800, "lost": 5, "icon": "💼"},
-  {"id": 26, "batch": 3, "name": "Redwood Corporate Counsel", "niche": "Corporate & M&A", "city": "Austin, TX", "val": 3500, "lost": 5, "icon": "📜"},
-  {"id": 27, "batch": 3, "name": "Pinnacle Commercial RE", "niche": "Commercial Brokerage", "city": "Dallas, TX", "val": 4500, "lost": 4, "icon": "🏢"},
-  {"id": 28, "batch": 3, "name": "Harborview Estate Planning", "niche": "Trusts & Estates", "city": "Seattle, WA", "val": 2200, "lost": 7, "icon": "🛡️"},
-  {"id": 29, "batch": 3, "name": "Apex Audit & Valuation", "niche": "Audit & Valuation", "city": "Atlanta, GA", "val": 3200, "lost": 5, "icon": "📊"},
-  {"id": 30, "batch": 3, "name": "Metro Injury Defense Group", "niche": "Insurance Litigation", "city": "Miami, FL", "val": 4000, "lost": 4, "icon": "⚖️"}
-]
-
 try:
-    from expand_crm_pipeline import NEW_LEADS
-    for nl in NEW_LEADS:
-        if not any(l["id"] == nl["id"] for l in LEADS):
-            LEADS.append(nl)
-except Exception:
-    pass
+    from leads_data import ALL_LEADS
+except ImportError:
+    from scripts.leads_data import ALL_LEADS
+
+LEADS = ALL_LEADS
+
 
 HTML_CONTENT = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Executive Sales Pitch & Demonstration Hub — 30 Curated Client Dossiers</title>
+  <title>Executive Sales Pitch & Demonstration Hub — 60 Curated Client Dossiers</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <style>
@@ -442,10 +404,10 @@ HTML_CONTENT = """<!DOCTYPE html>
   <div class="container">
     <!-- Hero -->
     <div class="hero">
-      <div class="hero-badge">30 CLIENT SALES DOSSIERS & LIVE PROTOTYPES</div>
+      <div class="hero-badge">60 CLIENT SALES DOSSIERS & LIVE PROTOTYPES</div>
       <h1>Executive Sales Pitch & Demo Hub</h1>
       <p>
-        Bespoke 10-slide interactive sales presentations and live sandbox prototypes engineered for 30 high-ticket enterprises. Optimized for Zoom and Google Meet closing calls.
+        Bespoke 10-slide interactive sales presentations and live sandbox prototypes engineered for 60 high-ticket enterprises across 6 industry verticals. Optimized for Zoom and Google Meet closing calls.
       </p>
     </div>
 
@@ -575,6 +537,9 @@ HTML_CONTENT = """<!DOCTYPE html>
                 </a>
               </div>
               <div style="display:flex; flex-direction:column; gap:5px; margin-top:6px;">
+                <a href="../portals/${slug}_portal.html" target="_blank" class="action-btn" style="width:100%; justify-content:center; font-size:11px; color:var(--cyan); border-color:rgba(0, 242, 254, 0.35);">
+                  ⚡ Launch VIP Client Portal ↗
+                </a>
                 <a href="${reportUrl}" target="_blank" class="action-btn" style="width:100%; justify-content:center; font-size:11px; color:var(--amber);">
                   📊 View Monthly ROI Forecast ↗
                 </a>
