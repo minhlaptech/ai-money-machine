@@ -293,10 +293,10 @@
     "city": "Boston, MA",
     "to": "tax@beaconhillcpa.example",
     "doc": "Marcus Brody",
-    "status": "day7",
+    "status": "booked",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:18"
   },
   {
     "id": 24,
@@ -488,10 +488,10 @@
     "city": "Philadelphia, PA",
     "to": "bids@tristateglasspa.example",
     "doc": "Anthony Russo",
-    "status": "booked",
+    "status": "won",
     "value": 4200,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:17"
+    "last_touch": "2026-09-30 04:18"
   },
   {
     "id": 39,
@@ -553,10 +553,10 @@
     "city": "Los Angeles, CA",
     "to": "producers@cinemacraftstudios.example",
     "doc": "Julian Mercer",
-    "status": "booked",
+    "status": "won",
     "value": 3200,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:17"
+    "last_touch": "2026-09-30 04:18"
   },
   {
     "id": 44,
@@ -748,10 +748,10 @@
     "city": "Houston, TX",
     "to": "relief@purebreathesinus.example",
     "doc": "Dr. Farhan Qasim",
-    "status": "day7",
+    "status": "booked",
     "value": 2800,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:18"
   },
   {
     "id": 59,
