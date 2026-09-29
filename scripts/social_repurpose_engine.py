@@ -11,6 +11,8 @@ Tự động chuyển đổi các bài viết chuyên sâu hoặc chủ đề c�
 import sys
 import os
 import argparse
+import urllib.request
+import json
 from pathlib import Path
 from datetime import datetime
 
@@ -43,7 +45,7 @@ CONTENT_PRESETS = {
             "Result: 14 new booked consultations in month one, with zero manual staff hours.",
             "You can test the exact interactive patient experience here: https://work-minh-lap.vercel.app/chatbotdemo"
         ],
-        "cta": "Explore the full AI Automation Playbook & blueprints at https://ai-automation-guide-omega.vercel.app"
+        "cta": "Explore the full AI Automation Playbook & blueprints at https://work-minh-lap.vercel.app/blog"
     },
     "microsaas_blueprint": {
         "title": "How to Build and Launch a Micro-SaaS in 7 Days with Zero Funding",
@@ -55,7 +57,43 @@ CONTENT_PRESETS = {
             "Launch on Product Hunt, Hacker News (Show HN), and Reddit r/SaaS with honest, transparent copy.",
             "Turn free users into paying subscribers by offering deep reports, API access, and PDF exports."
         ],
-        "cta": "Download the complete 16,000-word AI Money Blueprint eBook at https://minhlap.gumroad.com/l/xqckmu"
+        "cta": "Download the complete 16,000-word AI Money Blueprint eBook & Bundle at https://work-minh-lap.vercel.app/bundle"
+    },
+    "review_management": {
+        "title": "How Local Businesses Turn 1-Star Google Reviews into 5-Star Loyalty with AI",
+        "hook": "Unanswered 1-star reviews on Google Maps destroy up to 30% of foot traffic. Here is how autonomous AI review responder workflows solve this in 5 seconds.",
+        "points": [
+            "88% of consumers read reviews before choosing a local service, doctor, or restaurant.",
+            "Leaving negative reviews without prompt empathetic answers signals neglect to potential buyers.",
+            "We built ReviewGenius AI — an autonomous responder that validates customer sentiment, crafts de-escalating replies, and offers resolution vouchers in 5 seconds.",
+            "It boosts local SEO ranking factors by embedding natural keywords into positive review responses.",
+            "You can test ReviewGenius live on the web: https://work-minh-lap.vercel.app/reviewgenius"
+        ],
+        "cta": "Test ReviewGenius AI live on the web: https://work-minh-lap.vercel.app/reviewgenius"
+    },
+    "client_vip_portal": {
+        "title": "Why We Stopped Sending PDF Proposals and Started Giving Clients Dedicated Software Portals",
+        "hook": "PDF proposals get lost in inboxes and compared on price. When you send clients a live branded software portal with real-time AI uptime and a 5-day roadmap, price objections vanish.",
+        "points": [
+            "Traditional agency proposals take 4 hours to write and have a 15% close rate.",
+            "A dedicated VIP Command Portal features live AI Copilot SLA monitoring, a 1-click HTML embed tag, and certified deliverable vaults.",
+            "Clients see their own logo, customized industry prompts, and a quantified revenue recovery counter ($13,500/mo bleed).",
+            "Retainers transform from a recurring expense into an indispensable software infrastructure asset.",
+            "Explore our central VIP Hub with 30 live client portals: https://work-minh-lap.vercel.app/portal"
+        ],
+        "cta": "Explore the Executive Client VIP Command Hub at https://work-minh-lap.vercel.app/portal"
+    },
+    "make_automation_secrets": {
+        "title": "5 Make.com Automation Blueprints That Make $1,000/Month on Autopilot",
+        "hook": "You don't need to write thousands of lines of code to build high-value software systems. Here are 5 no-code automation workflows SMBs eagerly pay $500–$1,500 for.",
+        "points": [
+            "Workflow 1: Instant Speed-to-Lead SMS (<30s response time).",
+            "Workflow 2: Automated Google Review Response & Sentiment Router.",
+            "Workflow 3: Multi-Platform Social Content Repurposing (Blog to X, LinkedIn, TikTok).",
+            "Workflow 4: Two-Way Calendar Booking & No-Show Eliminator.",
+            "Workflow 5: Stripe/Lemon Squeezy Order Fulfillment & Telegram Sales Dispatcher."
+        ],
+        "cta": "Download the complete 15-Blueprint Pack at https://work-minh-lap.vercel.app/bundle"
     }
 }
 
@@ -183,11 +221,64 @@ Would love to hear how other founders here are preparing for AI search traffic. 
 """
 
     out_file.write_text(md, encoding="utf-8")
-    print(f"[✓] Created viral content kit: {out_file}")
+    print(f"[✓] Created viral content kit: {out_file.name}")
     return out_file
+
+def send_telegram_social_digest(topic_key, data):
+    bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "7756122540:AAErx-TV78dUcB0ch7IlZW10R0nIpt1pBhU")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "1624883046")
+
+    html_msg = f"""📱 <b>[VIRAL SOCIAL CONTENT KIT READY]</b>
+
+🎯 <b>Chủ đề:</b> <code>{data['title']}</code>
+📌 <b>Topic Key:</b> <code>{topic_key}</code>
+
+🐦 <b>Twitter / X Thread Hook:</b>
+<i>{data['hook']}</i>
+
+💼 <b>Key Insights:</b>
+• {data['points'][0]}
+• {data['points'][1]}
+
+🔗 <b>Call-to-Action Link:</b>
+<code>{data['cta']}</code>
+
+👉 <i>Trọn bộ 4 định dạng (X, LinkedIn, Shorts, Reddit) đã lưu tại projects/ai_content_social/repurposed/content_kit_{topic_key}.md</i>"""
+
+    try:
+        req = urllib.request.Request(
+            f"https://api.telegram.org/bot{bot_token}/sendMessage",
+            headers={"Content-Type": "application/json"},
+            data=json.dumps({"chat_id": chat_id, "text": html_msg, "parse_mode": "HTML"}).encode("utf-8")
+        )
+        with urllib.request.urlopen(req, timeout=10) as r:
+            if r.status == 200:
+                print(f"[✓] Đã gửi thông báo gói nội dung '{topic_key}' về Telegram!")
+    except Exception as e:
+        print(f"[!] Lỗi gửi Telegram: {e}")
+
+def generate_all_social_kits(send_telegram=False):
+    print("=" * 75)
+    print("🚀 GENERATING ALL 6 MULTI-PLATFORM SOCIAL VIRAL CONTENT KITS")
+    print("=" * 75)
+    for k in CONTENT_PRESETS.keys():
+        generate_social_kit(k)
+        if send_telegram:
+            send_telegram_social_digest(k, CONTENT_PRESETS[k])
+    print("-" * 75)
+    print("🎉 SUCCESS: All 6 viral social kits generated in projects/ai_content_social/repurposed/")
+    print("=" * 75)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Multi-Platform Social Repurposing Engine")
-    parser.add_argument("--topic", default="geo_audit", choices=["geo_audit", "ai_automation", "microsaas_blueprint"], help="Content topic")
+    parser.add_argument("--topic", default="geo_audit", choices=list(CONTENT_PRESETS.keys()), help="Content topic")
+    parser.add_argument("--all", action="store_true", help="Generate all 6 viral content kits")
+    parser.add_argument("--telegram", action="store_true", help="Send social kit preview to Telegram")
     args = parser.parse_args()
-    generate_social_kit(args.topic)
+
+    if args.all:
+        generate_all_social_kits(send_telegram=args.telegram)
+    else:
+        generate_social_kit(args.topic)
+        if args.telegram:
+            send_telegram_social_digest(args.topic, CONTENT_PRESETS[args.topic])

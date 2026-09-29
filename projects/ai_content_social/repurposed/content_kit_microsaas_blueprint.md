@@ -1,5 +1,5 @@
 # 🚀 Viral Content Repurposing Kit: How to Build and Launch a Micro-SaaS in 7 Days with Zero Funding
-> **Tạo lúc**: 2026-09-29 22:03:16  
+> **Tạo lúc**: 2026-09-29 23:47:21  
 > **Chủ đề chính**: `microsaas_blueprint`
 
 ---
@@ -49,7 +49,7 @@ Don't wait for your competitors to take the top recommendation slot on voice ass
 ---
 
 **Tweet 7 (Call to Action)**:
-Download the complete 16,000-word AI Money Blueprint eBook at https://minhlap.gumroad.com/l/xqckmu
+Download the complete 16,000-word AI Money Blueprint eBook & Bundle at https://work-minh-lap.vercel.app/bundle
 
 RT the first tweet if you found this valuable! 🔄
 
@@ -76,7 +76,7 @@ Build in 48 hours: Focus on one killer feature that gives value in under 10 seco
 💡 Bottom line:
 Turn free users into paying subscribers by offering deep reports, API access, and PDF exports.
 
-👉 Download the complete 16,000-word AI Money Blueprint eBook at https://minhlap.gumroad.com/l/xqckmu
+👉 Download the complete 16,000-word AI Money Blueprint eBook & Bundle at https://work-minh-lap.vercel.app/bundle
 
 What is your take on generative search vs traditional Google SEO? Let's discuss in the comments below.
 ```
@@ -110,6 +110,6 @@ A few surprising findings:
 - Keep the tech stack dead simple: Vanilla HTML/JS, serverless edge functions on Vercel, and Lemon Squeezy for global payments.
 - Build in 48 hours: Focus on one killer feature that gives value in under 10 seconds.
 
-We built a lightweight open tool to check this: Download the complete 16,000-word AI Money Blueprint eBook at https://minhlap.gumroad.com/l/xqckmu
+We built a lightweight open tool to check this: Download the complete 16,000-word AI Money Blueprint eBook & Bundle at https://work-minh-lap.vercel.app/bundle
 
 Would love to hear how other founders here are preparing for AI search traffic. Are you noticing a decline in organic Google referrals yet?

@@ -1,5 +1,5 @@
 # 🚀 Viral Content Repurposing Kit: How a Local Dentist Recovers $8,400/mo Using a 15-Minute AI Bot
-> **Tạo lúc**: 2026-09-29 22:03:16  
+> **Tạo lúc**: 2026-09-29 23:47:21  
 > **Chủ đề chính**: `ai_automation`
 
 ---
@@ -49,7 +49,7 @@ Don't wait for your competitors to take the top recommendation slot on voice ass
 ---
 
 **Tweet 7 (Call to Action)**:
-Explore the full AI Automation Playbook & blueprints at https://ai-automation-guide-omega.vercel.app
+Explore the full AI Automation Playbook & blueprints at https://work-minh-lap.vercel.app/blog
 
 RT the first tweet if you found this valuable! 🔄
 
@@ -76,7 +76,7 @@ We deployed a conversational AI assistant that answers pricing, verifies insuran
 💡 Bottom line:
 You can test the exact interactive patient experience here: https://work-minh-lap.vercel.app/chatbotdemo
 
-👉 Explore the full AI Automation Playbook & blueprints at https://ai-automation-guide-omega.vercel.app
+👉 Explore the full AI Automation Playbook & blueprints at https://work-minh-lap.vercel.app/blog
 
 What is your take on generative search vs traditional Google SEO? Let's discuss in the comments below.
 ```
@@ -110,6 +110,6 @@ A few surprising findings:
 - If competitors answer and lock down a calendar appointment in 30 seconds, you lose the patient forever.
 - We deployed a conversational AI assistant that answers pricing, verifies insurance eligibility, and writes directly to Google Calendar.
 
-We built a lightweight open tool to check this: Explore the full AI Automation Playbook & blueprints at https://ai-automation-guide-omega.vercel.app
+We built a lightweight open tool to check this: Explore the full AI Automation Playbook & blueprints at https://work-minh-lap.vercel.app/blog
 
 Would love to hear how other founders here are preparing for AI search traffic. Are you noticing a decline in organic Google referrals yet?

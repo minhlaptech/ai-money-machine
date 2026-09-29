@@ -150,20 +150,49 @@ def main_loop():
         elif choice == '10':
             batch = input("Chọn Batch tiếp cận (1: SMBs / 2: E-Com & SaaS / 3: High-Ticket / Enter: Tất cả): ").strip()
             stage = input("Chọn giai đoạn (1: Day 1 Hook / 2: Day 3 ROI / 3: Day 7 Break-Up, mặc định 1): ").strip() or "1"
+            tg = input("Bắn danh sách hàng đợi về Telegram không? (y/n, mặc định y): ").strip().lower()
             args = ["--stage", stage]
             if batch in ['1', '2', '3']:
                 args.extend(["--batch", batch])
+            if tg != 'n':
+                args.append("--telegram")
             run_script("scripts/outreach_dispatcher.py", args)
 
         elif choice == '11':
-            jtype = input("Chọn loại công việc (chatbot / automation / scraping, mặc định chatbot): ").strip() or "chatbot"
-            client = input("Tên khách hàng trên Upwork (nếu biết, mặc định there): ").strip() or "there"
-            notes = input("Yêu cầu cụ thể từ bài đăng Upwork: ").strip()
-            run_script("scripts/upwork_proposal_generator.py", ["--type", jtype, "--client", client, "--notes", notes])
+            sub = input("Tạo trọn bộ 6 Cover Letters hay 1 loại cụ thể? (all: Trọn bộ 6 / Enter: Chọn 1 loại): ").strip().lower()
+            if sub == 'all':
+                tg = input("Gửi bản xem trước về Telegram không? (y/n, mặc định y): ").strip().lower()
+                args = ["--all"]
+                if tg != 'n':
+                    args.append("--telegram")
+                run_script("scripts/upwork_proposal_generator.py", args)
+            else:
+                print("Các loại công việc: chatbot / automation / scraping / geo_seo / review_management / client_portal")
+                jtype = input("Chọn loại công việc (mặc định chatbot): ").strip() or "chatbot"
+                client = input("Tên khách hàng trên Upwork (nếu biết, mặc định there): ").strip() or "there"
+                notes = input("Yêu cầu cụ thể từ bài đăng Upwork: ").strip()
+                tg = input("Gửi bản xem trước về Telegram không? (y/n, mặc định y): ").strip().lower()
+                args = ["--type", jtype, "--client", client, "--notes", notes]
+                if tg != 'n':
+                    args.append("--telegram")
+                run_script("scripts/upwork_proposal_generator.py", args)
 
         elif choice == '12':
-            topic = input("Chọn chủ đề (geo_audit / ai_automation / microsaas_blueprint, mặc định geo_audit): ").strip() or "geo_audit"
-            run_script("scripts/social_repurpose_engine.py", ["--topic", topic])
+            sub = input("Tạo trọn bộ 6 Viral Kits hay 1 chủ đề cụ thể? (all: Trọn bộ 6 kits / Enter: Chọn 1 chủ đề): ").strip().lower()
+            if sub == 'all':
+                tg = input("Bắn thông báo về Telegram không? (y/n, mặc định y): ").strip().lower()
+                args = ["--all"]
+                if tg != 'n':
+                    args.append("--telegram")
+                run_script("scripts/social_repurpose_engine.py", args)
+            else:
+                print("Chủ đề: geo_audit / ai_automation / microsaas_blueprint / review_management / client_vip_portal / make_automation_secrets")
+                topic = input("Chọn chủ đề (mặc định geo_audit): ").strip() or "geo_audit"
+                tg = input("Bắn thông báo về Telegram không? (y/n, mặc định y): ").strip().lower()
+                args = ["--topic", topic]
+                if tg != 'n':
+                    args.append("--telegram")
+                run_script("scripts/social_repurpose_engine.py", args)
 
         elif choice == '13':
             vid = input("Chọn mã video (video_005 đến video_010 / Enter: Toàn bộ tất cả): ").strip()
