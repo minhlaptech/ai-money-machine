@@ -33,10 +33,10 @@
     "city": "Dallas, TX",
     "to": "service@premierairdfw.example",
     "doc": "Mark",
-    "status": "day7",
+    "status": "booked",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:26"
   },
   {
     "id": 4,
@@ -358,10 +358,10 @@
     "city": "Seattle, WA",
     "to": "info@harborviewestateswa.example",
     "doc": "Cynthia Thorne",
-    "status": "booked",
+    "status": "won",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:23"
+    "last_touch": "2026-09-30 04:26"
   },
   {
     "id": 29,
@@ -371,10 +371,10 @@
     "city": "Atlanta, GA",
     "to": "valuation@apexauditadvisory.example",
     "doc": "Richard Hall",
-    "status": "booked",
+    "status": "won",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:24"
+    "last_touch": "2026-09-30 04:26"
   },
   {
     "id": 30,
@@ -384,10 +384,10 @@
     "city": "Miami, FL",
     "to": "litigation@metroinjurydefense.example",
     "doc": "Carlos Mendez",
-    "status": "day7",
+    "status": "booked",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:26"
   },
   {
     "id": 31,
