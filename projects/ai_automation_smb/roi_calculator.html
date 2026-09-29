@@ -227,17 +227,17 @@
           </div>
 
           <div class="res-item" style="margin-top:14px; margin-bottom:0;">
-            <div class="res-label">💰 Estimated ROI on AI Retainer ($750/mo):</div>
-            <div class="res-val-roi" id="res-roi">1,692% ROI</div>
+            <div class="res-label">💰 Estimated ROI on AI Retainer ($650/mo):</div>
+            <div class="res-val-roi" id="res-roi">1,967% ROI</div>
           </div>
         </div>
 
         <div>
-          <a href="https://work-minh-lap.vercel.app/chatbotdemo" target="_blank" class="btn-cta">
+          <a id="btn-demo-link" href="https://work-minh-lap.vercel.app/chatbotdemo" target="_blank" class="btn-cta">
             👉 Test Live Working Copilot Demo ↗
           </a>
           <div class="disclaimer">
-            Based on average client conversion metrics across 15+ automated workflows.
+            Based on average client conversion metrics across 30+ automated enterprise workflows.
           </div>
         </div>
       </div>
@@ -281,7 +281,7 @@
       const recoveredLeads = afterHoursLeads * (rec / 100);
       const recoveredMonthlyRev = recoveredLeads * val;
       const annualRev = recoveredMonthlyRev * 12;
-      const monthlyRetainerCost = 750;
+      const monthlyRetainerCost = 650;
       const roi = Math.round(((recoveredMonthlyRev - monthlyRetainerCost) / monthlyRetainerCost) * 100);
 
       document.getElementById('res-lost').innerText = '$' + Math.round(lostRev).toLocaleString();
@@ -290,7 +290,56 @@
       document.getElementById('res-roi').innerText = (roi > 0 ? roi.toLocaleString() : 0) + '% ROI';
     }
 
-    window.addEventListener('DOMContentLoaded', calculate);
+    function initFromUrlParams() {
+      const urlParams = new URLSearchParams(window.location.search);
+      
+      if (urlParams.has('client')) {
+        const clientName = urlParams.get('client');
+        const badge = document.querySelector('.badge-pill');
+        if (badge) {
+          badge.innerHTML = `✨ Personalized ROI Simulation for ${clientName}`;
+          badge.style.background = 'rgba(0, 242, 254, 0.15)';
+          badge.style.borderColor = 'rgba(0, 242, 254, 0.4)';
+          badge.style.color = '#00f2fe';
+        }
+      }
+
+      if (urlParams.has('val')) {
+        const v = parseInt(urlParams.get('val'));
+        if (!isNaN(v)) {
+          const clamped = Math.min(Math.max(v, 100), 10000);
+          document.getElementById('range-val').value = clamped;
+        }
+      }
+
+      if (urlParams.has('inquiries')) {
+        const i = parseInt(urlParams.get('inquiries'));
+        if (!isNaN(i)) {
+          const clamped = Math.min(Math.max(i, 20), 500);
+          document.getElementById('range-inquiries').value = clamped;
+        }
+      }
+
+      if (urlParams.has('dropoff')) {
+        const d = parseInt(urlParams.get('dropoff'));
+        if (!isNaN(d)) {
+          document.getElementById('range-dropoff').value = d;
+        }
+      }
+
+      if (urlParams.has('slug')) {
+        const slug = urlParams.get('slug');
+        const demoBtn = document.getElementById('btn-demo-link');
+        if (demoBtn && slug) {
+          demoBtn.href = `/sandboxes/${slug}_sandbox.html`;
+          demoBtn.innerHTML = `🧪 Test Your Custom Live Prototype ↗`;
+        }
+      }
+
+      calculate();
+    }
+
+    window.addEventListener('DOMContentLoaded', initFromUrlParams);
   </script>
 </body>
 </html>

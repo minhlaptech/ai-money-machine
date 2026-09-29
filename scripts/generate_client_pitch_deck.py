@@ -705,7 +705,10 @@ DECK_TEMPLATE = """<!DOCTYPE html>
         </div>
       </div>
 
-      <div style="text-align:right;">
+      <div style="display:flex; justify-content:flex-end; gap:12px; margin-top:14px; flex-wrap:wrap;">
+        <a href="../calculator?client={client_url_name}&val={raw_val}&lost={lost_leads}&slug={slug}" target="_blank" class="secondary-btn" style="border-color:rgba(0,242,254,0.4); color:var(--cyan);">
+          🧮 Live ROI Simulator ↗
+        </a>
         <a href="../reports/{slug}_roi_report.html" target="_blank" class="secondary-btn">
           View Detailed Monthly Performance Report ↗
         </a>
@@ -1016,6 +1019,7 @@ def generate_pitch_deck(lead_id, name, niche, city, avg_val=750, lost_leads=18):
         "{city}": city,
         "{slug}": slug,
         "{avg_val}": f"{avg_val:,}",
+        "{raw_val}": str(avg_val),
         "{lost_leads}": str(lost_leads),
         "{monthly_loss}": f"{monthly_loss_val:,}",
         "{annual_loss}": f"{annual_loss_val:,}",
