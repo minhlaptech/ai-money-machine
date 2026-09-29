@@ -51,6 +51,10 @@
     { "source": "/billing", "destination": "/billing/index.html" },
     { "source": "/invoicing", "destination": "/billing/index.html" },
     { "source": "/invoices", "destination": "/billing/index.html" },
-    { "source": "/agreements", "destination": "/billing/index.html" }
+    { "source": "/agreements", "destination": "/billing/index.html" },
+    { "source": "/packages", "destination": "/packages/index.html" },
+    { "source": "/dossiers", "destination": "/packages/index.html" },
+    { "source": "/dossier", "destination": "/packages/index.html" },
+    { "source": "/deliverables", "destination": "/packages/index.html" }
   ]
 }

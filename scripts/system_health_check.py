@@ -61,6 +61,10 @@ LIVE_URLS = [
     ("AI Freelance & Agency Hub", "https://work-minh-lap.vercel.app/freelance"),
     ("AI & Developer Merch Store", "https://work-minh-lap.vercel.app/merch"),
     ("Digital Master Bundle ($39)", "https://work-minh-lap.vercel.app/bundle"),
+    ("Autonomous Operations & SLA Hub (/fulfillment)", "https://work-minh-lap.vercel.app/fulfillment"),
+    ("Master Billing & Invoicing Center (/billing)", "https://work-minh-lap.vercel.app/billing"),
+    ("Autonomous Sandbox & Simulation Hub (/sandboxes)", "https://work-minh-lap.vercel.app/sandboxes"),
+    ("Executive Deliverables & Dossier Hub (/packages)", "https://work-minh-lap.vercel.app/packages"),
     ("Serverless Health API (/api/health)", "https://work-minh-lap.vercel.app/api/health"),
 ]
 
