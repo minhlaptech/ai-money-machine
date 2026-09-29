@@ -41,6 +41,10 @@
     { "source": "/reports/:slug", "destination": "/reports/:slug_roi_report.html" },
     { "source": "/agreements/:slug", "destination": "/agreements/:slug_agreement.html" },
     { "source": "/invoices/:slug", "destination": "/invoices/:slug_invoice.html" },
-    { "source": "/sandboxes/:slug", "destination": "/sandboxes/:slug_sandbox.html" }
+    { "source": "/sandboxes/:slug", "destination": "/sandboxes/:slug_sandbox.html" },
+    { "source": "/voice", "destination": "/voice_ai_demo.html" },
+    { "source": "/voice-ai", "destination": "/voice_ai_demo.html" },
+    { "source": "/voice-demo", "destination": "/voice_ai_demo.html" },
+    { "source": "/enterprise/:slug", "destination": "/enterprise_upsell_proposals/:slug_enterprise_expansion.html" }
   ]
 }

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omnichannel Voice AI Receptionist — Enterprise Interactive Demo</title>
+  <meta name="description" content="Experience the sub-350ms ultra-low latency Omnichannel Voice AI Receptionist for high-ticket enterprise businesses. Live interactive telephone simulation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #070714;
+      --card-bg: rgba(18, 18, 38, 0.85);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-gold: rgba(255, 215, 0, 0.4);
+      --gold: #ffd700;
+      --gold-glow: rgba(255, 215, 0, 0.3);
+      --accent: #7c5cfc;
+      --accent-glow: rgba(124, 92, 252, 0.4);
+      --cyan: #00f2fe;
+      --green: #00e676;
+      --text: #f0f0ff;
+      --text-muted: #8c8ca8;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 30px 20px 80px;
+      min-height: 100vh;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(124, 92, 252, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(255, 215, 0, 0.08) 0%, transparent 45%);
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background: rgba(255, 215, 0, 0.12);
+      border: 1px solid var(--border-gold);
+      color: var(--gold);
+      box-shadow: 0 0 20px var(--gold-glow);
+      margin-bottom: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.8rem;
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.15;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, #ffffff 40%, var(--gold) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .lead {
+      color: var(--text-muted);
+      font-size: 1.15rem;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 24px;
+    }
+    @media (max-width: 880px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+    .panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    }
+    .panel-gold {
+      border-color: var(--border-gold);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.6), 0 0 30px var(--gold-glow);
+    }
+    .section-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .scenario-btn {
+      width: 100%;
+      text-align: left;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      color: var(--text);
+      transition: all 0.2s;
+    }
+    .scenario-btn:hover {
+      background: rgba(124, 92, 252, 0.1);
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+    .scenario-btn.active {
+      background: rgba(255, 215, 0, 0.1);
+      border-color: var(--gold);
+      box-shadow: 0 0 15px var(--gold-glow);
+    }
+    .scenario-title {
+      font-weight: 700;
+      font-size: 0.96rem;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .scenario-sub {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    .call-console {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 24px;
+      background: rgba(0,0,0,0.4);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      margin-bottom: 24px;
+    }
+    .pulse-ring {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold), #ffae00);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 38px;
+      color: #000;
+      box-shadow: 0 0 35px var(--gold-glow);
+      margin-bottom: 18px;
+      cursor: pointer;
+      transition: all 0.3s;
+      position: relative;
+    }
+    .pulse-ring.calling {
+      animation: pulseAnim 1.4s infinite;
+    }
+    @keyframes pulseAnim {
+      0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.6); }
+      70% { transform: scale(1.08); box-shadow: 0 0 0 25px rgba(255, 215, 0, 0); }
+      100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 215, 0, 0); }
+    }
+    .call-status {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .call-timer {
+      font-family: var(--font-mono);
+      font-size: 0.88rem;
+      color: var(--green);
+    }
+    canvas#waveform {
+      width: 100%;
+      height: 60px;
+      margin-top: 16px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .transcript-box {
+      background: rgba(0,0,0,0.5);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+      height: 260px;
+      overflow-y: auto;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      font-size: 0.9rem;
+    }
+    .msg {
+      padding: 10px 14px;
+      border-radius: 12px;
+      max-width: 85%;
+      line-height: 1.5;
+    }
+    .msg-caller {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid var(--border);
+      color: #fff;
+      align-self: flex-start;
+    }
+    .msg-ai {
+      background: linear-gradient(135deg, rgba(124, 92, 252, 0.25), rgba(255, 215, 0, 0.15));
+      border: 1px solid var(--border-gold);
+      color: #fff;
+      align-self: flex-end;
+    }
+    .msg-sender {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+      color: var(--gold);
+    }
+    .telemetry-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      font-size: 0.78rem;
+    }
+    .telem-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+    }
+    .telem-val {
+      font-weight: 700;
+      color: var(--cyan);
+      margin-top: 2px;
+      font-family: var(--font-mono);
+    }
+    .cta-bar {
+      margin-top: 40px;
+      background: linear-gradient(135deg, rgba(255, 215, 0, 0.12), rgba(124, 92, 252, 0.12));
+      border: 1px solid var(--border-gold);
+      border-radius: 20px;
+      padding: 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      box-shadow: 0 0 40px var(--gold-glow);
+    }
+    .btn {
+      padding: 14px 28px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+    }
+    .btn-gold {
+      background: linear-gradient(135deg, #ffd700, #ffae00);
+      color: #000;
+      box-shadow: 0 0 25px var(--gold-glow);
+    }
+    .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 0 35px var(--gold-glow); }
+    .btn-outline {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div style="text-align: center;">
+      <div class="badge">🎙️ Enterprise Sub-350ms Inbound Voice AI Architecture</div>
+      <h1>Live Voice AI Inbound Receptionist</h1>
+      <p class="lead">Simulate how enterprise businesses capture 100% of after-hours phone calls, answer complex pricing inquiries, and lock calendar appointments 24/7/365.</p>
+    </div>
+
+    <div class="grid" style="margin-top: 40px;">
+      <!-- Left: Scenario Selector -->
+      <div class="panel">
+        <h2 class="section-title">🏢 Select Enterprise Industry Scenario</h2>
+        <div id="scenario-1" class="scenario-btn active" onclick="selectScenario(1)">
+          <div class="scenario-title">🏡 Luxury Custom Home Builder</div>
+          <div class="scenario-sub">Benchmark Custom Builders • Raleigh, NC • $24,000/mo Bleed</div>
+        </div>
+        <div id="scenario-2" class="scenario-btn" onclick="selectScenario(2)">
+          <div class="scenario-title">🏭 Industrial Commercial Roofing</div>
+          <div class="scenario-sub">Paramount Commercial Roofing • Houston, TX • $22,500/mo Bleed</div>
+        </div>
+        <div id="scenario-3" class="scenario-btn" onclick="selectScenario(3)">
+          <div class="scenario-title">🦴 Spine & Orthopedic Institute</div>
+          <div class="scenario-sub">Apex Orthopedic Spine Institute • Dallas, TX • $22,000/mo Bleed</div>
+        </div>
+        <div id="scenario-4" class="scenario-btn" onclick="selectScenario(4)">
+          <div class="scenario-title">🔥 24/7 Fire & Water Disaster Mitigation</div>
+          <div class="scenario-sub">Apex Disaster Restoration • Minneapolis, MN • $22,000/mo Bleed</div>
+        </div>
+
+        <div style="margin-top: 28px; border-top: 1px solid var(--border); padding-top: 20px;">
+          <h3 style="font-size: 0.9rem; color: #ffd700; text-transform: uppercase; margin-bottom: 10px;">Enterprise Voice SLA Guarantees</h3>
+          <ul style="font-size: 0.85rem; color: var(--text-muted); list-style: none; display: flex; flex-direction: column; gap: 8px;">
+            <li>⚡ <strong>Response Latency:</strong> &lt; 320ms Real-Time Audio</li>
+            <li>🧠 <strong>Hallucination Defense:</strong> Grounded on Internal SOP & Pricing</li>
+            <li>📲 <strong>Instant SMS Dispatch:</strong> Auto-transcription to management within 2 sec</li>
+            <li>📅 <strong>Direct Calendar Sync:</strong> Google Calendar & Outlook Real-Time Slot Lock</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Right: Live Call Simulation Console -->
+      <div class="panel panel-gold">
+        <div class="call-console">
+          <div class="pulse-ring" id="call-btn" onclick="toggleCall()">
+            📞
+          </div>
+          <div class="call-status" id="call-status">Ready to Simulate Call</div>
+          <div class="call-timer" id="call-timer">Tap icon to simulate inbound telephone call</div>
+          <canvas id="waveform"></canvas>
+        </div>
+
+        <div class="transcript-box" id="transcript-box">
+          <div class="msg msg-ai">
+            <div class="msg-sender">AI Voice Receptionist</div>
+            Select an enterprise scenario on the left and tap the phone icon above to simulate an incoming customer call.
+          </div>
+        </div>
+
+        <div class="telemetry-grid">
+          <div class="telem-card">
+            <div>Response Latency</div>
+            <div class="telem-val" id="val-latency">284ms</div>
+          </div>
+          <div class="telem-card">
+            <div>Intent Score</div>
+            <div class="telem-val" id="val-intent" style="color: var(--green);">98.6% High</div>
+          </div>
+          <div class="telem-card">
+            <div>Calendar Slot</div>
+            <div class="telem-val" id="val-slot" style="color: var(--gold);">Auto-Reserved</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom CTA -->
+    <div class="cta-bar">
+      <div>
+        <h3 style="font-family: 'Outfit'; font-size: 1.5rem; color: #fff; margin-bottom: 6px;">Ready to Deploy Enterprise Voice AI for Your Portfolio?</h3>
+        <p style="color: var(--text-muted); font-size: 0.95rem;">Available as an add-on module for active retainer partners ($1,450/month Enterprise Tier).</p>
+      </div>
+      <div style="display: flex; gap: 14px;">
+        <a href="https://work-minh-lap.vercel.app/onboarding" class="btn btn-gold" target="_blank">
+          🚀 Upgrade to Enterprise Tier
+        </a>
+        <a href="https://work-minh-lap.vercel.app" class="btn btn-outline">
+          📊 Back to Dashboard
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const SCENARIOS = {
+      1: {
+        firm: "Benchmark Custom Builders",
+        city: "Raleigh, NC",
+        caller: "Hi! We just acquired a 2-acre homesite in North Raleigh and want to design an estate around 6,500 square feet. Can we speak with a design architect this Thursday?",
+        ai_resp: "Welcome to Benchmark Custom Builders! Congratulations on acquiring your North Raleigh homesite. Our principal design architect has an opening this Thursday at 2:00 PM or 4:30 PM for an executive site consultation. Would either of those times work for you?",
+        latency: "280ms",
+        intent: "99.2% High",
+        slot: "Thu 2:00 PM"
+      },
+      2: {
+        firm: "Paramount Commercial Roofing",
+        city: "Houston, TX",
+        caller: "We have an active roof membrane leak at our 45,000 square foot distribution warehouse on Beltway 8 after last night's storm. We need emergency mitigation immediately.",
+        ai_resp: "Paramount Commercial Emergency Response Center received your alert. A certified commercial roofing technician has been dispatched to your Beltway 8 facility. What is the best direct contact number for your facility manager on-site?",
+        latency: "265ms",
+        intent: "100% Urgent",
+        slot: "Immediate Dispatch"
+      },
+      3: {
+        firm: "Apex Orthopedic Spine Institute",
+        city: "Dallas, TX",
+        caller: "I have severe sciatica and an L5-S1 disc herniation confirmed on MRI. Does Dr. Choi review outside imaging before an in-person consultation?",
+        ai_resp: "Welcome to Apex Orthopedic Spine Institute. Yes, Dr. Choi personally reviews all prior MRI and CT scans. I can immediately text a secure HIPAA upload link to your phone and schedule a priority evaluation. What is your preferred mobile number?",
+        latency: "310ms",
+        intent: "98.5% High",
+        slot: "Fri 10:30 AM"
+      },
+      4: {
+        firm: "Apex Disaster Restoration",
+        city: "Minneapolis, MN",
+        caller: "A commercial fire sprinkler burst on our 3rd floor corporate offices in downtown Minneapolis. There is standing water across 6 suites.",
+        ai_resp: "Apex 24/7 Mitigation Team is mobilizing immediately. We have a water extraction crew on standby within 8 miles of downtown. We are dispatching 4 industrial desiccant dehumidifiers right now. Who is authorized to sign entry on site?",
+        latency: "275ms",
+        intent: "100% Critical",
+        slot: "Crew En Route"
+      }
+    };
+
+    let activeScenario = 1;
+    let isCalling = false;
+    let callTimerInterval = null;
+    let seconds = 0;
+
+    function selectScenario(id) {
+      activeScenario = id;
+      document.querySelectorAll('.scenario-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById('scenario-' + id).classList.add('active');
+      resetCall();
+    }
+
+    function resetCall() {
+      if (callTimerInterval) clearInterval(callTimerInterval);
+      isCalling = false;
+      seconds = 0;
+      document.getElementById('call-btn').classList.remove('calling');
+      document.getElementById('call-status').innerText = 'Ready to Simulate Call';
+      document.getElementById('call-timer').innerText = 'Tap icon to simulate inbound telephone call';
+      const sc = SCENARIOS[activeScenario];
+      document.getElementById('val-latency').innerText = sc.latency;
+      document.getElementById('val-intent').innerText = sc.intent;
+      document.getElementById('val-slot').innerText = sc.slot;
+      document.getElementById('transcript-box').innerHTML = `
+        <div class="msg msg-ai">
+          <div class="msg-sender">AI Voice Receptionist (${sc.firm})</div>
+          Scenario selected for <strong>${sc.firm}</strong> (${sc.city}). Tap the phone icon above to simulate the incoming phone call!
+        </div>
+      `;
+    }
+
+    function toggleCall() {
+      if (isCalling) {
+        resetCall();
+        return;
+      }
+      isCalling = true;
+      document.getElementById('call-btn').classList.add('calling');
+      document.getElementById('call-status').innerText = 'Call Connected · Live Inbound Audio';
+      
+      callTimerInterval = setInterval(() => {
+        seconds++;
+        const m = Math.floor(seconds / 60).toString().padStart(2, '0');
+        const s = (seconds % 60).toString().padStart(2, '0');
+        document.getElementById('call-timer').innerText = `Duration: ${m}:${s} • 32-bit HD Voice Codec`;
+      }, 1000);
+
+      const sc = SCENARIOS[activeScenario];
+      const box = document.getElementById('transcript-box');
+      box.innerHTML = '';
+
+      // Caller speaks
+      setTimeout(() => {
+        box.innerHTML += `
+          <div class="msg msg-caller">
+            <div class="msg-sender" style="color:#00f2fe;">Inbound Caller</div>
+            ${sc.caller}
+          </div>
+        `;
+        box.scrollTop = box.scrollHeight;
+        speakText(sc.caller, false);
+      }, 500);
+
+      // AI Answers
+      setTimeout(() => {
+        box.innerHTML += `
+          <div class="msg msg-ai">
+            <div class="msg-sender">AI Voice Receptionist (${sc.firm})</div>
+            ${sc.ai_resp}
+          </div>
+        `;
+        box.scrollTop = box.scrollHeight;
+        speakText(sc.ai_resp, true);
+      }, 3500);
+    }
+
+    function speakText(text, isAi) {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.rate = isAi ? 1.05 : 1.0;
+        utterance.pitch = isAi ? 1.1 : 0.95;
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+
+    // Audio Waveform Animation
+    const canvas = document.getElementById('waveform');
+    const ctx = canvas.getContext('2d');
+    function drawWave() {
+      canvas.width = canvas.parentElement.clientWidth - 48;
+      canvas.height = 60;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      const bars = 45;
+      const barWidth = canvas.width / bars;
+      for (let i = 0; i < bars; i++) {
+        let height = isCalling ? (Math.sin(Date.now() / 150 + i * 0.3) * 22 + 25) : 4;
+        ctx.fillStyle = isCalling ? (i % 2 === 0 ? '#ffd700' : '#7c5cfc') : '#333348';
+        ctx.fillRect(i * barWidth, (canvas.height - height) / 2, barWidth - 3, height);
+      }
+      requestAnimationFrame(drawWave);
+    }
+    drawWave();
+  </script>
+</body>
+</html>

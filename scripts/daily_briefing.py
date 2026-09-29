@@ -78,6 +78,7 @@ def generate_briefing(send_telegram=False):
   • VIP Onboarding Intake Hub: https://work-minh-lap.vercel.app/onboarding (48h SLA Sprint)
   • Sàn Dịch Vụ AI Freelance & Agency Hub: https://work-minh-lap.vercel.app/freelance (8 Gigs & 16:9 Banners)
   • Sàn Thương Mại Merch Đồ Lập Trình Viên POD: https://work-minh-lap.vercel.app/merch (6 Sản Phẩm & 39.6% Margin)
+  • Voice AI Receptionist Demo Hub: https://work-minh-lap.vercel.app/voice (Sub-350ms Inbound Call Simulator)
   • Cổng thanh toán: Lemon Squeezy (Store ID: 485872) & Gumroad Live
   • Cổng Đối tác Tiếp thị (50% RevShare): https://work-minh-lap.vercel.app/referral
   • Cổng VIP Client Portals: https://work-minh-lap.vercel.app/portal (60 Doanh nghiệp)
