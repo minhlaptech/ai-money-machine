@@ -1,0 +1,45 @@
+{
+  "name": "SMB AI Lead Capture & Appointment Reminder Pipeline",
+  "description": "Auto-syncs web chatbot leads, qualifies via OpenAI GPT-4o, schedules in Google Calendar, and dispatches SMS/Telegram alerts",
+  "author": "MinhLap AI Systems",
+  "version": "2.0.0",
+  "modules": [
+    {
+      "id": 1,
+      "module": "gateway:CustomWebHook",
+      "name": "Inbound Lead Webhook",
+      "description": "Receives payload from Web Chatbot / Form",
+      "parameters": {
+        "fields": ["name", "phone", "email", "service_requested", "preferred_date"]
+      }
+    },
+    {
+      "id": 2,
+      "module": "openai:CreateChatCompletion",
+      "name": "AI Lead Qualification & Intent Parser",
+      "description": "Classifies urgency and extracts structured slot times",
+      "parameters": {
+        "model": "gpt-4o",
+        "system_prompt": "You are a professional medical & business receptionist. Extract the appointment intent, customer urgency, and format the requested timeslot."
+      }
+    },
+    {
+      "id": 3,
+      "module": "google-calendar:createEvent",
+      "name": "Schedule Calendar Hold",
+      "description": "Books tentative slot on Google Calendar with client details"
+    },
+    {
+      "id": 4,
+      "module": "twilio:SendSms",
+      "name": "Instant Client SMS Confirmation",
+      "description": "Sends confirmation text with cancel/reschedule reply keyword"
+    },
+    {
+      "id": 5,
+      "module": "telegram:SendMessage",
+      "name": "Staff Telegram Alert",
+      "description": "Dispatches high-priority alert to clinic staff phone with 1-tap call button"
+    }
+  ]
+}
