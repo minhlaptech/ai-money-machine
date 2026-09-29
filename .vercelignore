@@ -3,12 +3,6 @@
 node_modules
 __pycache__
 *.pyc
-projects
-products
 autonomous_agent
-branding_assets
-market_opportunities.json
-market_scout_report.md
 scripts
 scratch
-*.pdf

@@ -93,7 +93,75 @@ CONTENT_PRESETS = {
             "Workflow 4: Two-Way Calendar Booking & No-Show Eliminator.",
             "Workflow 5: Stripe/Lemon Squeezy Order Fulfillment & Telegram Sales Dispatcher."
         ],
-        "cta": "Download the complete 15-Blueprint Pack at https://work-minh-lap.vercel.app/bundle"
+        "cta": "Download the complete 15-Blueprint Pack at https://work-minh-lap.vercel.app/bundle",
+        "shorts_hook": "Here are 5 automation workflows that businesses happily pay $1,500 for!",
+        "shorts_visual": "[Show Make.com canvas with glowing animated webhook nodes connecting to Telegram]",
+        "reddit_sub": "r/nocode, r/automation, r/Entrepreneur",
+        "reddit_question": "Which tedious task inside your business are you dying to automate next?"
+    },
+    "affiliate_partner_engine": {
+        "title": "How We Pay Creators 50% Instant SaaS & 20% Recurring Retainer Commissions",
+        "hook": "Stop promoting $2 Amazon affiliate links that pay 30 cents. The real affiliate money in 2026 is high-ticket AI software and SMB automation retainers.",
+        "points": [
+            "Most affiliate programs pay 5-10% with 30-day payout delays and high clawbacks.",
+            "Our Partner Program pays 50% upfront ($14.50 - $19.50) on digital bundles and SaaS tools.",
+            "For SMB retainers, partners earn 20% recurring ($300 - $700 upfront + $100-$300/mo passive MRR) per referred client.",
+            "Every partner gets real-time link tracking with 30-day cookie persistence and ready-to-copy promo swipes.",
+            "You don't need a massive audience — just send targeted traffic using our 4-platform swipe vault."
+        ],
+        "cta": "Join the MinhLap AI Partner Network today: https://work-minh-lap.vercel.app/referral",
+        "shorts_hook": "How creators are making $300 to $700 per client without doing any fulfillment!",
+        "shorts_visual": "[Show Affiliate Hub live calculator slider shifting from 1 to 10 clients]",
+        "reddit_sub": "r/AffiliateMarketing, r/passive_income, r/SideProject",
+        "reddit_question": "Are you focusing on low-ticket volume or high-ticket B2B software affiliate offers?"
+    },
+    "pod_developer_merch": {
+        "title": "How I Made $2,400 Selling Cynical AI Hoodies & Desk Mats with Zero Inventory",
+        "hook": "Tech merch usually sucks: cheesy clip art and corny puns. But when you target hyper-specific developer memes with cyberpunk aesthetics, conversion rates jump to 4.8%.",
+        "points": [
+            "The secret is extreme specificity: 'Heavy Canvas Automate Or Be Automated Tote' and 'Prompt Engineering Extended Desk Mat'.",
+            "Zero inventory risk: We design high-res assets with Midjourney/Flux, then connect Printful to Etsy and Shopify via Make.com.",
+            "Net profit margins average $10.00 to $16.50 per unit sold, shipped globally without ever touching a box.",
+            "Every garment uses premium ring-spun cotton and structured embroidery for high perceived value.",
+            "Automated order routing and tracking numbers eliminate 100% of customer support friction."
+        ],
+        "cta": "Explore our automated POD line and design mockups at https://work-minh-lap.vercel.app",
+        "shorts_hook": "How I built a $2,400/mo print-on-demand store for programmers with zero inventory!",
+        "shorts_visual": "[Show high-res cyberpunk deskmat and streetwear hoodie mockups]",
+        "reddit_sub": "r/printondemand, r/SideProject, r/webdev",
+        "reddit_question": "What's the best programmer inside joke or slogan you'd actually wear on a hoodie?"
+    },
+    "headline_iq_viral_hook": {
+        "title": "Why 80% of Marketing Headlines Fail Before Anyone Reads the Second Line",
+        "hook": "You have 1.8 seconds to capture attention on modern feeds. If your hook lacks curiosity, emotional tension, or specificity, your conversion rate is zero.",
+        "points": [
+            "HeadlineIQ tests your copy across 6 viral emotional vectors: FOMO, Urgency, Authority, Specificity, Story Hook, and Brevity.",
+            "Headlines scoring above 85 out-click generic corporate headlines by 3.4x in A/B split tests.",
+            "The tool instantly suggests 3 high-converting rewrites trained on top viral creator frameworks.",
+            "Zero signup required: paste your draft title and get an instant audit score in 3 seconds.",
+            "Use it for YouTube titles, cold email subject lines, Twitter threads, and landing page hero headers."
+        ],
+        "cta": "Test your headline score for free right now: https://work-minh-lap.vercel.app/headlineiq",
+        "shorts_hook": "Your content isn't bad — your headline is just killing 80% of your clicks!",
+        "shorts_visual": "[Show HeadlineIQ score gauge shooting from 42 to 94 with instant viral rewrites]",
+        "reddit_sub": "r/copywriting, r/ContentMarketing, r/SaaS",
+        "reddit_question": "What is the single highest-converting headline formula you've ever tested?"
+    },
+    "ai_freelancing_retainers": {
+        "title": "How to Land $1,500/mo AI Automation Retainers on Upwork Without Writing Code",
+        "hook": "Stop bidding $15/hr on data entry. Local clinics, real estate brokers, and law firms are desperately bleeding revenue from missed calls and manual data entry.",
+        "points": [
+            "Don't sell 'AI services' — sell 'Instant Speed-to-Lead Patient Recovery' or 'Zero-Missed-Call Inbound Router'.",
+            "Send prospects a personalized interactive ROI calculator showing they lose $8,400/month from missed after-hours leads.",
+            "Include a live sandbox demo link so the business owner tests the bot with their own business data before the call.",
+            "Package it into a standard $1,500 setup fee + $500/mo maintenance retainer with a 14-day SLA guarantee.",
+            "Our 30-Client Outreach Playbook contains exact swipe templates that achieved a 26% meeting booking rate."
+        ],
+        "cta": "Access the complete AI Automation Agency kit and ROI calculator at https://work-minh-lap.vercel.app/calculator",
+        "shorts_hook": "Stop charging hourly on Upwork. Here is how to package $1,500/mo AI retainers instead!",
+        "shorts_visual": "[Show Upwork $1,500 escrow funded notification + ROI calculator simulator]",
+        "reddit_sub": "r/freelance, r/Upwork, r/agency",
+        "reddit_question": "Have you transitioned from hourly rate billing to fixed-price value retainers yet?"
     }
 }
 
@@ -102,6 +170,11 @@ def generate_social_kit(topic_key="geo_audit"):
     out_dir = Path(__file__).resolve().parent.parent / "projects" / "ai_content_social" / "repurposed"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_file = out_dir / f"content_kit_{topic_key}.md"
+
+    shorts_hook = data.get("shorts_hook", f"Here is what 90% of people get completely wrong about {topic_key}!")
+    shorts_vis = data.get("shorts_visual", "[Show dynamic screen recording of the platform in action]")
+    reddit_sub = data.get("reddit_sub", "r/SaaS, r/Entrepreneur, r/SideProject")
+    reddit_q = data.get("reddit_question", "What has been your experience with this trend so far? Let's discuss!")
 
     md = f"""# 🚀 Viral Content Repurposing Kit: {data['title']}
 > **Tạo lúc**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}  
@@ -121,35 +194,25 @@ Here is the exact breakdown of why this happens (and how to fix it in 5 mins) �
 **Tweet 2**:
 1/ {data['points'][0]}
 
-Most founders don't realize Google Search CTR dropped 28% year-over-year as users switch to direct conversational answers.
-
 ---
 
 **Tweet 3**:
 2/ {data['points'][1]}
-
-Check your `/robots.txt` right now. If it has `User-agent: * Disallow: /`, you are actively telling Perplexity and ChatGPT: "Don't recommend my product."
 
 ---
 
 **Tweet 4**:
 3/ {data['points'][2]}
 
-Without structured JSON-LD schemas, LLMs hallucinate your pricing and features. With Schema, you become the canonical source.
-
 ---
 
 **Tweet 5**:
 4/ {data['points'][3]}
 
-The gap between businesses adopting AI search readiness vs traditional SEO is where the biggest traffic arbitrage exists in 2026.
-
 ---
 
 **Tweet 6 (Key Takeaway)**:
 5/ {data['points'][4]}
-
-Don't wait for your competitors to take the top recommendation slot on voice assistants.
 
 ---
 
@@ -169,10 +232,10 @@ Over the past 6 months, we observed a massive shift in how high-intent buyers di
 
 Here are 3 critical observations every founder and marketer needs to know:
 
-🔹 1. Search Behavior Shift:
+🔹 1. The Industry Shift:
 {data['points'][0]}
 
-🔹 2. The Invisible Technical Blocker:
+🔹 2. The Core Problem:
 {data['points'][1]}
 
 🔹 3. The Unfair Advantage:
@@ -183,41 +246,42 @@ Here are 3 critical observations every founder and marketer needs to know:
 
 👉 {data['cta']}
 
-What is your take on generative search vs traditional Google SEO? Let's discuss in the comments below.
+{reddit_q}
 ```
 
 ---
 
 ## 🎬 3. 60-Second YouTube Shorts / TikTok Script
 
-- **Visual Hook (0-5s)**: [Show screen recording of ChatGPT recommending a business, then pan to camera]  
-  **Audio**: "Stop wasting thousands on traditional SEO until you fix this one setting on your website!"
-- **The Problem (5-20s)**: [Show red alert on robots.txt audit screen]  
+- **Visual Hook (0-5s)**: {shorts_vis}  
+  **Audio**: "{shorts_hook}"
+- **The Problem (5-20s)**: [Show pain point on screen]  
   **Audio**: "{data['hook']}"
-- **The Breakdown (20-40s)**: [Show clean, fast UI of SynapseGEO running audit]  
-  **Audio**: "When AI crawlers scan your site, they look for structured Schema. If you don't have it, Perplexity and ChatGPT will recommend your competitor instead."
-- **The Solution & CTA (40-60s)**: [Show 1-click audit score]  
-  **Audio**: "It takes 30 seconds to check your score. Link is pinned in the comments or bio!"
+- **The Breakdown (20-40s)**: [Demonstrate solution and rapid workflow]  
+  **Audio**: "{data['points'][1]} {data['points'][2]}"
+- **The Solution & CTA (40-60s)**: [Show instant result & call to action]  
+  **Audio**: "{data['points'][4]} Link is pinned in the comments or bio!"
 
 ---
 
-## 💬 4. Reddit Discussion Starter (r/SaaS / r/Entrepreneur)
+## 💬 4. Reddit Discussion Starter ({reddit_sub})
 
 **Title**: {data['title']}
 
 **Body**:
 Hey everyone,
 
-I spent the last 3 months analyzing how generative engines like ChatGPT Search and Perplexity actually decide which SaaS tools and services to cite when users ask for recommendations.
+I spent the last several weeks analyzing how this market actually operates in 2026.
 
 A few surprising findings:
 - {data['points'][0]}
 - {data['points'][1]}
 - {data['points'][2]}
+- {data['points'][3]}
 
-We built a lightweight open tool to check this: {data['cta']}
+We built a live asset around this: {data['cta']}
 
-Would love to hear how other founders here are preparing for AI search traffic. Are you noticing a decline in organic Google referrals yet?
+{reddit_q}
 """
 
     out_file.write_text(md, encoding="utf-8")
@@ -259,20 +323,20 @@ def send_telegram_social_digest(topic_key, data):
 
 def generate_all_social_kits(send_telegram=False):
     print("=" * 75)
-    print("🚀 GENERATING ALL 6 MULTI-PLATFORM SOCIAL VIRAL CONTENT KITS")
+    print("🚀 GENERATING ALL 10 MULTI-PLATFORM SOCIAL VIRAL CONTENT KITS")
     print("=" * 75)
     for k in CONTENT_PRESETS.keys():
         generate_social_kit(k)
         if send_telegram:
             send_telegram_social_digest(k, CONTENT_PRESETS[k])
     print("-" * 75)
-    print("🎉 SUCCESS: All 6 viral social kits generated in projects/ai_content_social/repurposed/")
+    print("🎉 SUCCESS: All 10 viral social kits generated in projects/ai_content_social/repurposed/")
     print("=" * 75)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Multi-Platform Social Repurposing Engine")
     parser.add_argument("--topic", default="geo_audit", choices=list(CONTENT_PRESETS.keys()), help="Content topic")
-    parser.add_argument("--all", action="store_true", help="Generate all 6 viral content kits")
+    parser.add_argument("--all", action="store_true", help="Generate all 10 viral content kits")
     parser.add_argument("--telegram", action="store_true", help="Send social kit preview to Telegram")
     args = parser.parse_args()
 
