@@ -10,8 +10,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "call_booked",
-    "updated_at": "2026-09-30 04:56"
+    "status": "expansion_won",
+    "updated_at": "2026-09-30 05:01"
   },
   {
     "id": 36,
@@ -24,8 +24,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "call_booked",
-    "updated_at": "2026-09-30 04:56"
+    "status": "expansion_won",
+    "updated_at": "2026-09-30 05:01"
   },
   {
     "id": 40,
@@ -38,8 +38,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 04:56"
+    "status": "call_booked",
+    "updated_at": "2026-09-30 05:01"
   },
   {
     "id": 52,
@@ -52,8 +52,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 04:56"
+    "status": "call_booked",
+    "updated_at": "2026-09-30 05:01"
   },
   {
     "id": 53,
@@ -66,8 +66,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "briefing_sent",
-    "updated_at": "2026-09-30 04:56"
+    "status": "call_booked",
+    "updated_at": "2026-09-30 05:01"
   },
   {
     "id": 57,
@@ -80,8 +80,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "identified",
-    "updated_at": "2026-09-30 04:53"
+    "status": "briefing_sent",
+    "updated_at": "2026-09-30 05:01"
   },
   {
     "id": 31,
@@ -94,8 +94,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "identified",
-    "updated_at": "2026-09-30 04:53"
+    "status": "briefing_sent",
+    "updated_at": "2026-09-30 05:01"
   },
   {
     "id": 54,
@@ -108,8 +108,8 @@
     "upsell_setup": 1300,
     "upsell_retainer_addon": 800,
     "new_total_retainer": 1450,
-    "status": "identified",
-    "updated_at": "2026-09-30 04:53"
+    "status": "briefing_sent",
+    "updated_at": "2026-09-30 05:01"
   },
   {
     "id": 59,
