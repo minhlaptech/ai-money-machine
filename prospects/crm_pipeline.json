@@ -124,10 +124,10 @@
     "city": "Palo Alto, CA",
     "to": "support@svskinlab.example",
     "doc": "Dr. Patel",
-    "status": "booked",
+    "status": "won",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:33"
+    "last_touch": "2026-09-30 04:35"
   },
   {
     "id": 11,
@@ -449,10 +449,10 @@
     "city": "Salt Lake City, UT",
     "to": "inquiries@sierravistalandscape.example",
     "doc": "Chloe Davies",
-    "status": "booked",
+    "status": "won",
     "value": 3500,
     "retainer": 700,
-    "last_touch": "2026-09-30 04:33"
+    "last_touch": "2026-09-30 04:35"
   },
   {
     "id": 36,
@@ -592,10 +592,10 @@
     "city": "Seattle, WA",
     "to": "hello@brandforgecreative.example",
     "doc": "Maya Lin",
-    "status": "day7",
+    "status": "booked",
     "value": 2600,
     "retainer": 700,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:35"
   },
   {
     "id": 47,
@@ -605,10 +605,10 @@
     "city": "Boston, MA",
     "to": "pipeline@leadigniteb2b.example",
     "doc": "Connor Hayes",
-    "status": "day7",
+    "status": "booked",
     "value": 2400,
     "retainer": 700,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:35"
   },
   {
     "id": 48,
