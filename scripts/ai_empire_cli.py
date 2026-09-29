@@ -26,7 +26,7 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v5.0 ⚡
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v5.5 ⚡
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
@@ -49,6 +49,7 @@ def print_banner():
   [18] 🎯 Mở Trung Tâm Trình Chiếu Pitch Decks Showcase Hub (/pitches)
   [19] 📦 Đóng Gói Bộ Hồ Sơ Onboarding VIP ZIP Cho Khách Hàng (30 Client Packages)
   [20] 🚀 Mở Executive Command Center Dashboard trên Trình Duyệt Web
+  [21] 💰 Bắn Thử Nghiệm Webhook Bán Hàng & Đơn Hàng Mới (Simulate Sales Webhook)
   [0] Thoát
 ======================================================================
 """)
@@ -68,7 +69,7 @@ def run_script(rel_path, args=None):
 def main_loop():
     while True:
         print_banner()
-        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-20]: ").strip()
+        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-21]: ").strip()
 
         if choice == '1':
             ping = input("Bạn có muốn gửi báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
@@ -206,11 +207,21 @@ def main_loop():
             except Exception:
                 webbrowser.open(local_dash.as_uri())
 
+        elif choice == '21':
+            print("\nChọn kịch bản mô phỏng giao dịch:")
+            print("  [1] Lemon Squeezy — The AI Money Blueprint ($47.00)")
+            print("  [2] Gumroad — AI Marketing Prompt Pack ($27.00)")
+            print("  [3] Stripe / B2B Retainer — AI Copilot Setup ($1,850.00)")
+            sc = input("Nhập lựa chọn (1/2/3, mặc định 1): ").strip() or "1"
+            sc_map = {"1": "lemonsqueezy_blueprint", "2": "gumroad_prompts", "3": "b2b_retainer_setup"}
+            key = sc_map.get(sc, "lemonsqueezy_blueprint")
+            run_script("scripts/test_sales_webhook.py", ["--scenario", key])
+
         elif choice == '0':
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 20.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 21.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 

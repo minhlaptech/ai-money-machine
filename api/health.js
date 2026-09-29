@@ -17,7 +17,7 @@ export default function handler(req, res) {
   
   return res.status(200).json({
     status: 'operational',
-    version: '3.5.0',
+    version: '5.0.0',
     timestamp: now.toISOString(),
     local_time_vn: now.toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' }),
     author: 'Minh Lap',
@@ -30,10 +30,11 @@ export default function handler(req, res) {
     },
     services: [
       { name: 'SynapseGEO', status: 'live', url: 'https://synapse-geo-audit.vercel.app' },
-      { name: 'ReviewGenius AI', status: 'live', url: 'https://work-minh-lap.vercel.app/products/review_genius/index.html' },
-      { name: 'HeadlineIQ', status: 'live', url: 'https://headlineiq-eta.vercel.app' },
-      { name: 'AI Resource Hub', status: 'live', url: 'https://ai-automation-guide-omega.vercel.app' },
-      { name: 'Chatbot Demo', status: 'live', url: 'https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/demo_chatbot.html' },
+      { name: 'ReviewGenius AI', status: 'live', url: 'https://work-minh-lap.vercel.app/reviewgenius' },
+      { name: 'HeadlineIQ', status: 'live', url: 'https://work-minh-lap.vercel.app/headlineiq' },
+      { name: 'AI Resource Hub', status: 'live', url: 'https://work-minh-lap.vercel.app/blog' },
+      { name: 'Chatbot Demo', status: 'live', url: 'https://work-minh-lap.vercel.app/chatbotdemo' },
+      { name: 'Sales Pitches Hub', status: 'live', url: 'https://work-minh-lap.vercel.app/pitches' },
       { name: 'Command Center', status: 'live', url: 'https://work-minh-lap.vercel.app' }
     ]
   });

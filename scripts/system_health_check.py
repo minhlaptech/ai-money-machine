@@ -51,7 +51,10 @@ LIVE_URLS = [
     ("HeadlineIQ (Viral Headline Scorer)", "https://work-minh-lap.vercel.app/headlineiq"),
     ("AI Resource Hub (Blog & Lead Capture)", "https://work-minh-lap.vercel.app/blog"),
     ("Chatbot Portfolio Demo", "https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/chatbot_demo/index.html"),
+    ("Sales Pitches Showcase Hub", "https://work-minh-lap.vercel.app/pitches"),
+    ("Dynamic ROI Simulator", "https://work-minh-lap.vercel.app/calculator"),
     ("AI Copilot Embed Widget", "https://work-minh-lap.vercel.app/copilot-widget.js"),
+    ("Serverless Health API (/api/health)", "https://work-minh-lap.vercel.app/api/health"),
     ("Executive Command Center (Monorepo Root)", "https://work-minh-lap.vercel.app"),
 ]
 
