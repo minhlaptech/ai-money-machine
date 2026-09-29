@@ -255,10 +255,11 @@
       Learn how to save 20+ hours per week using AI automation tools. 
       Free guides, tutorials, and ready-to-use templates.
     </p>
-    <div class="email-cta">
+    <div class="email-cta" id="cta-hero">
       <input type="email" id="email-input" placeholder="Enter your email address">
-      <button onclick="handleSubscribe()">Get Free Guide</button>
+      <button id="btn-hero" onclick="handleSubscribe('email-input', 'btn-hero', 'cta-hero')">Get Free Guide</button>
     </div>
+    <div id="cta-hero-msg" style="display:none; margin-top:14px; font-weight:600;"></div>
     <p class="hero-sub">Join 1,000+ business owners. No spam, ever.</p>
 
     <div class="stats">
@@ -426,10 +427,11 @@
   <div class="cta-section">
     <h2>Ready to Automate?</h2>
     <p>Get the free guide and start saving 20+ hours per week with AI automation.</p>
-    <div class="email-cta" style="max-width: 460px; margin: 0 auto;">
-      <input type="email" placeholder="Enter your email address">
-      <button onclick="handleSubscribe()">Get Free Guide</button>
+    <div class="email-cta" id="cta-bottom" style="max-width: 460px; margin: 0 auto;">
+      <input type="email" id="email-input-2" placeholder="Enter your email address">
+      <button id="btn-bottom" onclick="handleSubscribe('email-input-2', 'btn-bottom', 'cta-bottom')">Get Free Guide</button>
     </div>
+    <div id="cta-bottom-msg" style="display:none; margin-top:14px; font-weight:600;"></div>
   </div>
 
   <footer>
@@ -437,13 +439,50 @@
   </footer>
 
   <script>
-    function handleSubscribe() {
-      const email = document.getElementById('email-input')?.value || '';
+    async function handleSubscribe(inputId, btnId, containerId) {
+      const input = document.getElementById(inputId);
+      const btn = document.getElementById(btnId);
+      const msgBox = document.getElementById(containerId + '-msg');
+      const email = input?.value ? input.value.trim() : '';
+
       if (!email || !email.includes('@')) {
         alert('Please enter a valid email address.');
         return;
       }
-      alert('Thank you! Check your inbox for the free guide. 🎉');
+
+      const origText = btn.innerText;
+      btn.innerText = 'Sending...';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch('/api/subscribe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email })
+        });
+        const data = await res.json();
+        if (res.ok && data.success) {
+          btn.innerText = 'Subscribed! 🎉';
+          if (msgBox) {
+            msgBox.style.display = 'block';
+            msgBox.innerHTML = '<span style="color:#5ce1e6;">🎉 Success! </span><a href="' + (data.downloadUrl || '/downloads/The_AI_Money_Blueprint.pdf') + '" target="_blank" style="color:#fff; background:var(--gradient); padding:6px 14px; border-radius:6px; text-decoration:none; margin-left:8px; font-size:13px; display:inline-block; margin-top:6px;">📥 Download Free eBook (PDF)</a>';
+          }
+          // Also trigger automatic download
+          const a = document.createElement('a');
+          a.href = data.downloadUrl || '/downloads/The_AI_Money_Blueprint.pdf';
+          a.download = 'The_AI_Money_Blueprint.pdf';
+          a.click();
+        } else {
+          alert(data.error || 'Submission failed. Please try again.');
+          btn.innerText = origText;
+          btn.disabled = false;
+        }
+      } catch (err) {
+        console.error(err);
+        // Fallback: direct download
+        window.open('/downloads/The_AI_Money_Blueprint.pdf', '_blank');
+        btn.innerText = 'Downloaded! 🎉';
+      }
     }
 
     // Smooth scroll
