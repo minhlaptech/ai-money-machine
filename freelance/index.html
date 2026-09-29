@@ -381,6 +381,45 @@
     }
     .btn-submit-order:hover { opacity: 0.94; transform: translateY(-1px); }
 
+    /* Payment Method Selector */
+    .payment-selector {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 16px;
+    }
+    .payment-opt {
+      background: rgba(20, 20, 40, 0.7); border: 1px solid var(--border);
+      border-radius: 8px; padding: 10px 8px; text-align: center; cursor: pointer;
+      transition: all 0.2s; user-select: none;
+    }
+    .payment-opt:hover { border-color: var(--border-accent); }
+    .payment-opt.active {
+      background: rgba(124, 92, 252, 0.2); border-color: var(--accent);
+      box-shadow: 0 0 12px var(--accent-glow);
+    }
+    .payment-opt-icon { font-size: 1.2rem; margin-bottom: 4px; }
+    .payment-opt-title { font-size: 0.76rem; font-weight: 700; color: #fff; }
+    .payment-opt-sub { font-size: 0.65rem; color: var(--text-muted); }
+
+    /* Coupon Box */
+    .coupon-box {
+      display: flex; gap: 8px; margin-bottom: 16px;
+    }
+    .coupon-box input {
+      flex: 1; background: rgba(20, 20, 40, 0.7); border: 1px solid var(--border);
+      border-radius: 8px; padding: 8px 12px; color: #fff; font-size: 0.82rem; font-family: inherit;
+    }
+    .coupon-box button {
+      background: rgba(255, 255, 255, 0.08); border: 1px solid var(--border);
+      border-radius: 8px; padding: 8px 16px; color: #fff; font-size: 0.8rem; font-weight: 600; cursor: pointer;
+      transition: all 0.2s;
+    }
+    .coupon-box button:hover { background: rgba(255, 255, 255, 0.15); }
+    .coupon-feedback { font-size: 0.74rem; margin-top: 4px; display: none; }
+    .price-original { text-decoration: line-through; color: var(--text-muted); font-size: 0.95rem; margin-right: 6px; }
+    .discount-badge {
+      display: inline-block; background: rgba(0, 230, 118, 0.15); border: 1px solid rgba(0, 230, 118, 0.4);
+      color: var(--green); padding: 2px 6px; border-radius: 4px; font-size: 0.7rem; font-weight: 700;
+    }
+
     /* Footer */
     footer {
       border-top: 1px solid var(--border); padding-top: 40px;
@@ -547,6 +586,7 @@
 
       <form id="orderForm" onsubmit="handleOrderSubmit(event)">
         <input type="hidden" id="selectedGigId">
+        <input type="hidden" id="selectedPaymentMethod" value="card">
         
         <div class="form-group">
           <label>Selected Tier & Package</label>
@@ -555,6 +595,28 @@
             <option value="standard" selected>Standard Package (Recommended)</option>
             <option value="premium">Premium Package</option>
           </select>
+        </div>
+
+        <!-- Payment Method Selection -->
+        <div class="form-group">
+          <label>Preferred Settlement Method</label>
+          <div class="payment-selector">
+            <div class="payment-opt active" id="payOptCard" onclick="selectPaymentMethod('card')">
+              <div class="payment-opt-icon">💳</div>
+              <div class="payment-opt-title">Card / Apple Pay</div>
+              <div class="payment-opt-sub">Instant Checkout</div>
+            </div>
+            <div class="payment-opt" id="payOptEscrow" onclick="selectPaymentMethod('escrow')">
+              <div class="payment-opt-icon">🛡️</div>
+              <div class="payment-opt-title">Escrow Protection</div>
+              <div class="payment-opt-sub">Fiverr / Upwork</div>
+            </div>
+            <div class="payment-opt" id="payOptInvoice" onclick="selectPaymentMethod('invoice')">
+              <div class="payment-opt-icon">🏢</div>
+              <div class="payment-opt-title">Enterprise Wire</div>
+              <div class="payment-opt-sub">USDT / Net-30</div>
+            </div>
+          </div>
         </div>
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
@@ -578,18 +640,32 @@
           <textarea id="clientNotes" class="form-control" placeholder="Describe your current bottleneck, tools in use (HubSpot, Airtable, WordPress), and timeline..." required></textarea>
         </div>
 
+        <!-- Coupon Discount Box -->
+        <div class="form-group">
+          <label>Have a Referral or Discount Code?</label>
+          <div class="coupon-box">
+            <input type="text" id="couponCodeInput" placeholder="Try code: AIEMPIRE20 (20% Off)">
+            <button type="button" onclick="applyCouponCode()">Apply</button>
+          </div>
+          <div id="couponFeedback" class="coupon-feedback"></div>
+        </div>
+
         <div style="background: rgba(124, 92, 252, 0.1); border: 1px solid var(--border-accent); border-radius: 8px; padding: 12px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center;">
           <div>
-            <div style="font-size: 0.76rem; color: var(--text-muted);">Package Price:</div>
-            <div style="font-family: 'Outfit', sans-serif; font-size: 1.4rem; font-weight: 800; color: #fff;" id="modalPriceDisplay">$250</div>
+            <div style="font-size: 0.76rem; color: var(--text-muted);">Total Investment:</div>
+            <div style="display: flex; align-items: baseline; gap: 6px;">
+              <span id="modalOriginalPriceDisplay" class="price-original" style="display: none;">$250</span>
+              <span style="font-family: 'Outfit', sans-serif; font-size: 1.4rem; font-weight: 800; color: #fff;" id="modalPriceDisplay">$250</span>
+              <span id="modalDiscountTag" class="discount-badge" style="display: none;">20% OFF</span>
+            </div>
           </div>
           <div style="text-align: right;">
             <div style="font-size: 0.72rem; color: var(--green); font-weight: 600;">● Turnaround: <span id="modalDeliveryDisplay">10 Days</span></div>
-            <div style="font-size: 0.7rem; color: var(--text-muted);">Escrow & Milestone Protected</div>
+            <div style="font-size: 0.7rem; color: var(--text-muted);" id="paymentGuaranteeSub">Instant Lemon Squeezy Gateway</div>
           </div>
         </div>
 
-        <button type="submit" class="btn-submit-order">Confirm & Send Project Brief 🚀</button>
+        <button type="submit" class="btn-submit-order" id="orderSubmitBtn">Proceed to Instant Checkout ($250) 💳</button>
       </form>
     </div>
   </div>
@@ -1155,6 +1231,43 @@
 
     // Order Modal Logic
     let currentSelectedGig = null;
+    let appliedDiscountPct = 0;
+    let selectedPayment = 'card';
+
+    function selectPaymentMethod(method) {
+      selectedPayment = method;
+      document.getElementById('selectedPaymentMethod').value = method;
+      document.getElementById('payOptCard').classList.toggle('active', method === 'card');
+      document.getElementById('payOptEscrow').classList.toggle('active', method === 'escrow');
+      document.getElementById('payOptInvoice').classList.toggle('active', method === 'invoice');
+
+      const guaranteeSub = document.getElementById('paymentGuaranteeSub');
+      if (method === 'card') guaranteeSub.textContent = 'Instant Lemon Squeezy Gateway';
+      else if (method === 'escrow') guaranteeSub.textContent = 'Upwork / Fiverr Escrow Protected';
+      else guaranteeSub.textContent = 'Net-30 Invoice / USDT Settlement';
+
+      updateModalPrice();
+    }
+
+    function applyCouponCode() {
+      const code = (document.getElementById('couponCodeInput').value || '').trim().toUpperCase();
+      const feedback = document.getElementById('couponFeedback');
+      if (code === 'AIEMPIRE20' || code === 'VIP20' || code === 'LEAD20') {
+        appliedDiscountPct = 20;
+        feedback.style.display = 'block';
+        feedback.style.color = 'var(--green)';
+        feedback.textContent = `✓ Coupon applied: 20% discount on this gig!`;
+      } else if (code) {
+        appliedDiscountPct = 0;
+        feedback.style.display = 'block';
+        feedback.style.color = '#ff5252';
+        feedback.textContent = `✕ Invalid promo code. Try AIEMPIRE20 for 20% off.`;
+      } else {
+        appliedDiscountPct = 0;
+        feedback.style.display = 'none';
+      }
+      updateModalPrice();
+    }
 
     function openOrderModal(gigId, tierKey = 'standard') {
       currentSelectedGig = GIGS_DATA.find(g => g.id === gigId);
@@ -1165,6 +1278,11 @@
       document.getElementById('modalGigSubtitle').textContent = currentSelectedGig.title;
       document.getElementById('packageSelect').value = tierKey;
 
+      appliedDiscountPct = 0;
+      document.getElementById('couponCodeInput').value = '';
+      document.getElementById('couponFeedback').style.display = 'none';
+
+      selectPaymentMethod('card');
       updateModalPrice();
       document.getElementById('orderModal').classList.add('active');
     }
@@ -1174,8 +1292,33 @@
       const tierKey = document.getElementById('packageSelect').value;
       const tier = currentSelectedGig.tiers[tierKey];
       if (tier) {
-        document.getElementById('modalPriceDisplay').textContent = `$${tier.price}`;
+        const origPrice = tier.price;
+        let finalPrice = origPrice;
+        const origDisplay = document.getElementById('modalOriginalPriceDisplay');
+        const discBadge = document.getElementById('modalDiscountTag');
+
+        if (appliedDiscountPct > 0) {
+          finalPrice = Math.round(origPrice * (1 - appliedDiscountPct / 100));
+          origDisplay.textContent = `$${origPrice}`;
+          origDisplay.style.display = 'inline';
+          discBadge.textContent = `${appliedDiscountPct}% OFF`;
+          discBadge.style.display = 'inline-block';
+        } else {
+          origDisplay.style.display = 'none';
+          discBadge.style.display = 'none';
+        }
+
+        document.getElementById('modalPriceDisplay').textContent = `$${finalPrice}`;
         document.getElementById('modalDeliveryDisplay').textContent = tier.delivery;
+
+        const submitBtn = document.getElementById('orderSubmitBtn');
+        if (selectedPayment === 'card') {
+          submitBtn.textContent = `Proceed to Instant Checkout ($${finalPrice}) 💳`;
+        } else if (selectedPayment === 'escrow') {
+          submitBtn.textContent = `Submit Brief for Escrow Deposit ($${finalPrice}) 🛡️`;
+        } else {
+          submitBtn.textContent = `Request Corporate Invoice / Wire ($${finalPrice}) 🏢`;
+        }
       }
     }
 
@@ -1188,10 +1331,13 @@
       const gig = currentSelectedGig;
       const tierKey = document.getElementById('packageSelect').value;
       const tier = gig.tiers[tierKey];
+      const origPrice = tier.price;
+      const finalPrice = appliedDiscountPct > 0 ? Math.round(origPrice * (1 - appliedDiscountPct / 100)) : origPrice;
       const name = document.getElementById('clientName').value;
       const email = document.getElementById('clientEmail').value;
       const website = document.getElementById('clientWebsite').value;
       const notes = document.getElementById('clientNotes').value;
+      const method = selectedPayment;
 
       // Dispatch background alert to Telegram via serverless /api/contact
       const refId = localStorage.getItem('amm_ref') || '';
@@ -1202,23 +1348,27 @@
           name: name,
           email: email,
           website: website || 'N/A',
-          service: `${gig.shortTitle} [${tierKey.toUpperCase()} - $${tier.price}]`,
+          service: `${gig.shortTitle} [${tierKey.toUpperCase()} - $${finalPrice}] (Method: ${method.toUpperCase()})`,
           source: 'Freelance & Agency Hub (/freelance)',
-          message: notes,
+          message: `Settlement: ${method.toUpperCase()} | Discount: ${appliedDiscountPct}%\nNotes: ${notes}`,
           ref: refId
         })
       }).catch(err => console.log('Silent contact error:', err));
 
-      // Construct mailto link as instant fallback and show success state
-      const subject = encodeURIComponent(`[Fiverr/Direct Order] ${gig.shortTitle} - ${tierKey.toUpperCase()} ($${tier.price})`);
-      const body = encodeURIComponent(
-        `Hello AIFlowBuilder Team,\n\nI would like to order:\nGig: ${gig.title}\nPackage: ${tierKey.toUpperCase()} ($${tier.price})\n\nClient Name: ${name}\nEmail: ${email}\nWebsite: ${website}\n\nProject Requirements:\n${notes}\n\nPlease send onboarding link and invoice.\n`
-      );
-
-      alert(`✅ Project Brief Received!\n\nThank you, ${name}! Your inquiry for '${gig.shortTitle}' (${tierKey.toUpperCase()} - $${tier.price}) has been recorded.\n\nWe will now open your email client to send the project brief directly to our engineering desk.`);
-
-      window.location.href = `mailto:contact@aimoneymachine.com?subject=${subject}&body=${body}`;
-      closeOrderModal();
+      if (method === 'card') {
+        alert(`✅ Order Created!\n\nThank you, ${name}! Your order for '${gig.shortTitle}' (${tierKey.toUpperCase()} - $${finalPrice}) has been initialized.\n\nWe are now opening the secure Lemon Squeezy Checkout Store.`);
+        const checkoutUrl = `https://minhlap.lemonsqueezy.com?checkout[custom][gig]=${encodeURIComponent(gig.shortTitle)}&checkout[custom][tier]=${tierKey}&checkout[email]=${encodeURIComponent(email)}&checkout[name]=${encodeURIComponent(name)}`;
+        window.open(checkoutUrl, '_blank');
+        closeOrderModal();
+      } else {
+        const subject = encodeURIComponent(`[${method.toUpperCase()} Order] ${gig.shortTitle} - ${tierKey.toUpperCase()} ($${finalPrice})`);
+        const body = encodeURIComponent(
+          `Hello AIFlowBuilder Team,\n\nI have submitted an order with ${method.toUpperCase()} settlement:\nGig: ${gig.title}\nPackage: ${tierKey.toUpperCase()} ($${finalPrice})\n\nClient Name: ${name}\nEmail: ${email}\nWebsite: ${website}\n\nProject Requirements:\n${notes}\n\nPlease send onboarding link and invoice.\n`
+        );
+        alert(`✅ Project Brief Received!\n\nThank you, ${name}! Your inquiry for '${gig.shortTitle}' (${tierKey.toUpperCase()} - $${finalPrice}) has been recorded.\n\nWe will now open your email client with your project dossier ready to send to our engineering desk.`);
+        window.location.href = `mailto:contact@aimoneymachine.com?subject=${subject}&body=${body}`;
+        closeOrderModal();
+      }
     }
 
     // Detail Scope Modal Logic

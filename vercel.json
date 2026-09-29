@@ -42,9 +42,10 @@
     { "source": "/agreements/:slug", "destination": "/agreements/:slug_agreement.html" },
     { "source": "/invoices/:slug", "destination": "/invoices/:slug_invoice.html" },
     { "source": "/sandboxes/:slug", "destination": "/sandboxes/:slug_sandbox.html" },
-    { "source": "/voice", "destination": "/voice_ai_demo.html" },
-    { "source": "/voice-ai", "destination": "/voice_ai_demo.html" },
-    { "source": "/voice-demo", "destination": "/voice_ai_demo.html" },
-    { "source": "/enterprise/:slug", "destination": "/enterprise_upsell_proposals/:slug_enterprise_expansion.html" }
+    { "source": "/voice", "destination": "/voice/index.html" },
+    { "source": "/voice-ai", "destination": "/voice/index.html" },
+    { "source": "/voice-demo", "destination": "/voice/index.html" },
+    { "source": "/enterprise/:slug", "destination": "/enterprise_upsell_proposals/:slug_enterprise_expansion.html" },
+    { "source": "/sovereign/:slug", "destination": "/sovereign_proposals/:slug_sovereign_proposal.html" }
   ]
 }

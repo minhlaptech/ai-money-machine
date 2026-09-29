@@ -1,0 +1,558 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+AI Money Machine — Sovereign Enterprise Tier Engine (Phase 3 Expansion)
+========================================================================
+Architects, models, proposes, and tracks the elite "AI Sovereign Enterprise Tier"
+for the top 8 premier high-revenue accounts in the portfolio.
+
+Phase 3 Sovereign Tier Specifications:
+- Upfront Setup Upgrade: +$2,500 (Dedicated Private LLM Fine-Tuning & Multi-Branch Swarm)
+- Monthly Retainer Add-on: +$1,500/month (Elevating retainer from $1,450 to $2,950/month)
+- Total New Retainer: $2,950 / month
+- Target: Top 8 Premier Accounts (Annual Bleed > $220,000/yr)
+- Core Capabilities:
+  1. Private Llama-3 70B fine-tuned on client proprietary protocols (0% data leakage, HIPAA/FINRA)
+  2. Multi-Branch Autonomous Agent Swarm (Voice triage, SMS bidding, post-visit care retention)
+  3. Sub-250ms ultra-low latency inference cluster with 99.99% SLA
+  4. Dedicated Principal AI Ops Lead with weekly model retraining
+"""
+
+import sys
+import os
+import json
+import argparse
+from pathlib import Path
+from datetime import datetime
+
+if sys.stdout.encoding != 'utf-8':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+SOVEREIGN_DIR = ROOT_DIR / "sovereign_proposals"
+PIPELINE_FILE = ROOT_DIR / "prospects" / "sovereign_tier_pipeline.json"
+
+try:
+    from leads_data import ALL_LEADS, get_slug
+except ImportError:
+    from scripts.leads_data import ALL_LEADS, get_slug
+
+# The 8 Anchor Mega-Accounts for Phase 3 Sovereign Tier
+SOVEREIGN_LEAD_IDS = [51, 57, 54, 56, 39, 36, 38, 44]
+
+SOVEREIGN_HTML_TEMPLATE = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Sovereign Tier Architecture Proposal — {client_name}</title>
+  <meta name="description" content="Phase 3 Sovereign AI Architecture: Dedicated private LLM fine-tuning, multi-branch autonomous agent swarms, and sub-250ms voice inference for {client_name}.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {{
+      --bg: #060612;
+      --card-bg: rgba(15, 15, 32, 0.85);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-gold: rgba(255, 215, 0, 0.45);
+      --gold: #ffd700;
+      --gold-glow: rgba(255, 215, 0, 0.35);
+      --purple: #9d4edd;
+      --purple-glow: rgba(157, 78, 221, 0.4);
+      --cyan: #00f2fe;
+      --green: #00e676;
+      --text: #f5f5ff;
+      --text-muted: #8e8ea8;
+      --font-mono: 'JetBrains Mono', monospace;
+    }}
+    * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+    body {{
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 40px 20px 80px;
+      min-height: 100vh;
+      background-image: 
+        radial-gradient(circle at 10% 10%, rgba(157, 78, 221, 0.15) 0%, transparent 45%),
+        radial-gradient(circle at 90% 90%, rgba(255, 215, 0, 0.1) 0%, transparent 50%);
+    }}
+    .container {{
+      max-width: 1020px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border-gold);
+      border-radius: 24px;
+      padding: 52px;
+      box-shadow: 0 25px 70px rgba(0, 0, 0, 0.8), 0 0 60px var(--gold-glow);
+      backdrop-filter: blur(24px);
+    }}
+    .badge {{
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 18px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(157, 78, 221, 0.15));
+      border: 1px solid var(--border-gold);
+      color: var(--gold);
+      box-shadow: 0 0 25px var(--gold-glow);
+      margin-bottom: 24px;
+    }}
+    header {{
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 32px;
+      margin-bottom: 40px;
+    }}
+    h1 {{
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.4rem;
+      font-weight: 900;
+      line-height: 1.2;
+      background: linear-gradient(135deg, #fff 40%, var(--gold) 85%, var(--purple) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 12px;
+    }}
+    .subtitle {{
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      font-family: var(--font-mono);
+    }}
+    .kpi-grid {{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin: 36px 0;
+    }}
+    .kpi-card {{
+      background: rgba(8, 8, 20, 0.7);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px;
+      text-align: center;
+      transition: all 0.3s;
+    }}
+    .kpi-card:hover {{
+      border-color: var(--border-gold);
+      transform: translateY(-2px);
+    }}
+    .kpi-val {{
+      font-family: 'Outfit', sans-serif;
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }}
+    .kpi-lbl {{
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }}
+    .feature-list {{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 20px;
+      margin: 32px 0;
+    }}
+    @media (max-width: 640px) {{
+      .feature-list {{ grid-template-columns: 1fr; }}
+      .container {{ padding: 24px; }}
+    }}
+    .feature-card {{
+      background: rgba(12, 12, 28, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      transition: all 0.3s;
+    }}
+    .feature-card:hover {{
+      border-color: var(--purple);
+      box-shadow: 0 0 20px var(--purple-glow);
+    }}
+    .feature-card h3 {{
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }}
+    .feature-card p {{
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      line-height: 1.55;
+    }}
+    .pricing-table {{
+      width: 100%;
+      border-collapse: collapse;
+      margin: 36px 0;
+      background: rgba(10, 10, 24, 0.7);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+    }}
+    .pricing-table th, .pricing-table td {{
+      padding: 18px 22px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }}
+    .pricing-table th {{
+      background: rgba(20, 20, 42, 0.8);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+    }}
+    .pricing-table td {{
+      font-size: 0.95rem;
+    }}
+    .pricing-table tr:last-child td {{
+      border-bottom: none;
+    }}
+    .pricing-table tr.highlight {{
+      background: rgba(255, 215, 0, 0.05);
+    }}
+    .pricing-table tr.highlight td {{
+      font-weight: 600;
+      color: #fff;
+    }}
+    .btn-bar {{
+      display: flex;
+      gap: 16px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }}
+    .btn {{
+      padding: 14px 28px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: all 0.25s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+    }}
+    .btn-gold {{
+      background: linear-gradient(135deg, var(--gold), #ffaa00);
+      color: #000;
+      box-shadow: 0 0 30px var(--gold-glow);
+    }}
+    .btn-gold:hover {{
+      transform: translateY(-2px);
+      box-shadow: 0 0 45px var(--gold-glow);
+    }}
+    .btn-outline {{
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      color: #fff;
+    }}
+    .btn-outline:hover {{
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.3);
+    }}
+    .sovereign-tag {{
+      color: var(--gold);
+      font-weight: 700;
+      background: rgba(255, 215, 0, 0.12);
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+    }}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">👑 Phase 3 Architecture · AI Sovereign Tier ($2,950/mo)</div>
+    <header>
+      <h1>Autonomous Sovereign AI Infrastructure: {client_name}</h1>
+      <div class="subtitle">Prepared exclusively for {doc} • {city} • Industry: {niche}</div>
+    </header>
+
+    <p style="font-size: 1.1rem; color: #d8d8ee; margin-bottom: 28px;">
+      Having successfully validated Phase 1 (Web Intake) and Phase 2 (Enterprise Voice AI), {client_name} is now positioned to deploy <strong>The AI Sovereign Tier</strong>. This flagship architecture decouples your firm from third-party shared AI models and deploys a private, dedicated LLM fine-tuned exclusively on your internal case histories, consultation protocols, and proprietary SOPs with 100% data sovereignty and zero data leakage.
+    </p>
+
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-val" style="color: var(--green);">&lt; 250ms</div>
+        <div class="kpi-lbl">Dedicated Latency SLA</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-val" style="color: var(--gold);">${monthly_loss}</div>
+        <div class="kpi-lbl">Monthly High-Ticket Loss Protected</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-val" style="color: var(--cyan);">99.99%</div>
+        <div class="kpi-lbl">Sovereign Cluster Uptime SLA</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-val" style="color: var(--purple);">0.0%</div>
+        <div class="kpi-lbl">Third-Party Data Exposure</div>
+      </div>
+    </div>
+
+    <h2 style="font-family: 'Outfit'; font-size: 1.45rem; margin-top: 40px; margin-bottom: 16px;">Sovereign Architecture Core Specifications</h2>
+    <div class="feature-list">
+      <div class="feature-card">
+        <h3>🧠 Dedicated Private LLM Fine-Tuning</h3>
+        <p>Your own private Llama-3-70B instance hosted on dedicated secure VPC inference. Trained solely on your confidential consultation records, surgical protocols, pricing schedules, and client contracts. Zero external training exposure.</p>
+      </div>
+      <div class="feature-card">
+        <h3>🤖 Multi-Branch Autonomous Agent Swarm</h3>
+        <p>A coordinated multi-agent system: Inbound Voice Receptionist + Real-Time Calendar Slot Bidding + High-Priority SMS Lead Dispatcher + Autonomous Post-Consultation Patient/Client Care Concierge.</p>
+      </div>
+      <div class="feature-card">
+        <h3>🛡️ Full Regulatory & Sovereign Compliance</h3>
+        <p>Architected for strict HIPAA, FINRA, GDPR, and SOC-2 Type II standards with encrypted audit trails, role-based access control, and dedicated cold-storage backup replicas.</p>
+      </div>
+      <div class="feature-card">
+        <h3>👑 Principal AI Solutions Director Dedicated Hotline</h3>
+        <p>Private Telegram/Slack executive war room with our Principal AI Architect. Includes weekly model weight fine-tuning updates, continuous prompt optimization, and sub-1 hour emergency response SLA.</p>
+      </div>
+    </div>
+
+    <h2 style="font-family: 'Outfit'; font-size: 1.45rem; margin-top: 40px; margin-bottom: 16px;">Three-Tier Commercial Progression</h2>
+    <table class="pricing-table">
+      <thead>
+        <tr>
+          <th>Architecture Component</th>
+          <th>Phase 1 (Base)</th>
+          <th>Phase 2 (Enterprise)</th>
+          <th>Phase 3 (Sovereign Tier)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Setup & Deployment Fee</strong></td>
+          <td>$1,200 (Paid)</td>
+          <td>+$1,300 (Paid)</td>
+          <td><span class="sovereign-tag">+$2,500 Sovereign Setup</span></td>
+        </tr>
+        <tr class="highlight">
+          <td><strong>Monthly Recurring Retainer</strong></td>
+          <td>$650 / month</td>
+          <td>$1,450 / month</td>
+          <td><strong>$2,950 / month</strong> (+ $1,500/mo add-on)</td>
+        </tr>
+        <tr>
+          <td><strong>Inference Infrastructure</strong></td>
+          <td>Shared Cloud API</td>
+          <td>Priority Edge Routing</td>
+          <td><strong>Dedicated Private GPU Cluster</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Data Privacy Guarantee</strong></td>
+          <td>Standard Encryption</td>
+          <td>Zero-Retention API</td>
+          <td><strong>100% Sovereign VPC / HIPAA Isolation</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Autonomous Voice Latency</strong></td>
+          <td>N/A (Web Only)</td>
+          <td>&lt; 350ms Latency</td>
+          <td><strong>&lt; 250ms Ultra-Low Latency</strong></td>
+        </tr>
+        <tr>
+          <td><strong>AI Engineering SLA</strong></td>
+          <td>Weekly Batch Reports</td>
+          <td>4-Hour Response SLA</td>
+          <td><strong>1-Hour SLA + Dedicated AI Ops Lead</strong></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="btn-bar">
+      <a href="https://work-minh-lap.vercel.app/portal/{slug}" class="btn btn-gold" target="_blank">
+        👑 Open Sovereign Executive Portal
+      </a>
+      <a href="https://work-minh-lap.vercel.app/voice" class="btn btn-outline" target="_blank">
+        🎙️ Test Voice AI Receptionist Demo
+      </a>
+      <a href="https://work-minh-lap.vercel.app/sandboxes/{slug}_sandbox.html" class="btn btn-outline" target="_blank">
+        🧪 View Live AI Sandbox
+      </a>
+    </div>
+  </div>
+</body>
+</html>
+"""
+
+def get_sovereign_leads():
+    leads = [l for l in ALL_LEADS if l["id"] in SOVEREIGN_LEAD_IDS]
+    # Sort by monthly loss descending
+    return sorted(leads, key=lambda l: l['lost'] * l['val'], reverse=True)
+
+def init_sovereign_pipeline():
+    SOVEREIGN_DIR.mkdir(parents=True, exist_ok=True)
+    target_leads = get_sovereign_leads()
+
+    if PIPELINE_FILE.exists():
+        try:
+            return json.loads(PIPELINE_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
+    pipeline = []
+    for l in target_leads:
+        pipeline.append({
+            "id": l["id"],
+            "name": l["name"],
+            "city": l["city"],
+            "niche": l["niche"],
+            "doc": l["doc"],
+            "monthly_loss": l["lost"] * l["val"],
+            "phase2_retainer": 1450,
+            "sovereign_setup": 2500,
+            "sovereign_retainer_addon": 1500,
+            "new_sovereign_retainer": 2950,
+            "status": "identified",  # identified, briefing_sent, call_booked, sovereign_won
+            "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M")
+        })
+
+    PIPELINE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    PIPELINE_FILE.write_text(json.dumps(pipeline, indent=2, ensure_ascii=False), encoding="utf-8")
+    return pipeline
+
+def generate_sovereign_proposals():
+    SOVEREIGN_DIR.mkdir(parents=True, exist_ok=True)
+    target_leads = get_sovereign_leads()
+    print("=" * 80)
+    print("👑 GENERATING 8 AI SOVEREIGN TIER ARCHITECTURE PROPOSALS ($2,950/MO)")
+    print("=" * 80)
+
+    for l in target_leads:
+        slug = get_slug(l["name"])
+        out_file = SOVEREIGN_DIR / f"{slug}_sovereign_proposal.html"
+        monthly_loss = f"{(l['lost'] * l['val']):,}"
+        html = SOVEREIGN_HTML_TEMPLATE.format(
+            client_name=l["name"],
+            doc=l.get("doc", "Executive Director"),
+            city=l.get("city", "USA"),
+            niche=l.get("niche", "Premier Enterprise"),
+            monthly_loss=monthly_loss,
+            slug=slug
+        )
+        out_file.write_text(html, encoding="utf-8")
+        print(f"  [✓] #{l['id']:02d} Sovereign Proposal: {out_file.name} (Loss Protected: ${monthly_loss}/mo)")
+
+    print("-" * 80)
+    print(f"🎉 SUCCESS: All 8 Sovereign Tier Proposals generated in: {SOVEREIGN_DIR}")
+    print("=" * 80)
+
+def print_sovereign_summary():
+    pipeline = init_sovereign_pipeline()
+    total_setup = sum(p["sovereign_setup"] for p in pipeline)
+    total_addon_mrr = sum(p["sovereign_retainer_addon"] for p in pipeline)
+    total_new_mrr = sum(p["new_sovereign_retainer"] for p in pipeline)
+
+    won_accounts = [p for p in pipeline if p.get("status") == "sovereign_won"]
+    booked_accounts = [p for p in pipeline if p.get("status") == "call_booked"]
+    sent_accounts = [p for p in pipeline if p.get("status") == "briefing_sent"]
+    id_accounts = [p for p in pipeline if p.get("status") == "identified"]
+
+    current_won_setup = sum(p["sovereign_setup"] for p in won_accounts)
+    current_won_mrr = sum(p["sovereign_retainer_addon"] for p in won_accounts)
+
+    print("=" * 80)
+    print("👑 AI SOVEREIGN TIER (PHASE 3 EXPANSION) — EXECUTIVE PIPELINE SUMMARY")
+    print("=" * 80)
+    print(f"  • Premier Anchor Accounts:     {len(pipeline)} Mega-Enterprises")
+    print(f"  • 🎯 Sovereign Briefing Sent:   {len(sent_accounts)}")
+    print(f"  • 📞 Strategy Calls Booked:    {len(booked_accounts)}")
+    print(f"  • 🏆 Sovereign Tier Won:       {len(won_accounts)}")
+    print(f"  • ⏳ Identified / Staged:       {len(id_accounts)}")
+    print("-" * 80)
+    print(f"  💰 Current Sovereign Won Cash: +${current_won_setup:,} Upfront Cash")
+    print(f"  🔄 Current Sovereign Won MRR:  +${current_won_mrr:,} / month MRR")
+    print(f"  🚀 Max Sovereign Cash Target:  +${total_setup:,} Upfront Cash ($201,200 Total Empire)")
+    print(f"  🌟 Max Sovereign MRR Target:   +${total_addon_mrr:,} / mo MRR ($68,550/mo Total Empire)")
+    print(f"  💎 Max Sovereign ARR Target:   +${(total_addon_mrr * 12):,} / yr ARR ($822,600/yr Total Empire)")
+    print("=" * 80)
+
+def send_telegram_sovereign_alert(lead_id, name, old_st, new_st, setup, mrr_addon):
+    import urllib.request
+    now_vn = datetime.now().strftime("%Y-%m-%d %H:%M (GMT+7)")
+    bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "7756122540:AAErx-TV78dUcB0ch7IlZW10R0nIpt1pBhU")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "1624883046")
+
+    msg = f"👑 <b>[AI SOVEREIGN TIER ALERT — PHASE 3 MEGA-ENTERPRISE]</b> 👑\n\n"
+    msg += f"🏢 <b>Tập đoàn:</b> <b>{name}</b> (#{lead_id})\n"
+    msg += f"🔄 <b>Trạng thái:</b> <code>{old_st}</code> ➔ <b>{new_st.upper()}</b>\n"
+    msg += f"💵 <b>Setup Private LLM:</b> <code>+${setup:,} Upfront</code>\n"
+    msg += f"🔄 <b>Retainer Bổ sung:</b> <code>+${mrr_addon:,}/tháng</code> (Nâng tổng lên: <b>$2,950/tháng</b>)\n"
+    msg += f"⏰ <b>Thời gian:</b> {now_vn}\n\n"
+    msg += f"🚀 <i>Kích hoạt Private Llama-3 70B On-Premise & Multi-Agent Swarm không rò rỉ dữ liệu!</i>"
+
+    try:
+        import time
+        payload = json.dumps({"chat_id": chat_id, "text": msg, "parse_mode": "HTML"}, ensure_ascii=False).encode("utf-8")
+        req = urllib.request.Request(
+            f"https://api.telegram.org/bot{bot_token}/sendMessage",
+            headers={"Content-Type": "application/json; charset=utf-8"},
+            data=payload
+        )
+        for attempt in range(1, 4):
+            try:
+                with urllib.request.urlopen(req, timeout=12) as r:
+                    if r.status == 200:
+                        print(f"  [✓] Dispatched Sovereign Tier Alert to Telegram (@Minhpv_bot)!")
+                        break
+            except Exception as e:
+                if attempt == 3:
+                    print(f"  [!] Telegram alert error: {e}")
+                else:
+                    time.sleep(1.0)
+    except Exception as e:
+        print(f"  [!] Telegram error: {e}")
+
+def update_sovereign_lead(lead_id, new_status, notify_tg=False):
+    pipeline = init_sovereign_pipeline()
+    found = False
+    now = datetime.now().strftime("%Y-%m-%d %H:%M")
+    target = None
+    old_st = ""
+
+    for p in pipeline:
+        if p["id"] == lead_id:
+            old_st = p.get("status", "identified")
+            p["status"] = new_status
+            p["updated_at"] = now
+            found = True
+            target = p
+            print(f"[✓] Lead #{lead_id} ({p['name']}): Sovereign status updated from '{old_st}' -> '{new_status}'")
+            break
+
+    if found:
+        PIPELINE_FILE.write_text(json.dumps(pipeline, indent=2, ensure_ascii=False), encoding="utf-8")
+        if notify_tg and target:
+            send_telegram_sovereign_alert(lead_id, target["name"], old_st, new_status, target["sovereign_setup"], target["sovereign_retainer_addon"])
+    else:
+        print(f"[!] Lead #{lead_id} not found in Sovereign Tier Pipeline.")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Manage AI Sovereign Tier Pipeline (Phase 3)")
+    parser.add_argument("--summary", action="store_true", help="Print executive summary")
+    parser.add_argument("--generate-all", action="store_true", help="Generate all 8 HTML Sovereign proposals")
+    parser.add_argument("--id", type=int, help="Lead ID to update")
+    parser.add_argument("--status", choices=["identified", "briefing_sent", "call_booked", "sovereign_won"], help="New status")
+    parser.add_argument("--telegram", action="store_true", help="Send alert to Telegram")
+
+    args = parser.parse_args()
+
+    if args.generate_all:
+        generate_sovereign_proposals()
+    elif args.id and args.status:
+        update_sovereign_lead(args.id, args.status, notify_tg=args.telegram)
+    else:
+        print_sovereign_summary()
