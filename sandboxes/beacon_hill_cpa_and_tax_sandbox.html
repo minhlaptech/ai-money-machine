@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beacon Hill CPA & Tax — AI Copilot Live Sandbox Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand: #6366f1;
+      --bg: #070714;
+      --card-bg: rgba(255, 255, 255, 0.04);
+      --border: rgba(255, 255, 255, 0.1);
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    /* Top Banner */
+    .top-bar {
+      background: linear-gradient(90deg, rgba(124,92,252,0.2), rgba(0,242,254,0.2));
+      border-bottom: 1px solid var(--border);
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+    .sandbox-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(0, 242, 254, 0.15);
+      border: 1px solid rgba(0, 242, 254, 0.4);
+      color: #00f2fe;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+    .nav-actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .nav-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid var(--border);
+      color: #cbd5e1;
+      text-decoration: none;
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .nav-btn:hover { background: rgba(255,255,255,0.15); color: #fff; }
+    .nav-btn.primary {
+      background: linear-gradient(135deg, var(--brand), #00f2fe);
+      border: none;
+      color: #fff;
+    }
+
+    /* Simulated Client Website Hero */
+    .mock-site {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .mock-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .mock-logo {
+      font-family: 'Outfit', sans-serif;
+      font-size: 24px;
+      font-weight: 800;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .mock-logo span {
+      color: var(--brand);
+    }
+    .mock-hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: radial-gradient(circle at center, rgba(124,92,252,0.1) 0%, transparent 70%);
+      border-radius: 24px;
+      margin: 30px 0;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+    .mock-hero h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 42px;
+      font-weight: 800;
+      margin-bottom: 16px;
+      color: #fff;
+    }
+    .mock-hero p {
+      font-size: 17px;
+      color: var(--text-muted);
+      max-width: 650px;
+      margin: 0 auto 30px;
+    }
+    .mock-hero .cta-btn {
+      display: inline-block;
+      background: var(--brand);
+      color: #fff;
+      padding: 14px 32px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      text-decoration: none;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+
+    /* Service Cards Grid */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-bottom: 50px;
+    }
+    .service-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+    }
+    .service-card h3 {
+      font-size: 16px;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .service-card p {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* Sandbox Testing Dock (Bottom Left Floating Panel) */
+    .testing-dock {
+      position: fixed;
+      bottom: 24px;
+      left: 24px;
+      width: 380px;
+      background: rgba(13, 13, 33, 0.95);
+      border: 1px solid rgba(0, 242, 254, 0.4);
+      border-radius: 16px;
+      padding: 20px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+      z-index: 1000;
+    }
+    .dock-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #00f2fe;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .dock-sub {
+      font-size: 11.5px;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      line-height: 1.4;
+    }
+    .test-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      color: #cbd5e1;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      margin-bottom: 6px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .test-btn:hover {
+      background: rgba(0, 242, 254, 0.15);
+      border-color: #00f2fe;
+      color: #fff;
+    }
+    .embed-snippet-box {
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    .snippet-text {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10.5px;
+      color: #a5f3fc;
+      background: rgba(0,0,0,0.5);
+      padding: 8px;
+      border-radius: 6px;
+      word-break: break-all;
+      margin-bottom: 8px;
+    }
+    .btn-copy-dock {
+      width: 100%;
+      background: linear-gradient(135deg, var(--brand), #00f2fe);
+      border: none;
+      color: #000;
+      font-weight: 700;
+      font-size: 12px;
+      padding: 8px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    @media (max-width: 768px) {
+      .testing-dock { width: calc(100% - 48px); bottom: 12px; left: 12px; }
+      .services-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Top Sandbox Bar -->
+  <div class="top-bar">
+    <div style="display:flex; align-items:center; gap:10px;">
+      <span class="sandbox-pill">🧪 Sandbox Mode</span>
+      <span style="color:#fff; font-weight:600;">Beacon Hill CPA & Tax</span>
+      <span style="color:var(--text-muted); font-size:12px;">• Tax & Wealth Advisory (Boston, MA)</span>
+    </div>
+    <div class="nav-actions">
+      <a href="../proposals/beacon_hill_cpa_and_tax_proposal.html" class="nav-btn">📄 Proposal</a>
+      <a href="../agreements/beacon_hill_cpa_and_tax_agreement.html" class="nav-btn">📑 Contract</a>
+      <a href="../invoices/beacon_hill_cpa_and_tax_invoice.html" class="nav-btn">💳 Invoice</a>
+      <a href="https://work-minh-lap.vercel.app/onboarding?name=Beacon+Hill+CPA+%26+Tax&niche=Tax+%26+Wealth+Advisory" target="_blank" class="nav-btn primary">🚀 Go-Live Intake</a>
+    </div>
+  </div>
+
+  <!-- Simulated Client Website -->
+  <div class="mock-site">
+    <div class="mock-header">
+      <div class="mock-logo">
+        <span>✦</span> Beacon Hill CPA & Tax
+      </div>
+      <div style="font-size:13px; color:var(--text-muted);">
+        Boston, MA • Premium Tax & Wealth Advisory Services
+      </div>
+    </div>
+
+    <div class="mock-hero">
+      <h1>Elevate Your Experience With Beacon Hill CPA & Tax</h1>
+      <p>
+        Leading provider of personalized, state-of-the-art Tax & Wealth Advisory solutions in Boston, MA. Trusted by hundreds of satisfied clients with 24/7 dedicated intake support.
+      </p>
+      <a href="#chat" onclick="triggerChatWidget()" class="cta-btn">💬 Chat with AI Receptionist</a>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Comprehensive Solutions</h3>
+        <p>Expert diagnostic evaluations, personalized treatment or service plans tailored to your exact timeline.</p>
+      </div>
+      <div class="service-card">
+        <h3>Transparent Investment</h3>
+        <p>Upfront pricing with direct insurance, financing options, and zero surprise fees.</p>
+      </div>
+      <div class="service-card">
+        <h3>Instant 24/7 Booking</h3>
+        <p>Book emergency appointments or free initial consultations anytime directly with our automated intake copilot.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Sandbox Testing Control Panel -->
+  <div class="testing-dock">
+    <div class="dock-title">
+      <span>⚡ UAT Acceptance Testing Panel</span>
+      <span style="font-size:10px; color:#00e676;">● Active Sandbox</span>
+    </div>
+    <div class="dock-sub">
+      Click any test case to simulate a real customer inquiry and verify instant AI qualification:
+    </div>
+
+    <button class="test-btn" onclick="simulateTest('Hi! What are your typical pricing rates and services for new clients?')">
+      💵 <strong>Test 1:</strong> Pricing & Service Scope
+    </button>
+    <button class="test-btn" onclick="simulateTest('I need to book an appointment for this Thursday afternoon, do you have openings?')">
+      📅 <strong>Test 2:</strong> Booking & Calendar Sync
+    </button>
+    <button class="test-btn" onclick="simulateTest('This is an urgent situation! Who can I speak with immediately?')">
+      🚨 <strong>Test 3:</strong> Emergency Escalation
+    </button>
+    <button class="test-btn" onclick="simulateTest('What insurance plans or financing options do you accept?')">
+      💳 <strong>Test 4:</strong> Insurance / Financing
+    </button>
+    <button class="test-btn" onclick="simulateTest('Can someone from the office call me back at my number?')">
+      📞 <strong>Test 5:</strong> Callback Intake Request
+    </button>
+
+    <div class="embed-snippet-box">
+      <div style="font-size:11px; color:#fff; font-weight:600; margin-bottom:4px;">📋 Client 1-Line Embed Code:</div>
+      <div class="snippet-text" id="snippet-code">&lt;script src="https://work-minh-lap.vercel.app/copilot-widget.js" data-business="Beacon Hill CPA & Tax" data-color="#6366f1" async&gt;&lt;/script&gt;</div>
+      <button class="btn-copy-dock" onclick="copySnippetCode()">Copy Production Script Tag</button>
+    </div>
+  </div>
+
+  <script>
+    function triggerChatWidget() {
+      const bubble = document.querySelector('minhlap-copilot');
+      if (bubble && bubble.shadowRoot) {
+        const btn = bubble.shadowRoot.querySelector('#copilot-bubble-btn');
+        if (btn) btn.click();
+      }
+    }
+
+    function simulateTest(queryText) {
+      const bubble = document.querySelector('minhlap-copilot');
+      if (bubble && bubble.shadowRoot) {
+        // Open widget if closed
+        const chatWindow = bubble.shadowRoot.querySelector('#copilot-window');
+        if (chatWindow && chatWindow.style.display !== 'flex') {
+          const btn = bubble.shadowRoot.querySelector('#copilot-bubble-btn');
+          if (btn) btn.click();
+        }
+        // Inject into input and trigger
+        setTimeout(() => {
+          const input = bubble.shadowRoot.querySelector('#copilot-input');
+          const sendBtn = bubble.shadowRoot.querySelector('#copilot-send');
+          if (input && sendBtn) {
+            input.value = queryText;
+            sendBtn.click();
+          }
+        }, 300);
+      }
+    }
+
+    function copySnippetCode() {
+      const txt = document.getElementById('snippet-code').innerText;
+      navigator.clipboard.writeText(txt).then(() => {
+        alert('Copied 1-Line Script Tag to Clipboard! Ready for client website.');
+      });
+    }
+  </script>
+
+  <!-- Live Embed of Copilot Widget -->
+  <script src="https://work-minh-lap.vercel.app/copilot-widget.js" 
+          data-business="Beacon Hill CPA & Tax" 
+          data-color="#6366f1" 
+          data-booking="https://calendly.com/your-clinic" 
+          async></script>
+</body>
+</html>

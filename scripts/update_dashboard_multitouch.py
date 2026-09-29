@@ -35,7 +35,7 @@ STAGE_CONTROLS_HTML = """        <!-- CRM Pipeline Stats Summary Bar -->
           </div>
         </div>"""
 
-LEADS_DATA_JS = """const LEADS_DATA = [
+LEADS_DATA_JS = r"""const LEADS_DATA = [
   // --- BATCH 1: Local SMBs ---
   { id: 1, batch: 1, name: 'Austin Dental Co', niche: 'Cosmetic Dentistry', city: 'Austin, TX', to: 'contact@austindentalco.example', doc: 'Dr. Miller', type: 'dental', val: 750, lost: 14 },
   { id: 2, batch: 1, name: 'Pure Radiance MedSpa', niche: 'Aesthetics & Spa', city: 'Miami, FL', to: 'info@pureradiancemedspa.example', doc: 'Sarah', type: 'medspa', val: 650, lost: 16 },
@@ -115,6 +115,9 @@ function filterStage(stage, btn) {
 
 function buildMailto(lead, stage) {
   let subj = '', body = '';
+  let slug = lead.name.toLowerCase().replace(/ /g, '_').replace(/&/g, 'and').replace(/\\//g, '-').replace(/\\\\/g, '-').replace(/,/g, '').replace(/\\./g, '');
+  let sandboxUrl = 'https://work-minh-lap.vercel.app/sandboxes/' + slug + '_sandbox.html';
+  let reportUrl = 'https://work-minh-lap.vercel.app/reports/' + slug + '_roi_report.html';
   
   if (stage === 2) {
     const monthlyLoss = (lead.lost * lead.val).toLocaleString();
@@ -124,45 +127,46 @@ function buildMailto(lead, stage) {
       'I ran ' + lead.name + \"'s estimated inquiry volume through our revenue recovery model:\\n\" +
       '• Estimated monthly inquiries after 6 PM: ~' + lead.lost + ' prospects\\n' +
       '• Estimated missed revenue: ~$' + monthlyLoss + '/month\\n\\n' +
-      'You can test your exact numbers on our interactive calculator here:\\n' +
-      '👉 Live ROI Calculator: https://ai-automation-guide-omega.vercel.app/calculator.html\\n\\n' +
+      'You can review your customized monthly performance & ROI forecast here:\\n' +
+      '👉 Live Custom ROI Report: ' + reportUrl + '\\n' +
+      '👉 Interactive ROI Calculator: https://work-minh-lap.vercel.app/calculator\\n\\n' +
       'Our AI intake copilot typically recovers 4 to 8 qualified client bookings within the first 30 days, paying for itself several times over.\\n\\n' +
       'I also prepared a customized 2-page implementation audit for ' + lead.name + '. Would you be against me sending it over?\\n\\n' +
-      'Best regards,\\nMinh Lap\\nAI Solutions Architect\\nLive Demo: https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/demo_chatbot.html';
+      'Best regards,\\nMinh Lap\\nAI Solutions Architect\\nLive Sandbox: ' + sandboxUrl;
   } else if (stage === 3) {
     subj = 'permission to close your file, ' + lead.doc + '?';
     body = 'Hi ' + lead.doc + ',\\n\\n' +
       'I haven\\'t heard back, so I assume that automating after-hours client intake and recapturing missed inquiries isn\\'t a priority for ' + lead.name + ' right now.\\n\\n' +
       'I\\'m closing out your file so I don\\'t clutter your inbox.\\n\\n' +
-      'If priorities ever shift and you\\'d like to see how similar businesses in ' + lead.city + ' are automatically booking clients 24/7 without extra staff, you\\'re always welcome to test our live demo:\\n' +
-      '👉 https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/demo_chatbot.html\\n\\n' +
+      'If priorities ever shift and you\\'d like to see how similar businesses in ' + lead.city + ' are automatically booking clients 24/7 without extra staff, you\\'re always welcome to test your live sandbox prototype:\\n' +
+      '👉 ' + sandboxUrl + '\\n\\n' +
       'Wishing ' + lead.name + ' continued growth and success!\\n\\n' +
       'Warm regards,\\nMinh Lap\\nAI Solutions Architect';
   } else {
     if (lead.type === 'dental') {
       subj = 'quick question regarding ' + lead.name + \"'s after-hours patient inquiries\";
-      body = 'Hi ' + lead.doc + ',\\n\\nI was reviewing your website yesterday around 8 PM and noticed that when a patient has an urgent dental question or wants to book an appointment after closing, their only option is to wait until morning.\\n\\nIn most competitive markets, clinics lose 4 to 8 high-intent new patient inquiries every single week simply because competitors with instant AI booking respond within 30 seconds.\\n\\nTo show you how easy this is to solve, I set up a quick 60-second interactive demo specifically for high-ticket clinics:\\n👉 Live Demo: https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/demo_chatbot.html\\n\\nIt answers common treatment questions, qualifies insurance, and books appointments directly into your calendar 24/7.\\n\\nWould you be open to a quick 5-minute call this Thursday at 2 PM to see if this makes sense for ' + lead.name + '?\\n\\nBest regards,\\nMinh Lap\\nAI Solutions Architect\\nPortfolio: https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/demo_chatbot.html';
+      body = 'Hi ' + lead.doc + ',\\n\\nI was reviewing your website yesterday around 8 PM and noticed that when a patient has an urgent dental question or wants to book an appointment after closing, their only option is to wait until morning.\\n\\nIn most competitive markets, clinics lose 4 to 8 high-intent new patient inquiries every single week simply because competitors with instant AI booking respond within 30 seconds.\\n\\nTo show you how easy this is to solve, I set up a live interactive sandbox prototype specifically for ' + lead.name + ':\\n👉 Live Sandbox Demo: ' + sandboxUrl + '\\n\\nIt answers common treatment questions, qualifies insurance, and books appointments directly into your calendar 24/7.\\n\\nWould you be open to a quick 5-minute call this Thursday at 2 PM to see if this makes sense for ' + lead.name + '?\\n\\nBest regards,\\nMinh Lap\\nAI Solutions Architect\\nLive Sandbox: ' + sandboxUrl;
     } else if (lead.type === 'hvac') {
       subj = 'noticed your phone line around 7:15pm yesterday';
-      body = 'Hi ' + lead.doc + ',\\n\\nWhen a homeowner has an emergency leak or broken AC after 6 PM, 85% of them will immediately hang up if they reach a voicemail and call the next contractor on Google.\\n\\nWe implemented an automated 15-second AI text-back workflow: whenever your line is busy or closed, an instant text goes out:\\n\"Hi! We are currently assisting another client. Do you have an urgent service request?\"\\n\\nThis single workflow captured $9,200 in recovered emergency jobs for a local contractor last month.\\n\\nI also ran an AI search audit on your domain to see if voice search (ChatGPT / Perplexity) recommends your business:\\n👉 Audit Engine: https://synapse-geo-audit.vercel.app\\n\\nHappy to share a 2-minute video walkthrough showing how this works if you find it helpful.\\n\\nCheers,\\nMinh Lap\\nAI Workflow Specialist';
+      body = 'Hi ' + lead.doc + ',\\n\\nWhen a homeowner has an emergency leak or broken AC after 6 PM, 85% of them will immediately hang up if they reach a voicemail and call the next contractor on Google.\\n\\nWe implemented an automated 15-second AI text-back workflow: whenever your line is busy or closed, an instant text goes out:\\n\"Hi! We are currently assisting another client. Do you have an urgent service request?\"\\n\\nThis single workflow captured $9,200 in recovered emergency jobs for a local contractor last month.\\n\\nI also set up an interactive test sandbox for ' + lead.name + ':\\n👉 Live Sandbox: ' + sandboxUrl + '\\n\\nHappy to share a 2-minute video walkthrough showing how this works if you find it helpful.\\n\\nCheers,\\nMinh Lap\\nAI Workflow Specialist';
     } else if (lead.type === 'ecom') {
       subj = 'quick idea on recovering abandoned carts for ' + lead.name;
-      body = 'Hi ' + lead.doc + ',\\n\\nLove what you\\'re building at ' + lead.name + '!\\n\\nNoticed that visitors who leave items in cart often drop off due to sizing, delivery, or return policy questions before checkout.\\n\\nWe build autonomous AI shopper assistants that engage hesitant shoppers right before drop-off, answering questions in real-time and offering personalized incentive bundles.\\n\\nTake a look at how this operates live:\\n👉 Demo: https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/demo_chatbot.html\\n\\nWould love to share 2 quick ideas that boosted checkout conversions by 14% for similar D2C brands. Free for a 5-min chat this week?\\n\\nBest,\\nMinh Lap\\nE-Commerce Automation Consultant';
+      body = 'Hi ' + lead.doc + ',\\n\\nLove what you\\'re building at ' + lead.name + '!\\n\\nNoticed that visitors who leave items in cart often drop off due to sizing, delivery, or return policy questions before checkout.\\n\\nWe build autonomous AI shopper assistants that engage hesitant shoppers right before drop-off, answering questions in real-time and offering personalized incentive bundles.\\n\\nTake a look at how this operates on your live prototype:\\n👉 Live Sandbox: ' + sandboxUrl + '\\n\\nWould love to share 2 quick ideas that boosted checkout conversions by 14% for similar D2C brands. Free for a 5-min chat this week?\\n\\nBest,\\nMinh Lap\\nE-Commerce Automation Consultant';
     } else if (lead.type === 'saas') {
       subj = 'boosting activation for ' + lead.name + ' trial signups';
-      body = 'Hi ' + lead.doc + ',\\n\\nBig fan of ' + lead.name + '!\\n\\nI noticed that many self-serve SaaS users drop off during the first 48 hours when they hit an integration or setup blocker. Static documentation often isn\\'t enough to prevent churn.\\n\\nWe build conversational onboarding AI copilots trained on your API docs and changelog that proactively assist trial users in hitting their \\'Aha!\\' moment within minutes.\\n\\nCheck out a live prototype here:\\n👉 Copilot Demo: https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/demo_chatbot.html\\n\\nOpen to a quick 5-min feedback chat this Wednesday at 10 AM PST?\\n\\nCheers,\\nMinh Lap\\nSaaS Growth & AI Systems';
+      body = 'Hi ' + lead.doc + ',\\n\\nBig fan of ' + lead.name + '!\\n\\nI noticed that many self-serve SaaS users drop off during the first 48 hours when they hit an integration or setup blocker. Static documentation often isn\\'t enough to prevent churn.\\n\\nWe build conversational onboarding AI copilots trained on your API docs and changelog that proactively assist trial users in hitting their \\'Aha!\\' moment within minutes.\\n\\nCheck out your live prototype here:\\n👉 Live Sandbox: ' + sandboxUrl + '\\n\\nOpen to a quick 5-min feedback chat this Wednesday at 10 AM PST?\\n\\nCheers,\\nMinh Lap\\nSaaS Growth & AI Systems';
     } else if (lead.type === 'legal') {
       subj = 'quick question regarding ' + lead.name + \"'s after-hours intake process\";
-      body = 'Hi ' + lead.doc + ',\\n\\nI was reviewing your website yesterday evening around 8:30 PM and noticed that potential new clients facing an urgent legal matter only have a standard static form.\\n\\nIn high-stakes cases, 67% of prospective claimants contact 2 to 3 firms simultaneously. The firm that responds, qualifies, and schedules within 3 minutes captures 80% of retained cases.\\n\\nWe built an intelligent legal intake assistant that conducts an empathetic intake questionnaire, screens jurisdiction & merit, and schedules onto your calendar 24/7.\\n\\nTest a 60-second interactive demo here:\\n👉 Live Demo: https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/demo_chatbot.html\\n\\nOpen to a brief 7-minute call this Thursday at 2 PM to explore if this could add 3-5 retained cases/month to ' + lead.name + '?\\n\\nBest regards,\\nMinh Lap\\nAI Legal Workflow Automation';
+      body = 'Hi ' + lead.doc + ',\\n\\nI was reviewing your website yesterday evening around 8:30 PM and noticed that potential new clients facing an urgent legal matter only have a standard static form.\\n\\nIn high-stakes cases, 67% of prospective claimants contact 2 to 3 firms simultaneously. The firm that responds, qualifies, and schedules within 3 minutes captures 80% of retained cases.\\n\\nWe built an intelligent legal intake assistant that conducts an empathetic intake questionnaire, screens jurisdiction & merit, and schedules onto your calendar 24/7.\\n\\nTest your firm\\'s customized sandbox prototype here:\\n👉 Live Sandbox: ' + sandboxUrl + '\\n\\nOpen to a brief 7-minute call this Thursday at 2 PM to explore if this could add 3-5 retained cases/month to ' + lead.name + '?\\n\\nBest regards,\\nMinh Lap\\nAI Legal Workflow Automation';
     } else if (lead.type === 'realestate') {
       subj = 'capturing after-hours buyer inquiries for ' + lead.name + ' listings';
-      body = 'Hi ' + lead.doc + ',\\n\\nYour active luxury listings look exceptional.\\n\\nWhen high-net-worth buyers browse properties on weekends or late at night, they expect instant answers regarding HOA rules, lot dimensions, and private showing availability.\\n\\nWe deploy bespoke AI Concierge agents that answer deep questions from your MLS data, pre-qualify buyers, and coordinate VIP private showings straight into your calendar 24/7.\\n\\nTest the concierge demo here:\\n👉 Demo: https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/demo_chatbot.html\\n\\nAvailable for a 5-minute conversation this Thursday to see what this looks like with your active listings?\\n\\nWarm regards,\\nMinh Lap\\nHigh-Ticket Automation Systems';
+      body = 'Hi ' + lead.doc + ',\\n\\nYour active luxury listings look exceptional.\\n\\nWhen high-net-worth buyers browse properties on weekends or late at night, they expect instant answers regarding HOA rules, lot dimensions, and private showing availability.\\n\\nWe deploy bespoke AI Concierge agents that answer deep questions from your MLS data, pre-qualify buyers, and coordinate VIP private showings straight into your calendar 24/7.\\n\\nTest your agency\\'s live concierge sandbox here:\\n👉 Live Sandbox: ' + sandboxUrl + '\\n\\nAvailable for a 5-minute conversation this Thursday to see what this looks like with your active listings?\\n\\nWarm regards,\\nMinh Lap\\nHigh-Ticket Automation Systems';
     } else if (lead.type === 'cpa') {
       subj = 'eliminating 15+ hours/week of client document chasing for ' + lead.name;
-      body = 'Hi ' + lead.doc + ',\\n\\nAs tax season and quarterly filings approach, the single biggest drain on billable partner hours is chasing clients for missing 1099s, W2s, and receipts.\\n\\nWe build autonomous document-collection pipelines using AI OCR and Make.com that send automated reminder loops, verify document clarity with AI vision, and sync files directly into client folders and accounting software.\\n\\nFirms save an average of 18 hours per accountant every month while accelerating client turnaround by 40%.\\n\\nWould you be against me sending over a 2-minute video walkthrough showing how this workflow operates?\\n\\nCheers,\\nMinh Lap\\nAI Workflow Automation Consultant';
+      body = 'Hi ' + lead.doc + ',\\n\\nAs tax season and quarterly filings approach, the single biggest drain on billable partner hours is chasing clients for missing 1099s, W2s, and receipts.\\n\\nWe build autonomous document-collection pipelines using AI OCR and Make.com that send automated reminder loops, verify document clarity with AI vision, and sync files directly into client folders and accounting software.\\n\\nFirms save an average of 18 hours per accountant every month while accelerating client turnaround by 40%.\\n\\nTest your firm\\'s intake sandbox here:\\n👉 Live Sandbox: ' + sandboxUrl + '\\n\\nWould you be against me sending over a 2-minute video walkthrough showing how this workflow operates?\\n\\nCheers,\\nMinh Lap\\nAI Workflow Automation Consultant';
     } else {
       subj = 'automated consultation booking for ' + lead.name;
-      body = 'Hi ' + lead.doc + ',\\n\\nLove the work you do at ' + lead.name + '!\\n\\nI noticed that you receive a lot of inquiries regarding treatment pricing and booking. Many potential clients browse late at night and drop off before ever booking a consultation.\\n\\nWe build custom AI assistants that engage visitors, recommend treatment options, and lock in paid consultation deposits while you sleep.\\n\\nTake a look at how seamless the patient experience is:\\n👉 Interactive Sample: https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/demo_chatbot.html\\n\\nWould you be against me sending over a 3-minute video showing what this would look like for ' + lead.name + '?\\n\\nWarm regards,\\nMinh Lap\\nAI Client Acquisition Systems';
+      body = 'Hi ' + lead.doc + ',\\n\\nLove the work you do at ' + lead.name + '!\\n\\nI noticed that you receive a lot of inquiries regarding treatment pricing and booking. Many potential clients browse late at night and drop off before ever booking a consultation.\\n\\nWe build custom AI assistants that engage visitors, recommend treatment options, and lock in paid consultation deposits while you sleep.\\n\\nTake a look at how seamless the patient experience is on your live sandbox:\\n👉 Live Sandbox: ' + sandboxUrl + '\\n\\nWould you be against me sending over a 3-minute video showing what this would look like for ' + lead.name + '?\\n\\nWarm regards,\\nMinh Lap\\nAI Client Acquisition Systems';
     }
   }
   return 'mailto:' + lead.to + '?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
@@ -186,23 +190,23 @@ function renderCRMStats() {
   statsEl.innerHTML = `
     <div style="background:rgba(255,255,255,0.03); border:1px solid var(--border); padding:10px 14px; border-radius:8px;">
       <div style="font-size:11px; color:var(--text-muted); text-transform:uppercase;">Total Pipeline</div>
-      <div style="font-size:18px; font-weight:700; color:#fff;">${LEADS_DATA.length} Leads</div>
+      <div style="font-size:18px; font-weight:700; color:#fff;">\${LEADS_DATA.length} Leads</div>
     </div>
     <div style="background:rgba(124,92,252,0.08); border:1px solid rgba(124,92,252,0.3); padding:10px 14px; border-radius:8px;">
       <div style="font-size:11px; color:#b794f4; text-transform:uppercase;">🎯 Day 1 Sent</div>
-      <div style="font-size:18px; font-weight:700; color:#b794f4;">${day1C}</div>
+      <div style="font-size:18px; font-weight:700; color:#b794f4;">\${day1C}</div>
     </div>
     <div style="background:rgba(0,242,254,0.08); border:1px solid rgba(0,242,254,0.3); padding:10px 14px; border-radius:8px;">
       <div style="font-size:11px; color:#00f2fe; text-transform:uppercase;">📈 Day 3 Follow-Up</div>
-      <div style="font-size:18px; font-weight:700; color:#00f2fe;">${day3C}</div>
+      <div style="font-size:18px; font-weight:700; color:#00f2fe;">\${day3C}</div>
     </div>
     <div style="background:rgba(52,211,153,0.08); border:1px solid rgba(52,211,153,0.3); padding:10px 14px; border-radius:8px;">
       <div style="font-size:11px; color:#34d399; text-transform:uppercase;">📞 Calls Booked</div>
-      <div style="font-size:18px; font-weight:700; color:#34d399;">${bookedC}</div>
+      <div style="font-size:18px; font-weight:700; color:#34d399;">\${bookedC}</div>
     </div>
     <div style="background:rgba(255,215,0,0.08); border:1px solid rgba(255,215,0,0.3); padding:10px 14px; border-radius:8px;">
       <div style="font-size:11px; color:#ffd700; text-transform:uppercase;">🏆 Won Retainers</div>
-      <div style="font-size:18px; font-weight:700; color:#ffd700;">${wonC} ($${(wonC * 1200).toLocaleString()})</div>
+      <div style="font-size:18px; font-weight:700; color:#ffd700;">\${wonC} ($\${(wonC * 1200).toLocaleString()})</div>
     </div>
   `;
 }
@@ -216,7 +220,7 @@ function renderLeadsTable() {
   
   const countEl = document.getElementById('leads-count-label');
   const stageNames = { 1: 'Day 1: Cold Hook', 2: 'Day 3: ROI Value Follow-Up', 3: 'Day 7: Break-Up Email' };
-  if (countEl) countEl.innerHTML = `Showing <strong>${filtered.length}</strong> Leads • Sequence: <span style="color:#fff;">${stageNames[currentStageFilter]}</span>`;
+  if (countEl) countEl.innerHTML = `Showing <strong>\${filtered.length}</strong> Leads • Sequence: <span style="color:#fff;">\${stageNames[currentStageFilter]}</span>`;
 
   renderCRMStats();
 
@@ -228,10 +232,12 @@ function renderLeadsTable() {
       : '<span style="background:rgba(255,183,77,0.18); color:#ffb74d; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 3: High-Ticket</span>';
       
     let slug = l.name.toLowerCase().replace(/ /g, '_').replace(/&/g, 'and').replace(/\\//g, '-').replace(/\\\\/g, '-').replace(/,/g, '').replace(/\\./g, '');
-    let proposalLink = `proposals/${slug}_proposal.html`;
-    let agreementLink = `agreements/${slug}_agreement.html`;
-    let invoiceLink = `invoices/${slug}_invoice.html`;
-    let intakeLink = `https://work-minh-lap.vercel.app/onboarding?name=${encodeURIComponent(l.name)}&niche=${encodeURIComponent(l.niche)}`;
+    let proposalLink = `proposals/\${slug}_proposal.html`;
+    let sandboxLink = `sandboxes/\${slug}_sandbox.html`;
+    let agreementLink = `agreements/\${slug}_agreement.html`;
+    let invoiceLink = `invoices/\${slug}_invoice.html`;
+    let reportLink = `reports/\${slug}_roi_report.html`;
+    let intakeLink = `https://work-minh-lap.vercel.app/onboarding?name=\${encodeURIComponent(l.name)}&niche=\${encodeURIComponent(l.niche)}`;
     
     let btnText = currentStageFilter === 1 ? '✉️ Send Day 1' : currentStageFilter === 2 ? '📈 Send Day 3' : '🚪 Send Day 7';
     let btnGradient = currentStageFilter === 1 
@@ -244,30 +250,32 @@ function renderLeadsTable() {
 
     return `
     <tr style="border-bottom:1px solid rgba(255,255,255,0.05); transition:background 0.15s;" onmouseover="this.style.background='rgba(255,255,255,0.02)'" onmouseout="this.style.background='transparent'">
-      <td style="padding:12px 10px; color:var(--text-muted); font-family:var(--font-mono);">#${l.id}</td>
+      <td style="padding:12px 10px; color:var(--text-muted); font-family:var(--font-mono);">#\${l.id}</td>
       <td style="padding:12px 10px; font-weight:600; color:#fff;">
-        ${l.name}
-        <div style="margin-top:3px;">${batchBadge}</div>
+        \${l.name}
+        <div style="margin-top:3px;">\${batchBadge}</div>
       </td>
-      <td style="padding:12px 10px; color:var(--text-muted); font-size:12px;">${l.niche} • <span style="color:var(--cyan);">${l.city}</span></td>
+      <td style="padding:12px 10px; color:var(--text-muted); font-size:12px;">\${l.niche} • <span style="color:var(--cyan);">\${l.city}</span></td>
       <td style="padding:12px 10px; text-align:center;">
-        <select onchange="setLeadStatus(${l.id}, this.value)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#e2e8f0; border-radius:6px; padding:4px 6px; font-size:11px; cursor:pointer;">
-          <option value="new" ${st === 'new' ? 'selected' : ''}>⚪ New</option>
-          <option value="day1" ${st === 'day1' ? 'selected' : ''}>🎯 Day 1 Sent</option>
-          <option value="day3" ${st === 'day3' ? 'selected' : ''}>📈 Day 3 Sent</option>
-          <option value="day7" ${st === 'day7' ? 'selected' : ''}>🚪 Day 7 Sent</option>
-          <option value="booked" ${st === 'booked' ? 'selected' : ''}>📞 Booked</option>
-          <option value="won" ${st === 'won' ? 'selected' : ''}>🏆 Won ($1,200)</option>
+        <select onchange="setLeadStatus(\${l.id}, this.value)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#e2e8f0; border-radius:6px; padding:4px 6px; font-size:11px; cursor:pointer;">
+          <option value="new" \${st === 'new' ? 'selected' : ''}>⚪ New</option>
+          <option value="day1" \${st === 'day1' ? 'selected' : ''}>🎯 Day 1 Sent</option>
+          <option value="day3" \${st === 'day3' ? 'selected' : ''}>📈 Day 3 Sent</option>
+          <option value="day7" \${st === 'day7' ? 'selected' : ''}>🚪 Day 7 Sent</option>
+          <option value="booked" \${st === 'booked' ? 'selected' : ''}>📞 Booked</option>
+          <option value="won" \${st === 'won' ? 'selected' : ''}>🏆 Won ($1,200)</option>
         </select>
       </td>
-      <td style="padding:12px 6px; text-align:center; white-space:nowrap;">
-        <a href="${proposalLink}" target="_blank" style="display:inline-block; background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#cbd5e1; text-decoration:none; padding:3px 6px; border-radius:6px; font-size:11px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='var(--cyan)'; this.style.color='#fff';" onmouseout="this.style.borderColor='var(--border)'; this.style.color='#cbd5e1';">📄 Proposal</a>
-        <a href="${agreementLink}" target="_blank" style="display:inline-block; background:rgba(124,92,252,0.12); border:1px solid rgba(124,92,252,0.3); color:#b794f4; text-decoration:none; padding:3px 6px; border-radius:6px; font-size:11px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='#7c5cfc'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(124,92,252,0.3)'; this.style.color='#b794f4';">📑 Contract</a>
-        <a href="${invoiceLink}" target="_blank" style="display:inline-block; background:rgba(16,185,129,0.12); border:1px solid rgba(16,185,129,0.3); color:#34d399; text-decoration:none; padding:3px 6px; border-radius:6px; font-size:11px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='#10b981'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(16,185,129,0.3)'; this.style.color='#34d399';">💳 Invoice</a>
-        <a href="${intakeLink}" target="_blank" style="display:inline-block; background:rgba(0,242,254,0.12); border:1px solid rgba(0,242,254,0.3); color:#00f2fe; text-decoration:none; padding:3px 6px; border-radius:6px; font-size:11px; font-weight:600; transition:all 0.15s;" onmouseover="this.style.borderColor='#00f2fe'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(0,242,254,0.3)'; this.style.color='#00f2fe';">🚀 Intake</a>
+      <td style="padding:10px 4px; text-align:center; white-space:nowrap;">
+        <a href="\${proposalLink}" target="_blank" style="display:inline-block; background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#cbd5e1; text-decoration:none; padding:3px 5px; border-radius:5px; font-size:10.5px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='var(--cyan)'; this.style.color='#fff';" onmouseout="this.style.borderColor='var(--border)'; this.style.color='#cbd5e1';">📄 Proposal</a>
+        <a href="\${sandboxLink}" target="_blank" style="display:inline-block; background:rgba(0,242,254,0.1); border:1px solid rgba(0,242,254,0.3); color:#00f2fe; text-decoration:none; padding:3px 5px; border-radius:5px; font-size:10.5px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='#00f2fe'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(0,242,254,0.3)'; this.style.color='#00f2fe';">🧪 Sandbox</a>
+        <a href="\${agreementLink}" target="_blank" style="display:inline-block; background:rgba(124,92,252,0.12); border:1px solid rgba(124,92,252,0.3); color:#b794f4; text-decoration:none; padding:3px 5px; border-radius:5px; font-size:10.5px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='#7c5cfc'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(124,92,252,0.3)'; this.style.color='#b794f4';">📑 Contract</a>
+        <a href="\${invoiceLink}" target="_blank" style="display:inline-block; background:rgba(16,185,129,0.12); border:1px solid rgba(16,185,129,0.3); color:#34d399; text-decoration:none; padding:3px 5px; border-radius:5px; font-size:10.5px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='#10b981'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(16,185,129,0.3)'; this.style.color='#34d399';">💳 Invoice</a>
+        <a href="\${reportLink}" target="_blank" style="display:inline-block; background:rgba(255,183,77,0.12); border:1px solid rgba(255,183,77,0.3); color:#ffb74d; text-decoration:none; padding:3px 5px; border-radius:5px; font-size:10.5px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='#ffb74d'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(255,183,77,0.3)'; this.style.color='#ffb74d';">📊 ROI</a>
+        <a href="\${intakeLink}" target="_blank" style="display:inline-block; background:rgba(236,72,153,0.12); border:1px solid rgba(236,72,153,0.3); color:#f472b6; text-decoration:none; padding:3px 5px; border-radius:5px; font-size:10.5px; font-weight:600; transition:all 0.15s;" onmouseover="this.style.borderColor='#ec4899'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(236,72,153,0.3)'; this.style.color='#f472b6';">🚀 Intake</a>
       </td>
       <td style="padding:12px 10px; text-align:right;">
-        <a href="${buildMailto(l, currentStageFilter)}" onclick="handleLeadDispatch(${l.id}, currentStageFilter)" style="display:inline-block; background:${btnGradient}; color:#fff; text-decoration:none; padding:6px 14px; border-radius:6px; font-size:12px; font-weight:700; box-shadow: 0 2px 8px rgba(0,0,0,0.3); transition:transform 0.15s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='none'">${btnText}</a>
+        <a href="\${buildMailto(l, currentStageFilter)}" onclick="handleLeadDispatch(\${l.id}, currentStageFilter)" style="display:inline-block; background:\${btnGradient}; color:#fff; text-decoration:none; padding:6px 14px; border-radius:6px; font-size:12px; font-weight:700; box-shadow: 0 2px 8px rgba(0,0,0,0.3); transition:transform 0.15s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='none'">\${btnText}</a>
       </td>
     </tr>
   `}).join('');

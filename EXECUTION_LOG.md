@@ -707,3 +707,47 @@
 - ✅ **Đồng Bộ Hóa Canonical Tên Miền Cho AI Resource Hub ([vercel.json](file:///d:/Project/work/vercel.json))**:
   - Định tuyến lại `/blog`, `/hub` và `/guides/:file` về trực tiếp thư mục `projects/affiliate_blog/website/index.html` trên tên miền canonical vĩnh viễn `https://work-minh-lap.vercel.app/blog`.
   - Cập nhật [`scripts/system_health_check.py`](file:///d:/Project/work/scripts/system_health_check.py) đạt chuẩn 7/7 ứng dụng Live với kết quả 100% Pass (HTTP 200).
+
+---
+
+## 📅 2026-09-29 | Phiên #28 | Bộ Môi Trường Thử Nghiệm Khách Hàng (30 Live Sandboxes), Báo Cáo Đo Lường ROI (30 Reports), Bộ 6 Deliverables B2B & Nâng Cấp CLI v4.0
+
+### 🎉 Milestones Hoàn Thành:
+- ✅ **Bộ Sinh Môi Trường Thử Nghiệm Trực Tiếp Khách Hàng ([scripts/generate_client_sandbox.py](file:///d:/Project/work/scripts/generate_client_sandbox.py))**:
+  - Xây dựng công cụ tự động hóa mô phỏng website riêng mang thương hiệu của từng khách hàng (`sandboxes/{slug}_sandbox.html`).
+  - Giao diện Dark Glassmorphism cao cấp, tự động lấy màu thương hiệu theo từng ngành nghề (Cosmetic Dentistry `#00f2fe`, MedSpa `#ec4899`, HVAC `#f59e0b`, Legal `#818cf8`, E-Com `#10b981`, Real Estate `#eab308`).
+  - Tích hợp 5 kịch bản kiểm thử chấp nhận tự động (Automated Acceptance Tests) chỉ với 1 cú click:
+    1. `💰 Test Pricing Inquiry`: Hỏi giá dịch vụ/gói khám
+    2. `📅 Test Booking Flow`: Đặt lịch tư vấn tự động
+    3. `🚨 Test Emergency Request`: Xử lý tình huống cấp cứu ngoài giờ
+    4. `🛡️ Test Insurance Coverage`: Kiểm tra điều kiện bảo hiểm
+    5. `📞 Test Instant Callback`: Đăng ký nhận cuộc gọi lại trong 30 giây
+  - Cung cấp sẵn mã nhúng 1 dòng HTML (`<script src=".../copilot-widget.js"></script>`) kèm nút sao chép nhanh để khách đưa ngay lên website chính thức.
+- ✅ **Xuất Trọn Bộ 30 Sandboxes Trực Tiếp ([sandboxes/](file:///d:/Project/work/sandboxes/))**:
+  - Đã xuất bản thành công 30 file sandbox HTML riêng biệt tương ứng với toàn bộ 30 leads trong phễu bán hàng.
+- ✅ **Bộ Sinh Báo Cáo Đo Lường Hiệu Suất & ROI Hàng Tháng ([scripts/generate_client_roi_report.py](file:///d:/Project/work/scripts/generate_client_roi_report.py))**:
+  - Xây dựng công cụ chứng minh giá trị tự động (`reports/{slug}_roi_report.html`) để bảo vệ nguồn doanh thu định kỳ (Retainer $650/tháng) và loại bỏ hoàn toàn nguy cơ khách hủy dịch vụ (churn).
+  - Tự động lượng hóa các con số tăng trưởng vượt bậc:
+    - ~140–200 lượt hội thoại sau giờ làm việc
+    - 15–25 lịch hẹn phục hồi thành công (trị giá ~$11,000 – $15,000)
+    - 38 giờ lao động nhân sự được giải phóng (~$1,140)
+    - **Tổng doanh thu phục hồi ròng: ~$13,500+ / tháng** so với chi phí vận hành $650/tháng (ROI đạt trên **2,000%**).
+  - Hỗ trợ xem trực quan trên web và in xuất PDF khổ A4 với giao diện Executive Report sang trọng.
+- ✅ **Xuất Trọn Bộ 30 Báo Cáo ROI Khách Hàng ([reports/](file:///d:/Project/work/reports/))**:
+  - Đã xuất bản thành công 30 file báo cáo ROI đo lường riêng biệt cho từng doanh nghiệp trong danh sách.
+- ✅ **Nâng Cấp Thanh Công Cụ Đầy Đủ 6 Vũ Khí Deliverables B2B Trên CRM Dashboard ([dashboard.html](file:///d:/Project/work/dashboard.html) & [index.html](file:///d:/Project/work/index.html))**:
+  - Cập nhật cột "Client Deliverables" trên bảng phễu CRM với đầy đủ 6 nút tác chiến:
+    1. `📄 Proposal` — Bản đề xuất & kiểm toán chuyên sâu
+    2. `🧪 Sandbox` — Môi trường thử nghiệm AI trực tiếp có thương hiệu khách
+    3. `📑 Contract` — Hợp đồng dịch vụ MSA kèm bảng chữ ký số
+    4. `💳 Invoice` — Hóa đơn thanh toán $1,850 đa cổng
+    5. `📊 ROI` — Báo cáo đo lường hiệu suất định kỳ chứng minh giá trị
+    6. `🚀 Intake` — Cổng tiếp nhận thông tin khách hàng điền sẵn
+  - Nâng cấp hàm `buildMailto(lead, stage)`: Tự động nhúng link Sandbox độc quyền vào email Day 1/Day 7 và nhúng link Báo cáo ROI vào email Day 3 để tỷ lệ mở và phản hồi tăng đột biến.
+- ✅ **Đồng Bộ Kịch Bản Tự Động Hóa Dashboard ([scripts/update_dashboard_multitouch.py](file:///d:/Project/work/scripts/update_dashboard_multitouch.py))**:
+  - Cập nhật template mã nguồn JavaScript bên trong script để đồng bộ hoàn hảo 6 nút deliverable và email đa chạm.
+- ✅ **Nâng Cấp Master Command Center CLI Lên Phiên Bản v4.0 với 16 Lệnh Điều Hành ([scripts/ai_empire_cli.py](file:///d:/Project/work/scripts/ai_empire_cli.py))**:
+  - Bổ sung tùy chọn `[5] 🧪 Tạo Môi Trường Thử Nghiệm Tương Tác (Live Client Sandbox)`
+  - Bổ sung tùy chọn `[8] 📊 Tạo Báo Cáo Đo Lường ROI Hàng Tháng Khách Hàng (Monthly ROI Report)`
+  - Hỗ trợ thao tác 1 chạm cho cả khách hàng đơn lẻ và toàn bộ 30 leads.
+
