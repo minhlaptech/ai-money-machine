@@ -30,44 +30,12 @@ if sys.stdout.encoding != 'utf-8':
 ROOT_DIR = Path(__file__).resolve().parent.parent
 PORTALS_DIR = ROOT_DIR / "portals"
 
-LEADS = [
-  {"id": 1, "batch": 1, "name": "Austin Dental Co", "niche": "Cosmetic Dentistry", "city": "Austin, TX", "val": 750, "lost": 18, "icon": "🦷"},
-  {"id": 2, "batch": 1, "name": "Pure Radiance MedSpa", "niche": "Medical Aesthetics", "city": "Miami, FL", "val": 650, "lost": 16, "icon": "✨"},
-  {"id": 3, "batch": 1, "name": "Premier 24/7 HVAC", "niche": "Emergency HVAC", "city": "Dallas, TX", "val": 850, "lost": 15, "icon": "❄️"},
-  {"id": 4, "batch": 1, "name": "Sterling & Partners Legal", "niche": "Personal Injury Law", "city": "Chicago, IL", "val": 2500, "lost": 8, "icon": "⚖️"},
-  {"id": 5, "batch": 1, "name": "Summit Crest Luxury Realty", "niche": "High-End Real Estate", "city": "Scottsdale, AZ", "val": 4000, "lost": 5, "icon": "🏰"},
-  {"id": 6, "batch": 1, "name": "ProActive Spine & Chiro", "niche": "Chiropractic & Wellness", "city": "Denver, CO", "val": 450, "lost": 22, "icon": "🩺"},
-  {"id": 7, "batch": 1, "name": "Beacon Hill CPA & Tax", "niche": "Tax & Wealth Advisory", "city": "Boston, MA", "val": 1200, "lost": 10, "icon": "📊"},
-  {"id": 8, "batch": 1, "name": "Elite Smile Studio", "niche": "Orthodontics", "city": "San Diego, CA", "val": 950, "lost": 14, "icon": "😁"},
-  {"id": 9, "batch": 1, "name": "Rapid Response Plumbing", "niche": "Commercial Plumbing", "city": "Atlanta, GA", "val": 600, "lost": 20, "icon": "🔧"},
-  {"id": 10, "batch": 1, "name": "Apex Roofing & Solar", "niche": "Roofing & Solar EPC", "city": "Orlando, FL", "val": 3500, "lost": 6, "icon": "☀️"},
-  {"id": 11, "batch": 2, "name": "Velora Activewear", "niche": "Athleisure & Fitness", "city": "Los Angeles, CA", "val": 120, "lost": 65, "icon": "🏃"},
-  {"id": 12, "batch": 2, "name": "NuvoGlow Skincare", "niche": "Clean Beauty & Cosmetics", "city": "New York, NY", "val": 95, "lost": 80, "icon": "🧴"},
-  {"id": 13, "batch": 2, "name": "Artisan Roast Club", "niche": "Specialty Coffee Subscription", "city": "Seattle, WA", "val": 85, "lost": 90, "icon": "☕"},
-  {"id": 14, "batch": 2, "name": "ZenSleep Mattress", "niche": "Sleep Tech & Bedding", "city": "San Francisco, CA", "val": 850, "lost": 12, "icon": "🛏️"},
-  {"id": 15, "batch": 2, "name": "HydroFlow Bottle", "niche": "Smart Hydration & Gear", "city": "Boulder, CO", "val": 75, "lost": 95, "icon": "💧"},
-  {"id": 16, "batch": 2, "name": "Pawsome Pet Boxes", "niche": "Pet Supplies & Subscriptions", "city": "Austin, TX", "val": 65, "lost": 110, "icon": "🐾"},
-  {"id": 17, "batch": 2, "name": "Lumina Wellness", "niche": "Nootropics & Supplements", "city": "Miami, FL", "val": 110, "lost": 70, "icon": "🧬"},
-  {"id": 18, "batch": 2, "name": "StackSync Dev", "niche": "Developer Tools & SaaS", "city": "San Jose, CA", "val": 1400, "lost": 8, "icon": "⚡"},
-  {"id": 19, "batch": 2, "name": "LeadFlow CRM", "niche": "B2B Sales Automation", "city": "Chicago, IL", "val": 1800, "lost": 7, "icon": "📈"},
-  {"id": 20, "batch": 2, "name": "CloudDesk Help", "niche": "Customer Support Platform", "city": "Boston, MA", "val": 1200, "lost": 9, "icon": "💬"},
-  {"id": 21, "batch": 3, "name": "PulseMetrics AI", "niche": "Product Analytics SaaS", "city": "New York, NY", "val": 2200, "lost": 6, "icon": "📉"},
-  {"id": 22, "batch": 3, "name": "Silicon Valley Skin Lab", "niche": "Dermatology Clinic", "city": "Palo Alto, CA", "val": 750, "lost": 16, "icon": "🔬"},
-  {"id": 23, "batch": 3, "name": "Pacific Coast Family Law", "niche": "Family Law & Mediation", "city": "Newport Beach, CA", "val": 3000, "lost": 6, "icon": "🏛️"},
-  {"id": 24, "batch": 3, "name": "Vanguard Luxury RE", "niche": "Luxury Real Estate", "city": "Beverly Hills, CA", "val": 5000, "lost": 4, "icon": "💎"},
-  {"id": 25, "batch": 3, "name": "Vanguard Wealth & Accounting", "niche": "Family Office & CPA", "city": "New York, NY", "val": 2800, "lost": 5, "icon": "🏦"},
-  {"id": 26, "batch": 3, "name": "Redwood Corporate Counsel", "niche": "Corporate & M&A", "city": "Austin, TX", "val": 3500, "lost": 5, "icon": "📑"},
-  {"id": 27, "batch": 3, "name": "Pinnacle Commercial RE", "niche": "Commercial Brokerage", "city": "Dallas, TX", "val": 4500, "lost": 4, "icon": "🏢"},
-  {"id": 28, "batch": 3, "name": "Harborview Estate Planning", "niche": "Trusts & Estates", "city": "Seattle, WA", "val": 2200, "lost": 7, "icon": "📜"},
-  {"id": 29, "batch": 3, "name": "Apex Audit & Valuation", "niche": "Audit & Valuation", "city": "Atlanta, GA", "val": 3200, "lost": 5, "icon": "💼"},
-  {"id": 30, "batch": 3, "name": "Metro Injury Defense Group", "niche": "Insurance Litigation", "city": "Miami, FL", "val": 4000, "lost": 4, "icon": "🛡️"}
-]
-
 try:
-    from expand_crm_pipeline import NEW_LEADS
-    for nl in NEW_LEADS:
-        if not any(l["id"] == nl["id"] for l in LEADS):
-            LEADS.append(nl)
+    from leads_data import ALL_LEADS
+    LEADS = ALL_LEADS
+except ImportError:
+    from scripts.leads_data import ALL_LEADS
+    LEADS = ALL_LEADS
 except Exception:
     pass
 
@@ -847,7 +815,7 @@ def generate_portal_index():
       </div>
       <h1>Executive Client VIP Command Hub</h1>
       <p class="hero-sub">
-        Dedicated client management portals providing real-time AI copilot performance metrics, 99.98% SLA infrastructure health, 5-day white-glove onboarding progress, 1-click script embeds, and certified deliverables vaults across all 30 enterprise client accounts.
+        Dedicated client management portals providing real-time AI copilot performance metrics, 99.98% SLA infrastructure health, 5-day white-glove onboarding progress, 1-click script embeds, and certified deliverables vaults across all 60 enterprise client accounts.
       </p>
 
       <div class="stats-bar">
@@ -891,7 +859,7 @@ def generate_portal_index():
       </div>
     </section>
 
-    <!-- 30 Cards Grid -->
+    <!-- 60 Cards Grid -->
     <section class="portal-grid" id="portalGrid">
       {full_cards}
     </section>
@@ -956,12 +924,18 @@ def generate_portal_index():
 
     index_html = index_html.replace("{{", "{").replace("}}", "}")
     index_file.write_text(index_html, encoding="utf-8")
+
+    portal_dir = ROOT_DIR / "portal"
+    if portal_dir.exists():
+        portal_index = portal_dir / "index.html"
+        portal_index.write_text(index_html, encoding="utf-8")
+
     return index_file
 
 def generate_all_portals():
     PORTALS_DIR.mkdir(parents=True, exist_ok=True)
     print("=" * 75)
-    print("🚀 GENERATING 30 BRANDED VIP CLIENT COMMAND PORTALS + UNIVERSAL HUB")
+    print("🚀 GENERATING 60 BRANDED VIP CLIENT COMMAND PORTALS + UNIVERSAL HUB")
     print("=" * 75)
 
     for l in LEADS:
@@ -972,7 +946,7 @@ def generate_all_portals():
     print(f"  [✓] Generated Universal VIP Portal Hub: {idx.name}")
 
     print("-" * 75)
-    print(f"🎉 SUCCESS: All 30 VIP client portals + Universal Hub generated in: {PORTALS_DIR}")
+    print(f"🎉 SUCCESS: All 60 VIP client portals + Universal Hub generated in: {PORTALS_DIR}")
     print("=" * 75)
 
 if __name__ == "__main__":
