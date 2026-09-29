@@ -704,6 +704,6 @@
     - `📑 Contract` — Xem/Ký hợp đồng dịch vụ MSA trực tuyến
     - `💳 Invoice` — Xem/Gửi hóa đơn thanh toán $1,850
     - `🚀 Intake` — Mở/Copy link tiếp nhận thông tin khách hàng đã điền sẵn tên
-  - Đồng bộ kịch bản [`scripts/update_dashboard_multitouch.py`](file:///d:/Project/work/scripts/update_dashboard_multitouch.py).
-
-
+- ✅ **Đồng Bộ Hóa Canonical Tên Miền Cho AI Resource Hub ([vercel.json](file:///d:/Project/work/vercel.json))**:
+  - Định tuyến lại `/blog`, `/hub` và `/guides/:file` về trực tiếp thư mục `projects/affiliate_blog/website/index.html` trên tên miền canonical vĩnh viễn `https://work-minh-lap.vercel.app/blog`.
+  - Cập nhật [`scripts/system_health_check.py`](file:///d:/Project/work/scripts/system_health_check.py) đạt chuẩn 7/7 ứng dụng Live với kết quả 100% Pass (HTTP 200).
