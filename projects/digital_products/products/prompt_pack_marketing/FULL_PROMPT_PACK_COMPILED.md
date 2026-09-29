@@ -1,10 +1,10 @@
-﻿# ðŸš€ AI MARKETING MEGA PROMPT PACK
+# 🚀 AI MARKETING MEGA PROMPT PACK
 ## 100+ Ready-to-Use Prompts for ChatGPT & Claude
 ### For Marketing Professionals, Agencies & Business Owners
 
 ---
 
-## ðŸ“‹ TABLE OF CONTENTS
+## 📋 TABLE OF CONTENTS
 
 1. [Social Media Content](#social-media-content) (25 prompts)
 2. [Email Marketing](#email-marketing) (20 prompts)
@@ -141,7 +141,7 @@ SEO-optimize for LinkedIn search: include keywords [LIST KEYWORDS]
 ```
 Write a 10-tweet thread about [TOPIC] designed to go viral.
 
-Tweet 1 (Hook): Bold claim or surprising statistic that makes people stop scrolling. End with "ðŸ§µ" and "A thread:"
+Tweet 1 (Hook): Bold claim or surprising statistic that makes people stop scrolling. End with "🧵" and "A thread:"
 Tweets 2-9: One insight per tweet, each under 280 characters. Use numbers, bullets, or single-line punches.
 Tweet 10: Summary + CTA (Follow me for more, retweet if useful)
 
@@ -198,7 +198,7 @@ Max 160 characters. Provide 5 variations.
 Write a 5-email welcome sequence for new subscribers to a [BUSINESS TYPE] email list.
 
 Subscriber joined because: [LEAD MAGNET/REASON]
-Goal of sequence: [BUILD TRUST â†’ FIRST SALE]
+Goal of sequence: [BUILD TRUST → FIRST SALE]
 Product/Service to sell: [DESCRIBE]
 Price point: $[X]
 
@@ -311,175 +311,24 @@ For each variation include:
 
 ---
 
-## ðŸ’¡ HOW TO USE THIS PROMPT PACK
+## 💡 HOW TO USE THIS PROMPT PACK
 
 1. **Replace brackets**: Fill in [BRACKETS] with your specific information
 2. **Iterate**: Use the initial output as a starting point, then ask for refinements
 3. **Combine**: Mix prompts for comprehensive campaigns
 4. **Customize**: Adjust tone, length, and format to match your brand
 
-## ðŸ“ž SUPPORT
+## 📞 SUPPORT
 Questions? Email: [YOUR_EMAIL]
 Updates: Follow for new prompt additions monthly
 
 ---
-*Â© 2026 AI Marketing Toolkit. All rights reserved.*
+*© 2026 AI Marketing Toolkit. All rights reserved.*
 *Created with expertise in AI-assisted marketing. Human-curated, AI-enhanced.*
 
-
 ---
 
-# ðŸ›ï¸ GUMROAD PRODUCT #1: AI MARKETING PROMPT PACK
-## HÆ°á»›ng dáº«n setup trÃªn Gumroad
-
----
-
-## ðŸ“‹ THÃ”NG TIN Sáº¢N PHáº¨M
-
-### Product Name:
-`AI Marketing Mega Prompt Pack â€” 100+ Ready-to-Use Prompts`
-
-### Price: 
-`$29` (hoáº·c "Pay What You Want" minimum $19)
-
-### Product Type:
-Digital Product (PDF download)
-
-### Description (cho Gumroad listing):
-```
-ðŸš€ Stop writing mediocre AI prompts. Start getting RESULTS.
-
-This carefully crafted prompt pack contains 100+ battle-tested prompts 
-designed specifically for marketing professionals, agencies, and 
-business owners.
-
-Unlike generic "prompt lists" you find online, each prompt in this 
-pack is engineered for a SPECIFIC marketing outcome â€” with 
-customizable variables so you can tailor every response to 
-your brand, audience, and goals.
-
-ðŸ“¦ WHAT'S INSIDE:
-
-âœ… 25 Social Media Prompts
-   â†’ Instagram carousels, Reels scripts, bio optimizers
-   â†’ LinkedIn thought leadership posts
-   â†’ Twitter/X viral threads
-   â†’ TikTok scripts
-
-âœ… 20 Email Marketing Prompts
-   â†’ Welcome sequences
-   â†’ Sales emails
-   â†’ Newsletter templates
-   â†’ Re-engagement campaigns
-
-âœ… 15 SEO & Blog Content Prompts
-   â†’ SEO-optimized articles
-   â†’ Content briefs
-   â†’ Meta descriptions
-   â†’ Internal linking strategies
-
-âœ… 15 Ad Copy Prompts
-   â†’ Facebook ads
-   â†’ Google ads
-   â†’ Instagram story ads
-   â†’ Retargeting ads
-
-âœ… 15 Sales Copy Prompts
-   â†’ Landing pages
-   â†’ Product descriptions
-   â†’ Sales pages
-   â†’ Webinar scripts
-
-âœ… 10 Brand Strategy Prompts
-   â†’ Brand voice guide
-   â†’ Competitor analysis
-   â†’ Market positioning
-   â†’ Customer persona builder
-
-âœ… 10 Analytics & Research Prompts
-   â†’ Market research
-   â†’ Customer feedback analysis
-   â†’ Trend spotting
-   â†’ Performance reporting
-
-ðŸŽ¯ WHO THIS IS FOR:
-â†’ Marketing professionals who use ChatGPT/Claude daily
-â†’ Agency owners managing multiple clients
-â†’ Business owners doing their own marketing
-â†’ Freelancers looking to 10x their output
-
-âš¡ WORKS WITH: ChatGPT (3.5, 4, 4o), Claude (Sonnet, Opus), 
-Gemini, and any other LLM.
-
-ðŸ’° FREE UPDATES: Buy once, get all future prompt additions for free.
-
-30-DAY MONEY-BACK GUARANTEE: If these prompts don't save you 
-at least 10 hours in your first month, I'll refund you. No questions asked.
-```
-
-### Cover Image Ideas:
-- Dark gradient background (purple â†’ blue)
-- Large text: "100+ AI MARKETING PROMPTS"
-- Subtitle: "Copy. Paste. Get Results."
-- Icons: Social media, email, blog, ads
-- Professional, modern SaaS aesthetic
-
-### Tags:
-```
-AI prompts, ChatGPT prompts, marketing prompts, social media, 
-email marketing, SEO, copywriting, content marketing, AI tools
-```
-
-### Free Sample (Lead Magnet):
-Táº¡o version miá»…n phÃ­ gá»“m 10 prompts hay nháº¥t Ä‘á»ƒ thu email:
-- 3 Social Media prompts
-- 3 Email Marketing prompts
-- 2 SEO prompts
-- 2 Ad Copy prompts
-
----
-
-## ðŸ”§ SETUP STEPS (trÃªn Gumroad)
-
-1. **VÃ o Gumroad Dashboard** â†’ Products â†’ New Product
-2. **Chá»n loáº¡i**: Digital Product
-3. **Upload file**: PDF version cá»§a prompt pack
-4. **Äiá»n thÃ´ng tin**:
-   - Name: AI Marketing Mega Prompt Pack
-   - Price: $29 (hoáº·c Pay What You Want min $19)
-   - Description: Copy tá»« trÃªn
-   - Cover image: Upload áº£nh cover
-5. **Settings**:
-   - TÃ­ch "Allow discounts"
-   - TÃ­ch "Offer as Pay What You Want"
-   - Set minimum price: $19
-   - Suggested price: $29
-6. **Publish** â†’ Share link
-
----
-
-## ðŸ“ˆ MARKETING PLAN cho sáº£n pháº©m nÃ y
-
-### Week 1: Launch
-- [ ] ÄÄƒng lÃªn Reddit r/ChatGPT (dáº¡ng "I made this, free sample inside")
-- [ ] ÄÄƒng lÃªn Reddit r/marketing
-- [ ] Táº¡o Twitter thread: "100 prompts that changed my marketing game"
-- [ ] Share trÃªn LinkedIn
-
-### Week 2: Growth
-- [ ] Táº¡o free sample â†’ collect emails
-- [ ] Email subscribers about full pack
-- [ ] Cross-promote trÃªn YouTube (náº¿u cÃ³)
-
-### Week 3+: Iterate
-- [ ] Thu tháº­p reviews
-- [ ] Táº¡o version 2.0 dá»±a trÃªn feedback
-- [ ] Bundle vá»›i products khÃ¡c
-
-
----
-
-# ðŸ“§ AI EMAIL MARKETING PROMPT PACK â€” Section 2 (Full)
+# 📧 AI EMAIL MARKETING PROMPT PACK — Section 2 (Full)
 ## 20 Ready-to-Use Email Marketing Prompts
 
 ---
@@ -490,7 +339,7 @@ Act as an email marketing expert. Create a 5-email welcome
 sequence for new subscribers to a [BUSINESS TYPE] email list.
 
 Subscriber joined because they downloaded: [LEAD MAGNET]
-Goal: Build trust â†’ First sale of [PRODUCT/SERVICE] at $[PRICE]
+Goal: Build trust → First sale of [PRODUCT/SERVICE] at $[PRICE]
 
 For each email provide:
 - Subject line (+ 2 A/B test alternatives)
@@ -563,12 +412,12 @@ Audience: [DESCRIBE READERS]
 Date: [THIS WEEK]
 
 Structure:
-1. ðŸ”¥ Top Story (150 words) â€” most important industry news
-2. ðŸ’¡ Quick Tips (3 bullet points) â€” actionable advice
-3. ðŸ› ï¸ Tool of the Week â€” recommend one useful tool
-4. ðŸ“Š Stat of the Week â€” surprising data point
-5. ðŸŽ¯ Action Item â€” one thing readers should do this week
-6. ðŸ“š Worth Reading â€” 2-3 curated links with commentary
+1. 🔥 Top Story (150 words) — most important industry news
+2. 💡 Quick Tips (3 bullet points) — actionable advice
+3. 🛠️ Tool of the Week — recommend one useful tool
+4. 📊 Stat of the Week — surprising data point
+5. 🎯 Action Item — one thing readers should do this week
+6. 📚 Worth Reading — 2-3 curated links with commentary
 
 Tone: [Casual expert / Formal authority]
 Total length: 600-800 words
@@ -729,7 +578,7 @@ Requirements:
 - NO "I hope this finds you well"
 - Start with THEIR problem, not your pitch
 - One specific, relevant insight about their business
-- Soft CTA (not "buy now" â€” "would it make sense to chat?")
+- Soft CTA (not "buy now" — "would it make sense to chat?")
 - Include a P.S. with one more proof point
 
 Write 3 variations:
@@ -739,20 +588,19 @@ Write 3 variations:
 ```
 
 ## PROMPTS 36-45: Additional Email Templates
-_(Available in full version â€” includes: Webinar invitation, 
+_(Available in full version — includes: Webinar invitation, 
 Survey/feedback request, Partnership outreach, Monthly digest, 
 Event follow-up, Milestone celebration, Feature update announcement, 
 Win-back discount, VIP customer exclusive, Year in review)_
 
 ---
 
-*Part of the AI Marketing Mega Prompt Pack â€” 100+ prompts across 
+*Part of the AI Marketing Mega Prompt Pack — 100+ prompts across 
 7 marketing categories. Get the full pack at [Gumroad link]*
-
 
 ---
 
-# ðŸ” AI SEO & BLOG CONTENT PROMPT PACK â€” Section 3 (Full)
+# 🔍 AI SEO & BLOG CONTENT PROMPT PACK — Section 3 (Full)
 ## 15 Ready-to-Use SEO & Content Prompts
 
 ---
@@ -988,19 +836,18 @@ Provide:
 ```
 
 ## PROMPTS 56-60: Additional SEO Templates
-_(Available in full version â€” includes: Meta description batch 
+_(Available in full version — includes: Meta description batch 
 generator, Title tag A/B testing variants, Content calendar 
 with SEO priorities, Technical SEO audit checklist prompt, 
 Local SEO content optimizer)_
 
 ---
 
-*Part of the AI Marketing Mega Prompt Pack â€” 100+ prompts*
-
+*Part of the AI Marketing Mega Prompt Pack — 100+ prompts*
 
 ---
 
-# ðŸ“¢ AI AD COPY & SALES PROMPT PACK â€” Sections 4 & 5 (Full)
+# 📢 AI AD COPY & SALES PROMPT PACK — Sections 4 & 5 (Full)
 ## 30 Ready-to-Use Ad Copy & Sales Prompts
 
 ---
@@ -1017,18 +864,18 @@ Offer: [DISCOUNT / FREE TRIAL / LEAD MAGNET]
 
 Create 3 ad copy variations:
 
-VARIATION 1 â€” Short (Feed, under 125 chars):
+VARIATION 1 — Short (Feed, under 125 chars):
 - Primary text (1-2 sentences)
 - Headline (max 40 chars)
 - Description (max 30 chars)
 - CTA button recommendation
 
-VARIATION 2 â€” Medium (Story-based, 3-4 sentences):
+VARIATION 2 — Medium (Story-based, 3-4 sentences):
 - Primary text with mini story/hook
 - Headline
 - CTA
 
-VARIATION 3 â€” Long (Problem-Solution, 5+ sentences):
+VARIATION 3 — Long (Problem-Solution, 5+ sentences):
 - Primary text using PAS framework
 - Multiple proof points
 - Headline
@@ -1247,10 +1094,10 @@ Unique selling point: [WHAT MAKES IT DIFFERENT]
 
 Provide:
 1. SEO-optimized title (include keywords)
-2. Short description (50 words â€” for search results)
+2. Short description (50 words — for search results)
 3. Full description (200-300 words):
    - Emotional opening (paint the benefit)
-   - Feature-benefit bullets (feature â†’ why it matters)
+   - Feature-benefit bullets (feature → why it matters)
    - Social proof element
    - Size/spec details
    - Care instructions (if applicable)
@@ -1321,18 +1168,17 @@ Highlight the middle tier as recommended.
 _(Upsell/cross-sell email, Affiliate product review template,
 Sales page long-form, Proposal/pitch deck outline,
 Objection-handling FAQ, Testimonial request template,
-Comparison landing page, Free trial â†’ paid conversion sequence,
+Comparison landing page, Free trial → paid conversion sequence,
 Partnership proposal, Consulting services page)_
 
 ---
 
-*Part of the AI Marketing Mega Prompt Pack â€” 100+ prompts 
+*Part of the AI Marketing Mega Prompt Pack — 100+ prompts 
 across 7 marketing categories.*
-
 
 ---
 
-# ðŸŽ¨ AI BRAND STRATEGY & ANALYTICS PROMPTS â€” Sections 6 & 7 (Final)
+# 🎨 AI BRAND STRATEGY & ANALYTICS PROMPTS — Sections 6 & 7 (Final)
 ## 20 Ready-to-Use Brand & Analytics Prompts
 
 ---
@@ -1521,7 +1367,7 @@ Platform: [PLATFORM]
 Time period: [DATE RANGE]
 
 Metrics:
-- Followers: [START] â†’ [END]
+- Followers: [START] → [END]
 - Posts published: [X]
 - Total impressions: [X]
 - Engagement rate: [X%]
@@ -1599,28 +1445,23 @@ post-mortem template, Annual marketing review generator)_
 
 ---
 
-## ðŸ“Š PROMPT PACK FINAL SUMMARY
+## 📊 PROMPT PACK FINAL SUMMARY
 
 ### Complete Pack Contents:
 | Section | # Prompts | Status |
 |---------|-----------|--------|
-| 1. Social Media | 25 | âœ… Complete |
-| 2. Email Marketing | 20 | âœ… Complete |
-| 3. SEO & Blog | 15 | âœ… Complete |
-| 4. Ad Copy | 15 | âœ… Complete |
-| 5. Sales Copy | 15 | âœ… Complete |
-| 6. Brand Strategy | 10 | âœ… Complete |
-| 7. Analytics | 10 | âœ… Complete |
-| **TOTAL** | **110** | **âœ… ALL COMPLETE** |
+| 1. Social Media | 25 | ✅ Complete |
+| 2. Email Marketing | 20 | ✅ Complete |
+| 3. SEO & Blog | 15 | ✅ Complete |
+| 4. Ad Copy | 15 | ✅ Complete |
+| 5. Sales Copy | 15 | ✅ Complete |
+| 6. Brand Strategy | 10 | ✅ Complete |
+| 7. Analytics | 10 | ✅ Complete |
+| **TOTAL** | **110** | **✅ ALL COMPLETE** |
 
 ### Ready to sell at $29 on Gumroad!
 
 ---
 
-*AI Marketing Mega Prompt Pack â€” 110+ prompts across 
-7 marketing categories. Â© 2026*
-
-
----
-
-
+*AI Marketing Mega Prompt Pack — 110+ prompts across 
+7 marketing categories. © 2026*
