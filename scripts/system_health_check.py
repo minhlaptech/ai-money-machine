@@ -51,7 +51,7 @@ LIVE_URLS = [
     ("HeadlineIQ (Viral Headline Scorer)", "https://headlineiq-eta.vercel.app"),
     ("AI Resource Hub (Blog & Lead Capture)", "https://ai-automation-guide-omega.vercel.app"),
     ("Chatbot Portfolio Demo", "https://chatbotdemo-hazel.vercel.app"),
-    ("Executive Command Center (Monorepo Root)", "https://work-eight-ashy.vercel.app"),
+    ("Executive Command Center (Monorepo Root)", "https://work-minh-lap.vercel.app"),
 ]
 
 def check_url(name, url):
