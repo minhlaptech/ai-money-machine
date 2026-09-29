@@ -11,6 +11,9 @@
     { "source": "/pitches", "destination": "/pitches/index.html" },
     { "source": "/blog", "destination": "/projects/affiliate_blog/website/index.html" },
     { "source": "/hub", "destination": "/projects/affiliate_blog/website/index.html" },
-    { "source": "/guides/:file", "destination": "/projects/affiliate_blog/website/:file" }
+    { "source": "/guides/:file", "destination": "/projects/affiliate_blog/website/:file" },
+    { "source": "/portal", "destination": "/portals/index.html" },
+    { "source": "/portals", "destination": "/portals/index.html" },
+    { "source": "/portal/:slug", "destination": "/portals/:slug.html" }
   ]
 }

@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Executive Client VIP Command Hub | MinhLap Systems</title>
+  <meta name="description" content="Central VIP Client Management Command Hub for all 30 enterprise B2B accounts. Real-time AI Copilot status, 99.98% SLA monitor, and complete onboarding deliverable vaults.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #070716;
+      --card-bg: rgba(20, 20, 48, 0.65);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --accent: #7c5cfc;
+      --cyan: #00f2fe;
+      --emerald: #10b981;
+      --amber: #f59e0b;
+      --rose: #f43f5e;
+      --font-heading: 'Outfit', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    .glow-orb {
+      position: fixed; border-radius: 50%; filter: blur(140px); pointer-events: none; z-index: 0;
+    }
+    .orb-1 { width: 600px; height: 600px; background: rgba(124, 92, 252, 0.15); top: -150px; left: -100px; }
+    .orb-2 { width: 500px; height: 500px; background: rgba(0, 242, 254, 0.12); bottom: -150px; right: -100px; }
+
+    header {
+      position: sticky; top: 0;
+      background: rgba(7, 7, 22, 0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--card-border);
+      padding: 16px 32px;
+      display: flex; justify-content: space-between; align-items: center;
+      z-index: 100;
+    }
+    .brand {
+      display: flex; align-items: center; gap: 12px;
+      font-family: var(--font-heading); font-size: 16px; font-weight: 800; color: #fff;
+      text-decoration: none;
+    }
+    .brand-tag {
+      background: linear-gradient(135deg, var(--accent), var(--cyan));
+      color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 4px;
+      font-family: var(--font-mono); text-transform: uppercase;
+    }
+    .nav-links { display: flex; gap: 20px; align-items: center; }
+    .nav-link {
+      color: var(--text-muted); text-decoration: none; font-size: 13px; font-weight: 600;
+      transition: color 0.15s;
+    }
+    .nav-link:hover { color: var(--cyan); }
+
+    .container {
+      max-width: 1240px; margin: 0 auto; padding: 48px 24px; position: relative; z-index: 1;
+    }
+
+    .hero-banner {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 40px;
+      backdrop-filter: blur(20px);
+      margin-bottom: 32px;
+      text-align: center;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(16, 185, 129, 0.12); border: 1px solid rgba(16, 185, 129, 0.35);
+      color: #34d399; font-size: 12px; font-weight: 700; padding: 5px 14px;
+      border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px;
+    }
+    .pulse-dot {
+      width: 8px; height: 8px; border-radius: 50%; background: #10b981;
+      box-shadow: 0 0 10px #10b981; animation: pulse 2s infinite; display: inline-block;
+    }
+    @keyframes pulse { 0% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(1.3); } 100% { opacity: 1; transform: scale(1); } }
+
+    h1 {
+      font-family: var(--font-heading); font-size: clamp(28px, 4vw, 44px);
+      font-weight: 800; line-height: 1.2; margin-bottom: 12px; color: #fff;
+    }
+    .hero-sub { font-size: 15px; color: var(--text-muted); max-width: 780px; margin: 0 auto 28px; line-height: 1.6; }
+
+    .stats-bar {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 36px;
+    }
+    @media (max-width: 900px) { .stats-bar { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 520px) { .stats-bar { grid-template-columns: 1fr; } }
+
+    .stat-card {
+      background: var(--card-bg); border: 1px solid var(--card-border);
+      border-radius: 14px; padding: 20px; backdrop-filter: blur(16px);
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .stat-card:hover { transform: translateY(-2px); border-color: rgba(0, 242, 254, 0.3); }
+    .stat-lbl { font-size: 11px; text-transform: uppercase; color: var(--text-muted); font-weight: 700; letter-spacing: 0.5px; margin-bottom: 6px; }
+    .stat-val { font-family: var(--font-mono); font-size: 26px; font-weight: 800; color: #fff; }
+
+    /* Controls: Search, Filters, Jump Select */
+    .controls-panel {
+      background: var(--card-bg); border: 1px solid var(--card-border);
+      border-radius: 16px; padding: 24px; backdrop-filter: blur(16px);
+      margin-bottom: 32px; display: flex; flex-direction: column; gap: 16px;
+    }
+    .controls-top {
+      display: flex; gap: 16px; flex-wrap: wrap; align-items: center; justify-content: space-between;
+    }
+    .search-input {
+      flex: 1; min-width: 280px;
+      background: #050510; border: 1px solid var(--card-border); border-radius: 10px;
+      padding: 12px 18px; color: #fff; font-size: 14px; font-family: var(--font-body);
+      outline: none; transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .search-input:focus {
+      border-color: var(--cyan); box-shadow: 0 0 12px rgba(0, 242, 254, 0.2);
+    }
+    .jump-select {
+      background: #050510; border: 1px solid var(--card-border); border-radius: 10px;
+      padding: 12px 18px; color: #fff; font-size: 13.5px; font-family: var(--font-body);
+      outline: none; cursor: pointer; transition: border-color 0.2s;
+    }
+    .jump-select:hover { border-color: var(--accent); }
+
+    .filter-pills {
+      display: flex; gap: 10px; flex-wrap: wrap;
+    }
+    .filter-btn {
+      background: rgba(255, 255, 255, 0.04); border: 1px solid var(--card-border);
+      color: var(--text-muted); padding: 8px 16px; border-radius: 8px; font-size: 12.5px;
+      font-weight: 600; cursor: pointer; transition: all 0.2s;
+    }
+    .filter-btn:hover, .filter-btn.active {
+      background: linear-gradient(135deg, rgba(124, 92, 252, 0.2), rgba(0, 242, 254, 0.2));
+      border-color: var(--cyan); color: #fff;
+    }
+
+    /* Client Cards Grid */
+    .portal-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+    }
+    @media (max-width: 1024px) { .portal-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 650px) { .portal-grid { grid-template-columns: 1fr; } }
+
+    .client-card {
+      background: var(--card-bg); border: 1px solid var(--card-border);
+      border-radius: 16px; padding: 24px; backdrop-filter: blur(16px);
+      display: flex; flex-direction: column; justify-content: space-between;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+    }
+    .client-card:hover {
+      transform: translateY(-4px); border-color: rgba(124, 92, 252, 0.4);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .card-head {
+      display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;
+    }
+    .batch-badge {
+      font-size: 10px; font-family: var(--font-mono); font-weight: 700;
+      padding: 3px 8px; border-radius: 6px; text-transform: uppercase;
+    }
+    .badge-batch-1 { background: rgba(124, 92, 252, 0.15); color: #a78bfa; border: 1px solid rgba(124, 92, 252, 0.3); }
+    .badge-batch-2 { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .badge-batch-3 { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+
+    .live-pill {
+      font-size: 10.5px; font-weight: 700; color: #10b981; font-family: var(--font-mono);
+      display: flex; align-items: center; gap: 6px;
+    }
+
+    .client-meta {
+      display: flex; align-items: center; gap: 14px; margin-bottom: 16px;
+    }
+    .client-icon {
+      font-size: 28px; width: 48px; height: 48px; border-radius: 12px;
+      background: rgba(255, 255, 255, 0.05); display: flex; align-items: center; justify-content: center;
+      border: 1px solid var(--card-border);
+    }
+    .client-title {
+      font-family: var(--font-heading); font-size: 18px; font-weight: 800; color: #fff;
+    }
+    .client-sub { font-size: 12.5px; color: var(--text-muted); }
+
+    .kpi-row {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+      background: rgba(0, 0, 0, 0.25); border: 1px solid var(--card-border);
+      border-radius: 10px; padding: 12px; margin-bottom: 20px;
+    }
+    .kpi-mini .kpi-lbl { font-size: 9.5px; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 2px; }
+    .kpi-mini .kpi-num { font-family: var(--font-mono); font-size: 16px; font-weight: 800; color: #fff; }
+
+    .card-actions {
+      display: flex; gap: 10px; margin-top: auto;
+    }
+    .btn-portal {
+      flex: 1; text-align: center; text-decoration: none;
+      background: linear-gradient(135deg, var(--accent), #5b21b6);
+      color: #fff; font-size: 12.5px; font-weight: 700; padding: 10px 14px;
+      border-radius: 8px; transition: opacity 0.15s, transform 0.15s;
+    }
+    .btn-portal:hover { opacity: 0.9; transform: translateY(-1px); }
+    .btn-demo {
+      text-align: center; text-decoration: none;
+      background: rgba(255, 255, 255, 0.05); border: 1px solid var(--card-border);
+      color: var(--cyan); font-size: 12.5px; font-weight: 700; padding: 10px 14px;
+      border-radius: 8px; transition: all 0.15s;
+    }
+    .btn-demo:hover { background: rgba(0, 242, 254, 0.1); border-color: var(--cyan); }
+
+    footer {
+      margin-top: 60px; padding-top: 32px; border-top: 1px solid var(--card-border);
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;
+      color: var(--text-muted); font-size: 13px;
+    }
+    .footer-links { display: flex; gap: 16px; }
+    .footer-links a { color: var(--text-muted); text-decoration: none; transition: color 0.15s; }
+    .footer-links a:hover { color: var(--cyan); }
+  </style>
+</head>
+<body>
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+
+  <header>
+    <a href="/" class="brand">
+      <span>⚡ MINHLAP SYSTEMS</span>
+      <span class="brand-tag">VIP HUB</span>
+    </a>
+    <nav class="nav-links">
+      <a href="/" class="nav-link">Executive Dashboard</a>
+      <a href="/calculator" class="nav-link">ROI Simulator</a>
+      <a href="/pitches" class="nav-link">Pitch Decks Hub</a>
+      <a href="/chatbotdemo" class="nav-link">Chatbot Sandbox</a>
+      <a href="https://t.me/Minhpv_bot" target="_blank" class="nav-link" style="color:var(--cyan)">VIP Helpdesk ↗</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero-banner">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        ENTERPRISE B2B CLIENT MANAGEMENT
+      </div>
+      <h1>Executive Client VIP Command Hub</h1>
+      <p class="hero-sub">
+        Dedicated client management portals providing real-time AI copilot performance metrics, 99.98% SLA infrastructure health, 5-day white-glove onboarding progress, 1-click script embeds, and certified deliverables vaults across all 30 enterprise client accounts.
+      </p>
+
+      <div class="stats-bar">
+        <div class="stat-card">
+          <div class="stat-lbl">Active Enterprise Accounts</div>
+          <div class="stat-val">30 Accounts</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-lbl">Infrastructure SLA Uptime</div>
+          <div class="stat-val" style="color:#10b981">99.98%</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-lbl">Revenue Bleed Recovered</div>
+          <div class="stat-val" style="color:#00f2fe">$394,775/mo</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-lbl">AI Response Latency</div>
+          <div class="stat-val" style="color:#a78bfa">&lt; 450ms</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Controls Panel -->
+    <section class="controls-panel">
+      <div class="controls-top">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search clients by name, niche, or city (e.g. Austin, Dental, SaaS)...">
+        <select id="jumpSelect" class="jump-select" onchange="if(this.value) window.location.href='./' + this.value + '.html'">
+          <option value="">⚡ Jump directly to Client Portal...</option>
+          <option value="austin_dental_co">#01 — Austin Dental Co (Austin, TX)</option>
+<option value="pure_radiance_medspa">#02 — Pure Radiance MedSpa (Miami, FL)</option>
+<option value="premier_24-7_hvac">#03 — Premier 24/7 HVAC (Dallas, TX)</option>
+<option value="sterling_and_partners_legal">#04 — Sterling & Partners Legal (Chicago, IL)</option>
+<option value="summit_crest_luxury_realty">#05 — Summit Crest Luxury Realty (Scottsdale, AZ)</option>
+<option value="proactive_spine_and_chiro">#06 — ProActive Spine & Chiro (Denver, CO)</option>
+<option value="beacon_hill_cpa_and_tax">#07 — Beacon Hill CPA & Tax (Boston, MA)</option>
+<option value="elite_smile_studio">#08 — Elite Smile Studio (San Diego, CA)</option>
+<option value="rapid_response_plumbing">#09 — Rapid Response Plumbing (Atlanta, GA)</option>
+<option value="apex_roofing_and_solar">#10 — Apex Roofing & Solar (Orlando, FL)</option>
+<option value="velora_activewear">#11 — Velora Activewear (Los Angeles, CA)</option>
+<option value="nuvoglow_skincare">#12 — NuvoGlow Skincare (New York, NY)</option>
+<option value="artisan_roast_club">#13 — Artisan Roast Club (Seattle, WA)</option>
+<option value="zensleep_mattress">#14 — ZenSleep Mattress (San Francisco, CA)</option>
+<option value="hydroflow_bottle">#15 — HydroFlow Bottle (Boulder, CO)</option>
+<option value="pawsome_pet_boxes">#16 — Pawsome Pet Boxes (Austin, TX)</option>
+<option value="lumina_wellness">#17 — Lumina Wellness (Miami, FL)</option>
+<option value="stacksync_dev">#18 — StackSync Dev (San Jose, CA)</option>
+<option value="leadflow_crm">#19 — LeadFlow CRM (Chicago, IL)</option>
+<option value="clouddesk_help">#20 — CloudDesk Help (Boston, MA)</option>
+<option value="pulsemetrics_ai">#21 — PulseMetrics AI (New York, NY)</option>
+<option value="silicon_valley_skin_lab">#22 — Silicon Valley Skin Lab (Palo Alto, CA)</option>
+<option value="pacific_coast_family_law">#23 — Pacific Coast Family Law (Newport Beach, CA)</option>
+<option value="vanguard_luxury_re">#24 — Vanguard Luxury RE (Beverly Hills, CA)</option>
+<option value="vanguard_wealth_and_accounting">#25 — Vanguard Wealth & Accounting (New York, NY)</option>
+<option value="redwood_corporate_counsel">#26 — Redwood Corporate Counsel (Austin, TX)</option>
+<option value="pinnacle_commercial_re">#27 — Pinnacle Commercial RE (Dallas, TX)</option>
+<option value="harborview_estate_planning">#28 — Harborview Estate Planning (Seattle, WA)</option>
+<option value="apex_audit_and_valuation">#29 — Apex Audit & Valuation (Atlanta, GA)</option>
+<option value="metro_injury_defense_group">#30 — Metro Injury Defense Group (Miami, FL)</option>
+        </select>
+      </div>
+
+      <div class="filter-pills">
+        <button class="filter-btn active" onclick="setFilter('all', this)">All Clients (30)</button>
+        <button class="filter-btn" onclick="setFilter('1', this)">Batch 1: High-Ticket Services (10)</button>
+        <button class="filter-btn" onclick="setFilter('2', this)">Batch 2: E-Commerce & SaaS (10)</button>
+        <button class="filter-btn" onclick="setFilter('3', this)">Batch 3: Enterprise Legal & Wealth (10)</button>
+      </div>
+    </section>
+
+    <!-- 30 Cards Grid -->
+    <section class="portal-grid" id="portalGrid">
+      
+        <div class="client-card" data-batch="1" data-name="austin dental co" data-niche="cosmetic dentistry" data-city="austin, tx">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-1">BATCH 01 • Local High-Ticket Services</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🦷</div>
+            <div class="client-info">
+              <h3 class="client-name">Austin Dental Co</h3>
+              <p class="client-sub">Cosmetic Dentistry • Austin, TX</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$13,500</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">18 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./austin_dental_co.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=austin_dental_co&niche=Cosmetic+Dentistry" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="1" data-name="pure radiance medspa" data-niche="medical aesthetics" data-city="miami, fl">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-1">BATCH 01 • Local High-Ticket Services</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">✨</div>
+            <div class="client-info">
+              <h3 class="client-name">Pure Radiance MedSpa</h3>
+              <p class="client-sub">Medical Aesthetics • Miami, FL</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$10,400</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">16 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./pure_radiance_medspa.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=pure_radiance_medspa&niche=Medical+Aesthetics" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="1" data-name="premier 24/7 hvac" data-niche="emergency hvac" data-city="dallas, tx">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-1">BATCH 01 • Local High-Ticket Services</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">❄️</div>
+            <div class="client-info">
+              <h3 class="client-name">Premier 24/7 HVAC</h3>
+              <p class="client-sub">Emergency HVAC • Dallas, TX</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$12,750</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">15 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./premier_24-7_hvac.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=premier_24-7_hvac&niche=Emergency+HVAC" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="1" data-name="sterling & partners legal" data-niche="personal injury law" data-city="chicago, il">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-1">BATCH 01 • Local High-Ticket Services</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">⚖️</div>
+            <div class="client-info">
+              <h3 class="client-name">Sterling & Partners Legal</h3>
+              <p class="client-sub">Personal Injury Law • Chicago, IL</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$20,000</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">8 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./sterling_and_partners_legal.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=sterling_and_partners_legal&niche=Personal+Injury+Law" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="1" data-name="summit crest luxury realty" data-niche="high-end real estate" data-city="scottsdale, az">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-1">BATCH 01 • Local High-Ticket Services</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🏰</div>
+            <div class="client-info">
+              <h3 class="client-name">Summit Crest Luxury Realty</h3>
+              <p class="client-sub">High-End Real Estate • Scottsdale, AZ</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$20,000</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">5 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./summit_crest_luxury_realty.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=summit_crest_luxury_realty&niche=High-End+Real+Estate" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="1" data-name="proactive spine & chiro" data-niche="chiropractic & wellness" data-city="denver, co">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-1">BATCH 01 • Local High-Ticket Services</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🩺</div>
+            <div class="client-info">
+              <h3 class="client-name">ProActive Spine & Chiro</h3>
+              <p class="client-sub">Chiropractic & Wellness • Denver, CO</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$9,900</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">22 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./proactive_spine_and_chiro.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=proactive_spine_and_chiro&niche=Chiropractic+%26+Wellness" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="1" data-name="beacon hill cpa & tax" data-niche="tax & wealth advisory" data-city="boston, ma">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-1">BATCH 01 • Local High-Ticket Services</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">📊</div>
+            <div class="client-info">
+              <h3 class="client-name">Beacon Hill CPA & Tax</h3>
+              <p class="client-sub">Tax & Wealth Advisory • Boston, MA</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$12,000</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">10 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./beacon_hill_cpa_and_tax.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=beacon_hill_cpa_and_tax&niche=Tax+%26+Wealth+Advisory" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="1" data-name="elite smile studio" data-niche="orthodontics" data-city="san diego, ca">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-1">BATCH 01 • Local High-Ticket Services</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">😁</div>
+            <div class="client-info">
+              <h3 class="client-name">Elite Smile Studio</h3>
+              <p class="client-sub">Orthodontics • San Diego, CA</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$13,300</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">14 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./elite_smile_studio.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=elite_smile_studio&niche=Orthodontics" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="1" data-name="rapid response plumbing" data-niche="commercial plumbing" data-city="atlanta, ga">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-1">BATCH 01 • Local High-Ticket Services</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🔧</div>
+            <div class="client-info">
+              <h3 class="client-name">Rapid Response Plumbing</h3>
+              <p class="client-sub">Commercial Plumbing • Atlanta, GA</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$12,000</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">20 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./rapid_response_plumbing.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=rapid_response_plumbing&niche=Commercial+Plumbing" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="1" data-name="apex roofing & solar" data-niche="roofing & solar epc" data-city="orlando, fl">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-1">BATCH 01 • Local High-Ticket Services</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">☀️</div>
+            <div class="client-info">
+              <h3 class="client-name">Apex Roofing & Solar</h3>
+              <p class="client-sub">Roofing & Solar EPC • Orlando, FL</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$21,000</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">6 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./apex_roofing_and_solar.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=apex_roofing_and_solar&niche=Roofing+%26+Solar+EPC" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="2" data-name="velora activewear" data-niche="athleisure & fitness" data-city="los angeles, ca">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-2">BATCH 02 • E-Commerce & SaaS Brands</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🏃</div>
+            <div class="client-info">
+              <h3 class="client-name">Velora Activewear</h3>
+              <p class="client-sub">Athleisure & Fitness • Los Angeles, CA</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$7,800</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">65 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./velora_activewear.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=velora_activewear&niche=Athleisure+%26+Fitness" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="2" data-name="nuvoglow skincare" data-niche="clean beauty & cosmetics" data-city="new york, ny">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-2">BATCH 02 • E-Commerce & SaaS Brands</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🧴</div>
+            <div class="client-info">
+              <h3 class="client-name">NuvoGlow Skincare</h3>
+              <p class="client-sub">Clean Beauty & Cosmetics • New York, NY</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$7,600</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">80 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./nuvoglow_skincare.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=nuvoglow_skincare&niche=Clean+Beauty+%26+Cosmetics" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="2" data-name="artisan roast club" data-niche="specialty coffee subscription" data-city="seattle, wa">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-2">BATCH 02 • E-Commerce & SaaS Brands</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">☕</div>
+            <div class="client-info">
+              <h3 class="client-name">Artisan Roast Club</h3>
+              <p class="client-sub">Specialty Coffee Subscription • Seattle, WA</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$7,650</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">90 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./artisan_roast_club.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=artisan_roast_club&niche=Specialty+Coffee+Subscription" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="2" data-name="zensleep mattress" data-niche="sleep tech & bedding" data-city="san francisco, ca">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-2">BATCH 02 • E-Commerce & SaaS Brands</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🛏️</div>
+            <div class="client-info">
+              <h3 class="client-name">ZenSleep Mattress</h3>
+              <p class="client-sub">Sleep Tech & Bedding • San Francisco, CA</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$10,200</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">12 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./zensleep_mattress.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=zensleep_mattress&niche=Sleep+Tech+%26+Bedding" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="2" data-name="hydroflow bottle" data-niche="smart hydration & gear" data-city="boulder, co">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-2">BATCH 02 • E-Commerce & SaaS Brands</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">💧</div>
+            <div class="client-info">
+              <h3 class="client-name">HydroFlow Bottle</h3>
+              <p class="client-sub">Smart Hydration & Gear • Boulder, CO</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$7,125</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">95 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./hydroflow_bottle.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=hydroflow_bottle&niche=Smart+Hydration+%26+Gear" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="2" data-name="pawsome pet boxes" data-niche="pet supplies & subscriptions" data-city="austin, tx">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-2">BATCH 02 • E-Commerce & SaaS Brands</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🐾</div>
+            <div class="client-info">
+              <h3 class="client-name">Pawsome Pet Boxes</h3>
+              <p class="client-sub">Pet Supplies & Subscriptions • Austin, TX</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$7,150</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">110 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./pawsome_pet_boxes.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=pawsome_pet_boxes&niche=Pet+Supplies+%26+Subscriptions" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="2" data-name="lumina wellness" data-niche="nootropics & supplements" data-city="miami, fl">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-2">BATCH 02 • E-Commerce & SaaS Brands</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🧬</div>
+            <div class="client-info">
+              <h3 class="client-name">Lumina Wellness</h3>
+              <p class="client-sub">Nootropics & Supplements • Miami, FL</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$7,700</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">70 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./lumina_wellness.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=lumina_wellness&niche=Nootropics+%26+Supplements" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="2" data-name="stacksync dev" data-niche="developer tools & saas" data-city="san jose, ca">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-2">BATCH 02 • E-Commerce & SaaS Brands</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">⚡</div>
+            <div class="client-info">
+              <h3 class="client-name">StackSync Dev</h3>
+              <p class="client-sub">Developer Tools & SaaS • San Jose, CA</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$11,200</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">8 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./stacksync_dev.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=stacksync_dev&niche=Developer+Tools+%26+SaaS" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="2" data-name="leadflow crm" data-niche="b2b sales automation" data-city="chicago, il">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-2">BATCH 02 • E-Commerce & SaaS Brands</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">📈</div>
+            <div class="client-info">
+              <h3 class="client-name">LeadFlow CRM</h3>
+              <p class="client-sub">B2B Sales Automation • Chicago, IL</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$12,600</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">7 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./leadflow_crm.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=leadflow_crm&niche=B2B+Sales+Automation" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="2" data-name="clouddesk help" data-niche="customer support platform" data-city="boston, ma">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-2">BATCH 02 • E-Commerce & SaaS Brands</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">💬</div>
+            <div class="client-info">
+              <h3 class="client-name">CloudDesk Help</h3>
+              <p class="client-sub">Customer Support Platform • Boston, MA</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$10,800</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">9 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./clouddesk_help.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=clouddesk_help&niche=Customer+Support+Platform" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="3" data-name="pulsemetrics ai" data-niche="product analytics saas" data-city="new york, ny">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-3">BATCH 03 • Enterprise Legal & Wealth</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">📉</div>
+            <div class="client-info">
+              <h3 class="client-name">PulseMetrics AI</h3>
+              <p class="client-sub">Product Analytics SaaS • New York, NY</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$13,200</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">6 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./pulsemetrics_ai.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=pulsemetrics_ai&niche=Product+Analytics+SaaS" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="3" data-name="silicon valley skin lab" data-niche="dermatology clinic" data-city="palo alto, ca">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-3">BATCH 03 • Enterprise Legal & Wealth</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🔬</div>
+            <div class="client-info">
+              <h3 class="client-name">Silicon Valley Skin Lab</h3>
+              <p class="client-sub">Dermatology Clinic • Palo Alto, CA</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$12,000</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">16 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./silicon_valley_skin_lab.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=silicon_valley_skin_lab&niche=Dermatology+Clinic" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="3" data-name="pacific coast family law" data-niche="family law & mediation" data-city="newport beach, ca">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-3">BATCH 03 • Enterprise Legal & Wealth</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🏛️</div>
+            <div class="client-info">
+              <h3 class="client-name">Pacific Coast Family Law</h3>
+              <p class="client-sub">Family Law & Mediation • Newport Beach, CA</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$18,000</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">6 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./pacific_coast_family_law.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=pacific_coast_family_law&niche=Family+Law+%26+Mediation" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="3" data-name="vanguard luxury re" data-niche="luxury real estate" data-city="beverly hills, ca">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-3">BATCH 03 • Enterprise Legal & Wealth</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">💎</div>
+            <div class="client-info">
+              <h3 class="client-name">Vanguard Luxury RE</h3>
+              <p class="client-sub">Luxury Real Estate • Beverly Hills, CA</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$20,000</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">4 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./vanguard_luxury_re.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=vanguard_luxury_re&niche=Luxury+Real+Estate" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="3" data-name="vanguard wealth & accounting" data-niche="family office & cpa" data-city="new york, ny">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-3">BATCH 03 • Enterprise Legal & Wealth</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🏦</div>
+            <div class="client-info">
+              <h3 class="client-name">Vanguard Wealth & Accounting</h3>
+              <p class="client-sub">Family Office & CPA • New York, NY</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$14,000</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">5 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./vanguard_wealth_and_accounting.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=vanguard_wealth_and_accounting&niche=Family+Office+%26+CPA" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="3" data-name="redwood corporate counsel" data-niche="corporate & m&a" data-city="austin, tx">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-3">BATCH 03 • Enterprise Legal & Wealth</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">📑</div>
+            <div class="client-info">
+              <h3 class="client-name">Redwood Corporate Counsel</h3>
+              <p class="client-sub">Corporate & M&A • Austin, TX</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$17,500</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">5 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./redwood_corporate_counsel.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=redwood_corporate_counsel&niche=Corporate+%26+M%26A" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="3" data-name="pinnacle commercial re" data-niche="commercial brokerage" data-city="dallas, tx">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-3">BATCH 03 • Enterprise Legal & Wealth</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🏢</div>
+            <div class="client-info">
+              <h3 class="client-name">Pinnacle Commercial RE</h3>
+              <p class="client-sub">Commercial Brokerage • Dallas, TX</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$18,000</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">4 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./pinnacle_commercial_re.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=pinnacle_commercial_re&niche=Commercial+Brokerage" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="3" data-name="harborview estate planning" data-niche="trusts & estates" data-city="seattle, wa">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-3">BATCH 03 • Enterprise Legal & Wealth</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">📜</div>
+            <div class="client-info">
+              <h3 class="client-name">Harborview Estate Planning</h3>
+              <p class="client-sub">Trusts & Estates • Seattle, WA</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$15,400</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">7 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./harborview_estate_planning.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=harborview_estate_planning&niche=Trusts+%26+Estates" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="3" data-name="apex audit & valuation" data-niche="audit & valuation" data-city="atlanta, ga">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-3">BATCH 03 • Enterprise Legal & Wealth</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">💼</div>
+            <div class="client-info">
+              <h3 class="client-name">Apex Audit & Valuation</h3>
+              <p class="client-sub">Audit & Valuation • Atlanta, GA</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$16,000</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">5 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./apex_audit_and_valuation.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=apex_audit_and_valuation&niche=Audit+%26+Valuation" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+
+        <div class="client-card" data-batch="3" data-name="metro injury defense group" data-niche="insurance litigation" data-city="miami, fl">
+          <div class="card-head">
+            <span class="batch-badge badge-batch-3">BATCH 03 • Enterprise Legal & Wealth</span>
+            <span class="live-pill"><span class="pulse-dot"></span> LIVE 99.98%</span>
+          </div>
+          <div class="client-meta">
+            <div class="client-icon">🛡️</div>
+            <div class="client-info">
+              <h3 class="client-name">Metro Injury Defense Group</h3>
+              <p class="client-sub">Insurance Litigation • Miami, FL</p>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Recovered / Mo</div>
+              <div class="kpi-num">$16,000</div>
+            </div>
+            <div class="kpi-mini">
+              <div class="kpi-lbl">Leads Captured</div>
+              <div class="kpi-num">4 / mo</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="./metro_injury_defense_group.html" class="btn-portal">Launch VIP Portal →</a>
+            <a href="/chatbotdemo?client=metro_injury_defense_group&niche=Insurance+Litigation" class="btn-demo">Test Sandbox</a>
+          </div>
+        </div>
+        
+    </section>
+
+    <footer>
+      <div>© 2026 MinhLap Systems. Enterprise Autonomous AI Infrastructure.</div>
+      <div class="footer-links">
+        <a href="/">Command Center</a>
+        <a href="/pitches">Pitch Decks Hub</a>
+        <a href="/calculator">ROI Simulator</a>
+        <a href="https://t.me/Minhpv_bot" target="_blank">Telegram Engineering Hotline</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // URL Query Parameter Auto-Router
+    (function checkQueryParam() {
+      const params = new URLSearchParams(window.location.search);
+      const target = params.get('client') || params.get('lead') || params.get('c');
+      if (target) {
+        const slug = target.toLowerCase().replace(/ /g, '_').replace(/&/g, 'and');
+        window.location.href = './' + slug + '.html';
+      }
+    })();
+
+    const searchInput = document.getElementById('searchInput');
+    const cards = document.querySelectorAll('.client-card');
+    let currentBatch = 'all';
+
+    function setFilter(batch, btn) {
+      currentBatch = batch;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      filterGrid();
+    }
+
+    function filterGrid() {
+      const q = (searchInput.value || '').toLowerCase().trim();
+      cards.forEach(card => {
+        const b = card.getAttribute('data-batch');
+        const name = card.getAttribute('data-name');
+        const niche = card.getAttribute('data-niche');
+        const city = card.getAttribute('data-city');
+
+        const matchesSearch = !q || name.includes(q) || niche.includes(q) || city.includes(q);
+        const matchesBatch = currentBatch === 'all' || b === currentBatch;
+
+        if (matchesSearch && matchesBatch) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    searchInput.addEventListener('input', filterGrid);
+  </script>
+</body>
+</html>

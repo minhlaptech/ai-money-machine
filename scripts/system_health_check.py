@@ -55,6 +55,7 @@ LIVE_URLS = [
     ("Dynamic ROI Simulator", "https://work-minh-lap.vercel.app/calculator"),
     ("AI Copilot Embed Widget", "https://work-minh-lap.vercel.app/copilot-widget.js"),
     ("Serverless Health API (/api/health)", "https://work-minh-lap.vercel.app/api/health"),
+    ("Executive Client VIP Portal Hub (/portal)", "https://work-minh-lap.vercel.app/portal"),
     ("Executive Command Center (Monorepo Root)", "https://work-minh-lap.vercel.app"),
 ]
 
