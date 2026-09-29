@@ -365,9 +365,10 @@ AGREEMENT_TEMPLATE = """<!DOCTYPE html>
 
     <!-- Actions & Print Bar -->
     <div class="actions-bar">
-      <div>
+      <div style="display:flex; gap:8px; flex-wrap:wrap;">
         <a href="../proposals/{slug}_proposal.html" class="btn-secondary">📄 View Proposal</a>
         <a href="../invoices/{slug}_invoice.html" class="btn-secondary">💳 View Invoice</a>
+        <a href="https://work-minh-lap.vercel.app/onboarding?name={client_url_name}&niche={niche_url}" target="_blank" class="btn-secondary" style="background:rgba(0,242,254,0.12); border-color:rgba(0,242,254,0.3); color:#00f2fe;">🚀 Client Onboarding</a>
       </div>
       <div>
         <button class="btn-action" onclick="window.print()">🖨️ Print / Save as PDF</button>
@@ -489,17 +490,22 @@ LEADS = [
 ]
 
 def generate_agreement(lead_id, name, niche, city):
+    import urllib.parse
     AGREEMENTS_DIR.mkdir(parents=True, exist_ok=True)
     slug = name.lower().replace(" ", "_").replace("&", "and").replace("/", "-").replace("\\", "-").replace(",", "").replace(".", "")
     out_file = AGREEMENTS_DIR / f"{slug}_agreement.html"
 
     effective_date = datetime.now().strftime("%B %d, %Y")
     agr_id = f"AGR-2026-{lead_id:03d}"
+    client_url_name = urllib.parse.quote_plus(name)
+    niche_url = urllib.parse.quote_plus(niche)
 
     html = AGREEMENT_TEMPLATE.format(
         agreement_id=agr_id,
         client_name=name,
+        client_url_name=client_url_name,
         niche=niche,
+        niche_url=niche_url,
         city=city,
         effective_date=effective_date,
         slug=slug

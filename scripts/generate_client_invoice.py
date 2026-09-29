@@ -321,7 +321,10 @@ INVOICE_TEMPLATE = """<!DOCTYPE html>
         <li style="font-size:13px; color:#cbd5e1; margin-bottom:6px;"><strong>Option B (US ACH / Wire):</strong> Available upon request; reply to invoice email for wire instructions.</li>
         <li style="font-size:13px; color:#cbd5e1;"><strong>Option C (50% Deposit Kickoff):</strong> Pay $925.00 now to initiate setup, remainder due upon Day 5 go-live.</li>
       </ul>
-      <a href="https://minhlap.lemonsqueezy.com" target="_blank" class="btn-pay">👉 Pay Securely Online via Card / Apple Pay</a>
+      <div style="margin-top:16px; display:flex; gap:12px; flex-wrap:wrap;">
+        <a href="https://minhlap.lemonsqueezy.com" target="_blank" class="btn-pay" style="flex:1; margin-top:0;">👉 Pay Securely Online via Card / Apple Pay</a>
+        <a href="https://work-minh-lap.vercel.app/onboarding?name={client_url_name}&niche={niche_url}&city={city_url}" target="_blank" style="background:rgba(255,255,255,0.08); border:1px solid var(--border); color:#fff; text-decoration:none; padding:12px 18px; border-radius:10px; font-weight:700; font-size:13px; display:inline-flex; align-items:center; justify-content:center; transition:background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.15)'" onmouseout="this.style.background='rgba(255,255,255,0.08)'">🚀 Start Onboarding Intake</a>
+      </div>
     </div>
 
     <div class="print-tip">
@@ -366,6 +369,7 @@ LEADS = [
 ]
 
 def generate_invoice(lead_id, name, niche, city):
+    import urllib.parse
     INVOICES_DIR.mkdir(parents=True, exist_ok=True)
     slug = name.lower().replace(" ", "_").replace("&", "and").replace("/", "-").replace("\\", "-").replace(",", "").replace(".", "")
     out_file = INVOICES_DIR / f"{slug}_invoice.html"
@@ -373,12 +377,18 @@ def generate_invoice(lead_id, name, niche, city):
     issue_date = datetime.now().strftime("%B %d, %Y")
     due_date = (datetime.now() + timedelta(days=14)).strftime("%B %d, %Y")
     inv_id = f"INV-2026-{lead_id:03d}"
+    client_url_name = urllib.parse.quote_plus(name)
+    niche_url = urllib.parse.quote_plus(niche)
+    city_url = urllib.parse.quote_plus(city)
 
     html = INVOICE_TEMPLATE.format(
         invoice_id=inv_id,
         client_name=name,
+        client_url_name=client_url_name,
         niche=niche,
+        niche_url=niche_url,
         city=city,
+        city_url=city_url,
         issue_date=issue_date,
         due_date=due_date,
         total_due="1,850.00"

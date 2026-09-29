@@ -686,3 +686,24 @@
   - Thêm tùy chọn `[5] 📝 Tạo Hợp Đồng Dịch Vụ Master Services Agreement (MSA & Chữ Ký Số Trực Tuyến)`.
   - Giờ đây chỉ cần 1 phím bấm số, bạn có thể sinh trọn bộ Đề xuất, Hợp đồng, và Hóa đơn cho bất kỳ khách hàng nào.
 
+---
+
+## 📅 2026-09-29 | Phiên #27 | Tự Động Hóa Biểu Mẫu Intake Cá Nhân Hóa (URL Prefill), Trợ Lý Copilot Bundle & Bộ Tứ Deliverable CRM
+
+### 🎉 Milestones Hoàn Thành:
+- ✅ **Cơ Chế Điền Sẵn Dữ Liệu Thông Minh Cho Cổng Tiếp Nhận Khách Hàng ([client_onboarding_portal.html](file:///d:/Project/work/projects/ai_automation_smb/client_onboarding_portal.html))**:
+  - Xây dựng tính năng tự động trích xuất các tham số URL (`?name=...&niche=...&web=...&contact=...`) để tự điền tên doanh nghiệp và tự động chọn ngữ điệu giao tiếp (Warm/Urgent/Casual) phù hợp với lĩnh vực hoạt động của từng khách hàng.
+  - Khách hàng khi mở link không cần gõ lại tên doanh nghiệp, giảm tối đa ma sát (friction) và đẩy nhanh tốc độ chốt hợp đồng.
+- ✅ **Tích Hợp Nút "🚀 Start Onboarding Intake" Vào Toàn Bộ 30 Hợp Đồng & 30 Hóa Đơn**:
+  - Tại tất cả các bản hợp đồng ([`agreements/`](file:///d:/Project/work/agreements/)) và hóa đơn thanh toán ([`invoices/`](file:///d:/Project/work/invoices/)), bổ sung nút chuyển hướng trực tiếp sang trang Onboarding với URL đã mã hóa sẵn thông tin của chính khách hàng đó.
+- ✅ **Nhúng Trợ Lý AI Copilot Hỗ Trợ 24/7 Vào Trang Bán Hàng Master Bundle ([bundle_showcase.html](file:///d:/Project/work/projects/digital_products/bundle_showcase.html))**:
+  - Nhúng trực tiếp thư viện [`copilot-widget.js`](file:///d:/Project/work/copilot-widget.js) với tông màu vàng hổ phách (`#ffb74d`), lời chào thân thiện hỗ trợ giải đáp tức thì về 15 kịch bản tự động hóa Make.com/n8n và 10 chương eBook trước khi khách quyết định bấm mua gói $39.00.
+- ✅ **Hoàn Thiện Bộ Tứ Deliverables Trên Bảng Phễu CRM ([dashboard.html](file:///d:/Project/work/dashboard.html) & [index.html](file:///d:/Project/work/index.html))**:
+  - Cập nhật cột "Client Deliverable" trên bảng phễu CRM thành bộ tứ nút tác chiến tinh gọn:
+    - `📄 Proposal` — Xem/Gửi bản đề xuất & kiểm toán
+    - `📑 Contract` — Xem/Ký hợp đồng dịch vụ MSA trực tuyến
+    - `💳 Invoice` — Xem/Gửi hóa đơn thanh toán $1,850
+    - `🚀 Intake` — Mở/Copy link tiếp nhận thông tin khách hàng đã điền sẵn tên
+  - Đồng bộ kịch bản [`scripts/update_dashboard_multitouch.py`](file:///d:/Project/work/scripts/update_dashboard_multitouch.py).
+
+

@@ -220,6 +220,36 @@
         })
       }).catch(err => console.log('Telegram dispatch silent:', err));
     }
+
+    // Auto-fill from URL parameters (e.g. ?name=Austin+Dental+Co&niche=Cosmetic+Dentistry)
+    window.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const name = params.get('name');
+      const website = params.get('web') || params.get('website');
+      const contact = params.get('contact') || params.get('email');
+      const niche = params.get('niche');
+
+      if (name) {
+        document.getElementById('biz-name').value = name;
+      }
+      if (website) {
+        document.getElementById('biz-web').value = website;
+      }
+      if (contact) {
+        document.getElementById('biz-contact').value = contact;
+      }
+      if (niche) {
+        const lower = niche.toLowerCase();
+        const toneSelect = document.getElementById('biz-tone');
+        if (lower.includes('dental') || lower.includes('med') || lower.includes('health') || lower.includes('legal') || lower.includes('cpa') || lower.includes('law')) {
+          toneSelect.value = 'Warm, professional, clinical';
+        } else if (lower.includes('hvac') || lower.includes('plumb') || lower.includes('roof') || lower.includes('repair')) {
+          toneSelect.value = 'Urgent, fast, reassuring';
+        } else {
+          toneSelect.value = 'Casual, friendly, energetic';
+        }
+      }
+    });
   </script>
   <!-- Live 24/7 AI Receptionist Copilot -->
   <script src="https://work-minh-lap.vercel.app/copilot-widget.js" data-business="MinhLap AI Systems" data-color="#7c5cfc" async></script>

@@ -231,6 +231,7 @@ function renderLeadsTable() {
     let proposalLink = `proposals/${slug}_proposal.html`;
     let agreementLink = `agreements/${slug}_agreement.html`;
     let invoiceLink = `invoices/${slug}_invoice.html`;
+    let intakeLink = `https://work-minh-lap.vercel.app/onboarding?name=${encodeURIComponent(l.name)}&niche=${encodeURIComponent(l.niche)}`;
     
     let btnText = currentStageFilter === 1 ? '✉️ Send Day 1' : currentStageFilter === 2 ? '📈 Send Day 3' : '🚪 Send Day 7';
     let btnGradient = currentStageFilter === 1 
@@ -259,10 +260,11 @@ function renderLeadsTable() {
           <option value="won" ${st === 'won' ? 'selected' : ''}>🏆 Won ($1,200)</option>
         </select>
       </td>
-      <td style="padding:12px 10px; text-align:center; white-space:nowrap;">
-        <a href="${proposalLink}" target="_blank" style="display:inline-block; background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#cbd5e1; text-decoration:none; padding:4px 7px; border-radius:6px; font-size:11px; font-weight:600; margin-right:3px; transition:all 0.15s;" onmouseover="this.style.borderColor='var(--cyan)'; this.style.color='#fff';" onmouseout="this.style.borderColor='var(--border)'; this.style.color='#cbd5e1';">📄 Proposal</a>
-        <a href="${agreementLink}" target="_blank" style="display:inline-block; background:rgba(124,92,252,0.12); border:1px solid rgba(124,92,252,0.3); color:#b794f4; text-decoration:none; padding:4px 7px; border-radius:6px; font-size:11px; font-weight:600; margin-right:3px; transition:all 0.15s;" onmouseover="this.style.borderColor='#7c5cfc'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(124,92,252,0.3)'; this.style.color='#b794f4';">📑 Agreement</a>
-        <a href="${invoiceLink}" target="_blank" style="display:inline-block; background:rgba(16,185,129,0.12); border:1px solid rgba(16,185,129,0.3); color:#34d399; text-decoration:none; padding:4px 7px; border-radius:6px; font-size:11px; font-weight:600; transition:all 0.15s;" onmouseover="this.style.borderColor='#10b981'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(16,185,129,0.3)'; this.style.color='#34d399';">💳 Invoice</a>
+      <td style="padding:12px 6px; text-align:center; white-space:nowrap;">
+        <a href="${proposalLink}" target="_blank" style="display:inline-block; background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#cbd5e1; text-decoration:none; padding:3px 6px; border-radius:6px; font-size:11px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='var(--cyan)'; this.style.color='#fff';" onmouseout="this.style.borderColor='var(--border)'; this.style.color='#cbd5e1';">📄 Proposal</a>
+        <a href="${agreementLink}" target="_blank" style="display:inline-block; background:rgba(124,92,252,0.12); border:1px solid rgba(124,92,252,0.3); color:#b794f4; text-decoration:none; padding:3px 6px; border-radius:6px; font-size:11px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='#7c5cfc'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(124,92,252,0.3)'; this.style.color='#b794f4';">📑 Contract</a>
+        <a href="${invoiceLink}" target="_blank" style="display:inline-block; background:rgba(16,185,129,0.12); border:1px solid rgba(16,185,129,0.3); color:#34d399; text-decoration:none; padding:3px 6px; border-radius:6px; font-size:11px; font-weight:600; margin-right:2px; transition:all 0.15s;" onmouseover="this.style.borderColor='#10b981'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(16,185,129,0.3)'; this.style.color='#34d399';">💳 Invoice</a>
+        <a href="${intakeLink}" target="_blank" style="display:inline-block; background:rgba(0,242,254,0.12); border:1px solid rgba(0,242,254,0.3); color:#00f2fe; text-decoration:none; padding:3px 6px; border-radius:6px; font-size:11px; font-weight:600; transition:all 0.15s;" onmouseover="this.style.borderColor='#00f2fe'; this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(0,242,254,0.3)'; this.style.color='#00f2fe';">🚀 Intake</a>
       </td>
       <td style="padding:12px 10px; text-align:right;">
         <a href="${buildMailto(l, currentStageFilter)}" onclick="handleLeadDispatch(${l.id}, currentStageFilter)" style="display:inline-block; background:${btnGradient}; color:#fff; text-decoration:none; padding:6px 14px; border-radius:6px; font-size:12px; font-weight:700; box-shadow: 0 2px 8px rgba(0,0,0,0.3); transition:transform 0.15s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='none'">${btnText}</a>
