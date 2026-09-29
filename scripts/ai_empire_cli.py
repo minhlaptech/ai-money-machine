@@ -26,7 +26,7 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v4.5 ⚡
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v5.0 ⚡
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
@@ -46,7 +46,9 @@ def print_banner():
   [15] 📦 Đóng Gói Bộ 15 Kịch Bản Tự Động Hóa Make.com/n8n (Blueprint Pack ZIP)
   [16] 📈 Xem Báo Cáo Phễu Khách Hàng B2B CRM (Pipeline Summary & Deal Value)
   [17] ☀️ Chạy Bản Tin Chỉ Huy Sáng (Daily Morning Briefing & Telegram Ping)
-  [18] 🚀 Mở Executive Command Center Dashboard trên Trình Duyệt Web
+  [18] 🎯 Mở Trung Tâm Trình Chiếu Pitch Decks Showcase Hub (/pitches)
+  [19] 📦 Đóng Gói Bộ Hồ Sơ Onboarding VIP ZIP Cho Khách Hàng (30 Client Packages)
+  [20] 🚀 Mở Executive Command Center Dashboard trên Trình Duyệt Web
   [0] Thoát
 ======================================================================
 """)
@@ -66,7 +68,7 @@ def run_script(rel_path, args=None):
 def main_loop():
     while True:
         print_banner()
-        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-18]: ").strip()
+        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-20]: ").strip()
 
         if choice == '1':
             ping = input("Bạn có muốn gửi báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
@@ -180,9 +182,25 @@ def main_loop():
             run_script("scripts/daily_briefing.py", args)
 
         elif choice == '18':
+            hub_url = "https://work-minh-lap.vercel.app/pitches"
+            local_hub = ROOT_DIR / "pitches" / "index.html"
+            print(f"[*] Đang mở Sales Pitch Decks Showcase Hub trên trình duyệt: {hub_url}")
+            try:
+                webbrowser.open(hub_url)
+            except Exception:
+                webbrowser.open(local_hub.as_uri())
+
+        elif choice == '19':
+            sub = input("Đóng gói trọn bộ 30 khách hàng hay 1 khách cụ thể? (1-30: Nhập ID khách / Enter: Toàn bộ 30 khách): ").strip()
+            if sub.isdigit() and 1 <= int(sub) <= 30:
+                run_script("scripts/package_client_deliverables.py", ["--lead", sub])
+            else:
+                run_script("scripts/package_client_deliverables.py", ["--all"])
+
+        elif choice == '20':
             dash_url = "https://work-minh-lap.vercel.app"
             local_dash = ROOT_DIR / "index.html"
-            print(f"[*] Đang mở Dashboard trên trình duyệt: {dash_url}")
+            print(f"[*] Đang mở Executive Dashboard trên trình duyệt: {dash_url}")
             try:
                 webbrowser.open(dash_url)
             except Exception:
@@ -192,7 +210,7 @@ def main_loop():
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 18.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 20.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 

@@ -792,4 +792,35 @@
   - Bổ sung `[5] 🖥️ Tạo Bộ Trình Chiếu Chốt Sale Tương Tác (10-Slide Sales Pitch Deck)`
   - Bổ sung `[10] 📬 Điều Hướng Chiến Dịch Cold Outreach Đa Chạm (Multi-Touch Outreach Dispatcher)`
 
+---
+
+## 📅 2026-09-29 | Phiên #30 | Trung Tâm Trình Chiếu Pitch Decks Showcase Hub (/pitches), 30 Gói Hồ Sơ VIP ZIP Onboarding, Vá Lỗi Shadow DOM Sandboxes & CLI v5.0
+
+### 🎉 Milestones Hoàn Thành:
+- ✅ **Xây Dựng Trung Tâm Trình Chiếu Pitch Decks Showcase Hub ([pitches/index.html](file:///d:/Project/work/pitches/index.html) & [scripts/build_pitches_showcase.py](file:///d:/Project/work/scripts/build_pitches_showcase.py))**:
+  - Phát triển cổng điều phối bán hàng trực quan cao cấp tập trung toàn bộ 30 bộ Sales Pitch Decks và các ấn phẩm B2B.
+  - Tích hợp thanh tìm kiếm thời gian thực (Search by name, industry, city), bộ lọc theo nhóm đối tượng (Tất cả, SMB, E-Com, High-Ticket), thẻ hiển thị lượng hóa tổn thất sau giờ làm việc và giá trị hợp đồng trung bình.
+  - Cung cấp liên kết trực tiếp đến trọn bộ 7 ấn phẩm: Pitch Deck, Live Sandbox, Proposal, Hợp đồng MSA, Hóa đơn Invoice, Báo cáo ROI và File nén VIP ZIP Onboarding.
+  - Cấu hình route sạch `/pitches` trong [vercel.json](file:///d:/Project/work/vercel.json) trỏ về `pitches/index.html`.
+- ✅ **Bộ Đóng Gói Hồ Sơ Khách Hàng VIP ZIP Tự Động ([scripts/package_client_deliverables.py](file:///d:/Project/work/scripts/package_client_deliverables.py))**:
+  - Xây dựng công cụ chuyên dụng tự động đóng gói toàn bộ ấn phẩm bàn giao cho từng khách hàng thành file nén độc lập dạng `client_packages/{slug}_executive_dossier.zip` (~31 KB/file).
+  - Tự động sinh cẩm nang bàn giao số hóa VIP (`WELCOME_CLIENT_ONBOARDING_GUIDE.md`) đính kèm trong mỗi file ZIP:
+    - Thư chúc mừng và chào đón từ nhà cung cấp giải pháp AI MinhLap.
+    - Bảng danh mục kiểm kê đầy đủ 6 ấn phẩm số hóa kèm theo.
+    - Lộ trình triển khai thần tốc 5 ngày (5-Day White-Glove Sprint: Kickoff -> Ingestion -> Automation -> Sandbox -> Production).
+    - Hướng dẫn cài đặt widget 1 dòng code HTML (`copilot-widget.js`) cho kỹ thuật viên của khách.
+    - Cam kết bảo hành 30 ngày và thông tin liên hệ hỗ trợ kỹ thuật khẩn cấp.
+  - Đã xuất bản thành công trọn bộ **30 gói ZIP hồ sơ hoàn chỉnh** vào thư mục [client_packages/](file:///d:/Project/work/client_packages/).
+- ✅ **Phát Hiện & Khắc Phục Triệt Để Lỗi Truy Vấn Shadow DOM Trên 30 Sandboxes ([scripts/generate_client_sandbox.py](file:///d:/Project/work/scripts/generate_client_sandbox.py))**:
+  - Phát hiện 5 nút kiểm thử nhanh trên các sandbox HTML không kích hoạt được widget do widget tạo container dạng `div#minhlap-copilot-container` kèm Shadow Root thay vì thẻ custom element.
+  - Cập nhật hàm `triggerChatWidget` và `simulateTest` để tìm kiếm chính xác launcher và input bên trong `container.shadowRoot`.
+  - Tái tạo thành công 100% 30 file [sandboxes/](file:///d:/Project/work/sandboxes/) với tính năng tương tác tự động hoạt động mượt mà.
+- ✅ **Sửa Lỗi Template Cú Pháp JavaScript Trên Showcase Hub**:
+  - Khắc phục lỗi cú pháp định dạng số `${l.id:02d}` thành `String(l.id).padStart(2, '0')` trong mã nguồn sinh JavaScript.
+  - Bổ sung nút bấm tải trực tiếp gói hồ sơ VIP ZIP trên từng thẻ khách hàng.
+- ✅ **Nâng Cấp Master Command Center CLI Lên Phiên Bản v5.0 (20 Lệnh Điều Hành) ([scripts/ai_empire_cli.py](file:///d:/Project/work/scripts/ai_empire_cli.py))**:
+  - Bổ sung tùy chọn `[18] 🎯 Mở Trung Tâm Trình Chiếu Pitch Decks Showcase Hub (/pitches)`.
+  - Bổ sung tùy chọn `[19] 📦 Đóng Gói Bộ Hồ Sơ Onboarding VIP ZIP Cho Khách Hàng (30 Client Packages)`.
+  - Cập nhật tùy chọn `[20] 🚀 Mở Executive Command Center Dashboard trên Trình Duyệt Web`.
+
 

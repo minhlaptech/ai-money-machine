@@ -317,31 +317,29 @@
 
   <script>
     function triggerChatWidget() {
-      const bubble = document.querySelector('minhlap-copilot');
-      if (bubble && bubble.shadowRoot) {
-        const btn = bubble.shadowRoot.querySelector('#copilot-bubble-btn');
-        if (btn) btn.click();
+      const container = document.getElementById('minhlap-copilot-container');
+      if (container && container.shadowRoot) {
+        const launcher = container.shadowRoot.getElementById('copilot-launcher');
+        if (launcher) launcher.click();
       }
     }
 
     function simulateTest(queryText) {
-      const bubble = document.querySelector('minhlap-copilot');
-      if (bubble && bubble.shadowRoot) {
-        // Open widget if closed
-        const chatWindow = bubble.shadowRoot.querySelector('#copilot-window');
-        if (chatWindow && chatWindow.style.display !== 'flex') {
-          const btn = bubble.shadowRoot.querySelector('#copilot-bubble-btn');
-          if (btn) btn.click();
+      const container = document.getElementById('minhlap-copilot-container');
+      if (container && container.shadowRoot) {
+        const launcher = container.shadowRoot.getElementById('copilot-launcher');
+        const modal = container.shadowRoot.getElementById('copilot-modal');
+        if (modal && !modal.classList.contains('open')) {
+          if (launcher) launcher.click();
         }
-        // Inject into input and trigger
         setTimeout(() => {
-          const input = bubble.shadowRoot.querySelector('#copilot-input');
-          const sendBtn = bubble.shadowRoot.querySelector('#copilot-send');
+          const input = container.shadowRoot.getElementById('copilot-input');
+          const sendBtn = container.shadowRoot.getElementById('copilot-send');
           if (input && sendBtn) {
             input.value = queryText;
             sendBtn.click();
           }
-        }, 300);
+        }, 250);
       }
     }
 
