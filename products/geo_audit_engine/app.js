@@ -374,3 +374,12 @@ function showToast(msg, duration = 3000) {
 window.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closePricingModal();
 });
+
+// Auto-detect ?inspect= or ?url= parameter from Chrome Extension
+window.addEventListener('DOMContentLoaded', () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const inspectUrl = urlParams.get('inspect') || urlParams.get('url');
+  if (inspectUrl) {
+    quickFill(inspectUrl);
+  }
+});
