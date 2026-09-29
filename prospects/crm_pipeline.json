@@ -137,10 +137,10 @@
     "city": "Los Angeles, CA",
     "to": "hello@veloraactive.example",
     "doc": "Team Velora",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 12,
@@ -150,10 +150,10 @@
     "city": "New York, NY",
     "to": "partners@nuvoglowbeauty.example",
     "doc": "Founder",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 13,
@@ -163,10 +163,10 @@
     "city": "San Francisco, CA",
     "to": "growth@pulsemetrics.example",
     "doc": "Founder",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 14,
@@ -176,10 +176,10 @@
     "city": "Boulder, CO",
     "to": "support@hydroflowbottle.example",
     "doc": "Team HydroFlow",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 15,
@@ -189,10 +189,10 @@
     "city": "Austin, TX",
     "to": "hello@clouddeskhelp.example",
     "doc": "Product Lead",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 16,
@@ -202,10 +202,10 @@
     "city": "Portland, OR",
     "to": "orders@artisanroastclub.example",
     "doc": "Founder",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 17,
@@ -215,10 +215,10 @@
     "city": "Seattle, WA",
     "to": "founders@stacksyncdev.example",
     "doc": "Engineering Lead",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 18,
@@ -228,10 +228,10 @@
     "city": "Denver, CO",
     "to": "hello@pawsomepetbox.example",
     "doc": "Customer Team",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 19,
@@ -241,10 +241,10 @@
     "city": "Boston, MA",
     "to": "inquiries@leadflowcrm.example",
     "doc": "Growth Team",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 20,
@@ -254,10 +254,10 @@
     "city": "Chicago, IL",
     "to": "concierge@zensleepbed.example",
     "doc": "Marketing Team",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 21,
@@ -267,10 +267,10 @@
     "city": "Chicago, IL",
     "to": "contact@sterlinglegalchi.example",
     "doc": "David Sterling",
-    "status": "new",
+    "status": "day1",
     "value": 1500,
     "retainer": 750,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 22,
@@ -280,10 +280,10 @@
     "city": "Aspen, CO",
     "to": "inquiries@summitcrestrealty.example",
     "doc": "Victoria Vance",
-    "status": "new",
+    "status": "day1",
     "value": 1500,
     "retainer": 750,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 23,
@@ -293,10 +293,10 @@
     "city": "Boston, MA",
     "to": "tax@beaconhillcpa.example",
     "doc": "Marcus Brody",
-    "status": "new",
+    "status": "day1",
     "value": 1500,
     "retainer": 750,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 24,
@@ -306,10 +306,10 @@
     "city": "San Diego, CA",
     "to": "help@pacificfamilylawsd.example",
     "doc": "Elena Rostova",
-    "status": "new",
+    "status": "day1",
     "value": 1500,
     "retainer": 750,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 25,
@@ -319,10 +319,10 @@
     "city": "New York, NY",
     "to": "office@vanguardwealthnyc.example",
     "doc": "Jonathan Vance",
-    "status": "new",
+    "status": "day1",
     "value": 1500,
     "retainer": 750,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 26,
@@ -332,10 +332,10 @@
     "city": "Austin, TX",
     "to": "hello@redwoodcounseltx.example",
     "doc": "Sarah Jenkins",
-    "status": "new",
+    "status": "day1",
     "value": 1500,
     "retainer": 750,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 27,
@@ -345,10 +345,10 @@
     "city": "Dallas, TX",
     "to": "deals@pinnaclecredfw.example",
     "doc": "Robert Miller",
-    "status": "new",
+    "status": "day1",
     "value": 1500,
     "retainer": 750,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 28,
@@ -358,10 +358,10 @@
     "city": "Seattle, WA",
     "to": "info@harborviewestateswa.example",
     "doc": "Cynthia Thorne",
-    "status": "new",
+    "status": "day1",
     "value": 1500,
     "retainer": 750,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 29,
@@ -371,10 +371,10 @@
     "city": "Atlanta, GA",
     "to": "valuation@apexauditadvisory.example",
     "doc": "Richard Hall",
-    "status": "new",
+    "status": "day1",
     "value": 1500,
     "retainer": 750,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   },
   {
     "id": 30,
@@ -384,9 +384,9 @@
     "city": "Miami, FL",
     "to": "litigation@metroinjurydefense.example",
     "doc": "Carlos Mendez",
-    "status": "new",
+    "status": "day1",
     "value": 1500,
     "retainer": 750,
-    "last_touch": null
+    "last_touch": "2026-09-30 01:46"
   }
 ]

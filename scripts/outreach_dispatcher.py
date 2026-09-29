@@ -354,16 +354,20 @@ def send_telegram_campaign_digest(filtered, stage):
     except Exception:
         pass
 
-    # Fallback to curl.exe for 100% reliability on Windows
+    # Fallback to curl.exe with temp payload file for 100% reliability on Windows
     try:
         import subprocess
+        payload_file = ROOT_DIR / "temp_tg_outreach.json"
+        payload_file.write_text(json.dumps({"chat_id": chat_id, "text": html_msg, "parse_mode": "HTML"}, ensure_ascii=False), encoding="utf-8")
         res = subprocess.run(
             ["curl.exe", "-s", "-X", "POST",
              "-H", "Content-Type: application/json; charset=utf-8",
-             "-d", json.dumps({"chat_id": chat_id, "text": html_msg, "parse_mode": "HTML"}),
+             "-d", f"@{payload_file.name}",
              f"https://api.telegram.org/bot{bot_token}/sendMessage"],
-            capture_output=True, text=True, timeout=10
+            capture_output=True, text=True, timeout=10, cwd=str(ROOT_DIR)
         )
+        if payload_file.exists():
+            payload_file.unlink()
         if '"ok":true' in res.stdout:
             print("[✓] Dispatched Outreach Campaign Digest to Telegram (@Minhpv_bot) via curl!")
         else:
