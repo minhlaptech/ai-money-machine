@@ -20,7 +20,7 @@
     { "source": "/referral", "destination": "/projects/affiliate_blog/website/referrals.html" },
     { "source": "/affiliate", "destination": "/projects/affiliate_blog/website/referrals.html" },
     { "source": "/partners", "destination": "/projects/affiliate_blog/website/referrals.html" },
-    { "source": "/studio", "destination": "/studio/index.html" },
+    { "source": "/studio", "destination": "/projects/youtube_faceless/studio.html" },
     { "source": "/studio/audio_episodes/:file", "destination": "/projects/youtube_faceless/audio_episodes/:file" },
     { "source": "/studio/audio_shorts/:file", "destination": "/projects/youtube_faceless/audio_shorts/:file" },
     { "source": "/studio/thumbnails/:file", "destination": "/projects/youtube_faceless/thumbnails/:file" },
