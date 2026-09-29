@@ -54,6 +54,7 @@ def print_banner():
   [23] 🏛️ Mở Executive Client VIP Portal Hub (/portal & 30 Dedicated Portals)
   [24] 🤝 Mở Cổng Quản Lý Đối Tác & Tiếp Thị Liên Kết (/referral - 50% RevShare)
   [25] 🎙️ Studio Sản Xuất Voiceover AI & Phụ Đề SRT (30 Shorts / 10 Full Episodes)
+  [26] 🎬 Xưởng Render Video MP4 Tự Động (FFmpeg Broadcast H.264 / 4K Thumbnails / Subtitles)
   [0] Thoát
 ======================================================================
 """)
@@ -73,7 +74,7 @@ def run_script(rel_path, args=None):
 def main_loop():
     while True:
         print_banner()
-        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-25]: ").strip()
+        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-26]: ").strip()
 
         if choice == '1':
             ping = input("Bạn có muốn gửi báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
@@ -323,11 +324,43 @@ def main_loop():
                     args.append("--telegram")
                 run_script("scripts/voiceover_generator.py", args)
 
+        elif choice == '26':
+            print("\nChọn loại video bạn muốn Render tự động:")
+            print("  [1] 30-Day Viral Shorts (9:16 vertical 1080x1920 cho TikTok/Reels/Shorts)")
+            print("  [2] 10 Full-Length Faceless YouTube Episodes (16:9 widescreen 1920x1080)")
+            sub = input("Nhập lựa chọn (1/2, mặc định 1): ").strip()
+            if sub == '2':
+                ep = input("Nhập số tập (1-10, hoặc 'all' để render toàn bộ): ").strip().lower()
+                tg = input("Bắn báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
+                args = ["--type", "episode"]
+                if ep == 'all':
+                    args.append("--all")
+                elif ep.isdigit() and 1 <= int(ep) <= 10:
+                    args.extend(["--episode", ep])
+                else:
+                    args.extend(["--episode", "1"])
+                if tg != 'n':
+                    args.append("--telegram")
+                run_script("scripts/video_assembler.py", args)
+            else:
+                day = input("Nhập số ngày (1-30, hoặc 'all' để render toàn bộ): ").strip().lower()
+                tg = input("Bắn báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
+                args = ["--type", "shorts"]
+                if day == 'all':
+                    args.append("--all")
+                elif day.isdigit() and 1 <= int(day) <= 30:
+                    args.extend(["--day", day])
+                else:
+                    args.extend(["--day", "1"])
+                if tg != 'n':
+                    args.append("--telegram")
+                run_script("scripts/video_assembler.py", args)
+
         elif choice == '0':
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 25.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 26.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 

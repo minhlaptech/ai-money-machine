@@ -339,9 +339,27 @@ def send_telegram_alert(results):
             headers={"Content-Type": "application/json"},
             data=json.dumps({"chat_id": chat_id, "text": html_msg, "parse_mode": "HTML"}).encode("utf-8")
         )
-        with urllib.request.urlopen(req, timeout=10) as resp:
+        with urllib.request.urlopen(req, timeout=5) as resp:
             if resp.status == 200:
                 print(f"[✓] Đã gửi báo cáo sản xuất Voiceover ({len(results)} items) về Telegram!")
+                return
+    except Exception:
+        pass
+
+    # Fallback to curl.exe for 100% reliability on Windows
+    try:
+        import subprocess
+        res = subprocess.run(
+            ["curl.exe", "-s", "-X", "POST",
+             "-H", "Content-Type: application/json; charset=utf-8",
+             "-d", json.dumps({"chat_id": chat_id, "text": html_msg, "parse_mode": "HTML"}),
+             f"https://api.telegram.org/bot{bot_token}/sendMessage"],
+            capture_output=True, text=True, timeout=10
+        )
+        if '"ok":true' in res.stdout:
+            print(f"[✓] Đã gửi báo cáo sản xuất Voiceover ({len(results)} items) về Telegram via curl!")
+        else:
+            print(f"[!] Lỗi gửi Telegram curl: {res.stdout}")
     except Exception as e:
         print(f"[!] Lỗi gửi Telegram: {e}")
 
