@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HeadlineIQ — AI Headline Analyzer & Generator</title>
+  <meta name="description" content="Score your headlines for clickability, SEO, and emotional impact. Generate better alternatives using AI.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #080812; --bg-2: #10101e; --bg-3: #181830;
+      --surface: #1c1c38; --surface-2: #24244a;
+      --accent: #e040fb; --accent-2: #7c4dff; --accent-3: #00e5ff;
+      --gradient: linear-gradient(135deg, #e040fb, #7c4dff);
+      --gradient-2: linear-gradient(135deg, #7c4dff, #00e5ff);
+      --glow: rgba(224,64,251,0.2);
+      --text: #f0f0ff; --text-2: #a0a0c8; --text-3: #606088;
+      --border: rgba(255,255,255,0.06);
+      --green: #00e676; --yellow: #ffd740; --red: #ff5252;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); min-height:100vh; }
+    .glow { position:fixed; width:500px; height:500px; border-radius:50%; filter:blur(160px); opacity:0.08; pointer-events:none; }
+    .g1 { top:-150px; left:20%; background:var(--accent); }
+    .g2 { bottom:-150px; right:10%; background:var(--accent-3); }
+
+    header { border-bottom:1px solid var(--border); padding:14px 24px; display:flex; justify-content:space-between; align-items:center; background:rgba(8,8,18,0.9); backdrop-filter:blur(20px); position:sticky; top:0; z-index:50; }
+    .logo { font-family:'Outfit',sans-serif; font-size:22px; font-weight:800; background:var(--gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+    .badge { font-size:11px; background:rgba(0,229,255,0.1); color:var(--accent-3); border:1px solid rgba(0,229,255,0.2); padding:4px 12px; border-radius:20px; }
+
+    .container { max-width:900px; margin:0 auto; padding:40px 24px; position:relative; z-index:1; }
+    .hero { text-align:center; margin-bottom:40px; }
+    .hero h1 { font-family:'Outfit',sans-serif; font-size:clamp(28px,4vw,40px); font-weight:800; margin-bottom:10px; }
+    .hero h1 .gr { background:var(--gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+    .hero p { color:var(--text-2); font-size:15px; max-width:500px; margin:0 auto; }
+
+    .app { background:var(--bg-2); border:1px solid var(--border); border-radius:24px; padding:32px; }
+    .input-wrap { position:relative; margin-bottom:20px; }
+    .input-wrap label { display:block; font-size:12px; font-weight:600; color:var(--text-3); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:8px; }
+    .headline-input { width:100%; background:var(--bg-3); border:1px solid var(--border); border-radius:14px; padding:18px 20px; color:var(--text); font-family:inherit; font-size:18px; font-weight:600; outline:none; transition:border-color 0.3s; }
+    .headline-input:focus { border-color:var(--accent); }
+    .headline-input::placeholder { color:var(--text-3); font-weight:400; }
+    .char-count { position:absolute; right:16px; bottom:14px; font-size:12px; color:var(--text-3); }
+
+    .options { display:flex; gap:12px; margin-bottom:20px; flex-wrap:wrap; }
+    .opt { flex:1; min-width:150px; }
+    .opt label { display:block; font-size:11px; font-weight:600; color:var(--text-3); text-transform:uppercase; letter-spacing:1px; margin-bottom:6px; }
+    .opt select { width:100%; background:var(--bg-3); border:1px solid var(--border); border-radius:10px; padding:10px; color:var(--text); font-family:inherit; font-size:13px; outline:none; appearance:none; cursor:pointer; }
+
+    .analyze-btn { width:100%; background:var(--gradient); color:#fff; border:none; padding:16px; border-radius:14px; font-size:16px; font-weight:700; cursor:pointer; font-family:inherit; transition:all 0.3s; }
+    .analyze-btn:hover { transform:translateY(-2px); box-shadow:0 8px 30px var(--glow); }
+
+    .results { display:none; margin-top:28px; }
+
+    .score-ring { width:140px; height:140px; margin:0 auto 24px; position:relative; }
+    .score-ring svg { transform:rotate(-90deg); }
+    .score-ring circle { fill:none; stroke-width:10; }
+    .score-ring .bg-ring { stroke:var(--bg-3); }
+    .score-ring .score-arc { stroke-linecap:round; transition:stroke-dashoffset 1s ease, stroke 0.5s; }
+    .score-num { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-family:'Outfit',sans-serif; font-size:42px; font-weight:800; }
+    .score-label { text-align:center; font-size:13px; color:var(--text-2); margin-bottom:24px; }
+
+    .metrics { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin-bottom:24px; }
+    .metric { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:16px; }
+    .metric-name { font-size:11px; text-transform:uppercase; letter-spacing:1px; color:var(--text-3); margin-bottom:6px; }
+    .metric-bar { height:6px; background:var(--bg-3); border-radius:3px; overflow:hidden; margin-bottom:6px; }
+    .metric-fill { height:100%; border-radius:3px; transition:width 1s ease; }
+    .metric-val { font-size:13px; font-weight:600; }
+
+    .suggestions { background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:24px; margin-bottom:16px; }
+    .suggestions h3 { font-size:14px; font-weight:700; margin-bottom:12px; background:var(--gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+    .suggestion { background:var(--bg-2); border:1px solid var(--border); border-radius:10px; padding:12px 16px; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center; cursor:pointer; transition:all 0.2s; }
+    .suggestion:hover { border-color:rgba(224,64,251,0.3); transform:translateX(4px); }
+    .suggestion .text { font-size:14px; flex:1; }
+    .suggestion .copy-s { font-size:11px; color:var(--accent); opacity:0; transition:opacity 0.2s; white-space:nowrap; margin-left:12px; }
+    .suggestion:hover .copy-s { opacity:1; }
+
+    .tips { background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:24px; }
+    .tips h3 { font-size:14px; font-weight:700; margin-bottom:12px; color:var(--accent-3); }
+    .tip { font-size:13px; color:var(--text-2); margin-bottom:8px; padding-left:20px; position:relative; }
+    .tip::before { content:'💡'; position:absolute; left:0; }
+
+    footer { text-align:center; padding:40px 24px; color:var(--text-3); font-size:12px; border-top:1px solid var(--border); margin-top:40px; }
+    @media(max-width:600px) { .container{padding:24px 16px;} .app{padding:20px;} .options{flex-direction:column;} }
+  </style>
+</head>
+<body>
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <header><div class="logo">HeadlineIQ</div><div class="badge">✨ Free Tool</div></header>
+
+  <div class="container">
+    <div class="hero">
+      <h1>Score Your Headline.<br><span class="gr">Make It Irresistible.</span></h1>
+      <p>Analyze any headline for emotional impact, clarity, SEO power, and clickability. Get AI-powered alternatives.</p>
+    </div>
+
+    <div class="app">
+      <div class="input-wrap">
+        <label>✍️ Enter your headline</label>
+        <input class="headline-input" id="headlineInput" type="text" placeholder="e.g. 5 AI Tools That Will Make You $1000/Month" maxlength="120" oninput="updateCount()">
+        <span class="char-count" id="charCount">0/120</span>
+      </div>
+      <div class="options">
+        <div class="opt"><label>Content Type</label><select id="contentType"><option value="blog">Blog Post</option><option value="youtube">YouTube Video</option><option value="email">Email Subject</option><option value="ad">Ad Copy</option><option value="social">Social Post</option></select></div>
+        <div class="opt"><label>Target Audience</label><select id="audience"><option value="general">General</option><option value="business">Business Owners</option><option value="marketers">Marketers</option><option value="developers">Developers</option><option value="beginners">Beginners</option></select></div>
+      </div>
+      <button class="analyze-btn" onclick="analyze()">🔍 Analyze Headline</button>
+
+      <div class="results" id="results">
+        <div class="score-ring" id="scoreRing">
+          <svg width="140" height="140"><circle class="bg-ring" cx="70" cy="70" r="60"/><circle class="score-arc" id="scoreArc" cx="70" cy="70" r="60"/></svg>
+          <div class="score-num" id="scoreNum">0</div>
+        </div>
+        <div class="score-label" id="scoreLabel">Analyzing...</div>
+        <div class="metrics" id="metrics"></div>
+        <div class="suggestions" id="suggestions"><h3>✨ Better Alternatives</h3><div id="altList"></div></div>
+        <div class="tips" id="tips"><h3>💡 Improvement Tips</h3><div id="tipList"></div></div>
+      </div>
+    </div>
+  </div>
+  <footer><p>HeadlineIQ — Score and improve your headlines with AI. © 2026</p><p style="margin-top:6px;">Part of the AI Automation Guide toolkit</p></footer>
+
+  <script>
+    function updateCount(){const c=document.getElementById('headlineInput').value.length;document.getElementById('charCount').textContent=c+'/120';}
+
+    function analyze(){
+      const h=document.getElementById('headlineInput').value.trim();
+      if(!h){alert('Enter a headline first!');return;}
+      const type=document.getElementById('contentType').value;
+      const aud=document.getElementById('audience').value;
+
+      // Scoring
+      const scores=scoreHeadline(h,type);
+      const total=Math.round((scores.emotion+scores.clarity+scores.seo+scores.power+scores.length)/5);
+
+      // Show results
+      document.getElementById('results').style.display='block';
+      animateScore(total);
+
+      // Label
+      const labels={90:'🔥 Exceptional!',75:'✅ Strong Headline',60:'👍 Good, Room to Improve',45:'⚠️ Needs Work',0:'❌ Weak — Rewrite Recommended'};
+      let label='';for(const[t,l]of Object.entries(labels).sort((a,b)=>b[0]-a[0])){if(total>=parseInt(t)){label=l;break;}}
+      document.getElementById('scoreLabel').textContent=label;
+
+      // Metrics
+      const metricData=[
+        {name:'Emotional Impact',val:scores.emotion,color:scores.emotion>70?'var(--green)':scores.emotion>45?'var(--yellow)':'var(--red)'},
+        {name:'Clarity & Readability',val:scores.clarity,color:scores.clarity>70?'var(--green)':scores.clarity>45?'var(--yellow)':'var(--red)'},
+        {name:'SEO Strength',val:scores.seo,color:scores.seo>70?'var(--green)':scores.seo>45?'var(--yellow)':'var(--red)'},
+        {name:'Power Words',val:scores.power,color:scores.power>70?'var(--green)':scores.power>45?'var(--yellow)':'var(--red)'},
+        {name:'Length Optimization',val:scores.length,color:scores.length>70?'var(--green)':scores.length>45?'var(--yellow)':'var(--red)'}
+      ];
+      document.getElementById('metrics').innerHTML=metricData.map(m=>`<div class="metric"><div class="metric-name">${m.name}</div><div class="metric-bar"><div class="metric-fill" style="width:${m.val}%;background:${m.color}"></div></div><div class="metric-val" style="color:${m.color}">${m.val}/100</div></div>`).join('');
+
+      // Alternatives
+      const alts=generateAlternatives(h,type,aud);
+      document.getElementById('altList').innerHTML=alts.map(a=>`<div class="suggestion" onclick="copyAlt(this,'${a.replace(/'/g,"\\'")}')"><span class="text">${a}</span><span class="copy-s">Click to copy</span></div>`).join('');
+
+      // Tips
+      const tips=generateTips(scores,h);
+      document.getElementById('tipList').innerHTML=tips.map(t=>`<div class="tip">${t}</div>`).join('');
+
+      document.getElementById('results').scrollIntoView({behavior:'smooth'});
+    }
+
+    function scoreHeadline(h,type){
+      const words=h.split(/\s+/);const wc=words.length;const lower=h.toLowerCase();
+      const emotionWords=['amazing','shocking','secret','proven','powerful','ultimate','incredible','guaranteed','exclusive','revolutionary','mistake','warning','danger','urgent','critical','essential','surprising','unexpected','mind-blowing','game-changing'];
+      const powerWords=['free','new','you','how','why','best','top','first','last','only','never','always','every','complete','instant','easy','simple','fast','quick','step'];
+      const numbers=/\d+/.test(h);const question=h.includes('?');const brackets=/[\[\(]/.test(h);
+      const hasColon=h.includes(':') || h.includes('—') || h.includes('-');
+
+      let emotion=30;
+      emotionWords.forEach(w=>{if(lower.includes(w))emotion+=12;});
+      if(question)emotion+=8;if(h.includes('!'))emotion+=5;
+      emotion=Math.min(emotion,100);
+
+      let clarity=50;
+      if(wc>=5&&wc<=15)clarity+=25;else if(wc<5)clarity+=10;else clarity-=10;
+      if(h.charAt(0)===h.charAt(0).toUpperCase())clarity+=10;
+      if(!lower.includes('thing')&&!lower.includes('stuff'))clarity+=10;
+      clarity=Math.min(clarity,100);
+
+      let seo=30;
+      if(wc>=6&&wc<=12)seo+=20;
+      if(h.length>=30&&h.length<=60)seo+=20;
+      if(numbers)seo+=15;
+      if(hasColon)seo+=10;
+      seo=Math.min(seo,100);
+
+      let power=20;
+      powerWords.forEach(w=>{if(lower.includes(w))power+=10;});
+      if(numbers)power+=15;if(brackets)power+=10;
+      power=Math.min(power,100);
+
+      let length=50;
+      const charLen=h.length;
+      if(type==='youtube'&&charLen>=40&&charLen<=70)length=90;
+      else if(type==='email'&&charLen>=20&&charLen<=50)length=90;
+      else if(type==='blog'&&charLen>=40&&charLen<=65)length=90;
+      else if(charLen>=30&&charLen<=80)length=70;
+      else length=40;
+
+      return{emotion,clarity,seo,power,length};
+    }
+
+    function generateAlternatives(h,type,aud){
+      const words=h.split(/\s+/);const hasNum=/(\d+)/.exec(h);
+      const alts=[];
+      alts.push('How '+h.charAt(0).toLowerCase()+h.slice(1)+(h.endsWith('?')?'':' (Step-by-Step Guide)'));
+      if(hasNum)alts.push(h.replace(hasNum[1],String(parseInt(hasNum[1])+2)));
+      alts.push(h+' ['+new Date().getFullYear()+' Updated]');
+      alts.push('The Ultimate Guide to '+h.replace(/^(how to |why |the |a )/i,''));
+      if(!h.includes('?'))alts.push('Why '+h.charAt(0).toLowerCase()+h.slice(1)+'?');
+      return alts.slice(0,5);
+    }
+
+    function generateTips(scores,h){
+      const tips=[];
+      if(scores.emotion<60)tips.push('Add emotional trigger words like "proven," "secret," or "guaranteed" to increase engagement.');
+      if(scores.seo<60)tips.push('Include a number for 36% more clicks. Lists and numbered headlines perform best in search.');
+      if(scores.power<60)tips.push('Use power words like "free," "ultimate," or "step-by-step" to boost click-through rate.');
+      if(scores.length<70)tips.push('Optimize length: aim for 6-12 words and 40-65 characters for best performance.');
+      if(scores.clarity<60)tips.push('Simplify your headline. Use shorter words and remove jargon for better readability.');
+      if(!h.includes('(')){tips.push('Consider adding brackets like [Guide] or (2026) — they increase CTR by 38%.');}
+      if(tips.length===0)tips.push('Great headline! Consider A/B testing with slight variations to find the highest performer.');
+      return tips;
+    }
+
+    function animateScore(target){
+      const arc=document.getElementById('scoreArc');const num=document.getElementById('scoreNum');
+      const circumference=2*Math.PI*60;
+      arc.style.strokeDasharray=circumference;arc.style.strokeDashoffset=circumference;
+      const color=target>=75?'var(--green)':target>=50?'var(--yellow)':'var(--red)';
+      arc.style.stroke=color;num.style.color=color;
+      let current=0;const interval=setInterval(()=>{current++;num.textContent=current;
+        arc.style.strokeDashoffset=circumference-(current/100)*circumference;
+        if(current>=target)clearInterval(interval);},15);
+    }
+
+    function copyAlt(el,text){navigator.clipboard.writeText(text);el.querySelector('.copy-s').textContent='✅ Copied!';setTimeout(()=>el.querySelector('.copy-s').textContent='Click to copy',1500);}
+  </script>
+</body>
+</html>
