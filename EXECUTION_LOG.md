@@ -516,3 +516,20 @@
     - [8] Tạo bài đăng bán hàng Print-on-Demand
     - [9] Mở Executive Command Center Dashboard trên trình duyệt web
   - Người dùng chỉ cần gõ `python scripts/ai_empire_cli.py` và bấm số [1-9] để vận hành toàn bộ cỗ máy mà không cần nhớ câu lệnh.
+
+---
+
+## 📅 2026-09-29 | Phiên #20 | Cẩm Nang Vận Hành Hàng Ngày 30 Phút (SOP), Cổng Khảo Sát Onboarding & Sitemap/Robots GEO
+
+### 🎉 Milestones Hoàn Thành:
+- ✅ **Quy Trình Tác Chiến Hàng Ngày 30 Phút ([SOP_DAILY_OPERATION.md](file:///d:/Project/work/SOP_DAILY_OPERATION.md))**:
+  - Hướng dẫn vận hành chi tiết chia làm 3 phiên (Sáng 10 phút gửi 3 email outreach, Trưa 10 phút đăng 1 bài social, Tối 10 phút nộp 1 proposal Upwork & check sales).
+  - Bảng chỉ số KPI hàng tuần đo lường mục tiêu doanh thu **$1,500 – $3,500/tháng**.
+  - Danh mục truy cập nhanh toàn bộ các liên kết cốt lõi của cỗ máy.
+- ✅ **Cổng Khảo Sát Tiếp Nhận Khách Hàng Chuyên Nghiệp ([client_onboarding_portal.html](file:///d:/Project/work/projects/ai_automation_smb/client_onboarding_portal.html))**:
+  - Ứng dụng web thu thập thông tin doanh nghiệp, dịch vụ cần quảng bá, câu hỏi thường gặp FAQ, công cụ lịch hẹn (Google Calendar/Calendly), và giọng điệu AI.
+  - Tích hợp thông báo tức thời về Telegram khi khách hàng hoàn tất form.
+  - Đã xuất bản lên web tại `projects/affiliate_blog/website/onboarding.html`.
+- ✅ **Cấu Hình robots.txt & sitemap.xml Chuẩn GEO Tối Ưu Cho AI Search Engines**:
+  - [`robots.txt`](file:///d:/Project/work/projects/affiliate_blog/website/robots.txt): Cấu hình mở cổng cho toàn bộ các bot AI thế hệ mới (GPTBot, PerplexityBot, ClaudeBot, Applebot-Extended, Google-Extended).
+  - [`sitemap.xml`](file:///d:/Project/work/projects/affiliate_blog/website/sitemap.xml): Định tuyến toàn bộ 11 trang (Trang chủ, Master Bundle, Calculator, Onboarding và 8 bài viết chuyên sâu).

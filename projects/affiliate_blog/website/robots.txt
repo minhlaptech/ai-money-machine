@@ -1,0 +1,28 @@
+# robots.txt for AI Automation Guide & Knowledge Portal
+# Optimized for Traditional Search & Generative AI Search Engines (GEO)
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Generative AI Crawlers (Explicitly Allowed for AI Citations & Search)
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Canonical XML Sitemap
+Sitemap: https://ai-automation-guide-omega.vercel.app/sitemap.xml

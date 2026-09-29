@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client Onboarding Portal — AI Systems Implementation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #070716;
+      --card-bg: rgba(18, 18, 42, 0.7);
+      --border: rgba(255, 255, 255, 0.08);
+      --accent: #7c5cfc;
+      --accent-glow: rgba(124, 92, 252, 0.35);
+      --cyan: #00f2fe;
+      --cyan-glow: rgba(0, 242, 254, 0.25);
+      --emerald: #00e676;
+      --text: #f0f0ff;
+      --text-muted: #9ba1ba;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+    .glow-orb { position: fixed; border-radius: 50%; filter: blur(160px); pointer-events: none; z-index: 0; }
+    .orb-1 { width: 500px; height: 500px; background: var(--accent-glow); top: -100px; left: -100px; }
+    .orb-2 { width: 500px; height: 500px; background: var(--cyan-glow); bottom: -100px; right: -100px; }
+
+    .portal-box {
+      position: relative; z-index: 1;
+      max-width: 820px; margin: 0 auto;
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: 24px; padding: 48px; backdrop-filter: blur(20px);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+    }
+    .badge {
+      display: inline-block; background: rgba(0,242,254,0.15); color: var(--cyan);
+      border: 1px solid rgba(0,242,254,0.3); padding: 4px 14px; border-radius: 20px;
+      font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 16px;
+    }
+    h1 {
+      font-family: 'Outfit', sans-serif; font-size: 34px; font-weight: 800; margin-bottom: 8px;
+      background: linear-gradient(135deg, #fff 40%, var(--cyan) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .sub { font-size: 15px; color: var(--text-muted); margin-bottom: 32px; }
+
+    .step-section {
+      background: rgba(255,255,255,0.02); border: 1px solid var(--border);
+      border-radius: 16px; padding: 24px; margin-bottom: 24px;
+    }
+    .step-title {
+      font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 700; color: #fff;
+      margin-bottom: 16px; display: flex; align-items: center; gap: 10px;
+    }
+    .step-num {
+      width: 28px; height: 28px; border-radius: 50%; background: var(--accent);
+      color: #fff; font-size: 13px; font-weight: 800; display: inline-flex;
+      align-items: center; justify-content: center;
+    }
+    .form-group { margin-bottom: 16px; }
+    .form-label { display: block; font-size: 13px; font-weight: 600; color: #cbd5e1; margin-bottom: 6px; }
+    .form-input, .form-textarea, .form-select {
+      width: 100%; background: rgba(0,0,0,0.4); border: 1px solid var(--border);
+      border-radius: 10px; padding: 12px 14px; color: #fff; font-family: inherit; font-size: 14px;
+      outline: none; transition: border-color 0.2s;
+    }
+    .form-input:focus, .form-textarea:focus, .form-select:focus { border-color: var(--cyan); }
+    .form-textarea { resize: vertical; min-height: 80px; }
+
+    .btn-submit {
+      display: block; width: 100%; background: linear-gradient(135deg, var(--accent), var(--cyan));
+      color: #000; font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 16px;
+      padding: 16px; border: none; border-radius: 12px; cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.2s; margin-top: 24px;
+    }
+    .btn-submit:hover { transform: scale(1.01); box-shadow: 0 4px 25px rgba(0,242,254,0.4); }
+
+    #success-msg {
+      display: none; background: rgba(0,230,118,0.15); border: 1px solid var(--emerald);
+      border-radius: 12px; padding: 20px; text-align: center; margin-top: 20px; color: var(--emerald);
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+
+  <main class="portal-box">
+    <div class="badge">CONFIDENTIAL ONBOARDING INTAKE</div>
+    <h1>AI Systems Implementation Setup</h1>
+    <p class="sub">
+      Please provide your operational details below so our engineering team can configure, train, and test your bespoke AI Copilot. Typical deployment takes 48–72 hours.
+    </p>
+
+    <form id="onboarding-form" onsubmit="handleOnboard(event)">
+      <!-- Step 1 -->
+      <div class="step-section">
+        <div class="step-title">
+          <span class="step-num">1</span> Business Information & Primary Contact
+        </div>
+        <div class="form-group">
+          <label class="form-label">Company / Practice Name</label>
+          <input type="text" class="form-input" id="biz-name" required placeholder="e.g. Austin Dental Co">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Primary Website URL</label>
+          <input type="url" class="form-input" id="biz-web" required placeholder="https://www.austindental.example">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Direct Contact Email & Phone</label>
+          <input type="text" class="form-input" id="biz-contact" required placeholder="Dr. Miller / manager@austindental.example">
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="step-section">
+        <div class="step-title">
+          <span class="step-num">2</span> Service Offerings & Pricing Rules
+        </div>
+        <div class="form-group">
+          <label class="form-label">Top 3-5 Services to Promote</label>
+          <textarea class="form-textarea" id="biz-services" placeholder="e.g. Teeth Whitening ($350), Dental Implants ($2,500), Invisalign ($4,000)"></textarea>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Common FAQs & Operating Hours</label>
+          <textarea class="form-textarea" id="biz-faq" placeholder="e.g. Mon-Fri 8am-5pm. We accept Delta Dental, Cigna. Free initial consultation."></textarea>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="step-section">
+        <div class="step-title">
+          <span class="step-num">3</span> Integration & Calendar Routing
+        </div>
+        <div class="form-group">
+          <label class="form-label">Calendar Booking Tool</label>
+          <select class="form-select" id="biz-cal">
+            <option value="Google Calendar">Google Calendar</option>
+            <option value="Calendly">Calendly / Acuity Scheduling</option>
+            <option value="Outlook 365">Microsoft Outlook 365</option>
+            <option value="Custom CRM">Custom CRM (HubSpot, GoHighLevel)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Booking Link or Calendar Share Email</label>
+          <input type="text" class="form-input" id="biz-booking-link" placeholder="calendly.com/austindental or appointments@austindental.example">
+        </div>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="step-section">
+        <div class="step-title">
+          <span class="step-num">4</span> AI Persona & Escalation Preferences
+        </div>
+        <div class="form-group">
+          <label class="form-label">Preferred Tone of Voice</label>
+          <select class="form-select" id="biz-tone">
+            <option value="Warm, professional, clinical">Warm, empathetic & professional (Recommended for Healthcare/Legal)</option>
+            <option value="Urgent, fast, reassuring">Urgent, fast & direct (Recommended for Emergency HVAC/Plumbing)</option>
+            <option value="Casual, friendly, energetic">Casual, trendy & energetic (Recommended for D2C/E-Com)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Urgent Escalation Phone / SMS (for high-value leads)</label>
+          <input type="text" class="form-input" id="biz-sms" placeholder="e.g. +1 (512) 555-0199 (Front Desk Cell)">
+        </div>
+      </div>
+
+      <button type="submit" class="btn-submit">🚀 Submit Implementation Setup</button>
+    </form>
+
+    <div id="success-msg">
+      ✓ Thank you! Your onboarding information has been successfully received. Our engineering team has initiated your sandbox setup. We will reach out within 24 hours with your preview link.
+    </div>
+  </main>
+
+  <script>
+    function handleOnboard(e) {
+      e.preventDefault();
+      const data = {
+        name: document.getElementById('biz-name').value,
+        website: document.getElementById('biz-web').value,
+        contact: document.getElementById('biz-contact').value,
+        services: document.getElementById('biz-services').value,
+        faq: document.getElementById('biz-faq').value,
+        calendar: document.getElementById('biz-cal').value,
+        booking: document.getElementById('biz-booking-link').value,
+        tone: document.getElementById('biz-tone').value,
+        escalation: document.getElementById('biz-sms').value
+      };
+
+      // Hide form, show confirmation
+      document.getElementById('onboarding-form').style.display = 'none';
+      document.getElementById('success-msg').style.display = 'block';
+
+      // Attempt Telegram Notification if webhook configured
+      fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: data.contact,
+          message: `[NEW CLIENT ONBOARDING]\\nClient: ${data.name}\\nWebsite: ${data.website}\\nCalendar: ${data.calendar}\\nEscalation: ${data.escalation}`
+        })
+      }).catch(() => {});
+    }
+  </script>
+</body>
+</html>
