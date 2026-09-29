@@ -48,7 +48,7 @@ ENV = load_env()
 LIVE_URLS = [
     ("SynapseGEO (AI SEO Audit)", "https://synapse-geo-audit.vercel.app"),
     ("ReviewGenius AI (Review Responder)", "https://work-minh-lap.vercel.app/products/review_genius/index.html"),
-    ("HeadlineIQ (Viral Headline Scorer)", "https://headlineiq-eta.vercel.app"),
+    ("HeadlineIQ (Viral Headline Scorer)", "https://work-minh-lap.vercel.app/headlineiq"),
     ("AI Resource Hub (Blog & Lead Capture)", "https://work-minh-lap.vercel.app/blog"),
     ("Chatbot Portfolio Demo", "https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/chatbot_demo/index.html"),
     ("AI Copilot Embed Widget", "https://work-minh-lap.vercel.app/copilot-widget.js"),
