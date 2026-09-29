@@ -5,6 +5,8 @@ Saw your posting regarding the shopify & e-commerce ai sales concierge & cart re
 Most online shoppers abandon carts because their sizing, shipping, or compatibility questions aren't answered instantly. I deploy proactive AI shopping concierges that recommend personalized products, answer stock questions, and trigger high-converting SMS recovery discounts.
 
 Our e-commerce AI prototypes simulate instant order lookups, inventory checks, and checkout parameter generation.
+👉 Live Agency Portfolio: https://work-minh-lap.vercel.app/freelance
+👉 VIP Client Portals: https://work-minh-lap.vercel.app/portal
 
 A couple of quick questions to ensure we scope this accurately:
 1. What e-commerce platform are you running (Shopify, WooCommerce, Magento)?

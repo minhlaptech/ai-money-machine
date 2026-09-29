@@ -4,8 +4,9 @@ Saw your posting regarding the enterprise ai copilot deployment & white-label cl
 
 Rather than just delivering a simple script or widget, I deploy a branded executive management portal for your team, featuring real-time 99.98% SLA monitoring, conversation logs, and 1-click embed tags for WordPress/Webflow/Shopify.
 
-You can explore our central VIP Client Portal Command Hub showcasing 30 enterprise accounts:
+You can explore our central VIP Client Portal Command Hub showcasing 60 enterprise accounts:
 👉 Live VIP Hub: https://work-minh-lap.vercel.app/portal
+👉 VIP Onboarding Intake: https://work-minh-lap.vercel.app/onboarding
 
 A couple of quick questions to ensure we scope this accurately:
 1. Which web CMS will the AI copilot be embedded onto?

@@ -5,6 +5,7 @@ Saw your posting regarding the data scraping & ai enrichment pipeline.
 Reliable data extraction requires handling Cloudflare anti-bot checks, dynamic JavaScript rendering, and structured JSON parsing without missing records.
 
 I build asynchronous Python and Playwright pipelines that extract clean datasets and structure them using OpenAI's structured outputs API.
+👉 Live Micro-SaaS Suite & Tools: https://work-minh-lap.vercel.app/tools
 
 A couple of quick questions to ensure we scope this accurately:
 1. What is the target URL or domain directory you need scraped?

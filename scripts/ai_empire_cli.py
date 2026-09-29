@@ -26,7 +26,7 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v13.0 ⚡
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v14.0 ⚡
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
@@ -69,6 +69,7 @@ def print_banner():
   [38] 📋 Mở VIP Client Onboarding Intake Hub (/onboarding - 48h SLA Sprint)
   [39] 📊 Cập Nhật Trạng Thái Deal B2B CRM & Bắn Cảnh Báo Telegram (CRM Deal Tracker)
   [40] 💳 Giả Lập & Kiểm Thử Doanh Thu Webhook Đa Kênh (/api/webhook Simulator)
+  [41] 📋 Giả Lập & Kiểm Thử Nộp Hồ Sơ Onboarding VIP (/api/contact Simulator)
   [0] Thoát
 ======================================================================
 """)
@@ -88,7 +89,7 @@ def run_script(rel_path, args=None):
 def main_loop():
     while True:
         print_banner()
-        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-40]: ").strip()
+        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-41]: ").strip()
 
         if choice == '1':
             ping = input("Bạn có muốn gửi báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
@@ -493,11 +494,27 @@ def main_loop():
             scenario = sc_map.get(sc_choice, "microsaas_all_access")
             run_script("scripts/test_sales_webhook.py", ["--scenario", scenario])
 
+        elif choice == '41':
+            print("\nCác kịch bản giả lập nộp hồ sơ Onboarding VIP qua /api/contact:")
+            print("  1: Austin Dental Co (Dr. Sarah Jenkins - $1,200 Setup + $650/mo)")
+            print("  2: Sterling & Partners Legal (David Sterling, Esq. - $1,500 Setup + $750/mo)")
+            print("  3: Beverly Hills Plastic Surgery (Dr. Jason Miller - $4,500 Setup + $1,200/mo)")
+            print("  4: Chạy tất cả 3 hồ sơ liên tiếp")
+            sc_c = input("Chọn kịch bản [1-4, mặc định 1]: ").strip()
+            if sc_c == '2':
+                run_script("scripts/test_client_onboarding.py", ["--client", "sterling_legal"])
+            elif sc_c == '3':
+                run_script("scripts/test_client_onboarding.py", ["--client", "beverly_plastics"])
+            elif sc_c == '4':
+                run_script("scripts/test_client_onboarding.py", ["--all"])
+            else:
+                run_script("scripts/test_client_onboarding.py", ["--client", "austin_dental"])
+
         elif choice == '0':
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 40.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 41.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 

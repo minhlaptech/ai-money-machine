@@ -16,7 +16,7 @@ PROPOSAL_TEMPLATES = {
     "chatbot": {
         "subject": "AI Chatbot & Support Copilot",
         "hook": "Building a customer-facing AI chatbot requires strict grounding to your actual company documentation so it never hallucinates, while booking appointments or escalating to human agents seamlessly.",
-        "proof": "I have an active interactive demo running right now that demonstrates this exact flow:\n👉 Live Demo: https://work-minh-lap.vercel.app/chatbotdemo",
+        "proof": "I have an active interactive demo running right now that demonstrates this exact flow:\n👉 Live Demo: https://work-minh-lap.vercel.app/chatbotdemo\n👉 VIP Client Hub: https://work-minh-lap.vercel.app/portal",
         "questions": [
             "Which platform is your website built on (Shopify, WordPress, Webflow, custom)?",
             "What CRM or calendar tool should the bot sync conversations and appointments with (Google Calendar, Calendly, HubSpot)?"
@@ -26,7 +26,7 @@ PROPOSAL_TEMPLATES = {
     "automation": {
         "subject": "Make.com & Zapier Pipeline Automation",
         "hook": "Manual data entry between tools is a massive drain on company hours and creates costly data entry mistakes. I design bulletproof Make.com and Zapier pipelines equipped with automatic error-handling and anomaly alerts.",
-        "proof": "I've deployed over 15 production automation blueprints handling multi-step webhooks, CRM synchronization, and payment alerts.",
+        "proof": "I've deployed over 15 production automation blueprints handling multi-step webhooks, CRM synchronization, and payment alerts.\n👉 Interactive Automation ROI Calculator: https://work-minh-lap.vercel.app/calculator",
         "questions": [
             "What is your approximate monthly volume of records or events passing through this workflow?",
             "Do you already have API access or admin credentials for the involved applications?"
@@ -36,7 +36,7 @@ PROPOSAL_TEMPLATES = {
     "scraping": {
         "subject": "Data Scraping & AI Enrichment Pipeline",
         "hook": "Reliable data extraction requires handling Cloudflare anti-bot checks, dynamic JavaScript rendering, and structured JSON parsing without missing records.",
-        "proof": "I build asynchronous Python and Playwright pipelines that extract clean datasets and structure them using OpenAI's structured outputs API.",
+        "proof": "I build asynchronous Python and Playwright pipelines that extract clean datasets and structure them using OpenAI's structured outputs API.\n👉 Live Micro-SaaS Suite & Tools: https://work-minh-lap.vercel.app/tools",
         "questions": [
             "What is the target URL or domain directory you need scraped?",
             "What format do you prefer for the final export (Google Sheet, CSV, PostgreSQL database)?"
@@ -46,7 +46,7 @@ PROPOSAL_TEMPLATES = {
     "geo_seo": {
         "subject": "AI Search & GEO (Generative Engine Optimization) Audit",
         "hook": "Traditional SEO alone is losing ground to AI search engines (ChatGPT, Perplexity, Claude). Making your brand visible to LLMs requires precise robots.txt permissions and deep JSON-LD Knowledge Graph Schemas.",
-        "proof": "I built and deployed SynapseGEO, an autonomous Generative Engine Optimization inspector:\n👉 Live Audit Engine: https://work-minh-lap.vercel.app/synapsegeo",
+        "proof": "I built and deployed SynapseGEO, an autonomous Generative Engine Optimization inspector:\n👉 Live Audit Engine: https://work-minh-lap.vercel.app/synapsegeo\n👉 Full SaaS Suite: https://work-minh-lap.vercel.app/saas",
         "questions": [
             "Do you already have access to edit your website's robots.txt and DNS records?",
             "Are you targeting local search recommendations or national B2B software queries?"
@@ -56,7 +56,7 @@ PROPOSAL_TEMPLATES = {
     "review_management": {
         "subject": "Autonomous AI Customer Review Management & Sentiment Responder",
         "hook": "Unanswered 1-star reviews on Google Maps and Yelp drastically cut organic conversions. My system uses sentiment analysis and LLM guardrails to draft empathetic, de-escalating replies and voucher offers in under 5 seconds.",
-        "proof": "You can test the actual review responder interface live on the web:\n👉 Live Demo: https://work-minh-lap.vercel.app/reviewgenius",
+        "proof": "You can test the actual review responder interface live on the web:\n👉 Live Demo: https://work-minh-lap.vercel.app/reviewgenius\n👉 Agency Hub: https://work-minh-lap.vercel.app/freelance",
         "questions": [
             "Which review platforms do you need integrated (Google Business Profile, Yelp, Trustpilot)?",
             "Should replies post automatically or require 1-click human approval first?"
@@ -66,7 +66,7 @@ PROPOSAL_TEMPLATES = {
     "client_portal": {
         "subject": "Enterprise AI Copilot Deployment & White-Label Client Portal",
         "hook": "Rather than just delivering a simple script or widget, I deploy a branded executive management portal for your team, featuring real-time 99.98% SLA monitoring, conversation logs, and 1-click embed tags for WordPress/Webflow/Shopify.",
-        "proof": "You can explore our central VIP Client Portal Command Hub showcasing 30 enterprise accounts:\n👉 Live VIP Hub: https://work-minh-lap.vercel.app/portal",
+        "proof": "You can explore our central VIP Client Portal Command Hub showcasing 60 enterprise accounts:\n👉 Live VIP Hub: https://work-minh-lap.vercel.app/portal\n👉 VIP Onboarding Intake: https://work-minh-lap.vercel.app/onboarding",
         "questions": [
             "Which web CMS will the AI copilot be embedded onto?",
             "Do you require role-based access for multiple team members or clients?"
@@ -76,7 +76,7 @@ PROPOSAL_TEMPLATES = {
     "ai_voice_caller": {
         "subject": "AI Voice Receptionist & Inbound/Outbound Calling Agent",
         "hook": "Traditional voicemail loses 80% of inbound callers. I deploy conversational AI voice agents (Vapi/Bland.ai + Twilio) that answer incoming phone calls with sub-800ms latency, qualify prospects, check calendar availability, and book appointments directly.",
-        "proof": "Our AI intake systems handle real-time customer dialogues, two-way Google Calendar synchronization, and speed-to-lead SMS routing.",
+        "proof": "Our AI intake systems handle real-time customer dialogues, two-way Google Calendar synchronization, and speed-to-lead SMS routing.\n👉 Live Voice Pitch Demos: https://work-minh-lap.vercel.app/pitches\n👉 Freelance Services: https://work-minh-lap.vercel.app/freelance",
         "questions": [
             "Do you already have a Twilio or phone number account set up, or should we provision one?",
             "What specific FAQs or qualification criteria should the voice agent check before transferring to your team?"
@@ -86,7 +86,7 @@ PROPOSAL_TEMPLATES = {
     "content_repurposing": {
         "subject": "Autonomous Multi-Platform Social Content Repurposing Engine",
         "hook": "Repurposing long-form YouTube videos, podcasts, or blog posts manually takes 10+ hours a week. I build automated content engines that ingest your media and automatically output viral Twitter threads, LinkedIn thought leadership posts, 60-second TikTok/Shorts scripts, and Reddit community discussions.",
-        "proof": "I built and deployed an autonomous multi-platform content engine powering 10 distinct content formats across social media.",
+        "proof": "I built and deployed an autonomous multi-platform content engine powering 10 distinct content formats across social media.\n👉 Live Media Studio (40 Videos Vault): https://work-minh-lap.vercel.app/studio\n👉 Content & Resource Hub: https://work-minh-lap.vercel.app/blog",
         "questions": [
             "What is your primary source format (YouTube video URLs, audio podcasts, or blog articles)?",
             "Which social media platforms do you want the final formatted copy pushed to?"
@@ -96,7 +96,7 @@ PROPOSAL_TEMPLATES = {
     "rag_knowledge_base": {
         "subject": "Custom Enterprise RAG (Retrieval-Augmented Generation) & Knowledge Base",
         "hook": "Generic ChatGPT answers don't know your company's proprietary SOPs, PDF contracts, or internal wiki. I build private RAG assistants using vector embeddings (Pinecone/Chroma/Supabase) that cite exact document pages and maintain strict factual grounding.",
-        "proof": "I specialize in grounded LLM architectures with strict context injection and anti-hallucination guardrails.",
+        "proof": "I specialize in grounded LLM architectures with strict context injection and anti-hallucination guardrails.\n👉 Live Grounded AI Assistant: https://work-minh-lap.vercel.app/chatbotdemo\n👉 AI Architecture Blueprints: https://work-minh-lap.vercel.app/bundle",
         "questions": [
             "What format are your source documents in (PDFs, Notion workspaces, Google Docs, CSVs)?",
             "Where will the assistant be accessed by your team (Slack, internal web dashboard, Discord)?"
@@ -106,7 +106,7 @@ PROPOSAL_TEMPLATES = {
     "ecommerce_ai_agent": {
         "subject": "Shopify & E-Commerce AI Sales Concierge & Cart Recovery Agent",
         "hook": "Most online shoppers abandon carts because their sizing, shipping, or compatibility questions aren't answered instantly. I deploy proactive AI shopping concierges that recommend personalized products, answer stock questions, and trigger high-converting SMS recovery discounts.",
-        "proof": "Our e-commerce AI prototypes simulate instant order lookups, inventory checks, and checkout parameter generation.",
+        "proof": "Our e-commerce AI prototypes simulate instant order lookups, inventory checks, and checkout parameter generation.\n👉 Live Agency Portfolio: https://work-minh-lap.vercel.app/freelance\n👉 VIP Client Portals: https://work-minh-lap.vercel.app/portal",
         "questions": [
             "What e-commerce platform are you running (Shopify, WooCommerce, Magento)?",
             "Do you already have Klaviyo or an SMS provider (Twilio, Attentive) connected for checkout recovery?"

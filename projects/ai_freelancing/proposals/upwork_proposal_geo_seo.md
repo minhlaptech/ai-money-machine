@@ -6,6 +6,7 @@ Traditional SEO alone is losing ground to AI search engines (ChatGPT, Perplexity
 
 I built and deployed SynapseGEO, an autonomous Generative Engine Optimization inspector:
 👉 Live Audit Engine: https://work-minh-lap.vercel.app/synapsegeo
+👉 Full SaaS Suite: https://work-minh-lap.vercel.app/saas
 
 A couple of quick questions to ensure we scope this accurately:
 1. Do you already have access to edit your website's robots.txt and DNS records?

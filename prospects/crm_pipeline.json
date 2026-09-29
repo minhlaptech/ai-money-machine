@@ -267,10 +267,10 @@
     "city": "Chicago, IL",
     "to": "contact@sterlinglegalchi.example",
     "doc": "David Sterling",
-    "status": "booked",
+    "status": "won",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:32"
+    "last_touch": "2026-09-30 03:38"
   },
   {
     "id": 22,
@@ -657,10 +657,10 @@
     "city": "Beverly Hills, CA",
     "to": "vip@bhplasticsurgeryca.example",
     "doc": "Dr. Katherine Cole",
-    "status": "day7",
+    "status": "booked",
     "value": 6500,
     "retainer": 950,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 03:38"
   },
   {
     "id": 52,

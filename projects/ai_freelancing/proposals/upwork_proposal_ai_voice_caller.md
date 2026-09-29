@@ -5,6 +5,8 @@ Saw your posting regarding the ai voice receptionist & inbound/outbound calling 
 Traditional voicemail loses 80% of inbound callers. I deploy conversational AI voice agents (Vapi/Bland.ai + Twilio) that answer incoming phone calls with sub-800ms latency, qualify prospects, check calendar availability, and book appointments directly.
 
 Our AI intake systems handle real-time customer dialogues, two-way Google Calendar synchronization, and speed-to-lead SMS routing.
+👉 Live Voice Pitch Demos: https://work-minh-lap.vercel.app/pitches
+👉 Freelance Services: https://work-minh-lap.vercel.app/freelance
 
 A couple of quick questions to ensure we scope this accurately:
 1. Do you already have a Twilio or phone number account set up, or should we provision one?
