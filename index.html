@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Money Machine — Executive Command Center</title>
+  <meta name="description" content="Central command dashboard for managing 8 AI income streams, live micro-SaaS apps, and client outreach.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #070712;
+      --bg-card: rgba(18, 18, 36, 0.7);
+      --bg-card-hover: rgba(28, 28, 54, 0.85);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(124, 92, 252, 0.4);
+      --accent: #7c5cfc;
+      --accent-glow: rgba(124, 92, 252, 0.35);
+      --cyan: #00f2fe;
+      --green: #00e676;
+      --orange: #ff9100;
+      --text: #f0f0ff;
+      --text-muted: #8888aa;
+      --text-sub: #555577;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+      padding-bottom: 60px;
+    }
+
+    /* Ambient dynamic glow */
+    .glow-orb {
+      position: fixed; border-radius: 50%; filter: blur(140px);
+      pointer-events: none; opacity: 0.12; z-index: 0;
+    }
+    .orb-1 { width: 500px; height: 500px; background: var(--accent); top: -100px; left: -100px; }
+    .orb-2 { width: 450px; height: 450px; background: var(--cyan); top: 30%; right: -150px; }
+    .orb-3 { width: 400px; height: 400px; background: #ff2a85; bottom: -100px; left: 20%; }
+
+    /* Top Navigation / Status Bar */
+    header {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(7, 7, 18, 0.85); backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border); padding: 14px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .brand-wrap { display: flex; align-items: center; gap: 14px; }
+    .logo-badge {
+      width: 38px; height: 38px; border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent), var(--cyan));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px; box-shadow: 0 0 20px var(--accent-glow);
+    }
+    .brand-text h1 {
+      font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .brand-text span { font-size: 11px; color: var(--text-muted); font-family: var(--font-mono); }
+
+    .system-status { display: flex; align-items: center; gap: 12px; }
+    .status-pill {
+      display: flex; align-items: center; gap: 8px;
+      background: rgba(0, 230, 118, 0.1); border: 1px solid rgba(0, 230, 118, 0.25);
+      color: var(--green); padding: 5px 14px; border-radius: 30px; font-size: 12px; font-weight: 600;
+    }
+    .pulse-dot {
+      width: 8px; height: 8px; border-radius: 50%; background: var(--green);
+      box-shadow: 0 0 10px var(--green); animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(0.85); } }
+
+    /* Layout Container */
+    .dashboard-container {
+      max-width: 1320px; margin: 0 auto; padding: 32px 24px;
+      position: relative; z-index: 1;
+    }
+
+    /* Metrics Grid */
+    .metrics-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px; margin-bottom: 32px;
+    }
+    .metric-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 18px; padding: 22px; backdrop-filter: blur(12px);
+      transition: all 0.25s ease;
+    }
+    .metric-card:hover { border-color: var(--border-accent); transform: translateY(-2px); }
+    .metric-label { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 8px; }
+    .metric-val { font-family: 'Outfit', sans-serif; font-size: 28px; font-weight: 800; color: #fff; }
+    .metric-sub { font-size: 12px; color: var(--green); margin-top: 6px; display: flex; align-items: center; gap: 4px; }
+
+    /* Section Headers */
+    .section-title {
+      font-family: 'Outfit', sans-serif; font-size: 22px; font-weight: 700;
+      margin: 32px 0 16px; display: flex; align-items: center; gap: 10px;
+    }
+    .section-title span { font-size: 13px; color: var(--text-muted); font-weight: 400; }
+
+    /* Live SaaS Grid */
+    .saas-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 20px; margin-bottom: 36px;
+    }
+    .saas-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 20px; padding: 24px; backdrop-filter: blur(12px);
+      display: flex; flex-direction: column; justify-content: space-between;
+      transition: all 0.3s ease; position: relative; overflow: hidden;
+    }
+    .saas-card:hover {
+      border-color: var(--cyan);
+      box-shadow: 0 8px 30px rgba(0, 242, 254, 0.12);
+      transform: translateY(-3px);
+    }
+    .saas-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 14px; }
+    .saas-icon {
+      width: 44px; height: 44px; border-radius: 12px;
+      background: rgba(255,255,255,0.05); border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center; font-size: 22px;
+    }
+    .saas-tag {
+      font-size: 11px; padding: 4px 10px; border-radius: 12px;
+      background: rgba(0, 242, 254, 0.12); color: var(--cyan); font-weight: 600;
+    }
+    .saas-card h3 { font-family: 'Outfit', sans-serif; font-size: 19px; font-weight: 700; margin-bottom: 6px; }
+    .saas-card p { font-size: 14px; color: var(--text-muted); line-height: 1.5; margin-bottom: 20px; }
+    .saas-footer { display: flex; gap: 10px; }
+    .btn-launch {
+      flex: 1; text-align: center; text-decoration: none; padding: 10px 16px;
+      background: linear-gradient(135deg, var(--accent), var(--cyan));
+      color: #fff; font-size: 13px; font-weight: 600; border-radius: 10px;
+      transition: opacity 0.2s;
+    }
+    .btn-launch:hover { opacity: 0.9; }
+
+    /* Interactive Hub: Outreach & Social Launcher */
+    .launcher-box {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 20px; padding: 28px; margin-bottom: 36px;
+    }
+    .launcher-tabs { display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 1px solid var(--border); padding-bottom: 12px; }
+    .tab-btn {
+      background: none; border: none; color: var(--text-muted); font-size: 14px;
+      font-weight: 600; padding: 8px 16px; border-radius: 8px; cursor: pointer;
+      transition: all 0.2s;
+    }
+    .tab-btn.active { background: rgba(124, 92, 252, 0.18); color: #fff; }
+    .copy-panel { display: none; }
+    .copy-panel.active { display: block; }
+    .snippet-box {
+      background: rgba(0, 0, 0, 0.4); border: 1px solid var(--border);
+      border-radius: 12px; padding: 16px; font-family: var(--font-mono);
+      font-size: 13px; color: #d0d0ee; white-space: pre-wrap; line-height: 1.6;
+      max-height: 240px; overflow-y: auto; margin-bottom: 14px;
+    }
+    .btn-copy {
+      background: var(--accent); color: #fff; border: none; padding: 9px 20px;
+      border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer;
+      transition: transform 0.15s, background 0.2s;
+    }
+    .btn-copy:hover { transform: scale(1.02); }
+
+    /* Trend Feed */
+    .trend-feed {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    .trend-item {
+      background: rgba(18, 18, 36, 0.5); border: 1px solid var(--border);
+      border-radius: 14px; padding: 18px; transition: border-color 0.2s;
+    }
+    .trend-item:hover { border-color: var(--cyan); }
+    .trend-source { font-size: 11px; color: var(--cyan); font-weight: 600; text-transform: uppercase; margin-bottom: 6px; }
+    .trend-title { font-size: 14px; font-weight: 600; margin-bottom: 8px; line-height: 1.4; }
+    .trend-title a { color: #fff; text-decoration: none; }
+    .trend-title a:hover { color: var(--cyan); }
+    .trend-meta { font-size: 12px; color: var(--text-sub); display: flex; gap: 12px; }
+
+    /* Toast */
+    #toast {
+      position: fixed; bottom: 24px; right: 24px;
+      background: #00e676; color: #000; font-weight: 700;
+      padding: 12px 24px; border-radius: 10px; font-size: 14px;
+      box-shadow: 0 4px 20px rgba(0, 230, 118, 0.4);
+      display: none; z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <header>
+    <div class="brand-wrap">
+      <div class="logo-badge">⚡</div>
+      <div class="brand-text">
+        <h1>AI MONEY MACHINE</h1>
+        <span>EXECUTIVE COMMAND CENTER v3.0</span>
+      </div>
+    </div>
+    <div class="system-status">
+      <div class="status-pill">
+        <span class="pulse-dot"></span>
+        8 Streams Active
+      </div>
+      <div class="status-pill" style="color:var(--cyan); border-color:rgba(0,242,254,0.3); background:rgba(0,242,254,0.08);">
+        🤖 Auto-Pilot Running
+      </div>
+    </div>
+  </header>
+
+  <main class="dashboard-container">
+    <!-- Top KPI Cards -->
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <div class="metric-label">Monthly Target</div>
+        <div class="metric-val">$1,200 - $3,500</div>
+        <div class="metric-sub">🚀 8 Cross-Promoted Channels</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Production Web Apps</div>
+        <div class="metric-val">5 Apps Live</div>
+        <div class="metric-sub">🌐 Hosted on Vercel Global Edge</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Ready-to-Sell Assets</div>
+        <div class="metric-val">3 Products</div>
+        <div class="metric-sub">📦 Gumroad + LemonSqueezy</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Client Outreach Pipeline</div>
+        <div class="metric-val">10 Leads Ready</div>
+        <div class="metric-sub">✉️ 3 High-Converting Templates</div>
+      </div>
+    </div>
+
+    <!-- Live SaaS Products Grid -->
+    <h2 class="section-title">
+      🛠️ Live Micro-SaaS & Client Showcases
+      <span>(Click to launch web app)</span>
+    </h2>
+    <div class="saas-grid">
+      <div class="saas-card">
+        <div>
+          <div class="saas-header">
+            <div class="saas-icon">🌐</div>
+            <span class="saas-tag">Micro-SaaS • Live</span>
+          </div>
+          <h3>SynapseGEO v2.4</h3>
+          <p>AI Search & Generative Engine Optimization. Inspects robots.txt permissions for GPTBot/PerplexityBot and auto-generates JSON-LD schema.</p>
+        </div>
+        <div class="saas-footer">
+          <a href="https://synapse-geo-audit.vercel.app" target="_blank" class="btn-launch">Launch SynapseGEO ↗</a>
+        </div>
+      </div>
+
+      <div class="saas-card">
+        <div>
+          <div class="saas-header">
+            <div class="saas-icon">⭐</div>
+            <span class="saas-tag">Micro-SaaS • Live</span>
+          </div>
+          <h3>ReviewGenius AI</h3>
+          <p>Autonomous customer review response generator. Converts negative feedback into 5-star customer loyalty in under 5 seconds.</p>
+        </div>
+        <div class="saas-footer">
+          <a href="https://reviewgenius-beta.vercel.app" target="_blank" class="btn-launch">Launch ReviewGenius ↗</a>
+        </div>
+      </div>
+
+      <div class="saas-card">
+        <div>
+          <div class="saas-header">
+            <div class="saas-icon">🔥</div>
+            <span class="saas-tag">Micro-SaaS • Live</span>
+          </div>
+          <h3>HeadlineIQ</h3>
+          <p>Viral CTR headline analyzer and AI alternative generator. Scores clickability, emotional resonance, and SEO power.</p>
+        </div>
+        <div class="saas-footer">
+          <a href="https://headlineiq-eta.vercel.app" target="_blank" class="btn-launch">Launch HeadlineIQ ↗</a>
+        </div>
+      </div>
+
+      <div class="saas-card">
+        <div>
+          <div class="saas-header">
+            <div class="saas-icon">📚</div>
+            <span class="saas-tag">Lead Hub • Live</span>
+          </div>
+          <h3>AI Resource Hub & Blog</h3>
+          <p>High-converting knowledge portal with 8 in-depth guides, downloadable eBooks, and automated Telegram lead capture.</p>
+        </div>
+        <div class="saas-footer">
+          <a href="https://ai-automation-guide-omega.vercel.app" target="_blank" class="btn-launch">Launch Blog Portal ↗</a>
+        </div>
+      </div>
+
+      <div class="saas-card">
+        <div>
+          <div class="saas-header">
+            <div class="saas-icon">💬</div>
+            <span class="saas-tag">Client Portfolio • Live</span>
+          </div>
+          <h3>Interactive AI Chatbot Demo</h3>
+          <p>Production-ready demo showcasing 24/7 client booking and customer support. The ultimate proof-of-work link for freelancing.</p>
+        </div>
+        <div class="saas-footer">
+          <a href="https://chatbotdemo-hazel.vercel.app" target="_blank" class="btn-launch">Launch Chatbot Demo ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Launcher & Copy Hub -->
+    <h2 class="section-title">
+      📋 1-Click Outreach & Marketing Launcher
+      <span>(Copy-paste ready for clients)</span>
+    </h2>
+    <div class="launcher-box">
+      <div class="launcher-tabs">
+        <button class="tab-btn active" onclick="switchTab('email-dentist', this)">🦷 Cold Email: Dental</button>
+        <button class="tab-btn" onclick="switchTab('email-hvac', this)">❄️ Cold Email: HVAC/Plumber</button>
+        <button class="tab-btn" onclick="switchTab('twitter-thread', this)">🐦 Twitter/X Viral Thread</button>
+        <button class="tab-btn" onclick="switchTab('gumroad-links', this)">📦 Gumroad Store Links</button>
+      </div>
+
+      <!-- Tab 1: Dental -->
+      <div id="email-dentist" class="copy-panel active">
+        <div class="snippet-box" id="text-dentist">Subject: quick question regarding [Clinic Name]'s after-hours patient inquiries
+
+Hi [Doctor / Clinic Manager],
+
+I was reviewing your website [website.com] yesterday around 8 PM and noticed that when a patient has an urgent dental question or wants to book an appointment after closing, their only option is to wait until morning.
+
+In most competitive markets, clinics lose 4 to 8 high-intent new patient inquiries every single week simply because competitors with instant AI booking respond within 30 seconds.
+
+To show you how easy this is to solve, I set up a quick 60-second interactive demo specifically for high-ticket clinics:
+👉 Live Demo: https://chatbotdemo-hazel.vercel.app
+
+It answers common treatment questions, qualifies insurance, and books appointments directly into your calendar 24/7.
+
+Would you be open to a quick 5-minute call this Thursday at 2 PM to see if this makes sense for [Clinic Name]?
+
+Best regards,
+AI Automation Specialist</div>
+        <button class="btn-copy" onclick="copySnippet('text-dentist')">📋 Copy Dental Outreach Email</button>
+      </div>
+
+      <!-- Tab 2: HVAC -->
+      <div id="email-hvac" class="copy-panel">
+        <div class="snippet-box" id="text-hvac">Subject: noticed your phone line around 7:15pm yesterday
+
+Hi [Owner Name],
+
+When a homeowner has an emergency leak or broken AC after 6 PM, 85% of them will immediately hang up if they reach a voicemail and call the next contractor on Google.
+
+We implemented an automated 15-second AI text-back workflow: whenever your line is busy or closed, an instant text goes out:
+"Hi! We're currently assisting another client. Do you have an urgent service request?"
+
+This single workflow captured $9,200 in recovered emergency jobs for a local contractor last month.
+
+I also ran an AI search audit on your domain to see if voice search (ChatGPT / Perplexity) recommends your business:
+👉 Audit Engine: https://synapse-geo-audit.vercel.app
+
+Happy to share a 2-minute video walkthrough showing how this works if you find it helpful.
+
+Cheers,
+AI Workflow Specialist</div>
+        <button class="btn-copy" onclick="copySnippet('text-hvac')">📋 Copy HVAC Outreach Email</button>
+      </div>
+
+      <!-- Tab 3: Twitter Thread -->
+      <div id="twitter-thread" class="copy-panel">
+        <div class="snippet-box" id="text-twitter">1/7: Google traffic is down 30-50% for standard blogs. Why? Because people are asking ChatGPT, Perplexity, and Claude instead of scrolling through 10 blue links. Here is how "GEO" (Generative Engine Optimization) works and how to rank inside AI answers: 🧵👇
+
+2/7: Traditional SEO targeted keywords: "best email software". GEO targets semantic entities and structured facts: "What email tool integrates with Stripe in under 2 minutes and has HIPAA compliance?"
+
+3/7: If you want AI engines to recommend your brand, you need 3 pillars:
+1. Allow AI crawlers in your robots.txt (GPTBot, PerplexityBot, ClaudeBot)
+2. Knowledge Graph Schema (application/ld+json)
+3. Direct factual answer snippets on your landing page
+
+4/7: To help founders check their site, I built SynapseGEO — an autonomous tool that calculates your GEO Readiness Score in 5 seconds.
+
+5/7: Test your website for free here: https://synapse-geo-audit.vercel.app
+
+RT the first tweet if you found this valuable! 🔄</div>
+        <button class="btn-copy" onclick="copySnippet('text-twitter')">📋 Copy Twitter/X Launch Thread</button>
+      </div>
+
+      <!-- Tab 4: Gumroad -->
+      <div id="gumroad-links" class="copy-panel">
+        <div class="snippet-box" id="text-gumroad">🛒 GUMROAD PRODUCTS LIVE:
+
+1. The AI Money Blueprint eBook ($14.99)
+   URL: https://minhlap.gumroad.com/l/xqckmu
+
+2. AI Marketing Mega Prompt Pack 110+ ($29.00)
+   Location: projects/digital_products/products/prompt_pack_marketing/
+
+3. Automation Blueprint Pack ($24.99)
+   Location: projects/digital_products/products/automation_templates/
+
+💰 LEMON SQUEEZY STORE:
+   Store URL: https://minhlap.lemonsqueezy.com
+   Store ID: 485872
+   Webhook Endpoint: https://synapse-geo-audit.vercel.app/api/webhook</div>
+        <button class="btn-copy" onclick="copySnippet('text-gumroad')">📋 Copy Store Info</button>
+      </div>
+    </div>
+
+    <!-- Market Scout Live Feed -->
+    <h2 class="section-title">
+      📡 Autonomous Market Scout: Live Opportunity Radar
+      <span>(Updated automatically via auto_pilot daemon)</span>
+    </h2>
+    <div class="trend-feed">
+      <div class="trend-item">
+        <div class="trend-source">GitHub Trending • High Intent (75/100)</div>
+        <div class="trend-title">
+          <a href="https://github.com/PhialsBasement/LibreCrawl" target="_blank">LibreCrawl — Free Desktop SEO Crawler & Screaming Frog Alternative</a>
+        </div>
+        <div class="trend-meta">
+          <span>⭐ 996 stars</span>
+          <span>•</span>
+          <span>💬 208 comments</span>
+          <span>•</span>
+          <span>Keyword: alternative to, seo</span>
+        </div>
+      </div>
+
+      <div class="trend-item">
+        <div class="trend-source">GitHub Trending • Intent (50/100)</div>
+        <div class="trend-title">
+          <a href="https://github.com/iannuttall/seo" target="_blank">iannuttall/seo — 70+ SEO Audit Tools CLI & MCP Server</a>
+        </div>
+        <div class="trend-meta">
+          <span>⭐ 1,200+ stars</span>
+          <span>•</span>
+          <span>Category: Agent Skill</span>
+          <span>•</span>
+          <span>Keyword: seo, ai agent</span>
+        </div>
+      </div>
+
+      <div class="trend-item">
+        <div class="trend-source">Hacker News • Discussion</div>
+        <div class="trend-title">
+          <a href="https://news.ycombinator.com/item?id=49873913" target="_blank">Management is forcing us to use AI tools for daily operations</a>
+        </div>
+        <div class="trend-meta">
+          <span>Score: 180+</span>
+          <span>•</span>
+          <span>Trend: Enterprise AI Mandate</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="toast">Copied to clipboard! 🚀</div>
+
+  <script>
+    function switchTab(panelId, btn) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.copy-panel').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(panelId).classList.add('active');
+    }
+
+    function copySnippet(id) {
+      const text = document.getElementById(id).innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const toast = document.getElementById('toast');
+        toast.style.display = 'block';
+        setTimeout(() => toast.style.display = 'none', 2500);
+      });
+    }
+  </script>
+</body>
+</html>
