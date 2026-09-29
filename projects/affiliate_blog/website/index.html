@@ -174,11 +174,19 @@
     .product-card {
       background: var(--surface); border: 1px solid var(--border);
       border-radius: var(--radius); overflow: hidden; transition: all 0.3s;
+      display: flex; flex-direction: column;
     }
     .product-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.4); }
     .product-img {
-      height: 160px; background: linear-gradient(135deg, #1a1040, #0a2040);
+      height: 240px; background: linear-gradient(135deg, #1a1040, #0a2040);
       display: flex; align-items: center; justify-content: center; font-size: 48px;
+      overflow: hidden; position: relative;
+    }
+    .product-img img {
+      width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;
+    }
+    .product-card:hover .product-img img {
+      transform: scale(1.05);
     }
     .product-body { padding: 24px; }
     .product-body h3 { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
@@ -308,65 +316,80 @@
   </section>
 
   <section id="tools">
-    <div class="section-label">Recommended Tools</div>
-    <h2 class="section-title">The Tools I Use Daily</h2>
+    <div class="section-label">Live Micro-SaaS & Tools</div>
+    <h2 class="section-title">Built-In AI Automation Apps</h2>
     <p class="section-desc">
-      Battle-tested tools that power my automation business. All have free tiers to get started.
+      Production-ready AI micro-tools designed to automate SEO, review responses, and viral copywriting.
     </p>
     <div class="card-grid">
-      <a href="https://make.com" class="card" target="_blank" rel="noopener">
-        <div class="card-icon">⚙️</div>
-        <h3>Make.com</h3>
-        <p>The most powerful visual automation platform. Build complex workflows with drag-and-drop. Free tier included.</p>
-        <span class="card-tag">Best Overall</span>
+      <a href="https://synapse-geo-audit.vercel.app" class="card" target="_blank" rel="noopener">
+        <div class="card-icon">⚡</div>
+        <h3>SynapseGEO</h3>
+        <p>AI Search Engine Optimizer. Audit your domain visibility for ChatGPT Search, Perplexity AI, and Claude citations.</p>
+        <span class="card-tag">Live SaaS · Free Audit</span>
       </a>
-      <a href="https://voiceflow.com" class="card" target="_blank" rel="noopener">
-        <div class="card-icon">🗣️</div>
-        <h3>Voiceflow</h3>
-        <p>Build intelligent AI chatbots trained on your business data. Deploy on web, WhatsApp, and more.</p>
-        <span class="card-tag">Best for Chatbots</span>
+      <a href="https://reviewgenius-beta.vercel.app" class="card" target="_blank" rel="noopener">
+        <div class="card-icon">⭐</div>
+        <h3>ReviewGenius AI</h3>
+        <p>Autonomous customer review response generator. Turn negative reviews into 5-star loyalty with smart AI templates.</p>
+        <span class="card-tag">Live SaaS · Instant</span>
       </a>
-      <a href="https://zapier.com" class="card" target="_blank" rel="noopener">
-        <div class="card-icon">🔌</div>
-        <h3>Zapier</h3>
-        <p>The easiest automation platform with 7,000+ app integrations. Perfect for beginners.</p>
-        <span class="card-tag">Easiest to Use</span>
+      <a href="https://headlineiq-eta.vercel.app" class="card" target="_blank" rel="noopener">
+        <div class="card-icon">🔥</div>
+        <h3>HeadlineIQ</h3>
+        <p>Headline analyzer and viral CTR optimizer. Predict click-through rates and generate irresistible marketing hooks.</p>
+        <span class="card-tag">Live SaaS · Viral Tool</span>
+      </a>
+      <a href="https://chatbotdemo-hazel.vercel.app" class="card" target="_blank" rel="noopener">
+        <div class="card-icon">🤖</div>
+        <h3>AI Chatbot Demo</h3>
+        <p>Interactive customer support chatbot demo showcasing lead capture and instant business intelligence.</p>
+        <span class="card-tag">Live Portfolio Demo</span>
       </a>
     </div>
   </section>
 
   <section id="products">
-    <div class="section-label">Premium Resources</div>
-    <h2 class="section-title">Level Up Your AI Game</h2>
+    <div class="section-label">Premium Digital Assets</div>
+    <h2 class="section-title">Level Up Your AI Income</h2>
     <p class="section-desc">
-      Curated resources to accelerate your AI automation journey.
+      Comprehensive blueprints, verified prompts, and automation packs ready for immediate download.
     </p>
     <div class="product-grid">
       <div class="product-card">
-        <div class="product-img">📖</div>
+        <div class="product-img">
+          <img src="assets/ebook_cover.jpg" alt="The AI Money Blueprint eBook">
+        </div>
         <div class="product-body">
           <h3>The AI Money Blueprint</h3>
-          <p>10 proven strategies to earn $1,000-5,000/month with AI. Complete step-by-step guide with 90-day action plan.</p>
+          <p>10 proven strategies to earn $1,000-5,000/month with AI. 16,000 words, client outreach scripts, and 30-day roadmap.</p>
           <div class="product-price">$14.99</div>
-          <a href="#" class="product-btn">Get the eBook</a>
+          <a href="https://gumroad.com/l/xqckmu" target="_blank" class="product-btn">Get on Gumroad</a>
+          <a href="downloads/The_AI_Money_Blueprint.pdf" target="_blank" style="display:block; text-align:center; font-size:12px; color:var(--accent-2); margin-top:8px; text-decoration:none;">📄 Direct PDF Preview</a>
         </div>
       </div>
       <div class="product-card">
-        <div class="product-img">🎯</div>
+        <div class="product-img">
+          <img src="assets/prompt_cover.jpg" alt="110+ AI Marketing Prompts Pack">
+        </div>
         <div class="product-body">
-          <h3>AI Marketing Prompt Pack</h3>
-          <p>100+ battle-tested prompts for social media, email, SEO, ads, and sales copy. Works with ChatGPT & Claude.</p>
-          <div class="product-price">$29</div>
-          <a href="#" class="product-btn">Get the Prompts</a>
+          <h3>110+ AI Marketing Prompts</h3>
+          <p>Battle-tested prompts across 7 marketing domains: Copywriting, SEO, Paid Ads, Social Media, and Email funnels.</p>
+          <div class="product-price">$29.00</div>
+          <a href="downloads/AI_Marketing_Prompt_Pack_110.pdf" target="_blank" class="product-btn">View & Download Pack</a>
+          <a href="downloads/AI_Marketing_Prompt_Pack_110.pdf" target="_blank" style="display:block; text-align:center; font-size:12px; color:var(--accent-2); margin-top:8px; text-decoration:none;">📄 Direct PDF Guide</a>
         </div>
       </div>
       <div class="product-card">
-        <div class="product-img">🔧</div>
+        <div class="product-img" style="font-size: 64px;">
+          🔧
+        </div>
         <div class="product-body">
           <h3>Automation Blueprint Pack</h3>
-          <p>15 ready-to-deploy automation workflows for Make.com & Zapier. Step-by-step setup with screenshots.</p>
+          <p>15 ready-to-deploy automation workflows for Make.com & Zapier. Step-by-step setup with full JSON templates.</p>
           <div class="product-price">$24.99</div>
-          <a href="#" class="product-btn">Get the Blueprints</a>
+          <a href="#about" class="product-btn">Request Blueprints</a>
+          <span style="display:block; text-align:center; font-size:12px; color:var(--text-3); margin-top:8px;">Instant Access</span>
         </div>
       </div>
     </div>
