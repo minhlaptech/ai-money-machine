@@ -63,6 +63,8 @@ Congratulations on initiating your partnership with **MinhLap AI Automation Solu
    - Your dedicated Executive VIP Command Portal providing real-time AI copilot performance metrics, 99.98% SLA infrastructure health, 5-day white-glove onboarding progress, 1-click script embeds, and direct Telegram VIP engineering escalation.
 8. **`08_Weekly_Performance_Statement.html`** (Active Retainer Clients)
    - Real-time quantitative retention statement demonstrating inquiries handled, 68% after-hours inquiries saved, booked appointments, and weekly protected revenue.
+9. **`09_Enterprise_Expansion_Proposal.html`** (Enterprise Retainer Clients)
+   - Bespoke Voice AI Receptionist & Multi-Location Expansion strategic proposal ($1,450/mo Retainer Tier).
 
 ---
 
@@ -79,6 +81,7 @@ Congratulations on initiating your partnership with **MinhLap AI Automation Solu
 ## 🌐 Instant Cloud Access Links (Live On Vercel):
 
 - ⚡ **Client VIP Portal:** `https://work-minh-lap.vercel.app/portal?client={slug}`
+- 🎙️ **Voice AI Demo Hub:** `https://work-minh-lap.vercel.app/voice`
 - 🖥️ **Live Pitch Deck:** `https://work-minh-lap.vercel.app/pitches/{slug}_pitch.html`
 - 🧪 **Live Sandbox Prototype:** `https://work-minh-lap.vercel.app/sandboxes/{slug}_sandbox.html`
 - 📑 **Digital MSA Agreement:** `https://work-minh-lap.vercel.app/agreements/{slug}_agreement.html`
@@ -139,6 +142,11 @@ def package_client(lead):
         ("07_Client_VIP_Portal.html", ROOT_DIR / "portals" / f"{slug}_portal.html"),
         ("08_Weekly_Performance_Statement.html", ROOT_DIR / "client_reports" / f"{slug}_weekly_report.html"),
     ]
+
+    # For Enterprise Expansions: add 09_Enterprise_Expansion_Proposal.html
+    enterprise_proposal = ROOT_DIR / "enterprise_upsell_proposals" / f"{slug}_enterprise_expansion.html"
+    if enterprise_proposal.exists():
+        file_map.append(("09_Enterprise_Expansion_Proposal.html", enterprise_proposal))
 
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
         # Write welcome guide

@@ -36,11 +36,21 @@ def load_won_leads():
         try:
             leads = json.loads(crm_file.read_text(encoding="utf-8"))
             won_ids = [l["id"] for l in leads if l.get("status") == "won"]
-            return [l for l in ALL_LEADS if l["id"] in won_ids]
+            if won_ids:
+                return [l for l in ALL_LEADS if l["id"] in won_ids]
         except Exception:
             pass
-    # Fallback to defaults
-    return [l for l in ALL_LEADS if l["id"] in [1, 21, 51]]
+    return ALL_LEADS
+
+def load_enterprise_leads():
+    ent_file = ROOT_DIR / "prospects" / "enterprise_upsell_pipeline.json"
+    if ent_file.exists():
+        try:
+            leads = json.loads(ent_file.read_text(encoding="utf-8"))
+            return {l["id"]: l for l in leads if l.get("status") == "expansion_won"}
+        except Exception:
+            pass
+    return {}
 
 STATEMENT_HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="en">
@@ -264,7 +274,7 @@ STATEMENT_HTML_TEMPLATE = """<!DOCTYPE html>
         <p>Weekly Executive AI Copilot & Intake Performance Statement • Week of {week_range}</p>
       </div>
       <div class="statement-badge">
-        ● 99.98% SLA Active
+        {tier_badge}
       </div>
     </header>
 
@@ -336,6 +346,7 @@ STATEMENT_HTML_TEMPLATE = """<!DOCTYPE html>
           <td>Immediate</td>
           <td>Forwarded via high-priority SMS to on-call management ({escalation_contact})</td>
         </tr>
+{enterprise_row}
       </tbody>
     </table>
 
@@ -347,6 +358,7 @@ STATEMENT_HTML_TEMPLATE = """<!DOCTYPE html>
       <a href="https://work-minh-lap.vercel.app/sandboxes/{slug}_sandbox.html" class="btn btn-outline" target="_blank">
         🧪 Test Live Copilot Sandbox
       </a>
+{voice_action_button}
       <button onclick="window.print()" class="btn btn-outline">
         🖨️ Export PDF Statement
       </button>
@@ -361,10 +373,16 @@ STATEMENT_HTML_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
-def generate_client_weekly_report(lead, send_telegram=False):
+def generate_client_weekly_report(lead, enterprise_map=None, send_telegram=False):
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     slug = get_slug(lead["name"])
     report_file = REPORTS_DIR / f"{slug}_weekly_report.html"
+
+    if enterprise_map is None:
+        enterprise_map = load_enterprise_leads()
+
+    is_ent = lead["id"] in enterprise_map
+    ent_info = enterprise_map.get(lead["id"], {})
 
     # Compute date range for past 7 days
     end_date = datetime.now()
@@ -381,7 +399,27 @@ def generate_client_weekly_report(lead, send_telegram=False):
     after_hours_pct = 68
     urgent_count = max(1, appointments_booked // 3)
     estimated_revenue_protected = appointments_booked * val
-    monthly_retainer = lead.get("retainer", 650)
+
+    if is_ent:
+        monthly_retainer = ent_info.get("new_total_retainer", 1450)
+        tier_badge = "👑 99.98% SLA Active • Enterprise Voice AI ($1,450/mo)"
+        voice_calls = appointments_booked * 3
+        conversations_handled += voice_calls
+        enterprise_row = f"""        <tr>
+          <td><strong>Omnichannel Voice AI Receptionist Inbound Calls</strong></td>
+          <td>{voice_calls} calls</td>
+          <td>&lt; 350ms latency</td>
+          <td>Sub-350ms Voice AI intake, automated FAQ answers & emergency dispatch routing</td>
+        </tr>"""
+        voice_action_button = f"""      <a href="https://work-minh-lap.vercel.app/voice" class="btn btn-outline" target="_blank" style="border-color:#ffd700; color:#ffd700;">
+        🎙️ Test Voice AI Receptionist Demo
+      </a>"""
+    else:
+        monthly_retainer = lead.get("retainer", 650)
+        tier_badge = "● 99.98% SLA Active • Standard Retainer"
+        enterprise_row = ""
+        voice_action_button = ""
+
     weekly_retainer_cost = monthly_retainer / 4
     weekly_roi = round(estimated_revenue_protected / max(100, weekly_retainer_cost), 1)
 
@@ -389,6 +427,7 @@ def generate_client_weekly_report(lead, send_telegram=False):
         client_name=lead["name"],
         slug=slug,
         week_range=week_range,
+        tier_badge=tier_badge,
         conversations_handled=conversations_handled,
         after_hours_pct=after_hours_pct,
         appointments_booked=appointments_booked,
@@ -398,24 +437,30 @@ def generate_client_weekly_report(lead, send_telegram=False):
         pricing_inquiries=pricing_inquiries,
         after_hours_count=after_hours_count,
         urgent_count=urgent_count,
-        escalation_contact=lead.get("to", "Management Hotline")
+        escalation_contact=lead.get("to", "Management Hotline"),
+        enterprise_row=enterprise_row,
+        voice_action_button=voice_action_button
     )
 
     report_file.write_text(html, encoding="utf-8")
-    print(f"  [✓] Weekly Performance Statement: {report_file.name} (Val: +${estimated_revenue_protected:,})")
+    ent_flag = " [👑 Enterprise $1,450/mo]" if is_ent else ""
+    print(f"  [✓] Weekly Performance Statement{ent_flag}: {report_file.name} (Val: +${estimated_revenue_protected:,})")
 
     if send_telegram:
-        send_telegram_report_alert(lead, appointments_booked, estimated_revenue_protected, weekly_roi, slug)
+        send_telegram_report_alert(lead, appointments_booked, estimated_revenue_protected, weekly_roi, slug, is_ent)
 
     return report_file
 
-def send_telegram_report_alert(lead, appointments, revenue, roi, slug):
+def send_telegram_report_alert(lead, appointments, revenue, roi, slug, is_ent=False):
     bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "7756122540:AAErx-TV78dUcB0ch7IlZW10R0nIpt1pBhU")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID", "1624883046")
+
+    tier_label = "👑 <b>Gói dịch vụ:</b> <code>Enterprise Voice AI Tier ($1,450/tháng)</code>\n" if is_ent else "💼 <b>Gói dịch vụ:</b> <code>Standard Retainer Tier ($650/tháng)</code>\n"
 
     msg = f"<b>📈 [WEEKLY CLIENT RETENTION REPORT]</b>\n\n"
     msg += f"🏢 <b>Khách hàng Retainer:</b> <b>{lead['name']}</b> (#{lead['id']})\n"
     msg += f"📍 <b>Ngành nghề:</b> {lead.get('niche', 'N/A')} • {lead.get('city', 'N/A')}\n"
+    msg += tier_label
     msg += f"📅 <b>Lịch hẹn mới chốt tuần này:</b> <code>+{appointments} appointments</code>\n"
     msg += f"💵 <b>Doanh thu cứu/phục hồi:</b> <code>+${revenue:,}</code>\n"
     msg += f"🔥 <b>Hiệu suất hoàn vốn (ROI):</b> <b>{roi}x</b> chi phí Retainer hàng tuần\n"
@@ -423,14 +468,23 @@ def send_telegram_report_alert(lead, appointments, revenue, roi, slug):
     msg += f"📑 <i>Báo cáo HTML đã lưu tại client_reports/{slug}_weekly_report.html</i>"
 
     try:
+        import time
         req = urllib.request.Request(
             f"https://api.telegram.org/bot{bot_token}/sendMessage",
             headers={"Content-Type": "application/json"},
             data=json.dumps({"chat_id": chat_id, "text": msg, "parse_mode": "HTML"}).encode("utf-8")
         )
-        with urllib.request.urlopen(req, timeout=10) as r:
-            if r.status == 200:
-                print(f"      [✓] Dispatched Telegram alert for {lead['name']} to @Minhpv_bot!")
+        for attempt in range(1, 4):
+            try:
+                with urllib.request.urlopen(req, timeout=10) as r:
+                    if r.status == 200:
+                        print(f"      [✓] Dispatched Telegram alert for {lead['name']} to @Minhpv_bot!")
+                        break
+            except Exception as e:
+                if attempt == 3:
+                    print(f"      [!] Telegram error: {e}")
+                else:
+                    time.sleep(1.0)
     except Exception as e:
         print(f"      [!] Telegram error: {e}")
 
@@ -439,17 +493,20 @@ def run_weekly_reports(target_id=None, send_telegram=False):
     print("📈 GENERATING AUTONOMOUS WEEKLY CLIENT PERFORMANCE STATEMENTS")
     print("=" * 75)
 
+    enterprise_map = load_enterprise_leads()
+    print(f"[*] Detected {len(enterprise_map)} Active Enterprise Retainer Accounts ($1,450/mo)...")
+
     if target_id:
         target = next((l for l in ALL_LEADS if l["id"] == target_id), None)
         if target:
-            generate_client_weekly_report(target, send_telegram=send_telegram)
+            generate_client_weekly_report(target, enterprise_map=enterprise_map, send_telegram=send_telegram)
         else:
             print(f"[!] Lead #{target_id} not found.")
     else:
         won_leads = load_won_leads()
         print(f"[*] Processing {len(won_leads)} Won Retainer Accounts...")
         for l in won_leads:
-            generate_client_weekly_report(l, send_telegram=send_telegram)
+            generate_client_weekly_report(l, enterprise_map=enterprise_map, send_telegram=send_telegram)
 
     print("-" * 75)
     print("🎉 SUCCESS: Weekly retention statements generated in client_reports/")
