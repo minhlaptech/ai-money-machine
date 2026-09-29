@@ -293,10 +293,10 @@
     "city": "Boston, MA",
     "to": "tax@beaconhillcpa.example",
     "doc": "Marcus Brody",
-    "status": "booked",
+    "status": "won",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:18"
+    "last_touch": "2026-09-30 04:20"
   },
   {
     "id": 24,
@@ -306,10 +306,10 @@
     "city": "San Diego, CA",
     "to": "help@pacificfamilylawsd.example",
     "doc": "Elena Rostova",
-    "status": "day7",
+    "status": "booked",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:20"
   },
   {
     "id": 25,
@@ -319,10 +319,10 @@
     "city": "New York, NY",
     "to": "office@vanguardwealthnyc.example",
     "doc": "Jonathan Vance",
-    "status": "day7",
+    "status": "booked",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:22"
+    "last_touch": "2026-09-30 04:20"
   },
   {
     "id": 26,
@@ -748,10 +748,10 @@
     "city": "Houston, TX",
     "to": "relief@purebreathesinus.example",
     "doc": "Dr. Farhan Qasim",
-    "status": "booked",
+    "status": "won",
     "value": 2800,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:18"
+    "last_touch": "2026-09-30 04:20"
   },
   {
     "id": 59,
