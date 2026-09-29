@@ -1,5 +1,5 @@
 # 📺 YouTube Video Metadata Package: VIDEO_008
-> Generated: 2026-09-29 22:23:43
+> Generated: 2026-09-29 23:34:19
 
 ---
 
@@ -51,7 +51,7 @@ ai freelancing, make money on upwork with ai, ai automation freelancer, freelanc
 
 ## 📌 4. Pinned Comment (Pin to Top of Comments)
 ```text
-💼 Download our Upwork Mastery Kit and 5 winning proposal templates inside our free resource vault: https://ai-automation-guide-omega.vercel.app
+💼 Download our Upwork Mastery Kit and 5 winning proposal templates inside our free resource vault: https://work-minh-lap.vercel.app/blog
 
 Grab the 16,000-word launch blueprint eBook: https://minhlap.gumroad.com/l/xqckmu
 

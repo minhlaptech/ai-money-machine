@@ -165,8 +165,11 @@ def main_loop():
             run_script("scripts/social_repurpose_engine.py", ["--topic", topic])
 
         elif choice == '13':
-            vid = input("Chọn mã video (video_005 / video_006 / video_007 / video_008, mặc định video_008): ").strip() or "video_008"
-            run_script("scripts/youtube_seo_generator.py", ["--video", vid])
+            vid = input("Chọn mã video (video_005 đến video_010 / Enter: Toàn bộ tất cả): ").strip()
+            if not vid or vid.lower() in ['all', 'tat ca']:
+                run_script("scripts/youtube_seo_generator.py", ["--all"])
+            else:
+                run_script("scripts/youtube_seo_generator.py", ["--video", vid])
 
         elif choice == '14':
             item = input("Chọn sản phẩm (hoodie_coffee_llms / tshirt_it_works / mug_ai_brain, mặc định hoodie_coffee_llms): ").strip() or "hoodie_coffee_llms"

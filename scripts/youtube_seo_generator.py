@@ -132,11 +132,72 @@ VIDEO_METADATA_PRESETS = {
             "fiverr ai gigs", "how to freelance with ai", "make.com freelancer", "ai agency freelancer",
             "upwork cover letter 2026", "high paying remote jobs", "chatgpt side hustle", "remote freelance work"
         ],
-        "pinned_comment": "💼 Download our Upwork Mastery Kit and 5 winning proposal templates inside our free resource vault: https://ai-automation-guide-omega.vercel.app\n\nGrab the 16,000-word launch blueprint eBook: https://minhlap.gumroad.com/l/xqckmu\n\nWhat hourly rate are you aiming for: $50/hr, $75/hr, or $100+/hr? Let's discuss below! 👇"
+        "pinned_comment": "💼 Download our Upwork Mastery Kit and 5 winning proposal templates inside our free resource vault: https://work-minh-lap.vercel.app/blog\n\nGrab the 16,000-word launch blueprint eBook: https://minhlap.gumroad.com/l/xqckmu\n\nWhat hourly rate are you aiming for: $50/hr, $75/hr, or $100+/hr? Let's discuss below! 👇"
+    },
+    "video_009": {
+        "title": "How I Built an Autonomous AI Agency in 48 Hours ($3,000/Month Retainers)",
+        "alt_titles": [
+            "Building a Full AI Agency in 48 Hours (Full Tech Stack Breakdown)",
+            "How to Land $650/Mo AI Client Retainers with Zero Employees",
+            "The 2026 Autonomous AI Agency Blueprint: Sandboxes to Contracts"
+        ],
+        "timestamps": [
+            "00:00 - The 48-Hour Autonomous AI Agency Experiment",
+            "01:45 - The Fatal Flaw of Traditional Agencies (Why Retainers Die)",
+            "04:10 - Pillar 1: The Proof-First Live Sandbox Prototype",
+            "07:00 - Pillar 2: The 10-Slide Sales Pitch Deck & Speaker Notes",
+            "09:45 - Pillar 3: Quantifying ROI ($13,500/Month Recovered Revenue)",
+            "12:15 - Pillar 4: The 1-Click Digital Contract (MSA) & $1,850 Invoice",
+            "14:30 - Pillar 5: The 5-Day White-Glove Onboarding Sprint",
+            "16:00 - Free Agency Monorepo & Code Templates"
+        ],
+        "links": [
+            ("🖥️ Live Client Sales Pitch Showcase Hub", "https://work-minh-lap.vercel.app/pitches"),
+            ("🧮 Interactive AI Revenue Recovery Calculator", "https://work-minh-lap.vercel.app/calculator"),
+            ("🧪 Live Chatbot Prototype Demo", "https://work-minh-lap.vercel.app/chatbotdemo"),
+            ("📦 15 Make.com / n8n Blueprints Bundle", "https://work-minh-lap.vercel.app/bundle"),
+            ("📖 The AI Money Blueprint (16,000 words)", "https://minhlap.gumroad.com/l/xqckmu")
+        ],
+        "tags": [
+            "ai automation agency", "build an ai agency", "autonomous ai agency", "ai agency 2026",
+            "ai agency retainer", "make money with ai", "smb ai consulting", "how to start an ai agency",
+            "voiceflow", "botpress", "make.com agency", "ai client onboarding", "sales pitch deck"
+        ],
+        "pinned_comment": "🖥️ Explore all 30 live sales pitch decks & prototypes at our showcase hub: https://work-minh-lap.vercel.app/pitches\n\nCalculate your client's revenue recovery in real time: https://work-minh-lap.vercel.app/calculator\n\nWhich niche are you targeting first: Dental, HVAC, Legal, or Real Estate? Let me know below! 👇"
+    },
+    "video_010": {
+        "title": "5 Make.com Automation Blueprints That Make $1,000/Month (Copy-Paste Templates)",
+        "alt_titles": [
+            "Top 5 Make.com Automations Businesses Pay $1,000 For",
+            "Make $1,000/Month with No-Code AI Workflows (Step-by-Step)",
+            "5 Copy-Paste Make.com Workflows You Can Sell to Clients in 2026"
+        ],
+        "timestamps": [
+            "00:00 - Why No-Code Automations Command $1,000+ per Build",
+            "01:45 - Blueprint 1: 30-Second Speed-to-Lead SMS & Dispatch",
+            "04:30 - Blueprint 2: Autonomous AI Review Responder (Google & Yelp)",
+            "07:15 - Blueprint 3: Stripe / Lemon Squeezy to Telegram VIP Broadcaster",
+            "09:50 - Blueprint 4: Zero-Friction Calendar Lock & No-Show Eliminator",
+            "12:10 - Blueprint 5: Autonomous Multi-Channel Social Repurposer",
+            "14:00 - How to Package & Sell These Workflows for $1,000/Mo",
+            "15:15 - Free Template Download Instructions"
+        ],
+        "links": [
+            ("📦 Download All 15 Make.com Blueprints (.JSON Pack)", "https://work-minh-lap.vercel.app/bundle"),
+            ("🤖 Interactive Chatbot Portfolio Demo", "https://work-minh-lap.vercel.app/chatbotdemo"),
+            ("📖 The AI Money Blueprint eBook", "https://minhlap.gumroad.com/l/xqckmu"),
+            ("📚 AI Resource Hub & Guides", "https://work-minh-lap.vercel.app/blog")
+        ],
+        "tags": [
+            "make.com tutorial", "make.com blueprints", "n8n automation", "zapier vs make",
+            "no-code automation", "ai automation agency", "speed to lead automation",
+            "review response automation", "telegram bot make.com", "passive income no code", "make.com templates"
+        ],
+        "pinned_comment": "📦 Grab all 15 ready-to-import Make.com & n8n JSON blueprints here: https://work-minh-lap.vercel.app/bundle\n\nTest the live interactive copilot here: https://work-minh-lap.vercel.app/chatbotdemo\n\nWhich workflow will save your business the most time? Comment below! 👇"
     }
 }
 
-def generate_youtube_metadata(video_id="video_006"):
+def generate_youtube_metadata(video_id="video_009"):
     data = VIDEO_METADATA_PRESETS.get(video_id, VIDEO_METADATA_PRESETS["video_006"])
     out_dir = Path(__file__).resolve().parent.parent / "projects" / "youtube_faceless" / "metadata"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -199,6 +260,12 @@ In this video, I break down the exact step-by-step roadmap to start your own AI 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="YouTube SEO & Metadata Package Generator")
-    parser.add_argument("--video", default="video_008", choices=["video_005", "video_006", "video_007", "video_008"], help="Video ID")
+    parser.add_argument("--all", action="store_true", help="Generate metadata packages for all presets")
+    parser.add_argument("--video", default="video_009", choices=["video_005", "video_006", "video_007", "video_008", "video_009", "video_010"], help="Video ID")
     args = parser.parse_args()
-    generate_youtube_metadata(args.video)
+
+    if args.all:
+        for vid in sorted(VIDEO_METADATA_PRESETS.keys()):
+            generate_youtube_metadata(vid)
+    else:
+        generate_youtube_metadata(args.video)
