@@ -1,0 +1,875 @@
+1
+00:00:00,000 --> 00:00:02,773
+Small businesses lose thousands of
+
+2
+00:00:02,773 --> 00:00:05,627
+dollars every week doing repetitive
+
+3
+00:00:05,627 --> 00:00:08,319
+manual tasks: copying lead emails
+
+4
+00:00:08,319 --> 00:00:09,787
+into spreadsheets,
+
+5
+00:00:09,787 --> 00:00:12,316
+sending reminder texts by hand,
+
+6
+00:00:12,316 --> 00:00:15,904
+and frantically checking payment dashboards.
+
+7
+00:00:15,904 --> 00:00:17,944
+If you can eliminate that
+
+8
+00:00:17,944 --> 00:00:21,369
+friction using automated visual workflows,
+
+9
+00:00:21,369 --> 00:00:23,816
+you don't need to know Python,
+
+10
+00:00:23,816 --> 00:00:24,713
+JavaScript,
+
+11
+00:00:24,713 --> 00:00:26,345
+or machine learning.
+
+12
+00:00:26,345 --> 00:00:27,145
+Today,
+
+13
+00:00:27,145 --> 00:00:30,163
+I'm giving you 5 copy-and-paste Make.
+
+14
+00:00:30,163 --> 00:00:32,854
+com automation blueprints that my
+
+15
+00:00:32,854 --> 00:00:34,485
+team uses to run our
+
+16
+00:00:34,485 --> 00:00:37,014
+own business and charge clients
+
+17
+00:00:37,014 --> 00:00:39,542
+anywhere from 500 dollars to 1,
+
+18
+00:00:39,542 --> 00:00:41,337
+500 dollars per setup.
+
+19
+00:00:41,337 --> 00:00:43,457
+You can import these exact
+
+20
+00:00:43,457 --> 00:00:45,578
+JSON files into your Make.
+
+21
+00:00:45,578 --> 00:00:47,454
+com or n8n dashboard in
+
+22
+00:00:47,454 --> 00:00:49,167
+less than 60 seconds.
+
+23
+00:00:49,167 --> 00:00:52,266
+Let's start with Blueprint number one.
+
+24
+00:00:52,266 --> 00:00:54,795
+The first automation you should
+
+25
+00:00:54,795 --> 00:00:57,160
+offer every local business is
+
+26
+00:00:57,160 --> 00:01:00,586
+what we call the **Speed-to-Lead Engine**.
+
+27
+00:01:00,586 --> 00:01:03,114
+A Harvard Business Review study
+
+28
+00:01:03,114 --> 00:01:05,480
+proved that contacting a lead
+
+29
+00:01:05,480 --> 00:01:08,498
+within 5 minutes increases conversion
+
+30
+00:01:08,498 --> 00:01:10,210
+rates by nearly 400%.
+
+31
+00:01:10,210 --> 00:01:12,086
+If you wait 30 minutes,
+
+32
+00:01:12,086 --> 00:01:14,370
+the lead is already browsing
+
+33
+00:01:14,370 --> 00:01:16,246
+your competitor's site.
+
+34
+00:01:16,246 --> 00:01:18,367
+Here is how this blueprint
+
+35
+00:01:18,367 --> 00:01:19,167
+works: 1.
+
+36
+00:01:19,167 --> 00:01:21,124
+A new lead submits their
+
+37
+00:01:21,124 --> 00:01:22,756
+phone and email on a
+
+38
+00:01:22,756 --> 00:01:25,039
+website or Facebook lead ad.
+
+39
+00:01:25,039 --> 00:01:25,839
+2.
+
+40
+00:01:25,839 --> 00:01:26,639
+The Make.
+
+41
+00:01:26,639 --> 00:01:28,923
+com webhook catches the data
+
+42
+00:01:28,923 --> 00:01:30,554
+in 200 milliseconds.
+
+43
+00:01:30,554 --> 00:01:31,354
+3.
+
+44
+00:01:31,354 --> 00:01:33,720
+An OpenAI module parses their
+
+45
+00:01:33,720 --> 00:01:37,064
+intent: Is it a high-ticket consultation,
+
+46
+00:01:37,064 --> 00:01:38,695
+an emergency repair,
+
+47
+00:01:38,695 --> 00:01:40,490
+or a general question?
+
+48
+00:01:40,490 --> 00:01:41,290
+4.
+
+49
+00:01:41,290 --> 00:01:43,410
+It triggers Twilio to send
+
+50
+00:01:43,410 --> 00:01:45,449
+a personalized SMS to the
+
+51
+00:01:45,449 --> 00:01:47,815
+prospect in under 30 seconds:
+
+52
+00:01:47,815 --> 00:01:48,793
+*'Hey Sarah,
+
+53
+00:01:48,793 --> 00:01:49,691
+this is Dr.
+
+54
+00:01:49,691 --> 00:01:50,996
+Miller's office.
+
+55
+00:01:50,996 --> 00:01:53,361
+We just received your inquiry
+
+56
+00:01:53,361 --> 00:01:55,482
+regarding teeth whitening.
+
+57
+00:01:55,482 --> 00:01:57,195
+Do you have 2 minutes
+
+58
+00:01:57,195 --> 00:01:58,255
+to speak now?
+
+59
+00:01:58,255 --> 00:01:59,055
+5.
+
+60
+00:01:59,055 --> 00:02:00,278
+Simultaneously,
+
+61
+00:02:00,278 --> 00:02:02,317
+it fires a priority alert
+
+62
+00:02:02,317 --> 00:02:04,927
+to the business owner's Telegram
+
+63
+00:02:04,927 --> 00:02:07,864
+or Slack with one-click tap-to-call.
+
+64
+00:02:07,864 --> 00:02:10,311
+Local clinics and home service
+
+65
+00:02:10,311 --> 00:02:13,165
+contractors happily pay 800 dollars
+
+66
+00:02:13,165 --> 00:02:13,965
+to 1,
+
+67
+00:02:13,965 --> 00:02:15,923
+200 dollars just to have
+
+68
+00:02:15,923 --> 00:02:18,125
+this one blueprint running.
+
+69
+00:02:18,125 --> 00:02:20,491
+Blueprint number two solves a
+
+70
+00:02:20,491 --> 00:02:23,508
+massive headache for local reputation
+
+71
+00:02:23,508 --> 00:02:27,016
+management: **Review Response Automation**.
+
+72
+00:02:27,016 --> 00:02:29,952
+Google's local SEO algorithm heavily
+
+73
+00:02:29,952 --> 00:02:32,480
+favors businesses that reply to
+
+74
+00:02:32,480 --> 00:02:34,927
+100% of their customer reviews
+
+75
+00:02:34,927 --> 00:02:36,232
+within 24 hours.
+
+76
+00:02:36,232 --> 00:02:37,619
+But busy doctors,
+
+77
+00:02:37,619 --> 00:02:38,598
+contractors,
+
+78
+00:02:38,598 --> 00:02:41,289
+and restaurant owners rarely have
+
+79
+00:02:41,289 --> 00:02:42,921
+time to sit down and
+
+80
+00:02:42,921 --> 00:02:44,633
+write unique replies.
+
+81
+00:02:44,633 --> 00:02:47,733
+This scenario monitors Google Business
+
+82
+00:02:47,733 --> 00:02:49,364
+Profile and Yelp: 1.
+
+83
+00:02:49,364 --> 00:02:51,648
+When a new review is posted,
+
+84
+00:02:51,648 --> 00:02:54,013
+it analyzes the sentiment and
+
+85
+00:02:54,013 --> 00:02:55,155
+customer tone.
+
+86
+00:02:55,155 --> 00:02:55,955
+2.
+
+87
+00:02:55,955 --> 00:02:57,913
+If it's a 5-star review,
+
+88
+00:02:57,913 --> 00:02:59,626
+GPT-4o drafts a warm,
+
+89
+00:02:59,626 --> 00:03:03,296
+personalized thank-you message that naturally
+
+90
+00:03:03,296 --> 00:03:06,232
+includes local keywords like 'Austin
+
+91
+00:03:06,232 --> 00:03:08,679
+dental implants' or 'Dallas AC
+
+92
+00:03:08,679 --> 00:03:10,963
+repair' to boost their local
+
+93
+00:03:10,963 --> 00:03:12,268
+search rankings.
+
+94
+00:03:12,268 --> 00:03:13,068
+3.
+
+95
+00:03:13,068 --> 00:03:14,618
+If it's a 1-star or
+
+96
+00:03:14,618 --> 00:03:15,923
+negative review,
+
+97
+00:03:15,923 --> 00:03:18,288
+the automation never posts an
+
+98
+00:03:18,288 --> 00:03:19,919
+argumentative reply.
+
+99
+00:03:19,919 --> 00:03:20,719
+Instead,
+
+100
+00:03:20,719 --> 00:03:22,840
+it generates a respectful,
+
+101
+00:03:22,840 --> 00:03:26,347
+de-escalating customer service response and
+
+102
+00:03:26,347 --> 00:03:29,447
+immediately pings the practice manager
+
+103
+00:03:29,447 --> 00:03:31,160
+with an urgent alert.
+
+104
+00:03:31,160 --> 00:03:32,709
+You can set this up
+
+105
+00:03:32,709 --> 00:03:34,912
+once and charge a recurring
+
+106
+00:03:34,912 --> 00:03:37,522
+300 dollars per month reputation
+
+107
+00:03:37,522 --> 00:03:39,234
+maintenance retainer.
+
+108
+00:03:39,234 --> 00:03:41,600
+Blueprint number three is our
+
+109
+00:03:41,600 --> 00:03:44,536
+**Real-Time VIP Sales Broadcaster**.
+
+110
+00:03:44,536 --> 00:03:47,065
+When you sell digital products,
+
+111
+00:03:47,065 --> 00:03:48,206
+subscriptions,
+
+112
+00:03:48,206 --> 00:03:49,756
+or agency services,
+
+113
+00:03:49,756 --> 00:03:53,182
+you need real-time operational visibility.
+
+114
+00:03:53,182 --> 00:03:55,873
+This scenario hooks directly into
+
+115
+00:03:55,873 --> 00:03:57,749
+your payment processor—
+
+116
+00:03:57,749 --> 00:03:59,625
+whether you use Stripe,
+
+117
+00:03:59,625 --> 00:04:00,767
+Lemon Squeezy,
+
+118
+00:04:00,767 --> 00:04:01,664
+or Gumroad.
+
+119
+00:04:01,664 --> 00:04:04,356
+The moment a customer checks out,
+
+120
+00:04:04,356 --> 00:04:07,945
+the webhook extracts their purchase details,
+
+121
+00:04:07,945 --> 00:04:10,310
+formats their lifetime value,
+
+122
+00:04:10,310 --> 00:04:12,186
+maps the product to the
+
+123
+00:04:12,186 --> 00:04:14,552
+correct digital download URL,
+
+124
+00:04:14,552 --> 00:04:17,651
+and broadcasts a beautifully formatted
+
+125
+00:04:17,651 --> 00:04:20,098
+VIP message directly into your
+
+126
+00:04:20,098 --> 00:04:22,137
+private Telegram channel.
+
+127
+00:04:22,137 --> 00:04:24,421
+It logs the customer's email
+
+128
+00:04:24,421 --> 00:04:25,563
+into your CRM,
+
+129
+00:04:25,563 --> 00:04:27,439
+adds them to your email
+
+130
+00:04:27,439 --> 00:04:28,744
+newsletter list,
+
+131
+00:04:28,744 --> 00:04:31,598
+and confirms asset fulfillment with
+
+132
+00:04:31,598 --> 00:04:33,638
+zero manual intervention.
+
+133
+00:04:33,638 --> 00:04:36,084
+It's the exact automation that
+
+134
+00:04:36,084 --> 00:04:38,287
+powers our 47 dollars eBook
+
+135
+00:04:38,287 --> 00:04:40,815
+and digital blueprint delivery.
+
+136
+00:04:40,815 --> 00:04:43,099
+Blueprint number four is the
+
+137
+00:04:43,099 --> 00:04:44,975
+**No-Show Eliminator**.
+
+138
+00:04:44,975 --> 00:04:48,156
+For service businesses and consultants,
+
+139
+00:04:48,156 --> 00:04:50,113
+a no-show is lost money.
+
+140
+00:04:50,113 --> 00:04:53,131
+The average consultation no-show rate
+
+141
+00:04:53,131 --> 00:04:55,741
+across industries is 25% to 35%.
+
+142
+00:04:55,741 --> 00:04:58,922
+This blueprint locks confirmed bookings
+
+143
+00:04:58,922 --> 00:05:01,369
+directly into Google Calendar,
+
+144
+00:05:01,369 --> 00:05:03,816
+creates a dedicated Zoom link,
+
+145
+00:05:03,816 --> 00:05:06,752
+and initiates a multi-stage reminder
+
+146
+00:05:06,752 --> 00:05:09,036
+sequence: - 24 hours before:
+
+147
+00:05:09,036 --> 00:05:12,299
+An automated calendar confirmation text.
+
+148
+00:05:12,299 --> 00:05:13,849
+- 2 hours before: A
+
+149
+00:05:13,849 --> 00:05:16,295
+friendly SMS reminder with the
+
+150
+00:05:16,295 --> 00:05:17,356
+meeting link.
+
+151
+00:05:17,356 --> 00:05:19,150
+- 10 minutes before: A
+
+152
+00:05:19,150 --> 00:05:21,597
+quick ping: *'We're hopping on
+
+153
+00:05:21,597 --> 00:05:23,147
+Zoom in 10 minutes!
+
+154
+00:05:23,147 --> 00:05:25,757
+It includes a 1-click reschedule
+
+155
+00:05:25,757 --> 00:05:27,307
+link so if a client
+
+156
+00:05:27,307 --> 00:05:28,693
+has an emergency,
+
+157
+00:05:28,693 --> 00:05:31,385
+they reschedule inside the system
+
+158
+00:05:31,385 --> 00:05:33,016
+instead of ghosting.
+
+159
+00:05:33,016 --> 00:05:36,034
+Implementing this drops no-show rates
+
+160
+00:05:36,034 --> 00:05:38,155
+from 30% down to under 5%.
+
+161
+00:05:38,155 --> 00:05:40,765
+That's thousands of dollars back
+
+162
+00:05:40,765 --> 00:05:42,885
+into your client's pocket.
+
+163
+00:05:42,885 --> 00:05:45,169
+Blueprint number five is our
+
+164
+00:05:45,169 --> 00:05:47,942
+**Autonomous Content Repurposer**.
+
+165
+00:05:47,942 --> 00:05:50,552
+Creating content for 5 different
+
+166
+00:05:50,552 --> 00:05:53,081
+social platforms is exhausting.
+
+167
+00:05:53,081 --> 00:05:54,630
+With this workflow,
+
+168
+00:05:54,630 --> 00:05:56,262
+you feed in a single
+
+169
+00:05:56,262 --> 00:05:58,464
+long-form piece of content—
+
+170
+00:05:58,464 --> 00:06:00,666
+like a YouTube video script
+
+171
+00:06:00,666 --> 00:06:01,890
+or a blog post.
+
+172
+00:06:01,890 --> 00:06:03,032
+In 15 seconds,
+
+173
+00:06:03,032 --> 00:06:04,337
+the scenario: 1.
+
+174
+00:06:04,337 --> 00:06:06,702
+Extracts the core insight and
+
+175
+00:06:06,702 --> 00:06:09,964
+formats a high-engagement 7-tweet thread
+
+176
+00:06:09,964 --> 00:06:10,764
+for X.
+
+177
+00:06:10,764 --> 00:06:11,564
+2.
+
+178
+00:06:11,564 --> 00:06:13,440
+Creates a professional,
+
+179
+00:06:13,440 --> 00:06:17,274
+formatted thought-leadership post for LinkedIn.
+
+180
+00:06:17,274 --> 00:06:18,074
+3.
+
+181
+00:06:18,074 --> 00:06:20,929
+Generates a 45-second punchy script
+
+182
+00:06:20,929 --> 00:06:23,376
+for TikTok and YouTube Shorts.
+
+183
+00:06:23,376 --> 00:06:24,176
+4.
+
+184
+00:06:24,176 --> 00:06:26,704
+Drafts a Reddit discussion post
+
+185
+00:06:26,704 --> 00:06:28,743
+for relevant communities.
+
+186
+00:06:28,743 --> 00:06:31,272
+It deposits all drafts directly
+
+187
+00:06:31,272 --> 00:06:33,637
+into your social scheduler or
+
+188
+00:06:33,637 --> 00:06:36,247
+Telegram for one-click approval.
+
+189
+00:06:36,247 --> 00:06:38,449
+One hour of content becomes
+
+190
+00:06:38,449 --> 00:06:40,325
+20 pieces of marketing.
+
+191
+00:06:40,325 --> 00:06:43,017
+You can monetize these blueprints
+
+192
+00:06:43,017 --> 00:06:45,301
+in two distinct ways: Method
+
+193
+00:06:45,301 --> 00:06:47,095
+1: **Client Retainers.
+
+194
+00:06:47,095 --> 00:06:48,482
+** Package 2 or 3
+
+195
+00:06:48,482 --> 00:06:51,010
+of these workflows together for
+
+196
+00:06:51,010 --> 00:06:53,457
+a local business and charge 1,
+
+197
+00:06:53,457 --> 00:06:55,496
+000 dollars for setup and
+
+198
+00:06:55,496 --> 00:06:57,617
+300 dollars to 650 dollars
+
+199
+00:06:57,617 --> 00:06:59,737
+per month for maintenance.
+
+200
+00:06:59,737 --> 00:07:02,103
+Method 2: **Digital Products.
+
+201
+00:07:02,103 --> 00:07:04,142
+** Export your clean JSON
+
+202
+00:07:04,142 --> 00:07:06,263
+templates and sell them on
+
+203
+00:07:06,263 --> 00:07:08,465
+Gumroad or Lemon Squeezy to
+
+204
+00:07:08,465 --> 00:07:11,156
+other creators and agency owners.
+
+205
+00:07:11,156 --> 00:07:13,032
+If you want to download
+
+206
+00:07:13,032 --> 00:07:15,724
+all 5 blueprints from this video,
+
+207
+00:07:15,724 --> 00:07:18,905
+plus 10 additional enterprise workflows
+
+208
+00:07:18,905 --> 00:07:21,760
+with ready-to-import JSON files and
+
+209
+00:07:21,760 --> 00:07:23,880
+step-by-step setup guides,
+
+210
+00:07:23,880 --> 00:07:25,593
+click the link in the
+
+211
+00:07:25,593 --> 00:07:27,959
+description below to grab our
+
+212
+00:07:27,959 --> 00:07:32,200
+**15 Automation Blueprints Pack** at `work-minh-lap.
+
+213
+00:07:32,200 --> 00:07:33,000
+vercel.
+
+214
+00:07:33,000 --> 00:07:33,979
+app/bundle`.
+
+215
+00:07:33,979 --> 00:07:35,616
+Don't forget to like and
+
+216
+00:07:35,616 --> 00:07:35,616
+subscribe for more real-world AI
+
+217
+00:07:35,616 --> 00:07:35,616
+engineering breakdowns.
+
+218
+00:07:35,616 --> 00:07:35,616
+I'll see you in the
+
+219
+00:07:35,616 --> 00:07:35,616
+next video.

@@ -33,7 +33,8 @@ MAPPINGS = [
     ("projects/ai_freelancing/portfolio/chatbot_demo", "chatbotdemo"),
     ("projects/digital_products/bundle_showcase.html", "bundle/index.html"),
     ("projects/ai_automation_smb/roi_calculator.html", "calculator/index.html"),
-    ("projects/affiliate_blog/website/referrals.html", "referral/index.html")
+    ("projects/affiliate_blog/website/referrals.html", "referral/index.html"),
+    ("portals", "portal")
 ]
 
 def sync_endpoints():

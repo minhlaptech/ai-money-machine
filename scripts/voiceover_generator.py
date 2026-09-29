@@ -196,7 +196,48 @@ def get_episode_files():
     """List all available episode script markdown files"""
     return sorted(list(SCRIPTS_DIR.glob("video_*.md")))
 
-def generate_episode_voiceover(episode_num, tld="com"):
+def extract_episode_speech(content):
+    """Extract spoken narration from either code blocks (Ep 1-4) or blockquotes under Voiceover: (Ep 5-10)"""
+    # Method 1: Check code blocks in ## FULL SCRIPT
+    script_part = content.split("## 📝 FULL SCRIPT")[-1] if "## 📝 FULL SCRIPT" in content else content
+    code_blocks = re.findall(r"```(?:\w+)?\n(.*?)```", script_part, re.DOTALL)
+    spoken_blocks = [b.strip() for b in code_blocks if not b.strip().startswith("http")]
+    if spoken_blocks:
+        return " ".join(spoken_blocks)
+
+    # Method 2: Extract blockquotes under Voiceover:
+    quotes = []
+    lines = content.splitlines()
+    in_vo = False
+    for line in lines:
+        line_s = line.strip()
+        if "Voiceover:" in line_s or "**Voiceover:**" in line_s:
+            in_vo = True
+            continue
+        if line_s.startswith("###") or line_s.startswith("---") or (line_s.startswith("## ") and not "Voiceover" in line_s):
+            in_vo = False
+        if line_s.startswith(">") and in_vo:
+            clean_l = line_s.lstrip("> \t\"'“‘*").rstrip("\"'”’* \t")
+            if clean_l and not clean_l.startswith("http"):
+                quotes.append(clean_l)
+
+    if quotes:
+        return " ".join(quotes)
+
+    # Method 3: Fallback to any lines starting with > that aren't visual/sound cues
+    generic_quotes = []
+    for line in lines:
+        line_s = line.strip()
+        if line_s.startswith(">"):
+            clean_l = line_s.lstrip("> \t\"'“‘*").rstrip("\"'”’* \t")
+            if clean_l and not clean_l.startswith("http") and not clean_l.startswith("Visual:") and not clean_l.startswith("Sound:"):
+                generic_quotes.append(clean_l)
+    if generic_quotes:
+        return " ".join(generic_quotes)
+
+    return script_part
+
+def generate_episode_voiceover(episode_num, tld="com", force=False):
     """Generate audio MP3, SRT subtitles, and teleprompter TXT for YouTube Episode X"""
     EPISODES_DIR.mkdir(parents=True, exist_ok=True)
     files = get_episode_files()
@@ -210,19 +251,31 @@ def generate_episode_voiceover(episode_num, tld="com"):
         print(f"[!] Episode #{episode_num} script file not found.")
         return None
 
-    content = target_file.read_text(encoding="utf-8")
-    script_part = content.split("## 📝 FULL SCRIPT")[-1] if "## 📝 FULL SCRIPT" in content else content
-    code_blocks = re.findall(r"```(?:\w+)?\n(.*?)```", script_part, re.DOTALL)
-    spoken_raw = " ".join([b.strip() for b in code_blocks if not b.strip().startswith("http")])
-    if not spoken_raw:
-        spoken_raw = script_part
-
-    speech = clean_speech_text(spoken_raw)
-    words = speech.split()
-
     mp3_path = EPISODES_DIR / f"episode_{episode_num:03d}_voiceover.mp3"
     srt_path = EPISODES_DIR / f"episode_{episode_num:03d}_subtitles.srt"
     txt_path = EPISODES_DIR / f"episode_{episode_num:03d}_script.txt"
+
+    content = target_file.read_text(encoding="utf-8")
+    spoken_raw = extract_episode_speech(content)
+    speech = clean_speech_text(spoken_raw)
+    words = speech.split()
+
+    title_m = re.search(r"##\s*[\"']?(.*?)[\"']?\n", content)
+    ep_title = title_m.group(1).strip() if title_m else target_file.stem
+
+    if not force and mp3_path.exists() and srt_path.exists() and mp3_path.stat().st_size > 100000:
+        audio = AudioSegment.from_file(str(mp3_path))
+        duration = audio.duration_seconds
+        print(f"[✓] Episode #{episode_num:03d} already exists: {duration/60:.1f} mins ({mp3_path.stat().st_size // 1024} KB). Skipping re-download.")
+        return {
+            "type": "episode",
+            "episode": episode_num,
+            "title": ep_title,
+            "duration": duration,
+            "mp3": str(mp3_path),
+            "srt": str(srt_path),
+            "words": len(words)
+        }
 
     print(f"[*] Synthesizing full episode voiceover #{episode_num:03d} ({len(words)} words, ~{len(words)/140:.1f} mins)...")
     tts = gTTS(text=speech, lang='en', tld=tld)

@@ -1,0 +1,767 @@
+1
+00:00:00,000 --> 00:00:02,911
+Most people think Print-on-Demand is
+
+2
+00:00:02,911 --> 00:00:03,962
+dead in 2026.
+
+3
+00:00:03,962 --> 00:00:06,307
+They see people uploading 500
+
+4
+00:00:06,307 --> 00:00:09,460
+low-quality clip-art designs of generic
+
+5
+00:00:09,460 --> 00:00:12,371
+cats or generic motivational quotes,
+
+6
+00:00:12,371 --> 00:00:13,827
+making zero sales,
+
+7
+00:00:13,827 --> 00:00:16,334
+and concluding that 'the market
+
+8
+00:00:16,334 --> 00:00:17,466
+is saturated'.
+
+9
+00:00:17,466 --> 00:00:19,406
+But here is the reality:
+
+10
+00:00:19,406 --> 00:00:21,590
+Print-on-Demand isn't dead.
+
+11
+00:00:21,590 --> 00:00:23,530
+**Lazy designs are dead.
+
+12
+00:00:23,530 --> 00:00:24,339
+Right now,
+
+13
+00:00:24,339 --> 00:00:26,684
+solo creators using modern AI
+
+14
+00:00:26,684 --> 00:00:30,323
+image generators are launching hyper-targeted
+
+15
+00:00:30,323 --> 00:00:33,153
+apparel and tech merchandise stores
+
+16
+00:00:33,153 --> 00:00:35,740
+that quietly generate between 1,
+
+17
+00:00:35,740 --> 00:00:37,196
+000 dollars and 3,
+
+18
+00:00:37,196 --> 00:00:39,622
+500 dollars every single month
+
+19
+00:00:39,622 --> 00:00:41,482
+in pure passive profit.
+
+20
+00:00:41,482 --> 00:00:44,069
+You don't buy inventory upfront.
+
+21
+00:00:44,069 --> 00:00:45,929
+You don't pack boxes or
+
+22
+00:00:45,929 --> 00:00:47,465
+wait in line at the
+
+23
+00:00:47,465 --> 00:00:48,436
+post office.
+
+24
+00:00:48,436 --> 00:00:50,781
+When a customer buys on Etsy,
+
+25
+00:00:50,781 --> 00:00:54,015
+your production partner prints the item,
+
+26
+00:00:54,015 --> 00:00:55,713
+ships it in a branded
+
+27
+00:00:55,713 --> 00:00:58,543
+package directly to their doorstep,
+
+28
+00:00:58,543 --> 00:01:00,727
+and deposits the net profit
+
+29
+00:01:00,727 --> 00:01:03,314
+straight into your bank account.
+
+30
+00:01:03,314 --> 00:01:04,446
+In this video,
+
+31
+00:01:04,446 --> 00:01:06,468
+I'm giving you the entire
+
+32
+00:01:06,468 --> 00:01:08,894
+playbook: the exact prompts to
+
+33
+00:01:08,894 --> 00:01:11,400
+generate commercial vector art,
+
+34
+00:01:11,400 --> 00:01:12,937
+how to price for 18
+
+35
+00:01:12,937 --> 00:01:15,039
+dollars profit per hoodie,
+
+36
+00:01:15,039 --> 00:01:16,899
+and our 13-tag Etsy SEO
+
+37
+00:01:16,899 --> 00:01:19,487
+formula that ranks your products
+
+38
+00:01:19,487 --> 00:01:20,457
+on page one.
+
+39
+00:01:20,457 --> 00:01:22,398
+Let's get right into it.
+
+40
+00:01:22,398 --> 00:01:24,581
+Rule number one: Never open
+
+41
+00:01:24,581 --> 00:01:26,441
+a 'general' gift store.
+
+42
+00:01:26,441 --> 00:01:28,220
+The stores that win in
+
+43
+00:01:28,220 --> 00:01:31,373
+2026 target **tribal identity niches**—
+
+44
+00:01:31,373 --> 00:01:34,850
+communities of passionate professionals who
+
+45
+00:01:34,850 --> 00:01:36,953
+take intense pride in what
+
+46
+00:01:36,953 --> 00:01:38,651
+they do and have high
+
+47
+00:01:38,651 --> 00:01:40,106
+disposable income.
+
+48
+00:01:40,106 --> 00:01:41,643
+Our favorite niche?
+
+49
+00:01:41,643 --> 00:01:42,856
+**Tech Workers,
+
+50
+00:01:42,856 --> 00:01:43,745
+Developers,
+
+51
+00:01:43,745 --> 00:01:45,039
+and AI Builders.
+
+52
+00:01:45,039 --> 00:01:47,869
+Think about it: Software engineers,
+
+53
+00:01:47,869 --> 00:01:49,163
+data scientists,
+
+54
+00:01:49,163 --> 00:01:51,427
+and prompt engineers spend 8
+
+55
+00:01:51,427 --> 00:01:52,802
+to 12 hours a day
+
+56
+00:01:52,802 --> 00:01:54,015
+at their desks.
+
+57
+00:01:54,015 --> 00:01:56,440
+They love clever inside jokes,
+
+58
+00:01:56,440 --> 00:01:58,866
+terminal aesthetic typography,
+
+59
+00:01:58,866 --> 00:02:00,726
+and cyberpunk neon art.
+
+60
+00:02:00,726 --> 00:02:02,586
+When an engineer sees a
+
+61
+00:02:02,586 --> 00:02:04,931
+hoodie that says *'Powered by
+
+62
+00:02:04,931 --> 00:02:06,548
+Coffee & LLMs'* or a
+
+63
+00:02:06,548 --> 00:02:08,731
+vintage tee with *'It Works
+
+64
+00:02:08,731 --> 00:02:10,025
+On My Machine'*,
+
+65
+00:02:10,025 --> 00:02:11,804
+they don't buy it just
+
+66
+00:02:11,804 --> 00:02:13,583
+because it's clothing.
+
+67
+00:02:13,583 --> 00:02:14,877
+They buy it as a
+
+68
+00:02:14,877 --> 00:02:16,656
+badge of honor to wear
+
+69
+00:02:16,656 --> 00:02:18,273
+on video calls or at
+
+70
+00:02:18,273 --> 00:02:19,567
+tech hackathons.
+
+71
+00:02:19,567 --> 00:02:21,588
+Choose a niche where your
+
+72
+00:02:21,588 --> 00:02:24,338
+audience has disposable income and
+
+73
+00:02:24,338 --> 00:02:26,198
+strong tribal identity.
+
+74
+00:02:26,198 --> 00:02:28,219
+How do you create designs
+
+75
+00:02:28,219 --> 00:02:30,968
+that look like high-end streetwear
+
+76
+00:02:30,968 --> 00:02:33,071
+rather than cheap AI slop?
+
+77
+00:02:33,071 --> 00:02:35,982
+Follow our 4-part prompt formula: 1.
+
+78
+00:02:35,982 --> 00:02:37,599
+**Core Subject**: E.
+
+79
+00:02:37,599 --> 00:02:38,399
+g.,
+
+80
+00:02:38,399 --> 00:02:41,472
+'Cyberpunk neon coffee mug intertwined
+
+81
+00:02:41,472 --> 00:02:44,949
+with glowing neural network circuit nodes'.
+
+82
+00:02:44,949 --> 00:02:45,749
+2.
+
+83
+00:02:45,749 --> 00:02:49,873
+**Typography Anchor**: 'Clean futuristic typography
+
+84
+00:02:49,873 --> 00:02:52,784
+reading Powered by Coffee and LLMs'.
+
+85
+00:02:52,784 --> 00:02:53,584
+3.
+
+86
+00:02:53,584 --> 00:02:57,142
+**Background Constraint**: 'Isolated on pure
+
+87
+00:02:57,142 --> 00:02:59,082
+solid black background'.
+
+88
+00:02:59,082 --> 00:03:02,802
+(This makes background removal instantaneous).
+
+89
+00:03:02,802 --> 00:03:03,602
+4.
+
+90
+00:03:03,602 --> 00:03:07,969
+**Aesthetic Style**: 'Crisp vector-style illustration,
+
+91
+00:03:07,969 --> 00:03:11,041
+minimal streetwear merchandise design,
+
+92
+00:03:11,041 --> 00:03:11,931
+1:1 ratio'.
+
+93
+00:03:11,931 --> 00:03:13,144
+Once generated,
+
+94
+00:03:13,144 --> 00:03:15,004
+run the image through a
+
+95
+00:03:15,004 --> 00:03:17,349
+free upscaler like Upscayl to
+
+96
+00:03:17,349 --> 00:03:19,451
+hit 300 DPI resolution (at
+
+97
+00:03:19,451 --> 00:03:20,251
+least 4,
+
+98
+00:03:20,251 --> 00:03:21,051
+500 by 4,
+
+99
+00:03:21,051 --> 00:03:22,021
+500 pixels).
+
+100
+00:03:22,021 --> 00:03:24,366
+This guarantees that when the
+
+101
+00:03:24,366 --> 00:03:26,388
+printer prints on fabric,
+
+102
+00:03:26,388 --> 00:03:28,975
+every line is sharp and vibrant.
+
+103
+00:03:28,975 --> 00:03:32,291
+A huge beginner mistake is under-pricing.
+
+104
+00:03:32,291 --> 00:03:33,989
+If you sell a t-shirt
+
+105
+00:03:33,989 --> 00:03:36,334
+for 18 dollars and production
+
+106
+00:03:36,334 --> 00:03:37,709
+costs 12 dollars,
+
+107
+00:03:37,709 --> 00:03:39,973
+you're only making 3 dollars
+
+108
+00:03:39,973 --> 00:03:40,862
+after fees.
+
+109
+00:03:40,862 --> 00:03:42,884
+One return wipes out your
+
+110
+00:03:42,884 --> 00:03:43,854
+entire week.
+
+111
+00:03:43,854 --> 00:03:44,654
+Instead,
+
+112
+00:03:44,654 --> 00:03:47,242
+position your brand as **premium
+
+113
+00:03:47,242 --> 00:03:49,910
+merchandise**: Look at our hoodie
+
+114
+00:03:49,910 --> 00:03:52,417
+economics: - Printify base cost
+
+115
+00:03:52,417 --> 00:03:55,004
+for a heavyweight organic fleece
+
+116
+00:03:55,004 --> 00:03:56,056
+hoodie is 23.
+
+117
+00:03:56,056 --> 00:03:56,945
+50 dollars.
+
+118
+00:03:56,945 --> 00:03:58,562
+- We list the retail
+
+119
+00:03:58,562 --> 00:04:00,179
+price on Etsy at 48.
+
+120
+00:04:00,179 --> 00:04:01,069
+00 dollars.
+
+121
+00:04:01,069 --> 00:04:03,091
+- After shipping and Etsy
+
+122
+00:04:03,091 --> 00:04:04,465
+transaction fees,
+
+123
+00:04:04,465 --> 00:04:05,759
+you pocket **18.
+
+124
+00:04:05,759 --> 00:04:07,538
+00 dollars in pure net
+
+125
+00:04:07,538 --> 00:04:10,530
+profit** on every single hoodie sold.
+
+126
+00:04:10,530 --> 00:04:12,632
+Sell just 2 hoodies a day,
+
+127
+00:04:12,632 --> 00:04:14,654
+and you're making over 1,
+
+128
+00:04:14,654 --> 00:04:17,080
+000 dollars every single month
+
+129
+00:04:17,080 --> 00:04:18,697
+in automated profit.
+
+130
+00:04:18,697 --> 00:04:20,395
+How do you get buyers
+
+131
+00:04:20,395 --> 00:04:23,225
+without spending money on Etsy ads?
+
+132
+00:04:23,225 --> 00:04:25,247
+Etsy gives you exactly 13
+
+133
+00:04:25,247 --> 00:04:27,026
+tag slots per listing.
+
+134
+00:04:27,026 --> 00:04:29,047
+90% of sellers waste them
+
+135
+00:04:29,047 --> 00:04:31,554
+with single words like 'shirt',
+
+136
+00:04:31,554 --> 00:04:32,354
+'gift',
+
+137
+00:04:32,354 --> 00:04:33,324
+or 'hoodie'.
+
+138
+00:04:33,324 --> 00:04:35,750
+Single words are impossible to
+
+139
+00:04:35,750 --> 00:04:36,550
+rank for.
+
+140
+00:04:36,550 --> 00:04:39,057
+You must use **long-tail intent
+
+141
+00:04:39,057 --> 00:04:41,725
+keywords**: - Instead of 'hoodie'
+
+142
+00:04:41,725 --> 00:04:43,908
+-> Use *'ai engineer hoodie
+
+143
+00:04:43,908 --> 00:04:45,687
+- Instead of 'gift' ->
+
+144
+00:04:45,687 --> 00:04:48,194
+Use *'software developer gift -
+
+145
+00:04:48,194 --> 00:04:50,297
+Instead of 'coding' -> Use
+
+146
+00:04:50,297 --> 00:04:52,642
+*'coffee and coding Your Etsy
+
+147
+00:04:52,642 --> 00:04:54,906
+title should match the exact
+
+148
+00:04:54,906 --> 00:04:56,766
+phrases in your first 3
+
+149
+00:04:56,766 --> 00:04:58,787
+tags: Powered by Coffee &
+
+150
+00:04:58,787 --> 00:05:01,617
+LLMs Heavyweight Hoodie | Cyberpunk
+
+151
+00:05:01,617 --> 00:05:04,205
+AI Developer Sweatshirt When the
+
+152
+00:05:04,205 --> 00:05:06,873
+algorithm detects a match between
+
+153
+00:05:06,873 --> 00:05:09,137
+the customer's search query,
+
+154
+00:05:09,137 --> 00:05:10,027
+your title,
+
+155
+00:05:10,027 --> 00:05:11,159
+and your tags,
+
+156
+00:05:11,159 --> 00:05:13,827
+your product appears on page one.
+
+157
+00:05:13,827 --> 00:05:15,525
+The best part of this
+
+158
+00:05:15,525 --> 00:05:18,275
+business model is the integration.
+
+159
+00:05:18,275 --> 00:05:20,539
+You connect Printify to your
+
+160
+00:05:20,539 --> 00:05:22,641
+Etsy store with one click.
+
+161
+00:05:22,641 --> 00:05:24,501
+When a customer orders,
+
+162
+00:05:24,501 --> 00:05:27,736
+Printify automatically charges your card
+
+163
+00:05:27,736 --> 00:05:29,676
+for the production cost,
+
+164
+00:05:29,676 --> 00:05:31,213
+prints the product,
+
+165
+00:05:31,213 --> 00:05:33,558
+and uploads the USPS tracking
+
+166
+00:05:33,558 --> 00:05:35,175
+number back to Etsy.
+
+167
+00:05:35,175 --> 00:05:37,277
+You never touch inventory.
+
+168
+00:05:37,277 --> 00:05:39,946
+You never print a shipping label.
+
+169
+00:05:39,946 --> 00:05:41,967
+Your only job is spending
+
+170
+00:05:41,967 --> 00:05:43,908
+30 minutes a week adding
+
+171
+00:05:43,908 --> 00:05:45,525
+2 or 3 fresh designs
+
+172
+00:05:45,525 --> 00:05:46,819
+to your catalog.
+
+173
+00:05:46,819 --> 00:05:48,679
+To help you launch your
+
+174
+00:05:48,679 --> 00:05:49,649
+store today,
+
+175
+00:05:49,649 --> 00:05:53,126
+we've included our complete Print-on-Demand
+
+176
+00:05:53,126 --> 00:05:54,582
+listing generator,
+
+177
+00:05:54,582 --> 00:05:56,927
+high-resolution design files,
+
+178
+00:05:56,927 --> 00:05:59,191
+and the 13-tag SEO templates
+
+179
+00:05:59,191 --> 00:06:01,212
+in the description below.
+
+180
+00:06:01,212 --> 00:06:03,234
+You can also grab our 16,
+
+181
+00:06:03,234 --> 00:06:05,498
+000-word guide 'The AI Money
+
+182
+00:06:05,498 --> 00:06:08,732
+Blueprint' which covers Print-on-Demand,
+
+183
+00:06:08,732 --> 00:06:09,622
+Micro-SaaS,
+
+184
+00:06:09,622 --> 00:06:12,290
+and AI automation in full detail.
+
+185
+00:06:12,290 --> 00:06:14,797
+If this video gave you clarity,
+
+186
+00:06:14,797 --> 00:06:16,414
+hit the Like button,
+
+187
+00:06:16,414 --> 00:06:18,759
+subscribe for weekly tactics,
+
+188
+00:06:18,759 --> 00:06:21,104
+and comment below: What niche
+
+189
+00:06:21,104 --> 00:06:22,802
+are you launching in?
+
+190
+00:06:22,802 --> 00:06:24,336
+Go build your store,
+
+191
+00:06:24,336 --> 00:06:24,336
+and I'll see you in
+
+192
+00:06:24,336 --> 00:06:24,336
+the next breakdown!
