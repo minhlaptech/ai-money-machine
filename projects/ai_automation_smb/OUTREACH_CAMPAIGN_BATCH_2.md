@@ -37,7 +37,7 @@ Studies show that stores responding to 100% of customer reviews within 24 hours 
 
 We built an autonomous AI review response tool that drafts empathetic, professional, on-brand responses to every customer review in under 3 seconds:
 
-👉 Live Tool Demo: https://reviewgenius-beta.vercel.app
+👉 Live Tool Demo: https://work-minh-lap.vercel.app/reviewgenius
 
 It handles praise with custom thank-yous and defuses negative feedback before it hurts your brand reputation.
 
@@ -47,7 +47,7 @@ Best regards,
 
 [Tên Bạn]
 E-Commerce Automation Specialist
-Portfolio: https://reviewgenius-beta.vercel.app
+Portfolio: https://work-minh-lap.vercel.app/reviewgenius
 ```
 
 ---

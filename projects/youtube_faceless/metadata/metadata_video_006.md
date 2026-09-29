@@ -21,7 +21,7 @@ How to Start an AI Automation Agency (AAA) in 2026 ($0 to $3,000/mo Retainers)
 In this video, I break down the exact step-by-step roadmap to start your own AI Automation Agency (AAA) in 2026 with zero coding, land high-ticket local business clients, and build recurring monthly retainers ($1,500 setup + $750/mo).
 
 📌 RESOURCES & LIVE DEMOS MENTIONED:
-👉 🤖 Interactive Chatbot Portfolio Demo: https://chatbotdemo-hazel.vercel.app
+👉 🤖 Interactive Chatbot Portfolio Demo: https://work-minh-lap.vercel.app/chatbotdemo
 👉 📖 Free eBook 'The AI Money Blueprint' (16,000 words): https://ai-automation-guide-omega.vercel.app
 👉 ⚡ SynapseGEO AI Search Engine Audit Tool: https://synapse-geo-audit.vercel.app
 👉 📦 Gumroad Digital Products & Templates: https://minhlap.gumroad.com
@@ -51,7 +51,7 @@ ai automation agency, how to start an ai agency, aaa blueprint 2026, make money 
 
 ## 📌 4. Pinned Comment (Pin to Top of Comments)
 ```text
-👉 Test the live interactive client chatbot demo here: https://chatbotdemo-hazel.vercel.app
+👉 Test the live interactive client chatbot demo here: https://work-minh-lap.vercel.app/chatbotdemo
 
 Download our complete 16,000-word eBook & 15 automation templates for free at https://ai-automation-guide-omega.vercel.app !
 

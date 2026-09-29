@@ -22,7 +22,7 @@ In this video, I break down the exact step-by-step roadmap to start your own AI 
 
 📌 RESOURCES & LIVE DEMOS MENTIONED:
 👉 💼 Upwork Mastery Kit & Cover Letter Templates: https://ai-automation-guide-omega.vercel.app
-👉 🤖 Interactive Chatbot Portfolio Demo: https://chatbotdemo-hazel.vercel.app
+👉 🤖 Interactive Chatbot Portfolio Demo: https://work-minh-lap.vercel.app/chatbotdemo
 👉 📖 The AI Money Blueprint eBook: https://minhlap.gumroad.com/l/xqckmu
 👉 🎁 The AI Empire Master Bundle ($39): https://minhlap.lemonsqueezy.com
 

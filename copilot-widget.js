@@ -8,7 +8,7 @@
  * <script src="https://work-minh-lap.vercel.app/copilot-widget.js"
  *         data-business="Austin Dental Co"
  *         data-color="#7c5cfc"
- *         data-booking="https://chatbotdemo-hazel.vercel.app"
+ *         data-booking="https://work-minh-lap.vercel.app/chatbotdemo"
  *         async></script>
  */
 

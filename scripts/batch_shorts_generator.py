@@ -4,7 +4,7 @@
 Tự động tạo trọn bộ 30 kịch bản video ngắn (Short-Form Video Scripts 60s)
 cho 30 ngày phủ sóng liên tục trên YouTube Shorts, TikTok và Instagram Reels.
 Tập trung dẫn traffic về:
-- Chatbot Demo: https://chatbotdemo-hazel.vercel.app
+- Chatbot Demo: https://work-minh-lap.vercel.app/chatbotdemo
 - SynapseGEO: https://synapse-geo-audit.vercel.app
 - Free Ebook & Guides: https://ai-automation-guide-omega.vercel.app
 - Master Bundle ($39): https://minhlap.lemonsqueezy.com
@@ -48,7 +48,7 @@ SHORTS_DATA = [
     {"day": 18, "theme": "Multi-Platform Repurpose", "title": "Turn 1 blog post into 10 social media posts in 60s", "hook": "Stop writing content separately for Twitter, LinkedIn, and TikTok.", "solution": "Use an AI repurposing script that extracts the key hook, formats a 7-tweet thread, a professional LinkedIn carousel, and a 60-second video script.", "cta": "Try our open repurposing engine (link in bio)!"},
     {"day": 19, "theme": "Error Handling", "title": "Why 90% of Make.com scenarios break (And the fix)", "hook": "Ever wake up to find your automation stopped running 3 days ago?", "solution": "Always add an Error Handler route with Resume or Ignore directives and a fallback alert to your Slack or Telegram. Never let an API 429 kill your flow.", "cta": "Full troubleshooting guide in our resource vault!"},
     {"day": 20, "theme": "Airtable CRM", "title": "Build a custom $5,000 CRM in Airtable in 15 minutes", "hook": "Don't pay Salesforce $150/user/month for small businesses.", "solution": "Combine Airtable relational databases with AI automations to score leads, assign tasks, and trigger email sequences automatically.", "cta": "Download our ready-to-use Airtable base template in bio!"},
-    {"day": 21, "theme": "AI Agent Future", "title": "The death of static websites: Meet autonomous web agents", "hook": "In 2 years, people won't browse menus and click forms. They will talk to web agents.", "solution": "Websites are shifting from static brochures to interactive conversational copilot interfaces that understand intent and complete actions.", "cta": "Experience the prototype at chatbotdemo-hazel.vercel.app!"},
+    {"day": 21, "theme": "AI Agent Future", "title": "The death of static websites: Meet autonomous web agents", "hook": "In 2 years, people won't browse menus and click forms. They will talk to web agents.", "solution": "Websites are shifting from static brochures to interactive conversational copilot interfaces that understand intent and complete actions.", "cta": "Experience the prototype at work-minh-lap.vercel.app/chatbotdemo!"},
 
     # --- WEEK 4: DIGITAL PRODUCTS, PROMPTS & FREELANCING ---
     {"day": 22, "theme": "Digital Product", "title": "How to create and sell your first digital eBook with AI", "hook": "How we wrote a 16,000-word technical guide in 7 days and listed it on Gumroad.", "solution": "Structure your outline first. Use deep AI prompting for real-world case studies and frameworks. Export to crisp PDF and launch on Gumroad and Lemon Squeezy.", "cta": "Get The AI Money Blueprint eBook in bio!"},

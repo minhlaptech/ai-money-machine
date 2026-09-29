@@ -60,7 +60,7 @@ Chúng tôi đã triển khai cho họ một AI Booking Copilot:
 - Tự động điền lịch hẹn vào Google Calendar của bác sĩ trong 30 giây.
 
 👉 Bạn có thể tự mình trải nghiệm bản demo trực tiếp tại đây:
-https://chatbotdemo-hazel.vercel.app
+https://work-minh-lap.vercel.app/chatbotdemo
 
 Chỉ trong 30 ngày đầu, hệ thống đã thu hồi 14 ca điều trị mới mà nhân viên lễ tân không phải gọi một cuộc điện thoại nào ngoài giờ làm việc.
 
@@ -90,7 +90,7 @@ Dưới đây là 3 công cụ Micro-SaaS tôi đã xây dựng và triển khai
 1. 🌐 **SynapseGEO** (https://synapse-geo-audit.vercel.app):
    Công cụ kiểm tra xem website có bị chặn bot ChatGPT hay Perplexity không. Các agency SEO sẵn sàng trả $19 để xuất báo cáo kiểm toán cho khách hàng.
 
-2. ⭐ **ReviewGenius AI** (https://reviewgenius-beta.vercel.app):
+2. ⭐ **ReviewGenius AI** (https://work-minh-lap.vercel.app/reviewgenius):
    Tự động biến đánh giá 1 sao của khách hàng khó tính thành sự hài lòng 5 sao trong 3 giây.
 
 3. 🔥 **HeadlineIQ** (https://headlineiq-eta.vercel.app):

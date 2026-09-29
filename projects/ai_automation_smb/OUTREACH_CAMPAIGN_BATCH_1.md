@@ -35,7 +35,7 @@ In most competitive markets, clinics lose 4 to 8 high-intent new patient inquiri
 
 To show you how easy this is to solve, I set up a quick 60-second interactive demo specifically for high-ticket clinics:
 
-👉 Live Demo: https://chatbotdemo-hazel.vercel.app
+👉 Live Demo: https://work-minh-lap.vercel.app/chatbotdemo
 
 It answers common treatment questions, qualifies insurance, and books appointments directly into your calendar 24/7.
 
@@ -45,7 +45,7 @@ Best regards,
 
 [Tên Bạn]
 AI Automation Consultant
-Portfolio: https://chatbotdemo-hazel.vercel.app
+Portfolio: https://work-minh-lap.vercel.app/chatbotdemo
 ```
 
 ---
@@ -91,7 +91,7 @@ I noticed from your Instagram and website that you receive a lot of inquiries re
 We build custom AI assistants that engage visitors, recommend treatment options, and lock in paid consultation deposits while you sleep.
 
 Take a look at how seamless the patient experience is:
-👉 Interactive Sample: https://chatbotdemo-hazel.vercel.app
+👉 Interactive Sample: https://work-minh-lap.vercel.app/chatbotdemo
 
 Would you be against me sending over a 3-minute video showing what this would look like for [Business Name]?
 
@@ -114,7 +114,7 @@ Hi [Name],
 Just bubbling this up in case it got buried under your daily client appointments.
 
 Did you have a chance to check out the 60-second interactive demo?
-👉 https://chatbotdemo-hazel.vercel.app
+👉 https://work-minh-lap.vercel.app/chatbotdemo
 
 Even adding just 2-3 additional booked clients a month typically covers the entire system cost 5x over.
 
@@ -144,7 +144,7 @@ Best,
 
 ## 💡 NGUYÊN TẮC CHỐT HỢP ĐỒNG KHI CÓ KHÁCH HỒI ÂM:
 1. **Khi khách trả lời "Yes / Send more info"**:
-   * Gửi link video Loom 2 phút quay màn hình web của họ + mở demo `chatbotdemo-hazel.vercel.app`.
+   * Gửi link video Loom 2 phút quay màn hình web của họ + mở demo `work-minh-lap.vercel.app/chatbotdemo`.
    * Gợi ý lịch gặp: *"Would 10 AM or 3 PM tomorrow work better for a 10-minute walk-through?"*
 2. **Gói dịch vụ đề xuất (theo file [smb_service_packages_pricing.md](file:///d:/Project/work/projects/ai_automation_smb/smb_service_packages_pricing.md))**:
    * **Gói Starter**: $500 setup + $150/tháng bảo trì.

@@ -40,7 +40,7 @@ Try the free audit:
 2️⃣ ReviewGenius & HeadlineIQ
 
 • ReviewGenius: Turn negative reviews into 5-star customer loyalty in seconds:
-🔗 https://reviewgenius-beta.vercel.app
+🔗 https://work-minh-lap.vercel.app/reviewgenius
 
 • HeadlineIQ: Score your headlines for SEO, engagement, and viral CTR:
 🔗 https://headlineiq-eta.vercel.app
@@ -53,7 +53,7 @@ Try the free audit:
 3️⃣ AI Chatbot Demo & Automation Hub
 
 An interactive customer support bot showing lead capture and business intelligence in real time:
-🔗 https://chatbotdemo-hazel.vercel.app
+🔗 https://work-minh-lap.vercel.app/chatbotdemo
 
 Full Resource & Guides Hub:
 🔗 https://ai-automation-guide-omega.vercel.app
@@ -98,9 +98,9 @@ What should I build next? Let me know below 👇
 I just launched 5 free AI tools and an open-source automation blueprint:
 
 ⚡ SynapseGEO (AI SEO audit): https://synapse-geo-audit.vercel.app
-⭐ ReviewGenius (AI reviews): https://reviewgenius-beta.vercel.app
+⭐ ReviewGenius (AI reviews): https://work-minh-lap.vercel.app/reviewgenius
 🔥 HeadlineIQ (Viral CTR): https://headlineiq-eta.vercel.app
-🤖 Chatbot Demo: https://chatbotdemo-hazel.vercel.app
+🤖 Chatbot Demo: https://work-minh-lap.vercel.app/chatbotdemo
 📖 16,000-word AI Blueprint: https://ai-automation-guide-omega.vercel.app
 
 100% free. No email gate. Built in public.

@@ -42,7 +42,7 @@ The gap between businesses adopting AI search readiness vs traditional SEO is wh
 ---
 
 **Tweet 6 (Key Takeaway)**:
-5/ You can test the exact interactive patient experience here: https://chatbotdemo-hazel.vercel.app
+5/ You can test the exact interactive patient experience here: https://work-minh-lap.vercel.app/chatbotdemo
 
 Don't wait for your competitors to take the top recommendation slot on voice assistants.
 
@@ -74,7 +74,7 @@ If competitors answer and lock down a calendar appointment in 30 seconds, you lo
 We deployed a conversational AI assistant that answers pricing, verifies insurance eligibility, and writes directly to Google Calendar.
 
 💡 Bottom line:
-You can test the exact interactive patient experience here: https://chatbotdemo-hazel.vercel.app
+You can test the exact interactive patient experience here: https://work-minh-lap.vercel.app/chatbotdemo
 
 👉 Explore the full AI Automation Playbook & blueprints at https://ai-automation-guide-omega.vercel.app
 

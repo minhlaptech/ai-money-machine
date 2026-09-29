@@ -39,7 +39,7 @@ Most clinics in [City] lose 3 to 7 high-intent bookings every single week simply
 
 I built a quick 60-second interactive demo specifically for [Business Name] showing how you can automate after-hours bookings and missed calls:
 
-👉 Demo: https://chatbotdemo-hazel.vercel.app
+👉 Demo: https://work-minh-lap.vercel.app/chatbotdemo
 
 Would you be open to a 5-minute chat this Thursday at 2 PM to see how this can add 10-15 booked appointments next month?
 

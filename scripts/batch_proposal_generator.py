@@ -301,7 +301,7 @@ PROPOSAL_TEMPLATE = """<!DOCTYPE html>
     </p>
 
     <div style="text-align:center; margin-top:36px;">
-      <a href="https://chatbotdemo-hazel.vercel.app" class="cta-btn" target="_blank">👉 Experience Live Demo Here</a>
+      <a href="https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/chatbot_demo/index.html" class="cta-btn" target="_blank">👉 Experience Live Demo Here</a>
       <p style="margin-top:14px; font-size:13px; color:var(--text-muted);">
         Or reply directly to schedule your 10-minute implementation briefing.
       </p>

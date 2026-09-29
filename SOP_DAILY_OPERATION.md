@@ -55,7 +55,7 @@
   - Tìm kiếm các job đăng trong vòng 60 phút gần nhất có từ khóa `"make.com"` hoặc `"ai chatbot"`.
 - **Bước 2 (4 phút)**: Chạy `ai_empire_cli.py` bấm số **`[5]`** (Upwork Proposal Generator):
   - Nhập tên khách hàng và yêu cầu của họ.
-  - Công cụ sẽ xuất ngay bản Cover Letter sắc bén kèm câu hỏi kỹ thuật và link dẫn chứng demo live `https://chatbotdemo-hazel.vercel.app`.
+  - Công cụ sẽ xuất ngay bản Cover Letter sắc bén kèm câu hỏi kỹ thuật và link dẫn chứng demo live `https://work-minh-lap.vercel.app/chatbotdemo`.
   - Copy và dán vào Upwork để gửi báo giá.
 - **Bước 3 (2 phút)**: Kiểm tra thông báo Telegram:
   - Xem có lượt tải tài liệu mới từ Blog không.
@@ -80,7 +80,7 @@
 
 - 🌐 **Dashboard Chỉ Huy**: `https://work-minh-lap.vercel.app` (hoặc mở [`index.html`](file:///d:/Project/work/index.html))
 - ⚡ **SynapseGEO Audit Engine**: `https://synapse-geo-audit.vercel.app`
-- 💬 **Portfolio Demo Khách Hàng**: `https://chatbotdemo-hazel.vercel.app`
+- 💬 **Portfolio Demo Khách Hàng**: `https://work-minh-lap.vercel.app/chatbotdemo`
 - 📚 **Cổng Tri Thức & Blog 8 Bài**: `https://ai-automation-guide-omega.vercel.app`
 - 📊 **Bộ Tính Toán ROI Khách Hàng**: `https://ai-automation-guide-omega.vercel.app/calculator`
 - 🎁 **Trang Bán Master Bundle ($39)**: `https://ai-automation-guide-omega.vercel.app/bundle`

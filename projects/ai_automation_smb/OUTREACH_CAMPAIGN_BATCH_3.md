@@ -41,7 +41,7 @@ We built an intelligent legal intake assistant that:
 3. Automatically books qualified claimants directly onto your partners' calendar.
 
 Here is a 60-second interactive demonstration showing how intuitive this is:
-👉 Live Demo: https://chatbotdemo-hazel.vercel.app
+👉 Live Demo: https://work-minh-lap.vercel.app/chatbotdemo
 
 Would you be open to a brief 7-minute introductory call this Wednesday at 2:00 PM CST to see if this could add 3-5 retained cases per month to [Firm Name]?
 
@@ -49,7 +49,7 @@ Best regards,
 
 Minh Lap
 AI Solutions Architect | Legal Workflow Automation
-Portfolio: https://chatbotdemo-hazel.vercel.app
+Portfolio: https://work-minh-lap.vercel.app/chatbotdemo
 ```
 
 ---
@@ -70,7 +70,7 @@ We deploy bespoke AI Concierge agents that:
 - Coordinate VIP private showings straight into your calendar with zero back-and-forth.
 
 You can test a live concierge interface here:
-👉 Demo: https://chatbotdemo-hazel.vercel.app
+👉 Demo: https://work-minh-lap.vercel.app/chatbotdemo
 
 Are you available for a 5-minute conversation this Thursday to see what this looks like with your active listings?
 
@@ -111,7 +111,7 @@ AI Workflow Automation Consultant
 
 - **Ngày 3 (Bump 1)**:  
   *Subject: Re: quick question regarding [Firm Name]'s after-hours intake process*  
-  *"Hi [Name], just wanted to float this to the top of your inbox. Did you have a moment to check the interactive demo at https://chatbotdemo-hazel.vercel.app ? Happy to tailor a mock intake flow specific to [Firm Name]’s practice areas if you’d like."*
+  *"Hi [Name], just wanted to float this to the top of your inbox. Did you have a moment to check the interactive demo at https://work-minh-lap.vercel.app/chatbotdemo ? Happy to tailor a mock intake flow specific to [Firm Name]’s practice areas if you’d like."*
 - **Ngày 7 (Giá trị gia tăng - Value Add)**:  
   *Gửi link kiểm tra SEO & AI Search audit:*  
   *"Hi [Name], while analyzing your digital presence, I also ran an AI search readiness check on your domain. Voice engines (Perplexity & ChatGPT) are increasingly citing law firms directly: https://synapse-geo-audit.vercel.app . Thought this report might be insightful for your marketing team."*

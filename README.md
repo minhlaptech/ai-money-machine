@@ -11,10 +11,10 @@
 | Tool | Description | Live Demo |
 |------|-------------|-----------|
 | **SynapseGEO** | AI Search Audit Engine — check if your website is visible to AI search engines | [synapse-geo-audit.vercel.app](https://synapse-geo-audit.vercel.app) |
-| **ReviewGenius** | AI Review Response Generator — professional responses to customer reviews | [reviewgenius-beta.vercel.app](https://reviewgenius-beta.vercel.app) |
+| **ReviewGenius** | AI Review Response Generator — professional responses to customer reviews | [work-minh-lap.vercel.app/reviewgenius](https://work-minh-lap.vercel.app/reviewgenius) |
 | **HeadlineIQ** | Headline Analyzer — score and improve headlines for SEO and engagement | [headlineiq-eta.vercel.app](https://headlineiq-eta.vercel.app) |
 | **AI Resource Hub** | AI Automation Blog & Knowledge Base | [ai-automation-guide-omega.vercel.app](https://ai-automation-guide-omega.vercel.app) |
-| **Chatbot Portfolio** | Live AI Chatbot Demo for Freelancing Clients | [chatbotdemo-hazel.vercel.app](https://chatbotdemo-hazel.vercel.app) |
+| **Chatbot Portfolio** | Live AI Chatbot Demo for Freelancing Clients | [work-minh-lap.vercel.app/chatbotdemo](https://work-minh-lap.vercel.app/chatbotdemo) |
 
 ### 📦 Digital Products (3 Products on Gumroad)
 | Product | Description | Price |

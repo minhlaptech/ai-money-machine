@@ -5,7 +5,7 @@
 **Goal:** Provide an actionable, realistic blueprint to scale from $0 to $5,000/month offering high-demand AI automation services on Upwork, Fiverr, and direct cold outreach—with zero prior coding background.  
 **Affiliate & Product Links in Description:**
 - Upwork Mastery Kit & Cover Letter Templates: https://ai-automation-guide-omega.vercel.app
-- Live Client Chatbot Demo: https://chatbotdemo-hazel.vercel.app
+- Live Client Chatbot Demo: https://work-minh-lap.vercel.app/chatbotdemo
 - 16,000-Word Blueprint eBook: https://minhlap.gumroad.com/l/xqckmu
 - The AI Empire Master Bundle ($39): https://minhlap.lemonsqueezy.com
 
@@ -64,7 +64,7 @@
 ---
 
 ### [04:30 - 07:15] STEP 2: THE "PROOF-FIRST" PROFILE BLUEPRINT
-**Visual:** Displaying the Upwork profile layout from our `UPWORK_MASTERY_KIT.md`. Highlighting the headline: "AI Automation Architect | Custom AI Chatbots | Make.com Integration". Showing the portfolio section linking directly to `chatbotdemo-hazel.vercel.app` and `synapse-geo-audit.vercel.app`.
+**Visual:** Displaying the Upwork profile layout from our `UPWORK_MASTERY_KIT.md`. Highlighting the headline: "AI Automation Architect | Custom AI Chatbots | Make.com Integration". Showing the portfolio section linking directly to `work-minh-lap.vercel.app/chatbotdemo` and `synapse-geo-audit.vercel.app`.
 
 **Voiceover:**
 > "When clients look at a freelancer's profile, they spend an average of 4 seconds deciding whether to read or bounce.
@@ -75,7 +75,7 @@
 > *'Are you spending 15+ hours every week manually copying data between tools or losing leads outside normal hours? I help founders and agency owners automate their repetitive operations and recover lost revenue.'*
 >
 > Next, include **proof of work**. Even if you have zero Upwork reviews, you can embed working project links in your portfolio:
-> - Link 1: Your interactive chatbot demo at `chatbotdemo-hazel.vercel.app`.
+> - Link 1: Your interactive chatbot demo at `work-minh-lap.vercel.app/chatbotdemo`.
 > - Link 2: Your live micro-tool at `synapse-geo-audit.vercel.app`.
 >
 > When a client clicks and sees that your demo actually works smoothly on their phone, you immediately leapfrog 50 generic applicants who only sent text."

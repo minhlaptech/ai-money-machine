@@ -31,17 +31,17 @@
   - Kịch bản Make.com/Zapier và ảnh bìa `gig2_automation.jpg`
 - [x] **Gig 3: AI Integration & ChatGPT ($50 - $350)**
   - Kịch bản tích hợp API và ảnh bìa `gig3_ai_integration.jpg`
-- [x] Portfolio Live: https://chatbotdemo-hazel.vercel.app
+- [x] Portfolio Live: https://work-minh-lap.vercel.app/chatbotdemo
 
 ---
 
 ## ✅ PHASE 3: Deploy Websites lên Vercel — HOÀN THÀNH
 - [x] **GitHub Monorepo**: https://github.com/minhlaptech/ai-money-machine (Đã push sạch)
 - [x] **SynapseGEO**: https://synapse-geo-audit.vercel.app (HTTP 200 • Live Inspect API)
-- [x] **ReviewGenius AI**: https://reviewgenius-beta.vercel.app (HTTP 200)
+- [x] **ReviewGenius AI**: https://work-minh-lap.vercel.app/reviewgenius (HTTP 200)
 - [x] **HeadlineIQ**: https://headlineiq-eta.vercel.app (HTTP 200)
 - [x] **AI Resource Hub**: https://ai-automation-guide-omega.vercel.app (HTTP 200)
-- [x] **Chatbot Demo**: https://chatbotdemo-hazel.vercel.app (HTTP 200)
+- [x] **Chatbot Demo**: https://work-minh-lap.vercel.app/chatbotdemo (HTTP 200)
 - [x] **Executive Command Center**: `index.html` và `dashboard.html`
 
 ---

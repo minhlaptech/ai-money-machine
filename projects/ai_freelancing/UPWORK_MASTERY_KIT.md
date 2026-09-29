@@ -27,7 +27,7 @@ I help founders, e-commerce brands, and agency owners automate their repetitive 
 - AI Search & GEO Optimization: Schema.org, robots.txt AI auditing, LLM readiness.
 
 🌟 PROOF OF WORK & LIVE DEMOS:
-- Interactive Client Chatbot Demo: https://chatbotdemo-hazel.vercel.app
+- Interactive Client Chatbot Demo: https://work-minh-lap.vercel.app/chatbotdemo
 - AI Search & SEO Audit Engine: https://synapse-geo-audit.vercel.app
 - 15+ Production Make.com/Zapier Blueprints deployed for clients.
 
@@ -52,7 +52,7 @@ Saw your posting regarding the AI chatbot for [Client Business / Website].
 Most off-the-shelf chatbots fail because they hallucinate answers or speak in generic robot-tones. For customer-facing bots, the key is strictly bounding the knowledge base to your company FAQs, handling edge cases gracefully, and triggering automated human escalation when needed.
 
 I actually have an active interactive demo running right now that showcases this exact user journey:
-👉 Live Demo: https://chatbotdemo-hazel.vercel.app
+👉 Live Demo: https://work-minh-lap.vercel.app/chatbotdemo
 
 In this demo, the assistant answers pricing questions, validates customer constraints, and books appointments directly into the calendar in real-time.
 

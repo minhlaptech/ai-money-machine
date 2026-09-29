@@ -365,7 +365,7 @@
 - ✅ **Cross-Navigation Header Suite**:
   - Tích hợp thanh điều hướng chéo đồng bộ trên toàn bộ các công cụ Micro-SaaS:
     - [HeadlineIQ](https://headlineiq-eta.vercel.app)
-    - [ReviewGenius AI](https://reviewgenius-beta.vercel.app)
+    - [ReviewGenius AI](https://work-minh-lap.vercel.app/reviewgenius)
     - [SynapseGEO](https://synapse-geo-audit.vercel.app)
     - [AI Resource Hub](https://ai-automation-guide-omega.vercel.app)
   - Tạo vòng lặp lưu lượng truy cập (Traffic Loop) khép kín, người dùng từ công cụ này có thể dễ dàng khám phá và sử dụng các công cụ khác, tối đa hóa tỷ lệ chuyển đổi sang sản phẩm trả phí và tải tài liệu.
@@ -449,7 +449,7 @@
   - 5 mẫu Cover Letter thắng thầu (tỷ lệ phỏng vấn 40%+): Chatbot website, tích hợp Make/Zapier, Python web scraping, Custom GPT API và sửa lỗi khẩn cấp.
   - Bộ lọc tìm việc "vàng" (Payment verified, ngân sách $300+, chi tiêu $1,000+).
 - ✅ **Bộ Sinh Proposal Upwork Tự Động ([scripts/upwork_proposal_generator.py](file:///d:/Project/work/scripts/upwork_proposal_generator.py))**:
-  - CLI tool tự động phân tích yêu cầu công việc và sinh Cover Letter kèm câu hỏi chuyên môn và dẫn chứng live demo (`chatbotdemo-hazel.vercel.app`).
+  - CLI tool tự động phân tích yêu cầu công việc và sinh Cover Letter kèm câu hỏi chuyên môn và dẫn chứng live demo (`work-minh-lap.vercel.app/chatbotdemo`).
 - ✅ **Hệ Thống Xuất Bản 8 Bài Viết Blog Chuyên Sâu ([scripts/build_blog_articles.py](file:///d:/Project/work/scripts/build_blog_articles.py))**:
   - Chuyển đổi toàn bộ 8 bài viết Markdown (10,000+ từ) thành 8 trang đọc HTML chuẩn SEO (`guide_001.html` đến `guide_008.html`) kèm thời gian đọc và banner chào bán Master Bundle $39.
 - ✅ **Nâng Cấp Lưới Bài Viết Trang Chủ Blog ([index.html](file:///d:/Project/work/projects/affiliate_blog/website/index.html))**:
@@ -620,6 +620,31 @@
   - Bắn trực tiếp bản tóm tắt hành động định dạng Markdown về Telegram bằng lệnh `python scripts/daily_briefing.py --telegram`.
 - ✅ **Nâng Cấp CLI Orchestrator Lên 12 Lệnh ([scripts/ai_empire_cli.py](file:///d:/Project/work/scripts/ai_empire_cli.py))**:
   - Bổ sung phím tắt `[11]` để bắn Bản Tin Chỉ Huy Sáng về Telegram chỉ trong 1 thao tác bấm.
+
+---
+
+## 📅 2026-09-29 | Phiên #24 | Đồng Bộ Toàn Diện Tên Miền Canonical, Tối Ưu Hóa 30 Đề Xuất & Kiểm Thử 7 Endpoint Live
+
+### 🎉 Milestones Hoàn Thành:
+- ✅ **Đồng Bộ Hóa Toàn Diện Liên Kết Về Tên Miền Canonical ([scripts/unify_canonical_urls.py](file:///d:/Project/work/scripts/unify_canonical_urls.py))**:
+  - Tự động quét và chuẩn hóa toàn bộ 39 files trong repository (bao gồm mã nguồn, tài liệu chào hàng, kịch bản video YouTube, thread Twitter/LinkedIn, kịch bản email nurture).
+  - Chuyển đổi toàn bộ các subdomain cũ sang định dạng canonical vĩnh viễn trên `work-minh-lap.vercel.app`:
+    - `https://work-minh-lap.vercel.app/chatbotdemo` (trực tiếp trỏ về `chatbot_demo/index.html`).
+    - `https://work-minh-lap.vercel.app/reviewgenius` (trực tiếp trỏ về `products/review_genius/index.html`).
+    - `https://work-minh-lap.vercel.app/copilot-widget.js` (widget độc lập nhúng 1-click).
+- ✅ **Cập Nhật Chuẩn Hóa Trọn Bộ 30 Bản Đề Xuất Doanh Nghiệp ([proposals/](file:///d:/Project/work/proposals/))**:
+  - Chạy lại bộ sinh đề xuất [`scripts/batch_proposal_generator.py`](file:///d:/Project/work/scripts/batch_proposal_generator.py), cập nhật toàn bộ nút kêu gọi hành động (CTA) trỏ về live demo portfolio chính xác, sẵn sàng gửi cho 30 khách hàng mục tiêu mà không gặp bất kỳ lỗi liên kết nào.
+- ✅ **Kiểm Thử Sức Khỏe Toàn Diện 7 Endpoint Web & Telegram Bridge (100% Pass)**:
+  - Mở rộng bộ kiểm thử [`scripts/system_health_check.py`](file:///d:/Project/work/scripts/system_health_check.py) lên 7 ứng dụng và tài nguyên trực tuyến:
+    1. SynapseGEO (AI SEO Audit): HTTP 200 (271ms)
+    2. ReviewGenius AI (Review Responder): HTTP 200 (600ms)
+    3. HeadlineIQ (Viral Headline Scorer): HTTP 200 (116ms)
+    4. AI Resource Hub (Blog & Lead Capture): HTTP 200 (110ms)
+    5. Chatbot Portfolio Demo: HTTP 200 (1660ms)
+    6. AI Copilot Embed Widget (`copilot-widget.js`): HTTP 200 (797ms)
+    7. Executive Command Center Monorepo: HTTP 200 (761ms)
+  - Cổng Telegram Bridge hoạt động trơn tru (Message ID: 220).
+
 
 
 

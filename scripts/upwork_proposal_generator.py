@@ -21,7 +21,7 @@ PROPOSAL_TEMPLATES = {
     "chatbot": {
         "subject": "AI Chatbot & Support Copilot",
         "hook": "Building a customer-facing AI chatbot requires strict grounding to your actual company documentation so it never hallucinates, while booking appointments or escalating to human agents seamlessly.",
-        "proof": "I have an active interactive demo running right now that demonstrates this exact flow:\n👉 Live Demo: https://chatbotdemo-hazel.vercel.app",
+        "proof": "I have an active interactive demo running right now that demonstrates this exact flow:\n👉 Live Demo: https://work-minh-lap.vercel.app/chatbotdemo",
         "questions": [
             "Which platform is your website built on (Shopify, WordPress, Webflow, custom)?",
             "What CRM or calendar tool should the bot sync conversations and appointments with (Google Calendar, Calendly, HubSpot)?"

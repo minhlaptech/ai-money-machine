@@ -88,7 +88,7 @@ def query_osm_overpass(niche="dentist", city="Austin", limit=10):
 
                 # Generate 1-click mailto
                 subj = f"quick question regarding {name}'s after-hours inquiries"
-                body = f"Hi there,\n\nI was reviewing your website ({website}) and noticed that when a prospective client visits outside standard hours, their only option is waiting until morning.\n\nWe built an automated 24/7 AI Receptionist that answers common treatment & pricing questions and locks appointments directly into your calendar:\n👉 Live Demo: https://chatbotdemo-hazel.vercel.app\n\nWould you be against me sending over a 2-minute walkthrough showing how this works for {name}?\n\nBest regards,\nAI Solutions Team"
+                body = f"Hi there,\n\nI was reviewing your website ({website}) and noticed that when a prospective client visits outside standard hours, their only option is waiting until morning.\n\nWe built an automated 24/7 AI Receptionist that answers common treatment & pricing questions and locks appointments directly into your calendar:\n👉 Live Demo: https://work-minh-lap.vercel.app/chatbotdemo\n\nWould you be against me sending over a 2-minute walkthrough showing how this works for {name}?\n\nBest regards,\nAI Solutions Team"
                 mailto = f"mailto:{email}?subject={urllib.parse.quote(subj)}&body={urllib.parse.quote(body)}"
 
                 leads.append({
@@ -117,7 +117,7 @@ def query_osm_overpass(niche="dentist", city="Austin", limit=10):
             sdomain = sname.lower().replace(" ", "") + ".example"
             email = f"info@{sdomain}"
             subj = f"quick question regarding {sname}'s after-hours inquiries"
-            body = f"Hi there,\n\nI was reviewing your website and noticed after-hours visitor dropoff.\n\nCheck our interactive demo: https://chatbotdemo-hazel.vercel.app\n\nBest regards,\nAI Solutions Team"
+            body = f"Hi there,\n\nI was reviewing your website and noticed after-hours visitor dropoff.\n\nCheck our interactive demo: https://work-minh-lap.vercel.app/chatbotdemo\n\nBest regards,\nAI Solutions Team"
             mailto = f"mailto:{email}?subject={urllib.parse.quote(subj)}&body={urllib.parse.quote(body)}"
             leads.append({
                 "id": idx,

@@ -134,7 +134,7 @@ I was reviewing your website yesterday around 8 PM and noticed that when a patie
 In most competitive markets, clinics lose 4 to 8 high-intent new patient inquiries every single week simply because competitors with instant AI booking respond within 30 seconds.
 
 To show you how easy this is to solve, I set up a quick 60-second interactive demo specifically for high-ticket clinics:
-👉 Live Demo: https://chatbotdemo-hazel.vercel.app
+👉 Live Demo: https://work-minh-lap.vercel.app/chatbotdemo
 
 It answers common treatment questions, qualifies insurance, and books appointments directly into your calendar 24/7.
 
@@ -143,7 +143,7 @@ Would you be open to a quick 5-minute call this Thursday at 2 PM to see if this 
 Best regards,
 
 AI Automation Specialist
-Portfolio: https://chatbotdemo-hazel.vercel.app"""
+Portfolio: https://work-minh-lap.vercel.app/chatbotdemo"""
 
     elif tmpl == "hvac":
         subject = f"noticed your phone line around 7:15pm yesterday"
@@ -176,7 +176,7 @@ I noticed from your online presence that you receive a lot of inquiries regardin
 We build custom AI assistants that engage visitors, recommend treatment options, and lock in paid consultation deposits while you sleep.
 
 Take a look at how seamless the patient experience is:
-👉 Interactive Sample: https://chatbotdemo-hazel.vercel.app
+👉 Interactive Sample: https://work-minh-lap.vercel.app/chatbotdemo
 
 Would you be against me sending over a 3-minute video showing what this would look like for {name}?
 

@@ -35,7 +35,7 @@ VIDEO_METADATA_PRESETS = {
             "14:30 - Free Starter Kit & Automation Templates"
         ],
         "links": [
-            ("🤖 Interactive Chatbot Portfolio Demo", "https://chatbotdemo-hazel.vercel.app"),
+            ("🤖 Interactive Chatbot Portfolio Demo", "https://work-minh-lap.vercel.app/chatbotdemo"),
             ("📖 Free eBook 'The AI Money Blueprint' (16,000 words)", "https://ai-automation-guide-omega.vercel.app"),
             ("⚡ SynapseGEO AI Search Engine Audit Tool", "https://synapse-geo-audit.vercel.app"),
             ("📦 Gumroad Digital Products & Templates", "https://minhlap.gumroad.com")
@@ -46,7 +46,7 @@ VIDEO_METADATA_PRESETS = {
             "smb automation", "cold email for ai agency", "ai freelancing", "ai side hustle",
             "passive income 2026", "chatgpt business ideas", "indie hacker", "microsaas"
         ],
-        "pinned_comment": "👉 Test the live interactive client chatbot demo here: https://chatbotdemo-hazel.vercel.app\n\nDownload our complete 16,000-word eBook & 15 automation templates for free at https://ai-automation-guide-omega.vercel.app !\n\nDrop a comment: Which local niche are you planning to target first? 👇"
+        "pinned_comment": "👉 Test the live interactive client chatbot demo here: https://work-minh-lap.vercel.app/chatbotdemo\n\nDownload our complete 16,000-word eBook & 15 automation templates for free at https://ai-automation-guide-omega.vercel.app !\n\nDrop a comment: Which local niche are you planning to target first? 👇"
     },
     "video_005": {
         "title": "How to Build & Monetize a Micro-SaaS with AI in 2026 (No Coding Required)",
@@ -123,7 +123,7 @@ VIDEO_METADATA_PRESETS = {
         ],
         "links": [
             ("💼 Upwork Mastery Kit & Cover Letter Templates", "https://ai-automation-guide-omega.vercel.app"),
-            ("🤖 Interactive Chatbot Portfolio Demo", "https://chatbotdemo-hazel.vercel.app"),
+            ("🤖 Interactive Chatbot Portfolio Demo", "https://work-minh-lap.vercel.app/chatbotdemo"),
             ("📖 The AI Money Blueprint eBook", "https://minhlap.gumroad.com/l/xqckmu"),
             ("🎁 The AI Empire Master Bundle ($39)", "https://minhlap.lemonsqueezy.com")
         ],

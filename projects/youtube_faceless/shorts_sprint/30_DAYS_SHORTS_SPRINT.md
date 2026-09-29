@@ -192,7 +192,7 @@
 - **Nội dung chính (3–45s)**:
   > "Websites are shifting from static brochures to interactive conversational copilot interfaces that understand intent and complete actions."
 - **Kêu gọi hành động (CTA 45–60s)**:
-  > "Experience the prototype at chatbotdemo-hazel.vercel.app!"
+  > "Experience the prototype at work-minh-lap.vercel.app/chatbotdemo!"
 - **Thẻ Hashtags**: `#AIAutomation #MicroSaaS #MakeMoneyOnline #ChatGPT #IndieHacker #SideHustle2026`
 
 ---

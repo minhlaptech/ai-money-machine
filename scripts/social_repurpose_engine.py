@@ -41,7 +41,7 @@ CONTENT_PRESETS = {
             "If competitors answer and lock down a calendar appointment in 30 seconds, you lose the patient forever.",
             "We deployed a conversational AI assistant that answers pricing, verifies insurance eligibility, and writes directly to Google Calendar.",
             "Result: 14 new booked consultations in month one, with zero manual staff hours.",
-            "You can test the exact interactive patient experience here: https://chatbotdemo-hazel.vercel.app"
+            "You can test the exact interactive patient experience here: https://work-minh-lap.vercel.app/chatbotdemo"
         ],
         "cta": "Explore the full AI Automation Playbook & blueprints at https://ai-automation-guide-omega.vercel.app"
     },

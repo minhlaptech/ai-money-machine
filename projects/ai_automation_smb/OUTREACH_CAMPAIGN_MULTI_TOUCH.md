@@ -16,7 +16,7 @@ Trong bán hàng B2B và dịch vụ AI Automation Retainer ($500 - $2,000/thán
 
 ### 1️⃣ Điểm Chạm 1 (Day 1): Cold Value Hook
 - **Mục tiêu**: Chỉ ra lỗ hổng mất khách ngoài giờ làm việc (sau 18h tối & cuối tuần).
-- **Dẫn chứng**: Gửi link tương tác trải nghiệm thực tế [Chatbot Live Demo](https://chatbotdemo-hazel.vercel.app).
+- **Dẫn chứng**: Gửi link tương tác trải nghiệm thực tế [Chatbot Live Demo](https://work-minh-lap.vercel.app/chatbotdemo).
 - **Kêu gọi hành động (CTA)**: Cuộc gọi chia sẻ 5 phút hoặc video 2 phút.
 
 ### 2️⃣ Điểm Chạm 2 (Day 3): Value Follow-up + Báo Cáo ROI
@@ -29,7 +29,7 @@ Trong bán hàng B2B và dịch vụ AI Automation Retainer ($500 - $2,000/thán
 - **Tiêu đề**: `permission to close your file, [Tên Người Nhận]?`
 - **Mục tiêu**: Gỡ bỏ hoàn toàn cảm giác bị "chèo kéo", tạo sự chuyên nghiệp của một chuyên gia bận rộn.
 - **Nội dung cốt lõi**:
-  > *"Tôi chưa nhận được phản hồi nên xin phép đóng lại hồ sơ của [Tên Doanh Nghiệp] để không làm phiền hộp thư của bạn. Nếu sau này doanh nghiệp cần giải pháp tự động đặt lịch 24/7 để mang về thêm 3-6 khách hàng giá trị cao mỗi tháng, bạn luôn có thể thử nghiệm demo tại: https://chatbotdemo-hazel.vercel.app"*
+  > *"Tôi chưa nhận được phản hồi nên xin phép đóng lại hồ sơ của [Tên Doanh Nghiệp] để không làm phiền hộp thư của bạn. Nếu sau này doanh nghiệp cần giải pháp tự động đặt lịch 24/7 để mang về thêm 3-6 khách hàng giá trị cao mỗi tháng, bạn luôn có thể thử nghiệm demo tại: https://work-minh-lap.vercel.app/chatbotdemo"*
 - **Hiệu ứng tâm lý**: Tỷ lệ mở và trả lời email xin đóng hồ sơ luôn cao nhất vì khách hàng cảm thấy họ sắp mất đi một cơ hội miễn phí.
 
 ---

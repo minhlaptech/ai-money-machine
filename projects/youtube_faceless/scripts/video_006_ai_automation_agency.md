@@ -4,7 +4,7 @@
 **Target Audience:** Freelancers, agency starters, solopreneurs, digital nomads  
 **Goal:** Step-by-step roadmap to launch an AI Automation Agency, build proof-of-work demos, close high-ticket SMB clients ($1,500 setup + $750/mo retainer), and automate delivery with zero employees.  
 **Affiliate & Product Links for Description:**
-- Live Interactive Chatbot Portfolio Demo: https://chatbotdemo-hazel.vercel.app
+- Live Interactive Chatbot Portfolio Demo: https://work-minh-lap.vercel.app/chatbotdemo
 - Free 16,000-word Blueprint eBook: https://ai-automation-guide-omega.vercel.app
 - AI Automation Template Pack (Make.com & Zapier): https://minhlap.gumroad.com
 - SynapseGEO Audit Tool: https://synapse-geo-audit.vercel.app
@@ -60,14 +60,14 @@
 ---
 
 ### [04:30 - 07:15] STEP 2: BUILDING YOUR PROOF-OF-WORK DEMO IN 30 MINUTES
-**Visual:** Screen recording showcasing the live demo at `https://chatbotdemo-hazel.vercel.app`. Interacting with the AI chatbot: asking about teeth whitening prices, booking a consultation, showing real-time calendar slot confirmation.
+**Visual:** Screen recording showcasing the live demo at `https://work-minh-lap.vercel.app/chatbotdemo`. Interacting with the AI chatbot: asking about teeth whitening prices, booking a consultation, showing real-time calendar slot confirmation.
 
 **Voiceover:**
 > "Rule number one of closing high-ticket clients: **Never tell when you can show.**
 >
 > If you send a business owner a boring PDF proposal, it goes straight to the trash. But if you send them a 60-second interactive link that already has their niche branding and works seamlessly on mobile, you instantly stand out from 99% of competitors.
 >
-> Take a look at our demo live at `chatbotdemo-hazel.vercel.app`.
+> Take a look at our demo live at `work-minh-lap.vercel.app/chatbotdemo`.
 >
 > It greets visitors, answers common pricing questions, qualifies insurance, and books appointments directly into Google Calendar or Outlook 24/7.
 >
