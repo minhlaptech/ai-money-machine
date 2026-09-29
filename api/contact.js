@@ -39,6 +39,7 @@ export default async function handler(req, res) {
       source = 'Command Center / Webhook',
       calendar = 'N/A',
       escalation = 'N/A',
+      ref = '',
       message = ''
     } = body || {};
 
@@ -56,6 +57,7 @@ export default async function handler(req, res) {
       `🌐 <b>Website:</b> ${sanitize(website)}\n` +
       `⚙️ <b>Dịch vụ quan tâm:</b> <b>${sanitize(service)}</b>\n` +
       `📍 <b>Nguồn (Source):</b> <i>${sanitize(source)}</i>\n` +
+      (ref ? `🤝 <b>Đối tác giới thiệu (Partner Ref):</b> <code>${sanitize(ref)}</code> (20% RevShare: $300 - $700)\n` : '') +
       (calendar !== 'N/A' ? `📅 <b>Lịch hẹn:</b> ${sanitize(calendar)}\n` : '') +
       (escalation !== 'N/A' ? `🚨 <b>Khẩn cấp / SMS:</b> ${sanitize(escalation)}\n` : '') +
       (message ? `\n📝 <b>Chi tiết tin nhắn:</b>\n<i>${sanitize(message)}</i>\n` : '') +

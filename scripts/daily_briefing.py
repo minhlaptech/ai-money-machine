@@ -65,8 +65,9 @@ def generate_briefing(send_telegram=False):
 ======================================================================
 
 🌐 1. TRẠNG THÁI HỆ THỐNG (SYSTEM HEALTH)
-  • 11 Ứng dụng & API đám mây Vercel: 100% Hoạt động (HTTP 200)
+  • 12 Ứng dụng & API đám mây Vercel: 100% Hoạt động (HTTP 200)
   • Cổng thanh toán: Lemon Squeezy (Store ID: 485872) & Gumroad Live
+  • Cổng Đối tác Tiếp thị (50% RevShare): https://work-minh-lap.vercel.app/referral
   • Cổng VIP Client Portals: https://work-minh-lap.vercel.app/portal (30 Doanh nghiệp)
   • Sales Pitch Decks Showcase: https://work-minh-lap.vercel.app/pitches (30 Decks)
   • Webhook xử lý đơn hàng: Serverless /api/webhook (Stripe, LemonSqueezy, Gumroad)
@@ -105,13 +106,14 @@ def generate_briefing(send_telegram=False):
 
 ⏰ <b>Thời gian:</b> <code>{now_vn}</code>
 
-🌐 <b>Hệ thống:</b> <code>11/11 Tools Live (100% Operational)</code>
+🌐 <b>Hệ thống:</b> <code>12/12 Cloud Systems Live (100% Operational)</code>
 📊 <b>CRM Pipeline:</b> <code>{crm['total']} Leads</code> • <b>Tiềm năng:</b> <code>${crm['pipeline']:,}</code>
 🎯 <b>Đã gửi email:</b> <code>{crm['contacted']}</code> | 📞 <b>Lịch hẹn:</b> <code>{crm['booked']}</code> | 🏆 <b>Ký:</b> <code>{crm['won']}</code>
 
 🏛️ <b>VIP Portals:</b> <a href="https://work-minh-lap.vercel.app/portal">30 Client Portals Live</a>
 🎯 <b>Sales Pitches:</b> <a href="https://work-minh-lap.vercel.app/pitches">Showcase Hub Live</a>
 🧮 <b>ROI Simulator:</b> <a href="https://work-minh-lap.vercel.app/calculator">Interactive Calculator</a>
+🤝 <b>Partner Hub:</b> <a href="https://work-minh-lap.vercel.app/referral">Affiliate Program (50% RevShare)</a>
 
 ⚡ <b>Mục tiêu 30 phút hôm nay:</b>
 1. Gửi 3 email chào hàng qua Dashboard 1-click.

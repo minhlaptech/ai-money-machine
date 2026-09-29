@@ -61,7 +61,7 @@ SHORTS_DATA = [
 
     # --- BONUS: 90-DAY FREEDOM ROADMAP ---
     {"day": 29, "theme": "Roadmap Part 1", "title": "Month 1 vs Month 3: The 90-Day AI Income Roadmap", "hook": "Where should you focus your time during the first 30 days?", "solution": "Month 1: Skills & proof-of-work (build 1 micro-tool and 1 demo). Month 2: Client outreach & digital products. Month 3: Recurring retainers and automated distribution.", "cta": "Read Chapter 10 of The AI Money Blueprint eBook!"},
-    {"day": 30, "theme": "Roadmap Part 2", "title": "The 8-stream AI money machine explained in 60 seconds", "hook": "How 8 small income streams combine into $3,500/month recurring cashflow.", "solution": "Micro-SaaS subscriptions + Agency Retainers + Digital Product sales + YouTube AdSense + Affiliate commissions + Freelance gigs. Diversified, resilient, automated.", "cta": "Start your journey today at ai-automation-guide-omega.vercel.app!"}
+    {"day": 30, "theme": "Roadmap Part 2", "title": "The 8-stream AI money machine explained in 60 seconds", "hook": "How 8 small income streams combine into $3,500/month recurring cashflow.", "solution": "Micro-SaaS subscriptions + Agency Retainers + Digital Product sales + YouTube AdSense + Affiliate commissions + Freelance gigs. Diversified, resilient, automated.", "cta": "Start your journey today at https://work-minh-lap.vercel.app/blog !"}
 ]
 
 def generate_batch_shorts():
@@ -96,5 +96,46 @@ def generate_batch_shorts():
     print(f"[✓] Successfully generated 30-day shorts sprint: {out_file}")
     return out_file
 
+def send_telegram_short_script(day_num):
+    import urllib.request
+    import json
+    bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "7756122540:AAErx-TV78dUcB0ch7IlZW10R0nIpt1pBhU")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "1624883046")
+
+    item = next((s for s in SHORTS_DATA if s["day"] == day_num), SHORTS_DATA[0])
+
+    msg = (
+        f"🎬 <b>[SHORTS SPRINT DISPATCH — DAY #{item['day']:02d}]</b>\n\n"
+        f"🏷️ <b>Chủ đề:</b> <code>{item['theme']}</code>\n"
+        f"📌 <b>Tiêu đề:</b> <b>{item['title']}</b>\n\n"
+        f"⚡ <b>Hook (0-3s):</b>\n<i>\"{item['hook']}\"</i>\n\n"
+        f"💡 <b>Kịch bản chính (3-45s):</b>\n{item['solution']}\n\n"
+        f"🎯 <b>Kêu gọi hành động (CTA 45-60s):</b>\n<b>{item['cta']}</b>\n\n"
+        f"🔖 <b>Hashtags:</b>\n<code>#AIAutomation #MicroSaaS #ChatGPT #SideHustle2026</code>\n\n"
+        f"👉 <i>Sẵn sàng quay hoặc nạp vào ElevenLabs + CapCut!</i>"
+    )
+
+    try:
+        req = urllib.request.Request(
+            f"https://api.telegram.org/bot${bot_token}/sendMessage",
+            headers={"Content-Type": "application/json"},
+            data=json.dumps({"chat_id": chat_id, "text": msg, "parse_mode": "HTML"}).encode("utf-8")
+        )
+        with urllib.request.urlopen(req, timeout=10) as r:
+            if r.status == 200:
+                print(f"[✓] Dispatched Day #{day_num} Short script to Telegram (@Minhpv_bot)!")
+    except Exception as e:
+        print(f"[!] Telegram notification error: {e}")
+
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="30-Day Shorts Sprint Generator")
+    parser.add_argument("--day", type=int, choices=range(1, 31), help="Generate/view specific Day (1-30)")
+    parser.add_argument("--telegram", action="store_true", help="Send script to Telegram")
+    args = parser.parse_args()
+
     generate_batch_shorts()
+
+    if args.telegram:
+        target_day = args.day if args.day else 1
+        send_telegram_short_script(target_day)
+

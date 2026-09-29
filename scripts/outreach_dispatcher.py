@@ -353,12 +353,36 @@ def send_telegram_campaign_digest(filtered, stage):
     except Exception as e:
         print(f"[!] Telegram notification error: {e}")
 
+def update_pipeline_status(leads_to_update, stage):
+    crm_file = ROOT_DIR / "prospects" / "crm_pipeline.json"
+    if not crm_file.exists():
+        return
+    try:
+        pipeline = json.loads(crm_file.read_text(encoding="utf-8"))
+        stage_map = {1: "day1", 2: "day3", 3: "day7"}
+        new_status = stage_map.get(stage, "day1")
+        now = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+        target_ids = {l["id"] for l in leads_to_update}
+        updated_count = 0
+        for item in pipeline:
+            if item["id"] in target_ids:
+                item["status"] = new_status
+                item["last_touch"] = now
+                updated_count += 1
+
+        crm_file.write_text(json.dumps(pipeline, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(f"[✓] Updated CRM pipeline: {updated_count} leads transitioned to status '{new_status}' at {now}")
+    except Exception as e:
+        print(f"[!] Error updating CRM pipeline: {e}")
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Multi-Touch Outreach Campaign Dispatcher")
     parser.add_argument("--batch", type=int, choices=[1, 2, 3], help="Filter by Batch (1: SMBs, 2: E-Com, 3: High-Ticket)")
     parser.add_argument("--stage", type=int, default=1, choices=[1, 2, 3], help="Stage (1: Day 1 Hook, 2: Day 3 ROI, 3: Day 7 Break-Up)")
     parser.add_argument("--lead", type=int, help="Single Lead ID (1-30)")
     parser.add_argument("--telegram", action="store_true", help="Send campaign digest to Telegram")
+    parser.add_argument("--mark-sent", action="store_true", help="Update CRM pipeline status to sent stage (day1/day3/day7)")
 
     args = parser.parse_args()
 
@@ -375,10 +399,15 @@ if __name__ == "__main__":
             print("-" * 70)
             print(f"Mailto Link:\n{mailto}")
             print("=" * 70)
+            if args.mark_sent:
+                update_pipeline_status([target], args.stage)
         else:
             print(f"[!] Lead ID #{args.lead} not found.")
     else:
         display_campaign(args.batch, args.stage)
+        filtered = LEADS if not args.batch else [l for l in LEADS if l["batch"] == args.batch]
+        if args.mark_sent:
+            update_pipeline_status(filtered, args.stage)
         if args.telegram:
-            filtered = LEADS if not args.batch else [l for l in LEADS if l["batch"] == args.batch]
             send_telegram_campaign_digest(filtered, args.stage)
+

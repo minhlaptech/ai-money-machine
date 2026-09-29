@@ -31,6 +31,7 @@ export default async function handler(req, res) {
     }
 
     const email = body?.email ? String(body.email).trim() : '';
+    const ref = body?.ref ? String(body.ref).trim() : '';
     if (!email || !email.includes('@')) {
       return res.status(400).json({ error: 'Invalid email address' });
     }
@@ -41,6 +42,7 @@ export default async function handler(req, res) {
     const now = new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' });
     const text = `🎉 <b>[NEW LEAD MAGNET SUBSCRIBER]</b>\n\n` +
       `📧 <b>Email:</b> <code>${email}</code>\n` +
+      (ref ? `🤝 <b>Đối tác giới thiệu (Partner Ref):</b> <code>${ref}</code>\n` : '') +
       `⏰ <b>Thời gian:</b> ${now}\n` +
       `🌐 <b>Nguồn:</b> AI Automation Resource Hub (work-minh-lap.vercel.app)\n` +
       `🎁 <b>Sản phẩm đã cấp:</b> The AI Money Blueprint (Free 16K-word PDF Guide)\n\n` +

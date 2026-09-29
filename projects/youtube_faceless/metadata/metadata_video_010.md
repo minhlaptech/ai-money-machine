@@ -1,5 +1,5 @@
 # 📺 YouTube Video Metadata Package: VIDEO_010
-> Generated: 2026-09-29 23:34:19
+> Generated: 2026-09-30 00:08:44
 
 ---
 
@@ -18,7 +18,7 @@
 ```text
 5 Make.com Automation Blueprints That Make $1,000/Month (Copy-Paste Templates)
 
-In this video, I break down the exact step-by-step roadmap to start your own AI Automation Agency (AAA) in 2026 with zero coding, land high-ticket local business clients, and build recurring monthly retainers ($1,500 setup + $750/mo).
+In this video, I break down 5 Make.com Automation Blueprints That Make $1,000/Month (Copy-Paste Templates).
 
 📌 RESOURCES & LIVE DEMOS MENTIONED:
 👉 📦 Download All 15 Make.com Blueprints (.JSON Pack): https://work-minh-lap.vercel.app/bundle

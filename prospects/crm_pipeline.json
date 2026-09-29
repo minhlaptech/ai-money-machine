@@ -7,10 +7,10 @@
     "city": "Austin, TX",
     "to": "contact@austindentalco.example",
     "doc": "Dr. Miller",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 00:10"
   },
   {
     "id": 2,
@@ -20,10 +20,10 @@
     "city": "Miami, FL",
     "to": "info@pureradiancemedspa.example",
     "doc": "Sarah",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 00:10"
   },
   {
     "id": 3,
@@ -33,10 +33,10 @@
     "city": "Dallas, TX",
     "to": "service@premierairdfw.example",
     "doc": "Mark",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 00:10"
   },
   {
     "id": 4,
@@ -46,10 +46,10 @@
     "city": "San Jose, CA",
     "to": "hello@elitesmilestudio.example",
     "doc": "Dr. Nguyen",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 00:10"
   },
   {
     "id": 5,
@@ -59,10 +59,10 @@
     "city": "Phoenix, AZ",
     "to": "bids@apexroofsolar.example",
     "doc": "David",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 00:10"
   },
   {
     "id": 6,
@@ -72,10 +72,10 @@
     "city": "Seattle, WA",
     "to": "frontdesk@luminawellness.example",
     "doc": "Dr. Adams",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 00:10"
   },
   {
     "id": 7,
@@ -85,10 +85,10 @@
     "city": "Denver, CO",
     "to": "team@vanguardluxuryre.example",
     "doc": "Alex",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 00:10"
   },
   {
     "id": 8,
@@ -98,10 +98,10 @@
     "city": "Chicago, IL",
     "to": "appointments@proactivechiro.example",
     "doc": "Dr. Davis",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 00:10"
   },
   {
     "id": 9,
@@ -111,10 +111,10 @@
     "city": "Atlanta, GA",
     "to": "dispatch@rapidplumbatl.example",
     "doc": "Robert",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 00:10"
   },
   {
     "id": 10,
@@ -124,10 +124,10 @@
     "city": "Palo Alto, CA",
     "to": "support@svskinlab.example",
     "doc": "Dr. Patel",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": null
+    "last_touch": "2026-09-30 00:10"
   },
   {
     "id": 11,

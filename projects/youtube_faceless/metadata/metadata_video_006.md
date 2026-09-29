@@ -1,5 +1,5 @@
 # 📺 YouTube Video Metadata Package: VIDEO_006
-> Generated: 2026-09-29 23:34:19
+> Generated: 2026-09-30 00:08:44
 
 ---
 
@@ -18,13 +18,13 @@
 ```text
 How to Start an AI Automation Agency (AAA) in 2026 ($0 to $3,000/mo Retainers)
 
-In this video, I break down the exact step-by-step roadmap to start your own AI Automation Agency (AAA) in 2026 with zero coding, land high-ticket local business clients, and build recurring monthly retainers ($1,500 setup + $750/mo).
+Step-by-step roadmap to start your own AI Automation Agency in 2026 with zero coding, land high-ticket local business clients, and build recurring monthly retainers ($1,500 setup + $650/mo).
 
 📌 RESOURCES & LIVE DEMOS MENTIONED:
 👉 🤖 Interactive Chatbot Portfolio Demo: https://work-minh-lap.vercel.app/chatbotdemo
-👉 📖 Free eBook 'The AI Money Blueprint' (16,000 words): https://ai-automation-guide-omega.vercel.app
+👉 📖 Free eBook 'The AI Money Blueprint' (16,000 words): https://work-minh-lap.vercel.app/blog
 👉 ⚡ SynapseGEO AI Search Engine Audit Tool: https://work-minh-lap.vercel.app/synapsegeo
-👉 📦 Gumroad Digital Products & Templates: https://minhlap.gumroad.com
+👉 🏛️ Executive VIP Client Portals Hub: https://work-minh-lap.vercel.app/portal
 
 ⏱️ TIMESTAMPS:
 00:00 - The $3,000/Month Agency Opportunity in 2026
@@ -53,7 +53,7 @@ ai automation agency, how to start an ai agency, aaa blueprint 2026, make money 
 ```text
 👉 Test the live interactive client chatbot demo here: https://work-minh-lap.vercel.app/chatbotdemo
 
-Download our complete 16,000-word eBook & 15 automation templates for free at https://ai-automation-guide-omega.vercel.app !
+Download our complete 16,000-word eBook & 15 automation templates for free at https://work-minh-lap.vercel.app/blog !
 
 Drop a comment: Which local niche are you planning to target first? 👇
 ```

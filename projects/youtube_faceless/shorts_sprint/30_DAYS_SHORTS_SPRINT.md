@@ -1,5 +1,5 @@
 # 📱 30-Day Viral Shorts, TikTok & Reels Content Sprint
-> **Tạo lúc**: 2026-09-29 22:17:58  
+> **Tạo lúc**: 2026-09-30 00:09:33  
 > **Kênh phát hành**: YouTube Shorts, TikTok, Instagram Reels, LinkedIn Video  
 > **Mục tiêu**: Phủ sóng 30 video trong 30 ngày, kéo lưu lượng truy cập tự nhiên về các công cụ Micro-SaaS và Master Bundle.
 
@@ -273,7 +273,7 @@
 - **Nội dung chính (3–45s)**:
   > "Micro-SaaS subscriptions + Agency Retainers + Digital Product sales + YouTube AdSense + Affiliate commissions + Freelance gigs. Diversified, resilient, automated."
 - **Kêu gọi hành động (CTA 45–60s)**:
-  > "Start your journey today at ai-automation-guide-omega.vercel.app!"
+  > "Start your journey today at https://work-minh-lap.vercel.app/blog !"
 - **Thẻ Hashtags**: `#AIAutomation #MicroSaaS #MakeMoneyOnline #ChatGPT #IndieHacker #SideHustle2026`
 
 ---
