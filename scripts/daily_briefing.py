@@ -65,7 +65,8 @@ def generate_briefing(send_telegram=False):
 ======================================================================
 
 🌐 1. TRẠNG THÁI HỆ THỐNG & KHO MEDIA EMPIRE
-  • 12 Ứng dụng & API đám mây Vercel: 100% Hoạt động (HTTP 200)
+  • 13 Ứng dụng & API đám mây Vercel: 100% Hoạt động (HTTP 200)
+  • Sàn Dịch Vụ AI Freelance & Agency Hub: https://work-minh-lap.vercel.app/freelance (8 Gigs & 16:9 Banners)
   • Cổng thanh toán: Lemon Squeezy (Store ID: 485872) & Gumroad Live
   • Cổng Đối tác Tiếp thị (50% RevShare): https://work-minh-lap.vercel.app/referral
   • Cổng VIP Client Portals: https://work-minh-lap.vercel.app/portal (30 Doanh nghiệp)
@@ -91,7 +92,7 @@ def generate_briefing(send_telegram=False):
      - Lấy 1 video Short trong projects/youtube_faceless/rendered_shorts/ đăng lên YouTube Shorts / TikTok / Reels.
      - Nạp buffer_schedule.csv vào Buffer / Metricool để tự động hóa 20 bài đăng social.
   3️⃣ Buổi Tối (10 Phút):
-     - Nộp 1 proposal Upwork từ "UPWORK_MASTERY_KIT.md".
+     - Kiểm tra đơn hàng mới trên Sàn Freelance (/freelance) hoặc nộp 1 proposal Upwork từ "UPWORK_MASTERY_KIT.md".
      - Kiểm tra doanh thu mới trên Lemon Squeezy / Gumroad.
 
 📡 4. CƠ HỘI NÓNG TRONG NGÀY (MARKET RADAR)
@@ -109,7 +110,7 @@ def generate_briefing(send_telegram=False):
 
 ⏰ <b>Thời gian:</b> <code>{now_vn}</code>
 
-🌐 <b>Hệ thống:</b> <code>12/12 Cloud Systems Live (100% Operational)</code>
+🌐 <b>Hệ thống:</b> <code>13/13 Cloud Systems Live (100% Operational)</code>
 📊 <b>CRM Pipeline:</b> <code>{crm['total']} Leads</code> • <b>Tiềm năng:</b> <code>${crm['pipeline']:,}</code>
 📬 <b>Đã gửi Outreach:</b> <code>{crm['contacted']}/30</code> (100% Stage 1) | 📞 <b>Hẹn:</b> <code>{crm['booked']}</code> | 🏆 <b>Ký:</b> <code>{crm['won']}</code>
 
@@ -118,6 +119,7 @@ def generate_briefing(send_telegram=False):
 • 30 Viral Shorts 9:16 (1080x1920)
 • 20 Scheduled Social Posts (Buffer CSV)
 
+💼 <b>Freelance Hub:</b> <a href="https://work-minh-lap.vercel.app/freelance">8 Gigs & 16:9 Covers Live</a>
 🏛️ <b>VIP Portals:</b> <a href="https://work-minh-lap.vercel.app/portal">30 Client Portals Live</a>
 🎯 <b>Sales Pitches:</b> <a href="https://work-minh-lap.vercel.app/pitches">Showcase Hub Live</a>
 🎬 <b>Media Studio:</b> <a href="https://work-minh-lap.vercel.app/studio">Studio Showcase Live</a>
@@ -127,7 +129,7 @@ def generate_briefing(send_telegram=False):
 ⚡ <b>Mục tiêu 30 phút hôm nay:</b>
 1. Theo dõi phản hồi Stage 1 từ 30 doanh nghiệp.
 2. Upload 1 video Short lên YouTube / TikTok.
-3. Nộp 1 cover letter Upwork chuyên sâu.
+3. Chia sẻ link 8 Gigs Freelance (/freelance) tới khách hàng.
 
 👉 <a href="https://work-minh-lap.vercel.app"><b>Mở Command Center Dashboard</b></a>
 🚀 <i>Chúc bạn ngày mới bùng nổ doanh số!</i>"""

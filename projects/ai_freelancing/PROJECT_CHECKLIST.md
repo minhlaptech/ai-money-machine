@@ -1,110 +1,60 @@
-# 🤖 DỰ ÁN #6: AI FREELANCING (Upwork + Fiverr)
-> Kiếm tiền bằng cách cung cấp dịch vụ AI trên các nền tảng freelancing
+# 🤖 DỰ ÁN #6: AI FREELANCING (Upwork, Fiverr & Direct Agency)
+> Kiếm tiền bằng cách cung cấp dịch vụ AI cao cấp trên các nền tảng freelancing toàn cầu và trực tiếp qua website
 
 ---
 
-## 📊 TỔNG QUAN
-- **Mục tiêu**: $500-2000 USD/tháng
-- **Nền tảng**: Fiverr (chính), Truelancer, Guru, LinkedIn, freelancerViet
-- **Lưu ý**: Upwork bị chặn ở Việt Nam → Dùng alternatives
-- **Dịch vụ chính**: AI Chatbot Dev, Automation, Prompt Engineering
-- **Thời gian đến thu nhập đầu tiên**: 2-4 tuần
+## 📊 TỔNG QUAN HỆ THỐNG
+- **Mục tiêu**: $500 - $3,500 USD/tháng
+- **Nền tảng**: Fiverr (Chính), Upwork, Truelancer, Guru, LinkedIn & Trực tiếp qua Agency Hub (/freelance)
+- **Dịch vụ cốt lõi**: AI Chatbots, Make.com/Zapier Automations, Generative Engine Optimization (GEO), Review Engines, VIP Client Portals, AI Voice Receptionists
+- **Thời gian triển khai cho khách**: 5 - 14 ngày (Đảm bảo 100% SLA)
+- **Live Agency Showcase**: [https://work-minh-lap.vercel.app/freelance](https://work-minh-lap.vercel.app/freelance)
 
 ---
 
-## ✅ CHECKLIST TRIỂN KHAI
+## ✅ TIẾN ĐỘ THỰC HIỆN & BỘ VŨ KHÍ BÁN HÀNG
 
-### Phase 1: Chuẩn bị (Tuần 1)
-- [ ] Đăng ký tài khoản Upwork
-- [ ] Đăng ký tài khoản Fiverr
-- [ ] Tạo profile chuyên nghiệp (do AI viết)
-- [ ] Chụp/tạo ảnh đại diện chuyên nghiệp
-- [ ] Viết bio/description tối ưu
-- [ ] Xác định 3 dịch vụ chính để bán:
-  1. AI Chatbot Development (CustomGPT, Voiceflow, Botpress)
-  2. AI Workflow Automation (Make, Zapier, n8n)
-  3. AI Content & Prompt Engineering
+### Phase 1: Chuẩn bị & Profile Chuyên Nghiệp (100% HOÀN THÀNH)
+- [x] Tạo bio & headline tối ưu SEO Fiverr: [fiverr_profile.md](file:///d:/Project/work/projects/ai_freelancing/fiverr_profile.md)
+- [x] Thiết lập hồ sơ chuyên môn AIFlowBuilder (Make.com Certified, OpenAI API, GEO Architect)
+- [x] Soạn thảo bộ tài liệu Upwork Mastery Kit: [UPWORK_MASTERY_KIT.md](file:///d:/Project/work/projects/ai_freelancing/UPWORK_MASTERY_KIT.md)
+- [x] Xây dựng bộ Proposal Swipes bách chiến bách thắng theo từng ngách khách hàng
 
-### Phase 2: Tạo Gigs/Services (Tuần 1-2)
+### Phase 2: Trọn Bộ 8 Fiverr Gigs Đầy Đủ Nội Dung (100% HOÀN THÀNH)
+Tài liệu chi tiết copy-paste: [fiverr_gig_descriptions.md](file:///d:/Project/work/projects/ai_freelancing/fiverr_gig_descriptions.md)
 
-#### Fiverr Gigs (5 gigs) - ĐÃ CÓ TEMPLATES:
-- [ ] Gig 1: "I will build a custom AI chatbot for your business" - $150-500
-- [ ] Gig 2: "I will automate your business workflows with AI" - $100-300
-- [ ] Gig 3: "I will create custom ChatGPT/Claude prompts for your industry" - $50-150
-- [ ] Gig 4: "I will build an AI-powered lead generation system" - $200-500
-- [ ] Gig 5: "I will create an AI content automation pipeline" - $100-300
+| # | Tên Gig | Mức Giá (Basic / Std / Premium) | Live Proof URL | Trạng Thái Banner |
+|---|---------|--------------------------------|----------------|-------------------|
+| 1 | **AI Chatbot & Lead Qualifier** | $100 / $250 / $500 | `/chatbotdemo` | [✓] `gig1_chatbot.jpg` (16:9) |
+| 2 | **Workflow Automation (Make/Zapier)** | $75 / $200 / $400 | `/calculator` | [✓] `gig2_automation.jpg` (16:9) |
+| 3 | **AI Tool & LLM Integration** | $50 / $150 / $350 | `/headlineiq` | [✓] `gig3_ai_integration.jpg` (16:9) |
+| 4 | **AI Search (GEO) Optimization** | $150 / $350 / $650 | `/synapsegeo` | [✓] `gig4_geo_search.jpg` (16:9) |
+| 5 | **Automated 5-Star Review Funnel** | $120 / $280 / $550 | `/reviewgenius` | [✓] `gig5_reputation.jpg` (16:9) |
+| 6 | **VIP Client Portal & Intake Hub** | $250 / $550 / $1,200 | `/portal` | [✓] `gig6_client_portal.jpg` (16:9) |
+| 7 | **Multi-Platform Content Repurposer** | $100 / $250 / $450 | `/blog` | [✓] `gig7_repurposing.jpg` (16:9) |
+| 8 | **24/7 AI Voice Phone Receptionist** | $200 / $450 / $950 | `/pitches` | [✓] `gig8_voice_caller.jpg` (16:9) |
 
-#### Upwork Alternatives (vì Upwork bị chặn ở VN):
-- [ ] Đăng ký Truelancer (https://truelancer.com)
-- [ ] Đăng ký Guru (https://guru.com) 
-- [ ] Tối ưu LinkedIn profile cho freelancing
-- [ ] Đăng ký freelancerViet (https://freelancerviet.vn) cho thị trường VN
-- [ ] Đăng ký vLance (https://vlance.vn)
-- [ ] Tạo profile trên mỗi nền tảng
-- [ ] Gửi proposals 5/ngày trên Fiverr + alternatives
+### Phase 3: Banners Đồ Họa & Nền Tảng Trưng Bày Web (100% HOÀN THÀNH)
+- [x] Tạo 8/8 ảnh bìa Gig 16:9 độ phân giải cao tại `projects/ai_freelancing/fiverr_gig_images/`
+- [x] Đồng bộ ảnh bìa sang thư mục tĩnh web: `freelance/images/`
+- [x] Lập trình trang web trưng bày chuyên nghiệp: [freelance/index.html](file:///d:/Project/work/freelance/index.html)
+  - Bộ lọc 8 chuyên mục linh hoạt
+  - Thanh tìm kiếm từ khóa thời gian thực
+  - Công tắc chuyển đổi gói Basic / Standard / Premium cập nhật giá tức thì
+  - Modal xem chi tiết bảng so sánh tính năng và phạm vi công việc
+  - Form đặt hàng trực tiếp gửi dự án ngay về email điều hành
+- [x] Tích hợp lối tắt trên CLI Master v8.0: Phím [30] mở trực tiếp Freelance Hub
 
-### Phase 3: Portfolio & Samples (Tuần 1-2)
-- [ ] Tạo demo chatbot mẫu
-- [ ] Tạo demo automation workflow mẫu
-- [ ] Tạo case study template
-- [ ] Quay video demo ngắn cho mỗi dịch vụ
-- [ ] Tạo landing page portfolio (nếu cần)
-
-### Phase 4: Vận hành (Tuần 3+)
-- [ ] Nhận đơn đầu tiên
-- [ ] Hoàn thành + nhận review 5 sao
-- [ ] Tối ưu giá và mô tả dựa trên feedback
-- [ ] Tăng dần giá khi có nhiều reviews
-- [ ] Xây dựng client base cho retainer deals
+### Phase 4: Vận Hành & Khai Thác Đơn Hàng (ĐANG TIẾN HÀNH)
+- [ ] Mở tài khoản Fiverr Seller và dán 8 gig theo tài liệu hướng dẫn
+- [ ] Gắn link demo sản phẩm thực tế vào portfolio trên Fiverr/Upwork
+- [ ] Tiếp nhận brief đơn hàng đầu tiên và triển khai theo quy trình bàn giao 5-14 ngày
+- [ ] Thu thập đánh giá 5 sao từ khách hàng quốc tế
 
 ---
 
-## 📝 NỘI DUNG ĐÃ CHUẨN BỊ
-
-### Profile Bio (Upwork):
-```
-AI Automation Specialist | Chatbot Developer | Workflow Expert
-
-I help businesses save 10-20 hours per week by implementing intelligent 
-AI-powered automation systems. My expertise includes:
-
-✅ Custom AI Chatbots (CustomerGPT, Voiceflow, Botpress)
-✅ Business Workflow Automation (Make, Zapier, n8n)  
-✅ AI Content Pipelines & Prompt Engineering
-✅ Lead Qualification & CRM Integration
-✅ AI-Powered Customer Support Systems
-
-My clients typically see:
-→ 40% reduction in support ticket volume
-→ 60% faster lead response times
-→ 15+ hours saved per week on repetitive tasks
-
-I provide outcome-based solutions, not just "AI tools." Every project 
-includes documentation, training, and ongoing support options.
-
-Let's discuss how AI can transform your workflow. 
-Send me a message to get started!
-```
-
-### Fiverr Gig Descriptions:
-_(Sẽ được AI tạo chi tiết ở phiên tiếp theo)_
-
-### Proposal Templates:
-_(Sẽ được AI tạo chi tiết ở phiên tiếp theo)_
-
----
-
-## 📊 THEO DÕI HIỆU QUẢ
-
-| Tuần | Proposals Gửi | Responses | Jobs Won | Revenue | Reviews |
-|------|--------------|-----------|----------|---------|---------|
-| W1 | 0 | 0 | 0 | $0 | 0 |
-
----
-
-## 🎯 KPIs
-- Proposals gửi: **5/ngày** (Upwork)
-- Response rate mục tiêu: **>20%**
-- Win rate mục tiêu: **>10%**
-- Giá trung bình/đơn: **$150-300**
-- Review mục tiêu: **5 sao**
+## 🎯 KPIs THEO DÕI
+- Số lượng Gigs hoạt động: **8/8 Gigs**
+- Tỷ lệ hoàn thành công việc cam kết: **100% Job Success Score**
+- Giá trị đơn hàng trung bình (AOV): **$250 - $650**
+- Tỷ lệ hài lòng & đánh giá: **5.0 / 5.0 Sao**

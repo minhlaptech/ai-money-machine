@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Freelance & Agency Hub — 8 High-Ticket Gigs & Automation Systems</title>
+  <meta name="description" content="Explore and order 8 battle-tested AI gigs: Custom AI Chatbots, Workflow Automation, GEO AI Search Optimization, Review Engines, VIP Client Portals, and AI Voice Receptionists.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #070712;
+      --bg-card: rgba(18, 18, 36, 0.75);
+      --bg-card-hover: rgba(28, 28, 56, 0.9);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(124, 92, 252, 0.4);
+      --accent: #7c5cfc;
+      --accent-glow: rgba(124, 92, 252, 0.35);
+      --cyan: #00f2fe;
+      --cyan-glow: rgba(0, 242, 254, 0.25);
+      --green: #00e676;
+      --green-glow: rgba(0, 230, 118, 0.25);
+      --orange: #ff9100;
+      --pink: #ff2a85;
+      --text: #f0f0ff;
+      --text-muted: #8c8ca8;
+      --text-sub: #555577;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+      padding-bottom: 80px;
+      line-height: 1.6;
+    }
+
+    /* Ambient dynamic glow */
+    .glow-orb {
+      position: fixed; border-radius: 50%; filter: blur(150px);
+      pointer-events: none; opacity: 0.12; z-index: 0;
+    }
+    .orb-1 { width: 550px; height: 550px; background: var(--accent); top: -120px; left: -100px; }
+    .orb-2 { width: 500px; height: 500px; background: var(--cyan); top: 35%; right: -160px; }
+    .orb-3 { width: 450px; height: 450px; background: var(--pink); bottom: -120px; left: 25%; }
+
+    /* Top Navigation */
+    header {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(7, 7, 18, 0.88); backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border); padding: 14px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .brand-wrap { display: flex; align-items: center; gap: 14px; text-decoration: none; color: inherit; }
+    .logo-badge {
+      width: 40px; height: 40px; border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent), var(--cyan));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; box-shadow: 0 0 20px var(--accent-glow);
+    }
+    .brand-text h1 { font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 700; letter-spacing: -0.02em; }
+    .brand-text p { font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono); }
+    
+    .nav-actions { display: flex; align-items: center; gap: 12px; }
+    .status-pill {
+      display: flex; align-items: center; gap: 7px;
+      background: rgba(0, 230, 118, 0.1); border: 1px solid rgba(0, 230, 118, 0.3);
+      color: var(--green); padding: 6px 14px; border-radius: 20px;
+      font-size: 0.76rem; font-weight: 600;
+    }
+    .pulse-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 8px var(--green); animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(0.85); } }
+
+    .btn-nav {
+      background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
+      color: var(--text); padding: 7px 16px; border-radius: 8px;
+      font-size: 0.82rem; font-weight: 500; text-decoration: none; transition: all 0.2s;
+    }
+    .btn-nav:hover { background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2); }
+    .btn-nav-primary {
+      background: linear-gradient(135deg, var(--accent), #9b72cf);
+      border: 1px solid var(--border-accent); color: #fff; font-weight: 600;
+      box-shadow: 0 0 16px var(--accent-glow);
+    }
+    .btn-nav-primary:hover { opacity: 0.95; transform: translateY(-1px); }
+
+    /* Main Container */
+    .container { max-width: 1320px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 60px 0 40px;
+    }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(124, 92, 252, 0.12); border: 1px solid var(--border-accent);
+      color: #bfa8ff; padding: 6px 16px; border-radius: 30px;
+      font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-family: 'Outfit', sans-serif; font-size: clamp(2.2rem, 5vw, 3.6rem);
+      font-weight: 800; line-height: 1.15; margin-bottom: 20px; letter-spacing: -0.03em;
+    }
+    .hero-gradient {
+      background: linear-gradient(135deg, #fff 30%, var(--cyan) 70%, var(--accent) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero p {
+      max-width: 780px; margin: 0 auto 32px;
+      font-size: 1.05rem; color: var(--text-muted); font-weight: 400;
+    }
+
+    /* Key Metrics Banner */
+    .metrics-bar {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px; margin-bottom: 45px;
+    }
+    .metric-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 18px 20px; text-align: left;
+      backdrop-filter: blur(12px); transition: all 0.25s;
+    }
+    .metric-card:hover { border-color: var(--border-accent); transform: translateY(-2px); }
+    .metric-val { font-family: 'Outfit', sans-serif; font-size: 1.6rem; font-weight: 800; color: #fff; margin-bottom: 4px; display: flex; align-items: center; gap: 6px; }
+    .metric-lbl { font-size: 0.78rem; color: var(--text-muted); font-weight: 500; }
+
+    /* Filter & Controls Toolbar */
+    .controls-panel {
+      background: rgba(14, 14, 28, 0.7); border: 1px solid var(--border);
+      border-radius: 16px; padding: 16px 20px; margin-bottom: 36px;
+      display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center;
+      backdrop-filter: blur(14px);
+    }
+    .filter-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+    .filter-pill {
+      background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border);
+      color: var(--text-muted); padding: 7px 15px; border-radius: 30px;
+      font-size: 0.8rem; font-weight: 500; cursor: pointer; transition: all 0.2s; user-select: none;
+    }
+    .filter-pill:hover { background: rgba(255, 255, 255, 0.08); color: #fff; }
+    .filter-pill.active {
+      background: linear-gradient(135deg, var(--accent), #9b72cf);
+      border-color: var(--border-accent); color: #fff; font-weight: 600;
+      box-shadow: 0 0 14px var(--accent-glow);
+    }
+    .search-input-wrap {
+      position: relative; min-width: 260px;
+    }
+    .search-input-wrap input {
+      width: 100%; background: rgba(8, 8, 18, 0.8); border: 1px solid var(--border);
+      border-radius: 10px; padding: 8px 14px 8px 36px; color: #fff;
+      font-size: 0.82rem; font-family: inherit; outline: none; transition: border-color 0.2s;
+    }
+    .search-input-wrap input:focus { border-color: var(--accent); }
+    .search-icon {
+      position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+      font-size: 0.85rem; color: var(--text-muted); pointer-events: none;
+    }
+
+    /* Gigs Grid */
+    .gigs-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+      gap: 28px; margin-bottom: 60px;
+    }
+    @media (max-width: 480px) {
+      .gigs-grid { grid-template-columns: 1fr; }
+    }
+
+    /* Gig Card */
+    .gig-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 18px; overflow: hidden; display: flex; flex-direction: column;
+      backdrop-filter: blur(16px); transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+    }
+    .gig-card:hover {
+      border-color: var(--border-accent);
+      transform: translateY(-5px);
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4), 0 0 24px rgba(124, 92, 252, 0.15);
+    }
+
+    /* Banner Media Container */
+    .gig-thumb-wrap {
+      position: relative; width: 100%; aspect-ratio: 16 / 9;
+      overflow: hidden; background: #0c0c1a;
+    }
+    .gig-thumb-img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .gig-card:hover .gig-thumb-img { transform: scale(1.04); }
+
+    .gig-badge-tag {
+      position: absolute; top: 12px; left: 12px;
+      background: rgba(7, 7, 18, 0.85); backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 6px;
+      padding: 4px 10px; font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.05em; text-transform: uppercase; color: #fff;
+      display: flex; align-items: center; gap: 5px;
+    }
+    .badge-top { border-color: rgba(255, 145, 0, 0.5); color: #ffab40; background: rgba(255, 145, 0, 0.12); }
+    .badge-roi { border-color: rgba(0, 230, 118, 0.5); color: #69f0ae; background: rgba(0, 230, 118, 0.12); }
+    .badge-trending { border-color: rgba(0, 242, 254, 0.5); color: #80d8ff; background: rgba(0, 242, 254, 0.12); }
+    .badge-enterprise { border-color: rgba(124, 92, 252, 0.5); color: #b388ff; background: rgba(124, 92, 252, 0.15); }
+
+    .gig-fiverr-rating {
+      position: absolute; bottom: 10px; right: 12px;
+      background: rgba(7, 7, 18, 0.85); backdrop-filter: blur(6px);
+      border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 6px;
+      padding: 3px 8px; font-size: 0.72rem; font-weight: 600; color: #ffb300;
+      display: flex; align-items: center; gap: 4px;
+    }
+
+    /* Card Body */
+    .gig-body { padding: 22px; display: flex; flex-direction: column; flex-grow: 1; }
+    
+    .gig-category {
+      font-size: 0.72rem; color: var(--accent); font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;
+    }
+    .gig-title {
+      font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 700;
+      line-height: 1.35; margin-bottom: 12px; color: #fff;
+    }
+    .gig-summary {
+      font-size: 0.84rem; color: var(--text-muted); line-height: 1.5;
+      margin-bottom: 18px; flex-grow: 1;
+    }
+
+    /* Pricing Tabs Widget inside card */
+    .tier-tabs {
+      display: flex; background: rgba(10, 10, 22, 0.8); border: 1px solid var(--border);
+      border-radius: 8px; padding: 3px; margin-bottom: 14px;
+    }
+    .tier-tab {
+      flex: 1; text-align: center; padding: 6px 4px; border-radius: 6px;
+      font-size: 0.75rem; font-weight: 600; cursor: pointer; color: var(--text-muted);
+      transition: all 0.2s; user-select: none;
+    }
+    .tier-tab.active {
+      background: rgba(124, 92, 252, 0.25); color: #fff;
+      border: 1px solid rgba(124, 92, 252, 0.4);
+    }
+
+    /* Active Tier Detail Box */
+    .tier-detail-box {
+      background: rgba(12, 12, 24, 0.6); border: 1px solid var(--border);
+      border-radius: 10px; padding: 12px 14px; margin-bottom: 16px;
+    }
+    .tier-price-row {
+      display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;
+    }
+    .tier-price { font-family: 'Outfit', sans-serif; font-size: 1.4rem; font-weight: 800; color: #fff; }
+    .tier-delivery {
+      display: flex; align-items: center; gap: 5px;
+      font-size: 0.72rem; color: var(--cyan); font-family: var(--font-mono);
+    }
+    .tier-features-list { list-style: none; font-size: 0.78rem; color: #b8b8cc; line-height: 1.5; }
+    .tier-features-list li { display: flex; align-items: flex-start; gap: 6px; margin-bottom: 4px; }
+    .tier-features-list li span.chk { color: var(--green); font-weight: bold; flex-shrink: 0; }
+
+    /* Tags */
+    .gig-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
+    .gig-tag {
+      background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.06);
+      color: var(--text-sub); padding: 3px 8px; border-radius: 4px;
+      font-size: 0.7rem; font-family: var(--font-mono);
+    }
+
+    /* Action Buttons */
+    .card-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: auto; }
+    .btn-action-outline {
+      background: transparent; border: 1px solid var(--border);
+      color: var(--text); padding: 9px 12px; border-radius: 8px;
+      font-size: 0.8rem; font-weight: 600; text-align: center; cursor: pointer;
+      text-decoration: none; transition: all 0.2s; display: flex; align-items: center; justify-content: center; gap: 6px;
+    }
+    .btn-action-outline:hover { background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.2); }
+    
+    .btn-action-primary {
+      background: linear-gradient(135deg, var(--accent), #9b72cf);
+      border: 1px solid var(--border-accent); color: #fff; padding: 9px 12px;
+      border-radius: 8px; font-size: 0.8rem; font-weight: 600; text-align: center;
+      cursor: pointer; text-decoration: none; transition: all 0.2s;
+      box-shadow: 0 0 14px var(--accent-glow); display: flex; align-items: center; justify-content: center; gap: 6px;
+    }
+    .btn-action-primary:hover { opacity: 0.92; transform: translateY(-1px); }
+
+    .live-demo-link {
+      margin-top: 10px; text-align: center; font-size: 0.75rem;
+    }
+    .live-demo-link a {
+      color: var(--cyan); text-decoration: none; font-weight: 500;
+      display: inline-flex; align-items: center; gap: 4px; transition: color 0.2s;
+    }
+    .live-demo-link a:hover { text-decoration: underline; color: #fff; }
+
+    /* Client Trust / Guarantee Section */
+    .guarantee-section {
+      background: linear-gradient(135deg, rgba(124, 92, 252, 0.08), rgba(0, 242, 254, 0.05));
+      border: 1px solid var(--border-accent); border-radius: 20px;
+      padding: 36px 40px; margin-bottom: 60px; display: grid; grid-template-columns: 1fr 1fr;
+      gap: 32px; align-items: center;
+    }
+    @media (max-width: 768px) {
+      .guarantee-section { grid-template-columns: 1fr; padding: 24px; }
+    }
+    .guarantee-text h2 { font-family: 'Outfit', sans-serif; font-size: 1.6rem; font-weight: 700; margin-bottom: 12px; }
+    .guarantee-text p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 16px; }
+    .guarantee-features { display: flex; flex-direction: column; gap: 10px; }
+    .guarantee-item { display: flex; align-items: center; gap: 10px; font-size: 0.86rem; color: #e0e0f0; }
+    .guarantee-item span.icon { color: var(--green); font-size: 1.1rem; }
+
+    .profile-card {
+      background: rgba(14, 14, 28, 0.85); border: 1px solid var(--border);
+      border-radius: 16px; padding: 24px; backdrop-filter: blur(12px);
+    }
+    .seller-header { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
+    .seller-avatar {
+      width: 58px; height: 58px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--cyan));
+      display: flex; align-items: center; justify-content: center; font-size: 26px;
+      box-shadow: 0 0 16px var(--accent-glow);
+    }
+    .seller-info h3 { font-size: 1.1rem; font-weight: 700; color: #fff; }
+    .seller-info p { font-size: 0.78rem; color: var(--green); font-weight: 600; display: flex; align-items: center; gap: 4px; }
+    .seller-bio { font-size: 0.82rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 18px; }
+    .seller-badges { display: flex; flex-wrap: wrap; gap: 6px; }
+    .seller-badge {
+      background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
+      border-radius: 6px; padding: 4px 10px; font-size: 0.72rem; color: #cfcfe6; font-family: var(--font-mono);
+    }
+
+    /* Modal System */
+    .modal-overlay {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.82); backdrop-filter: blur(12px);
+      z-index: 1000; display: none; align-items: center; justify-content: center;
+      padding: 20px;
+    }
+    .modal-overlay.active { display: flex; }
+    .modal-box {
+      background: #0d0d1e; border: 1px solid var(--border-accent);
+      border-radius: 20px; max-width: 640px; width: 100%; max-height: 90vh;
+      overflow-y: auto; padding: 32px; position: relative;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7), 0 0 40px rgba(124, 92, 252, 0.2);
+    }
+    .modal-close {
+      position: absolute; top: 20px; right: 20px;
+      background: rgba(255, 255, 255, 0.06); border: 1px solid var(--border);
+      border-radius: 50%; width: 34px; height: 34px; display: flex;
+      align-items: center; justify-content: center; color: var(--text-muted);
+      cursor: pointer; transition: all 0.2s; font-size: 1.1rem;
+    }
+    .modal-close:hover { background: rgba(255, 255, 255, 0.15); color: #fff; }
+
+    .modal-title { font-family: 'Outfit', sans-serif; font-size: 1.45rem; font-weight: 700; margin-bottom: 8px; color: #fff; }
+    .modal-subtitle { font-size: 0.86rem; color: var(--text-muted); margin-bottom: 24px; }
+    
+    .form-group { margin-bottom: 16px; }
+    .form-group label { display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 6px; color: #cfcfe6; }
+    .form-control {
+      width: 100%; background: rgba(20, 20, 40, 0.7); border: 1px solid var(--border);
+      border-radius: 8px; padding: 10px 14px; color: #fff; font-size: 0.86rem;
+      font-family: inherit; outline: none; transition: border-color 0.2s;
+    }
+    .form-control:focus { border-color: var(--accent); }
+    textarea.form-control { resize: vertical; min-height: 90px; }
+
+    .btn-submit-order {
+      width: 100%; background: linear-gradient(135deg, var(--accent), #9b72cf);
+      border: 1px solid var(--border-accent); color: #fff; padding: 12px;
+      border-radius: 10px; font-size: 0.95rem; font-weight: 700; cursor: pointer;
+      box-shadow: 0 0 20px var(--accent-glow); margin-top: 10px; transition: all 0.2s;
+    }
+    .btn-submit-order:hover { opacity: 0.94; transform: translateY(-1px); }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border); padding-top: 40px;
+      margin-top: 60px; text-align: center; color: var(--text-sub); font-size: 0.82rem;
+    }
+    .footer-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-bottom: 20px; }
+    .footer-links a { color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: #fff; }
+  </style>
+</head>
+<body>
+
+  <!-- Ambient Glow Orbs -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Header -->
+  <header>
+    <a href="/" class="brand-wrap">
+      <div class="logo-badge">⚡</div>
+      <div class="brand-text">
+        <h1>AI FREELANCE & AGENCY HUB</h1>
+        <p>AIFlowBuilder • 8 High-Ticket Systems</p>
+      </div>
+    </a>
+    <div class="nav-actions">
+      <div class="status-pill">
+        <span class="pulse-dot"></span>
+        <span>Accepting Orders (3 Slots Left)</span>
+      </div>
+      <a href="/" class="btn-nav">Command Center</a>
+      <a href="/portal" class="btn-nav">Client Portals</a>
+      <a href="#gigs" class="btn-nav btn-nav-primary">View 8 Gigs</a>
+    </div>
+  </header>
+
+  <!-- Container -->
+  <main class="container">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-eyebrow">
+        <span>★</span> Verified 5-Star AI Automation & Development
+      </div>
+      <h1>
+        Battle-Tested AI Systems & Chatbots<br>
+        <span class="hero-gradient">Delivered in 5 to 14 Days</span>
+      </h1>
+      <p>
+        Eliminate repetitive operations, capture high-ticket leads 24/7, and outrank competitors in Generative AI search (ChatGPT, Perplexity & Claude). Fixed-price, transparent deliverables with 100% satisfaction guarantee.
+      </p>
+
+      <!-- Key Metrics -->
+      <div class="metrics-bar">
+        <div class="metric-card">
+          <div class="metric-val">8 Gigs</div>
+          <div class="metric-lbl">Fully scoped & copy-paste ready</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val" style="color: var(--green);">100%</div>
+          <div class="metric-lbl">Satisfaction & code quality guarantee</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val" style="color: var(--cyan);">&lt; 800ms</div>
+          <div class="metric-lbl">AI Voice & Chatbot response latency</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val" style="color: #bfa8ff;">20+ Hrs</div>
+          <div class="metric-lbl">Average weekly manual time saved</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val" style="color: var(--orange);">$50 - $1.2k</div>
+          <div class="metric-lbl">Transparent Basic, Std, Premium tiers</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Controls & Filters -->
+    <section id="gigs">
+      <div class="controls-panel">
+        <div class="filter-pills" id="categoryFilters">
+          <div class="filter-pill active" data-cat="all">All Services (8)</div>
+          <div class="filter-pill" data-cat="chatbots">AI Chatbots</div>
+          <div class="filter-pill" data-cat="automation">Workflow Automation</div>
+          <div class="filter-pill" data-cat="geo">AI Search (GEO)</div>
+          <div class="filter-pill" data-cat="reputation">Reputation & Reviews</div>
+          <div class="filter-pill" data-cat="portals">VIP Client Portals</div>
+          <div class="filter-pill" data-cat="content">Content Repurposing</div>
+          <div class="filter-pill" data-cat="voice">Voice Receptionist</div>
+        </div>
+        <div class="search-input-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="gigSearchInput" placeholder="Filter by keyword, tech, or feature...">
+        </div>
+      </div>
+
+      <!-- Gigs Grid -->
+      <div class="gigs-grid" id="gigsContainer">
+        <!-- Rendered by JavaScript dynamically -->
+      </div>
+    </section>
+
+    <!-- Guarantee & Seller Trust Section -->
+    <section class="guarantee-section">
+      <div class="guarantee-text">
+        <h2>Why High-Growth Businesses Hire Us</h2>
+        <p>
+          We don't just "stitch together templates" — we architect hardened, enterprise-grade AI automation pipelines that drive direct revenue and cut labor expenses immediately upon deployment.
+        </p>
+        <div class="guarantee-features">
+          <div class="guarantee-item">
+            <span class="icon">✔</span>
+            <span><strong>Full Source Code & Ownership:</strong> All scripts, Make scenarios, and JSON-LD schemas transferred to you.</span>
+          </div>
+          <div class="guarantee-item">
+            <span class="icon">✔</span>
+            <span><strong>Zero-Downtime Delivery:</strong> Tested against edge cases, LLM rate limits, and fallback scenarios.</span>
+          </div>
+          <div class="guarantee-item">
+            <span class="icon">✔</span>
+            <span><strong>Loom Video Walkthrough:</strong> Step-by-step video training for your team to manage and update effortlessly.</span>
+          </div>
+          <div class="guarantee-item">
+            <span class="icon">✔</span>
+            <span><strong>30-Day Post-Delivery Warranty:</strong> Ongoing prompt tuning, error monitoring, and bug fixes included in Premium tiers.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <div class="seller-header">
+          <div class="seller-avatar">🤖</div>
+          <div class="seller-info">
+            <h3>AIFlowBuilder</h3>
+            <p>● Certified AI Specialist & Automation Architect</p>
+          </div>
+        </div>
+        <div class="seller-bio">
+          "I build custom AI chatbots, automate business workflows, and create AI-powered content systems so you can focus on scale while intelligent technology handles the busy work."
+        </div>
+        <div class="seller-badges">
+          <span class="seller-badge">⚡ Make.com Certified</span>
+          <span class="seller-badge">🤖 OpenAI & Claude API</span>
+          <span class="seller-badge">🔍 GEO Search Architect</span>
+          <span class="seller-badge">📞 Vapi & Retell AI</span>
+          <span class="seller-badge">💼 VIP Portals</span>
+        </div>
+        <div style="margin-top: 18px; display: flex; gap: 10px;">
+          <a href="mailto:contact@aimoneymachine.com?subject=Custom%20AI%20Project%20Inquiry" class="btn-action-primary" style="flex: 1;">Direct Email Inquiry</a>
+          <a href="/portal" class="btn-action-outline" style="flex: 1;">Explore Portals</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Interactive Order / Inquiry Modal -->
+  <div class="modal-overlay" id="orderModal">
+    <div class="modal-box">
+      <div class="modal-close" onclick="closeOrderModal()">✕</div>
+      <h2 class="modal-title" id="modalGigTitle">Order Service</h2>
+      <p class="modal-subtitle" id="modalGigSubtitle">Submit your project details for instant kickoff or custom quotation.</p>
+
+      <form id="orderForm" onsubmit="handleOrderSubmit(event)">
+        <input type="hidden" id="selectedGigId">
+        
+        <div class="form-group">
+          <label>Selected Tier & Package</label>
+          <select id="packageSelect" class="form-control" onchange="updateModalPrice()">
+            <option value="basic">Basic Package</option>
+            <option value="standard" selected>Standard Package (Recommended)</option>
+            <option value="premium">Premium Package</option>
+          </select>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+          <div class="form-group">
+            <label>Your Name *</label>
+            <input type="text" id="clientName" class="form-control" placeholder="Alex Morgan" required>
+          </div>
+          <div class="form-group">
+            <label>Work Email *</label>
+            <input type="email" id="clientEmail" class="form-control" placeholder="alex@company.com" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Business / Website URL</label>
+          <input type="url" id="clientWebsite" class="form-control" placeholder="https://yourbrand.com">
+        </div>
+
+        <div class="form-group">
+          <label>Project Goals & Specific Requirements *</label>
+          <textarea id="clientNotes" class="form-control" placeholder="Describe your current bottleneck, tools in use (HubSpot, Airtable, WordPress), and timeline..." required></textarea>
+        </div>
+
+        <div style="background: rgba(124, 92, 252, 0.1); border: 1px solid var(--border-accent); border-radius: 8px; padding: 12px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center;">
+          <div>
+            <div style="font-size: 0.76rem; color: var(--text-muted);">Package Price:</div>
+            <div style="font-family: 'Outfit', sans-serif; font-size: 1.4rem; font-weight: 800; color: #fff;" id="modalPriceDisplay">$250</div>
+          </div>
+          <div style="text-align: right;">
+            <div style="font-size: 0.72rem; color: var(--green); font-weight: 600;">● Turnaround: <span id="modalDeliveryDisplay">10 Days</span></div>
+            <div style="font-size: 0.7rem; color: var(--text-muted);">Escrow & Milestone Protected</div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-submit-order">Confirm & Send Project Brief 🚀</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Detail Scope Modal -->
+  <div class="modal-overlay" id="detailModal">
+    <div class="modal-box" style="max-width: 720px;">
+      <div class="modal-close" onclick="closeDetailModal()">✕</div>
+      <h2 class="modal-title" id="detailTitle">Scope Details</h2>
+      <p class="modal-subtitle" id="detailCategory">Category</p>
+      
+      <div id="detailContent" style="font-size: 0.88rem; line-height: 1.6; color: #d0d0e6;">
+        <!-- Injected dynamically -->
+      </div>
+      
+      <div style="margin-top: 24px; display: flex; gap: 12px;">
+        <button onclick="orderFromDetail()" class="btn-action-primary" style="flex: 1; padding: 12px;">Order This Gig</button>
+        <button onclick="closeDetailModal()" class="btn-action-outline" style="flex: 1; padding: 12px;">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <a href="/">Command Center</a>
+      <a href="/synapsegeo">SynapseGEO</a>
+      <a href="/reviewgenius">ReviewGenius</a>
+      <a href="/headlineiq">HeadlineIQ</a>
+      <a href="/chatbotdemo">Chatbot Demo</a>
+      <a href="/portal">Client Portals</a>
+      <a href="/calculator">ROI Calculator</a>
+      <a href="/studio">Media Studio</a>
+      <a href="/referral">Affiliate Program (50%)</a>
+    </div>
+    <p>© 2026 AI Money Machine & AIFlowBuilder. Autonomous Enterprise AI Infrastructure. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    const GIGS_DATA = [
+      {
+        id: "gig1",
+        title: "I will build a custom AI chatbot for your website or business",
+        shortTitle: "Custom AI Chatbot & Lead Qualifier",
+        category: "chatbots",
+        categoryLabel: "AI Development & Chatbots",
+        badge: "TOP SELLER",
+        badgeClass: "badge-top",
+        rating: "5.0 (48)",
+        image: "images/gig1_chatbot.jpg",
+        demoUrl: "/chatbotdemo",
+        demoLabel: "Test Live Chatbot Demo",
+        summary: "Autonomous 24/7 AI chatbot trained on your business data. Handles inquiries, qualifies leads, schedules appointments, and cuts support volume by 60%.",
+        tiers: {
+          basic: {
+            price: 100,
+            delivery: "7-Day Delivery • 1 Revision",
+            features: [
+              "FAQ Chatbot (up to 20 Q&A pairs)",
+              "Clean responsive website widget",
+              "Basic email lead notifications",
+              "Standard documentation & embed script"
+            ]
+          },
+          standard: {
+            price: 250,
+            delivery: "10-Day Delivery • 2 Revisions",
+            features: [
+              "AI-trained on your website & docs",
+              "Automated lead capture & CRM sync",
+              "WhatsApp & Web multi-channel deploy",
+              "Loom video walkthrough & training"
+            ]
+          },
+          premium: {
+            price: 500,
+            delivery: "14-Day Delivery • Unlimited Revisions",
+            features: [
+              "Full Multi-channel (Web, WhatsApp, Messenger)",
+              "Custom API, Zapier & Make.com webhooks",
+              "Live Calendar booking integration",
+              "Analytics dashboard + 30-Day support"
+            ]
+          }
+        },
+        tags: ["ai chatbot", "voiceflow", "lead capture", "customer support", "botpress"]
+      },
+      {
+        id: "gig2",
+        title: "I will automate your business workflows using Make.com or Zapier",
+        shortTitle: "Workflow Automation (Make & Zapier)",
+        category: "automation",
+        categoryLabel: "Workflow Automation",
+        badge: "HIGH ROI",
+        badgeClass: "badge-roi",
+        rating: "5.0 (39)",
+        image: "images/gig2_automation.jpg",
+        demoUrl: "/calculator",
+        demoLabel: "Calculate Automation ROI",
+        summary: "Eliminate repetitive manual tasks. Connect CRM, email, SMS, spreadsheets, and databases into hands-free autonomous workflows saving 20+ hours/week.",
+        tiers: {
+          basic: {
+            price: 75,
+            delivery: "5-Day Delivery • 1 Revision",
+            features: [
+              "1 automation workflow (up to 5 modules)",
+              "Testing & edge-case validation",
+              "Basic execution logging",
+              "Standard delivery documentation"
+            ]
+          },
+          standard: {
+            price: 200,
+            delivery: "10-Day Delivery • 2 Revisions",
+            features: [
+              "3 multi-step automation workflows",
+              "Advanced error handling & fallback alerts",
+              "CRM & Spreadsheet bidirectional sync",
+              "Loom video explanation & walkthrough"
+            ]
+          },
+          premium: {
+            price: 400,
+            delivery: "14-Day Delivery • 3 Revisions",
+            features: [
+              "5 complex enterprise workflows",
+              "Custom REST API & Webhook integrations",
+              "Database & Airtable schema architecture",
+              "30-Day live monitoring & troubleshooting"
+            ]
+          }
+        },
+        tags: ["make.com", "zapier", "n8n", "business automation", "crm sync"]
+      },
+      {
+        id: "gig3",
+        title: "I will integrate AI tools and ChatGPT into your business operations",
+        shortTitle: "ChatGPT & AI Model Integration",
+        category: "automation",
+        categoryLabel: "AI Engineering & LLMs",
+        badge: "POPULAR",
+        badgeClass: "badge-trending",
+        rating: "4.9 (31)",
+        image: "images/gig3_ai_integration.jpg",
+        demoUrl: "/headlineiq",
+        demoLabel: "Try Live AI Tool (HeadlineIQ)",
+        summary: "Supercharge your business with OpenAI GPT-4o, Claude 3.5, and specialized LLMs. Automated content creation, smart summarization, and data extraction.",
+        tiers: {
+          basic: {
+            price: 50,
+            delivery: "5-Day Delivery • 1 Revision",
+            features: [
+              "1 simple AI API integration",
+              "System prompt crafting & testing",
+              "JSON response schema enforcement",
+              "Implementation documentation"
+            ]
+          },
+          standard: {
+            price: 150,
+            delivery: "7-Day Delivery • 2 Revisions",
+            features: [
+              "Multi-step AI-powered workflow",
+              "OpenAI GPT-4o or Claude 3.5 Sonnet API",
+              "Automated content or data pipeline",
+              "Loom video guide & test sandbox"
+            ]
+          },
+          premium: {
+            price: 350,
+            delivery: "14-Day Delivery • 2 Revisions",
+            features: [
+              "Complete Autonomous AI Engine",
+              "Multi-model routing & fallback strategy",
+              "Custom fine-tuned system instructions",
+              "Full code transfer + 30-Day support"
+            ]
+          }
+        },
+        tags: ["openai api", "chatgpt", "claude 3.5", "prompt engineering", "llm"]
+      },
+      {
+        id: "gig4",
+        title: "I will optimize your website for AI search engines like ChatGPT, Perplexity, and Claude",
+        shortTitle: "Generative Engine Optimization (GEO)",
+        category: "geo",
+        categoryLabel: "Technical SEO & GEO",
+        badge: "HOT TREND",
+        badgeClass: "badge-trending",
+        rating: "5.0 (27)",
+        image: "images/gig4_geo_search.jpg",
+        demoUrl: "/synapsegeo",
+        demoLabel: "Run Free SynapseGEO Audit",
+        summary: "Over 400M+ users ask AI for recommendations. Get your brand cited and recommended first by ChatGPT, Perplexity, Copilot, and Claude with semantic JSON-LD architecture.",
+        tiers: {
+          basic: {
+            price: 150,
+            delivery: "5-Day Delivery • 1 Revision",
+            features: [
+              "15-Point GEO Readiness Audit",
+              "JSON-LD Organization & Schema generation",
+              "AI Crawler (GPTBot, Perplexity) directives",
+              "Executive actionable PDF report"
+            ]
+          },
+          standard: {
+            price: 350,
+            delivery: "10-Day Delivery • 2 Revisions",
+            features: [
+              "Everything in Basic package",
+              "5 landing pages restructured for LLM citation",
+              "High information-gain FAQ citation schema",
+              "Direct CMS implementation (WP/Webflow/HTML)"
+            ]
+          },
+          premium: {
+            price: 650,
+            delivery: "14-Day Delivery • 3 Revisions",
+            features: [
+              "Full-site GEO overhaul (up to 15 pages)",
+              "Competitive AI citation analysis vs top 3 rivals",
+              "Authority entity relationship mapping",
+              "30-Day citation tracking & support"
+            ]
+          }
+        },
+        tags: ["geo seo", "generative engine optimization", "chatgpt seo", "perplexity", "schema"]
+      },
+      {
+        id: "gig5",
+        title: "I will build an automated 5 star customer review and reputation management system",
+        shortTitle: "Automated 5-Star Review Funnel",
+        category: "reputation",
+        categoryLabel: "Reputation & Local SEO",
+        badge: "5-STAR ENGINE",
+        badgeClass: "badge-roi",
+        rating: "5.0 (34)",
+        image: "images/gig5_reputation.jpg",
+        demoUrl: "/reviewgenius",
+        demoLabel: "Test ReviewGenius AI",
+        summary: "Turn happy clients into 5-star Google & Trustpilot ratings automatically via post-service SMS/Email triggers, while routing negative feedback privately to management.",
+        tiers: {
+          basic: {
+            price: 120,
+            delivery: "5-Day Delivery • 1 Revision",
+            features: [
+              "1 automated SMS & Email review request flow",
+              "Smart 2-path review filtering funnel",
+              "Direct Google Review deep-link generator",
+              "Standard setup documentation"
+            ]
+          },
+          standard: {
+            price: 280,
+            delivery: "7-Day Delivery • 2 Revisions",
+            features: [
+              "Complete CRM / POS webhook integration",
+              "Custom-branded responsive review landing page",
+              "Private instant SMS alert on low ratings",
+              "Automated reminder sequences (48h follow-up)"
+            ]
+          },
+          premium: {
+            price: 550,
+            delivery: "14-Day Delivery • 2 Revisions",
+            features: [
+              "Complete Enterprise ReviewGenius setup",
+              "Multi-platform routing (Google, Yelp, Trustpilot)",
+              "AI auto-responder copilot for incoming reviews",
+              "Live website review showcase widget + 30-Day support"
+            ]
+          }
+        },
+        tags: ["reputation management", "google reviews", "trustpilot", "review funnel", "sentiment"]
+      },
+      {
+        id: "gig6",
+        title: "I will build a custom branded VIP client portal and onboarding intake system",
+        shortTitle: "VIP Client Portal & Intake Hub",
+        category: "portals",
+        categoryLabel: "Web Applications & Portals",
+        badge: "ENTERPRISE",
+        badgeClass: "badge-enterprise",
+        rating: "5.0 (22)",
+        image: "images/gig6_client_portal.jpg",
+        demoUrl: "/portal",
+        demoLabel: "View Live VIP Client Portal",
+        summary: "Impress high-ticket clients with a sleek, glassmorphic client portal. Milestone tracking, file upload vault, billing status, and embedded meeting scheduler.",
+        tiers: {
+          basic: {
+            price: 250,
+            delivery: "5-Day Delivery • 1 Revision",
+            features: [
+              "Single-client branded onboarding portal",
+              "Responsive glassmorphic UI with your logo",
+              "Interactive deliverable & milestone checklist",
+              "File upload & contact intake form"
+            ]
+          },
+          standard: {
+            price: 550,
+            delivery: "10-Day Delivery • 2 Revisions",
+            features: [
+              "Multi-client dynamic portal (up to 10 clients)",
+              "Airtable / Supabase backend sync",
+              "Automated status email notifications",
+              "Embedded Calendly meeting booking widget"
+            ]
+          },
+          premium: {
+            price: 1200,
+            delivery: "14-Day Delivery • Unlimited Revisions",
+            features: [
+              "Full Enterprise Agency VIP Hub",
+              "Unlimited clients with passwordless magic links",
+              "Stripe / Lemon Squeezy invoice sync",
+              "Interactive ROI calculator + 30-Day support"
+            ]
+          }
+        },
+        tags: ["client portal", "onboarding system", "glassmorphism", "airtable", "client hub"]
+      },
+      {
+        id: "gig7",
+        title: "I will build an automated AI content repurposing pipeline for social media",
+        shortTitle: "Multi-Platform Content Repurposer",
+        category: "content",
+        categoryLabel: "Content Automation",
+        badge: "VIRAL GROWTH",
+        badgeClass: "badge-trending",
+        rating: "4.9 (19)",
+        image: "images/gig7_repurposing.jpg",
+        demoUrl: "/blog",
+        demoLabel: "Explore Blog & Content Hub",
+        summary: "Turn 1 blog post or YouTube video into 10+ social assets: Twitter threads, LinkedIn thought leadership, 60s viral TikTok/Reels scripts, and newsletter cards.",
+        tiers: {
+          basic: {
+            price: 100,
+            delivery: "5-Day Delivery • 1 Revision",
+            features: [
+              "1 automated workflow (Blog -> X thread + LinkedIn)",
+              "Custom brand voice prompt tuning",
+              "Visual formatting & hashtag optimization",
+              "Setup & execution guide"
+            ]
+          },
+          standard: {
+            price: 250,
+            delivery: "7-Day Delivery • 2 Revisions",
+            features: [
+              "Multi-channel pipeline (X, LinkedIn, TikTok, Reddit)",
+              "Airtable / Notion content calendar sync",
+              "Make.com / Zapier autonomous workflow",
+              "Loom video walkthrough"
+            ]
+          },
+          premium: {
+            price: 450,
+            delivery: "14-Day Delivery • 2 Revisions",
+            features: [
+              "Hands-Free Social Publishing Machine",
+              "Auto-scheduling to Buffer, Publer, or Metricool",
+              "Automated visual quote card generation",
+              "Error handling + 30-Day live support"
+            ]
+          }
+        },
+        tags: ["content repurposing", "social media automation", "twitter threads", "tiktok scripts", "buffer"]
+      },
+      {
+        id: "gig8",
+        title: "I will build an AI voice receptionist for after-hours phone calls and booking",
+        shortTitle: "24/7 AI Voice Phone Receptionist",
+        category: "voice",
+        categoryLabel: "Voice AI & Telephony",
+        badge: "ULTRA REALISTIC",
+        badgeClass: "badge-enterprise",
+        rating: "5.0 (15)",
+        image: "images/gig8_voice_caller.jpg",
+        demoUrl: "/pitches",
+        demoLabel: "View Sales Pitch & Audio Demos",
+        summary: "Never miss a lead again. Ultra-realistic AI voice assistant picks up after-hours phone calls, answers questions, pre-qualifies callers, and books appointments on Google Calendar.",
+        tiers: {
+          basic: {
+            price: 200,
+            delivery: "5-Day Delivery • 1 Revision",
+            features: [
+              "Inbound call routing & FAQ greeting assistant",
+              "Caller transcript sent via Email / Telegram",
+              "Business hours routing logic",
+              "Twilio / Vapi telephony connection"
+            ]
+          },
+          standard: {
+            price: 450,
+            delivery: "10-Day Delivery • 2 Revisions",
+            features: [
+              "Conversational qualification agent with knowledge base",
+              "Live Calendar booking (Google Cal / Calendly)",
+              "Automated post-call SMS confirmation to caller",
+              "Latency tuned under 800ms"
+            ]
+          },
+          premium: {
+            price: 950,
+            delivery: "14-Day Delivery • 3 Revisions",
+            features: [
+              "Advanced multi-turn voice agent with CRM sync",
+              "Missed-call outbound follow-up auto-dialer",
+              "Custom voice cloning & advanced safeguards",
+              "30-Day live call monitoring & audio tuning"
+            ]
+          }
+        },
+        tags: ["ai voice agent", "vapi ai", "retell ai", "phone receptionist", "twilio"]
+      }
+    ];
+
+    // Current state of active tier for each card (default: 'standard')
+    const cardActiveTiers = {};
+    GIGS_DATA.forEach(g => { cardActiveTiers[g.id] = 'standard'; });
+
+    function renderGigs(filterCat = 'all', searchQuery = '') {
+      const container = document.getElementById('gigsContainer');
+      container.innerHTML = '';
+
+      const query = searchQuery.toLowerCase().trim();
+      const filtered = GIGS_DATA.filter(gig => {
+        const matchesCat = (filterCat === 'all') || (gig.category === filterCat);
+        const matchesSearch = !query || 
+          gig.title.toLowerCase().includes(query) ||
+          gig.shortTitle.toLowerCase().includes(query) ||
+          gig.summary.toLowerCase().includes(query) ||
+          gig.tags.some(t => t.toLowerCase().includes(query));
+        return matchesCat && matchesSearch;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div style="grid-column: 1 / -1; text-align: center; padding: 60px 20px; color: var(--text-muted);">
+            <div style="font-size: 2.5rem; margin-bottom: 12px;">🔍</div>
+            <h3 style="color: #fff; margin-bottom: 8px;">No matching gigs found</h3>
+            <p>Try searching for different keywords like 'chatbot', 'make', 'geo', or 'voice'.</p>
+          </div>
+        `;
+        return;
+      }
+
+      filtered.forEach(gig => {
+        const activeTierKey = cardActiveTiers[gig.id] || 'standard';
+        const activeTier = gig.tiers[activeTierKey];
+
+        const card = document.createElement('div');
+        card.className = 'gig-card';
+        card.id = `card-${gig.id}`;
+        card.innerHTML = `
+          <div class="gig-thumb-wrap">
+            <img src="${gig.image}" alt="${gig.title}" class="gig-thumb-img" loading="lazy">
+            <div class="gig-badge-tag ${gig.badgeClass}">★ ${gig.badge}</div>
+            <div class="gig-fiverr-rating">★ ${gig.rating}</div>
+          </div>
+          <div class="gig-body">
+            <div class="gig-category">${gig.categoryLabel}</div>
+            <h3 class="gig-title">${gig.shortTitle}</h3>
+            <p class="gig-summary">${gig.summary}</p>
+
+            <!-- Tier Selector Tabs -->
+            <div class="tier-tabs">
+              <div class="tier-tab ${activeTierKey === 'basic' ? 'active' : ''}" onclick="selectCardTier('${gig.id}', 'basic')">Basic ($${gig.tiers.basic.price})</div>
+              <div class="tier-tab ${activeTierKey === 'standard' ? 'active' : ''}" onclick="selectCardTier('${gig.id}', 'standard')">Standard ($${gig.tiers.standard.price})</div>
+              <div class="tier-tab ${activeTierKey === 'premium' ? 'active' : ''}" onclick="selectCardTier('${gig.id}', 'premium')">Premium ($${gig.tiers.premium.price})</div>
+            </div>
+
+            <!-- Active Tier Details -->
+            <div class="tier-detail-box">
+              <div class="tier-price-row">
+                <span class="tier-price">$${activeTier.price}</span>
+                <span class="tier-delivery">⚡ ${activeTier.delivery}</span>
+              </div>
+              <ul class="tier-features-list">
+                ${activeTier.features.map(f => `<li><span class="chk">✓</span> ${f}</li>`).join('')}
+              </ul>
+            </div>
+
+            <div class="gig-tags">
+              ${gig.tags.map(t => `<span class="gig-tag">#${t}</span>`).join('')}
+            </div>
+
+            <div class="card-actions">
+              <button class="btn-action-outline" onclick="openDetailModal('${gig.id}')">
+                📄 View Scope
+              </button>
+              <button class="btn-action-primary" onclick="openOrderModal('${gig.id}', '${activeTierKey}')">
+                ⚡ Order Now
+              </button>
+            </div>
+
+            <div class="live-demo-link">
+              <a href="${gig.demoUrl}">🔗 ${gig.demoLabel} &rarr;</a>
+            </div>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    function selectCardTier(gigId, tierKey) {
+      cardActiveTiers[gigId] = tierKey;
+      const gig = GIGS_DATA.find(g => g.id === gigId);
+      if (!gig) return;
+
+      const card = document.getElementById(`card-${gigId}`);
+      if (!card) return;
+
+      // Update active tabs
+      const tabs = card.querySelectorAll('.tier-tab');
+      tabs.forEach((tab, index) => {
+        const tabKeys = ['basic', 'standard', 'premium'];
+        if (tabKeys[index] === tierKey) tab.classList.add('active');
+        else tab.classList.remove('active');
+      });
+
+      // Update detail box
+      const activeTier = gig.tiers[tierKey];
+      const detailBox = card.querySelector('.tier-detail-box');
+      if (detailBox) {
+        detailBox.innerHTML = `
+          <div class="tier-price-row">
+            <span class="tier-price">$${activeTier.price}</span>
+            <span class="tier-delivery">⚡ ${activeTier.delivery}</span>
+          </div>
+          <ul class="tier-features-list">
+            ${activeTier.features.map(f => `<li><span class="chk">✓</span> ${f}</li>`).join('')}
+          </ul>
+        `;
+      }
+
+      // Update Order Now button onclick
+      const orderBtn = card.querySelector('.btn-action-primary');
+      if (orderBtn) {
+        orderBtn.setAttribute('onclick', `openOrderModal('${gigId}', '${tierKey}')`);
+      }
+    }
+
+    // Filter Pills Interaction
+    document.querySelectorAll('.filter-pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        const cat = pill.getAttribute('data-cat');
+        const query = document.getElementById('gigSearchInput').value;
+        renderGigs(cat, query);
+      });
+    });
+
+    // Search Input Interaction
+    document.getElementById('gigSearchInput').addEventListener('input', (e) => {
+      const activePill = document.querySelector('.filter-pill.active');
+      const cat = activePill ? activePill.getAttribute('data-cat') : 'all';
+      renderGigs(cat, e.target.value);
+    });
+
+    // Order Modal Logic
+    let currentSelectedGig = null;
+
+    function openOrderModal(gigId, tierKey = 'standard') {
+      currentSelectedGig = GIGS_DATA.find(g => g.id === gigId);
+      if (!currentSelectedGig) return;
+
+      document.getElementById('selectedGigId').value = gigId;
+      document.getElementById('modalGigTitle').textContent = `Order: ${currentSelectedGig.shortTitle}`;
+      document.getElementById('modalGigSubtitle').textContent = currentSelectedGig.title;
+      document.getElementById('packageSelect').value = tierKey;
+
+      updateModalPrice();
+      document.getElementById('orderModal').classList.add('active');
+    }
+
+    function updateModalPrice() {
+      if (!currentSelectedGig) return;
+      const tierKey = document.getElementById('packageSelect').value;
+      const tier = currentSelectedGig.tiers[tierKey];
+      if (tier) {
+        document.getElementById('modalPriceDisplay').textContent = `$${tier.price}`;
+        document.getElementById('modalDeliveryDisplay').textContent = tier.delivery;
+      }
+    }
+
+    function closeOrderModal() {
+      document.getElementById('orderModal').classList.remove('active');
+    }
+
+    function handleOrderSubmit(e) {
+      e.preventDefault();
+      const gig = currentSelectedGig;
+      const tierKey = document.getElementById('packageSelect').value;
+      const tier = gig.tiers[tierKey];
+      const name = document.getElementById('clientName').value;
+      const email = document.getElementById('clientEmail').value;
+      const website = document.getElementById('clientWebsite').value;
+      const notes = document.getElementById('clientNotes').value;
+
+      // Construct mailto link as instant fallback and show success state
+      const subject = encodeURIComponent(`[Fiverr/Direct Order] ${gig.shortTitle} - ${tierKey.toUpperCase()} ($${tier.price})`);
+      const body = encodeURIComponent(
+        `Hello AIFlowBuilder Team,\n\nI would like to order:\nGig: ${gig.title}\nPackage: ${tierKey.toUpperCase()} ($${tier.price})\n\nClient Name: ${name}\nEmail: ${email}\nWebsite: ${website}\n\nProject Requirements:\n${notes}\n\nPlease send onboarding link and invoice.\n`
+      );
+
+      alert(`✅ Project Brief Received!\n\nThank you, ${name}! Your inquiry for '${gig.shortTitle}' (${tierKey.toUpperCase()} - $${tier.price}) has been recorded.\n\nWe will now open your email client to send the project brief directly to our engineering desk.`);
+
+      window.location.href = `mailto:contact@aimoneymachine.com?subject=${subject}&body=${body}`;
+      closeOrderModal();
+    }
+
+    // Detail Scope Modal Logic
+    let currentDetailGig = null;
+
+    function openDetailModal(gigId) {
+      currentDetailGig = GIGS_DATA.find(g => g.id === gigId);
+      if (!currentDetailGig) return;
+
+      document.getElementById('detailTitle').textContent = currentDetailGig.title;
+      document.getElementById('detailCategory').textContent = `${currentDetailGig.categoryLabel} • Verified Rating ★ ${currentDetailGig.rating}`;
+
+      const content = `
+        <div style="margin-bottom: 20px;">
+          <img src="${currentDetailGig.image}" alt="${currentDetailGig.shortTitle}" style="width: 100%; aspect-ratio: 16/9; border-radius: 12px; object-fit: cover; margin-bottom: 16px; border: 1px solid var(--border);">
+          <p style="margin-bottom: 16px; font-size: 0.95rem;">${currentDetailGig.summary}</p>
+        </div>
+
+        <h3 style="color: #fff; font-size: 1.1rem; margin-bottom: 12px;">Detailed Package Comparison</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 24px;">
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 10px; padding: 14px;">
+            <div style="font-weight: 700; color: #fff; margin-bottom: 4px;">BASIC</div>
+            <div style="font-size: 1.3rem; font-weight: 800; color: #fff; margin-bottom: 6px;">$${currentDetailGig.tiers.basic.price}</div>
+            <div style="font-size: 0.72rem; color: var(--cyan); margin-bottom: 10px;">⚡ ${currentDetailGig.tiers.basic.delivery}</div>
+            <ul style="list-style: none; font-size: 0.75rem; color: #aaa; line-height: 1.4;">
+              ${currentDetailGig.tiers.basic.features.map(f => `<li>✓ ${f}</li>`).join('')}
+            </ul>
+          </div>
+          <div style="background: rgba(124,92,252,0.12); border: 1px solid var(--border-accent); border-radius: 10px; padding: 14px;">
+            <div style="font-weight: 700; color: #bfa8ff; margin-bottom: 4px;">STANDARD (Popular)</div>
+            <div style="font-size: 1.3rem; font-weight: 800; color: #fff; margin-bottom: 6px;">$${currentDetailGig.tiers.standard.price}</div>
+            <div style="font-size: 0.72rem; color: var(--cyan); margin-bottom: 10px;">⚡ ${currentDetailGig.tiers.standard.delivery}</div>
+            <ul style="list-style: none; font-size: 0.75rem; color: #d0d0e6; line-height: 1.4;">
+              ${currentDetailGig.tiers.standard.features.map(f => `<li>✓ ${f}</li>`).join('')}
+            </ul>
+          </div>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 10px; padding: 14px;">
+            <div style="font-weight: 700; color: #fff; margin-bottom: 4px;">PREMIUM</div>
+            <div style="font-size: 1.3rem; font-weight: 800; color: #fff; margin-bottom: 6px;">$${currentDetailGig.tiers.premium.price}</div>
+            <div style="font-size: 0.72rem; color: var(--cyan); margin-bottom: 10px;">⚡ ${currentDetailGig.tiers.premium.delivery}</div>
+            <ul style="list-style: none; font-size: 0.75rem; color: #aaa; line-height: 1.4;">
+              ${currentDetailGig.tiers.premium.features.map(f => `<li>✓ ${f}</li>`).join('')}
+            </ul>
+          </div>
+        </div>
+
+        <div style="background: rgba(0, 242, 254, 0.06); border: 1px solid rgba(0, 242, 254, 0.2); border-radius: 10px; padding: 14px;">
+          <div style="font-weight: 600; color: var(--cyan); margin-bottom: 4px;">⚡ Interactive Live Sandbox</div>
+          <div style="font-size: 0.82rem; color: var(--text-muted);">
+            Experience the technology behind this gig right now:
+            <a href="${currentDetailGig.demoUrl}" style="color: #fff; text-decoration: underline; margin-left: 4px;">${currentDetailGig.demoLabel} &rarr;</a>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('detailContent').innerHTML = content;
+      document.getElementById('detailModal').classList.add('active');
+    }
+
+    function closeDetailModal() {
+      document.getElementById('detailModal').classList.remove('active');
+    }
+
+    function orderFromDetail() {
+      if (!currentDetailGig) return;
+      closeDetailModal();
+      openOrderModal(currentDetailGig.id, 'standard');
+    }
+
+    // Close modal on click outside
+    window.onclick = function(event) {
+      const orderModal = document.getElementById('orderModal');
+      const detailModal = document.getElementById('detailModal');
+      if (event.target === orderModal) closeOrderModal();
+      if (event.target === detailModal) closeDetailModal();
+    };
+
+    // Initial render
+    renderGigs();
+  </script>
+
+  <!-- Global Analytics & Referral Tracker -->
+  <script src="/ref-tracker.js"></script>
+  <!-- Global Copilot Widget -->
+  <script src="/copilot-widget.js"></script>
+</body>
+</html>

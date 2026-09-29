@@ -2,6 +2,9 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
+    { "source": "/freelance", "destination": "/freelance/index.html" },
+    { "source": "/gigs", "destination": "/freelance/index.html" },
+    { "source": "/fiverr", "destination": "/freelance/index.html" },
     { "source": "/synapsegeo", "destination": "/products/geo_audit_engine/index.html" },
     { "source": "/geo", "destination": "/products/geo_audit_engine/index.html" },
     { "source": "/reviewgenius", "destination": "/products/review_genius/index.html" },

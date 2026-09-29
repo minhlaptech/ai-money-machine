@@ -57,6 +57,8 @@ LIVE_URLS = [
     ("Affiliate & Partner Program Hub", "https://work-minh-lap.vercel.app/referral"),
     ("Executive Client VIP Portal Hub (/portal)", "https://work-minh-lap.vercel.app/portal"),
     ("Executive Command Center (Monorepo Root)", "https://work-minh-lap.vercel.app"),
+    ("AI Media & Video Studio Hub", "https://work-minh-lap.vercel.app/studio"),
+    ("AI Freelance & Agency Hub", "https://work-minh-lap.vercel.app/freelance"),
     ("Serverless Health API (/api/health)", "https://work-minh-lap.vercel.app/api/health"),
 ]
 

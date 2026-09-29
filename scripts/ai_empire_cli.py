@@ -26,7 +26,7 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v7.0 ⚡
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v8.0 ⚡
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
@@ -58,6 +58,7 @@ def print_banner():
   [27] 📅 Xuất Lịch Đăng Mạng Xã Hội Buffer CSV & JSON Hub (Social Scheduler)
   [28] 🚀 Mở AI Media & Video Studio Hub trên Trình Duyệt Web (/studio)
   [29] ☁️ Triển Khai Monorepo Lên Vercel Production (Auto Deploy Production)
+  [30] 💼 Mở Sàn Dịch Vụ AI Freelance & Agency Hub (/freelance - 8 High-Ticket Gigs)
   [0] Thoát
 ======================================================================
 """)
@@ -77,7 +78,7 @@ def run_script(rel_path, args=None):
 def main_loop():
     while True:
         print_banner()
-        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-29]: ").strip()
+        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-30]: ").strip()
 
         if choice == '1':
             ping = input("Bạn có muốn gửi báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
@@ -377,11 +378,20 @@ def main_loop():
             print("\n[*] Chuẩn bị deploy hệ thống lên Vercel Production...")
             run_script("scripts/deploy_production.py")
 
+        elif choice == '30':
+            freelance_url = "https://work-minh-lap.vercel.app/freelance"
+            local_freelance = ROOT_DIR / "freelance" / "index.html"
+            print(f"[*] Đang mở AI Freelance & Agency Hub trên trình duyệt: {freelance_url}")
+            try:
+                webbrowser.open(freelance_url)
+            except Exception:
+                webbrowser.open(local_freelance.as_uri())
+
         elif choice == '0':
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 29.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 30.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 
