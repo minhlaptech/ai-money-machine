@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SynapseGEO — The AI Search & GEO Optimization Engine</title>
+  <meta name="description" content="Audit your website's visibility on ChatGPT Search, Perplexity AI, Claude & Google AI Overviews. Increase AI citations and traffic with autonomous GEO auditing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="brand-logo">
+        <div class="logo-icon">⚡</div>
+        <span class="brand-name">Synapse<span class="highlight">GEO</span></span>
+        <span class="badge-tag">AI Search Auditor</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#features">Capabilities</a>
+        <a href="#how-it-works">How GEO Works</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+      <div class="nav-cta">
+        <button id="nav-pro-btn" class="btn btn-outline" onclick="openPricingModal()">Upgrade to Pro</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="main-wrapper">
+    <section class="hero-section">
+      <div class="pill-announcement">
+        <span class="sparkle">✨</span> Optimized for ChatGPT Search, Perplexity AI & Google AI Overviews
+      </div>
+      <h1 class="hero-title">
+        Will AI Recommend Your Website?<br>
+        <span class="gradient-text">Audit Your GEO Score in Seconds.</span>
+      </h1>
+      <p class="hero-subtitle">
+        Traditional SEO is dying. Generative Engine Optimization (GEO) is the new battleground. 
+        Analyze your domain's AI crawlability, knowledge graph schema, and citation readiness.
+      </p>
+
+      <!-- URL Input Bar -->
+      <div class="audit-card">
+        <form id="audit-form" class="audit-form" onsubmit="handleAudit(event)">
+          <div class="input-group">
+            <span class="input-icon">🔍</span>
+            <input 
+              type="text" 
+              id="target-url-input" 
+              placeholder="e.g. stripe.com or https://yourproduct.com" 
+              required
+              autocomplete="off"
+            >
+          </div>
+          <button type="submit" id="run-audit-btn" class="btn btn-primary">
+            <span id="btn-text">Run Autonomous Audit</span>
+            <span id="btn-spinner" class="spinner hidden"></span>
+          </button>
+        </form>
+        <div class="quick-try">
+          <span>Quick test:</span>
+          <button type="button" class="quick-link" onclick="quickFill('https://stripe.com')">stripe.com</button>
+          <button type="button" class="quick-link" onclick="quickFill('https://github.com')">github.com</button>
+          <button type="button" class="quick-link" onclick="quickFill('https://linear.app')">linear.app</button>
+          <button type="button" class="quick-link" onclick="quickFill('https://substack.com')">substack.com</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Audit Live Results Dashboard (Dynamic) -->
+    <section id="results-section" class="results-container hidden">
+      <div class="results-header">
+        <div class="target-info">
+          <span class="badge-status" id="audit-status-badge">Audit Complete</span>
+          <h2 id="audited-domain-title">domain.com</h2>
+          <p id="audited-timestamp" class="timestamp">Analyzed just now</p>
+        </div>
+        <div class="results-actions">
+          <button class="btn btn-secondary" id="export-report-btn" onclick="exportReport()">
+            📄 Export Client PDF
+          </button>
+          <button class="btn btn-pro" id="unlock-full-btn" onclick="openPricingModal()">
+            ⚡ Unlock Competitor Comparison
+          </button>
+        </div>
+      </div>
+
+      <!-- Main Score Cards -->
+      <div class="score-overview-grid">
+        <!-- Circular Gauge Card -->
+        <div class="card score-gauge-card">
+          <h3>Overall GEO Readiness Score</h3>
+          <div class="gauge-wrapper">
+            <svg class="progress-ring" width="180" height="180">
+              <circle class="progress-ring__circle-bg" stroke="#1f2438" stroke-width="12" fill="transparent" r="75" cx="90" cy="90"/>
+              <circle class="progress-ring__circle" id="geo-score-circle" stroke="url(#cyan-gradient)" stroke-width="12" stroke-linecap="round" fill="transparent" r="75" cx="90" cy="90"/>
+              <defs>
+                <linearGradient id="cyan-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#06b6d4" />
+                  <stop offset="100%" stop-color="#6366f1" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="score-number-box">
+              <span id="score-val" class="score-number">--</span>
+              <span class="score-total">/ 100</span>
+            </div>
+          </div>
+          <div id="score-verdict" class="score-verdict">Analyzing...</div>
+        </div>
+
+        <!-- 4 Dimension Mini Meters -->
+        <div class="card dimension-grid-card">
+          <h3>The 4 Pillars of Generative Engine Optimization</h3>
+          <div class="dimensions-list">
+            
+            <div class="dim-item">
+              <div class="dim-header">
+                <span class="dim-title">1. AI Bot Crawlability (Robots.txt)</span>
+                <span class="dim-score" id="dim-crawl-score">--%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="dim-crawl-bar" style="width: 0%"></div>
+              </div>
+              <p class="dim-desc" id="dim-crawl-desc">Checking access permissions for GPTBot, PerplexityBot, ClaudeBot...</p>
+            </div>
+
+            <div class="dim-item">
+              <div class="dim-header">
+                <span class="dim-title">2. Knowledge Graph Schema (JSON-LD)</span>
+                <span class="dim-score" id="dim-schema-score">--%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="dim-schema-bar" style="width: 0%"></div>
+              </div>
+              <p class="dim-desc" id="dim-schema-desc">Structured entities, Organization, FAQ & Product markup.</p>
+            </div>
+
+            <div class="dim-item">
+              <div class="dim-header">
+                <span class="dim-title">3. Semantic Density & Direct Answers</span>
+                <span class="dim-score" id="dim-semantic-score">--%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="dim-semantic-bar" style="width: 0%"></div>
+              </div>
+              <p class="dim-desc" id="dim-semantic-desc">Clarity of value props, factual claims & H1-H3 hierarchy.</p>
+            </div>
+
+            <div class="dim-item">
+              <div class="dim-header">
+                <span class="dim-title">4. Citations & Machine Readability</span>
+                <span class="dim-score" id="dim-meta-score">--%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="dim-meta-bar" style="width: 0%"></div>
+              </div>
+              <p class="dim-desc" id="dim-meta-desc">Canonical tags, Open Graph cards, SSL & mobile headers.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Actionable Insights & AI Generated Code Fixes -->
+      <div class="audit-details-grid">
+        <!-- Findings & Fixes -->
+        <div class="card findings-card">
+          <div class="card-header-flex">
+            <h3>🤖 Action Items for LLM Visibility</h3>
+            <span class="badge-pill">High Impact</span>
+          </div>
+          <div id="findings-container" class="findings-list">
+            <!-- Dynamic findings items injected here -->
+          </div>
+        </div>
+
+        <!-- 1-Click Code Generator -->
+        <div class="card code-generator-card">
+          <div class="card-header-flex">
+            <h3>⚡ 1-Click AI Schema Generator</h3>
+            <button class="btn btn-sm btn-outline" onclick="copySchemaCode()">📋 Copy JSON-LD</button>
+          </div>
+          <p class="generator-subtitle">Embed this optimized Schema.org snippet into your <code>&lt;head&gt;</code> to help ChatGPT & Perplexity cite your brand:</p>
+          <pre class="code-box"><code id="generated-schema-code">// Run an audit to generate tailored schema...</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why GEO is the $10B shift in 2026 -->
+    <section id="how-it-works" class="info-section">
+      <div class="section-title-wrap">
+        <span class="section-badge">Market Shift</span>
+        <h2>Why Traditional SEO Agencies Are Losing Clients</h2>
+        <p>In 2026, 68% of commercial buying queries start directly on AI chat interfaces.</p>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature-box">
+          <div class="feature-icon">🔍</div>
+          <h3>Traditional Search (Google 2015-2023)</h3>
+          <p>Keyword stuffing, backlink farming, and long bloated 3,000-word articles designed for search engine spiders.</p>
+          <span class="tag-red">Fading Traffic (-45%)</span>
+        </div>
+        <div class="feature-box active-feature">
+          <div class="feature-icon">🧠</div>
+          <h3>Generative Engine Search (GEO 2025-2026)</h3>
+          <p>Direct factual answers, structured entity relationships, zero-latency schema, and citations directly in AI reasoning models.</p>
+          <span class="tag-green">Explosive Growth (+380%)</span>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">💼</div>
+          <h3>The Micro-SaaS Business Opportunity</h3>
+          <p>Companies gladly pay $50–$300 to get their site audited and listed in AI answer citations. SynapseGEO automates the entire process.</p>
+          <span class="tag-cyan">Autonomous Revenue</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section for Monetization -->
+    <section id="pricing" class="pricing-section">
+      <div class="section-title-wrap">
+        <span class="section-badge">Monetization Engine</span>
+        <h2>Simple, High-Margin Pricing Plans</h2>
+        <p>Choose an instant pass or agency subscription to unlock deep AI crawlers & automated lead generation.</p>
+      </div>
+
+      <div class="pricing-cards-container">
+        <!-- Free Tier -->
+        <div class="pricing-card">
+          <div class="plan-header">
+            <h3>Starter Scout</h3>
+            <p>For founders doing an initial health check.</p>
+            <div class="price">$0 <span class="period">/ forever</span></div>
+          </div>
+          <ul class="plan-features">
+            <li>✓ 1 URL Quick GEO Audit</li>
+            <li>✓ Basic Score Breakdown</li>
+            <li>✓ General robots.txt check</li>
+            <li class="disabled">✕ PDF Executive Client Export</li>
+            <li class="disabled">✕ Competitor AI Citation Gap Analysis</li>
+            <li class="disabled">✕ White-label Agency Branding</li>
+          </ul>
+          <button class="btn btn-secondary full-width" onclick="document.getElementById('target-url-input').focus()">
+            Run Free Test
+          </button>
+        </div>
+
+        <!-- Pro Lifetime Deal (Best Seller) -->
+        <div class="pricing-card featured">
+          <div class="popular-ribbon">Most Popular</div>
+          <div class="plan-header">
+            <h3>Pro Founder Pass</h3>
+            <p>Everything you need to dominate AI search.</p>
+            <div class="price">$19 <span class="period">/ one-time</span></div>
+          </div>
+          <ul class="plan-features">
+            <li>✓ <strong>Unlimited</strong> Deep GEO Audits</li>
+            <li>✓ <strong>1-Click PDF Export</strong> for clients</li>
+            <li>✓ Tailored <strong>Schema.org JSON-LD</strong> Generator</li>
+            <li>✓ <strong>Robots.txt AI Firewall</strong> Generator</li>
+            <li>✓ Competitor AI Recommendation Comparison</li>
+            <li>✓ Email Alert when Perplexity drops your citation</li>
+          </ul>
+          <button class="btn btn-primary full-width" onclick="triggerCheckout('pro_lifetime', 19)">
+            Get Instant Pro Access ($19)
+          </button>
+          <div class="payment-guarantee">🔒 Secure checkout via Stripe / LemonSqueezy</div>
+        </div>
+
+        <!-- Agency / Freelance Reseller -->
+        <div class="pricing-card">
+          <div class="plan-header">
+            <h3>Agency Automator</h3>
+            <p>Resell GEO Audits to B2B clients for $150-$500 each.</p>
+            <div class="price">$49 <span class="period">/ month</span></div>
+          </div>
+          <ul class="plan-features">
+            <li>✓ Everything in Pro</li>
+            <li>✓ <strong>White-Label Reports</strong> (Your own logo & brand)</li>
+            <li>✓ Batch Domain Scanner (Scan 50 URLs at once)</li>
+            <li>✓ Programmatic API Access (1,000 requests/mo)</li>
+            <li>✓ Commercial Client Presentation Deck included</li>
+          </ul>
+          <button class="btn btn-outline full-width" onclick="triggerCheckout('agency_monthly', 49)">
+            Start Agency Plan ($49/mo)
+          </button>
+          <div class="payment-guarantee">⚡ Instant API key generation</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Checkout / Pro Modal -->
+  <div id="pricing-modal" class="modal-backdrop hidden">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closePricingModal()">&times;</button>
+      <div class="modal-header">
+        <span class="modal-icon">💎</span>
+        <h3>Unlock SynapseGEO Pro</h3>
+        <p>Start turning AI search engines into your #1 organic customer acquisition channel.</p>
+      </div>
+      <div class="modal-plan-selected">
+        <div class="plan-info">
+          <h4>Pro Lifetime Access</h4>
+          <span>One-time investment &bull; No recurring surprises</span>
+        </div>
+        <div class="plan-price-tag">$19</div>
+      </div>
+      <div class="checkout-form">
+        <label for="checkout-email">Your Work Email</label>
+        <input type="email" id="checkout-email" placeholder="alex@company.com" required>
+        <button class="btn btn-primary full-width" id="modal-pay-btn" onclick="executeMockPayment()">
+          Proceed to Secure Checkout ($19)
+        </button>
+        <p class="modal-footnote">Powered by LemonSqueezy &bull; Instant activation via license key</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast hidden"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <strong>SynapseGEO</strong> — Autonomous AI Search Optimization Platform.
+        <p>Built for the modern AI-first web era.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+        <a href="#api">API Docs</a>
+        <a href="/referral" target="_blank">Affiliate & Partner Program (Earn 50%)</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/ref-tracker.js" defer></script>
+  <script src="app.js"></script>
+</body>
+</html>

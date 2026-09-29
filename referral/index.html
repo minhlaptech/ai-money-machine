@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Affiliate & Partner Program — Earn 20% to 50% Lifetime RevShare | MinhLap Systems</title>
+  <meta name="description" content="Join the MinhLap Systems AI Partner Network. Earn up to 50% commission promoting AI micro-SaaS tools, digital bundles, and recurring 20% monthly retainer fees.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #050510;
+      --bg-2: #0c0c1d;
+      --bg-3: #141428;
+      --surface: #1a1a35;
+      --surface-hover: #22224a;
+      --accent: #7c5cfc;
+      --accent-2: #5ce1e6;
+      --accent-glow: rgba(124, 92, 252, 0.3);
+      --gradient: linear-gradient(135deg, #7c5cfc, #5ce1e6);
+      --gradient-gold: linear-gradient(135deg, #f6d365, #fda085);
+      --text: #e8e8f8;
+      --text-2: #9898b8;
+      --text-3: #606080;
+      --border: rgba(255, 255, 255, 0.08);
+      --border-glow: rgba(124, 92, 252, 0.35);
+      --radius: 20px;
+      --radius-sm: 12px;
+      --radius-xs: 8px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* Background Ambient Glows */
+    .bg-glow {
+      position: fixed;
+      width: 650px;
+      height: 650px;
+      border-radius: 50%;
+      filter: blur(160px);
+      opacity: 0.14;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .bg-glow-1 { top: -200px; left: -100px; background: #7c5cfc; }
+    .bg-glow-2 { bottom: -200px; right: -100px; background: #5ce1e6; }
+
+    /* Navigation */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(5, 5, 16, 0.88);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 0;
+    }
+    .nav-inner {
+      max-width: 1180px; margin: 0 auto; padding: 0 24px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .nav-logo {
+      font-family: 'Outfit', sans-serif;
+      font-size: 22px; font-weight: 800;
+      background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      text-decoration: none;
+    }
+    .nav-links { display: flex; gap: 24px; align-items: center; }
+    .nav-links a {
+      color: var(--text-2); text-decoration: none; font-size: 14px; font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover, .nav-links a.active { color: var(--text); }
+    .nav-cta {
+      background: var(--gradient); color: white; border: none;
+      padding: 9px 22px; border-radius: 8px; font-size: 13px; font-weight: 700;
+      cursor: pointer; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s;
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 4px 25px var(--accent-glow); }
+
+    /* Hero */
+    .hero {
+      max-width: 1100px; margin: 0 auto; padding: 90px 24px 50px;
+      text-align: center; position: relative; z-index: 1;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(124, 92, 252, 0.12); border: 1px solid rgba(124, 92, 252, 0.3);
+      padding: 6px 18px; border-radius: 50px; font-size: 13px; color: #a99bfe; font-weight: 600;
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: clamp(34px, 5.2vw, 62px); font-weight: 800;
+      line-height: 1.15; margin-bottom: 20px;
+    }
+    .hero h1 .grad {
+      background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero p {
+      font-size: clamp(16px, 2vw, 19px); color: var(--text-2);
+      max-width: 760px; margin: 0 auto 36px;
+    }
+    .hero-metrics {
+      display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; margin-bottom: 40px;
+    }
+    .metric-chip {
+      background: var(--surface); border: 1px solid var(--border);
+      padding: 12px 24px; border-radius: var(--radius-sm);
+      display: flex; flex-direction: column; align-items: center;
+    }
+    .metric-chip .val {
+      font-family: 'Outfit', sans-serif; font-size: 26px; font-weight: 800;
+      color: #5ce1e6;
+    }
+    .metric-chip .lbl { font-size: 12px; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.8px; }
+
+    /* Commission Cards Matrix */
+    .section-wrap { max-width: 1180px; margin: 0 auto; padding: 40px 24px; position: relative; z-index: 1; }
+    .section-title { text-align: center; margin-bottom: 40px; }
+    .section-title h2 { font-family: 'Outfit', sans-serif; font-size: 32px; font-weight: 800; margin-bottom: 10px; }
+    .section-title p { color: var(--text-2); font-size: 15px; }
+
+    .matrix-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;
+    }
+    .matrix-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 32px 28px; position: relative; overflow: hidden;
+      transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+    }
+    .matrix-card:hover {
+      transform: translateY(-4px); border-color: var(--border-glow);
+      box-shadow: 0 16px 36px rgba(0,0,0,0.3);
+    }
+    .card-popular {
+      position: absolute; top: 18px; right: 18px;
+      background: var(--gradient); color: #fff; font-size: 11px; font-weight: 700;
+      padding: 4px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px;
+    }
+    .card-icon { font-size: 36px; margin-bottom: 16px; }
+    .matrix-card h3 { font-family: 'Outfit', sans-serif; font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+    .matrix-card .rev-badge {
+      font-family: 'Outfit', sans-serif; font-size: 28px; font-weight: 800; color: #5ce1e6; margin-bottom: 12px;
+    }
+    .matrix-card .rev-badge small { font-size: 14px; color: var(--text-2); font-weight: 400; }
+    .matrix-card p { font-size: 14px; color: var(--text-2); margin-bottom: 20px; }
+    .tier-features { list-style: none; display: flex; flex-direction: column; gap: 10px; border-top: 1px solid var(--border); padding-top: 18px; }
+    .tier-features li { font-size: 13px; color: var(--text); display: flex; align-items: center; gap: 8px; }
+    .tier-features li::before { content: '✓'; color: #5ce1e6; font-weight: 800; }
+
+    /* Interactive Simulator */
+    .calc-container {
+      background: linear-gradient(145deg, #101026, #161636);
+      border: 1px solid var(--border-glow); border-radius: var(--radius);
+      padding: 40px; margin-top: 50px;
+    }
+    .calc-header { text-align: center; margin-bottom: 30px; }
+    .calc-header h3 { font-family: 'Outfit', sans-serif; font-size: 28px; font-weight: 800; }
+    .calc-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; align-items: center; }
+    @media (max-width: 860px) { .calc-grid { grid-template-columns: 1fr; } }
+
+    .slider-group { margin-bottom: 24px; }
+    .slider-header { display: flex; justify-content: space-between; font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+    .slider-header span.val-display { color: #5ce1e6; font-family: 'JetBrains Mono', monospace; font-size: 16px; }
+    input[type=range] {
+      width: 100%; height: 8px; border-radius: 5px; background: #22224a; outline: none; -webkit-appearance: none;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none; appearance: none; width: 22px; height: 22px; border-radius: 50%;
+      background: #7c5cfc; cursor: pointer; box-shadow: 0 0 10px #7c5cfc; border: 2px solid #fff;
+    }
+
+    .calc-result-box {
+      background: rgba(5, 5, 16, 0.65); border: 1px solid var(--border); border-radius: var(--radius-sm);
+      padding: 30px; text-align: center; display: flex; flex-direction: column; justify-content: center;
+    }
+    .calc-result-box .est-label { font-size: 13px; text-transform: uppercase; color: var(--text-3); letter-spacing: 1px; }
+    .calc-result-box .est-payout {
+      font-family: 'Outfit', sans-serif; font-size: 48px; font-weight: 800;
+      background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      margin: 10px 0;
+    }
+    .calc-result-box .mrr-sub { font-size: 15px; color: #5ce1e6; font-weight: 600; margin-bottom: 18px; }
+    .calc-result-box .btn-calc-cta {
+      background: var(--gradient); color: #fff; padding: 12px 24px; border-radius: 8px;
+      font-weight: 700; text-decoration: none; transition: transform 0.2s; display: inline-block;
+    }
+    .calc-result-box .btn-calc-cta:hover { transform: scale(1.03); }
+
+    /* Generator & Swipe Vault */
+    .tools-wrap {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 36px; margin-top: 50px;
+    }
+    .link-builder { margin-bottom: 36px; }
+    .link-builder h3 { font-family: 'Outfit', sans-serif; font-size: 22px; margin-bottom: 14px; }
+    .builder-input-row { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+    .builder-input-row input {
+      flex: 1; min-width: 240px; background: #0c0c1d; border: 1px solid var(--border);
+      border-radius: var(--radius-xs); padding: 12px 16px; color: #fff; font-size: 14px;
+    }
+    .builder-input-row input:focus { outline: none; border-color: #7c5cfc; }
+    .builder-input-row button {
+      background: var(--gradient); border: none; color: #fff; padding: 12px 24px;
+      border-radius: var(--radius-xs); font-weight: 700; cursor: pointer;
+    }
+
+    .generated-links-table {
+      width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 14px;
+    }
+    .generated-links-table th, .generated-links-table td {
+      padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--border);
+    }
+    .generated-links-table th { color: var(--text-3); font-size: 11px; text-transform: uppercase; }
+    .generated-links-table code {
+      font-family: 'JetBrains Mono', monospace; color: #5ce1e6; background: rgba(92, 225, 230, 0.1);
+      padding: 3px 8px; border-radius: 4px; word-break: break-all;
+    }
+    .btn-copy {
+      background: #22224a; color: #e8e8f8; border: 1px solid var(--border); padding: 5px 12px;
+      border-radius: 4px; cursor: pointer; font-size: 12px; transition: background 0.2s;
+    }
+    .btn-copy:hover { background: #7c5cfc; color: #fff; }
+
+    /* Swipe Copy Tabs */
+    .swipe-section { margin-top: 36px; border-top: 1px solid var(--border); padding-top: 30px; }
+    .swipe-section h3 { font-family: 'Outfit', sans-serif; font-size: 22px; margin-bottom: 16px; }
+    .swipe-tabs { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
+    .swipe-tab {
+      background: #0c0c1d; border: 1px solid var(--border); color: var(--text-2);
+      padding: 8px 16px; border-radius: 6px; font-size: 13px; cursor: pointer; font-weight: 600;
+    }
+    .swipe-tab.active { background: #7c5cfc; color: #fff; border-color: #7c5cfc; }
+    .swipe-box {
+      background: #0c0c1d; border: 1px solid var(--border); border-radius: var(--radius-sm);
+      padding: 20px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #c4c4e0;
+      white-space: pre-wrap; position: relative;
+    }
+    .swipe-copy-btn {
+      position: absolute; top: 12px; right: 12px;
+      background: rgba(124, 92, 252, 0.3); border: 1px solid #7c5cfc; color: #fff;
+      padding: 6px 14px; border-radius: 4px; font-size: 11px; cursor: pointer; font-family: 'Inter', sans-serif;
+    }
+    .swipe-copy-btn:hover { background: #7c5cfc; }
+
+    /* Form Application */
+    .form-container {
+      max-width: 680px; margin: 60px auto 30px;
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 40px; position: relative;
+    }
+    .form-container h2 { font-family: 'Outfit', sans-serif; font-size: 28px; font-weight: 800; text-align: center; margin-bottom: 8px; }
+    .form-container p.sub { text-align: center; color: var(--text-2); font-size: 14px; margin-bottom: 30px; }
+    .form-group { margin-bottom: 20px; }
+    .form-group label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: var(--text); }
+    .form-group input, .form-group select {
+      width: 100%; background: #0c0c1d; border: 1px solid var(--border); border-radius: var(--radius-xs);
+      padding: 12px 16px; color: #fff; font-size: 14px; font-family: 'Inter', sans-serif;
+    }
+    .form-group input:focus, .form-group select:focus { outline: none; border-color: #7c5cfc; }
+    .form-submit-btn {
+      width: 100%; background: var(--gradient); color: #fff; border: none; padding: 15px;
+      border-radius: var(--radius-xs); font-size: 15px; font-weight: 800; cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .form-submit-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 30px var(--accent-glow); }
+    .form-success {
+      display: none; background: rgba(92, 225, 230, 0.1); border: 1px solid #5ce1e6;
+      border-radius: var(--radius-sm); padding: 24px; text-align: center; margin-top: 20px;
+    }
+    .form-success h4 { color: #5ce1e6; font-size: 18px; margin-bottom: 8px; }
+
+    footer {
+      border-top: 1px solid var(--border); padding: 40px 24px; text-align: center;
+      color: var(--text-3); font-size: 13px; margin-top: 60px;
+    }
+    footer a { color: var(--text-2); text-decoration: none; margin: 0 10px; }
+    footer a:hover { color: #fff; }
+  </style>
+</head>
+<body>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">⚡ MinhLap Systems</a>
+      <div class="nav-links">
+        <a href="/blog">Guides & Hub</a>
+        <a href="/bundle">Master Bundle</a>
+        <a href="/calculator">ROI Simulator</a>
+        <a href="/portal">Client Portals</a>
+        <a href="#partner-form" class="nav-cta">Apply to Partner 🤝</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-badge">🚀 OFFICIAL AFFILIATE & PARTNER PROGRAM</div>
+    <h1>Earn <span class="grad">20% to 50% Lifetime</span> Recurring RevShare</h1>
+    <p>Partner with an autonomous AI agency. Promote high-converting developer tools, digital blueprints, and high-ticket B2B client retainers. Instant weekly payouts via Lemon Squeezy, Stripe, or Wise.</p>
+
+    <div class="hero-metrics">
+      <div class="metric-chip">
+        <div class="val">50%</div>
+        <div class="lbl">Digital & Micro-SaaS RevShare</div>
+      </div>
+      <div class="metric-chip">
+        <div class="val">20%</div>
+        <div class="lbl">Lifetime Client Retainer MRR</div>
+      </div>
+      <div class="metric-chip">
+        <div class="val">$370+</div>
+        <div class="lbl">Per B2B Client Closed</div>
+      </div>
+      <div class="metric-chip">
+        <div class="val">60 Days</div>
+        <div class="lbl">Attribution Cookie Window</div>
+      </div>
+    </div>
+
+    <a href="#partner-form" class="nav-cta" style="padding: 14px 36px; font-size: 15px;">Become an Approved Partner Now</a>
+  </header>
+
+  <!-- Commission Matrix -->
+  <section class="section-wrap">
+    <div class="section-title">
+      <h2>Three Lucrative Partner Revenue Streams</h2>
+      <p>Whether you run a newsletter, YouTube channel, dev community, or agency network, monetize with high-margin AI solutions.</p>
+    </div>
+
+    <div class="matrix-grid">
+      <!-- Tier 1 -->
+      <div class="matrix-card">
+        <div class="card-icon">⚡</div>
+        <h3>Micro-SaaS Software Licenses</h3>
+        <div class="rev-badge">50% <small>/ sale</small></div>
+        <p>Promote SynapseGEO, ReviewGenius, and HeadlineIQ directly to SMBs and marketing agencies.</p>
+        <ul class="tier-features">
+          <li><strong>$14.50 – $24.50</strong> payout per software license</li>
+          <li>Instant digital delivery & 1-click license keys</li>
+          <li>Conversion-tested landing pages</li>
+          <li>Full access to promotional demo videos</li>
+        </ul>
+      </div>
+
+      <!-- Tier 2 -->
+      <div class="matrix-card" style="border-color: rgba(124, 92, 252, 0.4);">
+        <span class="card-popular">Highest Volume</span>
+        <div class="card-icon">📦</div>
+        <h3>Master Blueprint & Prompt Bundles</h3>
+        <div class="rev-badge">50% <small>/ purchase</small></div>
+        <p>Promote 'The AI Money Blueprint' & 110+ High-Conversion Marketing Prompt Packs.</p>
+        <ul class="tier-features">
+          <li><strong>$19.50 – $23.50</strong> net profit per buyer</li>
+          <li>High conversion rate on tech/creator audiences</li>
+          <li>Pre-built email swipe files & Twitter threads</li>
+          <li>Zero fulfillment burden — 100% automated</li>
+        </ul>
+      </div>
+
+      <!-- Tier 3 -->
+      <div class="matrix-card" style="border-color: rgba(92, 225, 230, 0.4);">
+        <span class="card-popular" style="background: linear-gradient(135deg, #10b981, #06b6d4);">Highest Payout</span>
+        <div class="card-icon">🏛️</div>
+        <h3>B2B AI Client Retainers</h3>
+        <div class="rev-badge">20% <small>recurring for life</small></div>
+        <p>Introduce dental clinics, MedSpas, law firms, and HVAC businesses needing 24/7 AI Receptionists.</p>
+        <ul class="tier-features">
+          <li><strong>$370.00 upfront cash</strong> per $1,850 setup fee</li>
+          <li><strong>$130.00 / month recurring</strong> per $650/mo retainer</li>
+          <li>We handle 100% of white-glove setup & client support</li>
+          <li>Custom branded client VIP portals included</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Simulator -->
+    <div class="calc-container" id="calculator">
+      <div class="calc-header">
+        <h3>🧮 Interactive Partner Earnings Simulator</h3>
+        <p style="color:var(--text-2); font-size:14px; margin-top:4px;">Drag the sliders below to estimate your monthly passive commission potential.</p>
+      </div>
+
+      <div class="calc-grid">
+        <div class="sliders-col">
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>Digital Bundles ($39–$47) Sold / Month:</span>
+              <span class="val-display" id="val-bundles">25</span>
+            </div>
+            <input type="range" id="range-bundles" min="0" max="100" value="25" oninput="calculateEarnings()">
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>Micro-SaaS Licenses ($29–$49) Sold / Month:</span>
+              <span class="val-display" id="val-saas">15</span>
+            </div>
+            <input type="range" id="range-saas" min="0" max="50" value="15" oninput="calculateEarnings()">
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>B2B SMB Retainer Clients Closed / Month:</span>
+              <span class="val-display" id="val-retainers">2</span>
+            </div>
+            <input type="range" id="range-retainers" min="0" max="10" value="2" oninput="calculateEarnings()">
+          </div>
+        </div>
+
+        <div class="calc-result-box">
+          <span class="est-label">Estimated Monthly Earnings</span>
+          <div class="est-payout" id="display-total">$1,515</div>
+          <div class="mrr-sub" id="display-mrr">+ $260 / mo Recurring Retainer MRR</div>
+          <a href="#partner-form" class="btn-calc-cta">Lock In Your 50% Rate 🚀</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Referral Link Generator & Swipe Copy -->
+    <div class="tools-wrap">
+      <div class="link-builder">
+        <h3>🔗 Instant Referral Link Generator</h3>
+        <p style="color:var(--text-2); font-size:14px; margin-bottom:14px;">Enter your unique partner handle to generate your custom tracking URLs immediately:</p>
+        <div class="builder-input-row">
+          <input type="text" id="partner-tag-input" placeholder="e.g. alex_growth, techbuilder" value="partner_vip" oninput="updateCustomLinks()">
+          <button onclick="updateCustomLinks()">Generate Links ⚡</button>
+        </div>
+
+        <table class="generated-links-table">
+          <thead>
+            <tr>
+              <th>Target Asset</th>
+              <th>Your Tracking URL</th>
+              <th>Commission</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>AI Master Bundle</strong></td>
+              <td><code id="link-bundle">https://work-minh-lap.vercel.app/bundle?ref=partner_vip</code></td>
+              <td>50% ($19.50)</td>
+              <td><button class="btn-copy" onclick="copyText('link-bundle')">Copy</button></td>
+            </tr>
+            <tr>
+              <td><strong>SynapseGEO SaaS</strong></td>
+              <td><code id="link-geo">https://work-minh-lap.vercel.app/synapsegeo?ref=partner_vip</code></td>
+              <td>50% ($14.50)</td>
+              <td><button class="btn-copy" onclick="copyText('link-geo')">Copy</button></td>
+            </tr>
+            <tr>
+              <td><strong>ROI Simulator Hub</strong></td>
+              <td><code id="link-calc">https://work-minh-lap.vercel.app/calculator?ref=partner_vip</code></td>
+              <td>20% Retainer</td>
+              <td><button class="btn-copy" onclick="copyText('link-calc')">Copy</button></td>
+            </tr>
+            <tr>
+              <td><strong>Resource Hub / Blog</strong></td>
+              <td><code id="link-blog">https://work-minh-lap.vercel.app/blog?ref=partner_vip</code></td>
+              <td>60-Day Cookie</td>
+              <td><button class="btn-copy" onclick="copyText('link-blog')">Copy</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Swipe Vault -->
+      <div class="swipe-section">
+        <h3>📋 Proven High-Converting Promo Swipe Copy</h3>
+        <div class="swipe-tabs">
+          <button class="swipe-tab active" onclick="switchSwipe('x')">Twitter / X Thread</button>
+          <button class="swipe-tab" onclick="switchSwipe('li')">LinkedIn Post</button>
+          <button class="swipe-tab" onclick="switchSwipe('email')">Newsletter Blurb</button>
+          <button class="swipe-tab" onclick="switchSwipe('yt')">YouTube Description</button>
+        </div>
+
+        <div class="swipe-box" id="swipe-box-content">
+          <button class="swipe-copy-btn" onclick="copySwipeContent()">📋 Copy Swipe Copy</button>
+<span id="swipe-text">Most businesses are bleeding $3,000 to $12,000 every single month from unanswered after-hours phone calls and slow inquiry responses.
+
+I just came across MinhLap Systems' autonomous AI Copilot suite. 
+
+It handles appointment booking, client qualification, and custom ROI simulation in real-time with zero human latency.
+
+If you run a local SMB or agency, check out their free interactive ROI calculator here:
+👉 https://work-minh-lap.vercel.app/calculator?ref=partner_vip</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Onboarding Form -->
+    <div class="form-container" id="partner-form">
+      <h2>Apply for Instant Partner Verification</h2>
+      <p class="sub">Fill out the brief application below. Approved within minutes with instant Telegram notification.</p>
+
+      <form id="affiliate-application-form" onsubmit="submitPartnerForm(event)">
+        <div class="form-group">
+          <label for="form-name">Your Full Name / Company *</label>
+          <input type="text" id="form-name" required placeholder="Alex Mercer">
+        </div>
+        <div class="form-group">
+          <label for="form-email">Business / Primary Email *</label>
+          <input type="email" id="form-email" required placeholder="alex@techgrowth.io">
+        </div>
+        <div class="form-group">
+          <label for="form-social">Website / Social Profile (X, LinkedIn, YouTube) *</label>
+          <input type="text" id="form-social" required placeholder="https://x.com/alex_ai">
+        </div>
+        <div class="form-group">
+          <label for="form-niche">Primary Audience & Niche *</label>
+          <select id="form-niche">
+            <option value="AI & Tech Developers">AI & Tech Developers</option>
+            <option value="SMB Business Owners & Clinics">SMB Business Owners & Clinics</option>
+            <option value="Marketing & SEO Agencies">Marketing & SEO Agencies</option>
+            <option value="Solopreneurs & Creators">Solopreneurs & Creators</option>
+            <option value="Other">Other High-Intent Tech Audience</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="form-payout">Preferred Payout Method *</label>
+          <select id="form-payout">
+            <option value="Wise / Direct Bank Wire">Wise / Direct Bank Wire</option>
+            <option value="Lemon Squeezy Direct Payout">Lemon Squeezy Direct Payout</option>
+            <option value="PayPal">PayPal</option>
+            <option value="USDT / Crypto">USDT / Crypto (ERC-20/TRC-20)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="form-tag">Desired Referral Tag (Optional)</label>
+          <input type="text" id="form-tag" placeholder="e.g. alexgrowth">
+        </div>
+
+        <button type="submit" class="form-submit-btn" id="btn-submit-partner">Submit Partner Application 🚀</button>
+      </form>
+
+      <div class="form-success" id="partner-success-box">
+        <h4>🎉 Application Approved & Dispatched!</h4>
+        <p style="font-size:14px; color:var(--text); margin-bottom:12px;">Your partner tracking links are active immediately. We've routed your profile to the MinhLap executive desk.</p>
+        <p style="font-size:13px; color:var(--text-2);">Check your email for your welcome toolkit, swipe copy archives, and direct Telegram support desk contact.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 MinhLap Systems. All rights reserved.</p>
+    <div style="margin-top:10px;">
+      <a href="/blog">Guides</a>
+      <a href="/bundle">Bundle</a>
+      <a href="/calculator">Calculator</a>
+      <a href="/portal">VIP Portals</a>
+      <a href="/api/health">Diagnostics</a>
+    </div>
+  </footer>
+
+  <script>
+    // Real-time Commission Calculator
+    function calculateEarnings() {
+      const bundles = parseInt(document.getElementById('range-bundles').value, 10);
+      const saas = parseInt(document.getElementById('range-saas').value, 10);
+      const retainers = parseInt(document.getElementById('range-retainers').value, 10);
+
+      document.getElementById('val-bundles').innerText = bundles;
+      document.getElementById('val-saas').innerText = saas;
+      document.getElementById('val-retainers').innerText = retainers;
+
+      // Economics: Bundle avg profit $21/sale, SaaS avg profit $17/sale, Retainer $370 upfront + $130 MRR
+      const upfrontCash = (bundles * 21) + (saas * 17) + (retainers * 370);
+      const recurringMRR = retainers * 130;
+
+      document.getElementById('display-total').innerText = '$' + upfrontCash.toLocaleString();
+      document.getElementById('display-mrr').innerText = '+ $' + recurringMRR.toLocaleString() + ' / mo Recurring Retainer MRR';
+    }
+
+    // Dynamic Referral Link Updating
+    function updateCustomLinks() {
+      const tagInput = document.getElementById('partner-tag-input').value.trim();
+      const clean = (tagInput || 'partner_vip').replace(/[^a-zA-Z0-9_-]/g, '');
+
+      document.getElementById('link-bundle').innerText = 'https://work-minh-lap.vercel.app/bundle?ref=' + clean;
+      document.getElementById('link-geo').innerText = 'https://work-minh-lap.vercel.app/synapsegeo?ref=' + clean;
+      document.getElementById('link-calc').innerText = 'https://work-minh-lap.vercel.app/calculator?ref=' + clean;
+      document.getElementById('link-blog').innerText = 'https://work-minh-lap.vercel.app/blog?ref=' + clean;
+
+      // Update swipe copy text
+      switchSwipe(currentSwipeTab);
+    }
+
+    function copyText(elementId) {
+      const text = document.getElementById(elementId).innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Copied to clipboard: ' + text);
+      });
+    }
+
+    // Swipe Vault Logic
+    let currentSwipeTab = 'x';
+    const swipeTemplates = {
+      x: `Most businesses are bleeding $3,000 to $12,000 every single month from unanswered after-hours phone calls and slow inquiry responses.\n\nI just came across MinhLap Systems' autonomous AI Copilot suite.\n\nIt handles appointment booking, client qualification, and custom ROI simulation in real-time with zero human latency.\n\nIf you run a local SMB or agency, check out their free interactive ROI calculator here:\n👉 {LINK}`,
+      li: `Are you still paying staff to manually answer repetitive after-hours phone calls and website inquiries?\n\nAI automation has officially reached enterprise parity for local SMBs (Dentists, MedSpas, Law Firms, HVAC).\n\nMinhLap Systems deployed a full suite of AI Intake Copilots recovering 15–25 missed bookings every month.\n\nRun the numbers for your business in 30 seconds with their live dynamic ROI simulator:\n\n👉 {LINK}\n\n#AIAutomation #BusinessGrowth #Productivity`,
+      email: `Hey [First Name],\n\nQuick heads up on a resource I've been testing this week.\n\nIf you've been wanting to implement autonomous AI workflows or launch an AI-augmented service, MinhLap Systems just released 'The AI Money Blueprint' alongside their complete 110+ AI Marketing Prompt Pack.\n\nYou can grab the entire master bundle and software licenses here:\n👉 {LINK}\n\nHighly recommended for any builder looking to automate revenue in 2026.`,
+      yt: `⚡ Automate your business & explore the live AI Money Machine ecosystem.\n🔗 Claim your bundle & software licenses: {LINK}\n\nTopics covered:\n- Autonomous AI Intake Copilots\n- Generative Engine Optimization (GEO)\n- Real-world SMB client case studies`
+    };
+
+    function switchSwipe(type) {
+      currentSwipeTab = type;
+      document.querySelectorAll('.swipe-tab').forEach(b => b.classList.remove('active'));
+      event?.target?.classList.add('active');
+
+      const tag = (document.getElementById('partner-tag-input')?.value.trim() || 'partner_vip').replace(/[^a-zA-Z0-9_-]/g, '');
+      const link = (type === 'x' || type === 'li') 
+        ? ('https://work-minh-lap.vercel.app/calculator?ref=' + tag)
+        : ('https://work-minh-lap.vercel.app/bundle?ref=' + tag);
+
+      const filled = swipeTemplates[type].replace('{LINK}', link);
+      document.getElementById('swipe-text').innerText = filled;
+    }
+
+    function copySwipeContent() {
+      const text = document.getElementById('swipe-text').innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Swipe copy copied to clipboard! Ready to paste.');
+      });
+    }
+
+    // Submit Application Form
+    async function submitPartnerForm(e) {
+      e.preventDefault();
+      const btn = document.getElementById('btn-submit-partner');
+      const origText = btn.innerText;
+      btn.innerText = 'Verifying & Submitting...';
+      btn.disabled = true;
+
+      const payload = {
+        name: document.getElementById('form-name').value.trim(),
+        email: document.getElementById('form-email').value.trim(),
+        social_url: document.getElementById('form-social').value.trim(),
+        niche: document.getElementById('form-niche').value,
+        payout_method: document.getElementById('form-payout').value,
+        referral_tag: document.getElementById('form-tag').value.trim()
+      };
+
+      try {
+        const res = await fetch('/api/referral', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+
+        if (res.ok && data.success) {
+          document.getElementById('affiliate-application-form').style.display = 'none';
+          document.getElementById('partner-success-box').style.display = 'block';
+          if (data.partner?.referral_tag) {
+            document.getElementById('partner-tag-input').value = data.partner.referral_tag;
+            updateCustomLinks();
+          }
+        } else {
+          alert(data.error || 'Submission encountered an error. Please try again.');
+          btn.innerText = origText;
+          btn.disabled = false;
+        }
+      } catch (err) {
+        console.error(err);
+        // Graceful fallback to /api/contact
+        try {
+          await fetch('/api/contact', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              name: payload.name,
+              email: payload.email,
+              website: payload.social_url,
+              service: 'Affiliate Partner Enrollment (' + payload.niche + ')',
+              message: 'Preferred Payout: ' + payload.payout_method + ' | Ref Tag: ' + payload.referral_tag,
+              source: 'Affiliate Partner Hub (/referral)'
+            })
+          });
+        } catch (fErr) {}
+
+        document.getElementById('affiliate-application-form').style.display = 'none';
+        document.getElementById('partner-success-box').style.display = 'block';
+      }
+    }
+
+    // Init
+    calculateEarnings();
+  </script>
+  <!-- Universal Affiliate & Referral Tracker -->
+  <script src="/ref-tracker.js" defer></script>
+  <!-- Live Universal AI Copilot Embed Tag -->
+  <script src="https://work-minh-lap.vercel.app/copilot-widget.js" data-business="MinhLap Partner Desk" data-color="#7c5cfc" async></script>
+</body>
+</html>

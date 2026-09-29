@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Automation Guide — Free Resources for AI-Powered Business Growth</title>
+  <meta name="description" content="Free guides, tutorials, and tools for automating your business with AI. Make.com, Zapier, chatbots, and more.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #050510;
+      --bg-2: #0c0c1d;
+      --bg-3: #141428;
+      --surface: #1a1a35;
+      --surface-hover: #22224a;
+      --accent: #7c5cfc;
+      --accent-2: #5ce1e6;
+      --accent-glow: rgba(124,92,252,0.25);
+      --gradient: linear-gradient(135deg, #7c5cfc, #5ce1e6);
+      --text: #e8e8f8;
+      --text-2: #9898b8;
+      --text-3: #606080;
+      --border: rgba(255,255,255,0.06);
+      --radius: 20px;
+      --radius-sm: 12px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* Animated bg */
+    .bg-glow {
+      position: fixed;
+      width: 600px; height: 600px;
+      border-radius: 50%;
+      filter: blur(150px);
+      opacity: 0.12;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .bg-glow-1 { top: -200px; left: -100px; background: #7c5cfc; }
+    .bg-glow-2 { bottom: -200px; right: -100px; background: #5ce1e6; }
+
+    /* Nav */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(5,5,16,0.85);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 0;
+    }
+    .nav-inner {
+      max-width: 1100px; margin: 0 auto; padding: 0 24px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .nav-logo {
+      font-family: 'Outfit', sans-serif;
+      font-size: 22px; font-weight: 800;
+      background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .nav-links { display: flex; gap: 28px; }
+    .nav-links a {
+      color: var(--text-2); text-decoration: none; font-size: 14px; font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--text); }
+    .nav-cta {
+      background: var(--gradient); color: white; border: none;
+      padding: 8px 20px; border-radius: 8px; font-size: 13px; font-weight: 600;
+      cursor: pointer; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 4px 20px var(--accent-glow); }
+
+    /* Hero */
+    .hero {
+      max-width: 1100px; margin: 0 auto; padding: 100px 24px 60px;
+      text-align: center; position: relative; z-index: 1;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(124,92,252,0.1); border: 1px solid rgba(124,92,252,0.2);
+      padding: 6px 16px; border-radius: 50px; font-size: 13px; color: #a99bfe;
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: clamp(36px, 5vw, 64px); font-weight: 800;
+      line-height: 1.15; margin-bottom: 20px;
+    }
+    .hero h1 .grad {
+      background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero p {
+      font-size: 18px; color: var(--text-2); max-width: 620px; margin: 0 auto 36px;
+    }
+
+    /* Email CTA */
+    .email-cta {
+      display: flex; gap: 10px; max-width: 460px; margin: 0 auto 16px;
+    }
+    .email-cta input {
+      flex: 1; background: var(--bg-3); border: 1px solid var(--border);
+      border-radius: 10px; padding: 14px 18px; color: var(--text);
+      font-size: 14px; font-family: inherit; outline: none;
+      transition: border-color 0.2s;
+    }
+    .email-cta input:focus { border-color: var(--accent); }
+    .email-cta input::placeholder { color: var(--text-3); }
+    .email-cta button {
+      background: var(--gradient); color: white; border: none;
+      padding: 14px 28px; border-radius: 10px; font-size: 14px;
+      font-weight: 600; cursor: pointer; white-space: nowrap;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .email-cta button:hover {
+      transform: translateY(-1px); box-shadow: 0 6px 25px var(--accent-glow);
+    }
+    .hero-sub { font-size: 13px; color: var(--text-3); }
+
+    /* Stats */
+    .stats {
+      display: flex; justify-content: center; gap: 48px;
+      margin-top: 48px; flex-wrap: wrap;
+    }
+    .stat { text-align: center; }
+    .stat-num {
+      font-family: 'Outfit', sans-serif; font-size: 32px; font-weight: 700;
+      background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .stat-label { font-size: 13px; color: var(--text-3); margin-top: 4px; }
+
+    /* Section */
+    section { max-width: 1100px; margin: 0 auto; padding: 80px 24px; position: relative; z-index: 1; }
+    .section-label {
+      font-size: 12px; text-transform: uppercase; letter-spacing: 2px;
+      color: var(--accent); font-weight: 600; margin-bottom: 12px;
+    }
+    .section-title {
+      font-family: 'Outfit', sans-serif; font-size: 36px; font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .section-desc { color: var(--text-2); font-size: 16px; max-width: 600px; margin-bottom: 40px; }
+
+    /* Cards */
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 28px; transition: all 0.3s;
+      cursor: pointer; text-decoration: none; color: var(--text); display: block;
+    }
+    .card:hover {
+      border-color: rgba(124,92,252,0.3); transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+    }
+    .card-icon { font-size: 32px; margin-bottom: 16px; }
+    .card h3 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+    .card p { font-size: 14px; color: var(--text-2); line-height: 1.6; }
+    .card-tag {
+      display: inline-block; margin-top: 12px; font-size: 12px;
+      background: rgba(92,225,230,0.1); color: var(--accent-2);
+      padding: 4px 10px; border-radius: 6px;
+    }
+
+    /* Products */
+    .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+    .product-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); overflow: hidden; transition: all 0.3s;
+      display: flex; flex-direction: column;
+    }
+    .product-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.4); }
+    .product-img {
+      height: 240px; background: linear-gradient(135deg, #1a1040, #0a2040);
+      display: flex; align-items: center; justify-content: center; font-size: 48px;
+      overflow: hidden; position: relative;
+    }
+    .product-img img {
+      width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;
+    }
+    .product-card:hover .product-img img {
+      transform: scale(1.05);
+    }
+    .product-body { padding: 24px; }
+    .product-body h3 { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
+    .product-body p { font-size: 13px; color: var(--text-2); margin-bottom: 16px; }
+    .product-price {
+      font-family: 'Outfit', sans-serif; font-size: 24px; font-weight: 700;
+      background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .product-btn {
+      display: block; width: 100%; background: var(--gradient); color: white;
+      border: none; padding: 12px; border-radius: 10px; font-size: 14px;
+      font-weight: 600; cursor: pointer; margin-top: 12px; transition: all 0.2s;
+      text-align: center; text-decoration: none;
+    }
+    .product-btn:hover { box-shadow: 0 4px 20px var(--accent-glow); }
+
+    /* CTA */
+    .cta-section {
+      text-align: center; padding: 80px 24px;
+      background: linear-gradient(180deg, transparent 0%, rgba(124,92,252,0.05) 100%);
+    }
+    .cta-section h2 {
+      font-family: 'Outfit', sans-serif; font-size: 36px; font-weight: 700; margin-bottom: 16px;
+    }
+    .cta-section p { color: var(--text-2); font-size: 16px; margin-bottom: 32px; max-width: 500px; margin-left: auto; margin-right: auto; }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border); padding: 40px 24px;
+      text-align: center; color: var(--text-3); font-size: 13px;
+    }
+
+    /* Interactive Quiz */
+    .quiz-wrap {
+      max-width: 860px; margin: 40px auto 60px; padding: 0 24px; position: relative; z-index: 1;
+    }
+    .quiz-card {
+      background: linear-gradient(145deg, #101026, #161638);
+      border: 1px solid rgba(124, 92, 252, 0.35); border-radius: var(--radius);
+      padding: 40px 36px; box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+    }
+    .quiz-badge {
+      display: inline-block; background: rgba(92, 225, 230, 0.12); color: #5ce1e6;
+      border: 1px solid rgba(92, 225, 230, 0.3); padding: 4px 14px; border-radius: 20px;
+      font-size: 12px; font-weight: 700; margin-bottom: 12px; text-transform: uppercase;
+    }
+    .quiz-title { font-family: 'Outfit', sans-serif; font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+    .quiz-desc { color: var(--text-2); font-size: 15px; margin-bottom: 24px; }
+    .quiz-progress {
+      height: 6px; background: rgba(255,255,255,0.06); border-radius: 3px; overflow: hidden; margin-bottom: 30px;
+    }
+    .quiz-bar {
+      height: 100%; width: 33%; background: var(--gradient); transition: width 0.35s ease;
+    }
+    .quiz-step { display: none; }
+    .quiz-step.active { display: block; animation: fadeIn 0.3s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    .quiz-question { font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 18px; }
+    .quiz-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-bottom: 24px; }
+    .quiz-opt {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm);
+      padding: 16px 20px; cursor: pointer; transition: all 0.2s; display: flex; align-items: center; gap: 12px;
+      font-size: 14px; font-weight: 500; text-align: left; color: var(--text);
+    }
+    .quiz-opt:hover {
+      border-color: #7c5cfc; background: var(--surface-hover); transform: translateY(-2px);
+    }
+    .quiz-opt.selected {
+      border-color: #5ce1e6; background: rgba(92, 225, 230, 0.12); color: #fff; font-weight: 700;
+    }
+    .quiz-opt .opt-icon { font-size: 22px; flex-shrink: 0; }
+    .quiz-result-metrics {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px;
+    }
+    .q-metric {
+      background: rgba(5,5,16,0.7); border: 1px solid var(--border); border-radius: var(--radius-sm);
+      padding: 18px; text-align: center;
+    }
+    .q-metric .q-val {
+      font-family: 'Outfit', sans-serif; font-size: 32px; font-weight: 800; color: #5ce1e6;
+    }
+    .q-metric .q-lbl { font-size: 12px; color: var(--text-3); text-transform: uppercase; margin-top: 4px; }
+    .quiz-lead-form {
+      background: rgba(5,5,16,0.6); border: 1px solid var(--border); border-radius: var(--radius-sm);
+      padding: 24px; margin-top: 20px;
+    }
+    .quiz-input-row { display: flex; gap: 12px; margin-top: 14px; flex-wrap: wrap; }
+    .quiz-input-row input {
+      flex: 1; min-width: 200px; background: #0c0c1d; border: 1px solid var(--border);
+      border-radius: var(--radius-xs); padding: 12px 16px; color: #fff; font-size: 14px;
+    }
+    .quiz-input-row button {
+      background: var(--gradient); border: none; color: #fff; padding: 12px 24px;
+      border-radius: var(--radius-xs); font-weight: 700; cursor: pointer; transition: transform 0.2s;
+    }
+    .quiz-input-row button:hover { transform: scale(1.02); }
+
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .email-cta { flex-direction: column; }
+      .stats { gap: 24px; }
+      .quiz-result-metrics { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <nav>
+    <div class="nav-inner">
+      <div class="nav-logo">AI Automation Guide</div>
+      <div class="nav-links">
+        <a href="#guides">Guides</a>
+        <a href="#assessment">AI Quiz ⚡</a>
+        <a href="#tools">Tools</a>
+        <a href="#products">Products</a>
+        <a href="bundle.html" style="color:var(--accent-2); font-weight:700;">Bundle ($39)</a>
+        <a href="/referral" style="color:#a99bfe; font-weight:700;">Partner (50%) 🤝</a>
+        <a href="#about">About</a>
+      </div>
+      <a href="bundle.html" class="nav-cta">Get The Bundle ↗</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-badge">
+      <span>✨</span> Free AI automation guides updated for 2026
+    </div>
+    <h1>
+      Automate Your Business.<br>
+      <span class="grad">Multiply Your Results.</span>
+    </h1>
+    <p>
+      Learn how to save 20+ hours per week using AI automation tools. 
+      Free guides, tutorials, and ready-to-use templates.
+    </p>
+    <div class="email-cta" id="cta-hero">
+      <input type="email" id="email-input" placeholder="Enter your email address">
+      <button id="btn-hero" onclick="handleSubscribe('email-input', 'btn-hero', 'cta-hero')">Get Free Guide</button>
+    </div>
+    <div id="cta-hero-msg" style="display:none; margin-top:14px; font-weight:600;"></div>
+    <p class="hero-sub">Join 1,000+ business owners. No spam, ever.</p>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-num">20+</div>
+        <div class="stat-label">Hours Saved / Week</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">40%</div>
+        <div class="stat-label">Cost Reduction</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">100+</div>
+        <div class="stat-label">Free Resources</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">24/7</div>
+        <div class="stat-label">AI Works For You</div>
+      </div>
+    </div>
+  </header>
+
+  <section id="guides">
+    <div class="section-label">Free Guides</div>
+    <h2 class="section-title">Learn AI Automation</h2>
+    <p class="section-desc">
+      Comprehensive, beginner-friendly guides to automate every aspect of your business.
+    </p>
+    <div class="card-grid">
+      <a href="guide_001.html" class="card">
+        <div class="card-icon">🤖</div>
+        <h3>Best AI Automation Tools in 2026</h3>
+        <p>Complete comparison of Make.com, Zapier, n8n, and more. Find the perfect tool for your business.</p>
+        <span class="card-tag">6 min read • Read Guide →</span>
+      </a>
+      <a href="guide_002.html" class="card">
+        <div class="card-icon">💬</div>
+        <h3>Build Your First AI Chatbot</h3>
+        <p>Step-by-step guide to creating a customer support chatbot. No coding required.</p>
+        <span class="card-tag">7 min read • Read Guide →</span>
+      </a>
+      <a href="guide_003.html" class="card">
+        <div class="card-icon">⚡</div>
+        <h3>Make.com vs Zapier vs n8n</h3>
+        <p>Honest comparison with real pricing, features, and use cases. Updated for 2026.</p>
+        <span class="card-tag">6 min read • Read Guide →</span>
+      </a>
+      <a href="guide_004.html" class="card">
+        <div class="card-icon">🏢</div>
+        <h3>10 AI Automations for Small Business</h3>
+        <p>The most impactful automations you can set up today to save hours every week.</p>
+        <span class="card-tag">5 min read • Read Guide →</span>
+      </a>
+      <a href="guide_005.html" class="card">
+        <div class="card-icon">🎧</div>
+        <h3>AI Chatbots for Customer Support</h3>
+        <p>How to design, prompt, and connect intelligent support bots that qualify leads and close sales.</p>
+        <span class="card-tag">6 min read • Read Guide →</span>
+      </a>
+      <a href="guide_006.html" class="card">
+        <div class="card-icon">✍️</div>
+        <h3>Write Blog Posts 10x Faster with AI</h3>
+        <p>The step-by-step prompt engine to create high-ranking, organic SEO articles without AI fluff.</p>
+        <span class="card-tag">6 min read • Read Guide →</span>
+      </a>
+      <a href="guide_007.html" class="card">
+        <div class="card-icon">💼</div>
+        <h3>Complete Guide to AI Consulting</h3>
+        <p>How to package, price, and deliver high-ticket automation audits ($500 - $2,000 per client).</p>
+        <span class="card-tag">6 min read • Read Guide →</span>
+      </a>
+      <a href="guide_008.html" class="card">
+        <div class="card-icon">🚀</div>
+        <h3>5 AI Side Hustles for the Weekend</h3>
+        <p>Zero-investment digital cashflow models you can start, launch, and monetize in 48 hours.</p>
+        <span class="card-tag">5 min read • Read Guide →</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Interactive AI Readiness & ROI Assessment Quiz -->
+  <section class="quiz-wrap" id="assessment">
+    <div class="quiz-card">
+      <div style="text-align: center;">
+        <span class="quiz-badge">⚡ 60-Second Interactive Audit</span>
+        <h2 class="quiz-title">Discover Your AI Automation Readiness & ROI</h2>
+        <p class="quiz-desc">Answer 3 quick questions to benchmark how many hours and missed revenue AI can recover for your business this month.</p>
+      </div>
+
+      <div class="quiz-progress">
+        <div class="quiz-bar" id="quiz-progress-bar"></div>
+      </div>
+
+      <!-- Question 1 -->
+      <div class="quiz-step active" id="quiz-q1">
+        <div class="quiz-question">1. What best describes your primary business model?</div>
+        <div class="quiz-options">
+          <div class="quiz-opt" onclick="chooseQ1('Local Service / Clinic (Dental, MedSpa, HVAC)', 22, 5400, '24/7 AI Receptionist & Booking Copilot')">
+            <span class="opt-icon">🏥</span>
+            <div><strong>Local Practice / SMB</strong><div style="font-size:12px; color:var(--text-3);">Dental, MedSpa, Legal, HVAC</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ1('E-Commerce / D2C Brand', 18, 4200, 'Automated Review & Support AI Agent')">
+            <span class="opt-icon">🛍️</span>
+            <div><strong>E-Commerce / D2C</strong><div style="font-size:12px; color:var(--text-3);">Online store, subscriptions, retail</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ1('B2B SaaS or Marketing Agency', 28, 8500, 'Autonomous Make.com CRM Pipeline')">
+            <span class="opt-icon">💼</span>
+            <div><strong>B2B Agency / SaaS</strong><div style="font-size:12px; color:var(--text-3);">Client services, consulting, software</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ1('Solopreneur / Content Creator', 15, 2900, 'Omnichannel Content Recycling Engine')">
+            <span class="opt-icon">⚡</span>
+            <div><strong>Solopreneur / Creator</strong><div style="font-size:12px; color:var(--text-3);">Digital products, solo builder</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="quiz-step" id="quiz-q2">
+        <div class="quiz-question">2. Where does your team lose the most hours each week?</div>
+        <div class="quiz-options">
+          <div class="quiz-opt" onclick="chooseQ2('Missed after-hours phone calls & website inquiries', 1.3)">
+            <span class="opt-icon">📞</span>
+            <div><strong>After-Hours Inquiries</strong><div style="font-size:12px; color:var(--text-3);">Callers bouncing to competitors</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ2('Repetitive FAQs and customer support tickets', 1.1)">
+            <span class="opt-icon">💬</span>
+            <div><strong>Repetitive Support FAQs</strong><div style="font-size:12px; color:var(--text-3);">Hours spent typing identical replies</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ2('Manual data entry, invoice chasing & document intake', 1.4)">
+            <span class="opt-icon">📑</span>
+            <div><strong>Document & Admin Chasing</strong><div style="font-size:12px; color:var(--text-3);">Manual onboarding bottlenecks</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ2('Content creation, social posting & SEO audits', 1.2)">
+            <span class="opt-icon">✍️</span>
+            <div><strong>Content & Marketing Gruntwork</strong><div style="font-size:12px; color:var(--text-3);">Inconsistent posting & low reach</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="quiz-step" id="quiz-q3">
+        <div class="quiz-question">3. What is your estimated monthly revenue tier?</div>
+        <div class="quiz-options">
+          <div class="quiz-opt" onclick="chooseQ3('$5k – $15k / mo', 1.0)">
+            <span class="opt-icon">🌱</span>
+            <div><strong>$5,000 – $15,000 / mo</strong><div style="font-size:12px; color:var(--text-3);">Early growth & traction</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ3('$15k – $50k / mo', 1.5)">
+            <span class="opt-icon">🚀</span>
+            <div><strong>$15,000 – $50,000 / mo</strong><div style="font-size:12px; color:var(--text-3);">Scaling operations</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ3('$50k – $200k / mo', 2.2)">
+            <span class="opt-icon">💎</span>
+            <div><strong>$50,000 – $200,000 / mo</strong><div style="font-size:12px; color:var(--text-3);">Established business</div></div>
+          </div>
+          <div class="quiz-opt" onclick="chooseQ3('$200k+ / mo', 3.0)">
+            <span class="opt-icon">🏛️</span>
+            <div><strong>$200,000+ / mo</strong><div style="font-size:12px; color:var(--text-3);">High-volume enterprise</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result Step -->
+      <div class="quiz-step" id="quiz-result">
+        <div style="text-align: center; margin-bottom: 20px;">
+          <div style="font-size: 40px; margin-bottom: 8px;">🎯</div>
+          <h3 style="font-family:'Outfit', sans-serif; font-size:24px; font-weight:800; color:#fff;">Your AI Automation Benchmark is Ready!</h3>
+          <p style="color:var(--text-2); font-size:14px;">Based on your operational model, here is your estimated recovery capacity:</p>
+        </div>
+
+        <div class="quiz-result-metrics">
+          <div class="q-metric">
+            <div class="q-val" id="result-hours">22 hrs/wk</div>
+            <div class="q-lbl">Recoverable Working Hours</div>
+          </div>
+          <div class="q-metric">
+            <div class="q-val" id="result-rev">$6,400/mo</div>
+            <div class="q-lbl">Recoverable Missed Revenue</div>
+          </div>
+        </div>
+
+        <div style="background: rgba(124,92,252,0.1); border: 1px solid rgba(124,92,252,0.3); border-radius: var(--radius-sm); padding: 16px; margin-bottom: 20px;">
+          <div style="font-size:12px; text-transform:uppercase; color:#a99bfe; font-weight:700; margin-bottom:4px;">Recommended Architecture:</div>
+          <div style="font-size:15px; font-weight:700; color:#fff;" id="result-solution">24/7 AI Receptionist & Booking Copilot</div>
+        </div>
+
+        <div class="quiz-lead-form">
+          <div style="font-size:14px; font-weight:700; color:#fff;">Send My Customized 5-Page AI Implementation Plan:</div>
+          <p style="font-size:12px; color:var(--text-3); margin-top:2px;">Includes step-by-step tool checklist and prompt architecture. Zero spam guarantee.</p>
+          <div class="quiz-input-row">
+            <input type="text" id="quiz-name" placeholder="Your Name" required>
+            <input type="email" id="quiz-email" placeholder="Your Best Email" required>
+            <button id="btn-quiz-submit" onclick="submitQuizLead()">Claim Free Plan 🚀</button>
+          </div>
+          <div id="quiz-success-msg" style="display:none; color:#5ce1e6; font-size:13px; font-weight:600; margin-top:12px;">
+            🎉 Plan generated and dispatched! Check your inbox shortly.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tools">
+    <div class="section-label">Live Micro-SaaS & Tools</div>
+    <h2 class="section-title">Built-In AI Automation Apps</h2>
+    <p class="section-desc">
+      Production-ready AI micro-tools designed to automate SEO, review responses, and viral copywriting.
+    </p>
+    <div class="card-grid">
+      <div class="card" style="position:relative;">
+        <a href="https://work-minh-lap.vercel.app/synapsegeo" target="_blank" rel="noopener" style="text-decoration:none; color:inherit; display:block;">
+          <div class="card-icon">⚡</div>
+          <h3>SynapseGEO</h3>
+          <p>AI Search Engine Optimizer. Audit your domain visibility for ChatGPT Search, Perplexity AI, and Claude citations.</p>
+          <span class="card-tag">Live SaaS · Free Audit</span>
+        </a>
+        <a href="downloads/synapsegeo_extension.zip" target="_blank" download style="display:inline-block; margin-top:12px; font-size:12px; background:rgba(124,92,252,0.15); color:#a99bfe; padding:4px 10px; border-radius:6px; text-decoration:none; border:1px solid rgba(124,92,252,0.3);">
+          🧩 Chrome Extension (.zip)
+        </a>
+      </div>
+      <a href="https://work-minh-lap.vercel.app/reviewgenius" class="card" target="_blank" rel="noopener">
+        <div class="card-icon">⭐</div>
+        <h3>ReviewGenius AI</h3>
+        <p>Autonomous customer review response generator. Turn negative reviews into 5-star loyalty with smart AI templates.</p>
+        <span class="card-tag">Live SaaS · Instant</span>
+      </a>
+      <a href="https://work-minh-lap.vercel.app/headlineiq" class="card" target="_blank" rel="noopener">
+        <div class="card-icon">🔥</div>
+        <h3>HeadlineIQ</h3>
+        <p>Headline analyzer and viral CTR optimizer. Predict click-through rates and generate irresistible marketing hooks.</p>
+        <span class="card-tag">Live SaaS · Viral Tool</span>
+      </a>
+      <a href="https://work-minh-lap.vercel.app/chatbotdemo" class="card" target="_blank" rel="noopener">
+        <div class="card-icon">🤖</div>
+        <h3>AI Chatbot Demo</h3>
+        <p>Interactive customer support chatbot demo showcasing lead capture and instant business intelligence.</p>
+        <span class="card-tag">Live Portfolio Demo</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="section-label">Premium Digital Assets</div>
+    <h2 class="section-title">Level Up Your AI Income</h2>
+    <p class="section-desc">
+      Comprehensive blueprints, verified prompts, and automation packs ready for immediate download.
+    </p>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-img">
+          <img src="assets/ebook_cover.jpg" alt="The AI Money Blueprint eBook">
+        </div>
+        <div class="product-body">
+          <h3>The AI Money Blueprint</h3>
+          <p>10 proven strategies to earn $1,000-5,000/month with AI. 16,000 words, client outreach scripts, and 30-day roadmap.</p>
+          <div class="product-price">$14.99</div>
+          <a href="https://minhlap.gumroad.com/l/xqckmu" target="_blank" class="product-btn">Get on Gumroad</a>
+          <a href="downloads/The_AI_Money_Blueprint.pdf" target="_blank" style="display:block; text-align:center; font-size:12px; color:var(--accent-2); margin-top:8px; text-decoration:none;">📄 Direct PDF Preview</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">
+          <img src="assets/prompt_cover.jpg" alt="110+ AI Marketing Prompts Pack">
+        </div>
+        <div class="product-body">
+          <h3>110+ AI Marketing Prompts</h3>
+          <p>Battle-tested prompts across 7 marketing domains: Copywriting, SEO, Paid Ads, Social Media, and Email funnels.</p>
+          <div class="product-price">$29.00</div>
+          <a href="downloads/AI_Marketing_Prompt_Pack_110.pdf" target="_blank" class="product-btn">View & Download Pack</a>
+          <a href="downloads/AI_Marketing_Prompt_Pack_110.pdf" target="_blank" style="display:block; text-align:center; font-size:12px; color:var(--accent-2); margin-top:8px; text-decoration:none;">📄 Direct PDF Guide</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="font-size: 64px;">
+          🔧
+        </div>
+        <div class="product-body">
+          <h3>Automation Blueprint Pack</h3>
+          <p>15 ready-to-deploy automation workflows for Make.com & Zapier. Step-by-step setup with full JSON templates.</p>
+          <div class="product-price">$24.99</div>
+          <a href="#about" class="product-btn">Request Blueprints</a>
+          <span style="display:block; text-align:center; font-size:12px; color:var(--text-3); margin-top:8px;">Instant Access</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured Master Bundle Card -->
+    <div style="margin-top: 32px; background: linear-gradient(135deg, rgba(124,92,252,0.15), rgba(92,225,230,0.08)); border: 2px solid var(--accent); border-radius: var(--radius); padding: 36px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 24px; box-shadow: 0 10px 40px rgba(124,92,252,0.2);">
+      <div style="max-width: 600px;">
+        <span style="display:inline-block; background:linear-gradient(135deg, var(--accent), var(--accent-2)); color:#000; font-size:11px; font-weight:800; padding:4px 12px; border-radius:20px; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:12px;">🌟 ULTIMATE VALUE • SAVE $30</span>
+        <h3 style="font-family:'Outfit', sans-serif; font-size:26px; font-weight:700; color:#fff; margin-bottom:8px;">The AI Empire Master Bundle</h3>
+        <p style="font-size:14px; color:var(--text-2); margin:0; line-height:1.6;">
+          Get all 3 products combined: <strong>The AI Money Blueprint eBook</strong> (16,000 words) + <strong>110+ Marketing Prompt Pack</strong> + <strong>15 Automation Blueprints</strong>. Total value $68.98 — yours for only <strong>$39.00</strong>.
+        </p>
+      </div>
+      <div style="text-align:right;">
+        <div style="font-family:'Outfit', sans-serif; font-size:36px; font-weight:800; color:#fff; margin-bottom:8px;">$39.00 <span style="font-size:16px; color:var(--text-3); text-decoration:line-through;">$68.98</span></div>
+        <a href="bundle.html" class="nav-cta" style="display:inline-block; padding:12px 28px; font-size:15px; font-weight:700;">Explore Master Bundle ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-label">Services</div>
+    <h2 class="section-title">Need Help? I Can Build It For You</h2>
+    <p class="section-desc">
+      Don't have time to learn? I'll set up your automations and chatbots professionally.
+    </p>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">💬</div>
+        <h3>Custom AI Chatbot — $150-500</h3>
+        <p>AI chatbot trained on your business data. 24/7 customer support, lead capture, and CRM integration included.</p>
+        <span class="card-tag">Most Popular</span>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <h3>Workflow Automation — $100-500</h3>
+        <p>Custom automations for your business. Appointment reminders, lead follow-up, reporting, and more.</p>
+        <span class="card-tag">Best ROI</span>
+      </div>
+      <div class="card">
+        <div class="card-icon">🧠</div>
+        <h3>AI Consulting — $200-700</h3>
+        <p>Full business automation audit + implementation. Identify your biggest time-wasters and eliminate them.</p>
+        <span class="card-tag">Comprehensive</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-section">
+    <h2>Ready to Automate?</h2>
+    <p>Get the free guide and start saving 20+ hours per week with AI automation.</p>
+    <div class="email-cta" id="cta-bottom" style="max-width: 460px; margin: 0 auto;">
+      <input type="email" id="email-input-2" placeholder="Enter your email address">
+      <button id="btn-bottom" onclick="handleSubscribe('email-input-2', 'btn-bottom', 'cta-bottom')">Get Free Guide</button>
+    </div>
+    <div id="cta-bottom-msg" style="display:none; margin-top:14px; font-weight:600;"></div>
+  </div>
+
+  <footer>
+    <p>© 2026 AI Automation Guide. All rights reserved.</p>
+  </footer>
+
+  <script>
+    async function handleSubscribe(inputId, btnId, containerId) {
+      const input = document.getElementById(inputId);
+      const btn = document.getElementById(btnId);
+      const msgBox = document.getElementById(containerId + '-msg');
+      const email = input?.value ? input.value.trim() : '';
+
+      if (!email || !email.includes('@')) {
+        alert('Please enter a valid email address.');
+        return;
+      }
+
+      const origText = btn.innerText;
+      btn.innerText = 'Sending...';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch('/api/subscribe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email })
+        });
+        const data = await res.json();
+        if (res.ok && data.success) {
+          btn.innerText = 'Subscribed! 🎉';
+          if (msgBox) {
+            msgBox.style.display = 'block';
+            msgBox.innerHTML = '<span style="color:#5ce1e6;">🎉 Success! </span><a href="' + (data.downloadUrl || '/downloads/The_AI_Money_Blueprint.pdf') + '" target="_blank" style="color:#fff; background:var(--gradient); padding:6px 14px; border-radius:6px; text-decoration:none; margin-left:8px; font-size:13px; display:inline-block; margin-top:6px;">📥 Download Free eBook (PDF)</a>';
+          }
+          // Also trigger automatic download
+          const a = document.createElement('a');
+          a.href = data.downloadUrl || '/downloads/The_AI_Money_Blueprint.pdf';
+          a.download = 'The_AI_Money_Blueprint.pdf';
+          a.click();
+        } else {
+          alert(data.error || 'Submission failed. Please try again.');
+          btn.innerText = origText;
+          btn.disabled = false;
+        }
+      } catch (err) {
+        console.error(err);
+        // Fallback: direct download
+        window.open('/downloads/The_AI_Money_Blueprint.pdf', '_blank');
+        btn.innerText = 'Downloaded! 🎉';
+      }
+    }
+
+    // Interactive Quiz State
+    let quizData = {
+      niche: '',
+      hours: 20,
+      rev: 5000,
+      solution: '24/7 AI Receptionist Copilot',
+      pain: '',
+      revenueTier: ''
+    };
+
+    function chooseQ1(niche, hours, rev, sol) {
+      quizData.niche = niche;
+      quizData.hours = hours;
+      quizData.rev = rev;
+      quizData.solution = sol;
+
+      document.getElementById('quiz-q1').classList.remove('active');
+      document.getElementById('quiz-q2').classList.add('active');
+      document.getElementById('quiz-progress-bar').style.width = '66%';
+    }
+
+    function chooseQ2(pain, mult) {
+      quizData.pain = pain;
+      quizData.hours = Math.round(quizData.hours * mult);
+      quizData.rev = Math.round(quizData.rev * mult);
+
+      document.getElementById('quiz-q2').classList.remove('active');
+      document.getElementById('quiz-q3').classList.add('active');
+      document.getElementById('quiz-progress-bar').style.width = '100%';
+    }
+
+    function chooseQ3(tier, mult) {
+      quizData.revenueTier = tier;
+      quizData.rev = Math.round(quizData.rev * mult);
+
+      document.getElementById('quiz-q3').classList.remove('active');
+      document.getElementById('quiz-result').classList.add('active');
+
+      document.getElementById('result-hours').innerText = quizData.hours + ' hrs/wk';
+      document.getElementById('result-rev').innerText = '$' + quizData.rev.toLocaleString() + '/mo';
+      document.getElementById('result-solution').innerText = quizData.solution;
+    }
+
+    async function submitQuizLead() {
+      const name = document.getElementById('quiz-name').value.trim();
+      const email = document.getElementById('quiz-email').value.trim();
+      const btn = document.getElementById('btn-quiz-submit');
+
+      if (!email || !email.includes('@')) {
+        alert('Please enter a valid email address.');
+        return;
+      }
+
+      btn.innerText = 'Routing to AI Desk...';
+      btn.disabled = true;
+
+      try {
+        await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            name: name || 'Quiz Prospect',
+            email: email,
+            service: 'AI Readiness Audit: ' + quizData.solution,
+            source: 'Interactive Blog Quiz (/blog#assessment)',
+            message: 'Niche: ' + quizData.niche + ' | Pain Point: ' + quizData.pain + ' | Rev Tier: ' + quizData.revenueTier + ' | Est Recovery: ' + quizData.hours + ' hrs/wk ($' + quizData.rev + '/mo)'
+          })
+        });
+      } catch (e) {
+        console.error(e);
+      }
+
+      btn.innerText = 'Plan Dispatched! 🎉';
+      document.getElementById('quiz-success-msg').style.display = 'block';
+    }
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+  <!-- Universal Affiliate & Referral Tracker -->
+  <script src="/ref-tracker.js" defer></script>
+  <!-- Live 24/7 AI Receptionist Copilot -->
+  <script src="https://work-minh-lap.vercel.app/copilot-widget.js" data-business="AI Automation Hub" data-color="#7c5cfc" async></script>
+</body>
+</html>

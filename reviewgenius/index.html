@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReviewGenius — AI Review Response Generator</title>
+  <meta name="description" content="Generate professional responses to customer reviews in seconds using AI. Perfect for restaurants, hotels, clinics, and local businesses.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a14; --bg-2: #12121f; --bg-3: #1a1a2e;
+      --surface: #1e1e35; --surface-2: #252545;
+      --accent: #ff6b35; --accent-2: #ffd166; --accent-3: #06d6a0;
+      --accent-glow: rgba(255,107,53,0.2);
+      --gradient: linear-gradient(135deg, #ff6b35, #ffd166);
+      --gradient-2: linear-gradient(135deg, #06d6a0, #118ab2);
+      --text: #f0f0ff; --text-2: #a0a0c0; --text-3: #606080;
+      --border: rgba(255,255,255,0.06);
+      --success: #06d6a0; --warning: #ffd166; --danger: #ef476f;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+    /* Glow effects */
+    .glow { position: fixed; width: 500px; height: 500px; border-radius: 50%; filter: blur(150px); opacity: 0.08; pointer-events: none; }
+    .glow-1 { top: -100px; right: -100px; background: var(--accent); }
+    .glow-2 { bottom: -100px; left: -100px; background: var(--accent-3); }
+
+    /* Header */
+    header {
+      border-bottom: 1px solid var(--border); padding: 16px 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(10,10,20,0.9); backdrop-filter: blur(20px);
+    }
+    .logo {
+      font-family: 'Outfit', sans-serif; font-size: 22px; font-weight: 800;
+      background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .logo span { font-weight: 600; opacity: 0.7; }
+    .header-badge {
+      font-size: 12px; background: rgba(6,214,160,0.1); color: var(--accent-3);
+      border: 1px solid rgba(6,214,160,0.2); padding: 4px 12px; border-radius: 20px;
+    }
+
+    /* Main layout */
+    .container { max-width: 1000px; margin: 0 auto; padding: 40px 24px; position: relative; z-index: 1; }
+
+    /* Hero */
+    .hero { text-align: center; margin-bottom: 48px; }
+    .hero h1 {
+      font-family: 'Outfit', sans-serif; font-size: clamp(28px, 4vw, 42px);
+      font-weight: 800; margin-bottom: 12px; line-height: 1.2;
+    }
+    .hero h1 .grad { background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero p { color: var(--text-2); font-size: 16px; max-width: 540px; margin: 0 auto; }
+
+    /* App card */
+    .app-card {
+      background: var(--bg-2); border: 1px solid var(--border);
+      border-radius: 24px; padding: 32px; margin-bottom: 32px;
+    }
+
+    /* Input area */
+    .input-group { margin-bottom: 20px; }
+    .input-group label {
+      display: block; font-size: 13px; font-weight: 600; color: var(--text-2);
+      margin-bottom: 8px; text-transform: uppercase; letter-spacing: 1px;
+    }
+    .review-input {
+      width: 100%; min-height: 120px; background: var(--bg-3); border: 1px solid var(--border);
+      border-radius: 14px; padding: 16px; color: var(--text); font-family: inherit;
+      font-size: 14px; line-height: 1.6; resize: vertical; outline: none;
+      transition: border-color 0.3s;
+    }
+    .review-input:focus { border-color: var(--accent); }
+    .review-input::placeholder { color: var(--text-3); }
+
+    /* Options row */
+    .options-row { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+    .option-group { flex: 1; min-width: 180px; }
+    .option-group label { display: block; font-size: 12px; font-weight: 600; color: var(--text-3); margin-bottom: 6px; text-transform: uppercase; letter-spacing: 1px; }
+    .option-select {
+      width: 100%; background: var(--bg-3); border: 1px solid var(--border);
+      border-radius: 10px; padding: 10px 14px; color: var(--text);
+      font-family: inherit; font-size: 13px; outline: none;
+      appearance: none; cursor: pointer;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23a0a0c0' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 12px center;
+    }
+    .option-select:focus { border-color: var(--accent); }
+
+    /* Star rating */
+    .star-rating { display: flex; gap: 4px; margin-top: 6px; }
+    .star {
+      width: 32px; height: 32px; cursor: pointer; transition: transform 0.15s;
+      font-size: 24px; display: flex; align-items: center; justify-content: center;
+      border: none; background: none;
+    }
+    .star:hover { transform: scale(1.2); }
+    .star.active { filter: drop-shadow(0 0 4px rgba(255,209,102,0.5)); }
+
+    /* Generate button */
+    .generate-btn {
+      width: 100%; background: var(--gradient); color: white; border: none;
+      padding: 16px; border-radius: 14px; font-size: 16px; font-weight: 700;
+      cursor: pointer; transition: all 0.3s; font-family: inherit;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    .generate-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 30px var(--accent-glow); }
+    .generate-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+    .generate-btn .spinner { display: none; width: 18px; height: 18px; border: 2px solid rgba(255,255,255,0.3); border-top-color: white; border-radius: 50%; animation: spin 0.6s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Output */
+    .output-section { display: none; }
+    .output-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 16px; padding: 24px; margin-bottom: 16px;
+      position: relative;
+    }
+    .output-label {
+      font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px;
+      color: var(--accent); font-weight: 700; margin-bottom: 12px;
+    }
+    .output-text {
+      font-size: 14px; line-height: 1.7; white-space: pre-wrap;
+    }
+    .copy-btn {
+      position: absolute; top: 16px; right: 16px;
+      background: var(--bg-3); border: 1px solid var(--border);
+      color: var(--text-2); padding: 6px 14px; border-radius: 8px;
+      font-size: 12px; cursor: pointer; font-family: inherit;
+      transition: all 0.2s;
+    }
+    .copy-btn:hover { background: var(--surface-2); color: var(--text); }
+
+    /* Sentiment badge */
+    .sentiment { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 16px; }
+    .sentiment.positive { background: rgba(6,214,160,0.1); color: var(--success); }
+    .sentiment.negative { background: rgba(239,71,111,0.1); color: var(--danger); }
+    .sentiment.neutral { background: rgba(255,209,102,0.1); color: var(--warning); }
+
+    /* Stats */
+    .stats-row { display: flex; gap: 16px; margin-bottom: 32px; flex-wrap: wrap; }
+    .stat-card {
+      flex: 1; min-width: 120px; background: var(--surface);
+      border: 1px solid var(--border); border-radius: 14px; padding: 16px; text-align: center;
+    }
+    .stat-num { font-family: 'Outfit', sans-serif; font-size: 28px; font-weight: 700; }
+    .stat-num.orange { background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .stat-num.green { color: var(--accent-3); }
+    .stat-label { font-size: 11px; color: var(--text-3); margin-top: 4px; text-transform: uppercase; letter-spacing: 1px; }
+
+    /* Footer */
+    footer { text-align: center; padding: 40px 24px; color: var(--text-3); font-size: 13px; border-top: 1px solid var(--border); }
+
+    @media (max-width: 600px) {
+      .options-row { flex-direction: column; }
+      .container { padding: 24px 16px; }
+      .app-card { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <header>
+    <div style="display:flex; align-items:center; gap:20px;">
+      <div class="logo">ReviewGenius<span>AI</span></div>
+      <nav style="display:flex; gap:14px;">
+        <a href="https://work-minh-lap.vercel.app/synapsegeo" target="_blank" style="color:var(--text-2); text-decoration:none; font-size:13px; font-weight:500;">SynapseGEO</a>
+        <a href="https://headlineiq-eta.vercel.app" target="_blank" style="color:var(--text-2); text-decoration:none; font-size:13px; font-weight:500;">HeadlineIQ</a>
+        <a href="https://ai-automation-guide-omega.vercel.app" target="_blank" style="color:var(--accent-3); text-decoration:none; font-size:13px; font-weight:600;">Free Guides →</a>
+      </nav>
+    </div>
+    <div class="header-badge">✨ Free to Use</div>
+  </header>
+
+  <div class="container">
+    <div class="hero">
+      <h1>Respond to Reviews<br><span class="grad">Like a Pro, in Seconds</span></h1>
+      <p>Paste any customer review. Get a professional, on-brand response instantly. Works for Google, Yelp, TripAdvisor, and more.</p>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat-card"><div class="stat-num orange" id="stat-reviews">0</div><div class="stat-label">Reviews Processed</div></div>
+      <div class="stat-card"><div class="stat-num green" id="stat-time">0s</div><div class="stat-label">Avg Response Time</div></div>
+      <div class="stat-card"><div class="stat-num orange" id="stat-saved">0 hrs</div><div class="stat-label">Time Saved</div></div>
+    </div>
+
+    <div class="app-card">
+      <div class="input-group">
+        <label>📝 Paste the customer review</label>
+        <textarea class="review-input" id="reviewInput" placeholder="Example: We visited this restaurant last night for our anniversary. The food was amazing — especially the pasta carbonara. However, the wait time was quite long (45 minutes) and the waiter seemed distracted. Overall a good experience but there's room for improvement."></textarea>
+      </div>
+
+      <div class="options-row">
+        <div class="option-group">
+          <label>⭐ Review Rating</label>
+          <div class="star-rating" id="starRating">
+            <button class="star" data-rating="1" onclick="setRating(1)">⭐</button>
+            <button class="star" data-rating="2" onclick="setRating(2)">⭐</button>
+            <button class="star" data-rating="3" onclick="setRating(3)">⭐</button>
+            <button class="star" data-rating="4" onclick="setRating(4)">⭐</button>
+            <button class="star" data-rating="5" onclick="setRating(5)">⭐</button>
+          </div>
+        </div>
+        <div class="option-group">
+          <label>🏢 Business Type</label>
+          <select class="option-select" id="businessType">
+            <option value="restaurant">Restaurant / Café</option>
+            <option value="hotel">Hotel / Hospitality</option>
+            <option value="medical">Medical / Dental</option>
+            <option value="retail">Retail / E-Commerce</option>
+            <option value="salon">Salon / Spa</option>
+            <option value="fitness">Gym / Fitness</option>
+            <option value="services">Professional Services</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="option-group">
+          <label>🎭 Response Tone</label>
+          <select class="option-select" id="responseTone">
+            <option value="professional">Professional & Warm</option>
+            <option value="casual">Casual & Friendly</option>
+            <option value="formal">Formal & Corporate</option>
+            <option value="empathetic">Empathetic & Understanding</option>
+            <option value="enthusiastic">Enthusiastic & Grateful</option>
+          </select>
+        </div>
+      </div>
+
+      <button class="generate-btn" id="generateBtn" onclick="generateResponse()">
+        <span class="spinner" id="spinner"></span>
+        <span id="btnText">✨ Generate Response</span>
+      </button>
+    </div>
+
+    <div class="output-section" id="outputSection">
+      <div class="output-card">
+        <div class="output-label">AI Analysis</div>
+        <div id="sentimentBadge"></div>
+        <div class="output-text" id="analysisOutput"></div>
+      </div>
+
+      <div class="output-card">
+        <button class="copy-btn" onclick="copyResponse()">📋 Copy</button>
+        <div class="output-label">Your Response</div>
+        <div class="output-text" id="responseOutput"></div>
+      </div>
+
+      <div class="output-card">
+        <div class="output-label">💡 Pro Tips</div>
+        <div class="output-text" id="tipsOutput"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>ReviewGenius AI — Professional review responses in seconds. © 2026</p>
+    <p style="margin-top: 8px;">Built with ❤️ by AI Automation Guide</p>
+  </footer>
+
+  <script>
+    let selectedRating = 0;
+    let totalReviews = 0;
+
+    function setRating(rating) {
+      selectedRating = rating;
+      document.querySelectorAll('.star').forEach((star, i) => {
+        star.classList.toggle('active', i < rating);
+        star.style.opacity = i < rating ? '1' : '0.3';
+      });
+    }
+
+    function analyzeSentiment(text) {
+      const positiveWords = ['amazing', 'excellent', 'great', 'wonderful', 'fantastic', 'love', 'best', 'perfect', 'outstanding', 'recommend', 'delicious', 'beautiful', 'friendly', 'clean', 'helpful', 'professional', 'impressed', 'quality', 'comfortable', 'enjoyed'];
+      const negativeWords = ['terrible', 'horrible', 'worst', 'awful', 'disgusting', 'rude', 'dirty', 'slow', 'cold', 'overpriced', 'disappointed', 'never', 'waste', 'poor', 'broken', 'unprofessional', 'waited', 'ignored', 'complained', 'unacceptable'];
+
+      const lower = text.toLowerCase();
+      let posCount = positiveWords.filter(w => lower.includes(w)).length;
+      let negCount = negativeWords.filter(w => lower.includes(w)).length;
+
+      const topics = [];
+      if (lower.includes('food') || lower.includes('meal') || lower.includes('dish') || lower.includes('taste')) topics.push('Food Quality');
+      if (lower.includes('service') || lower.includes('staff') || lower.includes('waiter') || lower.includes('server')) topics.push('Service');
+      if (lower.includes('wait') || lower.includes('slow') || lower.includes('time') || lower.includes('long')) topics.push('Wait Time');
+      if (lower.includes('clean') || lower.includes('dirty') || lower.includes('hygiene')) topics.push('Cleanliness');
+      if (lower.includes('price') || lower.includes('expensive') || lower.includes('value') || lower.includes('cost')) topics.push('Pricing');
+      if (lower.includes('ambiance') || lower.includes('atmosphere') || lower.includes('decor') || lower.includes('music')) topics.push('Ambiance');
+      if (lower.includes('location') || lower.includes('parking')) topics.push('Location');
+      if (topics.length === 0) topics.push('General Experience');
+
+      let sentiment = 'neutral';
+      if (posCount > negCount + 1) sentiment = 'positive';
+      else if (negCount > posCount) sentiment = 'negative';
+
+      if (selectedRating >= 4) sentiment = 'positive';
+      else if (selectedRating <= 2 && selectedRating > 0) sentiment = 'negative';
+
+      return { sentiment, posCount, negCount, topics };
+    }
+
+    function generateResponse() {
+      const review = document.getElementById('reviewInput').value.trim();
+      if (!review) { alert('Please paste a review first!'); return; }
+
+      const btn = document.getElementById('generateBtn');
+      const spinner = document.getElementById('spinner');
+      const btnText = document.getElementById('btnText');
+
+      btn.disabled = true;
+      spinner.style.display = 'block';
+      btnText.textContent = 'Generating...';
+
+      setTimeout(() => {
+        const analysis = analyzeSentiment(review);
+        const businessType = document.getElementById('businessType').value;
+        const tone = document.getElementById('responseTone').value;
+
+        // Sentiment badge
+        const badge = document.getElementById('sentimentBadge');
+        const sentimentEmoji = { positive: '😊', neutral: '😐', negative: '😟' };
+        badge.innerHTML = `<div class="sentiment ${analysis.sentiment}">${sentimentEmoji[analysis.sentiment]} ${analysis.sentiment.charAt(0).toUpperCase() + analysis.sentiment.slice(1)} Review</div>`;
+
+        // Analysis
+        document.getElementById('analysisOutput').textContent =
+          `📊 Sentiment: ${analysis.sentiment.toUpperCase()} (${analysis.posCount} positive signals, ${analysis.negCount} negative signals)\n` +
+          `🏷️ Topics mentioned: ${analysis.topics.join(', ')}\n` +
+          `⭐ Rating: ${selectedRating > 0 ? selectedRating + '/5 stars' : 'Not specified'}\n` +
+          `📝 Review length: ${review.split(' ').length} words`;
+
+        // Generate response based on sentiment
+        const responses = getResponse(analysis, review, businessType, tone);
+        document.getElementById('responseOutput').textContent = responses.response;
+        document.getElementById('tipsOutput').textContent = responses.tips;
+
+        document.getElementById('outputSection').style.display = 'block';
+
+        totalReviews++;
+        document.getElementById('stat-reviews').textContent = totalReviews;
+        document.getElementById('stat-time').textContent = '2.1s';
+        document.getElementById('stat-saved').textContent = (totalReviews * 5) + ' min';
+
+        btn.disabled = false;
+        spinner.style.display = 'none';
+        btnText.textContent = '✨ Generate Response';
+
+        document.getElementById('outputSection').scrollIntoView({ behavior: 'smooth' });
+      }, 1500);
+    }
+
+    function getResponse(analysis, review, business, tone) {
+      const businessNames = {
+        restaurant: 'our restaurant', hotel: 'our hotel', medical: 'our practice',
+        retail: 'our store', salon: 'our salon', fitness: 'our gym',
+        services: 'our team', other: 'our business'
+      };
+      const biz = businessNames[business];
+
+      let response, tips;
+
+      if (analysis.sentiment === 'positive') {
+        const openings = {
+          professional: `Thank you so much for taking the time to share your wonderful experience at ${biz}!`,
+          casual: `Wow, thanks so much for the awesome review! 😊`,
+          formal: `We sincerely appreciate your thoughtful review and kind words about ${biz}.`,
+          empathetic: `Thank you for sharing your experience — it truly means the world to our team!`,
+          enthusiastic: `This review absolutely made our day! Thank you SO much! 🎉`
+        };
+
+        response = `${openings[tone]} We're thrilled to hear that you enjoyed ${analysis.topics[0] ? 'the ' + analysis.topics[0].toLowerCase() : 'your visit'}. ${
+          analysis.topics.length > 1 ? `It's great to know that the ${analysis.topics.slice(1).join(' and ').toLowerCase()} also met your expectations. ` : ''
+        }Your feedback motivates our entire team to keep delivering the best experience possible.\n\nWe'd love to welcome you back soon! Don't hesitate to reach out if there's anything we can do to make your next visit even better.\n\nWarmly,\n[Your Name]\n${biz.charAt(0).toUpperCase() + biz.slice(1)}`;
+
+        tips = `✅ Great positive review! Here's how to maximize its impact:\n\n` +
+          `1. Respond within 24 hours (you're doing great!)\n` +
+          `2. Mention specific details from their review to show you read it\n` +
+          `3. Invite them back with a subtle call-to-action\n` +
+          `4. Share this review on your social media (with permission)\n` +
+          `5. Consider sending a thank-you email with a small discount for their next visit`;
+
+      } else if (analysis.sentiment === 'negative') {
+        const openings = {
+          professional: `Thank you for sharing your honest feedback. We take every review seriously and appreciate you bringing this to our attention.`,
+          casual: `We're really sorry to hear about your experience. That's definitely not the standard we aim for.`,
+          formal: `We sincerely appreciate your candid feedback regarding your recent experience with ${biz}. Please accept our apologies for falling short of your expectations.`,
+          empathetic: `We're truly sorry about your experience. Reading your feedback, we completely understand your frustration, and we want you to know we hear you.`,
+          enthusiastic: `Thank you for being honest with us — feedback like this, while tough to read, is how we get better!`
+        };
+
+        response = `${openings[tone]}\n\n${
+          analysis.topics.includes('Wait Time') ? `We understand that the wait time was unacceptable, and we're actively working on improving our efficiency. ` : ''
+        }${
+          analysis.topics.includes('Service') ? `The service experience you described does not reflect our standards, and we will be addressing this with our team. ` : ''
+        }Your experience matters to us, and we'd love the opportunity to make this right.\n\nWould you be willing to reach out to us directly at [email/phone]? We'd like to learn more about what happened and ensure it doesn't happen again.\n\nSincerely,\n[Your Name]\n${biz.charAt(0).toUpperCase() + biz.slice(1)}`;
+
+        tips = `⚠️ Negative review — handle with care:\n\n` +
+          `1. DON'T be defensive or argue — empathize first\n` +
+          `2. Acknowledge the specific issue they mentioned\n` +
+          `3. Take the conversation offline (provide email/phone)\n` +
+          `4. Follow up privately to resolve the issue\n` +
+          `5. If resolved, politely ask if they'd consider updating their review\n` +
+          `6. Use this feedback to genuinely improve your operations\n` +
+          `7. Respond within 24 hours — speed shows you care`;
+
+      } else {
+        response = `Thank you for sharing your balanced feedback about ${biz}. We're glad to hear that some aspects of your experience were positive${
+          analysis.topics.length > 0 ? `, particularly the ${analysis.topics[0].toLowerCase()}` : ''
+        }.\n\nWe also appreciate you pointing out areas where we can improve. ${
+          analysis.topics.includes('Wait Time') ? `We understand the wait time wasn't ideal, and we're working on improving our operations. ` : ''
+        }${
+          analysis.topics.includes('Service') ? `We'll be reviewing the service feedback with our team. ` : ''
+        }Feedback like yours helps us grow and serve our guests better.\n\nWe hope to see you again soon and provide an even better experience.\n\nBest regards,\n[Your Name]\n${biz.charAt(0).toUpperCase() + biz.slice(1)}`;
+
+        tips = `📝 Mixed review — opportunity to shine:\n\n` +
+          `1. Thank them for BOTH the positive and constructive feedback\n` +
+          `2. Acknowledge what went well (validates their positive experience)\n` +
+          `3. Address concerns without being defensive\n` +
+          `4. Show you're taking action on their feedback\n` +
+          `5. Invite them back — they're likely to give you another chance\n` +
+          `6. Mixed reviews that get great responses often convert to loyal customers`;
+      }
+
+      return { response, tips };
+    }
+
+    function copyResponse() {
+      const text = document.getElementById('responseOutput').textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.querySelector('.copy-btn');
+        btn.textContent = '✅ Copied!';
+        setTimeout(() => btn.textContent = '📋 Copy', 2000);
+      });
+    }
+
+    // Init stars
+    setRating(0);
+  </script>
+</body>
+</html>

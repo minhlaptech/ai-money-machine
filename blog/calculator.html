@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Revenue Recovery & ROI Calculator — AI Business Systems</title>
+  <meta name="description" content="Calculate exactly how much revenue your business loses from delayed response times outside normal hours, and how much an AI Copilot can recover.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #070716;
+      --surface: #0e0e24;
+      --card-bg: rgba(20, 20, 48, 0.65);
+      --border: rgba(255, 255, 255, 0.08);
+      --accent: #7c5cfc;
+      --accent-glow: rgba(124, 92, 252, 0.35);
+      --cyan: #00f2fe;
+      --cyan-glow: rgba(0, 242, 254, 0.25);
+      --emerald: #00e676;
+      --rose: #ff3366;
+      --text: #f0f0ff;
+      --text-muted: #9ba1ba;
+      --text-sub: #6c7293;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 40px 20px;
+      overflow-x: hidden;
+    }
+
+    /* Ambient Background Glows */
+    .glow-orb {
+      position: fixed; border-radius: 50%; filter: blur(160px);
+      pointer-events: none; z-index: 0;
+    }
+    .orb-1 { width: 600px; height: 600px; background: var(--accent-glow); top: -150px; left: -100px; }
+    .orb-2 { width: 500px; height: 500px; background: var(--cyan-glow); bottom: -150px; right: -100px; }
+
+    .calc-container {
+      position: relative; z-index: 1;
+      max-width: 980px; margin: 0 auto;
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: 24px; padding: 48px; backdrop-filter: blur(20px);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+    }
+
+    .badge-pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(124, 92, 252, 0.15); border: 1px solid rgba(124, 92, 252, 0.4);
+      color: #b794f4; padding: 6px 16px; border-radius: 20px; font-size: 12px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; margin-bottom: 20px;
+    }
+    h1 {
+      font-family: 'Outfit', sans-serif; font-size: clamp(28px, 4vw, 42px);
+      font-weight: 800; line-height: 1.2; margin-bottom: 12px;
+      background: linear-gradient(135deg, #fff 30%, var(--cyan) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .subtitle { font-size: 16px; color: var(--text-muted); margin-bottom: 32px; max-width: 680px; }
+
+    /* Industry Presets */
+    .presets-bar {
+      display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 36px;
+      padding-bottom: 24px; border-bottom: 1px solid var(--border);
+    }
+    .preset-btn {
+      background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
+      color: var(--text); padding: 8px 16px; border-radius: 12px; font-size: 13px; font-weight: 600;
+      cursor: pointer; transition: all 0.2s;
+    }
+    .preset-btn:hover { background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2); }
+    .preset-btn.active {
+      background: rgba(124, 92, 252, 0.2); border-color: var(--accent); color: #fff;
+      box-shadow: 0 0 15px rgba(124, 92, 252, 0.3);
+    }
+
+    /* Main Grid: Inputs vs Outputs */
+    .grid-wrap {
+      display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 36px;
+    }
+    @media (max-width: 840px) {
+      .grid-wrap { grid-template-columns: 1fr; }
+      .calc-container { padding: 28px 20px; }
+    }
+
+    /* Sliders Section */
+    .slider-group { margin-bottom: 28px; }
+    .slider-header {
+      display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;
+    }
+    .slider-label { font-size: 14px; font-weight: 600; color: #fff; }
+    .slider-val {
+      font-family: 'JetBrains Mono', monospace; font-size: 18px; font-weight: 700; color: var(--cyan);
+    }
+    input[type=range] {
+      width: 100%; height: 6px; border-radius: 6px;
+      background: rgba(255, 255, 255, 0.1); outline: none; -webkit-appearance: none;
+      cursor: pointer;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none; width: 20px; height: 20px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--cyan));
+      cursor: pointer; box-shadow: 0 0 10px rgba(0, 242, 254, 0.6);
+    }
+
+    /* Output Results Box */
+    .results-box {
+      background: linear-gradient(180deg, rgba(28, 22, 58, 0.7) 0%, rgba(14, 14, 34, 0.9) 100%);
+      border: 1px solid rgba(124, 92, 252, 0.4); border-radius: 20px; padding: 32px 28px;
+      display: flex; flex-direction: column; justify-content: space-between;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    }
+    .res-item { margin-bottom: 24px; }
+    .res-label {
+      font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+      color: var(--text-muted); margin-bottom: 6px;
+    }
+    .res-val-lost {
+      font-family: 'JetBrains Mono', monospace; font-size: 32px; font-weight: 800; color: var(--rose);
+    }
+    .res-val-recovered {
+      font-family: 'JetBrains Mono', monospace; font-size: 38px; font-weight: 800; color: var(--emerald);
+      text-shadow: 0 0 20px rgba(0, 230, 118, 0.4);
+    }
+    .res-val-roi {
+      font-family: 'JetBrains Mono', monospace; font-size: 24px; font-weight: 700; color: var(--cyan);
+    }
+
+    .divider { height: 1px; background: rgba(255,255,255,0.08); margin: 16px 0; }
+
+    .btn-cta {
+      display: block; text-align: center; background: linear-gradient(135deg, var(--accent), var(--cyan));
+      color: #000; font-weight: 800; font-size: 15px; padding: 14px 24px; border-radius: 12px;
+      text-decoration: none; transition: transform 0.15s, box-shadow 0.2s; margin-top: 12px;
+    }
+    .btn-cta:hover { transform: scale(1.02); box-shadow: 0 4px 25px rgba(0, 242, 254, 0.4); }
+
+    .disclaimer { font-size: 11px; color: var(--text-sub); text-align: center; margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+
+  <main class="calc-container">
+    <div class="badge-pill">⚡ INTERACTIVE BUSINESS REVENUE AUDITOR</div>
+    <h1>AI Revenue Recovery & ROI Calculator</h1>
+    <p class="subtitle">
+      78% of customers buy from the first provider who responds. Calculate your monthly revenue leak from delayed after-hours inquiries and your return on an AI Copilot.
+    </p>
+
+    <!-- Industry Presets -->
+    <div class="presets-bar">
+      <span style="font-size:13px; color:var(--text-muted); align-self:center; margin-right:4px;">Presets:</span>
+      <button class="preset-btn active" onclick="setPreset('dental', this)">🦷 Cosmetic Dentistry</button>
+      <button class="preset-btn" onclick="setPreset('hvac', this)">❄️ 24/7 HVAC & Plumbing</button>
+      <button class="preset-btn" onclick="setPreset('law', this)">🏛️ Personal Injury Law</button>
+      <button class="preset-btn" onclick="setPreset('medspa', this)">✨ MedSpa & Aesthetics</button>
+      <button class="preset-btn" onclick="setPreset('saas', this)">💻 B2B SaaS Startup</button>
+    </div>
+
+    <div class="grid-wrap">
+      <!-- Left: Interactive Sliders -->
+      <div class="sliders-col">
+        <div class="slider-group">
+          <div class="slider-header">
+            <span class="slider-label">Monthly Website Inquiries / Leads</span>
+            <span class="slider-val" id="disp-inquiries">80 Leads</span>
+          </div>
+          <input type="range" id="range-inquiries" min="10" max="500" step="5" value="80" oninput="calculate()">
+        </div>
+
+        <div class="slider-group">
+          <div class="slider-header">
+            <span class="slider-label">Average Retained Client Lifetime Value</span>
+            <span class="slider-val" id="disp-val">$1,200</span>
+          </div>
+          <input type="range" id="range-val" min="100" max="8000" step="100" value="1200" oninput="calculate()">
+        </div>
+
+        <div class="slider-group">
+          <div class="slider-header">
+            <span class="slider-label">After-Hours / Weekend Inquiries (% of total)</span>
+            <span class="slider-val" id="disp-dropoff">40%</span>
+          </div>
+          <input type="range" id="range-dropoff" min="15" max="70" step="5" value="40" oninput="calculate()">
+        </div>
+
+        <div class="slider-group">
+          <div class="slider-header">
+            <span class="slider-label">AI Copilot Recovery Rate (Conservative)</span>
+            <span class="slider-val" id="disp-recovery">35%</span>
+          </div>
+          <input type="range" id="range-recovery" min="20" max="60" step="5" value="35" oninput="calculate()">
+        </div>
+
+        <div style="background:rgba(255,255,255,0.02); border:1px solid var(--border); border-radius:14px; padding:16px; font-size:13px; color:var(--text-muted);">
+          💡 <strong>How it works:</strong> Inquiries arriving between 6 PM and 8 AM face high bounce rates. An instant 24/7 AI booking assistant recovers approximately 35% of those lost bookings into paid appointments.
+        </div>
+      </div>
+
+      <!-- Right: Real-time Financial Impact -->
+      <div class="results-box">
+        <div>
+          <div class="res-item">
+            <div class="res-label">🚨 Estimated Monthly Lost Revenue:</div>
+            <div class="res-val-lost" id="res-lost">$38,400</div>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="res-item">
+            <div class="res-label">✅ Monthly Recovered Revenue (AI Copilot):</div>
+            <div class="res-val-recovered" id="res-recovered">+$13,440/mo</div>
+          </div>
+
+          <div class="res-item" style="margin-bottom:0;">
+            <div class="res-label">📈 Estimated Annual Additional Net:</div>
+            <div style="font-family:'JetBrains Mono', monospace; font-size:22px; font-weight:700; color:#fff;" id="res-annual">
+              +$161,280/year
+            </div>
+          </div>
+
+          <div class="res-item" style="margin-top:14px; margin-bottom:0;">
+            <div class="res-label">💰 Estimated ROI on AI Retainer ($750/mo):</div>
+            <div class="res-val-roi" id="res-roi">1,692% ROI</div>
+          </div>
+        </div>
+
+        <div>
+          <a href="https://work-minh-lap.vercel.app/chatbotdemo" target="_blank" class="btn-cta">
+            👉 Test Live Working Copilot Demo ↗
+          </a>
+          <div class="disclaimer">
+            Based on average client conversion metrics across 15+ automated workflows.
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const PRESETS = {
+      dental: { inquiries: 90, val: 1500, dropoff: 40, recovery: 35 },
+      hvac: { inquiries: 120, val: 950, dropoff: 45, recovery: 40 },
+      law: { inquiries: 40, val: 4500, dropoff: 35, recovery: 30 },
+      medspa: { inquiries: 70, val: 850, dropoff: 50, recovery: 35 },
+      saas: { inquiries: 250, val: 600, dropoff: 45, recovery: 25 }
+    };
+
+    function setPreset(key, btn) {
+      document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const p = PRESETS[key];
+      document.getElementById('range-inquiries').value = p.inquiries;
+      document.getElementById('range-val').value = p.val;
+      document.getElementById('range-dropoff').value = p.dropoff;
+      document.getElementById('range-recovery').value = p.recovery;
+      calculate();
+    }
+
+    function calculate() {
+      const inq = parseInt(document.getElementById('range-inquiries').value);
+      const val = parseInt(document.getElementById('range-val').value);
+      const drop = parseInt(document.getElementById('range-dropoff').value);
+      const rec = parseInt(document.getElementById('range-recovery').value);
+
+      document.getElementById('disp-inquiries').innerText = inq + ' Leads';
+      document.getElementById('disp-val').innerText = '$' + val.toLocaleString();
+      document.getElementById('disp-dropoff').innerText = drop + '%';
+      document.getElementById('disp-recovery').innerText = rec + '%';
+
+      // Math
+      const afterHoursLeads = inq * (drop / 100);
+      const lostRev = afterHoursLeads * val;
+      const recoveredLeads = afterHoursLeads * (rec / 100);
+      const recoveredMonthlyRev = recoveredLeads * val;
+      const annualRev = recoveredMonthlyRev * 12;
+      const monthlyRetainerCost = 750;
+      const roi = Math.round(((recoveredMonthlyRev - monthlyRetainerCost) / monthlyRetainerCost) * 100);
+
+      document.getElementById('res-lost').innerText = '$' + Math.round(lostRev).toLocaleString();
+      document.getElementById('res-recovered').innerText = '+$' + Math.round(recoveredMonthlyRev).toLocaleString() + '/mo';
+      document.getElementById('res-annual').innerText = '+$' + Math.round(annualRev).toLocaleString() + '/year';
+      document.getElementById('res-roi').innerText = (roi > 0 ? roi.toLocaleString() : 0) + '% ROI';
+    }
+
+    window.addEventListener('DOMContentLoaded', calculate);
+  </script>
+</body>
+</html>
