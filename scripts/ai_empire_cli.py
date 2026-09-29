@@ -26,7 +26,7 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v11.0 ⚡
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v12.0 ⚡
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
@@ -63,6 +63,9 @@ def print_banner():
   [32] 📺 Xuất Lịch Phát Sóng YouTube 40 Video & Gửi Lộ Trình (YouTube Publishing Engine)
   [33] 🚀 Mở Rộng Phễu Doanh Nghiệp Lên 60 Accounts & $161,700 Pipeline (Expand CRM Pipeline)
   [34] ⚡ Kích Hoạt Nhanh Chiến Dịch Cold Outreach Stage 1-3 Kèm Telegram Ping
+  [35] ⚡ Khởi Chạy Micro-SaaS Suite Hub & Bộ 3 AI Tools (/tools & /saas - $39 Pass)
+  [36] 🚪 Kích Hoạt Chiến Dịch Stage 3 Break-Up Outreach (Day 7 FOMO Close 60 Leads)
+  [37] 📦 Mở Trang Bán Hàng Master Bundle Showcase (/bundle - Lemon Squeezy Store ID 485872)
   [0] Thoát
 ======================================================================
 """)
@@ -82,7 +85,7 @@ def run_script(rel_path, args=None):
 def main_loop():
     while True:
         print_banner()
-        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-34]: ").strip()
+        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-37]: ").strip()
 
         if choice == '1':
             ping = input("Bạn có muốn gửi báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
@@ -419,11 +422,39 @@ def main_loop():
                 args.extend(["--batch", batch])
             run_script("scripts/outreach_dispatcher.py", args)
 
+        elif choice == '35':
+            saas_url = "https://work-minh-lap.vercel.app/tools"
+            local_saas = ROOT_DIR / "tools" / "index.html"
+            print(f"[*] Đang mở Micro-SaaS Suite Hub trên trình duyệt: {saas_url}")
+            try:
+                webbrowser.open(saas_url)
+            except Exception:
+                webbrowser.open(local_saas.as_uri())
+
+        elif choice == '36':
+            batch = input("Chọn Batch tiếp cận Stage 3 Break-Up (1-6 / Enter: Tất cả 60 leads): ").strip()
+            tg = input("Bắn thông báo chốt hạ về Telegram không? (y/n, mặc định y): ").strip().lower()
+            args = ["--stage", "3", "--mark-sent"]
+            if batch in ['1', '2', '3', '4', '5', '6']:
+                args.extend(["--batch", batch])
+            if tg != 'n':
+                args.append("--telegram")
+            run_script("scripts/outreach_dispatcher.py", args)
+
+        elif choice == '37':
+            bundle_url = "https://work-minh-lap.vercel.app/bundle"
+            local_bundle = ROOT_DIR / "bundle" / "index.html"
+            print(f"[*] Đang mở Master Bundle Showcase trên trình duyệt: {bundle_url}")
+            try:
+                webbrowser.open(bundle_url)
+            except Exception:
+                webbrowser.open(local_bundle.as_uri())
+
         elif choice == '0':
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 34.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 37.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 
