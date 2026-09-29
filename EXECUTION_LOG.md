@@ -476,3 +476,21 @@
     - Tuần 4: Kiếm tiền từ Sản phẩm số, Prompt Pack & Freelancing.
     - 2 Ngày Bonus: Lộ trình 90 ngày tự do tài chính với 8 nguồn thu nhập AI.
   - Tự động hóa bằng script [`scripts/batch_shorts_generator.py`](file:///d:/Project/work/scripts/batch_shorts_generator.py).
+
+---
+
+## 📅 2026-09-29 | Phiên #18 | YouTube Video #007, Cỗ Máy Quét Lead Khách Hàng Tự Động & Chương Trình Affiliate 40%
+
+### 🎉 Milestones Hoàn Thành:
+- ✅ **Kịch Bản YouTube Video #007 ([video_007_print_on_demand_ai.md](file:///d:/Project/work/projects/youtube_faceless/scripts/video_007_print_on_demand_ai.md))**:
+  - Chủ đề: *"How to Build a $1,000/Month AI Print-on-Demand Store in 2026 (Etsy + Printify)"* (13–15 phút).
+  - Phân tích chiến lược ngách Developer/Tech, công thức viết prompt tạo hình vector thương mại, cơ cấu biên lợi nhuận $18.00/hoodie và thuật toán 13 thẻ tags SEO Etsy.
+  - Tự động xuất trọn bộ tiêu đề A/B testing, mô tả, thẻ tags và bình luận ghim tại `projects/youtube_faceless/metadata/metadata_video_007.md`.
+- ✅ **Cỗ Máy Tìm Kiếm & Trích Xuất Khách Hàng Tự Động ([scripts/lead_finder.py](file:///d:/Project/work/scripts/lead_finder.py))**:
+  - Tự động quét danh bạ doanh nghiệp địa phương (Nha khoa, Bác sĩ, Luật sư, Kế toán, Bất động sản) hoàn toàn miễn phí không cần API trả phí.
+  - Trích xuất tên, website, số điện thoại, địa chỉ, dự đoán email và tạo sẵn đường link `mailto:` chào hàng 1-click cá nhân hóa.
+  - Xuất dữ liệu đồng thời ra định dạng JSON và CSV tại thư mục [`prospects/`](file:///d:/Project/work/prospects/).
+- ✅ **Chương Trình Đối Tác Tiếp Thị Liên Kết 40% ([AFFILIATE_PROGRAM.md](file:///d:/Project/work/projects/digital_products/AFFILIATE_PROGRAM.md))**:
+  - Thiết lập cơ chế hoa hồng 40% ($15.60/đơn Master Bundle $39) tự động thanh toán qua Lemon Squeezy với thời gian lưu Cookie 60 ngày.
+  - Mẫu email mời hợp tác dành riêng cho Chủ kênh YouTube / TikToker công nghệ và Chủ bản tin Newsletter.
+  - Bộ bài đăng mẫu (Swipe Copy) trên Twitter/X và LinkedIn để đối tác sử dụng ngay lập tức.

@@ -75,6 +75,35 @@ VIDEO_METADATA_PRESETS = {
             "passive income software", "ai money machine", "seo audit tool"
         ],
         "pinned_comment": "🛠️ Test the live Micro-SaaS tool we built in this video: https://synapse-geo-audit.vercel.app\n\nGet the complete 16,000-word launch blueprint here: https://minhlap.gumroad.com/l/xqckmu\n\nWhat micro-tool idea are you building next? Let me know below!"
+    },
+    "video_007": {
+        "title": "How to Build a $1,000/Month AI Print-on-Demand Store in 2026 (Etsy + Printify)",
+        "alt_titles": [
+            "AI Print on Demand in 2026: Step-by-Step for Beginners ($18 Profit per Hoodie)",
+            "How I Built a Passive $1,000/Mo Etsy Store Using AI Art & Printify",
+            "The 2026 AI Print-on-Demand Blueprint (Zero Inventory, Hands-Off Fulfillment)"
+        ],
+        "timestamps": [
+            "00:00 - The Truth About Print-on-Demand in 2026",
+            "01:45 - Step 1: High-Passion, High-Spend Niche Strategy",
+            "04:15 - Step 2: Generating Commercial Vector Art with AI",
+            "07:00 - Step 3: Setting Up Printify & Margin Optimization ($18 Net)",
+            "09:30 - Step 4: The 13-Tag Etsy SEO Algorithm Formula",
+            "12:10 - Step 5: Automating Orders to 100% Hands-Off Fulfillment",
+            "13:45 - Free Design Templates & Download Links"
+        ],
+        "links": [
+            ("📖 The AI Money Blueprint eBook", "https://minhlap.gumroad.com/l/xqckmu"),
+            ("🎯 110+ AI Marketing Prompts Pack", "https://minhlap.gumroad.com"),
+            ("🎁 The AI Empire Master Bundle ($39)", "https://minhlap.lemonsqueezy.com"),
+            ("📚 AI Resource Hub & Free Guides", "https://ai-automation-guide-omega.vercel.app")
+        ],
+        "tags": [
+            "print on demand ai", "etsy print on demand 2026", "printify tutorial", "midjourney for print on demand",
+            "etsy seo tags", "ai side hustle 2026", "how to sell on etsy with ai", "passive income print on demand",
+            "tech merchandise", "programmer hoodie", "ai art for commercial use", "etsy digital store"
+        ],
+        "pinned_comment": "👕 Download our complete Print-on-Demand listing generator & prompt guide inside our free resource vault: https://ai-automation-guide-omega.vercel.app\n\nGrab the 16,000-word launch blueprint eBook: https://minhlap.gumroad.com/l/xqckmu\n\nWhich niche are you building for: Tech, Gaming, or Fitness? Drop a comment below! 👇"
     }
 }
 
@@ -141,6 +170,6 @@ In this video, I break down the exact step-by-step roadmap to start your own AI 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="YouTube SEO & Metadata Package Generator")
-    parser.add_argument("--video", default="video_006", choices=["video_006", "video_005"], help="Video ID")
+    parser.add_argument("--video", default="video_007", choices=["video_005", "video_006", "video_007"], help="Video ID")
     args = parser.parse_args()
     generate_youtube_metadata(args.video)
