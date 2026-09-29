@@ -53,6 +53,7 @@ def print_banner():
   [22] 📋 Xuất Trọn Bộ Dữ Liệu Phễu B2B CRM Ra File CSV / JSON (Export 30 Leads & Live URLs)
   [23] 🏛️ Mở Executive Client VIP Portal Hub (/portal & 30 Dedicated Portals)
   [24] 🤝 Mở Cổng Quản Lý Đối Tác & Tiếp Thị Liên Kết (/referral - 50% RevShare)
+  [25] 🎙️ Studio Sản Xuất Voiceover AI & Phụ Đề SRT (30 Shorts / 10 Full Episodes)
   [0] Thoát
 ======================================================================
 """)
@@ -72,7 +73,7 @@ def run_script(rel_path, args=None):
 def main_loop():
     while True:
         print_banner()
-        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-24]: ").strip()
+        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-25]: ").strip()
 
         if choice == '1':
             ping = input("Bạn có muốn gửi báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
@@ -290,11 +291,43 @@ def main_loop():
             except Exception:
                 webbrowser.open(local_ref.as_uri())
 
+        elif choice == '25':
+            print("\nChọn định dạng nội dung muốn sản xuất Voiceover & Subtitles:")
+            print("  [1] 30-Day Viral Shorts / TikTok Sprint (Kịch bản 30-60s)")
+            print("  [2] 10 Full-Length Faceless YouTube Channel Episodes (Video 8-10 phút)")
+            sub = input("Nhập lựa chọn (1/2, mặc định 1): ").strip()
+            if sub == '2':
+                ep = input("Nhập số tập (1-10, hoặc 'all' để làm toàn bộ): ").strip().lower()
+                tg = input("Bắn báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
+                args = ["--type", "episode"]
+                if ep == 'all':
+                    args.append("--all")
+                elif ep.isdigit() and 1 <= int(ep) <= 10:
+                    args.extend(["--episode", ep])
+                else:
+                    args.extend(["--episode", "1"])
+                if tg != 'n':
+                    args.append("--telegram")
+                run_script("scripts/voiceover_generator.py", args)
+            else:
+                day = input("Nhập số ngày (1-30, hoặc 'all' để làm toàn bộ): ").strip().lower()
+                tg = input("Bắn báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
+                args = ["--type", "shorts"]
+                if day == 'all':
+                    args.append("--all")
+                elif day.isdigit() and 1 <= int(day) <= 30:
+                    args.extend(["--day", day])
+                else:
+                    args.extend(["--day", "1"])
+                if tg != 'n':
+                    args.append("--telegram")
+                run_script("scripts/voiceover_generator.py", args)
+
         elif choice == '0':
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 24.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 25.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 

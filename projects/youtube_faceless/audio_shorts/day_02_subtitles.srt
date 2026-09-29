@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:01,880
+Look what happens when I
+
+2
+00:00:01,880 --> 00:00:03,603
+ask a local clinic for
+
+3
+00:00:03,603 --> 00:00:05,640
+Invisalign prices at 2 AM.
+
+4
+00:00:05,640 --> 00:00:07,990
+Instead of waiting until 9 AM,
+
+5
+00:00:07,990 --> 00:00:09,713
+the bot quotes prices,
+
+6
+00:00:09,713 --> 00:00:11,045
+checks insurance,
+
+7
+00:00:11,045 --> 00:00:13,317
+and locks down an appointment
+
+8
+00:00:13,317 --> 00:00:15,197
+slot in 20 seconds flat.
+
+9
+00:00:15,197 --> 00:00:17,155
+Link to the exact working
+
+10
+00:00:17,155 --> 00:00:19,584
+template is in the description!
