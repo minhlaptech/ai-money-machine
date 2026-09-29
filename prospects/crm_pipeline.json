@@ -514,10 +514,10 @@
     "city": "Minneapolis, MN",
     "to": "emergency@apexrestorationmn.example",
     "doc": "Sarah Lindqvist",
-    "status": "booked",
+    "status": "won",
     "value": 5500,
     "retainer": 800,
-    "last_touch": "2026-09-30 04:14"
+    "last_touch": "2026-09-30 04:15"
   },
   {
     "id": 41,
@@ -566,10 +566,10 @@
     "city": "New York, NY",
     "to": "strategy@searchvelocityai.example",
     "doc": "Nathan Ross",
-    "status": "day7",
+    "status": "booked",
     "value": 3000,
     "retainer": 800,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:15"
   },
   {
     "id": 45,
@@ -722,10 +722,10 @@
     "city": "Chicago, IL",
     "to": "appointments@restoreregenortho.example",
     "doc": "Dr. Steven Choi",
-    "status": "day7",
+    "status": "booked",
     "value": 3200,
     "retainer": 800,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:15"
   },
   {
     "id": 57,
@@ -735,10 +735,10 @@
     "city": "Atlanta, GA",
     "to": "consult@clearvisionlasikatl.example",
     "doc": "Dr. Angela White",
-    "status": "booked",
+    "status": "won",
     "value": 3500,
     "retainer": 800,
-    "last_touch": "2026-09-30 04:14"
+    "last_touch": "2026-09-30 04:15"
   },
   {
     "id": 58,
