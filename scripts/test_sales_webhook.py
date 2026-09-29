@@ -88,6 +88,50 @@ SCENARIOS = {
             "amount": "$1,850.00",
             "order_id": "INV-2026-001"
         }
+    },
+    "microsaas_all_access": {
+        "platform": "Lemon Squeezy",
+        "headers": {
+            "Content-Type": "application/json",
+            "x-event-name": "order_created"
+        },
+        "payload": {
+            "meta": { "event_name": "order_created" },
+            "data": {
+                "id": "1049299",
+                "attributes": {
+                    "user_name": "Alexander Vance",
+                    "user_email": "alex.vance@growthsaas.example",
+                    "total_formatted": "$39.00",
+                    "identifier": "LSQ-SAAS-3901",
+                    "first_order_item": {
+                        "product_name": "Autonomous Micro-SaaS Trio — All-Access Lifetime Pass ($39)"
+                    }
+                }
+            }
+        }
+    },
+    "reviewgenius_pro": {
+        "platform": "Lemon Squeezy",
+        "headers": {
+            "Content-Type": "application/json",
+            "x-event-name": "order_created"
+        },
+        "payload": {
+            "meta": { "event_name": "order_created" },
+            "data": {
+                "id": "1049305",
+                "attributes": {
+                    "user_name": "Elena Rostova",
+                    "user_email": "elena.rostova@pacificlaw.example",
+                    "total_formatted": "$19.00",
+                    "identifier": "LSQ-REV-1901",
+                    "first_order_item": {
+                        "product_name": "ReviewGenius AI Pro — Founder Lifetime Pass ($19)"
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -142,7 +186,14 @@ def send_direct_telegram(sc):
         amount = attrs.get("total_formatted", "$47.00")
         product = attrs.get("first_order_item", {}).get("product_name", "AI Blueprint")
         order_id = attrs.get("identifier", "LSQ-001")
-        fulfill = "https://work-minh-lap.vercel.app/guides/The_AI_Money_Blueprint.pdf"
+        if "micro-saas" in product.lower() or "suite" in product.lower():
+            fulfill = "https://work-minh-lap.vercel.app/tools"
+        elif "review" in product.lower():
+            fulfill = "https://work-minh-lap.vercel.app/reviewgenius"
+        elif "headline" in product.lower():
+            fulfill = "https://work-minh-lap.vercel.app/headlineiq"
+        else:
+            fulfill = "https://work-minh-lap.vercel.app/guides/The_AI_Money_Blueprint.pdf"
     elif "seller_id" in payload: # Gumroad
         cust_name = payload.get("full_name", "Customer")
         cust_email = payload.get("email", "N/A")
@@ -191,7 +242,7 @@ def send_direct_telegram(sc):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Test and simulate sales webhooks")
-    parser.add_argument("--scenario", choices=["lemonsqueezy_blueprint", "gumroad_prompts", "b2b_retainer_setup"], default="lemonsqueezy_blueprint")
+    parser.add_argument("--scenario", choices=["lemonsqueezy_blueprint", "gumroad_prompts", "b2b_retainer_setup", "microsaas_all_access", "reviewgenius_pro"], default="lemonsqueezy_blueprint")
     parser.add_argument("--url", default="https://work-minh-lap.vercel.app/api/webhook", help="Webhook endpoint URL")
     args = parser.parse_args()
 

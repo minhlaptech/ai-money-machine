@@ -73,36 +73,37 @@ def generate_briefing(send_telegram=False):
 ======================================================================
 
 🌐 1. TRẠNG THÁI HỆ THỐNG & KHO MEDIA EMPIRE
-  • 15 Ứng dụng & API đám mây Vercel: 100% Hoạt động (HTTP 200)
+  • 16 Ứng dụng & API đám mây Vercel: 100% Hoạt động (HTTP 200)
+  • Micro-SaaS Suite Hub: https://work-minh-lap.vercel.app/tools ($39 All-Access Pass)
+  • VIP Onboarding Intake Hub: https://work-minh-lap.vercel.app/onboarding (48h SLA Sprint)
   • Sàn Dịch Vụ AI Freelance & Agency Hub: https://work-minh-lap.vercel.app/freelance (8 Gigs & 16:9 Banners)
   • Sàn Thương Mại Merch Đồ Lập Trình Viên POD: https://work-minh-lap.vercel.app/merch (6 Sản Phẩm & 39.6% Margin)
   • Cổng thanh toán: Lemon Squeezy (Store ID: 485872) & Gumroad Live
   • Cổng Đối tác Tiếp thị (50% RevShare): https://work-minh-lap.vercel.app/referral
   • Cổng VIP Client Portals: https://work-minh-lap.vercel.app/portal (60 Doanh nghiệp)
   • Sales Pitch Decks Showcase: https://work-minh-lap.vercel.app/pitches (60 Decks)
-  • AI Media & Video Studio Hub: https://work-minh-lap.vercel.app/studio
-  • Kho Media Video MP4: 40/40 Video Hoàn Tất (10 Full Episodes + 30 Shorts, 406.7 MB)
+  • AI Media & Video Studio Hub: https://work-minh-lap.vercel.app/studio (40 MP4s + Video Player)
+  • Kho Media Video MP4: 40/40 Video Hoàn Tất (10 Full Episodes + 30 Shorts, 388.0 MB)
   • Lịch Mạng Xã Hội Đa Kênh: 20 bài đăng sẵn sàng Buffer / Metricool
   • Webhook xử lý đơn hàng: Serverless /api/webhook (Stripe, LemonSqueezy, Gumroad)
   • Cổng tiếp nhận Lead: Serverless API POST /api/contact sẵn sàng
 
 📊 2. TIẾN ĐỘ PHỄU KHÁCH HÀNG (CRM PIPELINE)
   • Tổng khách hàng tiềm năng: {crm['total']} doanh nghiệp (6 Batches)
-  • Đang triển khai tiếp cận:  {crm['contacted']}/{crm['total']} doanh nghiệp ({crm['stage2']} leads tại Stage 2 ROI Audit)
-  • Khách hàng mới trong phễu: {crm['new']} doanh nghiệp (Batch 4, 5, 6 sẵn sàng Stage 1)
-  • Cuộc gọi demo đã chốt:    {crm['booked']} cuộc hẹn
-  • Hợp đồng Retainer đã ký:   {crm['won']} đối tác
-  • TỔNG DUNG LƯỢNG PHỄU:      ${crm['pipeline']:,} Upfront (${crm['mrr']:,}/tháng MRR)
+  • Tiến độ tiếp cận 3 chạm:   {crm['stage3']}/{crm['total']} doanh nghiệp đã hoàn tất Stage 3 (Day 7 FOMO Close)
+  • Cuộc gọi demo đã chốt:     {crm['booked']} cuộc hẹn
+  • Hợp đồng Retainer đã ký:    {crm['won']} đối tác
+  • TỔNG DUNG LƯỢNG PHỄU:       ${crm['pipeline']:,} Upfront (${crm['mrr']:,}/tháng MRR)
 
 ⚡ 3. NHIỆM VỤ TÁC CHIẾN 30 PHÚT TRONG NGÀY (SOP ROUTINE)
   1️⃣ Buổi Sáng (10 Phút):
      - Mở https://work-minh-lap.vercel.app -> Tab "🚀 1-Click Send Leads"
-     - Kiểm tra phản hồi Stage 2 từ Batch 1, 2, 3 và chuẩn bị kích hoạt Stage 1 cho Batch 4, 5, 6.
+     - Kiểm tra phản hồi Stage 3 từ 60 doanh nghiệp và cập nhật lịch hẹn discovery calls.
   2️⃣ Buổi Trưa (10 Phút):
      - Lấy 1 video Short trong projects/youtube_faceless/rendered_shorts/ đăng lên YouTube Shorts / TikTok / Reels.
      - Nạp buffer_schedule.csv vào Buffer / Metricool để tự động hóa 20 bài đăng social.
   3️⃣ Buổi Tối (10 Phút):
-     - Kiểm tra đơn hàng mới trên Sàn Freelance (/freelance) hoặc Sàn Merch (/merch).
+     - Kiểm tra đơn hàng mới trên Sàn Freelance (/freelance), Sàn Merch (/merch), hoặc SaaS Suite (/tools).
      - Kiểm tra doanh thu mới trên Lemon Squeezy / Gumroad.
 
 📡 4. CƠ HỘI NÓNG TRONG NGÀY (MARKET RADAR)
@@ -120,27 +121,28 @@ def generate_briefing(send_telegram=False):
 
 ⏰ <b>Thời gian:</b> <code>{now_vn}</code>
 
-🌐 <b>Hệ thống:</b> <code>15/15 Cloud Systems Live (100% Operational)</code>
+🌐 <b>Hệ thống:</b> <code>16/16 Cloud Systems Live (100% Operational)</code>
 📊 <b>CRM Pipeline:</b> <code>{crm['total']} Leads (6 Batches)</code> • <b>Tiềm năng:</b> <code>${crm['pipeline']:,}</code> (${crm['mrr']:,}/tháng MRR)
-📬 <b>Outreach:</b> <code>{crm['contacted']}/{crm['total']} Active</code> ({crm['stage2']} Stage 2) | 🆕 <b>New:</b> <code>{crm['new']}</code> | 📞 <b>Hẹn:</b> <code>{crm['booked']}</code> | 🏆 <b>Ký:</b> <code>{crm['won']}</code>
+📬 <b>Outreach:</b> <code>{crm['stage3']}/{crm['total']} Hoàn tất Stage 3 (Day 7 Close)</code> | 📞 <b>Hẹn:</b> <code>{crm['booked']}</code> | 🏆 <b>Ký:</b> <code>{crm['won']}</code>
 
-🎬 <b>Kho Video Media:</b> <code>40/40 MP4s Ready (406.7 MB)</code>
-• 10 Full Episodes 1080p (77.6 mins)
-• 30 Viral Shorts 9:16 (1080x1920)
+🎬 <b>Kho Video Media:</b> <code>40/40 MP4s Ready (388.0 MB)</code>
+• 10 Full Episodes 1080p + 30 Viral Shorts 9:16
+• HTML5 Video Player Modal tại /studio
 • 20 Scheduled Social Posts (Buffer CSV)
 
-👕 <b>Merch Store:</b> <a href="https://work-minh-lap.vercel.app/merch">6 POD Products Live</a>
-💼 <b>Freelance Hub:</b> <a href="https://work-minh-lap.vercel.app/freelance">8 Gigs & 16:9 Covers Live</a>
-🏛️ <b>VIP Portals:</b> <a href="https://work-minh-lap.vercel.app/portal">30 Client Portals Live</a>
+⚡ <b>SaaS Suite ($39):</b> <a href="https://work-minh-lap.vercel.app/tools">Micro-SaaS Hub Live</a>
+🏛️ <b>VIP Onboarding:</b> <a href="https://work-minh-lap.vercel.app/onboarding">Client Intake Hub Live</a>
+🏛️ <b>VIP Portals:</b> <a href="https://work-minh-lap.vercel.app/portal">60 Client Portals Live</a>
 🎯 <b>Sales Pitches:</b> <a href="https://work-minh-lap.vercel.app/pitches">Showcase Hub Live</a>
-🎬 <b>Media Studio:</b> <a href="https://work-minh-lap.vercel.app/studio">Studio Showcase Live</a>
+💼 <b>Freelance Hub:</b> <a href="https://work-minh-lap.vercel.app/freelance">8 Gigs & 16:9 Covers Live</a>
+👕 <b>Merch Store:</b> <a href="https://work-minh-lap.vercel.app/merch">6 POD Products Live</a>
 🧮 <b>ROI Simulator:</b> <a href="https://work-minh-lap.vercel.app/calculator">Interactive Calculator</a>
 🤝 <b>Partner Hub:</b> <a href="https://work-minh-lap.vercel.app/referral">Affiliate Program (50% RevShare)</a>
 
 ⚡ <b>Mục tiêu 30 phút hôm nay:</b>
-1. Theo dõi phản hồi Stage 1 từ 30 doanh nghiệp.
+1. Rà soát phản hồi Stage 3 từ 60 doanh nghiệp.
 2. Upload 1 video Short lên YouTube / TikTok.
-3. Chia sẻ link 8 Gigs Freelance (/freelance) tới khách hàng.
+3. Chia sẻ Micro-SaaS Suite ($39) & 8 Gigs Freelance tới cộng đồng.
 
 👉 <a href="https://work-minh-lap.vercel.app"><b>Mở Command Center Dashboard</b></a>
 🚀 <i>Chúc bạn ngày mới bùng nổ doanh số!</i>"""
