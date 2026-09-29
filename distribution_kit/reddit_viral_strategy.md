@@ -28,7 +28,7 @@ I ran an audit across 50 top landing pages on r/SaaS and found 3 surprising mist
 2. **Missing Knowledge Graph JSON-LD**: Traditional Google could deduce your product from keywords, but LLMs rely on entity graphs. 60% had zero Schema.org markup.
 3. **No direct answer snippets**: Websites wrote 300 words of buzzwords ("We empower next-gen synergies") instead of 1 crisp factual definition ("X is an open-source tool that does Y").
 
-To help founders fix this, I built a free autonomous audit tool: [SynapseGEO](https://your-domain.com).
+To help founders fix this, I built a free autonomous audit tool: [SynapseGEO](https://synapse-geo-audit.vercel.app).
 
 Drop your website URL below in the comments, and I'll run a deep audit for you and reply with your GEO score and exact schema fixes!
 ```

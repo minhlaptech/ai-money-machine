@@ -9,7 +9,7 @@
 - **Tagline**: `Will AI recommend your website? Audit your GEO score in seconds.`
 - **Topic Tags**: `Artificial Intelligence`, `SEO`, `Developer Tools`, `Marketing`, `SaaS`
 - **Pricing**: `Free Trial / $19 Pro Lifetime Access`
-- **Website URL**: `https://your-domain.com` (hoặc link deploy Vercel/Cloudflare)
+- **Website URL**: `https://synapse-geo-audit.vercel.app`
 
 ---
 

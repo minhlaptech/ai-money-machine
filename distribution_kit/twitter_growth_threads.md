@@ -17,7 +17,7 @@ Sử dụng tài khoản X (Twitter) để tiếp cận nhóm Founder, Marketer 
 
 4/7: To help founders check their site, I built SynapseGEO — an autonomous tool that calculates your GEO Readiness Score in 5 seconds.
 
-5/7: Test your website for free here: [https://your-domain.com]
+5/7: Test your website for free here: [https://synapse-geo-audit.vercel.app]
 
 RT the first tweet if you found this valuable! 🔄
 
@@ -33,4 +33,4 @@ RT the first tweet if you found this valuable! 🔄
 
 4/5: Step 3: Rewrote their hero section to include a direct 1-sentence answer to "What does X do?".
 
-5/5: You can audit your own site with our free GEO engine: [https://your-domain.com]. Drop your score below!
+5/5: You can audit your own site with our free GEO engine: [https://synapse-geo-audit.vercel.app]. Drop your score below!
