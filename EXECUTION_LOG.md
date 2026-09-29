@@ -206,3 +206,32 @@
 ### Git: 6 commits, 35+ files, 6000+ lines
 
 ---
+
+## 📅 2026-09-29 | Phiên #4 | eBook + Portfolio + Social
+
+### Nội dung tạo mới:
+- ✅ eBook Chapter 1: "The AI Freelancer" (2,200 words)
+- ✅ eBook Chapter 2: "AI Automation Consulting" (2,000 words)
+- ✅ eBook Chapter 3: "Digital Products with AI" (1,800 words)
+- ✅ Portfolio: 3 automation case studies (với metrics)
+- ✅ Blog post #4: "10 AI Automations for Small Business"
+- ✅ LinkedIn 30-day content calendar + profile optimization
+- ✅ Distribution kit (Reddit, ProductHunt, community marketing)
+
+### Tổng content tích lũy (4 phiên):
+| Category | Count |
+|----------|-------|
+| Blog posts | 4 (11,000+ words) |
+| YouTube scripts | 3 (30+ phút video) |
+| eBook chapters | 3 + intro (6,000+ words) |
+| Prompt Pack | 5 sections (60+ prompts) |
+| Social content | 60 ngày (Twitter + LinkedIn) |
+| Case studies | 3 (với metrics thực tế) |
+| POD designs | 30 concepts |
+| Setup guides | 3 (LS, Gumroad, Fiverr) |
+| Distribution kit | 1 (Reddit/PH/Community) |
+| Chatbot demo | 1 (working) |
+
+### Git: 10 commits, 45+ files, 10,000+ lines code/content
+
+---
