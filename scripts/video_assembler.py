@@ -266,13 +266,17 @@ def send_telegram_render_alert(results):
     html_msg = "\n".join(lines)
     # Direct reliable send via curl.exe
     try:
+        payload_file = ROOT / "temp_tg_render.json"
+        payload_file.write_text(json.dumps({"chat_id": chat_id, "text": html_msg, "parse_mode": "HTML"}, ensure_ascii=False), encoding="utf-8")
         res = subprocess.run(
             ["curl.exe", "-s", "-X", "POST",
              "-H", "Content-Type: application/json; charset=utf-8",
-             "-d", json.dumps({"chat_id": chat_id, "text": html_msg, "parse_mode": "HTML"}),
+             "-d", f"@{payload_file.name}",
              f"https://api.telegram.org/bot{bot_token}/sendMessage"],
-            capture_output=True, text=True, timeout=10
+            capture_output=True, text=True, timeout=10, cwd=str(ROOT)
         )
+        if payload_file.exists():
+            payload_file.unlink()
         if '"ok":true' in res.stdout:
             print("[✓] Đã gửi báo cáo xuất bản Video MP4 về Telegram (@Minhpv_bot)!")
         else:
