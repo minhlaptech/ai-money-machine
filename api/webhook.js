@@ -111,17 +111,17 @@ export default async function handler(req, res) {
 
     const nowVn = new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' });
 
-    // Format rich Telegram message
-    const telegramText = `🎉 *[NEW PAYMENT / ORDER CAPTURED! 💰]*\n\n` +
-      `💵 *Doanh thu (Revenue):* \`${amountStr} USD\`\n` +
-      `📦 *Sản phẩm (Product):* *${productName}*\n` +
-      `👤 *Khách hàng:* \`${customerName}\`\n` +
-      `📧 *Email:* \`${customerEmail}\`\n` +
-      `📍 *Nền tảng (Platform):* _${platform}_ (${eventName})\n` +
-      `🆔 *Mã giao dịch (Order ID):* \`#${orderId}\`\n` +
-      `⏰ *Thời gian:* ${nowVn}\n\n` +
-      `🎁 *Link tự động bàn giao tài sản:*\n${fulfillmentUrl}\n\n` +
-      `👉 _Đơn hàng đã được ghi nhận tự động. Tiền về tài khoản thương gia!_`;
+    // Format rich Telegram message in HTML
+    const telegramText = `🎉 <b>[NEW PAYMENT / ORDER CAPTURED! 💰]</b>\n\n` +
+      `💵 <b>Doanh thu (Revenue):</b> <code>${amountStr} USD</code>\n` +
+      `📦 <b>Sản phẩm (Product):</b> <b>${productName}</b>\n` +
+      `👤 <b>Khách hàng:</b> <code>${customerName}</code>\n` +
+      `📧 <b>Email:</b> <code>${customerEmail}</code>\n` +
+      `📍 <b>Nền tảng (Platform):</b> <i>${platform}</i> (${eventName})\n` +
+      `🆔 <b>Mã giao dịch (Order ID):</b> <code>#${orderId}</code>\n` +
+      `⏰ <b>Thời gian:</b> ${nowVn}\n\n` +
+      `🎁 <b>Link tự động bàn giao tài sản:</b>\n${fulfillmentUrl}\n\n` +
+      `👉 <i>Đơn hàng đã được ghi nhận tự động. Tiền về tài khoản thương gia!</i>`;
 
     const botToken = process.env.TELEGRAM_BOT_TOKEN || '7756122540:AAErx-TV78dUcB0ch7IlZW10R0nIpt1pBhU';
     const chatId = process.env.TELEGRAM_CHAT_ID || '1624883046';
@@ -134,7 +134,7 @@ export default async function handler(req, res) {
         body: JSON.stringify({
           chat_id: chatId,
           text: telegramText,
-          parse_mode: 'Markdown'
+          parse_mode: 'HTML'
         })
       });
     }
