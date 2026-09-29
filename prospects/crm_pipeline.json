@@ -488,10 +488,10 @@
     "city": "Philadelphia, PA",
     "to": "bids@tristateglasspa.example",
     "doc": "Anthony Russo",
-    "status": "day7",
+    "status": "booked",
     "value": 4200,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:17"
   },
   {
     "id": 39,
@@ -553,10 +553,10 @@
     "city": "Los Angeles, CA",
     "to": "producers@cinemacraftstudios.example",
     "doc": "Julian Mercer",
-    "status": "day7",
+    "status": "booked",
     "value": 3200,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:17"
   },
   {
     "id": 44,
@@ -566,10 +566,10 @@
     "city": "New York, NY",
     "to": "strategy@searchvelocityai.example",
     "doc": "Nathan Ross",
-    "status": "booked",
+    "status": "won",
     "value": 3000,
     "retainer": 800,
-    "last_touch": "2026-09-30 04:15"
+    "last_touch": "2026-09-30 04:17"
   },
   {
     "id": 45,
@@ -722,10 +722,10 @@
     "city": "Chicago, IL",
     "to": "appointments@restoreregenortho.example",
     "doc": "Dr. Steven Choi",
-    "status": "booked",
+    "status": "won",
     "value": 3200,
     "retainer": 800,
-    "last_touch": "2026-09-30 04:15"
+    "last_touch": "2026-09-30 04:17"
   },
   {
     "id": 57,
