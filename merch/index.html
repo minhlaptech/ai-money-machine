@@ -695,6 +695,22 @@
       const p = PRODUCTS_DATA.find(item => item.id === prodId);
       if (!p) return;
 
+      // Dispatch background alert to Telegram via serverless /api/contact
+      const refId = localStorage.getItem('amm_ref') || '';
+      fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: 'Merch Shopper',
+          email: 'Pending Intake Form',
+          website: 'N/A',
+          service: `Merch Order: ${p.title} [${formatPrice(p.priceUSD)}]`,
+          source: 'Developer Merch Store (/merch)',
+          message: `Product: ${p.title}\nSKU: ${p.handle}\nUnit Retail: ${formatPrice(p.priceUSD)}\nNet Profit Margin: ${p.margin}`,
+          ref: refId
+        })
+      }).catch(err => console.log('Silent contact error:', err));
+
       const subject = encodeURIComponent(`[Merch Order] ${p.title} (${formatPrice(p.priceUSD)})`);
       const body = encodeURIComponent(
         `Hello Team,\n\nI would like to order:\nProduct: ${p.title}\nSKU: ${p.handle}\nPrice: ${formatPrice(p.priceUSD)}\n\nPlease provide invoice and shipping intake details.\n`

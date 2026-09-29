@@ -1193,6 +1193,22 @@
       const website = document.getElementById('clientWebsite').value;
       const notes = document.getElementById('clientNotes').value;
 
+      // Dispatch background alert to Telegram via serverless /api/contact
+      const refId = localStorage.getItem('amm_ref') || '';
+      fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: name,
+          email: email,
+          website: website || 'N/A',
+          service: `${gig.shortTitle} [${tierKey.toUpperCase()} - $${tier.price}]`,
+          source: 'Freelance & Agency Hub (/freelance)',
+          message: notes,
+          ref: refId
+        })
+      }).catch(err => console.log('Silent contact error:', err));
+
       // Construct mailto link as instant fallback and show success state
       const subject = encodeURIComponent(`[Fiverr/Direct Order] ${gig.shortTitle} - ${tierKey.toUpperCase()} ($${tier.price})`);
       const body = encodeURIComponent(
