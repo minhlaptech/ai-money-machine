@@ -55,6 +55,10 @@
     { "source": "/ops", "destination": "/fulfillment/index.html" },
     { "source": "/operations", "destination": "/fulfillment/index.html" },
     { "source": "/fulfillment/:slug", "destination": "/fulfillment_packets/:slug_fulfillment_packet.html" },
-    { "source": "/packet/:slug", "destination": "/fulfillment_packets/:slug_fulfillment_packet.html" }
+    { "source": "/packet/:slug", "destination": "/fulfillment_packets/:slug_fulfillment_packet.html" },
+    { "source": "/billing", "destination": "/billing/index.html" },
+    { "source": "/invoicing", "destination": "/billing/index.html" },
+    { "source": "/invoices", "destination": "/billing/index.html" },
+    { "source": "/agreements", "destination": "/billing/index.html" }
   ]
 }
