@@ -62,7 +62,6 @@ LIVE_URLS = [
     ("AI & Developer Merch Store", "https://work-minh-lap.vercel.app/merch"),
     ("Digital Master Bundle ($39)", "https://work-minh-lap.vercel.app/bundle"),
     ("Serverless Health API (/api/health)", "https://work-minh-lap.vercel.app/api/health"),
-    ("Omnichannel Voice AI Demo Hub (/voice)", "https://work-minh-lap.vercel.app/voice"),
 ]
 
 def check_url(name, url):
