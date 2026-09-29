@@ -7,6 +7,9 @@
     { "source": "/chatbotdemo", "destination": "/projects/ai_freelancing/portfolio/chatbot_demo/index.html" },
     { "source": "/calculator", "destination": "/projects/ai_automation_smb/roi_calculator.html" },
     { "source": "/onboarding", "destination": "/projects/ai_automation_smb/client_onboarding_portal.html" },
-    { "source": "/bundle", "destination": "/projects/digital_products/bundle_showcase.html" }
+    { "source": "/bundle", "destination": "/projects/digital_products/bundle_showcase.html" },
+    { "source": "/blog", "destination": "/projects/affiliate_blog/website/index.html" },
+    { "source": "/hub", "destination": "/projects/affiliate_blog/website/index.html" },
+    { "source": "/guides/:file", "destination": "/projects/affiliate_blog/website/:file" }
   ]
 }

@@ -49,7 +49,7 @@ LIVE_URLS = [
     ("SynapseGEO (AI SEO Audit)", "https://synapse-geo-audit.vercel.app"),
     ("ReviewGenius AI (Review Responder)", "https://work-minh-lap.vercel.app/products/review_genius/index.html"),
     ("HeadlineIQ (Viral Headline Scorer)", "https://headlineiq-eta.vercel.app"),
-    ("AI Resource Hub (Blog & Lead Capture)", "https://ai-automation-guide-omega.vercel.app"),
+    ("AI Resource Hub (Blog & Lead Capture)", "https://work-minh-lap.vercel.app/blog"),
     ("Chatbot Portfolio Demo", "https://work-minh-lap.vercel.app/projects/ai_freelancing/portfolio/chatbot_demo/index.html"),
     ("AI Copilot Embed Widget", "https://work-minh-lap.vercel.app/copilot-widget.js"),
     ("Executive Command Center (Monorepo Root)", "https://work-minh-lap.vercel.app"),
