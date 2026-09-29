@@ -436,10 +436,10 @@
     "city": "Nashville, TN",
     "to": "inspections@ironcladfoundation.example",
     "doc": "Travis Cole",
-    "status": "booked",
+    "status": "won",
     "value": 3800,
     "retainer": 700,
-    "last_touch": "2026-09-30 03:59"
+    "last_touch": "2026-09-30 04:02"
   },
   {
     "id": 35,
@@ -579,10 +579,10 @@
     "city": "Chicago, IL",
     "to": "advisory@fractionalcfochi.example",
     "doc": "William Thornton",
-    "status": "day7",
+    "status": "booked",
     "value": 4000,
     "retainer": 900,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:02"
   },
   {
     "id": 46,
@@ -709,10 +709,10 @@
     "city": "Scottsdale, AZ",
     "to": "membership@optimaconciergemed.example",
     "doc": "Dr. Arthur Pendelton",
-    "status": "booked",
+    "status": "won",
     "value": 3800,
     "retainer": 850,
-    "last_touch": "2026-09-30 03:59"
+    "last_touch": "2026-09-30 04:02"
   },
   {
     "id": 56,
@@ -761,10 +761,10 @@
     "city": "New York, NY",
     "to": "evaluations@radiancehairrestoration.example",
     "doc": "Dr. James Sterling",
-    "status": "day7",
+    "status": "booked",
     "value": 5000,
     "retainer": 900,
-    "last_touch": "2026-09-30 03:25"
+    "last_touch": "2026-09-30 04:02"
   },
   {
     "id": 60,
