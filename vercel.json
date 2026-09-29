@@ -50,6 +50,11 @@
     { "source": "/syndicate", "destination": "/syndicate/index.html" },
     { "source": "/syndicate-partner", "destination": "/syndicate/index.html" },
     { "source": "/franchise", "destination": "/syndicate/index.html" },
-    { "source": "/syndicate/:slug", "destination": "/syndicate_proposals/:slug_syndicate_prospectus.html" }
+    { "source": "/syndicate/:slug", "destination": "/syndicate_proposals/:slug_syndicate_prospectus.html" },
+    { "source": "/fulfillment", "destination": "/fulfillment/index.html" },
+    { "source": "/ops", "destination": "/fulfillment/index.html" },
+    { "source": "/operations", "destination": "/fulfillment/index.html" },
+    { "source": "/fulfillment/:slug", "destination": "/fulfillment_packets/:slug_fulfillment_packet.html" },
+    { "source": "/packet/:slug", "destination": "/fulfillment_packets/:slug_fulfillment_packet.html" }
   ]
 }
