@@ -53,17 +53,17 @@ def send_briefing():
 • ⚡ <b>Tốc Độ Phản Hồi Speed-to-Lead:</b> <code>&lt; 22 giây (Nhanh hơn 540x chuẩn cũ 4.2 giờ)</code>
 • 📈 <b>Tỷ Lệ Chuyển Đổi Hẹn Bình Quân:</b> <code>24.6% (Gấp 4.7x mức chuẩn ngành 5.2%)</code>
 • 💰 <b>Giá Trị Bảo Vệ Định Lượng Hàng Tuần:</b> <code>+$2,419,800 / tuần (+721 Cuộc Hẹn/tuần)</code>
-• 👑 <b>Doanh Thu Hợp Đồng Bảo Vệ:</b> <code>$1,002,600 / năm ARR ($83,550 / tháng MRR)</code>
+• 👑 <b>Mục Tiêu Doanh Thu Pipeline:</b> <code>$1,218,600 / năm ARR Target ($101,550 / tháng Target Pipeline, Thực thu: $0.00)</code>
 
 🏛️ <b>6 BỘ CHỈ SỐ THỰC NGHIỆM CHUẨN NGÀNH:</b>
-1. <b>Nha Khoa Thẩm Mỹ & Phẫu Thuật (12 nodes):</b> 22s phản hồi · 68.4% bắt khách ngoài giờ · 22.4% chốt hẹn · +$24.6k/tháng
-2. <b>Thẩm Mỹ Viện & MedSpas (14 nodes):</b> 18s phản hồi · 71.2% bắt khách ngoài giờ · 28.9% chốt hẹn · +$31.5k/tháng
-3. <b>Công Ty Luật Đỉnh Cao (10 nodes):</b> 35s phản hồi · 94.2% độ chính xác tiếp nhận · 19.8% ký hợp đồng · +$48.0k/tháng
-4. <b>Cứu Hộ Khẩn Cấp HVAC & Nhà Cửa (18 nodes):</b> 14s phản hồi · 41.5% điều phối khẩn cấp · 34.2% chốt việc · +$22.8k/tháng
+1. <b>Nha Khoa Thẩm Mỹ & Phẫu Thuật:</b> 22s phản hồi · 68.4% bắt khách ngoài giờ · 22.4% chốt hẹn · +$24.6k/tháng
+2. <b>Thẩm Mỹ Viện & MedSpas:</b> 18s phản hồi · 71.2% bắt khách ngoài giờ · 28.9% chốt hẹn · +$31.5k/tháng
+3. <b>Công Ty Luật Đỉnh Cao:</b> 35s phản hồi · 94.2% độ chính xác tiếp nhận · 19.8% ký hợp đồng · +$48.0k/tháng
+4. <b>Cứu Hộ Khẩn Cấp HVAC & Nhà Cửa:</b> 14s phản hồi · 41.5% điều phối khẩn cấp · 34.2% chốt việc · +$22.8k/tháng
 5. <b>Sovereign Enterprise & Wealth (8 nodes):</b> &lt; 8s GPU H100 · 99.8% độ chuẩn xác vector · 14.5% chốt AUM · +$115.0k/tháng
 6. <b>Syndicate Global Franchise (12 hubs):</b> 88.5% công suất đại lý · 20s đa ngôn ngữ · 26.2% chuyển đổi · +$22.5k/tháng
 
-📋 <b>SỔ CÁI 95 KHÁCH HÀNG & PHÂN HẠNG PHÂN VỊ:</b>
+📋 <b>SỔ CÁI 119 KHÁCH HÀNG & PHÂN HẠNG PHÂN VỊ:</b>
 • Tra cứu và xếp hạng phân vị (Top 1% Sovereign, Top 5% Elite, Top 15% Leader, Top 25% Pro)
 • Liên kết trực tiếp tới Sandbox tương tác và VIP Portal
 
@@ -77,7 +77,7 @@ def send_briefing():
 • <b>Live Telemetry:</b> https://work-minh-lap.vercel.app/telemetry
 • <b>Master Dashboard:</b> https://work-minh-lap.vercel.app
 
-<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và bảo vệ toàn vẹn 95/95 khách hàng ($1,002,600 ARR).</i>"""
+<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và bảo vệ toàn vẹn 119/119 khách hàng ($1,218,600 ARR Target).</i>"""
 
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     payload = json.dumps({

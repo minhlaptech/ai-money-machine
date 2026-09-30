@@ -51,8 +51,8 @@ def send_briefing():
 • 📈 <b>Financial Attribution Engine (Flagship #27):</b> <code>/attribution</code> (hoặc <code>/value</code>, <code>/realized-roi</code>)
 • 🏛️ <b>Tổng Số Trung Tâm Chỉ Huy (Flagships):</b> <code>27 / 27 Web Applications Live</code>
 • 🌐 <b>Hạ Tầng Đám Mây Toàn Cầu:</b> <code>29 / 29 Cloud Systems Active</code>
-• 💰 <b>Tổng Giá Trị Kinh Tế Tạo Ra:</b> <code>$3,132,700 / tháng ($37.59 Triệu / năm)</code>
-• 🚀 <b>Tỷ Suất Sinh Lời Thực Nghiệm:</b> <code>29.9x ROI Multiple (Trung Bình 95 Nodes)</code>
+• 💰 <b>Tổng Giá Trị Kinh Tế Tạo Ra:</b> <code>$3,504,400 / tháng ($42.05 Triệu / năm)</code>
+• 🚀 <b>Tỷ Suất Sinh Lời Thực Nghiệm:</b> <code>28.1x ROI Multiple (Trung Bình 119 Nodes)</code>
 • ⏱️ <b>Thời Gian Hòa Vốn (Payback Period):</b> <code>&lt; 2.8 Ngày (Trước Khi Hết Tuần Đầu Tiên)</code>
 • 🤖 <b>Giờ Công Nhân Lực Tiết Kiệm:</b> <code>16,400 Giờ / tháng ($459,200 Tiền Lương)</code>
 
@@ -75,7 +75,7 @@ def send_briefing():
 
 📜 <b>CHỨNG THƯ PHÂN BỔ GIÁ TRỊ CẤP CFO (SHA-256 BOARD CERTIFICATES):</b>
 • Xuất bản chứng thư độc bản cho từng khách hàng (VD: <code>CERT-ROI-BASE-001</code>)
-• Hỗ trợ xuất dữ liệu toàn bộ 95 tài khoản ra file CSV để trình bày trước Hội đồng Quản trị
+• Hỗ trợ xuất dữ liệu toàn bộ 119 tài khoản ra file CSV để trình bày trước Hội đồng Quản trị
 • Bộ công cụ ngăn chặn hủy hợp đồng (Zero-Churn Retention Defense) vững chắc nhất thị trường
 
 🔗 <b>TRUY CẬP TRỰC TIẾP:</b>
@@ -87,7 +87,7 @@ def send_briefing():
 • <b>Trust Center:</b> https://work-minh-lap.vercel.app/trust
 • <b>Master Dashboard:</b> https://work-minh-lap.vercel.app
 
-<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và bảo vệ toàn vẹn $1,002,600 ARR cùng 95 đối tác danh dự.</i>"""
+<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và đối soát tài chính thực nghiệm cho 119/119 khách hàng ($1,218,600 ARR Target).</i>"""
 
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     payload = json.dumps({

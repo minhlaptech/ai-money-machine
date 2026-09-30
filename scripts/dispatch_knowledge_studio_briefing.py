@@ -49,9 +49,9 @@ def send_briefing():
 • 🧠 <b>Knowledge Base & Agent Studio (Flagship #25):</b> <code>/knowledge</code> (hoặc <code>/agent-studio</code>, <code>/studio/agent</code>)
 • 🏛️ <b>Tổng Số Trung Tâm Chỉ Huy (Flagships):</b> <code>25 / 25 Web Applications Live</code>
 • 🌐 <b>Hạ Tầng Đám Mây Toàn Cầu:</b> <code>27 / 27 Cloud Systems Active</code>
-• 👥 <b>Hỗ Trợ Toàn Diện:</b> <code>95 / 95 Workspaces Tự Phục Vụ (Zero-Code)</code>
+• 👥 <b>Hỗ Trợ Toàn Diện:</b> <code>119 / 119 Workspaces Tự Phục Vụ (Zero-Code)</code>
 • ⚡ <b>Tốc Độ Đồng Bộ Toàn Cầu:</b> <code>&lt; 5.0 Giây tới 7 Cloud Edge Regions</code>
-• 💰 <b>Bảo Vệ Doanh Thu Định Kỳ:</b> <code>$1,002,600 / năm ARR ($83,550 / tháng MRR)</code>
+• 💰 <b>Mục Tiêu Doanh Thu Pipeline:</b> <code>$1,218,600 / năm ARR Target ($101,550 / tháng Target Pipeline, Thực thu: $0.00)</code>
 
 🛠️ <b>CÁC KHẢ NĂNG TỰ PHỤC VỤ ĐỘT PHÁ CỦA AGENT STUDIO:</b>
 1. <b>Prompt & Persona Tuning:</b>
@@ -81,7 +81,7 @@ def send_briefing():
 • <b>Live Telemetry:</b> https://work-minh-lap.vercel.app/telemetry
 • <b>Master Dashboard:</b> https://work-minh-lap.vercel.app
 
-<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và bảo vệ toàn vẹn $1,002,600 ARR cùng 95 đối tác danh dự.</i>"""
+<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và bảo vệ toàn vẹn $1,218,600 ARR Target cùng 119 đối tác danh dự.</i>"""
 
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     payload = json.dumps({

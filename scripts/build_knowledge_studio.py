@@ -2,7 +2,7 @@
 Build Web App Flagship #25: Client Executive Self-Service Knowledge Base & AI Agent Studio (/knowledge, /agent-studio, /studio/agent)
 =====================================================================================================================================
 Tạo trung tâm quản trị cơ sở tri thức tự phục vụ (Self-Service RAG Knowledge Base) và xưởng tinh chỉnh trợ lý AI (AI Agent Tuning Studio)
-cho toàn bộ 95 tài khoản khách hàng ($1,002,600 ARR).
+cho toàn bộ 119 tài khoản khách hàng ($1,218,600 ARR Target).
 Bao gồm:
   - Khung nạp tài liệu & phân mảnh vector trực quan (Document Ingestion, Semantic Chunking & Cosine Similarity search tester).
   - Bảng điều khiển tham số hành vi AI: System Prompt, Temperature (0.0 - 1.0), Guardrails (Strict HIPAA / Legal / Commercial), Lead Capture Trigger.
@@ -76,6 +76,7 @@ def build_knowledge_studio():
             "portal_url": pkg.get("portal_url", f"/portals/{pkg['slug']}_portal.html")
         })
 
+    total_clients = len(accounts_data)
     accounts_json_str = json.dumps(accounts_data, ensure_ascii=False)
 
     html_content = f"""<!DOCTYPE html>
@@ -84,7 +85,7 @@ def build_knowledge_studio():
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Self-Service Knowledge Base & AI Agent Studio | AI Money Machine</title>
-  <meta name="description" content="Client-Facing Self-Service RAG Knowledge Ingestion, Vector Chunking, and AI Agent Persona Tuning Studio for all 95 enterprise and SMB client accounts.">
+  <meta name="description" content="Client-Facing Self-Service RAG Knowledge Ingestion, Vector Chunking, and AI Agent Persona Tuning Studio for all {total_clients} enterprise and SMB client accounts.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -314,14 +315,14 @@ def build_knowledge_studio():
       </div>
     </a>
     <div class="nav-actions">
-      <a href="/telemetry" class="nav-link" style="color:#10b981; font-weight:700;">📡 NOC Telemetry (95)</a>
+      <a href="/telemetry" class="nav-link" style="color:#10b981; font-weight:700;">📡 NOC Telemetry ({total_clients})</a>
       <a href="/guarantee" class="nav-link" style="color:var(--gold); font-weight:700;">⚖️ SLA Guarantee</a>
       <a href="/trust" class="nav-link" style="color:#10b981; font-weight:700;">🛡️ Trust Center</a>
       <a href="/benchmarks" class="nav-link" style="color:var(--cyan); font-weight:700;">📊 Benchmarks</a>
       <a href="/docs" class="nav-link">⚡ Dev Docs</a>
       <div class="status-pill">
         <span class="pulse-dot"></span>
-        95 NAMESPACES LIVE
+        {total_clients} NAMESPACES LIVE
       </div>
     </div>
   </header>
@@ -451,9 +452,9 @@ def build_knowledge_studio():
       </div>
     </div>
 
-    <!-- 95 Accounts Knowledge Base Directory -->
+    <!-- Client Accounts Knowledge Base Directory -->
     <div class="section-title">
-      <span>📋 Client Knowledge Base Assurance Directory (95 Accounts)</span>
+      <span>📋 Client Knowledge Base Assurance Directory ({total_clients} Accounts)</span>
       <span style="font-size:13px; font-family:var(--font-mono); color:var(--purple);">100% Vectorized</span>
     </div>
 
@@ -462,9 +463,9 @@ def build_knowledge_studio():
     <!-- Bottom Action Banner -->
     <div class="download-banner">
       <h3 style="font-family:'Outfit'; font-size:26px; color:#fff; margin-bottom:10px;">Looking for Full System Architecture & Production Sandboxes?</h3>
-      <p style="color:var(--text-muted); font-size:15px; max-width:680px; margin:0 auto 24px;">Explore our 95 client live sandboxes, review verified SLA compliance guarantees, or test our developer APIs.</p>
+      <p style="color:var(--text-muted); font-size:15px; max-width:680px; margin:0 auto 24px;">Explore our {total_clients} client live sandboxes, review verified SLA compliance guarantees, or test our developer APIs.</p>
       <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
-        <a href="/sandboxes" class="btn-primary">🧪 Test Interactive Sandboxes (95) ↗</a>
+        <a href="/sandboxes" class="btn-primary">🧪 Test Interactive Sandboxes ({total_clients}) ↗</a>
         <a href="/guarantee" class="btn-primary" style="background:rgba(255,255,255,0.08); border:1px solid var(--border); color:#fff; box-shadow:none;">⚖️ SLA Financial Guarantee ↗</a>
       </div>
     </div>

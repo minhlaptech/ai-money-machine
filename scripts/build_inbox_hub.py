@@ -2,7 +2,7 @@
 Build Web App Flagship #26: Omnichannel Unified Inbox & AI Human-in-the-Loop (HITL) Dispatch Center (/inbox, /conversations, /dispatch)
 ======================================================================================================================================
 Tạo trung tâm hòm thư hợp nhất đa kênh (Omnichannel Inbox) và xưởng can thiệp nhân sự thời gian thực (Human-in-the-Loop HITL Dispatch Center)
-cho toàn bộ 95 tài khoản khách hàng ($1,002,600 ARR).
+cho toàn bộ 119 tài khoản khách hàng ($1,218,600 ARR Target).
 Bao gồm:
   - Giám sát luồng hội thoại thời gian thực qua 4 kênh: Web Chat Widget, Twilio SMS, WhatsApp Business, và Retell/Vapi Voice AI Call Audio.
   - Phân loại sắc thái cảm xúc (Sentiment Triaging) & Cảnh báo khẩn cấp (Urgency Escalations).
@@ -168,6 +168,7 @@ def build_inbox_hub():
 
     packages = data.get("packages", [])
     conversations = [generate_conversation_for_client(pkg, i) for i, pkg in enumerate(packages)]
+    total_accounts = len(conversations)
 
     conversations_json = json.dumps(conversations, ensure_ascii=False)
 
@@ -177,7 +178,7 @@ def build_inbox_hub():
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Omnichannel Unified Inbox & AI Human-in-the-Loop (HITL) Dispatch Center | AI Money Machine</title>
-  <meta name="description" content="Executive live conversation stream across Web Chat, SMS, WhatsApp, and Voice AI for all 95 enterprise and SMB client accounts ($1,002,600 ARR). 1-click human takeover, AI co-pilot suggestions, and instant CRM appointment dispatch.">
+  <meta name="description" content="Executive live conversation stream across Web Chat, SMS, WhatsApp, and Voice AI for all 119 enterprise and SMB client accounts ($1,218,600 ARR Target). 1-click human takeover, AI co-pilot suggestions, and instant CRM appointment dispatch.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -650,10 +651,10 @@ def build_inbox_hub():
       </div>
     </a>
     <div class="header-actions">
-      <div class="pill pill-green">🟢 95 Inboxes Online</div>
+      <div class="pill pill-green">🟢 {total_accounts} Inboxes Online</div>
       <div class="pill pill-cyan">⚡ 4 Channels Active</div>
       <div class="pill pill-purple">🛡️ HITL Safety Net 100%</div>
-      <div class="pill pill-gold">💰 $1,002,600 ARR Protected</div>
+      <div class="pill pill-gold">💰 $1,218,600 ARR Protected</div>
       <a href="/portal" class="nav-btn">🏛️ Portals</a>
       <a href="/fulfillment" class="nav-btn">⚡ Ops SLA</a>
       <a href="/knowledge" class="nav-btn">🧠 Agent Studio</a>
@@ -1133,7 +1134,7 @@ def build_inbox_hub():
 
     size_kb = len(html_content.encode("utf-8")) / 1024
     print(f"  [✓] Web App Flagship #26 built successfully: {OUTPUT_HTML} ({size_kb:.1f} KB)")
-    print(f"  [✓] Generated 95 Omnichannel live conversation threads across 4 channels (Web, SMS, WhatsApp, Voice AI).")
+    print(f"  [✓] Generated {total_accounts} Omnichannel live conversation threads across 4 channels (Web, SMS, WhatsApp, Voice AI).")
 
 if __name__ == "__main__":
     build_inbox_hub()

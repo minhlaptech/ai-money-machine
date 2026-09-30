@@ -52,7 +52,7 @@ def send_briefing():
 • 🌐 <b>Hạ Tầng Đám Mây Toàn Cầu:</b> <code>24 / 24 Cloud Systems Active</code>
 • 🎖️ <b>Điểm Đánh Giá Tư Thế Bảo Mật:</b> <code>Grade A+ (Score 99.8 / 100)</code>
 • 🚫 <b>Lỗ Hổng Bảo Mật Khai Thác (CVEs):</b> <code>0 Critical Vulnerabilities</code>
-• 💰 <b>Doanh Thu Hợp Đồng Bảo Vệ:</b> <code>$1,002,600 / năm ARR ($83,550 / tháng MRR)</code>
+• 💰 <b>Mục Tiêu Doanh Thu Pipeline:</b> <code>$1,218,600 / năm ARR Target ($101,550 / tháng Target Pipeline, Thực thu: $0.00)</code>
 
 🏛️ <b>8 CHỨNG CHỈ & TIÊU CHUẨN TUÂN THỦ TOÀN CẦU:</b>
 1. <b>SOC 2 Type II:</b> AICPA Trust Services Criteria (Bảo mật, Tính sẵn sàng, Bảo mật dữ liệu)
@@ -64,8 +64,8 @@ def send_briefing():
 7. <b>Zero-Model-Retention:</b> Cam kết hợp đồng KHÔNG dùng dữ liệu khách hàng để huấn luyện AI
 8. <b>NIST CSF 2.0:</b> Khung An ninh mạng với thời gian phục hồi RTO &lt; 15p, RPO &lt; 5p
 
-📋 <b>SỔ CÁI TUÂN THỦ 95 CLIENT NODES (100% ADHERENCE):</b>
-• <b>60 SMB Nodes:</b> SOC 2 Type II + CCPA + Mã hóa AES-256-GCM + Lưu trữ US-East Virginia
+📋 <b>SỔ CÁI TUÂN THỦ 119 CLIENT NODES (100% ADHERENCE):</b>
+• <b>84 SMB Retainers:</b> SOC 2 Type II + CCPA + Mã hóa AES-256-GCM + Lưu trữ US-East Virginia
 • <b>15 Enterprise Swarms:</b> Mã hóa cuộc gọi SIP + PCI-DSS Level 1 + Chống thất thoát dữ liệu
 • <b>8 Sovereign Enclaves:</b> NVIDIA H100 SXM5 Hardware Isolation + WireGuard VPN + Zero Egress
 • <b>12 Syndicate Franchises:</b> Multi-Tenant Isolation + GDPR Article 28 DPA + Khu vực hóa dữ liệu
@@ -80,7 +80,7 @@ def send_briefing():
 • <b>Live Telemetry:</b> https://work-minh-lap.vercel.app/telemetry
 • <b>Master Dashboard:</b> https://work-minh-lap.vercel.app
 
-<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và bảo vệ toàn vẹn 95/95 khách hàng ($1,002,600 ARR).</i>"""
+<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và bảo vệ toàn vẹn 119/119 khách hàng ($1,218,600 ARR Target).</i>"""
 
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     payload = json.dumps({

@@ -5,7 +5,7 @@ Xuất bản Web App Flagship #21:
   - `docs/index.html` (truy cập qua `/docs`, `/developers`, `/api-docs`)
 Cung cấp tài liệu tham chiếu API tương tác, Live Request Playground,
 mẫu code 5 ngôn ngữ (cURL, Python, Node.js, Go, PHP), và hướng dẫn tích hợp
-cho toàn bộ 95 khách hàng và 12 đối tác nhượng quyền Syndicate.
+cho toàn bộ 119 khách hàng và đối tác nhượng quyền Syndicate.
 """
 
 import sys
@@ -30,7 +30,7 @@ def build_docs_hub():
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Developer Documentation & API Reference — MinhLap AI Systems</title>
-  <meta name="description" content="Official API reference, interactive request playground, multi-language SDK code snippets, and integration guides for the AI Money Machine $1,002,600 ARR ecosystem.">
+  <meta name="description" content="Official API reference, interactive request playground, multi-language SDK code snippets, and integration guides for the AI Money Machine $1,218,600 ARR ecosystem.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <style>
@@ -539,8 +539,8 @@ def build_docs_hub():
       <nav class="nav-links">
         <a href="/" class="nav-btn">🏠 Master Center</a>
         <a href="/telemetry" class="nav-btn">📡 NOC Radar</a>
-        <a href="/packages" class="nav-btn">📦 Dossiers (95)</a>
-        <a href="/sandboxes" class="nav-btn">🧪 Sandboxes (95)</a>
+        <a href="/packages" class="nav-btn">📦 Dossiers (119)</a>
+        <a href="/sandboxes" class="nav-btn">🧪 Sandboxes (119)</a>
         <a href="/billing" class="nav-btn">💳 Master Billing</a>
         <a href="/docs/openapi.json" download class="nav-btn primary">OpenAPI Spec (JSON) 📥</a>
       </nav>
@@ -606,7 +606,7 @@ def build_docs_hub():
             <div class="kpi-lbl">Global Edge Latency</div>
           </div>
           <div class="kpi-box">
-            <div class="kpi-val" style="color: #a78bfa;">95 Nodes</div>
+            <div class="kpi-val" style="color: #a78bfa;">119 Nodes</div>
             <div class="kpi-lbl">Active Namespaces</div>
           </div>
         </div>
@@ -629,7 +629,7 @@ def build_docs_hub():
           </select>
           <select id="reqEndpoint" class="endpoint-select" onchange="updatePlaygroundEndpoint()">
             <option value="/api/health">/api/health (System Health & Metrics)</option>
-            <option value="/api/telemetry">/api/telemetry (95 Nodes Telemetry & Latency)</option>
+            <option value="/api/telemetry">/api/telemetry (119 Nodes Telemetry & Latency)</option>
             <option value="/api/contact">/api/contact (Lead Intake & Telegram Alert)</option>
           </select>
           <button class="btn-send" onclick="sendPlaygroundRequest()">
@@ -897,7 +897,7 @@ import (
     "net/http"
 )
 func main() {
-    jsonStr := []byte(\`{"name":"Dr. Sarah","email":"sarah@clinic.com","business_name":"Austin Dental"}\`)
+    jsonStr := []byte(\\`{"name":"Dr. Sarah","email":"sarah@clinic.com","business_name":"Austin Dental"}\\`)
     resp, _ := http.Post("https://work-minh-lap.vercel.app/api/contact", "application/json", bytes.NewBuffer(jsonStr))
     fmt.Println(resp.Status)
 }`
@@ -1007,15 +1007,15 @@ echo $res;`
             status: "operational",
             sla_uptime: "99.998%",
             global_edge_latency: "112ms avg",
-            network_nodes: { total: 95, operational: 95, churn_rate: "0.0%" },
+            network_nodes: { total: 119, operational: 119, churn_rate: "0.0%" },
             message: "Live telemetry response received via Anycast Edge."
           }, null, 2);
         } else {
           bodyEl.innerText = JSON.stringify({
             status: "operational",
-            version: "8.3.0",
-            ecosystem: { total_clients: 95, flagship_hubs: 21, sla_uptime: "99.998%" },
-            financials: { consolidated_arr: "$1,002,600 / Year", upfront_cash_realized: "$260,600.00" }
+            version: "8.9.0",
+            ecosystem: { total_clients: 119, flagship_hubs: 28, sla_uptime: "99.998%" },
+            financials: { pipeline_target_potential: "$101,550 / month ($1,218,600 ARR Target Pipeline)", actual_realized_revenue: "$0.00" }
           }, null, 2);
         }
       }

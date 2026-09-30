@@ -1,7 +1,7 @@
 """
 Build Web App Flagship #24: Automated SLA Incident Response & Financial Guarantee Center (/guarantee, /sla, /status/history)
 ============================================================================================================================
-Tạo trung tâm cam kết tài chính SLA, bồi thường dịch vụ tự động và lịch sử xử lý sự cố (RCA / Post-Mortems) cho 95 tài khoản khách hàng ($1,002,600 ARR).
+Tạo trung tâm cam kết tài chính SLA, bồi thường dịch vụ tự động và lịch sử xử lý sự cố (RCA / Post-Mortems) cho 119 tài khoản khách hàng ($1,218,600 ARR Target).
 Bao gồm:
   - Chính sách bồi thường tài chính 100% Service Credit Guarantee nếu Uptime < 99.9%.
   - Trình tính toán và phát hành mã bồi thường tự động (Automated SLA Credit Simulator).
@@ -59,6 +59,7 @@ def build_guarantee_hub():
             "portal_url": pkg.get("portal_url", f"/portals/{pkg['slug']}_portal.html")
         })
 
+    total_clients = len(accounts_data)
     accounts_json_str = json.dumps(accounts_data, ensure_ascii=False)
 
     html_content = f"""<!DOCTYPE html>
@@ -336,7 +337,7 @@ def build_guarantee_hub():
       </div>
     </a>
     <div class="nav-actions">
-      <a href="/telemetry" class="nav-link" style="color:#10b981; font-weight:700;">📡 NOC Telemetry (95)</a>
+      <a href="/telemetry" class="nav-link" style="color:#10b981; font-weight:700;">📡 NOC Telemetry ({total_clients})</a>
       <a href="/trust" class="nav-link" style="color:#10b981; font-weight:700;">🛡️ Trust Center</a>
       <a href="/benchmarks" class="nav-link" style="color:var(--cyan); font-weight:700;">📊 Benchmarks</a>
       <a href="/docs" class="nav-link">⚡ Dev Docs</a>
@@ -443,7 +444,7 @@ def build_guarantee_hub():
         <span>🧮 Interactive SLA Credit Claim Simulator</span>
         <span style="font-size:13px; font-family:var(--font-mono); color:var(--gold);">Zero-Dispute Guarantee</span>
       </div>
-      <p style="font-size:14px; color:var(--text-muted); margin-top:8px;">Select any of the 95 client nodes or adjust the simulated downtime to test our automated credit calculation engine.</p>
+      <p style="font-size:14px; color:var(--text-muted); margin-top:8px;">Select any of the {total_clients} client nodes or adjust the simulated downtime to test our automated credit calculation engine.</p>
 
       <div class="sim-grid">
         <div class="sim-inputs">
@@ -506,7 +507,7 @@ def build_guarantee_hub():
     <div class="incident-log">
       <div class="incident-item">
         <div class="ii-header">
-          <div class="ii-title">Scheduled Rolling Maintenance Window #82 (All 95 Nodes)</div>
+          <div class="ii-title">Scheduled Rolling Maintenance Window #82 (All {total_clients} Nodes)</div>
           <span class="ii-badge ii-resolved">Completed • 0s Downtime</span>
         </div>
         <div class="ii-desc">Deployed global edge telemetry probes and Anycast latency heartbeat radar across Virginia, Dallas, Frankfurt, and Singapore. Performed zero-disruption blue-green container migration with hot-reloading.</div>
@@ -574,10 +575,10 @@ def build_guarantee_hub():
       </div>
     </div>
 
-    <!-- 95 Accounts SLA Directory -->
+    <!-- Client Accounts SLA Directory -->
     <div class="ledger-section">
       <div class="section-title">
-        <span>📋 Client SLA Compliance & Guarantee Ledger (95 Accounts)</span>
+        <span>📋 Client SLA Compliance & Guarantee Ledger ({total_clients} Accounts)</span>
         <span style="font-size:13px; font-family:var(--font-mono); color:var(--gold);">100% Contractual Compliance</span>
       </div>
 
@@ -593,7 +594,7 @@ def build_guarantee_hub():
       <h3 style="font-family:'Outfit'; font-size:26px; color:#fff; margin-bottom:10px;">Need a Tailored SLA Addendum with Custom Financial Penalties?</h3>
       <p style="color:var(--text-muted); font-size:15px; max-width:680px; margin:0 auto 24px;">Our enterprise legal team provides custom Master Services Agreements with financial penalties up to 20x monthly retainers for qualifying accounts.</p>
       <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
-        <a href="/billing" class="btn-primary">🧾 View Settled Invoices (95) ↗</a>
+        <a href="/billing" class="btn-primary">🧾 View Settled Invoices ({total_clients}) ↗</a>
         <a href="/trust" class="btn-primary" style="background:rgba(255,255,255,0.08); border:1px solid var(--border); color:#fff; box-shadow:none;">🛡️ Security Trust Center ↗</a>
       </div>
     </div>

@@ -53,10 +53,10 @@ def send_briefing():
 • 🌐 <b>Hạ Tầng Đám Mây Toàn Cầu:</b> <code>23 / 23 Cloud Systems Active</code>
 • 🧪 <b>Trình Giả Lập & Test API Tương Tác:</b> <code>Interactive Browser Playground</code>
 • 💻 <b>Hỗ Trợ Đa Ngôn Ngữ Lập Trình:</b> <code>5 Ngôn Ngữ (cURL, Python, Node.js, Go, PHP)</code>
-• 💰 <b>Doanh Thu Hợp Đồng Bảo Vệ:</b> <code>$1,002,600 / năm ARR ($83,550 / tháng MRR)</code>
+• 💰 <b>Mục Tiêu Doanh Thu Pipeline:</b> <code>$1,218,600 / năm ARR Target ($101,550 / tháng Target Pipeline, Thực thu: $0.00)</code>
 
 🛠️ <b>CÁC API ĐẦU MỐI TRỌNG TÂM CÔNG BỐ:</b>
-• 🟢 <code>GET /api/health</code>: Health status v8.3.0, 95 clients, 21 flagships, 0% churn
+• 🟢 <code>GET /api/health</code>: Health status v8.3.0, 119 clients, 28 flagships, 0% churn
 • 📡 <code>GET /api/telemetry</code>: Telemetry thời gian thực, 7 anycast edge nodes, 99.998% SLA
 • ✉️ <code>POST /api/contact</code>: Autonomous lead intake, scoring & auto-response engine
 • 💎 <code>POST /v1/sovereign/infer</code>: Sovereign H100 GPU private RAG inference enclave
@@ -74,7 +74,7 @@ def send_briefing():
 • <b>Live Telemetry:</b> https://work-minh-lap.vercel.app/telemetry
 • <b>Master Dashboard:</b> https://work-minh-lap.vercel.app
 
-<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và bảo vệ toàn vẹn 95/95 khách hàng ($1,002,600 ARR).</i>"""
+<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và bảo vệ toàn vẹn 119/119 khách hàng ($1,218,600 ARR Target).</i>"""
 
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     payload = json.dumps({

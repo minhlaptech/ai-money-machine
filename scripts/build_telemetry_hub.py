@@ -5,7 +5,7 @@ Xuất bản Web App Flagship #20:
   - `telemetry/index.html` (truy cập qua `/telemetry`, `/status`, `/noc`)
 Cung cấp bảng chỉ huy giám sát độ trễ vi sai thời gian thực, SLA Uptime 99.998%,
 bản đồ mạng 7 khu vực Anycast toàn cầu, và radar duy trì khách hàng cho toàn bộ 95 node
-thuộc đế chế $1,002,600 ARR.
+thuộc đế chế $1,218,600 ARR Target.
 """
 
 import sys
@@ -671,8 +671,8 @@ def build_telemetry_hub():
 
       <nav class="nav-links">
         <a href="/" class="nav-btn">🏠 Master Center</a>
-        <a href="/packages" class="nav-btn">📦 Dossiers (95)</a>
-        <a href="/sandboxes" class="nav-btn">🧪 Sandboxes (95)</a>
+        <a href="/packages" class="nav-btn">📦 Dossiers ({total_nodes})</a>
+        <a href="/sandboxes" class="nav-btn">🧪 Sandboxes ({total_nodes})</a>
         <a href="/billing" class="nav-btn">💳 Billing Hub</a>
         <a href="/fulfillment" class="nav-btn">🛡️ SLA Operations</a>
         <a href="https://t.me/Minhpv_bot" target="_blank" class="nav-btn primary">NOC Hotline ↗</a>
@@ -685,11 +685,11 @@ def build_telemetry_hub():
     <section class="hero">
       <div class="hero-badge">
         <span class="pulse-dot"></span>
-        ALL 95 CLIENT NODES OPERATIONAL · 0 OUTAGES IN 90 DAYS
+        ALL {total_nodes} CLIENT NODES OPERATIONAL · 0 OUTAGES IN 90 DAYS
       </div>
       <h1>Global AI Network Operations Center (NOC)</h1>
       <p>
-        Real-time telemetry, edge network ping monitoring, and autonomous retention radar protecting <strong>$1,002,600 / Year ARR</strong> across 95 production client namespaces and 22 cloud services worldwide.
+        Real-time telemetry, edge network ping monitoring, and autonomous retention radar protecting <strong>$1,218,600 / Year ARR Target</strong> across {total_nodes} production client namespaces and 22 cloud services worldwide.
       </p>
 
       <!-- KPI Bar -->
@@ -703,7 +703,7 @@ def build_telemetry_hub():
           <div class="kpi-lbl">Global Edge Latency</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-val" style="color: #ffd700;">95 / 95</div>
+          <div class="kpi-val" style="color: #ffd700;">{total_nodes} / {total_nodes}</div>
           <div class="kpi-lbl">Active Client Nodes (0% Churn)</div>
         </div>
         <div class="kpi-card">

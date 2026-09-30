@@ -59,7 +59,7 @@ def generate_portals_hub():
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Executive Client VIP Command Hub | MinhLap Systems</title>
-  <meta name="description" content="Central VIP Client Management Command Hub for all 95 active production accounts. Real-time AI Copilot status, 99.998% SLA telemetry, weekly ROI statements, and deliverable vaults.">
+  <meta name="description" content="Central VIP Client Management Command Hub for all {total_accounts} active production accounts. Real-time AI Copilot status, 99.998% SLA telemetry, weekly ROI statements, and deliverable vaults.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <style>
@@ -330,10 +330,10 @@ def generate_portals_hub():
 
   <main class="container">
     <section class="hero-banner">
-      <span class="hero-badge"><span class="pulse-dot"></span> 95 Production Deployments Live (100% SLA Guarantee)</span>
+      <span class="hero-badge"><span class="pulse-dot"></span> {total_accounts} Production Deployments Live (100% SLA Guarantee)</span>
       <h1>Executive Client VIP Portals & ROI Hub</h1>
       <p class="hero-sub">
-        Dedicated client workspaces, real-time AI Copilot telemetries, weekly ROI audits, and full deliverable access across all 95 active business accounts and franchise partners.
+        Dedicated client workspaces, real-time AI Copilot telemetries, weekly ROI audits, and full deliverable access across all {total_accounts} active business accounts and franchise partners.
       </p>
 
       <div class="stats-bar">
@@ -343,19 +343,19 @@ def generate_portals_hub():
           <div class="stat-sub">100% Retainer Win Rate</div>
         </div>
         <div class="stat-card">
-          <div class="stat-lbl">Monthly Retainers (MRR)</div>
-          <div class="stat-val">$83,550 / mo</div>
-          <div class="stat-sub">Contracted Recurring Revenue</div>
+          <div class="stat-lbl">Monthly Retainers (Pipeline)</div>
+          <div class="stat-val">$101,550 / mo</div>
+          <div class="stat-sub">Target Pipeline Recurring</div>
         </div>
         <div class="stat-card">
-          <div class="stat-lbl">Consolidated ARR</div>
-          <div class="stat-val">$1,002,600</div>
-          <div class="stat-sub">🎉 $1M Milestone Conquered</div>
+          <div class="stat-lbl">Consolidated ARR Target</div>
+          <div class="stat-val">$1,218,600</div>
+          <div class="stat-sub">🎯 Target Pipeline Potential</div>
         </div>
         <div class="stat-card">
-          <div class="stat-lbl">Cash Realized Upfront</div>
-          <div class="stat-val">$260,600</div>
-          <div class="stat-sub">100% Collected & Cleared</div>
+          <div class="stat-lbl">Real Cash Realized</div>
+          <div class="stat-val">$0.00</div>
+          <div class="stat-sub">Awaiting Payment Webhook</div>
         </div>
       </div>
     </section>

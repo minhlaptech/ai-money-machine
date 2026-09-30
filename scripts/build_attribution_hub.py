@@ -2,7 +2,7 @@
 Build Web App Flagship #27: Client Value Realization & Financial Attribution Engine (/attribution, /value, /realized-roi)
 ==========================================================================================================================
 Tạo trung tâm kiểm toán giá trị tài chính thực nghiệm (Financial Attribution Engine) và đối soát lợi nhuận hoàn vốn (Realized ROI Ledger)
-cho toàn bộ 95 tài khoản khách hàng ($1,002,600 ARR).
+cho toàn bộ 119 tài khoản khách hàng ($1,218,600 ARR Target).
 Bao gồm:
   - Bảng đối soát tài chính CFO-level cho 95 tài khoản: Phí dịch vụ Retainer vs Giá trị thực nhận (Value Realized).
   - Tỷ suất sinh lời thực nghiệm (Empirical ROI Multiplier: 8.5x - 24.2x) và Thời gian hoàn vốn bình quân (< 2.8 ngày).
@@ -104,8 +104,9 @@ def build_attribution_hub():
 
     packages = data.get("packages", [])
     records = [generate_attribution_for_client(pkg, i) for i, pkg in enumerate(packages)]
+    total_accounts = len(records)
 
-    # Aggregates across all 95 accounts
+    # Aggregates across all accounts
     total_mrr = sum(r["retainer"] for r in records)
     total_value_monthly = sum(r["total_value_realized"] for r in records)
     total_value_annual = total_value_monthly * 12
@@ -120,7 +121,7 @@ def build_attribution_hub():
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Client Value Realization & Financial Attribution Engine | AI Money Machine</title>
-  <meta name="description" content="Empirical B2B ROI Ledger & CFO Board-Ready Financial Attribution Engine for all 95 enterprise and SMB client accounts ($1,002,600 ARR). Verified payback periods, speed-to-lead revenue recovery, and SHA-256 certificate export.">
+  <meta name="description" content="Empirical B2B ROI Ledger & CFO Board-Ready Financial Attribution Engine for all 119 enterprise and SMB client accounts ($1,218,600 ARR Target). Verified payback periods, speed-to-lead revenue recovery, and SHA-256 certificate export.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -431,7 +432,7 @@ def build_attribution_hub():
       <div class="brand-icon">📈</div>
       <div class="brand-text">
         <h1>CLIENT VALUE REALIZATION & ATTRIBUTION</h1>
-        <span>EMPIRICAL B2B ROI LEDGER • 95 ACCOUNTS ($1,002,600 ARR)</span>
+        <span>EMPIRICAL B2B ROI LEDGER • {total_accounts} ACCOUNTS ($1,218,600 ARR TARGET)</span>
       </div>
     </a>
     <div class="header-actions">
@@ -766,7 +767,7 @@ def build_attribution_hub():
 
     size_kb = len(html_content.encode("utf-8")) / 1024
     print(f"  [✓] Web App Flagship #27 built successfully: {OUTPUT_HTML} ({size_kb:.1f} KB)")
-    print(f"  [✓] Processed empirical attribution ledger for all 95 accounts. Total monthly realized value: ${total_value_monthly:,.0f} (Avg ROI: {avg_roi_multiplier}x)")
+    print(f"  [✓] Processed empirical attribution ledger for all {total_accounts} accounts. Total monthly realized value: ${total_value_monthly:,.0f} (Avg ROI: {avg_roi_multiplier}x)")
 
 if __name__ == "__main__":
     build_attribution_hub()

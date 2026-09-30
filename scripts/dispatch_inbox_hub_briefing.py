@@ -53,11 +53,11 @@ def send_briefing():
 • 📱 <b>Tích Hợp Đa Kênh Toàn Diện:</b> <code>Web Widget • Twilio SMS • WhatsApp • Voice AI</code>
 • ⚡ <b>Tốc Độ Phản Hồi (Speed-to-Lead):</b> <code>&lt; 14 Giây (Tỷ Lệ Tự Động Hóa 89.4%)</code>
 • 🛡️ <b>Mạng Lưới An Toàn Nhân Sự (HITL):</b> <code>100% An Toàn Với 1-Click Human Takeover</code>
-• 💰 <b>Doanh Thu Hợp Đồng Bảo Vệ:</b> <code>$1,002,600 / năm ARR ($83,550 / tháng MRR)</code>
+• 💰 <b>Mục Tiêu Doanh Thu Pipeline:</b> <code>$1,218,600 / năm ARR Target ($101,550 / tháng Target Pipeline, Thực thu: $0.00)</code>
 
 🛠️ <b>CÁC KHẢ NĂNG TÁC CHIẾN ĐỘT PHÁ CỦA UNIFIED INBOX:</b>
-1. <b>Omnichannel Real-Time Stream (95 Tài Khoản):</b>
-   • Tập trung toàn bộ tin nhắn từ Web Chat, Twilio SMS, WhatsApp Business và Voice AI Call Recording của 95 doanh nghiệp
+1. <b>Omnichannel Real-Time Stream (119 Tài Khoản):</b>
+   • Tập trung toàn bộ tin nhắn từ Web Chat, Twilio SMS, WhatsApp Business và Voice AI Call Recording của 119 doanh nghiệp
    • Phân loại sắc thái cảm xúc tự động (Sentiment Triaging): Cảnh báo đỏ cho ca cấp cứu nha khoa / tai nạn xe / sập AC 24/7
 
 2. <b>1-Click Human Takeover Toggle (HITL Safety):</b>
@@ -84,7 +84,7 @@ def send_briefing():
 • <b>Developer Docs:</b> https://work-minh-lap.vercel.app/docs
 • <b>Master Dashboard:</b> https://work-minh-lap.vercel.app
 
-<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và bảo vệ toàn vẹn $1,002,600 ARR cùng 95 đối tác doanh nghiệp.</i>"""
+<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và bảo vệ toàn vẹn $1,218,600 ARR Target cùng 119 đối tác doanh nghiệp.</i>"""
 
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     payload = json.dumps({

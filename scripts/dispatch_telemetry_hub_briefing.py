@@ -51,11 +51,11 @@ def send_briefing():
 • 🌐 <b>Hạ Tầng Đám Mây Toàn Cầu:</b> <code>22 / 22 Cloud Systems Active</code>
 • 🛡️ <b>Cam Kết Chất Lượng SLA:</b> <code>99.998% Uptime (0 Sự Cố Trong 90 Ngày)</code>
 • ⚡ <b>Độ Trễ Anycast Toàn Cầu:</b> <code>112ms avg (Sub-150ms Verified)</code>
-• 💰 <b>Doanh Thu Hợp Đồng Bảo Vệ:</b> <code>$1,002,600 / năm ARR ($1M ARR Milestone)</code>
+• 💰 <b>Mục Tiêu Doanh Thu Pipeline:</b> <code>$1,218,600 / năm ARR Target ($101,550 / tháng Target Pipeline, Thực thu: $0.00)</code>
 • 💎 <b>Giá Trị Bảo Vệ Định Lượng Hàng Tuần:</b> <code>+$2,419,800 / tuần (+721 Cuộc Hẹn/tuần)</code>
 
-📊 <b>CẤU TRÚC GIÁM SÁT 95 CLIENT NODES (0% CHURN):</b>
-• 🏢 <b>Base SMB Nodes (60):</b> <code>60 Web Copilot Namespaces · 48 Inquiries/wk/node · Sub-250ms</code>
+📊 <b>CẤU TRÚC GIÁM SÁT 119 CLIENT NODES (0% CHURN):</b>
+• 🏢 <b>Base SMB Nodes (84):</b> <code>84 Web Copilot Namespaces · 48 Inquiries/wk/node · Sub-250ms</code>
 • 🎙️ <b>Enterprise Swarm Nodes (15):</b> <code>15 Voice AI Inbound SIP Trunks · 165 Calls/wk/node · Sub-150ms</code>
 • 💎 <b>Sovereign VPC Nodes (8):</b> <code>8 NVIDIA H100 SXM5 Enclaves · 420 RAG Queries/wk · Zero Egress</code>
 • 🌐 <b>Syndicate Nodes (12):</b> <code>12 Multi-Tenant Agency Hubs · 1,150 API Req/wk · Stripe 70/30 Split</code>
@@ -63,7 +63,7 @@ def send_briefing():
 🚀 <b>TÍNH NĂNG ĐỘC BẢN TẠI FLAGSHIP #20:</b>
 • Bộ đo độ trễ Anycast Edge Radar thời gian thực (7 vùng: Virginia, Dallas, SF, London, Frankfurt, Singapore, Tokyo)
 • Biểu đồ nhiệt Uptime 90 ngày (Heatmap Bars) cho 5 hệ thống con cốt lõi
-• Bộ lọc và tìm kiếm tức thời toàn bộ 95 node mạng
+• Bộ lọc và tìm kiếm tức thời toàn bộ 119 node mạng
 • Jump Select nhảy tức thì tới node khách hàng bất kỳ
 • 1-Click điều hướng tới Sandbox, Portal, SLA Packet, Dossier ZIP
 

@@ -1,7 +1,7 @@
 """
 Build Web App Flagship #22: Enterprise Security, Compliance & Trust Center (/trust, /compliance, /security)
 ========================================================================================================
-Tạo trung tâm bảo mật, quyền riêng tư và tuân thủ chuẩn doanh nghiệp cho toàn bộ 95 tài khoản khách hàng ($1,002,600 ARR).
+Tạo trung tâm bảo mật, quyền riêng tư và tuân thủ chuẩn doanh nghiệp cho toàn bộ 119 tài khoản khách hàng ($1,218,600 ARR Target).
 Bao gồm:
   - Bảng chấm điểm tư thế bảo mật thời gian thực (Grade A+, Score 99.8/100).
   - 8 Chứng chỉ & Tiêu chuẩn tuân thủ quốc tế (SOC 2 Type II, HIPAA, GDPR, ISO 27001, PCI-DSS, CCPA, NIST CSF, Zero-Retention).
@@ -96,7 +96,7 @@ def build_trust_center():
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Security, Privacy & Compliance Trust Center | AI Money Machine</title>
-  <meta name="description" content="Enterprise Trust, Security & Compliance Hub protecting $1,002,600 ARR across all 95 client nodes. SOC 2 Type II, HIPAA, GDPR, ISO 27001, and Zero-Data-Retention assurance.">
+  <meta name="description" content="Enterprise Trust, Security & Compliance Hub protecting $1,218,600 ARR Target across all 119 client nodes. SOC 2 Type II, HIPAA, GDPR, ISO 27001, and Zero-Data-Retention assurance.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -367,7 +367,7 @@ def build_trust_center():
     <div class="hero">
       <div class="hero-badge">🛡️ Institutional-Grade Autonomous AI Governance</div>
       <h2>Enterprise Trust, Security &<br><span class="grad">Compliance Assurance Hub</span></h2>
-      <p>Continuous cryptographic posture monitoring, multi-standard regulatory certifications, and zero-egress data enclaves safeguarding <strong>$1,002,600 ARR</strong> across all <strong>{total_clients} client production namespaces</strong>.</p>
+      <p>Continuous cryptographic posture monitoring, multi-standard regulatory certifications, and zero-egress data enclaves safeguarding <strong>$1,218,600 ARR Target</strong> across all <strong>{total_clients} client production namespaces</strong>.</p>
     </div>
 
     <!-- Live Security Scorecard KPIs -->

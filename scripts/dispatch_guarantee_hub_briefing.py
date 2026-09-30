@@ -53,7 +53,7 @@ def send_briefing():
 • 🛡️ <b>Cam Kết Hợp Đồng Uptime:</b> <code>99.9% Uptime (99.99% Cho Sovereign Tier)</code>
 • ⚡ <b>Uptime Thực Nghiệm 90 Ngày:</b> <code>99.998% Uptime (0 Gián Đoạn Ngoài Kế Hoạch)</code>
 • ⏱️ <b>Thời Gian Khắc Phục (MTTR):</b> <code>&lt; 3.8 Phút (Tự Động Chuyển Vùng Anycast)</code>
-• 💰 <b>Doanh Thu Hợp Đồng Bảo Vệ:</b> <code>$1,002,600 / năm ARR ($83,550 / tháng MRR)</code>
+• 💰 <b>Mục Tiêu Doanh Thu Pipeline:</b> <code>$1,218,600 / năm ARR Target ($101,550 / tháng Target Pipeline, Thực thu: $0.00)</code>
 
 📜 <b>MA TRẬN BỒI THƯỜNG DỊCH VỤ HỢP ĐỒNG (SERVICE CREDIT MATRIX):</b>
 • <b>99.00% - 99.89%:</b> Bồi hoàn tự động <b>10% phí Retainer tháng</b> (hoặc 1.5x cho Sovereign)
@@ -62,7 +62,7 @@ def send_briefing():
 • <b>&lt; 95.00%:</b> Hoàn trả <b>100% phí Retainer tháng + 1 tháng miễn phí</b> + Quyền đơn phương chấm dứt
 
 🧮 <b>TRÌNH GIẢ LẬP BỒI THƯỜNG TỰ ĐỘNG (SLA CREDIT SIMULATOR):</b>
-• Chọn bất kỳ tài khoản nào trong 95 nodes để xem số giờ downtime và số tiền hoàn trả tức thì
+• Chọn bất kỳ tài khoản nào trong 119 nodes để xem số giờ downtime và số tiền hoàn trả tức thì
 • Tự động phát hành mã chứng nhận bồi thường (Claim Token) không cần thủ tục giấy tờ
 
 📑 <b>90 NGÀY NHẬT KÝ SỰ CỐ & PHÂN TÍCH GỐC RỄ (RCA / POST-MORTEMS):</b>
@@ -78,7 +78,7 @@ def send_briefing():
 • <b>Live Telemetry:</b> https://work-minh-lap.vercel.app/telemetry
 • <b>Master Dashboard:</b> https://work-minh-lap.vercel.app
 
-<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và bảo vệ toàn vẹn 95/95 khách hàng ($1,002,600 ARR).</i>"""
+<i>Hệ thống tự động đồng bộ Dual-Sync byte-for-byte và bảo vệ toàn vẹn 119/119 khách hàng ($1,218,600 ARR Target).</i>"""
 
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     payload = json.dumps({

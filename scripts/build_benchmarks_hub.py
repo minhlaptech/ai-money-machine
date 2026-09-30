@@ -1,7 +1,7 @@
 """
 Build Web App Flagship #23: Global AI Performance & Industry Benchmark Index (/benchmarks, /analytics, /performance)
 ===================================================================================================================
-Tạo trung tâm phân tích hiệu năng, đo lường ROI và xếp hạng chuẩn ngành cho toàn bộ 95 tài khoản khách hàng ($1,002,600 ARR).
+Tạo trung tâm phân tích hiệu năng, đo lường ROI và xếp hạng chuẩn ngành cho toàn bộ 119 tài khoản khách hàng ($1,218,600 ARR Target).
 Bao gồm:
   - Chỉ số tổng hợp toàn mạng: +$2,419,800/tuần giá trị bảo vệ, +721 cuộc hẹn/tuần, 1.48M+ sự kiện/tháng.
   - 6 Khung chuẩn ngành (Cosmetic Dentistry, Medical Aesthetics, High-Ticket Legal, HVAC/Home Services, Sovereign Wealth, Syndicate Franchise).
@@ -409,7 +409,7 @@ def build_benchmarks_hub():
     <div class="hero">
       <div class="hero-badge">📊 Institutional AI Yield & Speed-to-Lead Index</div>
       <h2>Cross-Industry Performance &<br><span class="grad">Autonomous ROI Benchmarks</span></h2>
-      <p>Empirical performance data aggregated across <strong>{total_clients} enterprise and SMB client nodes</strong> representing <strong>$1,002,600 ARR</strong>. Compare speed-to-lead latency, after-hours capture ratios, and economic yield against top-quartile industry peers.</p>
+      <p>Empirical performance data aggregated across <strong>{total_clients} enterprise and SMB client nodes</strong> representing <strong>$1,218,600 ARR Target</strong>. Compare speed-to-lead latency, after-hours capture ratios, and economic yield against top-quartile industry peers.</p>
     </div>
 
     <!-- Live Aggregated Benchmark KPIs -->
