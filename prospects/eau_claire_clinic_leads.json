@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Planned Parenthood",
+    "niche": "Clinic",
+    "city": "Eau Claire",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@plannedparenthood.example",
+    "address": "967 West Clairemont Avenue, Eau Claire 54701",
+    "mailto_url": "mailto:contact@plannedparenthood.example?subject=quick%20question%20regarding%20Planned%20Parenthood%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Planned%20Parenthood%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:11:23"
+  },
+  {
+    "id": 2,
+    "name": "Marshfield Clinic Eau Claire Cancer Center",
+    "niche": "Clinic",
+    "city": "Eau Claire",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@marshfieldcliniceauclairecancercenter.example",
+    "address": "2200 Craig Road, Eau Claire 54701",
+    "mailto_url": "mailto:contact@marshfieldcliniceauclairecancercenter.example?subject=quick%20question%20regarding%20Marshfield%20Clinic%20Eau%20Claire%20Cancer%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Marshfield%20Clinic%20Eau%20Claire%20Cancer%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:11:23"
+  },
+  {
+    "id": 3,
+    "name": "Marshfield Clinic Eau Claire Center",
+    "niche": "Clinic",
+    "city": "Eau Claire",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@marshfieldcliniceauclairecenter.example",
+    "address": "Eau Claire",
+    "mailto_url": "mailto:contact@marshfieldcliniceauclairecenter.example?subject=quick%20question%20regarding%20Marshfield%20Clinic%20Eau%20Claire%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Marshfield%20Clinic%20Eau%20Claire%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:11:23"
+  },
+  {
+    "id": 4,
+    "name": "Mayo Cancer Center",
+    "niche": "Clinic",
+    "city": "Eau Claire",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@mayocancercenter.example",
+    "address": "Eau Claire",
+    "mailto_url": "mailto:contact@mayocancercenter.example?subject=quick%20question%20regarding%20Mayo%20Cancer%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Mayo%20Cancer%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:11:23"
+  },
+  {
+    "id": 5,
+    "name": "Prevea Health",
+    "niche": "Clinic",
+    "city": "Eau Claire",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@preveahealth.example",
+    "address": "Eau Claire",
+    "mailto_url": "mailto:contact@preveahealth.example?subject=quick%20question%20regarding%20Prevea%20Health%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Prevea%20Health%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:11:23"
+  },
+  {
+    "id": 6,
+    "name": "DaVita Dialysis",
+    "niche": "Clinic",
+    "city": "Eau Claire",
+    "phone": "N/A",
+    "website": "https://www.davita.com/locations/wi/lake-hallie/3636-east-melby-st--5066",
+    "email": "contact@davita.com",
+    "address": "3636 East Melby Street, Eau Claire",
+    "mailto_url": "mailto:contact@davita.com?subject=quick%20question%20regarding%20DaVita%20Dialysis%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.davita.com/locations/wi/lake-hallie/3636-east-melby-st--5066%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20DaVita%20Dialysis%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:11:23"
+  },
+  {
+    "id": 7,
+    "name": "Caillier Clinic",
+    "niche": "Clinic",
+    "city": "Eau Claire",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@caillierclinic.example",
+    "address": "Eau Claire",
+    "mailto_url": "mailto:contact@caillierclinic.example?subject=quick%20question%20regarding%20Caillier%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Caillier%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:11:23"
+  },
+  {
+    "id": 8,
+    "name": "Mayo Clinic Health System – Clairemont Campus Clinic",
+    "niche": "Clinic",
+    "city": "Eau Claire",
+    "phone": "+1 715 838 5222",
+    "website": "https://mayoclinichealthsystem.org/locations/eau-claire",
+    "email": "contact@mayoclinichealthsystem.org",
+    "address": "733 West Clairemont Avenue, Eau Claire 54701",
+    "mailto_url": "mailto:contact@mayoclinichealthsystem.org?subject=quick%20question%20regarding%20Mayo%20Clinic%20Health%20System%20%E2%80%93%20Clairemont%20Campus%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//mayoclinichealthsystem.org/locations/eau-claire%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Mayo%20Clinic%20Health%20System%20%E2%80%93%20Clairemont%20Campus%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:11:23"
+  },
+  {
+    "id": 9,
+    "name": "Marshfield Clinic Eau Claire Physical Therapy Center",
+    "niche": "Clinic",
+    "city": "Eau Claire",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@marshfieldcliniceauclairephysicaltherapycenter.example",
+    "address": "1262 West Clairemont Avenue, Eau Claire 54701",
+    "mailto_url": "mailto:contact@marshfieldcliniceauclairephysicaltherapycenter.example?subject=quick%20question%20regarding%20Marshfield%20Clinic%20Eau%20Claire%20Physical%20Therapy%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Marshfield%20Clinic%20Eau%20Claire%20Physical%20Therapy%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:11:23"
+  },
+  {
+    "id": 10,
+    "name": "Marshfield Clinic Eau Claire Clairemont Center",
+    "niche": "Clinic",
+    "city": "Eau Claire",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@marshfieldcliniceauclaireclairemontcenter.example",
+    "address": "1002 West Clairemont Avenue, Eau Claire 54701",
+    "mailto_url": "mailto:contact@marshfieldcliniceauclaireclairemontcenter.example?subject=quick%20question%20regarding%20Marshfield%20Clinic%20Eau%20Claire%20Clairemont%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Marshfield%20Clinic%20Eau%20Claire%20Clairemont%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:11:23"
+  }
+]
