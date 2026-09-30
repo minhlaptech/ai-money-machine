@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Coldwell Banker",
+    "niche": "Realestate",
+    "city": "Pittsburgh",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@coldwellbanker.example",
+    "address": "Pittsburgh",
+    "mailto_url": "mailto:contact@coldwellbanker.example?subject=quick%20question%20regarding%20Coldwell%20Banker%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Coldwell%20Banker%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:13:13"
+  },
+  {
+    "id": 2,
+    "name": "Equity Real Estate",
+    "niche": "Realestate",
+    "city": "Pittsburgh",
+    "phone": "+1-412-422-9200",
+    "website": "N/A",
+    "email": "contact@equityrealestate.example",
+    "address": "Pittsburgh",
+    "mailto_url": "mailto:contact@equityrealestate.example?subject=quick%20question%20regarding%20Equity%20Real%20Estate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Equity%20Real%20Estate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:13:13"
+  },
+  {
+    "id": 3,
+    "name": "Northwood Realty Services",
+    "niche": "Realestate",
+    "city": "Pittsburgh",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@northwoodrealtyservices.example",
+    "address": "1935 Murray Avenue, Pittsburgh",
+    "mailto_url": "mailto:contact@northwoodrealtyservices.example?subject=quick%20question%20regarding%20Northwood%20Realty%20Services%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Northwood%20Realty%20Services%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:13:13"
+  },
+  {
+    "id": 4,
+    "name": "Blue Stone Real Estate",
+    "niche": "Realestate",
+    "city": "Pittsburgh",
+    "phone": "+1-412-892-8320",
+    "website": "http://bluestonerealestate.com",
+    "email": "contact@bluestonerealestate.com",
+    "address": "909 Brookline Boulevard, Pittsburgh 15226",
+    "mailto_url": "mailto:contact@bluestonerealestate.com?subject=quick%20question%20regarding%20Blue%20Stone%20Real%20Estate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//bluestonerealestate.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Blue%20Stone%20Real%20Estate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:13:13"
+  },
+  {
+    "id": 5,
+    "name": "Walnut Capital Management",
+    "niche": "Realestate",
+    "city": "Pittsburgh",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@walnutcapitalmanagement.example",
+    "address": "5500 Walnut Street, Pittsburgh 15232",
+    "mailto_url": "mailto:contact@walnutcapitalmanagement.example?subject=quick%20question%20regarding%20Walnut%20Capital%20Management%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Walnut%20Capital%20Management%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:13:13"
+  },
+  {
+    "id": 6,
+    "name": "McCaffery",
+    "niche": "Realestate",
+    "city": "Pittsburgh",
+    "phone": "+1 412-763-1660",
+    "website": "https://www.mccafferyinc.com/",
+    "email": "contact@mccafferyinc.com",
+    "address": "1750 Spruce Way, Pittsburgh 15222",
+    "mailto_url": "mailto:contact@mccafferyinc.com?subject=quick%20question%20regarding%20McCaffery%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.mccafferyinc.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20McCaffery%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:13:13"
+  },
+  {
+    "id": 7,
+    "name": "Howard Hanna",
+    "niche": "Realestate",
+    "city": "Pittsburgh",
+    "phone": "+1-412-361-4000",
+    "website": "https://www.howardhanna.com/Office/Detail/Shadyside/001101",
+    "email": "contact@howardhanna.com",
+    "address": "5501 Baum Boulevard, Pittsburgh 15232",
+    "mailto_url": "mailto:contact@howardhanna.com?subject=quick%20question%20regarding%20Howard%20Hanna%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.howardhanna.com/Office/Detail/Shadyside/001101%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Howard%20Hanna%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:13:13"
+  },
+  {
+    "id": 8,
+    "name": "Meyers Management",
+    "niche": "Realestate",
+    "city": "Pittsburgh",
+    "phone": "+1-412-682-5886",
+    "website": "https://www.meyersmanagement.com/",
+    "email": "contact@meyersmanagement.com",
+    "address": "4 Bayard Road, Pittsburgh 15213",
+    "mailto_url": "mailto:contact@meyersmanagement.com?subject=quick%20question%20regarding%20Meyers%20Management%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.meyersmanagement.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Meyers%20Management%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:13:13"
+  },
+  {
+    "id": 9,
+    "name": "Howard Hanna",
+    "niche": "Realestate",
+    "city": "Pittsburgh",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@howardhanna.example",
+    "address": "Pittsburgh",
+    "mailto_url": "mailto:contact@howardhanna.example?subject=quick%20question%20regarding%20Howard%20Hanna%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Howard%20Hanna%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:13:13"
+  }
+]
