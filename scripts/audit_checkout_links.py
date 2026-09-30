@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 files_to_check = [
     ROOT / "tools/index.html",
+    ROOT / "bundle/index.html",
     ROOT / "products/geo_audit_engine/index.html",
     ROOT / "products/review_genius/index.html",
     ROOT / "products/headline_iq/index.html",
