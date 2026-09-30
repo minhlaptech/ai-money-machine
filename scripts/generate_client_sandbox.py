@@ -2,7 +2,7 @@
 Executive Client Sandbox & Live Acceptance Testing Generator
 ------------------------------------------------------------
 Tự động tạo môi trường thử nghiệm trực tiếp (Sandbox Live Preview)
-cho từng khách hàng trong 30 leads B2B mục tiêu.
+cho từng khách hàng trong 84 leads B2B mục tiêu.
 Cho phép khách hàng trải nghiệm ngay AI Copilot mang thương hiệu của chính họ,
 chạy thử 5 kịch bản tương tác (báo giá, đặt lịch, cấp cứu, thanh toán)
 và lấy mã nhúng 1 dòng HTML để đưa lên website chính thức.
@@ -442,7 +442,7 @@ def generate_sandbox(lead_id, name, niche, city, color="#7c5cfc"):
 
 def generate_all_sandboxes():
     print("=" * 70)
-    print("🚀 GENERATING 30 CUSTOM CLIENT LIVE SANDBOX PREVIEWS")
+    print(f"🚀 GENERATING {len(LEADS)} CUSTOM CLIENT LIVE SANDBOX PREVIEWS")
     print("=" * 70)
 
     for l in LEADS:
@@ -450,12 +450,12 @@ def generate_all_sandboxes():
         print(f"  [✓] #{l['id']:02d} Generated: {f.name}")
 
     print("-" * 70)
-    print(f"🎉 SUCCESS: All 30 custom sandboxes generated in: {SANDBOXES_DIR}")
+    print(f"🎉 SUCCESS: All {len(LEADS)} custom sandboxes generated in: {SANDBOXES_DIR}")
     print("=" * 70)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Executive B2B Live Sandboxes")
-    parser.add_argument("--all", action="store_true", help="Generate sandboxes for all 30 curated leads")
+    parser.add_argument("--all", action="store_true", help="Generate sandboxes for all 84 curated leads")
     parser.add_argument("--id", type=int, default=1, help="Lead ID")
     parser.add_argument("--name", default="Austin Dental Co", help="Client name")
     parser.add_argument("--niche", default="Cosmetic Dentistry", help="Niche")

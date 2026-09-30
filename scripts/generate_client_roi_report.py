@@ -2,7 +2,7 @@
 Executive Client Monthly ROI & Performance Report Generator
 ------------------------------------------------------------
 Tự động tạo báo cáo hiệu suất thu hồi doanh thu hàng tháng (Monthly ROI Report)
-cho từng khách hàng trong 30 leads B2B mục tiêu.
+cho từng khách hàng trong 84 leads B2B mục tiêu.
 Chứng minh lợi nhuận gấp 20 - 40 lần so với chi phí Retainer $650/tháng,
 giúp duy trì hợp đồng dài hạn vĩnh viễn (100% Client Retention).
 """
@@ -467,7 +467,7 @@ def generate_roi_report(lead_id, name, niche, city, avg_val=750, lost_leads=18):
 
 def generate_all_reports():
     print("=" * 70)
-    print("🚀 GENERATING 30 CUSTOM CLIENT MONTHLY ROI PERFORMANCE REPORTS")
+    print(f"🚀 GENERATING {len(LEADS)} CUSTOM CLIENT MONTHLY ROI PERFORMANCE REPORTS")
     print("=" * 70)
 
     for l in LEADS:
@@ -475,12 +475,12 @@ def generate_all_reports():
         print(f"  [✓] #{l['id']:02d} Generated: {f.name}")
 
     print("-" * 70)
-    print(f"🎉 SUCCESS: All 30 monthly reports generated in: {REPORTS_DIR}")
+    print(f"🎉 SUCCESS: All {len(LEADS)} monthly reports generated in: {REPORTS_DIR}")
     print("=" * 70)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Executive Client Monthly ROI Reports")
-    parser.add_argument("--all", action="store_true", help="Generate reports for all 30 curated leads")
+    parser.add_argument("--all", action="store_true", help="Generate reports for all 84 curated leads")
     parser.add_argument("--id", type=int, default=1, help="Lead ID")
     parser.add_argument("--name", default="Austin Dental Co", help="Client name")
     parser.add_argument("--niche", default="Cosmetic Dentistry", help="Niche")
