@@ -787,10 +787,10 @@
     "city": "Dallas, TX",
     "to": "contact@morganweisbrod.com",
     "doc": "Morgan Weisbrod",
-    "status": "new",
+    "status": "day1",
     "value": 3500,
     "retainer": 850,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 62,
@@ -800,10 +800,10 @@
     "city": "Dallas, TX",
     "to": "contact@guajardomarks.com",
     "doc": "Michael Guajardo",
-    "status": "new",
+    "status": "day1",
     "value": 4000,
     "retainer": 900,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 63,
@@ -813,10 +813,10 @@
     "city": "Dallas, TX",
     "to": "contact@lawofficeofwilliamteitelbaum.example",
     "doc": "William Teitelbaum",
-    "status": "new",
+    "status": "day1",
     "value": 3000,
     "retainer": 800,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 64,
@@ -826,10 +826,10 @@
     "city": "Dallas, TX",
     "to": "contact@ondafamilylaw.com",
     "doc": "Richard Orsinger",
-    "status": "new",
+    "status": "day1",
     "value": 4500,
     "retainer": 950,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 65,
@@ -839,10 +839,10 @@
     "city": "Dallas, TX",
     "to": "contact@clementslaw.com",
     "doc": "Robert Clements",
-    "status": "new",
+    "status": "day1",
     "value": 3800,
     "retainer": 900,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 66,
@@ -852,10 +852,10 @@
     "city": "Dallas, TX",
     "to": "contact@saputo.law",
     "doc": "Paul Saputo",
-    "status": "new",
+    "status": "day1",
     "value": 3500,
     "retainer": 850,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 67,
@@ -865,10 +865,10 @@
     "city": "Dallas, TX",
     "to": "contact@juliejohnsonlaw.com",
     "doc": "Julie Johnson",
-    "status": "new",
+    "status": "day1",
     "value": 4200,
     "retainer": 900,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 68,
@@ -878,10 +878,10 @@
     "city": "Dallas, TX",
     "to": "contact@thedallasdivorceattorney.com",
     "doc": "Scott Zegen",
-    "status": "new",
+    "status": "day1",
     "value": 3200,
     "retainer": 850,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 69,
@@ -891,10 +891,10 @@
     "city": "Dallas, TX",
     "to": "contact@kastllaw.com",
     "doc": "Kristina Kastl",
-    "status": "new",
+    "status": "day1",
     "value": 4000,
     "retainer": 900,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 70,
@@ -904,10 +904,10 @@
     "city": "Dallas, TX",
     "to": "contact@hastingsfirm.com",
     "doc": "Tommy Hastings",
-    "status": "new",
+    "status": "day1",
     "value": 5000,
     "retainer": 1000,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 71,
@@ -917,10 +917,10 @@
     "city": "Dallas, TX",
     "to": "contact@thebentonlawfirm.com",
     "doc": "Jeff Benton",
-    "status": "new",
+    "status": "day1",
     "value": 4200,
     "retainer": 950,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 72,
@@ -930,10 +930,10 @@
     "city": "Dallas, TX",
     "to": "contact@slatermatsil.example",
     "doc": "Ira Matsil",
-    "status": "new",
+    "status": "day1",
     "value": 5500,
     "retainer": 1000,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 73,
@@ -943,10 +943,10 @@
     "city": "Dallas, TX",
     "to": "contact@brookerlaw.com",
     "doc": "Chip Brooker",
-    "status": "new",
+    "status": "day1",
     "value": 4800,
     "retainer": 950,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 74,
@@ -956,10 +956,10 @@
     "city": "Dallas, TX",
     "to": "contact@scrogginslawgroup.example",
     "doc": "Mark Scroggins",
-    "status": "new",
+    "status": "day1",
     "value": 3600,
     "retainer": 850,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 75,
@@ -969,10 +969,10 @@
     "city": "Dallas, TX",
     "to": "contact@lyons-simmons.com",
     "doc": "Michael Lyons",
-    "status": "new",
+    "status": "day1",
     "value": 5200,
     "retainer": 1000,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 76,
@@ -982,10 +982,10 @@
     "city": "Miami, FL",
     "to": "contact@miamivillagedental.example",
     "doc": "Dr. Elena Gomez",
-    "status": "new",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 77,
@@ -995,10 +995,10 @@
     "city": "Miami, FL",
     "to": "contact@miamipremierdental.example",
     "doc": "Dr. Carlos Ramos",
-    "status": "new",
+    "status": "day1",
     "value": 1400,
     "retainer": 700,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 78,
@@ -1008,10 +1008,10 @@
     "city": "Miami, FL",
     "to": "contact@vizcayadentalarts.com",
     "doc": "Dr. Mario Alvarez",
-    "status": "new",
+    "status": "day1",
     "value": 1800,
     "retainer": 750,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 79,
@@ -1021,10 +1021,10 @@
     "city": "Miami, FL",
     "to": "contact@miamionedental.example",
     "doc": "Dr. Jessica Ortiz",
-    "status": "new",
+    "status": "day1",
     "value": 1600,
     "retainer": 700,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 80,
@@ -1034,10 +1034,10 @@
     "city": "Miami, FL",
     "to": "contact@cadcamcenter.com",
     "doc": "Dr. Alex Levin",
-    "status": "new",
+    "status": "day1",
     "value": 2000,
     "retainer": 800,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 81,
@@ -1047,10 +1047,10 @@
     "city": "Miami, FL",
     "to": "contact@epicsmilesmiami.example",
     "doc": "Dr. Sofia Morales",
-    "status": "new",
+    "status": "day1",
     "value": 1500,
     "retainer": 700,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 82,
@@ -1060,10 +1060,10 @@
     "city": "Miami, FL",
     "to": "contact@biscaynemoderndental.example",
     "doc": "Dr. David Chen",
-    "status": "new",
+    "status": "day1",
     "value": 1300,
     "retainer": 650,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 83,
@@ -1073,10 +1073,10 @@
     "city": "Miami, FL",
     "to": "contact@healthychildrenpediatrics.example",
     "doc": "Dr. Amanda Perez",
-    "status": "new",
+    "status": "day1",
     "value": 1100,
     "retainer": 650,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   },
   {
     "id": 84,
@@ -1086,9 +1086,9 @@
     "city": "Miami, FL",
     "to": "contact@ultrasmile.example",
     "doc": "Dr. Gabriel Santos",
-    "status": "new",
+    "status": "day1",
     "value": 1700,
     "retainer": 750,
-    "last_touch": "2026-09-30 09:12"
+    "last_touch": "2026-09-30 09:47"
   }
 ]

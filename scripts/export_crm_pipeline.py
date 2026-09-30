@@ -95,7 +95,8 @@ BATCH_DESCS = {
     3: "Batch 3 (High-Ticket Legal & Wealth)",
     4: "Batch 4 (Luxury Contracting & Construction)",
     5: "Batch 5 (B2B Agencies & Tech Search)",
-    6: "Batch 6 (Specialized Luxury Healthcare)"
+    6: "Batch 6 (Specialized Luxury Healthcare)",
+    7: "Batch 7 (Dallas Legal & Miami Dental Live)"
 }
 
 def export_pipeline():
@@ -103,7 +104,7 @@ def export_pipeline():
     records = []
 
     print("=" * 80)
-    print("🚀 EXPORTING MASTER B2B CRM PIPELINE & 8-DELIVERABLE DIGITAL ARSENAL (60 LEADS)")
+    print("🚀 EXPORTING MASTER B2B CRM PIPELINE & 8-DELIVERABLE DIGITAL ARSENAL (84 LEADS)")
     print("=" * 80)
 
     # Read live CRM statuses if available
