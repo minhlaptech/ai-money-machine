@@ -71,6 +71,9 @@
     { "source": "/performance", "destination": "/benchmarks/index.html" },
     { "source": "/guarantee", "destination": "/guarantee/index.html" },
     { "source": "/sla", "destination": "/guarantee/index.html" },
-    { "source": "/guarantees", "destination": "/guarantee/index.html" }
+    { "source": "/guarantees", "destination": "/guarantee/index.html" },
+    { "source": "/knowledge", "destination": "/knowledge/index.html" },
+    { "source": "/agent-studio", "destination": "/knowledge/index.html" },
+    { "source": "/studio/agent", "destination": "/knowledge/index.html" }
   ]
 }

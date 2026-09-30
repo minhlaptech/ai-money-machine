@@ -70,6 +70,7 @@ LIVE_URLS = [
     ("Enterprise Security & Trust Center (/trust)", "https://work-minh-lap.vercel.app/trust"),
     ("Global AI Performance & Benchmark Index (/benchmarks)", "https://work-minh-lap.vercel.app/benchmarks"),
     ("SLA Financial Guarantee Center (/guarantee)", "https://work-minh-lap.vercel.app/guarantee"),
+    ("Self-Service Knowledge Base & AI Agent Studio (/knowledge)", "https://work-minh-lap.vercel.app/knowledge"),
     ("Serverless Telemetry API (/api/telemetry)", "https://work-minh-lap.vercel.app/api/telemetry"),
     ("Serverless Health API (/api/health)", "https://work-minh-lap.vercel.app/api/health"),
 ]
