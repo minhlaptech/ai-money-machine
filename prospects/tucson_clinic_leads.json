@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Tucson Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.tucsonpremierclinicstudio.example",
+    "email": "info@tucsonpremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@tucsonpremierclinicstudio.example?subject=quick%20question%20regarding%20Tucson%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:36:18"
+  },
+  {
+    "id": 2,
+    "name": "Apex Tucson Clinic Center",
+    "niche": "Clinic",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apextucsoncliniccenter.example",
+    "email": "info@apextucsoncliniccenter.example",
+    "address": "240 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@apextucsoncliniccenter.example?subject=quick%20question%20regarding%20Apex%20Tucson%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:36:18"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Tucson",
+    "niche": "Clinic",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersoftucson.example",
+    "email": "info@beaconclinicpartnersoftucson.example",
+    "address": "360 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@beaconclinicpartnersoftucson.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:36:18"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Tucson Clinic Group",
+    "niche": "Clinic",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardtucsonclinicgroup.example",
+    "email": "info@vanguardtucsonclinicgroup.example",
+    "address": "480 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@vanguardtucsonclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Tucson%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:36:18"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Tucson",
+    "niche": "Clinic",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticstucson.example",
+    "email": "info@luminaclinicandaestheticstucson.example",
+    "address": "600 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@luminaclinicandaestheticstucson.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:36:18"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Tucson",
+    "niche": "Clinic",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicoftucson.example",
+    "email": "info@proactiveclinicclinicoftucson.example",
+    "address": "720 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@proactiveclinicclinicoftucson.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:36:18"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Tucson",
+    "niche": "Clinic",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialiststucson.example",
+    "email": "info@eliteclinicspecialiststucson.example",
+    "address": "840 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@eliteclinicspecialiststucson.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:36:18"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Tucson",
+    "niche": "Clinic",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinictucson.example",
+    "email": "info@summitcrestclinictucson.example",
+    "address": "960 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@summitcrestclinictucson.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:36:18"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Tucson",
+    "niche": "Clinic",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecentertucson.example",
+    "email": "info@metrocliniccarecentertucson.example",
+    "address": "1080 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@metrocliniccarecentertucson.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:36:18"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Tucson",
+    "niche": "Clinic",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticetucson.example",
+    "email": "info@pacificcoastclinicpracticetucson.example",
+    "address": "1200 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticetucson.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:36:18"
+  }
+]

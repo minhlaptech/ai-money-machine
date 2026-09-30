@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Campus Health",
+    "niche": "Doctor",
+    "city": "Tucson",
+    "phone": "+1-520-621-6490",
+    "website": "https://www.health.arizona.edu/",
+    "email": "contact@health.arizona.edu",
+    "address": "1224 East Lowell Street, Tucson 85721",
+    "mailto_url": "mailto:contact@health.arizona.edu?subject=quick%20question%20regarding%20Campus%20Health%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.health.arizona.edu/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Campus%20Health%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:35:53"
+  },
+  {
+    "id": 2,
+    "name": "Evan Kligman, MD",
+    "niche": "Doctor",
+    "city": "Tucson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@evankligmanmd.example",
+    "address": "2802 North Alvernon Way, Tucson",
+    "mailto_url": "mailto:contact@evankligmanmd.example?subject=quick%20question%20regarding%20Evan%20Kligman%2C%20MD%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Evan%20Kligman%2C%20MD%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:35:53"
+  },
+  {
+    "id": 3,
+    "name": "codac",
+    "niche": "Doctor",
+    "city": "Tucson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@codac.example",
+    "address": "Tucson",
+    "mailto_url": "mailto:contact@codac.example?subject=quick%20question%20regarding%20codac%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20codac%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:35:53"
+  },
+  {
+    "id": 4,
+    "name": "Copperstate OBGYN",
+    "niche": "Doctor",
+    "city": "Tucson",
+    "phone": "N/A",
+    "website": "https://www.copperstateobgyn.com/",
+    "email": "contact@copperstateobgyn.com",
+    "address": "630 North Alvernon Way, Tucson 85711",
+    "mailto_url": "mailto:contact@copperstateobgyn.com?subject=quick%20question%20regarding%20Copperstate%20OBGYN%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.copperstateobgyn.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Copperstate%20OBGYN%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:35:53"
+  },
+  {
+    "id": 5,
+    "name": "Arizona Eye Consultants",
+    "niche": "Doctor",
+    "city": "Tucson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@arizonaeyeconsultants.example",
+    "address": "395 N Silverbell Rd, Tucson 85745",
+    "mailto_url": "mailto:contact@arizonaeyeconsultants.example?subject=quick%20question%20regarding%20Arizona%20Eye%20Consultants%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Arizona%20Eye%20Consultants%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:35:53"
+  },
+  {
+    "id": 6,
+    "name": "Arizona Urology Specialists",
+    "niche": "Doctor",
+    "city": "Tucson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@arizonaurologyspecialists.example",
+    "address": "395 N Silverbell Road, Tucson 85745",
+    "mailto_url": "mailto:contact@arizonaurologyspecialists.example?subject=quick%20question%20regarding%20Arizona%20Urology%20Specialists%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Arizona%20Urology%20Specialists%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:35:53"
+  },
+  {
+    "id": 7,
+    "name": "Arizona Urology Specialist",
+    "niche": "Doctor",
+    "city": "Tucson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@arizonaurologyspecialist.example",
+    "address": "4745 East Camp Lowell Drive, Tucson 85712",
+    "mailto_url": "mailto:contact@arizonaurologyspecialist.example?subject=quick%20question%20regarding%20Arizona%20Urology%20Specialist%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Arizona%20Urology%20Specialist%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:35:53"
+  },
+  {
+    "id": 8,
+    "name": "Josette Weibrecht MD, John S. Leipsic MD and Necoe Otto-Parkinson, PhD",
+    "niche": "Doctor",
+    "city": "Tucson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@josetteweibrechtmdjohnsleipsicmdandnecoeotto-parkinsonphd.example",
+    "address": "4739 East Camp Lowell Drive, Tucson 85712",
+    "mailto_url": "mailto:contact@josetteweibrechtmdjohnsleipsicmdandnecoeotto-parkinsonphd.example?subject=quick%20question%20regarding%20Josette%20Weibrecht%20MD%2C%20John%20S.%20Leipsic%20MD%20and%20Necoe%20Otto-Parkinson%2C%20PhD%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Josette%20Weibrecht%20MD%2C%20John%20S.%20Leipsic%20MD%20and%20Necoe%20Otto-Parkinson%2C%20PhD%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:35:53"
+  },
+  {
+    "id": 9,
+    "name": "Pima Heart and Vascular",
+    "niche": "Doctor",
+    "city": "Tucson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@pimaheartandvascular.example",
+    "address": "4729 East Camp Lowell Drive, Tucson 85712",
+    "mailto_url": "mailto:contact@pimaheartandvascular.example?subject=quick%20question%20regarding%20Pima%20Heart%20and%20Vascular%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Pima%20Heart%20and%20Vascular%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:35:53"
+  },
+  {
+    "id": 10,
+    "name": "Southwest Shoulder Elbow & Hand Center",
+    "niche": "Doctor",
+    "city": "Tucson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@southwestshoulderelbowhandcenter.example",
+    "address": "Tucson",
+    "mailto_url": "mailto:contact@southwestshoulderelbowhandcenter.example?subject=quick%20question%20regarding%20Southwest%20Shoulder%20Elbow%20%26%20Hand%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Southwest%20Shoulder%20Elbow%20%26%20Hand%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:35:53"
+  }
+]

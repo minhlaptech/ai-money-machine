@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Tucson Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.tucsonpremiercpastudio.example",
+    "email": "info@tucsonpremiercpastudio.example",
+    "address": "120 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@tucsonpremiercpastudio.example?subject=quick%20question%20regarding%20Tucson%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:37:04"
+  },
+  {
+    "id": 2,
+    "name": "Apex Tucson Cpa Center",
+    "niche": "Cpa",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apextucsoncpacenter.example",
+    "email": "info@apextucsoncpacenter.example",
+    "address": "240 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@apextucsoncpacenter.example?subject=quick%20question%20regarding%20Apex%20Tucson%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:37:04"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of Tucson",
+    "niche": "Cpa",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersoftucson.example",
+    "email": "info@beaconcpapartnersoftucson.example",
+    "address": "360 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@beaconcpapartnersoftucson.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:37:04"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Tucson Cpa Group",
+    "niche": "Cpa",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardtucsoncpagroup.example",
+    "email": "info@vanguardtucsoncpagroup.example",
+    "address": "480 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@vanguardtucsoncpagroup.example?subject=quick%20question%20regarding%20Vanguard%20Tucson%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:37:04"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics Tucson",
+    "niche": "Cpa",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticstucson.example",
+    "email": "info@luminacpaandaestheticstucson.example",
+    "address": "600 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@luminacpaandaestheticstucson.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:37:04"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Cpa Clinic of Tucson",
+    "niche": "Cpa",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivecpaclinicoftucson.example",
+    "email": "info@proactivecpaclinicoftucson.example",
+    "address": "720 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@proactivecpaclinicoftucson.example?subject=quick%20question%20regarding%20ProActive%20Cpa%20Clinic%20of%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:37:04"
+  },
+  {
+    "id": 7,
+    "name": "Elite Cpa Specialists Tucson",
+    "niche": "Cpa",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitecpaspecialiststucson.example",
+    "email": "info@elitecpaspecialiststucson.example",
+    "address": "840 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@elitecpaspecialiststucson.example?subject=quick%20question%20regarding%20Elite%20Cpa%20Specialists%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:37:04"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Cpa Tucson",
+    "niche": "Cpa",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestcpatucson.example",
+    "email": "info@summitcrestcpatucson.example",
+    "address": "960 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@summitcrestcpatucson.example?subject=quick%20question%20regarding%20Summit%20Crest%20Cpa%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:37:04"
+  },
+  {
+    "id": 9,
+    "name": "Metro Cpa Care Center Tucson",
+    "niche": "Cpa",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocpacarecentertucson.example",
+    "email": "info@metrocpacarecentertucson.example",
+    "address": "1080 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@metrocpacarecentertucson.example?subject=quick%20question%20regarding%20Metro%20Cpa%20Care%20Center%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:37:04"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Cpa Practice Tucson",
+    "niche": "Cpa",
+    "city": "Tucson",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastcpapracticetucson.example",
+    "email": "info@pacificcoastcpapracticetucson.example",
+    "address": "1200 Boulevard Ave, Tucson",
+    "mailto_url": "mailto:info@pacificcoastcpapracticetucson.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Cpa%20Practice%20Tucson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:37:04"
+  }
+]
