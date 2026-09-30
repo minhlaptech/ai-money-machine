@@ -80,6 +80,10 @@
     { "source": "/dispatch", "destination": "/inbox/index.html" },
     { "source": "/attribution", "destination": "/attribution/index.html" },
     { "source": "/value", "destination": "/attribution/index.html" },
-    { "source": "/realized-roi", "destination": "/attribution/index.html" }
+    { "source": "/realized-roi", "destination": "/attribution/index.html" },
+    { "source": "/snapocr", "destination": "/projects/snap_ocr_windows/index.html" },
+    { "source": "/ocr", "destination": "/projects/snap_ocr_windows/index.html" },
+    { "source": "/omniscrape", "destination": "/projects/omni_scrape_extension/popup/popup.html" },
+    { "source": "/reviewgenius-app", "destination": "/projects/reviewgenius_extension/popup/popup.html" }
   ]
 }

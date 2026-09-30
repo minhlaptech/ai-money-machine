@@ -45,7 +45,7 @@ export default function handler(req, res) {
         syndicate_franchises: 12
       },
       flagship_hubs: 28,
-      saas_tools: 5,
+      saas_tools: 8,
       client_packages_zip: 119,
       packaged_deliverables: 1071,
       sha256_verified: true,
@@ -80,6 +80,9 @@ export default function handler(req, res) {
       { name: 'Self-Service Knowledge Base & AI Agent Studio', status: 'live', url: 'https://work-minh-lap.vercel.app/knowledge' },
       { name: 'Omnichannel Unified Inbox & HITL Dispatch Center', status: 'live', url: 'https://work-minh-lap.vercel.app/inbox' },
       { name: 'Client Value Realization & Financial Attribution Engine', status: 'live', url: 'https://work-minh-lap.vercel.app/attribution' },
+      { name: 'SnapOCR Pro Windows Desktop App', status: 'live', url: 'https://work-minh-lap.vercel.app/snapocr' },
+      { name: 'OmniScrape AI Web Data Extractor', status: 'live', url: 'https://work-minh-lap.vercel.app/omniscrape' },
+      { name: 'ReviewGenius Pro Reputation Assistant', status: 'live', url: 'https://work-minh-lap.vercel.app/reviewgenius-app' },
       { name: 'Serverless Health API', status: 'live', url: 'https://work-minh-lap.vercel.app/api/health' },
       { name: 'Serverless Telemetry API', status: 'live', url: 'https://work-minh-lap.vercel.app/api/telemetry' }
     ]

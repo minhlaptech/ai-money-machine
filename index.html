@@ -394,19 +394,22 @@
       <!-- 27 Flagship Hubs Dropdown Trigger -->
       <div class="dropdown-wrapper">
         <button id="btn-hub-menu" class="btn-hub-toggle" onclick="toggleHubDropdown(event)">
-          <span>🏛️ 27 Flagship Hubs</span>
+          <span>🏛️ 28 Flagship Hubs & Apps</span>
           <span id="caret-icon" class="dropdown-caret">▾</span>
         </button>
         <div id="flagships-dropdown" class="hub-dropdown-menu">
           <div class="dropdown-header">
-            <h4>🏛️ 27 Production Web Applications & Command Centers</h4>
+            <h4>🏛️ 28 Production Web Applications & Store Apps</h4>
             <span class="dropdown-sub">100% Vercel Edge Live · Byte-for-byte Synchronized</span>
           </div>
           <div class="dropdown-grid">
             <!-- Col 1 -->
             <div class="dropdown-col">
-              <div class="col-title">🛍️ Micro-SaaS & Products (6)</div>
+              <div class="col-title">🛍️ Micro-SaaS & Store Apps (9)</div>
               <a href="/tools" target="_blank" class="dropdown-item"><span>⚡ SaaS Suite Hub ($39)</span><span class="tag-pill">Pass</span></a>
+              <a href="/snapocr" target="_blank" class="dropdown-item"><span>👁️ SnapOCR Pro</span><span class="tag-pill">Win 11</span></a>
+              <a href="/omniscrape" target="_blank" class="dropdown-item"><span>🕷️ OmniScrape AI</span><span class="tag-pill">Chrome</span></a>
+              <a href="/reviewgenius-app" target="_blank" class="dropdown-item"><span>⭐ ReviewGenius Pro</span><span class="tag-pill">SEO</span></a>
               <a href="/synapsegeo" target="_blank" class="dropdown-item"><span>🌐 SynapseGEO v2.4</span><span class="tag-pill">AI SEO</span></a>
               <a href="/reviewgenius" target="_blank" class="dropdown-item"><span>⭐ ReviewGenius AI</span><span class="tag-pill">Reviews</span></a>
               <a href="/headlineiq" target="_blank" class="dropdown-item"><span>🔥 HeadlineIQ</span><span class="tag-pill">Viral CTR</span></a>
@@ -513,14 +516,14 @@
 
       <!-- Live Search Box -->
       <div class="saas-search-wrap">
-        <input type="text" id="saas-search-input" placeholder="🔍 Tìm nhanh 27 web apps, công cụ..." oninput="filterSaasCards()">
+        <input type="text" id="saas-search-input" placeholder="🔍 Tìm nhanh 30 web apps, công cụ..." oninput="filterSaasCards()">
       </div>
     </div>
 
     <!-- Category Filter Pills -->
     <div class="saas-filter-bar">
-      <button class="saas-filter-btn active" onclick="filterSaasCategory('all', this)">🌟 Tất Cả (27)</button>
-      <button class="saas-filter-btn" onclick="filterSaasCategory('products', this)">🛍️ SaaS & Sản Phẩm (6)</button>
+      <button class="saas-filter-btn active" onclick="filterSaasCategory('all', this)">🌟 Tất Cả (30)</button>
+      <button class="saas-filter-btn" onclick="filterSaasCategory('products', this)">🛍️ SaaS & Store Apps (9)</button>
       <button class="saas-filter-btn" onclick="filterSaasCategory('clients', this)">🏢 Khách Hàng & Vận Hành (7)</button>
       <button class="saas-filter-btn" onclick="filterSaasCategory('compliance', this)">⚖️ Tuân Thủ & Bảo Hành (6)</button>
       <button class="saas-filter-btn" onclick="filterSaasCategory('operations', this)">📡 NOC & Điều Phối (8)</button>
@@ -539,6 +542,49 @@
           <a href="/tools" target="_blank" class="btn-launch" style="background: linear-gradient(135deg, #ffd700, #ff8c00); color: #000; font-weight: 800;">Launch SaaS Suite ↗</a>
         </div>
       </div>
+
+      <div class="saas-card" style="border-color: rgba(14, 165, 233, 0.4); background: linear-gradient(180deg, rgba(14, 165, 233, 0.06) 0%, rgba(18, 18, 36, 0.7) 100%);" data-category="products" data-keywords="snapocr ocr screen table text extractor excel windows 11 desktop pwa">
+        <div>
+          <div class="saas-header">
+            <div class="saas-icon" style="background: rgba(14, 165, 233, 0.15); border: 1px solid rgba(14, 165, 233, 0.4);">👁️</div>
+            <span class="saas-tag" style="background: linear-gradient(135deg, #0ea5e9, #38bdf8); color: #041021; font-weight: 800;">Windows 11 PWA • Live</span>
+          </div>
+          <h3>SnapOCR Pro — Screen Text & Table Extractor</h3>
+          <p>Windows 11 Fluent Acrylic desktop application. Global Ctrl+V clipboard snip, instant table to Excel/CSV conversion, and 7-language AI OCR without server data leakage ($14.99 Pro Lifetime).</p>
+        </div>
+        <div class="saas-footer">
+          <a href="/snapocr" target="_blank" class="btn-launch" style="background: linear-gradient(135deg, #0ea5e9, #38bdf8); color: #041021; font-weight: 800;">Launch SnapOCR App ↗</a>
+        </div>
+      </div>
+
+      <div class="saas-card" style="border-color: rgba(56, 189, 248, 0.4); background: linear-gradient(180deg, rgba(56, 189, 248, 0.06) 0%, rgba(18, 18, 36, 0.7) 100%);" data-category="products" data-keywords="omniscrape web scraper extension excel csv table leads b2b chrome edge">
+        <div>
+          <div class="saas-header">
+            <div class="saas-icon" style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.4);">🕷️</div>
+            <span class="saas-tag" style="background: linear-gradient(135deg, #38bdf8, #00f2fe); color: #041021; font-weight: 800;">Chrome & Edge • Live</span>
+          </div>
+          <h3>OmniScrape AI — Web Data & Table Scraper</h3>
+          <p>Autonomous browser extension for instant table scraping, e-commerce catalog extraction, and B2B emails with 1-click UTF-8 CSV download. Free 50 rows or $19 Pro Lifetime Pass.</p>
+        </div>
+        <div class="saas-footer">
+          <a href="/omniscrape" target="_blank" class="btn-launch" style="background: linear-gradient(135deg, #38bdf8, #00f2fe); color: #041021; font-weight: 800;">Launch OmniScrape App ↗</a>
+        </div>
+      </div>
+
+      <div class="saas-card" style="border-color: rgba(245, 158, 11, 0.4); background: linear-gradient(180deg, rgba(245, 158, 11, 0.06) 0%, rgba(18, 18, 36, 0.7) 100%);" data-category="products" data-keywords="reviewgenius extension google reviews reputation local seo assistant yelp tripadvisor">
+        <div>
+          <div class="saas-header">
+            <div class="saas-icon" style="background: rgba(245, 158, 11, 0.15); border: 1px solid rgba(245, 158, 11, 0.4);">⭐</div>
+            <span class="saas-tag" style="background: linear-gradient(135deg, #f59e0b, #fbbf24); color: #041021; font-weight: 800;">Local SEO Extension • Live</span>
+          </div>
+          <h3>ReviewGenius Pro — Google Reviews Copilot</h3>
+          <p>In-page smart reply injector for Google Business Profile, Yelp & TripAdvisor. Automatically injects local SEO service keywords, defuses 1-star complaints, and drafts 3 variations ($19 Pro Lifetime).</p>
+        </div>
+        <div class="saas-footer">
+          <a href="/reviewgenius-app" target="_blank" class="btn-launch" style="background: linear-gradient(135deg, #f59e0b, #fbbf24); color: #041021; font-weight: 800;">Launch ReviewGenius App ↗</a>
+        </div>
+      </div>
+
       <div class="saas-card">
         <div>
           <div class="saas-header">
