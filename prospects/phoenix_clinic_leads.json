@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Phoenix Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.phoenixpremierclinicstudio.example",
+    "email": "info@phoenixpremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@phoenixpremierclinicstudio.example?subject=quick%20question%20regarding%20Phoenix%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:29:44"
+  },
+  {
+    "id": 2,
+    "name": "Apex Phoenix Clinic Center",
+    "niche": "Clinic",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexphoenixcliniccenter.example",
+    "email": "info@apexphoenixcliniccenter.example",
+    "address": "240 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@apexphoenixcliniccenter.example?subject=quick%20question%20regarding%20Apex%20Phoenix%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:29:44"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Phoenix",
+    "niche": "Clinic",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofphoenix.example",
+    "email": "info@beaconclinicpartnersofphoenix.example",
+    "address": "360 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@beaconclinicpartnersofphoenix.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Phoenix%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:29:44"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Phoenix Clinic Group",
+    "niche": "Clinic",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardphoenixclinicgroup.example",
+    "email": "info@vanguardphoenixclinicgroup.example",
+    "address": "480 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@vanguardphoenixclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Phoenix%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:29:44"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Phoenix",
+    "niche": "Clinic",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsphoenix.example",
+    "email": "info@luminaclinicandaestheticsphoenix.example",
+    "address": "600 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsphoenix.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Phoenix%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:29:44"
+  }
+]

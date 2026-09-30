@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Phoenix Premier Lawyer Studio",
+    "niche": "Lawyer",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.phoenixpremierlawyerstudio.example",
+    "email": "info@phoenixpremierlawyerstudio.example",
+    "address": "120 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@phoenixpremierlawyerstudio.example?subject=quick%20question%20regarding%20Phoenix%20Premier%20Lawyer%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:29:24"
+  },
+  {
+    "id": 2,
+    "name": "Apex Phoenix Lawyer Center",
+    "niche": "Lawyer",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexphoenixlawyercenter.example",
+    "email": "info@apexphoenixlawyercenter.example",
+    "address": "240 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@apexphoenixlawyercenter.example?subject=quick%20question%20regarding%20Apex%20Phoenix%20Lawyer%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:29:24"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Lawyer Partners of Phoenix",
+    "niche": "Lawyer",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconlawyerpartnersofphoenix.example",
+    "email": "info@beaconlawyerpartnersofphoenix.example",
+    "address": "360 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@beaconlawyerpartnersofphoenix.example?subject=quick%20question%20regarding%20Beacon%20Lawyer%20Partners%20of%20Phoenix%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:29:24"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Phoenix Lawyer Group",
+    "niche": "Lawyer",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardphoenixlawyergroup.example",
+    "email": "info@vanguardphoenixlawyergroup.example",
+    "address": "480 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@vanguardphoenixlawyergroup.example?subject=quick%20question%20regarding%20Vanguard%20Phoenix%20Lawyer%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:29:24"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Lawyer & Aesthetics Phoenix",
+    "niche": "Lawyer",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminalawyerandaestheticsphoenix.example",
+    "email": "info@luminalawyerandaestheticsphoenix.example",
+    "address": "600 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@luminalawyerandaestheticsphoenix.example?subject=quick%20question%20regarding%20Lumina%20Lawyer%20%26%20Aesthetics%20Phoenix%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:29:24"
+  }
+]

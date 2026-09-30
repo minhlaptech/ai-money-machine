@@ -1,28 +1,27 @@
 # 📅 KẾ HOẠCH TÁC CHIẾN HÀNG NGÀY (DAILY PLAN)
 > AI đọc file này đầu mỗi phiên chat để biết kế hoạch ngày hôm nay
-> Cập nhật lần cuối: 2026-09-30 20:55 (GMT+7) — Phiên #91
+> Cập nhật lần cuối: 2026-09-30 21:30 (GMT+7) — Phiên #92
 
 ---
 
 ## 📆 NGÀY HIỆN TẠI: 2026-09-30 (Thứ Tư)
 
-### 🎯 Mục tiêu trọng tâm Phiên #91:
+### 🎯 Mục tiêu trọng tâm Phiên #92:
 1. Duy trì tính toàn vẹn hệ thống 100%: 29/29 Cloud Applications đạt HTTP 200, Binary Parity `index.html` == `dashboard.html`.
-2. Kiểm tra các luồng Outbound & CRM: 84 Curated Leads, 119 Production Nodes sẵn sàng kích hoạt.
-3. Kích hoạt chuyển đổi dòng tiền thực (Target đơn hàng thực đầu tiên qua Lemon Squeezy Store #485872 / Gumroad).
-4. Sẵn sàng các tác vụ vận hành qua Master CLI v25.0 (`scripts/ai_empire_cli.py`).
+2. Khử bỏ rủi ro hạ cấp CRM: Cập nhật `scripts/update_dashboard_multitouch.py` tải động toàn bộ 84 leads từ `scripts/leads_data.py`.
+3. Hoàn thiện phủ sóng dữ liệu doanh nghiệp mục tiêu 5 đô thị hạt nhân: Austin, Chicago, Dallas, Miami, Phoenix trên đầy đủ 6 nhóm ngành dịch vụ giá trị cao.
+4. Bắn báo cáo chiến dịch tiếp cận đa chạm (Multi-touch Outreach Digest) qua Telegram `@Minhpv_bot`.
 
 ### 📋 Checklist Tác Vụ Trong Ngày:
 
 | # | Hạng Mục | Công Cụ / Script | Trạng Thái | Kết Quả Đạt Được |
 |---|----------|------------------|------------|-------------------|
 | 1 | Kiểm tra sức khỏe toàn hệ thống | `scripts/system_health_check.py` | ✅ Hoàn thành | 29/29 Cloud Hubs HTTP 200 (~120ms) |
-| 2 | Kiểm tra Binary Parity giao diện | `fc.exe /b index.html dashboard.html` | ✅ Hoàn thành | Khớp 100% từng byte |
-| 3 | Kiểm toán 100% Checkout Links | `scripts/audit_checkout_links.py` | ✅ Hoàn thành | 10/10 file sạch, 0 cảnh báo |
-| 4 | Cập nhật Master Control & Daily Plan | `MASTER_CONTROL.md`, `DAILY_PLAN.md` | ✅ Hoàn thành | Đồng bộ phiên #91 |
-| 5 | Rà soát CRM Pipeline & Outreach | `scripts/crm_tracker.py` | 🟢 Sẵn sàng | 84 leads, 59 Won Retainers |
-| 6 | Kiểm tra Vercel Deployment Quota | `scripts/check_vercel_quota.py` | ✅ Hoàn thành | Quota an toàn, sẵn sàng deploy |
-| 7 | Bắn thông báo chỉ huy Telegram | `scripts/daily_briefing.py` | 🟢 Sẵn sàng | Kết nối bot `@Minhpv_bot` |
+| 2 | Kiểm tra Binary Parity giao diện | `fc.exe /b index.html dashboard.html` | ✅ Hoàn thành | Khớp 100% từng byte (0 byte diff) |
+| 3 | Tái cấu trúc script Dashboard Multitouch | `scripts/update_dashboard_multitouch.py` | ✅ Hoàn thành | Tải động 84 leads (Batches 1-7) |
+| 4 | Bắn Outreach Digest qua Telegram | `scripts/outreach_dispatcher.py --telegram` | ✅ Hoàn thành | Dispatch 24 leads Batch 7 tới `@Minhpv_bot` |
+| 5 | Khai thác Leads OpenStreetMap 5 Đô thị | `scripts/lead_finder.py` | ✅ Hoàn thành | Phủ trọn 28 tập dữ liệu JSON/CSV |
+| 6 | Cập nhật Master Control & Daily Plan | `MASTER_CONTROL.md`, `DAILY_PLAN.md` | ✅ Hoàn thành | Đồng bộ phiên #92 |
 
 ---
 
