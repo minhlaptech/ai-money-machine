@@ -24,10 +24,17 @@ export default function handler(req, res) {
     author: 'Minh Lap',
     monorepo: 'https://github.com/minhlaptech/ai-money-machine',
     financials: {
-      consolidated_arr: '$1,002,600 / Year',
-      upfront_cash_realized: '$260,600.00',
-      active_retainer_mrr: '$83,550 / month',
-      win_rate: '100% (95/95 Won Deals)'
+      actual_realized_revenue: '$0.00',
+      actual_paid_orders: 0,
+      active_products_catalog: 13,
+      ready_to_sell_pricing: {
+        saas_tools: '$9 - $39 (Lifetime License)',
+        merch_apparel: '$24 - $55 (Print-on-Demand)',
+        empire_bundle: '$39.00'
+      },
+      preconfigured_client_blueprints: 95,
+      pipeline_target_potential: '$83,550 / month (Unbilled / Pre-sale Framework)',
+      payment_gateway: 'Lemon Squeezy (Store ID: 485872, Status: Live & Ready to Process Payments)'
     },
     ecosystem: {
       total_clients: 95,
