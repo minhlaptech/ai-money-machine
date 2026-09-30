@@ -1,8 +1,8 @@
 """
-Batch Proposal Generator for All 30 Curated Enterprise Leads
+Batch Proposal Generator for All 84 Curated Enterprise Leads
 -------------------------------------------------------------
-Tự động sinh trọn bộ 30 bản Đề Xuất & Báo Cáo Kiểm Toán Tự Động Hóa (AI Audit & Proposal)
-chuẩn HTML/PDF sang trọng, cá nhân hóa cho từng doanh nghiệp trong danh sách 30 Leads.
+Tự động sinh trọn bộ 84 bản Đề Xuất & Báo Cáo Kiểm Toán Tự Động Hóa (AI Audit & Proposal)
+chuẩn HTML/PDF sang trọng, cá nhân hóa cho từng doanh nghiệp trong danh sách 84 Leads.
 Lưu toàn bộ vào thư mục `proposals/`.
 """
 
