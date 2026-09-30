@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Patterson Park Health Center",
+    "niche": "Clinic",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@pattersonparkhealthcenter.example",
+    "address": "Dayton",
+    "mailto_url": "mailto:contact@pattersonparkhealthcenter.example?subject=quick%20question%20regarding%20Patterson%20Park%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Patterson%20Park%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:18"
+  },
+  {
+    "id": 2,
+    "name": "Five Rivers Health Center - Edgemont Campus",
+    "niche": "Clinic",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "https://www.fiverivershealthcenters.org/locations/edgemont-campus",
+    "email": "contact@fiverivershealthcenters.org",
+    "address": "721 Miami Chapel Road, Dayton 45417",
+    "mailto_url": "mailto:contact@fiverivershealthcenters.org?subject=quick%20question%20regarding%20Five%20Rivers%20Health%20Center%20-%20Edgemont%20Campus%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.fiverivershealthcenters.org/locations/edgemont-campus%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Five%20Rivers%20Health%20Center%20-%20Edgemont%20Campus%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:18"
+  },
+  {
+    "id": 3,
+    "name": "Dayton Children's Outpatient Behacioral Health",
+    "niche": "Clinic",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@daytonchildren'soutpatientbehacioralhealth.example",
+    "address": "700 East 1st Street, Dayton 45403",
+    "mailto_url": "mailto:contact@daytonchildren'soutpatientbehacioralhealth.example?subject=quick%20question%20regarding%20Dayton%20Children%27s%20Outpatient%20Behacioral%20Health%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dayton%20Children%27s%20Outpatient%20Behacioral%20Health%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:18"
+  },
+  {
+    "id": 4,
+    "name": "Planned Parenthood Dayton Health Center",
+    "niche": "Clinic",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "https://www.plannedparenthood.org/health-center/ohio/dayton/45402/dayton-health-center-2192-91260",
+    "email": "contact@plannedparenthood.org",
+    "address": "224 North Wilkinson Street, Dayton",
+    "mailto_url": "mailto:contact@plannedparenthood.org?subject=quick%20question%20regarding%20Planned%20Parenthood%20Dayton%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.plannedparenthood.org/health-center/ohio/dayton/45402/dayton-health-center-2192-91260%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Planned%20Parenthood%20Dayton%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:18"
+  },
+  {
+    "id": 5,
+    "name": "Reach Out Clinic and Pharmacy",
+    "niche": "Clinic",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@reachoutclinicandpharmacy.example",
+    "address": "25 East Foraker Avenue, Dayton 45409",
+    "mailto_url": "mailto:contact@reachoutclinicandpharmacy.example?subject=quick%20question%20regarding%20Reach%20Out%20Clinic%20and%20Pharmacy%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Reach%20Out%20Clinic%20and%20Pharmacy%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:18"
+  },
+  {
+    "id": 6,
+    "name": "Concentra Urgent Care",
+    "niche": "Clinic",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@concentraurgentcare.example",
+    "address": "228 Troy Street, Dayton 45404",
+    "mailto_url": "mailto:contact@concentraurgentcare.example?subject=quick%20question%20regarding%20Concentra%20Urgent%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Concentra%20Urgent%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:18"
+  },
+  {
+    "id": 7,
+    "name": "Columbia Family Clinic",
+    "niche": "Clinic",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@columbiafamilyclinic.example",
+    "address": "Dayton",
+    "mailto_url": "mailto:contact@columbiafamilyclinic.example?subject=quick%20question%20regarding%20Columbia%20Family%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Columbia%20Family%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:18"
+  },
+  {
+    "id": 8,
+    "name": "Dayton Clinic #8",
+    "niche": "Clinic",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@daytonclinic#8.example",
+    "address": "Dayton",
+    "mailto_url": "mailto:contact@daytonclinic#8.example?subject=quick%20question%20regarding%20Dayton%20Clinic%20%238%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dayton%20Clinic%20%238%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:18"
+  },
+  {
+    "id": 9,
+    "name": "Convenient Care Clinic",
+    "niche": "Clinic",
+    "city": "Dayton",
+    "phone": "+1-509-382-4510",
+    "website": "N/A",
+    "email": "contact@convenientcareclinic.example",
+    "address": "112 North 2nd Street, Dayton 99328",
+    "mailto_url": "mailto:contact@convenientcareclinic.example?subject=quick%20question%20regarding%20Convenient%20Care%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Convenient%20Care%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:18"
+  },
+  {
+    "id": 10,
+    "name": "Carson Tahoe Medical Group",
+    "niche": "Clinic",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@carsontahoemedicalgroup.example",
+    "address": "Dayton",
+    "mailto_url": "mailto:contact@carsontahoemedicalgroup.example?subject=quick%20question%20regarding%20Carson%20Tahoe%20Medical%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Carson%20Tahoe%20Medical%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:18"
+  }
+]

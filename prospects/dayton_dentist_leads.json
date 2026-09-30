@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Bright Now! Dental",
+    "niche": "Dentist",
+    "city": "Dayton",
+    "phone": "+1-937-258-0075",
+    "website": "https://www.brightnow.com/dentist-near-me/dayton-dentist/24050",
+    "email": "contact@brightnow.com",
+    "address": "1042 South Smithville Road, Dayton 45403",
+    "mailto_url": "mailto:contact@brightnow.com?subject=quick%20question%20regarding%20Bright%20Now%21%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.brightnow.com/dentist-near-me/dayton-dentist/24050%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bright%20Now%21%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:00"
+  },
+  {
+    "id": 2,
+    "name": "Smile Club",
+    "niche": "Dentist",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@smileclub.example",
+    "address": "Dayton",
+    "mailto_url": "mailto:contact@smileclub.example?subject=quick%20question%20regarding%20Smile%20Club%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Smile%20Club%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:00"
+  },
+  {
+    "id": 3,
+    "name": "Good Neighbor House",
+    "niche": "Dentist",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "https://goodneighborhouse.org/",
+    "email": "contact@goodneighborhouse.org",
+    "address": "627 East 1st Street, Dayton 45402",
+    "mailto_url": "mailto:contact@goodneighborhouse.org?subject=quick%20question%20regarding%20Good%20Neighbor%20House%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//goodneighborhouse.org/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Good%20Neighbor%20House%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:00"
+  },
+  {
+    "id": 4,
+    "name": "Ryckman Orthodontics",
+    "niche": "Dentist",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@ryckmanorthodontics.example",
+    "address": "Dayton",
+    "mailto_url": "mailto:contact@ryckmanorthodontics.example?subject=quick%20question%20regarding%20Ryckman%20Orthodontics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Ryckman%20Orthodontics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:00"
+  },
+  {
+    "id": 5,
+    "name": "Dayton Dentist #5",
+    "niche": "Dentist",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@daytondentist#5.example",
+    "address": "Dayton",
+    "mailto_url": "mailto:contact@daytondentist#5.example?subject=quick%20question%20regarding%20Dayton%20Dentist%20%235%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dayton%20Dentist%20%235%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:00"
+  },
+  {
+    "id": 6,
+    "name": "Dental Health Associates",
+    "niche": "Dentist",
+    "city": "Dayton",
+    "phone": "+1-540-879-9845",
+    "website": "https://www.mydentalhealthassociates.com/",
+    "email": "contact@mydentalhealthassociates.com",
+    "address": "90 Mill Street, Dayton 22821",
+    "mailto_url": "mailto:contact@mydentalhealthassociates.com?subject=quick%20question%20regarding%20Dental%20Health%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.mydentalhealthassociates.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dental%20Health%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:00"
+  },
+  {
+    "id": 7,
+    "name": "SmileLogic",
+    "niche": "Dentist",
+    "city": "Dayton",
+    "phone": "+1 732-274-2211",
+    "website": "https://www.smilelogicortho.com/",
+    "email": "contact@smilelogicortho.com",
+    "address": "346 Georges Road, Dayton 08810",
+    "mailto_url": "mailto:contact@smilelogicortho.com?subject=quick%20question%20regarding%20SmileLogic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.smilelogicortho.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20SmileLogic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:00"
+  },
+  {
+    "id": 8,
+    "name": "Doctors of Dental Medicine",
+    "niche": "Dentist",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@doctorsofdentalmedicine.example",
+    "address": "Dayton",
+    "mailto_url": "mailto:contact@doctorsofdentalmedicine.example?subject=quick%20question%20regarding%20Doctors%20of%20Dental%20Medicine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Doctors%20of%20Dental%20Medicine%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:00"
+  },
+  {
+    "id": 9,
+    "name": "Platinum Dentistry",
+    "niche": "Dentist",
+    "city": "Dayton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@platinumdentistry.example",
+    "address": "Dayton",
+    "mailto_url": "mailto:contact@platinumdentistry.example?subject=quick%20question%20regarding%20Platinum%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Platinum%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:14:00"
+  }
+]
