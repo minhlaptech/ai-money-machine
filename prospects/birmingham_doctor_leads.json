@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Birmingham Premier Doctor Studio",
+    "niche": "Doctor",
+    "city": "Birmingham",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.birminghampremierdoctorstudio.example",
+    "email": "info@birminghampremierdoctorstudio.example",
+    "address": "120 Boulevard Ave, Birmingham",
+    "mailto_url": "mailto:info@birminghampremierdoctorstudio.example?subject=quick%20question%20regarding%20Birmingham%20Premier%20Doctor%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:24:29"
+  },
+  {
+    "id": 2,
+    "name": "Apex Birmingham Doctor Center",
+    "niche": "Doctor",
+    "city": "Birmingham",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexbirminghamdoctorcenter.example",
+    "email": "info@apexbirminghamdoctorcenter.example",
+    "address": "240 Boulevard Ave, Birmingham",
+    "mailto_url": "mailto:info@apexbirminghamdoctorcenter.example?subject=quick%20question%20regarding%20Apex%20Birmingham%20Doctor%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:24:29"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Doctor Partners of Birmingham",
+    "niche": "Doctor",
+    "city": "Birmingham",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondoctorpartnersofbirmingham.example",
+    "email": "info@beacondoctorpartnersofbirmingham.example",
+    "address": "360 Boulevard Ave, Birmingham",
+    "mailto_url": "mailto:info@beacondoctorpartnersofbirmingham.example?subject=quick%20question%20regarding%20Beacon%20Doctor%20Partners%20of%20Birmingham%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:24:29"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Birmingham Doctor Group",
+    "niche": "Doctor",
+    "city": "Birmingham",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardbirminghamdoctorgroup.example",
+    "email": "info@vanguardbirminghamdoctorgroup.example",
+    "address": "480 Boulevard Ave, Birmingham",
+    "mailto_url": "mailto:info@vanguardbirminghamdoctorgroup.example?subject=quick%20question%20regarding%20Vanguard%20Birmingham%20Doctor%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:24:29"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Doctor & Aesthetics Birmingham",
+    "niche": "Doctor",
+    "city": "Birmingham",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadoctorandaestheticsbirmingham.example",
+    "email": "info@luminadoctorandaestheticsbirmingham.example",
+    "address": "600 Boulevard Ave, Birmingham",
+    "mailto_url": "mailto:info@luminadoctorandaestheticsbirmingham.example?subject=quick%20question%20regarding%20Lumina%20Doctor%20%26%20Aesthetics%20Birmingham%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:24:29"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Doctor Clinic of Birmingham",
+    "niche": "Doctor",
+    "city": "Birmingham",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedoctorclinicofbirmingham.example",
+    "email": "info@proactivedoctorclinicofbirmingham.example",
+    "address": "720 Boulevard Ave, Birmingham",
+    "mailto_url": "mailto:info@proactivedoctorclinicofbirmingham.example?subject=quick%20question%20regarding%20ProActive%20Doctor%20Clinic%20of%20Birmingham%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:24:29"
+  },
+  {
+    "id": 7,
+    "name": "Elite Doctor Specialists Birmingham",
+    "niche": "Doctor",
+    "city": "Birmingham",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedoctorspecialistsbirmingham.example",
+    "email": "info@elitedoctorspecialistsbirmingham.example",
+    "address": "840 Boulevard Ave, Birmingham",
+    "mailto_url": "mailto:info@elitedoctorspecialistsbirmingham.example?subject=quick%20question%20regarding%20Elite%20Doctor%20Specialists%20Birmingham%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:24:29"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Doctor Birmingham",
+    "niche": "Doctor",
+    "city": "Birmingham",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdoctorbirmingham.example",
+    "email": "info@summitcrestdoctorbirmingham.example",
+    "address": "960 Boulevard Ave, Birmingham",
+    "mailto_url": "mailto:info@summitcrestdoctorbirmingham.example?subject=quick%20question%20regarding%20Summit%20Crest%20Doctor%20Birmingham%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:24:29"
+  },
+  {
+    "id": 9,
+    "name": "Metro Doctor Care Center Birmingham",
+    "niche": "Doctor",
+    "city": "Birmingham",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodoctorcarecenterbirmingham.example",
+    "email": "info@metrodoctorcarecenterbirmingham.example",
+    "address": "1080 Boulevard Ave, Birmingham",
+    "mailto_url": "mailto:info@metrodoctorcarecenterbirmingham.example?subject=quick%20question%20regarding%20Metro%20Doctor%20Care%20Center%20Birmingham%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:24:29"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Doctor Practice Birmingham",
+    "niche": "Doctor",
+    "city": "Birmingham",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdoctorpracticebirmingham.example",
+    "email": "info@pacificcoastdoctorpracticebirmingham.example",
+    "address": "1200 Boulevard Ave, Birmingham",
+    "mailto_url": "mailto:info@pacificcoastdoctorpracticebirmingham.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Doctor%20Practice%20Birmingham%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:24:29"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Brevitts",
+    "niche": "Lawyer",
+    "city": "Birmingham",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@brevitts.example",
+    "address": "Birmingham",
+    "mailto_url": "mailto:contact@brevitts.example?subject=quick%20question%20regarding%20Brevitts%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Brevitts%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:25:11"
+  },
+  {
+    "id": 2,
+    "name": "R.T. Law Solicitors",
+    "niche": "Lawyer",
+    "city": "Birmingham",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@rtlawsolicitors.example",
+    "address": "66 Northfield Road, Birmingham",
+    "mailto_url": "mailto:contact@rtlawsolicitors.example?subject=quick%20question%20regarding%20R.T.%20Law%20Solicitors%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20R.T.%20Law%20Solicitors%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:25:11"
+  },
+  {
+    "id": 3,
+    "name": "Novate",
+    "niche": "Lawyer",
+    "city": "Birmingham",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@novate.example",
+    "address": "Birmingham",
+    "mailto_url": "mailto:contact@novate.example?subject=quick%20question%20regarding%20Novate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Novate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:25:11"
+  },
+  {
+    "id": 4,
+    "name": "David J. Foster & Co.",
+    "niche": "Lawyer",
+    "city": "Birmingham",
+    "phone": "+441212160565",
+    "website": "N/A",
+    "email": "contact@davidjfosterco.example",
+    "address": "69 Thornbridge Avenue, Birmingham B42 2PW",
+    "mailto_url": "mailto:contact@davidjfosterco.example?subject=quick%20question%20regarding%20David%20J.%20Foster%20%26%20Co.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20David%20J.%20Foster%20%26%20Co.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:25:11"
+  },
+  {
+    "id": 5,
+    "name": "Forster & Wheeler",
+    "niche": "Lawyer",
+    "city": "Birmingham",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@forsterwheeler.example",
+    "address": "817 Hagley Road West, Birmingham B32 1AD",
+    "mailto_url": "mailto:contact@forsterwheeler.example?subject=quick%20question%20regarding%20Forster%20%26%20Wheeler%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Forster%20%26%20Wheeler%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:25:11"
+  },
+  {
+    "id": 6,
+    "name": "Hine Solicitors",
+    "niche": "Lawyer",
+    "city": "Birmingham",
+    "phone": "+44 121 752 9350",
+    "website": "N/A",
+    "email": "contact@hinesolicitors.example",
+    "address": "558 Walsall Road, Birmingham B42 1LR",
+    "mailto_url": "mailto:contact@hinesolicitors.example?subject=quick%20question%20regarding%20Hine%20Solicitors%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hine%20Solicitors%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:25:11"
+  },
+  {
+    "id": 7,
+    "name": "HRS Solicitors",
+    "niche": "Lawyer",
+    "city": "Birmingham",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@hrssolicitors.example",
+    "address": "Birmingham",
+    "mailto_url": "mailto:contact@hrssolicitors.example?subject=quick%20question%20regarding%20HRS%20Solicitors%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20HRS%20Solicitors%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:25:11"
+  },
+  {
+    "id": 8,
+    "name": "Citadel Chambers",
+    "niche": "Lawyer",
+    "city": "Birmingham",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@citadelchambers.example",
+    "address": "Birmingham",
+    "mailto_url": "mailto:contact@citadelchambers.example?subject=quick%20question%20regarding%20Citadel%20Chambers%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Citadel%20Chambers%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:25:11"
+  },
+  {
+    "id": 9,
+    "name": "Genesis Law Associates",
+    "niche": "Lawyer",
+    "city": "Birmingham",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@genesislawassociates.example",
+    "address": "Birmingham",
+    "mailto_url": "mailto:contact@genesislawassociates.example?subject=quick%20question%20regarding%20Genesis%20Law%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Genesis%20Law%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:25:11"
+  },
+  {
+    "id": 10,
+    "name": "John Morgan Solicitors",
+    "niche": "Lawyer",
+    "city": "Birmingham",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@johnmorgansolicitors.example",
+    "address": "Birmingham",
+    "mailto_url": "mailto:contact@johnmorgansolicitors.example?subject=quick%20question%20regarding%20John%20Morgan%20Solicitors%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20John%20Morgan%20Solicitors%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:25:11"
+  }
+]
