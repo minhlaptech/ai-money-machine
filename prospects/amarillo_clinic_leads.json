@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Family Medicine Center",
+    "niche": "Clinic",
+    "city": "Amarillo",
+    "phone": "+1-806-350-8850",
+    "website": "https://www.fmcclinics.com/fmc-summit",
+    "email": "contact@fmcclinics.com",
+    "address": "7306 Southwest 34th Avenue, Amarillo 79121",
+    "mailto_url": "mailto:contact@fmcclinics.com?subject=quick%20question%20regarding%20Family%20Medicine%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.fmcclinics.com/fmc-summit%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Family%20Medicine%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:41:40"
+  },
+  {
+    "id": 2,
+    "name": "BSA CareXpress Urgent Care",
+    "niche": "Clinic",
+    "city": "Amarillo",
+    "phone": "+1-806-350-3010",
+    "website": "https://www.carexpressfmc.com/",
+    "email": "contact@carexpressfmc.com",
+    "address": "7304 Southwest 34th Avenue, Amarillo 79121",
+    "mailto_url": "mailto:contact@carexpressfmc.com?subject=quick%20question%20regarding%20BSA%20CareXpress%20Urgent%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.carexpressfmc.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20BSA%20CareXpress%20Urgent%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:41:40"
+  },
+  {
+    "id": 3,
+    "name": "Care Today Urgent Health",
+    "niche": "Clinic",
+    "city": "Amarillo",
+    "phone": "+1-806-379-9225",
+    "website": "https://www.caretodayurgent.com/",
+    "email": "contact@caretodayurgent.com",
+    "address": "3440 Bell Street, Amarillo 79109",
+    "mailto_url": "mailto:contact@caretodayurgent.com?subject=quick%20question%20regarding%20Care%20Today%20Urgent%20Health%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.caretodayurgent.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Care%20Today%20Urgent%20Health%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:41:40"
+  },
+  {
+    "id": 4,
+    "name": "Gerald Vision",
+    "niche": "Clinic",
+    "city": "Amarillo",
+    "phone": "+1-806-359-7603",
+    "website": "N/A",
+    "email": "contact@geraldvision.example",
+    "address": "7308 Fleming Avenue, Amarillo 79106",
+    "mailto_url": "mailto:contact@geraldvision.example?subject=quick%20question%20regarding%20Gerald%20Vision%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Gerald%20Vision%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:41:40"
+  },
+  {
+    "id": 5,
+    "name": "Amarillo Cataract & Eye Surgery Center",
+    "niche": "Clinic",
+    "city": "Amarillo",
+    "phone": "+1-806-354-8891",
+    "website": "https://www.paneye.com/amarillocataract",
+    "email": "contact@paneye.com",
+    "address": "7310 Fleming Avenue, Amarillo 79106",
+    "mailto_url": "mailto:contact@paneye.com?subject=quick%20question%20regarding%20Amarillo%20Cataract%20%26%20Eye%20Surgery%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.paneye.com/amarillocataract%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Amarillo%20Cataract%20%26%20Eye%20Surgery%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:41:40"
+  },
+  {
+    "id": 6,
+    "name": "Amarillo MD",
+    "niche": "Clinic",
+    "city": "Amarillo",
+    "phone": "+1-806-513-3841",
+    "website": "https://www.amarillomd.com/",
+    "email": "contact@amarillomd.com",
+    "address": "6141 West Amarillo Boulevard, Amarillo 79106",
+    "mailto_url": "mailto:contact@amarillomd.com?subject=quick%20question%20regarding%20Amarillo%20MD%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.amarillomd.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Amarillo%20MD%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:41:40"
+  },
+  {
+    "id": 7,
+    "name": "BSA Harrington Breast Center",
+    "niche": "Clinic",
+    "city": "Amarillo",
+    "phone": "+1-806-212-1905",
+    "website": "N/A",
+    "email": "contact@bsaharringtonbreastcenter.example",
+    "address": "1310 Wallace Boulevard, Amarillo 79106",
+    "mailto_url": "mailto:contact@bsaharringtonbreastcenter.example?subject=quick%20question%20regarding%20BSA%20Harrington%20Breast%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20BSA%20Harrington%20Breast%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:41:40"
+  },
+  {
+    "id": 8,
+    "name": "Amarillo Injury Center",
+    "niche": "Clinic",
+    "city": "Amarillo",
+    "phone": "+1-806-301-2214",
+    "website": "https://www.personalinjurydoctornow.com/contact-2300-bell-street-suite-21",
+    "email": "contact@personalinjurydoctornow.com",
+    "address": "2300 Bell Street, Amarillo 79106",
+    "mailto_url": "mailto:contact@personalinjurydoctornow.com?subject=quick%20question%20regarding%20Amarillo%20Injury%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.personalinjurydoctornow.com/contact-2300-bell-street-suite-21%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Amarillo%20Injury%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:41:40"
+  },
+  {
+    "id": 9,
+    "name": "Northwest Women’s and Children’s Clinic",
+    "niche": "Clinic",
+    "city": "Amarillo",
+    "phone": "+1-806-351-7600",
+    "website": "N/A",
+    "email": "contact@northwestwomen’sandchildren’sclinic.example",
+    "address": "1411 East Amarillo Boulevard, Amarillo 79107",
+    "mailto_url": "mailto:contact@northwestwomen’sandchildren’sclinic.example?subject=quick%20question%20regarding%20Northwest%20Women%E2%80%99s%20and%20Children%E2%80%99s%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Northwest%20Women%E2%80%99s%20and%20Children%E2%80%99s%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:41:40"
+  },
+  {
+    "id": 10,
+    "name": "Integral Medical Clinic",
+    "niche": "Clinic",
+    "city": "Amarillo",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@integralmedicalclinic.example",
+    "address": "4205 Ridgecrest Circle, Amarillo 79109",
+    "mailto_url": "mailto:contact@integralmedicalclinic.example?subject=quick%20question%20regarding%20Integral%20Medical%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Integral%20Medical%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:41:40"
+  }
+]
