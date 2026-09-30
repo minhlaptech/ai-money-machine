@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Sioux City Premier Doctor Studio",
+    "niche": "Doctor",
+    "city": "Sioux City",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.siouxcitypremierdoctorstudio.example",
+    "email": "info@siouxcitypremierdoctorstudio.example",
+    "address": "120 Boulevard Ave, Sioux City",
+    "mailto_url": "mailto:info@siouxcitypremierdoctorstudio.example?subject=quick%20question%20regarding%20Sioux%20City%20Premier%20Doctor%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:55"
+  },
+  {
+    "id": 2,
+    "name": "Apex Sioux City Doctor Center",
+    "niche": "Doctor",
+    "city": "Sioux City",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexsiouxcitydoctorcenter.example",
+    "email": "info@apexsiouxcitydoctorcenter.example",
+    "address": "240 Boulevard Ave, Sioux City",
+    "mailto_url": "mailto:info@apexsiouxcitydoctorcenter.example?subject=quick%20question%20regarding%20Apex%20Sioux%20City%20Doctor%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:55"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Doctor Partners of Sioux City",
+    "niche": "Doctor",
+    "city": "Sioux City",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondoctorpartnersofsiouxcity.example",
+    "email": "info@beacondoctorpartnersofsiouxcity.example",
+    "address": "360 Boulevard Ave, Sioux City",
+    "mailto_url": "mailto:info@beacondoctorpartnersofsiouxcity.example?subject=quick%20question%20regarding%20Beacon%20Doctor%20Partners%20of%20Sioux%20City%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:55"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Sioux City Doctor Group",
+    "niche": "Doctor",
+    "city": "Sioux City",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardsiouxcitydoctorgroup.example",
+    "email": "info@vanguardsiouxcitydoctorgroup.example",
+    "address": "480 Boulevard Ave, Sioux City",
+    "mailto_url": "mailto:info@vanguardsiouxcitydoctorgroup.example?subject=quick%20question%20regarding%20Vanguard%20Sioux%20City%20Doctor%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:55"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Doctor & Aesthetics Sioux City",
+    "niche": "Doctor",
+    "city": "Sioux City",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadoctorandaestheticssiouxcity.example",
+    "email": "info@luminadoctorandaestheticssiouxcity.example",
+    "address": "600 Boulevard Ave, Sioux City",
+    "mailto_url": "mailto:info@luminadoctorandaestheticssiouxcity.example?subject=quick%20question%20regarding%20Lumina%20Doctor%20%26%20Aesthetics%20Sioux%20City%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:55"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Doctor Clinic of Sioux City",
+    "niche": "Doctor",
+    "city": "Sioux City",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedoctorclinicofsiouxcity.example",
+    "email": "info@proactivedoctorclinicofsiouxcity.example",
+    "address": "720 Boulevard Ave, Sioux City",
+    "mailto_url": "mailto:info@proactivedoctorclinicofsiouxcity.example?subject=quick%20question%20regarding%20ProActive%20Doctor%20Clinic%20of%20Sioux%20City%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:55"
+  },
+  {
+    "id": 7,
+    "name": "Elite Doctor Specialists Sioux City",
+    "niche": "Doctor",
+    "city": "Sioux City",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedoctorspecialistssiouxcity.example",
+    "email": "info@elitedoctorspecialistssiouxcity.example",
+    "address": "840 Boulevard Ave, Sioux City",
+    "mailto_url": "mailto:info@elitedoctorspecialistssiouxcity.example?subject=quick%20question%20regarding%20Elite%20Doctor%20Specialists%20Sioux%20City%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:55"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Doctor Sioux City",
+    "niche": "Doctor",
+    "city": "Sioux City",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdoctorsiouxcity.example",
+    "email": "info@summitcrestdoctorsiouxcity.example",
+    "address": "960 Boulevard Ave, Sioux City",
+    "mailto_url": "mailto:info@summitcrestdoctorsiouxcity.example?subject=quick%20question%20regarding%20Summit%20Crest%20Doctor%20Sioux%20City%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:55"
+  },
+  {
+    "id": 9,
+    "name": "Metro Doctor Care Center Sioux City",
+    "niche": "Doctor",
+    "city": "Sioux City",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodoctorcarecentersiouxcity.example",
+    "email": "info@metrodoctorcarecentersiouxcity.example",
+    "address": "1080 Boulevard Ave, Sioux City",
+    "mailto_url": "mailto:info@metrodoctorcarecentersiouxcity.example?subject=quick%20question%20regarding%20Metro%20Doctor%20Care%20Center%20Sioux%20City%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:55"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Doctor Practice Sioux City",
+    "niche": "Doctor",
+    "city": "Sioux City",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdoctorpracticesiouxcity.example",
+    "email": "info@pacificcoastdoctorpracticesiouxcity.example",
+    "address": "1200 Boulevard Ave, Sioux City",
+    "mailto_url": "mailto:info@pacificcoastdoctorpracticesiouxcity.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Doctor%20Practice%20Sioux%20City%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:55"
+  }
+]

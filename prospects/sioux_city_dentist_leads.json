@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Family Dental Center of Morningside",
+    "niche": "Dentist",
+    "city": "Sioux City",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@familydentalcenterofmorningside.example",
+    "address": "Sioux City",
+    "mailto_url": "mailto:contact@familydentalcenterofmorningside.example?subject=quick%20question%20regarding%20Family%20Dental%20Center%20of%20Morningside%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Family%20Dental%20Center%20of%20Morningside%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:46"
+  },
+  {
+    "id": 2,
+    "name": "Wheelock & Bursick General Dentistry",
+    "niche": "Dentist",
+    "city": "Sioux City",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@wheelockbursickgeneraldentistry.example",
+    "address": "Sioux City",
+    "mailto_url": "mailto:contact@wheelockbursickgeneraldentistry.example?subject=quick%20question%20regarding%20Wheelock%20%26%20Bursick%20General%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Wheelock%20%26%20Bursick%20General%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:46"
+  },
+  {
+    "id": 3,
+    "name": "Lilly Family Dentistry",
+    "niche": "Dentist",
+    "city": "Sioux City",
+    "phone": "+1-712-239-5125",
+    "website": "https://lillyfamilydentistry.com/",
+    "email": "contact@lillyfamilydentistry.com",
+    "address": "2100 Indian Hills Drive, Sioux City 51104",
+    "mailto_url": "mailto:contact@lillyfamilydentistry.com?subject=quick%20question%20regarding%20Lilly%20Family%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//lillyfamilydentistry.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lilly%20Family%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:46"
+  },
+  {
+    "id": 4,
+    "name": "Whispering Creek Dental - Dentist Sioux City",
+    "niche": "Dentist",
+    "city": "Sioux City",
+    "phone": "+1-712-587-7623",
+    "website": "N/A",
+    "email": "contact@whisperingcreekdental-dentistsiouxcity.example",
+    "address": "4801 Southern Hills Drive, Sioux City 51106",
+    "mailto_url": "mailto:contact@whisperingcreekdental-dentistsiouxcity.example?subject=quick%20question%20regarding%20Whispering%20Creek%20Dental%20-%20Dentist%20Sioux%20City%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Whispering%20Creek%20Dental%20-%20Dentist%20Sioux%20City%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:46"
+  },
+  {
+    "id": 5,
+    "name": "Aspen Dental",
+    "niche": "Dentist",
+    "city": "Sioux City",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@aspendental.example",
+    "address": "Sioux City",
+    "mailto_url": "mailto:contact@aspendental.example?subject=quick%20question%20regarding%20Aspen%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Aspen%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:46"
+  },
+  {
+    "id": 6,
+    "name": "Family First Dental",
+    "niche": "Dentist",
+    "city": "Sioux City",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@familyfirstdental.example",
+    "address": "2928 Hamilton Boulevard Upper E, Sioux City 51104",
+    "mailto_url": "mailto:contact@familyfirstdental.example?subject=quick%20question%20regarding%20Family%20First%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Family%20First%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:46"
+  },
+  {
+    "id": 7,
+    "name": "Dentist Depot",
+    "niche": "Dentist",
+    "city": "Sioux City",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dentistdepot.example",
+    "address": "3900 Floyd Boulevard, Sioux City 51108",
+    "mailto_url": "mailto:contact@dentistdepot.example?subject=quick%20question%20regarding%20Dentist%20Depot%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dentist%20Depot%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:46"
+  },
+  {
+    "id": 8,
+    "name": "Salmons Dentistry",
+    "niche": "Dentist",
+    "city": "Sioux City",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@salmonsdentistry.example",
+    "address": "1855 Indian Hills Drive, Sioux City 51104",
+    "mailto_url": "mailto:contact@salmonsdentistry.example?subject=quick%20question%20regarding%20Salmons%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Salmons%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:46"
+  },
+  {
+    "id": 9,
+    "name": "Morningside Dental",
+    "niche": "Dentist",
+    "city": "Sioux City",
+    "phone": "+1-712-276-2206",
+    "website": "https://www.morningsidedental.net/",
+    "email": "contact@morningsidedental.net",
+    "address": "4704 Morningside Avenue, Sioux City 51106",
+    "mailto_url": "mailto:contact@morningsidedental.net?subject=quick%20question%20regarding%20Morningside%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.morningsidedental.net/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Morningside%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:36:46"
+  }
+]
