@@ -34,7 +34,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Executive Sales Pitch & Demonstration Hub — 60 Curated Client Dossiers</title>
+  <title>Executive Sales Pitch & Demonstration Hub — 84 Curated Client Dossiers</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <style>
@@ -404,10 +404,10 @@ HTML_CONTENT = """<!DOCTYPE html>
   <div class="container">
     <!-- Hero -->
     <div class="hero">
-      <div class="hero-badge">60 CLIENT SALES DOSSIERS & LIVE PROTOTYPES</div>
+      <div class="hero-badge">84 CLIENT SALES DOSSIERS & LIVE PROTOTYPES</div>
       <h1>Executive Sales Pitch & Demo Hub</h1>
       <p>
-        Bespoke 10-slide interactive sales presentations and live sandbox prototypes engineered for 60 high-ticket enterprises across 6 industry verticals. Optimized for Zoom and Google Meet closing calls.
+        Bespoke 10-slide interactive sales presentations and live sandbox prototypes engineered for 84 high-ticket enterprises across 7 industry verticals. Optimized for Zoom and Google Meet closing calls.
       </p>
     </div>
 
@@ -418,13 +418,14 @@ HTML_CONTENT = """<!DOCTYPE html>
         <input type="text" id="search-input" placeholder="Search by client name, industry, or city..." oninput="handleSearch()">
       </div>
       <div class="batch-filters">
-        <button class="batch-pill active" onclick="filterBatch('all', this)">All Leads (60)</button>
+        <button class="batch-pill active" onclick="filterBatch('all', this)">All Leads (84)</button>
         <button class="batch-pill" onclick="filterBatch('1', this)">🦷 Batch 1: SMBs (10)</button>
         <button class="batch-pill" onclick="filterBatch('2', this)">🛍️ Batch 2: E-Com (10)</button>
         <button class="batch-pill" onclick="filterBatch('3', this)">🏛️ Batch 3: High-Ticket (10)</button>
         <button class="batch-pill" onclick="filterBatch('4', this)">🏡 Batch 4: Luxury Home (10)</button>
         <button class="batch-pill" onclick="filterBatch('5', this)">⚡ Batch 5: B2B Agencies (10)</button>
         <button class="batch-pill" onclick="filterBatch('6', this)">🩺 Batch 6: Luxury Health (10)</button>
+        <button class="batch-pill" onclick="filterBatch('7', this)">📍 Batch 7: Dallas & Miami (24)</button>
       </div>
     </div>
 
