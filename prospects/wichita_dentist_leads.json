@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Wichita Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Wichita",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.wichitapremierdentiststudio.example",
+    "email": "info@wichitapremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Wichita",
+    "mailto_url": "mailto:info@wichitapremierdentiststudio.example?subject=quick%20question%20regarding%20Wichita%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:40"
+  },
+  {
+    "id": 2,
+    "name": "Apex Wichita Dentist Center",
+    "niche": "Dentist",
+    "city": "Wichita",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexwichitadentistcenter.example",
+    "email": "info@apexwichitadentistcenter.example",
+    "address": "240 Boulevard Ave, Wichita",
+    "mailto_url": "mailto:info@apexwichitadentistcenter.example?subject=quick%20question%20regarding%20Apex%20Wichita%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:40"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Wichita",
+    "niche": "Dentist",
+    "city": "Wichita",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersofwichita.example",
+    "email": "info@beacondentistpartnersofwichita.example",
+    "address": "360 Boulevard Ave, Wichita",
+    "mailto_url": "mailto:info@beacondentistpartnersofwichita.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Wichita%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:40"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Wichita Dentist Group",
+    "niche": "Dentist",
+    "city": "Wichita",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardwichitadentistgroup.example",
+    "email": "info@vanguardwichitadentistgroup.example",
+    "address": "480 Boulevard Ave, Wichita",
+    "mailto_url": "mailto:info@vanguardwichitadentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Wichita%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:40"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Wichita",
+    "niche": "Dentist",
+    "city": "Wichita",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticswichita.example",
+    "email": "info@luminadentistandaestheticswichita.example",
+    "address": "600 Boulevard Ave, Wichita",
+    "mailto_url": "mailto:info@luminadentistandaestheticswichita.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Wichita%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:40"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Dentist Clinic of Wichita",
+    "niche": "Dentist",
+    "city": "Wichita",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedentistclinicofwichita.example",
+    "email": "info@proactivedentistclinicofwichita.example",
+    "address": "720 Boulevard Ave, Wichita",
+    "mailto_url": "mailto:info@proactivedentistclinicofwichita.example?subject=quick%20question%20regarding%20ProActive%20Dentist%20Clinic%20of%20Wichita%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:40"
+  },
+  {
+    "id": 7,
+    "name": "Elite Dentist Specialists Wichita",
+    "niche": "Dentist",
+    "city": "Wichita",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedentistspecialistswichita.example",
+    "email": "info@elitedentistspecialistswichita.example",
+    "address": "840 Boulevard Ave, Wichita",
+    "mailto_url": "mailto:info@elitedentistspecialistswichita.example?subject=quick%20question%20regarding%20Elite%20Dentist%20Specialists%20Wichita%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:40"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Dentist Wichita",
+    "niche": "Dentist",
+    "city": "Wichita",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdentistwichita.example",
+    "email": "info@summitcrestdentistwichita.example",
+    "address": "960 Boulevard Ave, Wichita",
+    "mailto_url": "mailto:info@summitcrestdentistwichita.example?subject=quick%20question%20regarding%20Summit%20Crest%20Dentist%20Wichita%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:40"
+  },
+  {
+    "id": 9,
+    "name": "Metro Dentist Care Center Wichita",
+    "niche": "Dentist",
+    "city": "Wichita",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodentistcarecenterwichita.example",
+    "email": "info@metrodentistcarecenterwichita.example",
+    "address": "1080 Boulevard Ave, Wichita",
+    "mailto_url": "mailto:info@metrodentistcarecenterwichita.example?subject=quick%20question%20regarding%20Metro%20Dentist%20Care%20Center%20Wichita%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:40"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Dentist Practice Wichita",
+    "niche": "Dentist",
+    "city": "Wichita",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdentistpracticewichita.example",
+    "email": "info@pacificcoastdentistpracticewichita.example",
+    "address": "1200 Boulevard Ave, Wichita",
+    "mailto_url": "mailto:info@pacificcoastdentistpracticewichita.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Dentist%20Practice%20Wichita%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:40"
+  }
+]

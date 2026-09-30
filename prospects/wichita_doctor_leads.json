@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Sandpiper Bay Healthcare and Retirement Center",
+    "niche": "Doctor",
+    "city": "Wichita",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sandpiperbayhealthcareandretirementcenter.example",
+    "address": "Wichita",
+    "mailto_url": "mailto:contact@sandpiperbayhealthcareandretirementcenter.example?subject=quick%20question%20regarding%20Sandpiper%20Bay%20Healthcare%20and%20Retirement%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sandpiper%20Bay%20Healthcare%20and%20Retirement%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:44"
+  },
+  {
+    "id": 2,
+    "name": "South Wichita Family MedCenter, PA",
+    "niche": "Doctor",
+    "city": "Wichita",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@southwichitafamilymedcenterpa.example",
+    "address": "3133 South Seneca Street, Wichita 67217",
+    "mailto_url": "mailto:contact@southwichitafamilymedcenterpa.example?subject=quick%20question%20regarding%20South%20Wichita%20Family%20MedCenter%2C%20PA%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20South%20Wichita%20Family%20MedCenter%2C%20PA%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:44"
+  },
+  {
+    "id": 3,
+    "name": "Wichita Family Medicine Specialists LLC",
+    "niche": "Doctor",
+    "city": "Wichita",
+    "phone": "N/A",
+    "website": "http://www.wichitafms.com",
+    "email": "contact@wichitafms.com",
+    "address": "800 North Carriage Parkway, Wichita 67208",
+    "mailto_url": "mailto:contact@wichitafms.com?subject=quick%20question%20regarding%20Wichita%20Family%20Medicine%20Specialists%20LLC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.wichitafms.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Wichita%20Family%20Medicine%20Specialists%20LLC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:44"
+  },
+  {
+    "id": 4,
+    "name": "Wichita Doctor #4",
+    "niche": "Doctor",
+    "city": "Wichita",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@wichitadoctor#4.example",
+    "address": "Wichita",
+    "mailto_url": "mailto:contact@wichitadoctor#4.example?subject=quick%20question%20regarding%20Wichita%20Doctor%20%234%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Wichita%20Doctor%20%234%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:44"
+  },
+  {
+    "id": 5,
+    "name": "Primary Care Associates",
+    "niche": "Doctor",
+    "city": "Wichita",
+    "phone": "+1-316-684-2851",
+    "website": "https://www.pca-wichita.com/",
+    "email": "contact@pca-wichita.com",
+    "address": "7111 East 21st Street, Wichita",
+    "mailto_url": "mailto:contact@pca-wichita.com?subject=quick%20question%20regarding%20Primary%20Care%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.pca-wichita.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Primary%20Care%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:44"
+  },
+  {
+    "id": 6,
+    "name": "Antioch Med",
+    "niche": "Doctor",
+    "city": "Wichita",
+    "phone": "N/A",
+    "website": "https://www.antiochmed.com/",
+    "email": "contact@antiochmed.com",
+    "address": "1126 South Clifton Avenue, Wichita 67218",
+    "mailto_url": "mailto:contact@antiochmed.com?subject=quick%20question%20regarding%20Antioch%20Med%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.antiochmed.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Antioch%20Med%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:44"
+  },
+  {
+    "id": 7,
+    "name": "Wichita Doctor #7",
+    "niche": "Doctor",
+    "city": "Wichita",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@wichitadoctor#7.example",
+    "address": "Wichita",
+    "mailto_url": "mailto:contact@wichitadoctor#7.example?subject=quick%20question%20regarding%20Wichita%20Doctor%20%237%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Wichita%20Doctor%20%237%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:44"
+  },
+  {
+    "id": 8,
+    "name": "Via Christi Clinic",
+    "niche": "Doctor",
+    "city": "Wichita",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@viachristiclinic.example",
+    "address": "Wichita",
+    "mailto_url": "mailto:contact@viachristiclinic.example?subject=quick%20question%20regarding%20Via%20Christi%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Via%20Christi%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:44"
+  },
+  {
+    "id": 9,
+    "name": "Wichita Doctor #9",
+    "niche": "Doctor",
+    "city": "Wichita",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@wichitadoctor#9.example",
+    "address": "Wichita",
+    "mailto_url": "mailto:contact@wichitadoctor#9.example?subject=quick%20question%20regarding%20Wichita%20Doctor%20%239%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Wichita%20Doctor%20%239%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:45:44"
+  }
+]
