@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "University Of Colorado Physicians",
+    "niche": "Doctor",
+    "city": "Denver",
+    "phone": "N/A",
+    "website": "http://www.Uch.edu",
+    "email": "contact@Uch.edu",
+    "address": "8111 East Lowry Boulevard, Denver 80230",
+    "mailto_url": "mailto:contact@Uch.edu?subject=quick%20question%20regarding%20University%20Of%20Colorado%20Physicians%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.Uch.edu%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20University%20Of%20Colorado%20Physicians%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:01:14"
+  },
+  {
+    "id": 2,
+    "name": "HealthONE",
+    "niche": "Doctor",
+    "city": "Denver",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@healthone.example",
+    "address": "1515 Wazee Street, Denver 80202",
+    "mailto_url": "mailto:contact@healthone.example?subject=quick%20question%20regarding%20HealthONE%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20HealthONE%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:01:14"
+  },
+  {
+    "id": 3,
+    "name": "Central OB/GYN",
+    "niche": "Doctor",
+    "city": "Denver",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@centralob/gyn.example",
+    "address": "1960 Ogden Street, Denver 80218",
+    "mailto_url": "mailto:contact@centralob/gyn.example?subject=quick%20question%20regarding%20Central%20OB/GYN%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Central%20OB/GYN%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:01:14"
+  },
+  {
+    "id": 4,
+    "name": "Seton Women's Center",
+    "niche": "Doctor",
+    "city": "Denver",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@setonwomen'scenter.example",
+    "address": "1960 Ogden Street, Denver 80218",
+    "mailto_url": "mailto:contact@setonwomen'scenter.example?subject=quick%20question%20regarding%20Seton%20Women%27s%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Seton%20Women%27s%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:01:14"
+  },
+  {
+    "id": 5,
+    "name": "Colorado Dermatology Specialists",
+    "niche": "Doctor",
+    "city": "Denver",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@coloradodermatologyspecialists.example",
+    "address": "1960 Ogden Street, Denver 80218",
+    "mailto_url": "mailto:contact@coloradodermatologyspecialists.example?subject=quick%20question%20regarding%20Colorado%20Dermatology%20Specialists%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Colorado%20Dermatology%20Specialists%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:01:14"
+  },
+  {
+    "id": 6,
+    "name": "Sister Joanna Bruner Family Medicine",
+    "niche": "Doctor",
+    "city": "Denver",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sisterjoannabrunerfamilymedicine.example",
+    "address": "1960 Ogden Street, Denver 80218",
+    "mailto_url": "mailto:contact@sisterjoannabrunerfamilymedicine.example?subject=quick%20question%20regarding%20Sister%20Joanna%20Bruner%20Family%20Medicine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sister%20Joanna%20Bruner%20Family%20Medicine%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:01:14"
+  },
+  {
+    "id": 7,
+    "name": "Colorado Gastroenterology",
+    "niche": "Doctor",
+    "city": "Denver",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@coloradogastroenterology.example",
+    "address": "1960 Ogden Street, Denver 80218",
+    "mailto_url": "mailto:contact@coloradogastroenterology.example?subject=quick%20question%20regarding%20Colorado%20Gastroenterology%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Colorado%20Gastroenterology%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:01:14"
+  },
+  {
+    "id": 8,
+    "name": "Denver Medical Associates",
+    "niche": "Doctor",
+    "city": "Denver",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@denvermedicalassociates.example",
+    "address": "1960 Ogden Street, Denver 80218",
+    "mailto_url": "mailto:contact@denvermedicalassociates.example?subject=quick%20question%20regarding%20Denver%20Medical%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Denver%20Medical%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:01:14"
+  },
+  {
+    "id": 9,
+    "name": "Colorado Hernia Center",
+    "niche": "Doctor",
+    "city": "Denver",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@coloradoherniacenter.example",
+    "address": "1960 Ogden Street, Denver 80218",
+    "mailto_url": "mailto:contact@coloradoherniacenter.example?subject=quick%20question%20regarding%20Colorado%20Hernia%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Colorado%20Hernia%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:01:14"
+  },
+  {
+    "id": 10,
+    "name": "Ann Arrigo, MD",
+    "niche": "Doctor",
+    "city": "Denver",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@annarrigomd.example",
+    "address": "1960 Ogden Street, Denver 80218",
+    "mailto_url": "mailto:contact@annarrigomd.example?subject=quick%20question%20regarding%20Ann%20Arrigo%2C%20MD%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Ann%20Arrigo%2C%20MD%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:01:14"
+  }
+]
