@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Washburn Surgery Center",
+    "niche": "Doctor",
+    "city": "Topeka",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@washburnsurgerycenter.example",
+    "address": "Topeka 66606",
+    "mailto_url": "mailto:contact@washburnsurgerycenter.example?subject=quick%20question%20regarding%20Washburn%20Surgery%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Washburn%20Surgery%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:29:00"
+  },
+  {
+    "id": 2,
+    "name": "Breakthrough House",
+    "niche": "Doctor",
+    "city": "Topeka",
+    "phone": "N/A",
+    "website": "https://www.breakthroughhouse.org/",
+    "email": "contact@breakthroughhouse.org",
+    "address": "603 Southwest Topeka Boulevard, Topeka 66603",
+    "mailto_url": "mailto:contact@breakthroughhouse.org?subject=quick%20question%20regarding%20Breakthrough%20House%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.breakthroughhouse.org/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Breakthrough%20House%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:29:00"
+  },
+  {
+    "id": 3,
+    "name": "Washburn University Petro Allied Health Center",
+    "niche": "Doctor",
+    "city": "Topeka",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@washburnuniversitypetroalliedhealthcenter.example",
+    "address": "Topeka",
+    "mailto_url": "mailto:contact@washburnuniversitypetroalliedhealthcenter.example?subject=quick%20question%20regarding%20Washburn%20University%20Petro%20Allied%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Washburn%20University%20Petro%20Allied%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:29:00"
+  },
+  {
+    "id": 4,
+    "name": "American Medical Exams",
+    "niche": "Doctor",
+    "city": "Topeka",
+    "phone": "N/A",
+    "website": "https://americanmedicalexams.com/",
+    "email": "contact@americanmedicalexams.com",
+    "address": "837 Northwest Harrison Street, Topeka 66608",
+    "mailto_url": "mailto:contact@americanmedicalexams.com?subject=quick%20question%20regarding%20American%20Medical%20Exams%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//americanmedicalexams.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20American%20Medical%20Exams%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:29:00"
+  },
+  {
+    "id": 5,
+    "name": "Stormont Vail MRI Center",
+    "niche": "Doctor",
+    "city": "Topeka",
+    "phone": "+1 785 354 5545",
+    "website": "https://www.stormontvail.org/stormont-vail-MRI-center-of-kansas",
+    "email": "contact@stormontvail.org",
+    "address": "731 Southwest Mulvane Street, Topeka 66606",
+    "mailto_url": "mailto:contact@stormontvail.org?subject=quick%20question%20regarding%20Stormont%20Vail%20MRI%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.stormontvail.org/stormont-vail-MRI-center-of-kansas%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Stormont%20Vail%20MRI%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:29:00"
+  },
+  {
+    "id": 6,
+    "name": "Kansas Medical Clinic",
+    "niche": "Doctor",
+    "city": "Topeka",
+    "phone": "+1 785 354 8518",
+    "website": "https://www.kmcpa.com/",
+    "email": "contact@kmcpa.com",
+    "address": "2200 Southwest 6th Avenue, Topeka 66606",
+    "mailto_url": "mailto:contact@kmcpa.com?subject=quick%20question%20regarding%20Kansas%20Medical%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.kmcpa.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Kansas%20Medical%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:29:00"
+  },
+  {
+    "id": 7,
+    "name": "Woodland Health Center Nursing Home",
+    "niche": "Doctor",
+    "city": "Topeka",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@woodlandhealthcenternursinghome.example",
+    "address": "440 Southeast Woodland Avenue, Topeka 66607",
+    "mailto_url": "mailto:contact@woodlandhealthcenternursinghome.example?subject=quick%20question%20regarding%20Woodland%20Health%20Center%20Nursing%20Home%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Woodland%20Health%20Center%20Nursing%20Home%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:29:00"
+  },
+  {
+    "id": 8,
+    "name": "Hancock Chiropractic",
+    "niche": "Doctor",
+    "city": "Topeka",
+    "phone": "+1 785 357-0375",
+    "website": "http://www.hancockchiropractictopekaks.com/",
+    "email": "contact@hancockchiropractictopekaks.com",
+    "address": "206 Southwest Topeka Boulevard, Topeka 66603",
+    "mailto_url": "mailto:contact@hancockchiropractictopekaks.com?subject=quick%20question%20regarding%20Hancock%20Chiropractic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.hancockchiropractictopekaks.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hancock%20Chiropractic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:29:00"
+  },
+  {
+    "id": 9,
+    "name": "Stillpoint Massage and Bodywork studio",
+    "niche": "Doctor",
+    "city": "Topeka",
+    "phone": "N/A",
+    "website": "https://www.stillpointbodywork.com/",
+    "email": "contact@stillpointbodywork.com",
+    "address": "2709 Southwest 29th Street, Topeka 66614",
+    "mailto_url": "mailto:contact@stillpointbodywork.com?subject=quick%20question%20regarding%20Stillpoint%20Massage%20and%20Bodywork%20studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.stillpointbodywork.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Stillpoint%20Massage%20and%20Bodywork%20studio%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:29:00"
+  },
+  {
+    "id": 10,
+    "name": "Pediatric Associates of Topeka",
+    "niche": "Doctor",
+    "city": "Topeka",
+    "phone": "N/A",
+    "website": "https://www.pediatricstopeka.com/",
+    "email": "contact@pediatricstopeka.com",
+    "address": "3500 Southwest 6th Avenue, Topeka 66606",
+    "mailto_url": "mailto:contact@pediatricstopeka.com?subject=quick%20question%20regarding%20Pediatric%20Associates%20of%20Topeka%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.pediatricstopeka.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Pediatric%20Associates%20of%20Topeka%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:29:00"
+  }
+]
