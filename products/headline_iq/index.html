@@ -269,7 +269,11 @@
       </ul>
 
       <input type="email" id="checkout-email" class="modal-input" placeholder="Enter your business email...">
-      <button class="btn-modal-checkout" id="modal-checkout-btn" onclick="executeProCheckout()">Unlock HeadlineIQ Pro ($19) →</button>
+      <button class="btn-modal-checkout" id="modal-checkout-btn" onclick="executeProCheckout()">Proceed to Secure Checkout ($19) →</button>
+      <div style="margin-top:12px; display:flex; gap:8px;">
+        <a href="https://minhlap.gumroad.com/l/xqckmu" target="_blank" style="flex:1; text-align:center; padding:10px; border-radius:8px; background:rgba(255,144,232,0.15); border:1px solid #ff90e8; color:#ff90e8; font-size:12px; font-weight:700; text-decoration:none;">⚡ Pay via Gumroad</a>
+        <a href="https://minhlap.lemonsqueezy.com" target="_blank" style="flex:1; text-align:center; padding:10px; border-radius:8px; background:rgba(255,193,7,0.15); border:1px solid #ffc107; color:#ffc107; font-size:12px; font-weight:700; text-decoration:none;">🍋 Lemon Squeezy</a>
+      </div>
       <p style="font-size:11px; color:var(--text-3); text-align:center; margin-top:10px;">🔒 256-Bit SSL Encrypted • 30-Day Money-Back Guarantee</p>
     </div>
   </div>
@@ -339,7 +343,7 @@
 
       const btn = document.getElementById('modal-checkout-btn');
       btn.disabled = true;
-      btn.textContent = "Activating Lifetime License...";
+      btn.textContent = "Connecting to Secure Gateway...";
 
       fetch('/api/contact', {
         method: 'POST',
@@ -349,7 +353,7 @@
           email: email,
           service: 'HeadlineIQ Pro Lifetime Pass ($19)',
           source: 'HeadlineIQ Web App',
-          message: `User ${email} unlocked HeadlineIQ Pro ($19). Instant activation granted.`
+          message: `User ${email} initiated HeadlineIQ Pro ($19) purchase.`
         })
       }).catch(err => console.log('Lead dispatch:', err));
 
@@ -359,8 +363,11 @@
         applyProBadge();
         closeProModal();
         btn.disabled = false;
-        btn.textContent = "Unlock HeadlineIQ Pro ($19) →";
-        showToast("🎉 HeadlineIQ Pro Active! High-CTR neural engine unlocked.");
+        btn.textContent = "Proceed to Secure Checkout ($19) →";
+        showToast("🎉 Redirecting to secure checkout gateway...");
+        setTimeout(() => {
+          window.location.href = "https://minhlap.gumroad.com/l/xqckmu";
+        }, 1200);
       }, 1000);
     }
 

@@ -4,6 +4,9 @@ import urllib.request
 import urllib.error
 from datetime import datetime
 from pathlib import Path
+import sys
+
+sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -96,7 +99,17 @@ links_to_check = [
     ("SLA Guarantee Hub", "https://work-minh-lap.vercel.app/guarantee"),
     ("Benchmarks Index", "https://work-minh-lap.vercel.app/benchmarks"),
     ("Trust Center", "https://work-minh-lap.vercel.app/trust"),
-    ("Master Dashboard", "https://work-minh-lap.vercel.app")
+    ("Master Dashboard", "https://work-minh-lap.vercel.app"),
+    ("Developer Docs", "https://work-minh-lap.vercel.app/docs"),
+    ("NOC Telemetry", "https://work-minh-lap.vercel.app/telemetry"),
+    ("Master Billing", "https://work-minh-lap.vercel.app/billing"),
+    ("Merch Store", "https://work-minh-lap.vercel.app/merch"),
+    ("Media Studio", "https://work-minh-lap.vercel.app/studio"),
+    ("Micro-SaaS Suite Hub", "https://work-minh-lap.vercel.app/tools"),
+    ("SynapseGEO", "https://work-minh-lap.vercel.app/synapsegeo"),
+    ("ReviewGenius", "https://work-minh-lap.vercel.app/reviewgenius"),
+    ("HeadlineIQ", "https://work-minh-lap.vercel.app/headlineiq"),
+    ("Health API", "https://work-minh-lap.vercel.app/api/health")
 ]
 
 for name, url in links_to_check:
