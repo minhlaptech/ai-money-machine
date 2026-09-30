@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Greenville Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.greenvillepremierclinicstudio.example",
+    "email": "info@greenvillepremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@greenvillepremierclinicstudio.example?subject=quick%20question%20regarding%20Greenville%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:29:00"
+  },
+  {
+    "id": 2,
+    "name": "Apex Greenville Clinic Center",
+    "niche": "Clinic",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexgreenvillecliniccenter.example",
+    "email": "info@apexgreenvillecliniccenter.example",
+    "address": "240 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@apexgreenvillecliniccenter.example?subject=quick%20question%20regarding%20Apex%20Greenville%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:29:00"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Greenville",
+    "niche": "Clinic",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofgreenville.example",
+    "email": "info@beaconclinicpartnersofgreenville.example",
+    "address": "360 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@beaconclinicpartnersofgreenville.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:29:00"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Greenville Clinic Group",
+    "niche": "Clinic",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardgreenvilleclinicgroup.example",
+    "email": "info@vanguardgreenvilleclinicgroup.example",
+    "address": "480 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@vanguardgreenvilleclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Greenville%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:29:00"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Greenville",
+    "niche": "Clinic",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsgreenville.example",
+    "email": "info@luminaclinicandaestheticsgreenville.example",
+    "address": "600 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsgreenville.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:29:00"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Greenville",
+    "niche": "Clinic",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofgreenville.example",
+    "email": "info@proactiveclinicclinicofgreenville.example",
+    "address": "720 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@proactiveclinicclinicofgreenville.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:29:00"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Greenville",
+    "niche": "Clinic",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistsgreenville.example",
+    "email": "info@eliteclinicspecialistsgreenville.example",
+    "address": "840 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@eliteclinicspecialistsgreenville.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:29:00"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Greenville",
+    "niche": "Clinic",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicgreenville.example",
+    "email": "info@summitcrestclinicgreenville.example",
+    "address": "960 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@summitcrestclinicgreenville.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:29:00"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Greenville",
+    "niche": "Clinic",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecentergreenville.example",
+    "email": "info@metrocliniccarecentergreenville.example",
+    "address": "1080 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@metrocliniccarecentergreenville.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:29:00"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Greenville",
+    "niche": "Clinic",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticegreenville.example",
+    "email": "info@pacificcoastclinicpracticegreenville.example",
+    "address": "1200 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticegreenville.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:29:00"
+  }
+]

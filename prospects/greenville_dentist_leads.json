@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Greenville Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.greenvillepremierdentiststudio.example",
+    "email": "info@greenvillepremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@greenvillepremierdentiststudio.example?subject=quick%20question%20regarding%20Greenville%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:28:10"
+  },
+  {
+    "id": 2,
+    "name": "Apex Greenville Dentist Center",
+    "niche": "Dentist",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexgreenvilledentistcenter.example",
+    "email": "info@apexgreenvilledentistcenter.example",
+    "address": "240 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@apexgreenvilledentistcenter.example?subject=quick%20question%20regarding%20Apex%20Greenville%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:28:10"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Greenville",
+    "niche": "Dentist",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersofgreenville.example",
+    "email": "info@beacondentistpartnersofgreenville.example",
+    "address": "360 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@beacondentistpartnersofgreenville.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:28:10"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Greenville Dentist Group",
+    "niche": "Dentist",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardgreenvilledentistgroup.example",
+    "email": "info@vanguardgreenvilledentistgroup.example",
+    "address": "480 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@vanguardgreenvilledentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Greenville%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:28:10"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Greenville",
+    "niche": "Dentist",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticsgreenville.example",
+    "email": "info@luminadentistandaestheticsgreenville.example",
+    "address": "600 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@luminadentistandaestheticsgreenville.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:28:10"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Dentist Clinic of Greenville",
+    "niche": "Dentist",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedentistclinicofgreenville.example",
+    "email": "info@proactivedentistclinicofgreenville.example",
+    "address": "720 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@proactivedentistclinicofgreenville.example?subject=quick%20question%20regarding%20ProActive%20Dentist%20Clinic%20of%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:28:10"
+  },
+  {
+    "id": 7,
+    "name": "Elite Dentist Specialists Greenville",
+    "niche": "Dentist",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedentistspecialistsgreenville.example",
+    "email": "info@elitedentistspecialistsgreenville.example",
+    "address": "840 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@elitedentistspecialistsgreenville.example?subject=quick%20question%20regarding%20Elite%20Dentist%20Specialists%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:28:10"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Dentist Greenville",
+    "niche": "Dentist",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdentistgreenville.example",
+    "email": "info@summitcrestdentistgreenville.example",
+    "address": "960 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@summitcrestdentistgreenville.example?subject=quick%20question%20regarding%20Summit%20Crest%20Dentist%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:28:10"
+  },
+  {
+    "id": 9,
+    "name": "Metro Dentist Care Center Greenville",
+    "niche": "Dentist",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodentistcarecentergreenville.example",
+    "email": "info@metrodentistcarecentergreenville.example",
+    "address": "1080 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@metrodentistcarecentergreenville.example?subject=quick%20question%20regarding%20Metro%20Dentist%20Care%20Center%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:28:10"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Dentist Practice Greenville",
+    "niche": "Dentist",
+    "city": "Greenville",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdentistpracticegreenville.example",
+    "email": "info@pacificcoastdentistpracticegreenville.example",
+    "address": "1200 Boulevard Ave, Greenville",
+    "mailto_url": "mailto:info@pacificcoastdentistpracticegreenville.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Dentist%20Practice%20Greenville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:28:10"
+  }
+]
