@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Smile Garden Dental Center",
+    "niche": "Dentist",
+    "city": "Baltimore",
+    "phone": "+1-410-323-3990",
+    "website": "http://www.SmileGardenDentalCenter.com",
+    "email": "contact@SmileGardenDentalCenter.com",
+    "address": "731 Deepdene Road, Baltimore 21210",
+    "mailto_url": "mailto:contact@SmileGardenDentalCenter.com?subject=quick%20question%20regarding%20Smile%20Garden%20Dental%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.SmileGardenDentalCenter.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Smile%20Garden%20Dental%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:44:10"
+  },
+  {
+    "id": 2,
+    "name": "Eric J. Cohen, D.D.S. Family Dentistry",
+    "niche": "Dentist",
+    "city": "Baltimore",
+    "phone": "+14108372525",
+    "website": "N/A",
+    "email": "contact@ericjcohenddsfamilydentistry.example",
+    "address": "1021 Light Street, Baltimore 21230",
+    "mailto_url": "mailto:contact@ericjcohenddsfamilydentistry.example?subject=quick%20question%20regarding%20Eric%20J.%20Cohen%2C%20D.D.S.%20Family%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Eric%20J.%20Cohen%2C%20D.D.S.%20Family%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:44:10"
+  },
+  {
+    "id": 3,
+    "name": "Patterson Park Dental",
+    "niche": "Dentist",
+    "city": "Baltimore",
+    "phone": "N/A",
+    "website": "https://pattersonparkdental.com/",
+    "email": "contact@pattersonparkdental.com",
+    "address": "336 South Patterson Park Avenue, Baltimore 21231",
+    "mailto_url": "mailto:contact@pattersonparkdental.com?subject=quick%20question%20regarding%20Patterson%20Park%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//pattersonparkdental.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Patterson%20Park%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:44:10"
+  },
+  {
+    "id": 4,
+    "name": "Dental Group Baltimore City",
+    "niche": "Dentist",
+    "city": "Baltimore",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dentalgroupbaltimorecity.example",
+    "address": "334 North Charles Street, Baltimore 21201",
+    "mailto_url": "mailto:contact@dentalgroupbaltimorecity.example?subject=quick%20question%20regarding%20Dental%20Group%20Baltimore%20City%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dental%20Group%20Baltimore%20City%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:44:10"
+  },
+  {
+    "id": 5,
+    "name": "Dental Center Group",
+    "niche": "Dentist",
+    "city": "Baltimore",
+    "phone": "+1 410 685 1008",
+    "website": "https://dentalcentergroup.com/",
+    "email": "contact@dentalcentergroup.com",
+    "address": "901 Eastern Avenue, Baltimore 21202",
+    "mailto_url": "mailto:contact@dentalcentergroup.com?subject=quick%20question%20regarding%20Dental%20Center%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//dentalcentergroup.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dental%20Center%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:44:10"
+  }
+]

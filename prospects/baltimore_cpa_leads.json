@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Charlie Chang CPA",
+    "niche": "Cpa",
+    "city": "Baltimore",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@charliechangcpa.example",
+    "address": "2019 Maryland Avenue, Baltimore 21218",
+    "mailto_url": "mailto:contact@charliechangcpa.example?subject=quick%20question%20regarding%20Charlie%20Chang%20CPA%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Charlie%20Chang%20CPA%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:45:39"
+  },
+  {
+    "id": 2,
+    "name": "Isaac Ogunsola & Co., CPA, LLC",
+    "niche": "Cpa",
+    "city": "Baltimore",
+    "phone": "+1 410 889 0082",
+    "website": "N/A",
+    "email": "contact@isaacogunsolacocpallc.example",
+    "address": "2541 Saint Paul Street, Baltimore 21218",
+    "mailto_url": "mailto:contact@isaacogunsolacocpallc.example?subject=quick%20question%20regarding%20Isaac%20Ogunsola%20%26%20Co.%2C%20CPA%2C%20LLC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Isaac%20Ogunsola%20%26%20Co.%2C%20CPA%2C%20LLC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:45:39"
+  },
+  {
+    "id": 3,
+    "name": "J. Royce Lokeman",
+    "niche": "Cpa",
+    "city": "Baltimore",
+    "phone": "+1-410-362-6500",
+    "website": "N/A",
+    "email": "contact@jroycelokeman.example",
+    "address": "4022 Edmondson Avenue, Baltimore 21229",
+    "mailto_url": "mailto:contact@jroycelokeman.example?subject=quick%20question%20regarding%20J.%20Royce%20Lokeman%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20J.%20Royce%20Lokeman%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:45:39"
+  },
+  {
+    "id": 4,
+    "name": "JMK Accounting & Tax Services",
+    "niche": "Cpa",
+    "city": "Baltimore",
+    "phone": "+1-410-790-6411",
+    "website": "N/A",
+    "email": "contact@jmkaccountingtaxservices.example",
+    "address": "6418 Belair Road, Baltimore",
+    "mailto_url": "mailto:contact@jmkaccountingtaxservices.example?subject=quick%20question%20regarding%20JMK%20Accounting%20%26%20Tax%20Services%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20JMK%20Accounting%20%26%20Tax%20Services%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:45:39"
+  },
+  {
+    "id": 5,
+    "name": "Silva Accounting & Tax Services",
+    "niche": "Cpa",
+    "city": "Baltimore",
+    "phone": "+1-410-444-1800",
+    "website": "N/A",
+    "email": "contact@silvaaccountingtaxservices.example",
+    "address": "5722 Belair Road, Baltimore 21206",
+    "mailto_url": "mailto:contact@silvaaccountingtaxservices.example?subject=quick%20question%20regarding%20Silva%20Accounting%20%26%20Tax%20Services%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Silva%20Accounting%20%26%20Tax%20Services%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:45:39"
+  }
+]
