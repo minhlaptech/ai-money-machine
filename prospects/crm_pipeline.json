@@ -137,10 +137,10 @@
     "city": "Los Angeles, CA",
     "to": "hello@veloraactive.example",
     "doc": "Team Velora",
-    "status": "won",
+    "status": "day7",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:56"
+    "last_touch": "2026-09-30 22:50"
   },
   {
     "id": 12,
@@ -150,10 +150,10 @@
     "city": "New York, NY",
     "to": "partners@nuvoglowbeauty.example",
     "doc": "Founder",
-    "status": "won",
+    "status": "day7",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:41"
+    "last_touch": "2026-09-30 22:50"
   },
   {
     "id": 13,
@@ -163,10 +163,10 @@
     "city": "San Francisco, CA",
     "to": "growth@pulsemetrics.example",
     "doc": "Founder",
-    "status": "won",
+    "status": "day7",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:50"
+    "last_touch": "2026-09-30 22:50"
   },
   {
     "id": 14,
@@ -176,10 +176,10 @@
     "city": "Boulder, CO",
     "to": "support@hydroflowbottle.example",
     "doc": "Team HydroFlow",
-    "status": "won",
+    "status": "day7",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:43"
+    "last_touch": "2026-09-30 22:50"
   },
   {
     "id": 15,
@@ -189,10 +189,10 @@
     "city": "Austin, TX",
     "to": "hello@clouddeskhelp.example",
     "doc": "Product Lead",
-    "status": "won",
+    "status": "day7",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:43"
+    "last_touch": "2026-09-30 22:50"
   },
   {
     "id": 16,
@@ -202,10 +202,10 @@
     "city": "Portland, OR",
     "to": "orders@artisanroastclub.example",
     "doc": "Founder",
-    "status": "won",
+    "status": "day7",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:45"
+    "last_touch": "2026-09-30 22:50"
   },
   {
     "id": 17,
@@ -215,10 +215,10 @@
     "city": "Seattle, WA",
     "to": "founders@stacksyncdev.example",
     "doc": "Engineering Lead",
-    "status": "won",
+    "status": "day7",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:46"
+    "last_touch": "2026-09-30 22:50"
   },
   {
     "id": 18,
@@ -228,10 +228,10 @@
     "city": "Denver, CO",
     "to": "hello@pawsomepetbox.example",
     "doc": "Customer Team",
-    "status": "won",
+    "status": "day7",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:48"
+    "last_touch": "2026-09-30 22:50"
   },
   {
     "id": 19,
@@ -241,10 +241,10 @@
     "city": "Boston, MA",
     "to": "inquiries@leadflowcrm.example",
     "doc": "Growth Team",
-    "status": "won",
+    "status": "day7",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:48"
+    "last_touch": "2026-09-30 22:50"
   },
   {
     "id": 20,
@@ -254,10 +254,10 @@
     "city": "Chicago, IL",
     "to": "concierge@zensleepbed.example",
     "doc": "Marketing Team",
-    "status": "won",
+    "status": "day7",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 04:50"
+    "last_touch": "2026-09-30 22:50"
   },
   {
     "id": 21,

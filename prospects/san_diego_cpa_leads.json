@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Liberty Income Tab",
+    "niche": "Cpa",
+    "city": "San Diego",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@libertyincometab.example",
+    "address": "San Diego",
+    "mailto_url": "mailto:contact@libertyincometab.example?subject=quick%20question%20regarding%20Liberty%20Income%20Tab%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Liberty%20Income%20Tab%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:52:50"
+  },
+  {
+    "id": 2,
+    "name": "Acheson Bogaert & Carnago CPA",
+    "niche": "Cpa",
+    "city": "San Diego",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@achesonbogaertcarnagocpa.example",
+    "address": "11665 Avena Place, San Diego 92128",
+    "mailto_url": "mailto:contact@achesonbogaertcarnagocpa.example?subject=quick%20question%20regarding%20Acheson%20Bogaert%20%26%20Carnago%20CPA%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Acheson%20Bogaert%20%26%20Carnago%20CPA%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:52:50"
+  },
+  {
+    "id": 3,
+    "name": "Natalie C. Papagni, CPA - Tax, Planning and Advisory Services",
+    "niche": "Cpa",
+    "city": "San Diego",
+    "phone": "+1-858-754-8277",
+    "website": "https://www.lajollataxcpa.com/",
+    "email": "contact@lajollataxcpa.com",
+    "address": "4275 Executive Square, San Diego 92037",
+    "mailto_url": "mailto:contact@lajollataxcpa.com?subject=quick%20question%20regarding%20Natalie%20C.%20Papagni%2C%20CPA%20-%20Tax%2C%20Planning%20and%20Advisory%20Services%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.lajollataxcpa.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Natalie%20C.%20Papagni%2C%20CPA%20-%20Tax%2C%20Planning%20and%20Advisory%20Services%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:52:50"
+  }
+]

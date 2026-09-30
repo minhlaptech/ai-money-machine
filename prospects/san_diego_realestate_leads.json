@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Casa By Craft",
+    "niche": "Realestate",
+    "city": "San Diego",
+    "phone": "+1-619-994-0045",
+    "website": "https://www.casabycraft.com",
+    "email": "contact@casabycraft.com",
+    "address": "2801 Camino del Rio South, San Diego 92108",
+    "mailto_url": "mailto:contact@casabycraft.com?subject=quick%20question%20regarding%20Casa%20By%20Craft%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.casabycraft.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Casa%20By%20Craft%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:53:11"
+  },
+  {
+    "id": 2,
+    "name": "Jeremy Root San Diego Realtor®",
+    "niche": "Realestate",
+    "city": "San Diego",
+    "phone": "+1-858-531-3395",
+    "website": "https://www.jeremyroot.com/",
+    "email": "contact@jeremyroot.com",
+    "address": "10620 Treena St., San Diego 92131",
+    "mailto_url": "mailto:contact@jeremyroot.com?subject=quick%20question%20regarding%20Jeremy%20Root%20San%20Diego%20Realtor%C2%AE%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.jeremyroot.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jeremy%20Root%20San%20Diego%20Realtor%C2%AE%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:53:11"
+  },
+  {
+    "id": 3,
+    "name": "Sez Sezer Real Estate Agent",
+    "niche": "Realestate",
+    "city": "San Diego",
+    "phone": "+1-858-436-6585",
+    "website": "https://www.carmelvalley.com",
+    "email": "contact@carmelvalley.com",
+    "address": "12750 High Bluff Drive, San Diego 92130",
+    "mailto_url": "mailto:contact@carmelvalley.com?subject=quick%20question%20regarding%20Sez%20Sezer%20Real%20Estate%20Agent%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.carmelvalley.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sez%20Sezer%20Real%20Estate%20Agent%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:53:11"
+  },
+  {
+    "id": 4,
+    "name": "San Diego Realestate #4",
+    "niche": "Realestate",
+    "city": "San Diego",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sandiegorealestate#4.example",
+    "address": "12730 High Bluff Drive, San Diego 92130",
+    "mailto_url": "mailto:contact@sandiegorealestate#4.example?subject=quick%20question%20regarding%20San%20Diego%20Realestate%20%234%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20San%20Diego%20Realestate%20%234%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:53:11"
+  },
+  {
+    "id": 5,
+    "name": "Riviera Property Management",
+    "niche": "Realestate",
+    "city": "San Diego",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@rivierapropertymanagement.example",
+    "address": "San Diego",
+    "mailto_url": "mailto:contact@rivierapropertymanagement.example?subject=quick%20question%20regarding%20Riviera%20Property%20Management%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Riviera%20Property%20Management%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:53:11"
+  },
+  {
+    "id": 6,
+    "name": "Prudential California Reality",
+    "niche": "Realestate",
+    "city": "San Diego",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@prudentialcaliforniareality.example",
+    "address": "San Diego",
+    "mailto_url": "mailto:contact@prudentialcaliforniareality.example?subject=quick%20question%20regarding%20Prudential%20California%20Reality%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Prudential%20California%20Reality%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:53:11"
+  },
+  {
+    "id": 7,
+    "name": "Sotheby's Real Estate",
+    "niche": "Realestate",
+    "city": "San Diego",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sotheby'srealestate.example",
+    "address": "San Diego",
+    "mailto_url": "mailto:contact@sotheby'srealestate.example?subject=quick%20question%20regarding%20Sotheby%27s%20Real%20Estate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sotheby%27s%20Real%20Estate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:53:11"
+  },
+  {
+    "id": 8,
+    "name": "Sand & Sea Investments",
+    "niche": "Realestate",
+    "city": "San Diego",
+    "phone": "N/A",
+    "website": "http://www.keytosd.com",
+    "email": "contact@keytosd.com",
+    "address": "San Diego",
+    "mailto_url": "mailto:contact@keytosd.com?subject=quick%20question%20regarding%20Sand%20%26%20Sea%20Investments%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.keytosd.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sand%20%26%20Sea%20Investments%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:53:11"
+  },
+  {
+    "id": 9,
+    "name": "Bobby Martin Realty",
+    "niche": "Realestate",
+    "city": "San Diego",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@bobbymartinrealty.example",
+    "address": "3860 Valley Centre Drive, San Diego 92130",
+    "mailto_url": "mailto:contact@bobbymartinrealty.example?subject=quick%20question%20regarding%20Bobby%20Martin%20Realty%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bobby%20Martin%20Realty%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:53:11"
+  },
+  {
+    "id": 10,
+    "name": "Armstrong & Associates",
+    "niche": "Realestate",
+    "city": "San Diego",
+    "phone": "+1-858-229-8752",
+    "website": "https://armstrongestates.com/",
+    "email": "contact@armstrongestates.com",
+    "address": "810 West Washington Street, San Diego 92103",
+    "mailto_url": "mailto:contact@armstrongestates.com?subject=quick%20question%20regarding%20Armstrong%20%26%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//armstrongestates.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Armstrong%20%26%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:53:11"
+  }
+]

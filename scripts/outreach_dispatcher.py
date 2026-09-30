@@ -670,39 +670,32 @@ def send_telegram_campaign_digest(filtered, stage):
     lines.append("\n👉 <i>1-Click Send available in Command Center at https://work-minh-lap.vercel.app</i>")
     
     html_msg = "\n".join(lines)
+    # Send via telegram_bridge
+    try:
+        sys.path.insert(0, str(ROOT_DIR / "scripts"))
+        from telegram_bridge import send_message
+        res = send_message(html_msg, parse_mode="HTML")
+        if res.get("ok"):
+            print("[✓] Dispatched Outreach Campaign Digest to Telegram (@Minhpv_bot)!")
+            return
+        else:
+            print(f"[!] telegram_bridge response: {res}")
+    except Exception as e:
+        print(f"[!] telegram_bridge error: {e}")
+
+    # Fallback to direct urllib
     try:
         req = urllib.request.Request(
             f"https://api.telegram.org/bot{bot_token}/sendMessage",
             headers={"Content-Type": "application/json"},
             data=json.dumps({"chat_id": chat_id, "text": html_msg, "parse_mode": "HTML"}).encode("utf-8")
         )
-        with urllib.request.urlopen(req, timeout=12) as r:
+        with urllib.request.urlopen(req, timeout=15) as r:
             if r.status == 200:
-                print("[✓] Dispatched Outreach Campaign Digest to Telegram (@Minhpv_bot)!")
+                print("[✓] Dispatched Outreach Campaign Digest to Telegram (@Minhpv_bot) via urllib!")
                 return
-    except Exception:
-        pass
-
-    # Fallback to curl.exe with temp payload file for 100% reliability on Windows
-    try:
-        import subprocess
-        payload_file = ROOT_DIR / "temp_tg_outreach.json"
-        payload_file.write_text(json.dumps({"chat_id": chat_id, "text": html_msg, "parse_mode": "HTML"}, ensure_ascii=False), encoding="utf-8")
-        res = subprocess.run(
-            ["curl.exe", "-s", "--connect-timeout", "10", "--max-time", "20", "-X", "POST",
-             "-H", "Content-Type: application/json; charset=utf-8",
-             "-d", f"@{payload_file.name}",
-             f"https://api.telegram.org/bot{bot_token}/sendMessage"],
-            capture_output=True, text=True, timeout=22, cwd=str(ROOT_DIR)
-        )
-        if payload_file.exists():
-            payload_file.unlink()
-        if '"ok":true' in res.stdout:
-            print("[✓] Dispatched Outreach Campaign Digest to Telegram (@Minhpv_bot) via curl!")
-        else:
-            print(f"[!] Telegram curl error: {res.stdout}")
     except Exception as e:
-        print(f"[!] Telegram notification error: {e}")
+        print(f"[!] urllib error: {e}")
 
 def update_pipeline_status(leads_to_update, stage):
     crm_file = ROOT_DIR / "prospects" / "crm_pipeline.json"
