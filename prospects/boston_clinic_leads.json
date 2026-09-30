@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Boston Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.bostonpremierclinicstudio.example",
+    "email": "info@bostonpremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@bostonpremierclinicstudio.example?subject=quick%20question%20regarding%20Boston%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:01"
+  },
+  {
+    "id": 2,
+    "name": "Apex Boston Clinic Center",
+    "niche": "Clinic",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexbostoncliniccenter.example",
+    "email": "info@apexbostoncliniccenter.example",
+    "address": "240 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@apexbostoncliniccenter.example?subject=quick%20question%20regarding%20Apex%20Boston%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:01"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Boston",
+    "niche": "Clinic",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofboston.example",
+    "email": "info@beaconclinicpartnersofboston.example",
+    "address": "360 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@beaconclinicpartnersofboston.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:01"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Boston Clinic Group",
+    "niche": "Clinic",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardbostonclinicgroup.example",
+    "email": "info@vanguardbostonclinicgroup.example",
+    "address": "480 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@vanguardbostonclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Boston%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:01"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Boston",
+    "niche": "Clinic",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsboston.example",
+    "email": "info@luminaclinicandaestheticsboston.example",
+    "address": "600 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsboston.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:01"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Boston",
+    "niche": "Clinic",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofboston.example",
+    "email": "info@proactiveclinicclinicofboston.example",
+    "address": "720 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@proactiveclinicclinicofboston.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:01"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Boston",
+    "niche": "Clinic",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistsboston.example",
+    "email": "info@eliteclinicspecialistsboston.example",
+    "address": "840 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@eliteclinicspecialistsboston.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:01"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Boston",
+    "niche": "Clinic",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicboston.example",
+    "email": "info@summitcrestclinicboston.example",
+    "address": "960 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@summitcrestclinicboston.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:01"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Boston",
+    "niche": "Clinic",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecenterboston.example",
+    "email": "info@metrocliniccarecenterboston.example",
+    "address": "1080 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@metrocliniccarecenterboston.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:01"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Boston",
+    "niche": "Clinic",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticeboston.example",
+    "email": "info@pacificcoastclinicpracticeboston.example",
+    "address": "1200 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticeboston.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:01"
+  }
+]

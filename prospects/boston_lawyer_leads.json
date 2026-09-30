@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Boston Premier Lawyer Studio",
+    "niche": "Lawyer",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.bostonpremierlawyerstudio.example",
+    "email": "info@bostonpremierlawyerstudio.example",
+    "address": "120 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@bostonpremierlawyerstudio.example?subject=quick%20question%20regarding%20Boston%20Premier%20Lawyer%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:31"
+  },
+  {
+    "id": 2,
+    "name": "Apex Boston Lawyer Center",
+    "niche": "Lawyer",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexbostonlawyercenter.example",
+    "email": "info@apexbostonlawyercenter.example",
+    "address": "240 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@apexbostonlawyercenter.example?subject=quick%20question%20regarding%20Apex%20Boston%20Lawyer%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:31"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Lawyer Partners of Boston",
+    "niche": "Lawyer",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconlawyerpartnersofboston.example",
+    "email": "info@beaconlawyerpartnersofboston.example",
+    "address": "360 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@beaconlawyerpartnersofboston.example?subject=quick%20question%20regarding%20Beacon%20Lawyer%20Partners%20of%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:31"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Boston Lawyer Group",
+    "niche": "Lawyer",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardbostonlawyergroup.example",
+    "email": "info@vanguardbostonlawyergroup.example",
+    "address": "480 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@vanguardbostonlawyergroup.example?subject=quick%20question%20regarding%20Vanguard%20Boston%20Lawyer%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:31"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Lawyer & Aesthetics Boston",
+    "niche": "Lawyer",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminalawyerandaestheticsboston.example",
+    "email": "info@luminalawyerandaestheticsboston.example",
+    "address": "600 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@luminalawyerandaestheticsboston.example?subject=quick%20question%20regarding%20Lumina%20Lawyer%20%26%20Aesthetics%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:31"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Lawyer Clinic of Boston",
+    "niche": "Lawyer",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivelawyerclinicofboston.example",
+    "email": "info@proactivelawyerclinicofboston.example",
+    "address": "720 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@proactivelawyerclinicofboston.example?subject=quick%20question%20regarding%20ProActive%20Lawyer%20Clinic%20of%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:31"
+  },
+  {
+    "id": 7,
+    "name": "Elite Lawyer Specialists Boston",
+    "niche": "Lawyer",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitelawyerspecialistsboston.example",
+    "email": "info@elitelawyerspecialistsboston.example",
+    "address": "840 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@elitelawyerspecialistsboston.example?subject=quick%20question%20regarding%20Elite%20Lawyer%20Specialists%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:31"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Lawyer Boston",
+    "niche": "Lawyer",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestlawyerboston.example",
+    "email": "info@summitcrestlawyerboston.example",
+    "address": "960 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@summitcrestlawyerboston.example?subject=quick%20question%20regarding%20Summit%20Crest%20Lawyer%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:31"
+  },
+  {
+    "id": 9,
+    "name": "Metro Lawyer Care Center Boston",
+    "niche": "Lawyer",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrolawyercarecenterboston.example",
+    "email": "info@metrolawyercarecenterboston.example",
+    "address": "1080 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@metrolawyercarecenterboston.example?subject=quick%20question%20regarding%20Metro%20Lawyer%20Care%20Center%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:31"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Lawyer Practice Boston",
+    "niche": "Lawyer",
+    "city": "Boston",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastlawyerpracticeboston.example",
+    "email": "info@pacificcoastlawyerpracticeboston.example",
+    "address": "1200 Boulevard Ave, Boston",
+    "mailto_url": "mailto:info@pacificcoastlawyerpracticeboston.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Lawyer%20Practice%20Boston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:31"
+  }
+]

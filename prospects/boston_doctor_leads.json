@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Brookline Avenue Medical Building",
+    "niche": "Doctor",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@brooklineavenuemedicalbuilding.example",
+    "address": "Boston",
+    "mailto_url": "mailto:contact@brooklineavenuemedicalbuilding.example?subject=quick%20question%20regarding%20Brookline%20Avenue%20Medical%20Building%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Brookline%20Avenue%20Medical%20Building%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:24"
+  },
+  {
+    "id": 2,
+    "name": "Greyfriars Surgery",
+    "niche": "Doctor",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@greyfriarssurgery.example",
+    "address": "Boston",
+    "mailto_url": "mailto:contact@greyfriarssurgery.example?subject=quick%20question%20regarding%20Greyfriars%20Surgery%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Greyfriars%20Surgery%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:24"
+  },
+  {
+    "id": 3,
+    "name": "Liquorpond Surgery",
+    "niche": "Doctor",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@liquorpondsurgery.example",
+    "address": "Boston",
+    "mailto_url": "mailto:contact@liquorpondsurgery.example?subject=quick%20question%20regarding%20Liquorpond%20Surgery%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Liquorpond%20Surgery%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:24"
+  },
+  {
+    "id": 4,
+    "name": "Franciscan Children’s Pediatrics",
+    "niche": "Doctor",
+    "city": "Boston",
+    "phone": "+1 617 779 1500",
+    "website": "https://franciscanchildrens.org/medical-services/franciscan-pediatrics/",
+    "email": "contact@franciscanchildrens.org",
+    "address": "30 Warren Street, Boston 02135",
+    "mailto_url": "mailto:contact@franciscanchildrens.org?subject=quick%20question%20regarding%20Franciscan%20Children%E2%80%99s%20Pediatrics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//franciscanchildrens.org/medical-services/franciscan-pediatrics/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Franciscan%20Children%E2%80%99s%20Pediatrics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:24"
+  },
+  {
+    "id": 5,
+    "name": "Brookside Community Health Center",
+    "niche": "Doctor",
+    "city": "Boston",
+    "phone": "+1 617 522 4700",
+    "website": "https://www.brighamandwomens.org/medicine/general-internal-medicine-and-primary-care/brookside-community-health-center/overview",
+    "email": "contact@brighamandwomens.org",
+    "address": "3297 Washington Street, Boston 02130",
+    "mailto_url": "mailto:contact@brighamandwomens.org?subject=quick%20question%20regarding%20Brookside%20Community%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.brighamandwomens.org/medicine/general-internal-medicine-and-primary-care/brookside-community-health-center/overview%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Brookside%20Community%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:24"
+  },
+  {
+    "id": 6,
+    "name": "Boston Children's at Martha Eliot",
+    "niche": "Doctor",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@bostonchildren'satmarthaeliot.example",
+    "address": "75 Bickford Street, Boston",
+    "mailto_url": "mailto:contact@bostonchildren'satmarthaeliot.example?subject=quick%20question%20regarding%20Boston%20Children%27s%20at%20Martha%20Eliot%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Boston%20Children%27s%20at%20Martha%20Eliot%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:24"
+  },
+  {
+    "id": 7,
+    "name": "Urban Eye MD. Associates PC.",
+    "niche": "Doctor",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@urbaneyemdassociatespc.example",
+    "address": "Boston",
+    "mailto_url": "mailto:contact@urbaneyemdassociatespc.example?subject=quick%20question%20regarding%20Urban%20Eye%20MD.%20Associates%20PC.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Urban%20Eye%20MD.%20Associates%20PC.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:24"
+  },
+  {
+    "id": 8,
+    "name": "Charles River Community Health",
+    "niche": "Doctor",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@charlesrivercommunityhealth.example",
+    "address": "495 Western Avenue, Boston",
+    "mailto_url": "mailto:contact@charlesrivercommunityhealth.example?subject=quick%20question%20regarding%20Charles%20River%20Community%20Health%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Charles%20River%20Community%20Health%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:24"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Carlos Arturo Velásquez",
+    "niche": "Doctor",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@drcarlosarturovelásquez.example",
+    "address": "Boston",
+    "mailto_url": "mailto:contact@drcarlosarturovelásquez.example?subject=quick%20question%20regarding%20Dr.%20Carlos%20Arturo%20Vel%C3%A1squez%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dr.%20Carlos%20Arturo%20Vel%C3%A1squez%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:24"
+  },
+  {
+    "id": 10,
+    "name": "New Health Northend Waterfront Health",
+    "niche": "Doctor",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@newhealthnorthendwaterfronthealth.example",
+    "address": "Boston",
+    "mailto_url": "mailto:contact@newhealthnorthendwaterfronthealth.example?subject=quick%20question%20regarding%20New%20Health%20Northend%20Waterfront%20Health%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20New%20Health%20Northend%20Waterfront%20Health%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:13:24"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Maria Vasilakis, DMD",
+    "niche": "Dentist",
+    "city": "Boston",
+    "phone": "+1-617-782-2267",
+    "website": "https://www.drmariadental.com/",
+    "email": "contact@drmariadental.com",
+    "address": "438 Washington Street, Boston 02135",
+    "mailto_url": "mailto:contact@drmariadental.com?subject=quick%20question%20regarding%20Dr.%20Maria%20Vasilakis%2C%20DMD%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.drmariadental.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dr.%20Maria%20Vasilakis%2C%20DMD%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:08"
+  },
+  {
+    "id": 2,
+    "name": "Boston Dental Centre",
+    "niche": "Dentist",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@bostondentalcentre.example",
+    "address": "Boston",
+    "mailto_url": "mailto:contact@bostondentalcentre.example?subject=quick%20question%20regarding%20Boston%20Dental%20Centre%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Boston%20Dental%20Centre%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:08"
+  },
+  {
+    "id": 3,
+    "name": "Stressless Dental Care",
+    "niche": "Dentist",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@stresslessdentalcare.example",
+    "address": "Boston",
+    "mailto_url": "mailto:contact@stresslessdentalcare.example?subject=quick%20question%20regarding%20Stressless%20Dental%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Stressless%20Dental%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:08"
+  },
+  {
+    "id": 4,
+    "name": "Atlantic Dental Partners.",
+    "niche": "Dentist",
+    "city": "Boston",
+    "phone": "+1 617 524-1110",
+    "website": "http://mysmile.net",
+    "email": "contact@mysmile.net",
+    "address": "729 Centre Street, Boston",
+    "mailto_url": "mailto:contact@mysmile.net?subject=quick%20question%20regarding%20Atlantic%20Dental%20Partners.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//mysmile.net%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Atlantic%20Dental%20Partners.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:08"
+  },
+  {
+    "id": 5,
+    "name": "Forest Hills Dental",
+    "niche": "Dentist",
+    "city": "Boston",
+    "phone": "+1 617 522-7414",
+    "website": "N/A",
+    "email": "contact@foresthillsdental.example",
+    "address": "3724 Washington Street, Boston",
+    "mailto_url": "mailto:contact@foresthillsdental.example?subject=quick%20question%20regarding%20Forest%20Hills%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Forest%20Hills%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:08"
+  },
+  {
+    "id": 6,
+    "name": "Gentle Dental",
+    "niche": "Dentist",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@gentledental.example",
+    "address": "612 Centre Street, Boston",
+    "mailto_url": "mailto:contact@gentledental.example?subject=quick%20question%20regarding%20Gentle%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Gentle%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:08"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Dental",
+    "niche": "Dentist",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@drdental.example",
+    "address": "315 Centre Street, Boston",
+    "mailto_url": "mailto:contact@drdental.example?subject=quick%20question%20regarding%20Dr.%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dr.%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:08"
+  },
+  {
+    "id": 8,
+    "name": "Perfect Dental",
+    "niche": "Dentist",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@perfectdental.example",
+    "address": "225 Centre Street, Boston",
+    "mailto_url": "mailto:contact@perfectdental.example?subject=quick%20question%20regarding%20Perfect%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Perfect%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:08"
+  },
+  {
+    "id": 9,
+    "name": "Great Hill Dental Partners",
+    "niche": "Dentist",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@greathilldentalpartners.example",
+    "address": "1610 Tremont Street, Boston",
+    "mailto_url": "mailto:contact@greathilldentalpartners.example?subject=quick%20question%20regarding%20Great%20Hill%20Dental%20Partners%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Great%20Hill%20Dental%20Partners%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:08"
+  },
+  {
+    "id": 10,
+    "name": "Quality Dental",
+    "niche": "Dentist",
+    "city": "Boston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@qualitydental.example",
+    "address": "Boston",
+    "mailto_url": "mailto:contact@qualitydental.example?subject=quick%20question%20regarding%20Quality%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Quality%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:12:08"
+  }
+]
