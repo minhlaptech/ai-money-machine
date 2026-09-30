@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "My Local CFO",
+    "niche": "Cpa",
+    "city": "Raleigh",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@mylocalcfo.example",
+    "address": "Raleigh",
+    "mailto_url": "mailto:contact@mylocalcfo.example?subject=quick%20question%20regarding%20My%20Local%20CFO%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20My%20Local%20CFO%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:57:44"
+  },
+  {
+    "id": 2,
+    "name": "Account On Us LLC",
+    "niche": "Cpa",
+    "city": "Raleigh",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@accountonusllc.example",
+    "address": "Raleigh",
+    "mailto_url": "mailto:contact@accountonusllc.example?subject=quick%20question%20regarding%20Account%20On%20Us%20LLC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Account%20On%20Us%20LLC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:57:44"
+  },
+  {
+    "id": 3,
+    "name": "Romeo, Wiggins, and Company, LLP",
+    "niche": "Cpa",
+    "city": "Raleigh",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@romeowigginsandcompanyllp.example",
+    "address": "Raleigh",
+    "mailto_url": "mailto:contact@romeowigginsandcompanyllp.example?subject=quick%20question%20regarding%20Romeo%2C%20Wiggins%2C%20and%20Company%2C%20LLP%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Romeo%2C%20Wiggins%2C%20and%20Company%2C%20LLP%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:57:44"
+  },
+  {
+    "id": 4,
+    "name": "Holden + Moss, CPAs",
+    "niche": "Cpa",
+    "city": "Raleigh",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@holden+mosscpas.example",
+    "address": "Raleigh",
+    "mailto_url": "mailto:contact@holden+mosscpas.example?subject=quick%20question%20regarding%20Holden%20%2B%20Moss%2C%20CPAs%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Holden%20%2B%20Moss%2C%20CPAs%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:57:44"
+  },
+  {
+    "id": 5,
+    "name": "Norton Collar Lund Lilley, PLLC",
+    "niche": "Cpa",
+    "city": "Raleigh",
+    "phone": "N/A",
+    "website": "https://ncllcpa.com/",
+    "email": "contact@ncllcpa.com",
+    "address": "Raleigh",
+    "mailto_url": "mailto:contact@ncllcpa.com?subject=quick%20question%20regarding%20Norton%20Collar%20Lund%20Lilley%2C%20PLLC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//ncllcpa.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Norton%20Collar%20Lund%20Lilley%2C%20PLLC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:57:44"
+  },
+  {
+    "id": 6,
+    "name": "Rabon and Dailey LLP CPAs",
+    "niche": "Cpa",
+    "city": "Raleigh",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@rabonanddaileyllpcpas.example",
+    "address": "Raleigh",
+    "mailto_url": "mailto:contact@rabonanddaileyllpcpas.example?subject=quick%20question%20regarding%20Rabon%20and%20Dailey%20LLP%20CPAs%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Rabon%20and%20Dailey%20LLP%20CPAs%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:57:44"
+  },
+  {
+    "id": 7,
+    "name": "Mike S. Tanas, CPA",
+    "niche": "Cpa",
+    "city": "Raleigh",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@mikestanascpa.example",
+    "address": "Raleigh",
+    "mailto_url": "mailto:contact@mikestanascpa.example?subject=quick%20question%20regarding%20Mike%20S.%20Tanas%2C%20CPA%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Mike%20S.%20Tanas%2C%20CPA%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:57:44"
+  },
+  {
+    "id": 8,
+    "name": "PricewaterhouseCoopers LLP",
+    "niche": "Cpa",
+    "city": "Raleigh",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@pricewaterhousecoopersllp.example",
+    "address": "Raleigh",
+    "mailto_url": "mailto:contact@pricewaterhousecoopersllp.example?subject=quick%20question%20regarding%20PricewaterhouseCoopers%20LLP%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20PricewaterhouseCoopers%20LLP%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:57:44"
+  },
+  {
+    "id": 9,
+    "name": "Osprey CFO",
+    "niche": "Cpa",
+    "city": "Raleigh",
+    "phone": "+1 984 382-7841",
+    "website": "http://ospreycfo.com",
+    "email": "contact@ospreycfo.com",
+    "address": "1 Glenwood Avenue, Raleigh 27603",
+    "mailto_url": "mailto:contact@ospreycfo.com?subject=quick%20question%20regarding%20Osprey%20CFO%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//ospreycfo.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Osprey%20CFO%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:57:44"
+  }
+]
