@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 03:23:47",
+  "updated_at": "2026-09-30 09:24:03",
   "total_analyzed": 40,
   "high_priority_opportunities": [
     {
@@ -19,24 +19,12 @@
       "source": "Hacker News (ask)",
       "title": "Ask HN: What are you reading?",
       "text": "I&#x27;m plowing through the Dungeon Crawler Carl series, which is not particularly challenging as sci-fi&#x2F;LitRPG goes, but entertaining enough.  I&#x27;m also wrapping up Doctorow&#x27;s _Enshittification_, and I&#x27;m looking for something a little meaty to keep the brain working...",
-      "score": 23,
-      "comments": 43,
+      "score": 145,
+      "comments": 226,
       "url": "https://news.ycombinator.com/item?id=49893157",
       "intent_score": 50,
       "matched_keywords": [
         "looking for"
-      ]
-    },
-    {
-      "source": "Hacker News (show)",
-      "title": "Show HN: Free alternative to graphics design giants",
-      "text": "A webassembly web based app that help editing raster and vector on browser without any subscription or signups",
-      "score": 130,
-      "comments": 22,
-      "url": "https://news.ycombinator.com/item?id=49875308",
-      "intent_score": 50,
-      "matched_keywords": [
-        "alternative to"
       ]
     },
     {
@@ -68,7 +56,7 @@
       "title": "serpapi/awesome-seo-tools - Curated list of awesome SEO tools",
       "text": "Curated list of awesome SEO tools",
       "score": 1102,
-      "comments": 368,
+      "comments": 369,
       "url": "https://github.com/serpapi/awesome-seo-tools",
       "intent_score": 50,
       "matched_keywords": [
@@ -139,7 +127,7 @@
       "source": "Hacker News (ask)",
       "title": "Management is forcing us to use AI",
       "text": "I’m paraphrasing; «You use AI or you’re not working here. Humans are not perfect coders nor are AIs. So why should you be allowed to code without AI. It’s a netloss for us. You either use it or you start looking for a different job.»<p>Can’t believe Im being forced to make myself dumber. I really dont want to spend even more hours in front of my laptop, but looks like I have to because this whole ",
-      "score": 18,
+      "score": 19,
       "comments": 22,
       "url": "https://news.ycombinator.com/item?id=49873913",
       "intent_score": 40,
@@ -151,11 +139,23 @@
       "source": "Hacker News (ask)",
       "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
       "text": "Do you currently work with or know anyone who is still using:<p>* dBase&#x2F;Clipper&#x2F;CLARION&#x2F;Paradox&#x2F;other DOS RAD environments on period hardware to run business processes?<p>* CNC mills&#x2F;spectrometers&#x2F;microscopes&#x2F;other industrial instruments controlled by ISA cards (either bespoke or standards like GPIB)?<p>* Anything with a parallel port dongle?<p>If so, I&#x27;d be",
-      "score": 291,
+      "score": 292,
       "comments": 85,
       "url": "https://news.ycombinator.com/item?id=49848955",
       "intent_score": 25,
       "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (ask)",
+      "title": "Ask HN: OpenSEO inspiration for other tools, asking for opinion",
+      "text": "OpenSEO got to 22k+ stars in &lt;7 months<p>We were planning to opensource 4 tools (2 of which we have build but they are not opensource yet)<p>- Meltwater alternative for social listening (already taken: freesociallistening and getting some users from chatgpt)<p>- Gong alternative for sales roleplay (already setup dosalesroleplay)<p>- Podium alternative for Review collection and SMS<p>- AgencyAna",
+      "score": 3,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=49898465",
+      "intent_score": 25,
+      "matched_keywords": [
+        "seo"
+      ]
     },
     {
       "source": "Hacker News (ask)",
@@ -181,31 +181,21 @@
     },
     {
       "source": "Hacker News (show)",
-      "title": "Show HN: HN.watch – Videos of all Hacker News posts",
-      "text": "Hi HN, I’m Per, founder of Scrimba (YC S20). We’ve spent the last decade teaching people how to code with an HTML-based video format. We’ve now plugged an LLM into it, so that people can create explainer videos about anything. It’s called “Scrimba Explain”.<p>To demo this technology for Hacker News, we built HN.watch. It’s like HN, but with explainer videos instead of articles. We create them on-t",
-      "score": 207,
-      "comments": 51,
-      "url": "https://news.ycombinator.com/item?id=49879401",
-      "intent_score": 25,
-      "matched_keywords": []
-    },
-    {
-      "source": "Hacker News (show)",
-      "title": "Show HN: Destroy Any Website with Stickman",
+      "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
       "text": "",
-      "score": 163,
-      "comments": 26,
-      "url": "https://news.ycombinator.com/item?id=49880601",
+      "score": 116,
+      "comments": 22,
+      "url": "https://news.ycombinator.com/item?id=49898778",
       "intent_score": 25,
       "matched_keywords": []
     },
     {
       "source": "Hacker News (show)",
-      "title": "Show HN: PaperMono, e-ink fridge magnet shopping list with mobile web page",
-      "text": "Fridge magnet shopping list on an M5Stack PaperMono (ESP32-S3, e-ink\ntouchscreen), synced with a phone web app over Wi-Fi. Works offline,\n~2,400 lines of C++.<p>This is a great wee device! BLE, Wi-Fi and LoRa on one board makes it flexible\nfor way more than a shopping list, this is just what I built first. This\nfirmware only uses Wi-Fi.<p>Fully vibe-coded with Claude Code, I didn&#x27;t hand-write",
-      "score": 145,
-      "comments": 25,
-      "url": "https://news.ycombinator.com/item?id=49875801",
+      "title": "Show HN: NSL – WSL for Linux",
+      "text": "One of the things that Windows really got right is WSL2. I drive an atomic Linux distro for daily use, but wanted a way to develop with multiple different distros with that same WSL UX.  NSL is my answer. It is a faithful reproduction of the developer experience, powered by a single VM that hosts one or more systemd-nspawn containers with your development instances. Host file edits and port sharin",
+      "score": 86,
+      "comments": 22,
+      "url": "https://news.ycombinator.com/item?id=49894351",
       "intent_score": 25,
       "matched_keywords": []
     },
