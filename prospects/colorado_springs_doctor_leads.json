@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Sunrise Health Care PC",
+    "niche": "Doctor",
+    "city": "Colorado Springs",
+    "phone": "+1-719-577-9977",
+    "website": "https://sunrisehlthcare.com/",
+    "email": "contact@sunrisehlthcare.com",
+    "address": "Colorado Springs",
+    "mailto_url": "mailto:contact@sunrisehlthcare.com?subject=quick%20question%20regarding%20Sunrise%20Health%20Care%20PC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//sunrisehlthcare.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sunrise%20Health%20Care%20PC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:38"
+  },
+  {
+    "id": 2,
+    "name": "After-Hours Urgent Care",
+    "niche": "Doctor",
+    "city": "Colorado Springs",
+    "phone": "+1-719-305-5437",
+    "website": "N/A",
+    "email": "contact@after-hoursurgentcare.example",
+    "address": "Colorado Springs",
+    "mailto_url": "mailto:contact@after-hoursurgentcare.example?subject=quick%20question%20regarding%20After-Hours%20Urgent%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20After-Hours%20Urgent%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:38"
+  },
+  {
+    "id": 3,
+    "name": "Iron Horse Pediatrics",
+    "niche": "Doctor",
+    "city": "Colorado Springs",
+    "phone": "+1-719-633-3850",
+    "website": "https://www.ironhorsepeds.com",
+    "email": "contact@ironhorsepeds.com",
+    "address": "402 North Tejon Street, Colorado Springs 80903",
+    "mailto_url": "mailto:contact@ironhorsepeds.com?subject=quick%20question%20regarding%20Iron%20Horse%20Pediatrics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.ironhorsepeds.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Iron%20Horse%20Pediatrics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:38"
+  },
+  {
+    "id": 4,
+    "name": "Colorado Sport and Spine Center",
+    "niche": "Doctor",
+    "city": "Colorado Springs",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@coloradosportandspinecenter.example",
+    "address": "Colorado Springs",
+    "mailto_url": "mailto:contact@coloradosportandspinecenter.example?subject=quick%20question%20regarding%20Colorado%20Sport%20and%20Spine%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Colorado%20Sport%20and%20Spine%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:38"
+  },
+  {
+    "id": 5,
+    "name": "Centura Health Physician Group Primary Care Powers",
+    "niche": "Doctor",
+    "city": "Colorado Springs",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@centurahealthphysiciangroupprimarycarepowers.example",
+    "address": "Colorado Springs",
+    "mailto_url": "mailto:contact@centurahealthphysiciangroupprimarycarepowers.example?subject=quick%20question%20regarding%20Centura%20Health%20Physician%20Group%20Primary%20Care%20Powers%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Centura%20Health%20Physician%20Group%20Primary%20Care%20Powers%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:38"
+  },
+  {
+    "id": 6,
+    "name": "The Little Clinic",
+    "niche": "Doctor",
+    "city": "Colorado Springs",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@thelittleclinic.example",
+    "address": "South Academy Boulevard, Colorado Springs 80916",
+    "mailto_url": "mailto:contact@thelittleclinic.example?subject=quick%20question%20regarding%20The%20Little%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20The%20Little%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:38"
+  },
+  {
+    "id": 7,
+    "name": "Optum - Primary Care",
+    "niche": "Doctor",
+    "city": "Colorado Springs",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@optum-primarycare.example",
+    "address": "Colorado Springs",
+    "mailto_url": "mailto:contact@optum-primarycare.example?subject=quick%20question%20regarding%20Optum%20-%20Primary%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Optum%20-%20Primary%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:38"
+  },
+  {
+    "id": 8,
+    "name": "Colorado Springs Health Partnership",
+    "niche": "Doctor",
+    "city": "Colorado Springs",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@coloradospringshealthpartnership.example",
+    "address": "Colorado Springs",
+    "mailto_url": "mailto:contact@coloradospringshealthpartnership.example?subject=quick%20question%20regarding%20Colorado%20Springs%20Health%20Partnership%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Colorado%20Springs%20Health%20Partnership%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:38"
+  },
+  {
+    "id": 9,
+    "name": "Colorado Springs Health Partners PC: Brady Julie MD",
+    "niche": "Doctor",
+    "city": "Colorado Springs",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@coloradospringshealthpartnerspc:bradyjuliemd.example",
+    "address": "Colorado Springs",
+    "mailto_url": "mailto:contact@coloradospringshealthpartnerspc:bradyjuliemd.example?subject=quick%20question%20regarding%20Colorado%20Springs%20Health%20Partners%20PC%3A%20Brady%20Julie%20MD%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Colorado%20Springs%20Health%20Partners%20PC%3A%20Brady%20Julie%20MD%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:38"
+  },
+  {
+    "id": 10,
+    "name": "The Little Clinic",
+    "niche": "Doctor",
+    "city": "Colorado Springs",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@thelittleclinic.example",
+    "address": "Colorado Springs",
+    "mailto_url": "mailto:contact@thelittleclinic.example?subject=quick%20question%20regarding%20The%20Little%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20The%20Little%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:38"
+  }
+]

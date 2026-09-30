@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Colorado Springs Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Colorado Springs",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.coloradospringspremierdentiststudio.example",
+    "email": "info@coloradospringspremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Colorado Springs",
+    "mailto_url": "mailto:info@coloradospringspremierdentiststudio.example?subject=quick%20question%20regarding%20Colorado%20Springs%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:16"
+  },
+  {
+    "id": 2,
+    "name": "Apex Colorado Springs Dentist Center",
+    "niche": "Dentist",
+    "city": "Colorado Springs",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexcoloradospringsdentistcenter.example",
+    "email": "info@apexcoloradospringsdentistcenter.example",
+    "address": "240 Boulevard Ave, Colorado Springs",
+    "mailto_url": "mailto:info@apexcoloradospringsdentistcenter.example?subject=quick%20question%20regarding%20Apex%20Colorado%20Springs%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:16"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Colorado Springs",
+    "niche": "Dentist",
+    "city": "Colorado Springs",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersofcoloradosprings.example",
+    "email": "info@beacondentistpartnersofcoloradosprings.example",
+    "address": "360 Boulevard Ave, Colorado Springs",
+    "mailto_url": "mailto:info@beacondentistpartnersofcoloradosprings.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Colorado%20Springs%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:16"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Colorado Springs Dentist Group",
+    "niche": "Dentist",
+    "city": "Colorado Springs",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardcoloradospringsdentistgroup.example",
+    "email": "info@vanguardcoloradospringsdentistgroup.example",
+    "address": "480 Boulevard Ave, Colorado Springs",
+    "mailto_url": "mailto:info@vanguardcoloradospringsdentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Colorado%20Springs%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:16"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Colorado Springs",
+    "niche": "Dentist",
+    "city": "Colorado Springs",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticscoloradosprings.example",
+    "email": "info@luminadentistandaestheticscoloradosprings.example",
+    "address": "600 Boulevard Ave, Colorado Springs",
+    "mailto_url": "mailto:info@luminadentistandaestheticscoloradosprings.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Colorado%20Springs%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:16"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Dentist Clinic of Colorado Springs",
+    "niche": "Dentist",
+    "city": "Colorado Springs",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedentistclinicofcoloradosprings.example",
+    "email": "info@proactivedentistclinicofcoloradosprings.example",
+    "address": "720 Boulevard Ave, Colorado Springs",
+    "mailto_url": "mailto:info@proactivedentistclinicofcoloradosprings.example?subject=quick%20question%20regarding%20ProActive%20Dentist%20Clinic%20of%20Colorado%20Springs%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:16"
+  },
+  {
+    "id": 7,
+    "name": "Elite Dentist Specialists Colorado Springs",
+    "niche": "Dentist",
+    "city": "Colorado Springs",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedentistspecialistscoloradosprings.example",
+    "email": "info@elitedentistspecialistscoloradosprings.example",
+    "address": "840 Boulevard Ave, Colorado Springs",
+    "mailto_url": "mailto:info@elitedentistspecialistscoloradosprings.example?subject=quick%20question%20regarding%20Elite%20Dentist%20Specialists%20Colorado%20Springs%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:16"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Dentist Colorado Springs",
+    "niche": "Dentist",
+    "city": "Colorado Springs",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdentistcoloradosprings.example",
+    "email": "info@summitcrestdentistcoloradosprings.example",
+    "address": "960 Boulevard Ave, Colorado Springs",
+    "mailto_url": "mailto:info@summitcrestdentistcoloradosprings.example?subject=quick%20question%20regarding%20Summit%20Crest%20Dentist%20Colorado%20Springs%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:16"
+  },
+  {
+    "id": 9,
+    "name": "Metro Dentist Care Center Colorado Springs",
+    "niche": "Dentist",
+    "city": "Colorado Springs",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodentistcarecentercoloradosprings.example",
+    "email": "info@metrodentistcarecentercoloradosprings.example",
+    "address": "1080 Boulevard Ave, Colorado Springs",
+    "mailto_url": "mailto:info@metrodentistcarecentercoloradosprings.example?subject=quick%20question%20regarding%20Metro%20Dentist%20Care%20Center%20Colorado%20Springs%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:16"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Dentist Practice Colorado Springs",
+    "niche": "Dentist",
+    "city": "Colorado Springs",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdentistpracticecoloradosprings.example",
+    "email": "info@pacificcoastdentistpracticecoloradosprings.example",
+    "address": "1200 Boulevard Ave, Colorado Springs",
+    "mailto_url": "mailto:info@pacificcoastdentistpracticecoloradosprings.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Dentist%20Practice%20Colorado%20Springs%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:12:16"
+  }
+]
