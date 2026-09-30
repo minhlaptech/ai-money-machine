@@ -72,6 +72,7 @@ LIVE_URLS = [
     ("SLA Financial Guarantee Center (/guarantee)", "https://work-minh-lap.vercel.app/guarantee"),
     ("Self-Service Knowledge Base & AI Agent Studio (/knowledge)", "https://work-minh-lap.vercel.app/knowledge"),
     ("Omnichannel Unified Inbox & HITL Dispatch (/inbox)", "https://work-minh-lap.vercel.app/inbox"),
+    ("Client Value Attribution Engine (/attribution)", "https://work-minh-lap.vercel.app/attribution"),
     ("Serverless Telemetry API (/api/telemetry)", "https://work-minh-lap.vercel.app/api/telemetry"),
     ("Serverless Health API (/api/health)", "https://work-minh-lap.vercel.app/api/health"),
 ]
