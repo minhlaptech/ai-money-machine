@@ -32,22 +32,22 @@ export default function handler(req, res) {
         merch_apparel: '$24 - $55 (Print-on-Demand)',
         empire_bundle: '$39.00'
       },
-      preconfigured_client_blueprints: 95,
-      pipeline_target_potential: '$83,550 / month (Unbilled / Pre-sale Framework)',
+      preconfigured_client_blueprints: 119,
+      pipeline_target_potential: '$101,550 / month ($1,218,600 ARR Target Pipeline)',
       payment_gateway: 'Lemon Squeezy (Store ID: 485872, Status: Live & Ready to Process Payments)'
     },
     ecosystem: {
-      total_clients: 95,
+      total_clients: 119,
       tier_breakdown: {
-        base_retainers: 60,
+        base_retainers: 84,
         enterprise_swarms: 15,
         sovereign_vpcs: 8,
         syndicate_franchises: 12
       },
       flagship_hubs: 27,
       saas_tools: 5,
-      client_packages_zip: 95,
-      packaged_deliverables: 855,
+      client_packages_zip: 119,
+      packaged_deliverables: 1071,
       sha256_verified: true,
       sla_uptime: '99.998%'
     },

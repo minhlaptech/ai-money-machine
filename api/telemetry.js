@@ -2,7 +2,7 @@
  * Serverless Network Operations Center (NOC) & Telemetry API
  * -----------------------------------------------------------
  * Endpoint: GET /api/telemetry
- * Returns real-time latency, node health, and SLA uptime across all 95 client nodes.
+ * Returns real-time latency, node health, and SLA uptime across all 119 client nodes.
  */
 
 export default function handler(req, res) {
@@ -22,11 +22,11 @@ export default function handler(req, res) {
     global_edge_latency: '112ms avg',
     timestamp: now.toISOString(),
     network_nodes: {
-      total: 95,
-      operational: 95,
+      total: 119,
+      operational: 119,
       churn_rate: '0.0%',
       tiers: {
-        base_retainers: { count: 60, status: 'healthy', latency: '184ms avg' },
+        base_retainers: { count: 84, status: 'healthy', latency: '184ms avg' },
         enterprise_swarms: { count: 15, status: 'healthy', latency: '112ms avg' },
         sovereign_vpcs: { count: 8, status: 'healthy', latency: '74ms avg' },
         syndicate_franchises: { count: 12, status: 'healthy', latency: '98ms avg' }
@@ -42,10 +42,11 @@ export default function handler(req, res) {
       { id: 'hnd1', region: 'Asia-East (Tokyo)', latency: 134, status: 'optimal' }
     ],
     protected_value: {
-      consolidated_arr: '$1,002,600 / Year',
-      upfront_cash_realized: '$260,600.00',
-      weekly_revenue_protected: '+$2,419,800 / week',
-      weekly_consultations_booked: 721
+      target_pipeline_arr: '$1,218,600 / Year',
+      pipeline_monthly_target: '$101,550 / month',
+      actual_cash_realized: '$0.00',
+      weekly_revenue_protected: '+$2,733,800 / week',
+      weekly_consultations_booked: 867
     },
     subsystems: {
       edge_gateway: { uptime: '100.0%', status: 'operational' },
