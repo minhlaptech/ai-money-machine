@@ -1,16 +1,16 @@
 # 📅 KẾ HOẠCH TÁC CHIẾN HÀNG NGÀY (DAILY PLAN)
 > AI đọc file này đầu mỗi phiên chat để biết kế hoạch ngày hôm nay
-> Cập nhật lần cuối: 2026-09-30 21:35 (GMT+7) — Phiên #93
+> Cập nhật lần cuối: 2026-09-30 21:40 (GMT+7) — Phiên #94
 
 ---
 
 ## 📆 NGÀY HIỆN TẠI: 2026-09-30 (Thứ Tư)
 
-### 🎯 Mục tiêu trọng tâm Phiên #93:
+### 🎯 Mục tiêu trọng tâm Phiên #94:
 1. Duy trì tính toàn vẹn hệ thống 100%: 29/29 Cloud Applications đạt HTTP 200, Binary Parity `index.html` == `dashboard.html`.
-2. Tối ưu Master CLI v26.0 (`scripts/ai_empire_cli.py`): Mở rộng lựa chọn đóng gói 84 leads và bổ sung `clinic` & `Phoenix` vào menu săn leads OSM.
-3. Rà soát liên kết thanh toán (Checkout Link Audit): 10/10 files sạch, đảm bảo không có link hỏng trước thềm chuyển đổi.
-4. Đóng gói và kiểm định 119 bộ hồ sơ khách hàng (.zip dossiers) trong `client_packages/`.
+2. Khởi động AI Market Scout quét Hacker News, GitHub Trending, Dev.to cập nhật 17 cơ hội thị trường nóng và bắn Telegram.
+3. Xuất lịch đăng nội dung mạng xã hội Buffer CSV 30 ngày (20 bài đăng đa kênh) & kho cơ sở dữ liệu `social_content_hub.json`.
+4. Kiểm thử luồng tiếp nhận khách hàng VIP Onboarding (`/api/contact`) & Webhook thanh toán ReviewGenius Pro (`/api/webhook`).
 
 ### 📋 Checklist Tác Vụ Trong Ngày:
 
@@ -18,11 +18,11 @@
 |---|----------|------------------|------------|-------------------|
 | 1 | Kiểm tra sức khỏe toàn hệ thống | `scripts/system_health_check.py` | ✅ Hoàn thành | 29/29 Cloud Hubs HTTP 200 (~120ms) |
 | 2 | Kiểm tra Binary Parity giao diện | `fc.exe /b index.html dashboard.html` | ✅ Hoàn thành | Khớp 100% từng byte (0 byte diff) |
-| 3 | Tái cấu trúc script Dashboard Multitouch | `scripts/update_dashboard_multitouch.py` | ✅ Hoàn thành | Tải động 84 leads (Batches 1-7) |
-| 4 | Kiểm toán 100% Checkout Links | `scripts/audit_checkout_links.py` | ✅ Hoàn thành | 10/10 file sạch, 0 cảnh báo |
-| 5 | Nâng cấp Master Executive CLI v26.0 | `scripts/ai_empire_cli.py` | ✅ Hoàn thành | Đồng bộ 84 leads & 5 đô thị 6 ngành |
-| 6 | Đóng gói & Kiểm tra 119 Dossiers | `scripts/package_client_deliverables.py` | ✅ Hoàn thành | 119 packages sẵn sàng bàn giao |
-| 7 | Cập nhật Master Control & Daily Plan | `MASTER_CONTROL.md`, `DAILY_PLAN.md` | ✅ Hoàn thành | Đồng bộ phiên #93 |
+| 3 | Quét Radar Cơ Hội Toàn Cầu | `autonomous_agent/market_scout.py` | ✅ Hoàn thành | 17 cơ hội High-Intent & Telegram Ping |
+| 4 | Xuất Lịch Buffer Schedule 30 Ngày | `scripts/social_post_scheduler.py` | ✅ Hoàn thành | 20 bài đăng CSV & 10 chủ đề JSON |
+| 5 | Kiểm thử Onboarding Intake API | `scripts/test_client_onboarding.py` | ✅ Hoàn thành | HTTP 200 & Telegram Alert |
+| 6 | Kiểm thử Sales Webhook ReviewGenius | `scripts/test_sales_webhook.py` | ✅ Hoàn thành | HTTP 200 & Telegram Sale Alert |
+| 7 | Cập nhật Master Control & Daily Plan | `MASTER_CONTROL.md`, `DAILY_PLAN.md` | ✅ Hoàn thành | Đồng bộ phiên #94 |
 
 ---
 

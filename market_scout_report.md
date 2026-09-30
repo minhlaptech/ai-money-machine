@@ -1,6 +1,6 @@
 # 🌐 Báo Cáo Phân Tích Cơ Hội Thị Trường Quốc Tế (AI Scout)
 
-- **Thời gian quét**: 2026-09-30 20:55:37
+- **Thời gian quét**: 2026-09-30 21:35:11
 - **Số lượng mục phân tích**: 40
 - **Số cơ hội nhu cầu cao (High Intent)**: 17
 

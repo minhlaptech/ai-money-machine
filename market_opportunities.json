@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 20:55:37",
+  "updated_at": "2026-09-30 21:35:11",
   "total_analyzed": 40,
   "high_priority_opportunities": [
     {
@@ -19,8 +19,8 @@
       "source": "Hacker News (ask)",
       "title": "Ask HN: What are you reading?",
       "text": "I&#x27;m plowing through the Dungeon Crawler Carl series, which is not particularly challenging as sci-fi&#x2F;LitRPG goes, but entertaining enough.  I&#x27;m also wrapping up Doctorow&#x27;s _Enshittification_, and I&#x27;m looking for something a little meaty to keep the brain working...",
-      "score": 350,
-      "comments": 367,
+      "score": 359,
+      "comments": 381,
       "url": "https://news.ycombinator.com/item?id=49893157",
       "intent_score": 50,
       "matched_keywords": [
@@ -159,8 +159,8 @@
       "source": "Hacker News (show)",
       "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
       "text": "",
-      "score": 301,
-      "comments": 45,
+      "score": 310,
+      "comments": 47,
       "url": "https://news.ycombinator.com/item?id=49898778",
       "intent_score": 25,
       "matched_keywords": []
