@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Washington Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.washingtonpremierrealestatestudio.example",
+    "email": "info@washingtonpremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@washingtonpremierrealestatestudio.example?subject=quick%20question%20regarding%20Washington%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:15:47"
+  },
+  {
+    "id": 2,
+    "name": "Apex Washington Realestate Center",
+    "niche": "Realestate",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexwashingtonrealestatecenter.example",
+    "email": "info@apexwashingtonrealestatecenter.example",
+    "address": "240 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@apexwashingtonrealestatecenter.example?subject=quick%20question%20regarding%20Apex%20Washington%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:15:47"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of Washington",
+    "niche": "Realestate",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersofwashington.example",
+    "email": "info@beaconrealestatepartnersofwashington.example",
+    "address": "360 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@beaconrealestatepartnersofwashington.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:15:47"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Washington Realestate Group",
+    "niche": "Realestate",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardwashingtonrealestategroup.example",
+    "email": "info@vanguardwashingtonrealestategroup.example",
+    "address": "480 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@vanguardwashingtonrealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20Washington%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:15:47"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics Washington",
+    "niche": "Realestate",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticswashington.example",
+    "email": "info@luminarealestateandaestheticswashington.example",
+    "address": "600 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@luminarealestateandaestheticswashington.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:15:47"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Realestate Clinic of Washington",
+    "niche": "Realestate",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiverealestateclinicofwashington.example",
+    "email": "info@proactiverealestateclinicofwashington.example",
+    "address": "720 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@proactiverealestateclinicofwashington.example?subject=quick%20question%20regarding%20ProActive%20Realestate%20Clinic%20of%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:15:47"
+  },
+  {
+    "id": 7,
+    "name": "Elite Realestate Specialists Washington",
+    "niche": "Realestate",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliterealestatespecialistswashington.example",
+    "email": "info@eliterealestatespecialistswashington.example",
+    "address": "840 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@eliterealestatespecialistswashington.example?subject=quick%20question%20regarding%20Elite%20Realestate%20Specialists%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:15:47"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Realestate Washington",
+    "niche": "Realestate",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestrealestatewashington.example",
+    "email": "info@summitcrestrealestatewashington.example",
+    "address": "960 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@summitcrestrealestatewashington.example?subject=quick%20question%20regarding%20Summit%20Crest%20Realestate%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:15:47"
+  },
+  {
+    "id": 9,
+    "name": "Metro Realestate Care Center Washington",
+    "niche": "Realestate",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrorealestatecarecenterwashington.example",
+    "email": "info@metrorealestatecarecenterwashington.example",
+    "address": "1080 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@metrorealestatecarecenterwashington.example?subject=quick%20question%20regarding%20Metro%20Realestate%20Care%20Center%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:15:47"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Realestate Practice Washington",
+    "niche": "Realestate",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastrealestatepracticewashington.example",
+    "email": "info@pacificcoastrealestatepracticewashington.example",
+    "address": "1200 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@pacificcoastrealestatepracticewashington.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Realestate%20Practice%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:15:47"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Fitch and Ludwick Law Offices",
+    "niche": "Lawyer",
+    "city": "Washington",
+    "phone": "+1-425-646-0555",
+    "website": "https://ludwicklawgroup.com/",
+    "email": "contact@ludwicklawgroup.com",
+    "address": "11005 Main Street, Washington 98004",
+    "mailto_url": "mailto:contact@ludwicklawgroup.com?subject=quick%20question%20regarding%20Fitch%20and%20Ludwick%20Law%20Offices%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//ludwicklawgroup.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Fitch%20and%20Ludwick%20Law%20Offices%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:51"
+  },
+  {
+    "id": 2,
+    "name": "Dan N. Fiorito III",
+    "niche": "Lawyer",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dannfioritoiii.example",
+    "address": "844 Northwest 48th Street, Washington 98107",
+    "mailto_url": "mailto:contact@dannfioritoiii.example?subject=quick%20question%20regarding%20Dan%20N.%20Fiorito%20III%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dan%20N.%20Fiorito%20III%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:51"
+  },
+  {
+    "id": 3,
+    "name": "Law Offices of Ralph A. Leaf",
+    "niche": "Lawyer",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lawofficesofralphaleaf.example",
+    "address": "309 East Pike Street, Washington 98122",
+    "mailto_url": "mailto:contact@lawofficesofralphaleaf.example?subject=quick%20question%20regarding%20Law%20Offices%20of%20Ralph%20A.%20Leaf%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Law%20Offices%20of%20Ralph%20A.%20Leaf%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:51"
+  },
+  {
+    "id": 4,
+    "name": "Burk Legal",
+    "niche": "Lawyer",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@burklegal.example",
+    "address": "1718 East Olive Way, Washington 98102",
+    "mailto_url": "mailto:contact@burklegal.example?subject=quick%20question%20regarding%20Burk%20Legal%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Burk%20Legal%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:51"
+  },
+  {
+    "id": 5,
+    "name": "Joseph D. Bowen",
+    "niche": "Lawyer",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@josephdbowen.example",
+    "address": "Washington",
+    "mailto_url": "mailto:contact@josephdbowen.example?subject=quick%20question%20regarding%20Joseph%20D.%20Bowen%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Joseph%20D.%20Bowen%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:51"
+  },
+  {
+    "id": 6,
+    "name": "Holland & Knight",
+    "niche": "Lawyer",
+    "city": "Washington",
+    "phone": "+1-202-955-3000",
+    "website": "https://www.hklaw.com/en/offices/washington-dc",
+    "email": "contact@hklaw.com",
+    "address": "800 17th Street Northwest, Washington",
+    "mailto_url": "mailto:contact@hklaw.com?subject=quick%20question%20regarding%20Holland%20%26%20Knight%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.hklaw.com/en/offices/washington-dc%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Holland%20%26%20Knight%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:51"
+  },
+  {
+    "id": 7,
+    "name": "ABC Legal Services",
+    "niche": "Lawyer",
+    "city": "Washington",
+    "phone": "+1-800-736-7295",
+    "website": "https://www.abclegal.com/",
+    "email": "contact@abclegal.com",
+    "address": "2115 5th Avenue, Washington 98121",
+    "mailto_url": "mailto:contact@abclegal.com?subject=quick%20question%20regarding%20ABC%20Legal%20Services%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.abclegal.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20ABC%20Legal%20Services%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:51"
+  },
+  {
+    "id": 8,
+    "name": "Gustad Law Group",
+    "niche": "Lawyer",
+    "city": "Washington",
+    "phone": "+1-206-533-2222",
+    "website": "https://www.gustadlaw.com/",
+    "email": "contact@gustadlaw.com",
+    "address": "7815 Greenwood Avenue North, Washington 98103",
+    "mailto_url": "mailto:contact@gustadlaw.com?subject=quick%20question%20regarding%20Gustad%20Law%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.gustadlaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Gustad%20Law%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:51"
+  },
+  {
+    "id": 9,
+    "name": "Horenstein Law Group",
+    "niche": "Lawyer",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "https://www.horensteinlawgroup.com/",
+    "email": "contact@horensteinlawgroup.com",
+    "address": "500, Ste 120 Broadway Street, Washington 98660",
+    "mailto_url": "mailto:contact@horensteinlawgroup.com?subject=quick%20question%20regarding%20Horenstein%20Law%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.horensteinlawgroup.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Horenstein%20Law%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:51"
+  },
+  {
+    "id": 10,
+    "name": "Seattle Truck Law PLLC",
+    "niche": "Lawyer",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@seattletrucklawpllc.example",
+    "address": "222 Alaskan Way South, Washington 98104",
+    "mailto_url": "mailto:contact@seattletrucklawpllc.example?subject=quick%20question%20regarding%20Seattle%20Truck%20Law%20PLLC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Seattle%20Truck%20Law%20PLLC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:51"
+  }
+]

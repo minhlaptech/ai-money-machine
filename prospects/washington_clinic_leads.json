@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Psychiatric Institute of Washington",
+    "niche": "Clinic",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@psychiatricinstituteofwashington.example",
+    "address": "4228 Wisconsin Avenue Northwest, Washington",
+    "mailto_url": "mailto:contact@psychiatricinstituteofwashington.example?subject=quick%20question%20regarding%20Psychiatric%20Institute%20of%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Psychiatric%20Institute%20of%20Washington%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:25"
+  },
+  {
+    "id": 2,
+    "name": "Betty Ford Comprehensive Center",
+    "niche": "Clinic",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@bettyfordcomprehensivecenter.example",
+    "address": "Washington",
+    "mailto_url": "mailto:contact@bettyfordcomprehensivecenter.example?subject=quick%20question%20regarding%20Betty%20Ford%20Comprehensive%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Betty%20Ford%20Comprehensive%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:25"
+  },
+  {
+    "id": 3,
+    "name": "Unity Health Care - Upper Cardoza",
+    "niche": "Clinic",
+    "city": "Washington",
+    "phone": "+1 202-745-4300",
+    "website": "https://www.unityhealthpharmacy.org/app/#/",
+    "email": "contact@unityhealthpharmacy.org",
+    "address": "3020 14th Street Northwest, Washington 20009",
+    "mailto_url": "mailto:contact@unityhealthpharmacy.org?subject=quick%20question%20regarding%20Unity%20Health%20Care%20-%20Upper%20Cardoza%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.unityhealthpharmacy.org/app/%23/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Unity%20Health%20Care%20-%20Upper%20Cardoza%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:25"
+  },
+  {
+    "id": 4,
+    "name": "Capitol Hill Medical Clinic",
+    "niche": "Clinic",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@capitolhillmedicalclinic.example",
+    "address": "Washington",
+    "mailto_url": "mailto:contact@capitolhillmedicalclinic.example?subject=quick%20question%20regarding%20Capitol%20Hill%20Medical%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Capitol%20Hill%20Medical%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:25"
+  },
+  {
+    "id": 5,
+    "name": "Children's National Hospital - Childrens Health Center",
+    "niche": "Clinic",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "https://childrensnational.org/choose-childrens/locations-and-directions/primary-care-practices/childrens-health-center--hospital",
+    "email": "contact@childrensnational.org",
+    "address": "111 Michigan Avenue Northwest, Washington 20010",
+    "mailto_url": "mailto:contact@childrensnational.org?subject=quick%20question%20regarding%20Children%27s%20National%20Hospital%20-%20Childrens%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//childrensnational.org/choose-childrens/locations-and-directions/primary-care-practices/childrens-health-center--hospital%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Children%27s%20National%20Hospital%20-%20Childrens%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:25"
+  },
+  {
+    "id": 6,
+    "name": "Spring Valley Regional Outpatient Center",
+    "niche": "Clinic",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@springvalleyregionaloutpatientcenter.example",
+    "address": "Washington",
+    "mailto_url": "mailto:contact@springvalleyregionaloutpatientcenter.example?subject=quick%20question%20regarding%20Spring%20Valley%20Regional%20Outpatient%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Spring%20Valley%20Regional%20Outpatient%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:25"
+  },
+  {
+    "id": 7,
+    "name": "Childrens National Hospital - Adolescent Health Center",
+    "niche": "Clinic",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "https://childrensnational.org/",
+    "email": "contact@childrensnational.org",
+    "address": "111 Michigan Avenue Northwest, Washington 20010",
+    "mailto_url": "mailto:contact@childrensnational.org?subject=quick%20question%20regarding%20Childrens%20National%20Hospital%20-%20Adolescent%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//childrensnational.org/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Childrens%20National%20Hospital%20-%20Adolescent%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:25"
+  },
+  {
+    "id": 8,
+    "name": "Federal City Shelter Clinic",
+    "niche": "Clinic",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@federalcityshelterclinic.example",
+    "address": "Washington",
+    "mailto_url": "mailto:contact@federalcityshelterclinic.example?subject=quick%20question%20regarding%20Federal%20City%20Shelter%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Federal%20City%20Shelter%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:25"
+  },
+  {
+    "id": 9,
+    "name": "La Clinica del Pueblo",
+    "niche": "Clinic",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@laclinicadelpueblo.example",
+    "address": "Washington",
+    "mailto_url": "mailto:contact@laclinicadelpueblo.example?subject=quick%20question%20regarding%20La%20Clinica%20del%20Pueblo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20La%20Clinica%20del%20Pueblo%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:25"
+  },
+  {
+    "id": 10,
+    "name": "DaVita Washington Nursing Facility",
+    "niche": "Clinic",
+    "city": "Washington",
+    "phone": "+18333542748",
+    "website": "https://www.davita.com/treatment-services/skilled-nursing-facility",
+    "email": "contact@davita.com",
+    "address": "2425 25th Street Southeast, Washington 20020",
+    "mailto_url": "mailto:contact@davita.com?subject=quick%20question%20regarding%20DaVita%20Washington%20Nursing%20Facility%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.davita.com/treatment-services/skilled-nursing-facility%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20DaVita%20Washington%20Nursing%20Facility%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:14:25"
+  }
+]

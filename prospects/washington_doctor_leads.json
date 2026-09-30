@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Washington Premier Doctor Studio",
+    "niche": "Doctor",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.washingtonpremierdoctorstudio.example",
+    "email": "info@washingtonpremierdoctorstudio.example",
+    "address": "120 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@washingtonpremierdoctorstudio.example?subject=quick%20question%20regarding%20Washington%20Premier%20Doctor%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:59"
+  },
+  {
+    "id": 2,
+    "name": "Apex Washington Doctor Center",
+    "niche": "Doctor",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexwashingtondoctorcenter.example",
+    "email": "info@apexwashingtondoctorcenter.example",
+    "address": "240 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@apexwashingtondoctorcenter.example?subject=quick%20question%20regarding%20Apex%20Washington%20Doctor%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:59"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Doctor Partners of Washington",
+    "niche": "Doctor",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondoctorpartnersofwashington.example",
+    "email": "info@beacondoctorpartnersofwashington.example",
+    "address": "360 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@beacondoctorpartnersofwashington.example?subject=quick%20question%20regarding%20Beacon%20Doctor%20Partners%20of%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:59"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Washington Doctor Group",
+    "niche": "Doctor",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardwashingtondoctorgroup.example",
+    "email": "info@vanguardwashingtondoctorgroup.example",
+    "address": "480 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@vanguardwashingtondoctorgroup.example?subject=quick%20question%20regarding%20Vanguard%20Washington%20Doctor%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:59"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Doctor & Aesthetics Washington",
+    "niche": "Doctor",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadoctorandaestheticswashington.example",
+    "email": "info@luminadoctorandaestheticswashington.example",
+    "address": "600 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@luminadoctorandaestheticswashington.example?subject=quick%20question%20regarding%20Lumina%20Doctor%20%26%20Aesthetics%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:59"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Doctor Clinic of Washington",
+    "niche": "Doctor",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedoctorclinicofwashington.example",
+    "email": "info@proactivedoctorclinicofwashington.example",
+    "address": "720 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@proactivedoctorclinicofwashington.example?subject=quick%20question%20regarding%20ProActive%20Doctor%20Clinic%20of%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:59"
+  },
+  {
+    "id": 7,
+    "name": "Elite Doctor Specialists Washington",
+    "niche": "Doctor",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedoctorspecialistswashington.example",
+    "email": "info@elitedoctorspecialistswashington.example",
+    "address": "840 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@elitedoctorspecialistswashington.example?subject=quick%20question%20regarding%20Elite%20Doctor%20Specialists%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:59"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Doctor Washington",
+    "niche": "Doctor",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdoctorwashington.example",
+    "email": "info@summitcrestdoctorwashington.example",
+    "address": "960 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@summitcrestdoctorwashington.example?subject=quick%20question%20regarding%20Summit%20Crest%20Doctor%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:59"
+  },
+  {
+    "id": 9,
+    "name": "Metro Doctor Care Center Washington",
+    "niche": "Doctor",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodoctorcarecenterwashington.example",
+    "email": "info@metrodoctorcarecenterwashington.example",
+    "address": "1080 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@metrodoctorcarecenterwashington.example?subject=quick%20question%20regarding%20Metro%20Doctor%20Care%20Center%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:59"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Doctor Practice Washington",
+    "niche": "Doctor",
+    "city": "Washington",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdoctorpracticewashington.example",
+    "email": "info@pacificcoastdoctorpracticewashington.example",
+    "address": "1200 Boulevard Ave, Washington",
+    "mailto_url": "mailto:info@pacificcoastdoctorpracticewashington.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Doctor%20Practice%20Washington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:59"
+  }
+]

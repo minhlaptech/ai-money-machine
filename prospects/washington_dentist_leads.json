@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Krotz-Dieleman Dental Office",
+    "niche": "Dentist",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@krotz-dielemandentaloffice.example",
+    "address": "Washington",
+    "mailto_url": "mailto:contact@krotz-dielemandentaloffice.example?subject=quick%20question%20regarding%20Krotz-Dieleman%20Dental%20Office%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Krotz-Dieleman%20Dental%20Office%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:14"
+  },
+  {
+    "id": 2,
+    "name": "Magnolia Smile Design",
+    "niche": "Dentist",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@magnoliasmiledesign.example",
+    "address": "Washington",
+    "mailto_url": "mailto:contact@magnoliasmiledesign.example?subject=quick%20question%20regarding%20Magnolia%20Smile%20Design%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Magnolia%20Smile%20Design%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:14"
+  },
+  {
+    "id": 3,
+    "name": "3107 Dentistry",
+    "niche": "Dentist",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@3107dentistry.example",
+    "address": "Washington",
+    "mailto_url": "mailto:contact@3107dentistry.example?subject=quick%20question%20regarding%203107%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%203107%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:14"
+  },
+  {
+    "id": 4,
+    "name": "Nelson Orthodontics",
+    "niche": "Dentist",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "https://www.nelsonsmiles.com/locations/magnolia/",
+    "email": "contact@nelsonsmiles.com",
+    "address": "3203 West McGraw Street, Washington 98199",
+    "mailto_url": "mailto:contact@nelsonsmiles.com?subject=quick%20question%20regarding%20Nelson%20Orthodontics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.nelsonsmiles.com/locations/magnolia/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Nelson%20Orthodontics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:14"
+  },
+  {
+    "id": 5,
+    "name": "Magnolia Dental Arts",
+    "niche": "Dentist",
+    "city": "Washington",
+    "phone": "+1-206-283-7844",
+    "website": "N/A",
+    "email": "contact@magnoliadentalarts.example",
+    "address": "Washington",
+    "mailto_url": "mailto:contact@magnoliadentalarts.example?subject=quick%20question%20regarding%20Magnolia%20Dental%20Arts%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Magnolia%20Dental%20Arts%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:14"
+  },
+  {
+    "id": 6,
+    "name": "Dental Dreams",
+    "niche": "Dentist",
+    "city": "Washington",
+    "phone": "+1 202-610-3300",
+    "website": "https://www.dentaldreams.com/location/dental-dreams-alabama-avenue-se-dc/",
+    "email": "contact@dentaldreams.com",
+    "address": "1553 Alabama Avenue Southeast, Washington 20032",
+    "mailto_url": "mailto:contact@dentaldreams.com?subject=quick%20question%20regarding%20Dental%20Dreams%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.dentaldreams.com/location/dental-dreams-alabama-avenue-se-dc/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dental%20Dreams%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:14"
+  },
+  {
+    "id": 7,
+    "name": "Advance Dental Care DC",
+    "niche": "Dentist",
+    "city": "Washington",
+    "phone": "+1 202-546-0690",
+    "website": "http://advancedentalcaredc.com",
+    "email": "contact@advancedentalcaredc.com",
+    "address": "701 K Street Northeast;K Street Northeast, Washington 20002",
+    "mailto_url": "mailto:contact@advancedentalcaredc.com?subject=quick%20question%20regarding%20Advance%20Dental%20Care%20DC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//advancedentalcaredc.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Advance%20Dental%20Care%20DC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:14"
+  },
+  {
+    "id": 8,
+    "name": "Kool Smiles",
+    "niche": "Dentist",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@koolsmiles.example",
+    "address": "Washington",
+    "mailto_url": "mailto:contact@koolsmiles.example?subject=quick%20question%20regarding%20Kool%20Smiles%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Kool%20Smiles%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:14"
+  },
+  {
+    "id": 9,
+    "name": "Rockstar Pediatric Dentistry",
+    "niche": "Dentist",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@rockstarpediatricdentistry.example",
+    "address": "7838 Eastern Avenue Northwest, Washington",
+    "mailto_url": "mailto:contact@rockstarpediatricdentistry.example?subject=quick%20question%20regarding%20Rockstar%20Pediatric%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Rockstar%20Pediatric%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:14"
+  },
+  {
+    "id": 10,
+    "name": "Washington Dentist #10",
+    "niche": "Dentist",
+    "city": "Washington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@washingtondentist#10.example",
+    "address": "12020 SE 60TH ST, Washington 98006",
+    "mailto_url": "mailto:contact@washingtondentist#10.example?subject=quick%20question%20regarding%20Washington%20Dentist%20%2310%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Washington%20Dentist%20%2310%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:13:14"
+  }
+]

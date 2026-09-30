@@ -657,10 +657,10 @@
     "city": "Beverly Hills, CA",
     "to": "vip@bhplasticsurgeryca.example",
     "doc": "Dr. Katherine Cole",
-    "status": "won",
+    "status": "day1",
     "value": 6500,
     "retainer": 950,
-    "last_touch": "2026-09-30 03:41"
+    "last_touch": "2026-09-30 23:11"
   },
   {
     "id": 52,
@@ -670,10 +670,10 @@
     "city": "Dallas, TX",
     "to": "intake@apexspineinstitute.example",
     "doc": "Dr. Gregory Vance",
-    "status": "won",
+    "status": "day1",
     "value": 5500,
     "retainer": 900,
-    "last_touch": "2026-09-30 03:59"
+    "last_touch": "2026-09-30 23:11"
   },
   {
     "id": 53,
@@ -683,10 +683,10 @@
     "city": "San Diego, CA",
     "to": "care@novogenfertility.example",
     "doc": "Dr. Maria Santos",
-    "status": "won",
+    "status": "day1",
     "value": 7000,
     "retainer": 1000,
-    "last_touch": "2026-09-30 03:53"
+    "last_touch": "2026-09-30 23:11"
   },
   {
     "id": 54,
@@ -696,10 +696,10 @@
     "city": "Miami, FL",
     "to": "concierge@serenitylongevity.example",
     "doc": "Dr. Lucas Meyer",
-    "status": "won",
+    "status": "day1",
     "value": 2500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:12"
+    "last_touch": "2026-09-30 23:11"
   },
   {
     "id": 55,
@@ -709,10 +709,10 @@
     "city": "Scottsdale, AZ",
     "to": "membership@optimaconciergemed.example",
     "doc": "Dr. Arthur Pendelton",
-    "status": "won",
+    "status": "day1",
     "value": 3800,
     "retainer": 850,
-    "last_touch": "2026-09-30 04:02"
+    "last_touch": "2026-09-30 23:11"
   },
   {
     "id": 56,
@@ -722,10 +722,10 @@
     "city": "Chicago, IL",
     "to": "appointments@restoreregenortho.example",
     "doc": "Dr. Steven Choi",
-    "status": "won",
+    "status": "day1",
     "value": 3200,
     "retainer": 800,
-    "last_touch": "2026-09-30 04:17"
+    "last_touch": "2026-09-30 23:11"
   },
   {
     "id": 57,
@@ -735,10 +735,10 @@
     "city": "Atlanta, GA",
     "to": "consult@clearvisionlasikatl.example",
     "doc": "Dr. Angela White",
-    "status": "won",
+    "status": "day1",
     "value": 3500,
     "retainer": 800,
-    "last_touch": "2026-09-30 04:15"
+    "last_touch": "2026-09-30 23:11"
   },
   {
     "id": 58,
@@ -748,10 +748,10 @@
     "city": "Houston, TX",
     "to": "relief@purebreathesinus.example",
     "doc": "Dr. Farhan Qasim",
-    "status": "won",
+    "status": "day1",
     "value": 2800,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:20"
+    "last_touch": "2026-09-30 23:11"
   },
   {
     "id": 59,
@@ -761,10 +761,10 @@
     "city": "New York, NY",
     "to": "evaluations@radiancehairrestoration.example",
     "doc": "Dr. James Sterling",
-    "status": "won",
+    "status": "day1",
     "value": 5000,
     "retainer": 900,
-    "last_touch": "2026-09-30 04:05"
+    "last_touch": "2026-09-30 23:11"
   },
   {
     "id": 60,
@@ -774,10 +774,10 @@
     "city": "San Jose, CA",
     "to": "eval@thriveneurohealth.example",
     "doc": "Dr. Rachel Green",
-    "status": "won",
+    "status": "day1",
     "value": 3000,
     "retainer": 800,
-    "last_touch": "2026-09-30 04:10"
+    "last_touch": "2026-09-30 23:11"
   },
   {
     "id": 61,
