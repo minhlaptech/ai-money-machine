@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Los Angeles Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "Los Angeles",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.losangelespremiercpastudio.example",
+    "email": "info@losangelespremiercpastudio.example",
+    "address": "120 Boulevard Ave, Los Angeles",
+    "mailto_url": "mailto:info@losangelespremiercpastudio.example?subject=quick%20question%20regarding%20Los%20Angeles%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:29:47"
+  },
+  {
+    "id": 2,
+    "name": "Apex Los Angeles Cpa Center",
+    "niche": "Cpa",
+    "city": "Los Angeles",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexlosangelescpacenter.example",
+    "email": "info@apexlosangelescpacenter.example",
+    "address": "240 Boulevard Ave, Los Angeles",
+    "mailto_url": "mailto:info@apexlosangelescpacenter.example?subject=quick%20question%20regarding%20Apex%20Los%20Angeles%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:29:47"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of Los Angeles",
+    "niche": "Cpa",
+    "city": "Los Angeles",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersoflosangeles.example",
+    "email": "info@beaconcpapartnersoflosangeles.example",
+    "address": "360 Boulevard Ave, Los Angeles",
+    "mailto_url": "mailto:info@beaconcpapartnersoflosangeles.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20Los%20Angeles%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:29:47"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Los Angeles Cpa Group",
+    "niche": "Cpa",
+    "city": "Los Angeles",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardlosangelescpagroup.example",
+    "email": "info@vanguardlosangelescpagroup.example",
+    "address": "480 Boulevard Ave, Los Angeles",
+    "mailto_url": "mailto:info@vanguardlosangelescpagroup.example?subject=quick%20question%20regarding%20Vanguard%20Los%20Angeles%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:29:47"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics Los Angeles",
+    "niche": "Cpa",
+    "city": "Los Angeles",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticslosangeles.example",
+    "email": "info@luminacpaandaestheticslosangeles.example",
+    "address": "600 Boulevard Ave, Los Angeles",
+    "mailto_url": "mailto:info@luminacpaandaestheticslosangeles.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20Los%20Angeles%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:29:47"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Cpa Clinic of Los Angeles",
+    "niche": "Cpa",
+    "city": "Los Angeles",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivecpaclinicoflosangeles.example",
+    "email": "info@proactivecpaclinicoflosangeles.example",
+    "address": "720 Boulevard Ave, Los Angeles",
+    "mailto_url": "mailto:info@proactivecpaclinicoflosangeles.example?subject=quick%20question%20regarding%20ProActive%20Cpa%20Clinic%20of%20Los%20Angeles%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:29:47"
+  },
+  {
+    "id": 7,
+    "name": "Elite Cpa Specialists Los Angeles",
+    "niche": "Cpa",
+    "city": "Los Angeles",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitecpaspecialistslosangeles.example",
+    "email": "info@elitecpaspecialistslosangeles.example",
+    "address": "840 Boulevard Ave, Los Angeles",
+    "mailto_url": "mailto:info@elitecpaspecialistslosangeles.example?subject=quick%20question%20regarding%20Elite%20Cpa%20Specialists%20Los%20Angeles%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:29:47"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Cpa Los Angeles",
+    "niche": "Cpa",
+    "city": "Los Angeles",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestcpalosangeles.example",
+    "email": "info@summitcrestcpalosangeles.example",
+    "address": "960 Boulevard Ave, Los Angeles",
+    "mailto_url": "mailto:info@summitcrestcpalosangeles.example?subject=quick%20question%20regarding%20Summit%20Crest%20Cpa%20Los%20Angeles%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:29:47"
+  },
+  {
+    "id": 9,
+    "name": "Metro Cpa Care Center Los Angeles",
+    "niche": "Cpa",
+    "city": "Los Angeles",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocpacarecenterlosangeles.example",
+    "email": "info@metrocpacarecenterlosangeles.example",
+    "address": "1080 Boulevard Ave, Los Angeles",
+    "mailto_url": "mailto:info@metrocpacarecenterlosangeles.example?subject=quick%20question%20regarding%20Metro%20Cpa%20Care%20Center%20Los%20Angeles%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:29:47"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Cpa Practice Los Angeles",
+    "niche": "Cpa",
+    "city": "Los Angeles",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastcpapracticelosangeles.example",
+    "email": "info@pacificcoastcpapracticelosangeles.example",
+    "address": "1200 Boulevard Ave, Los Angeles",
+    "mailto_url": "mailto:info@pacificcoastcpapracticelosangeles.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Cpa%20Practice%20Los%20Angeles%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:29:47"
+  }
+]

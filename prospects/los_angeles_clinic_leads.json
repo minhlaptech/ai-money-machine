@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Campus Pharmacy & Home Health Center",
+    "niche": "Clinic",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@campuspharmacyhomehealthcenter.example",
+    "address": "Los Angeles",
+    "mailto_url": "mailto:contact@campuspharmacyhomehealthcenter.example?subject=quick%20question%20regarding%20Campus%20Pharmacy%20%26%20Home%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Campus%20Pharmacy%20%26%20Home%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:28:53"
+  },
+  {
+    "id": 2,
+    "name": "Nu Vela Esthetica",
+    "niche": "Clinic",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "https://www.nuvelaveins.com/",
+    "email": "contact@nuvelaveins.com",
+    "address": "Los Angeles",
+    "mailto_url": "mailto:contact@nuvelaveins.com?subject=quick%20question%20regarding%20Nu%20Vela%20Esthetica%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.nuvelaveins.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Nu%20Vela%20Esthetica%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:28:53"
+  },
+  {
+    "id": 3,
+    "name": "Los Angeles Medical Center Cosmetic Surgery",
+    "niche": "Clinic",
+    "city": "Los Angeles",
+    "phone": "+1-213-353-1552",
+    "website": "https://www.lamccosmetic.com/",
+    "email": "contact@lamccosmetic.com",
+    "address": "2000 Wilshire Boulevard, Los Angeles 90057",
+    "mailto_url": "mailto:contact@lamccosmetic.com?subject=quick%20question%20regarding%20Los%20Angeles%20Medical%20Center%20Cosmetic%20Surgery%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.lamccosmetic.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Los%20Angeles%20Medical%20Center%20Cosmetic%20Surgery%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:28:53"
+  },
+  {
+    "id": 4,
+    "name": "Los Angeles Clinic #4",
+    "niche": "Clinic",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@losangelesclinic#4.example",
+    "address": "Los Angeles",
+    "mailto_url": "mailto:contact@losangelesclinic#4.example?subject=quick%20question%20regarding%20Los%20Angeles%20Clinic%20%234%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Los%20Angeles%20Clinic%20%234%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:28:53"
+  },
+  {
+    "id": 5,
+    "name": "UCLA Health Clinic",
+    "niche": "Clinic",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@uclahealthclinic.example",
+    "address": "Los Angeles",
+    "mailto_url": "mailto:contact@uclahealthclinic.example?subject=quick%20question%20regarding%20UCLA%20Health%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20UCLA%20Health%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:28:53"
+  },
+  {
+    "id": 6,
+    "name": "One Medical",
+    "niche": "Clinic",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@onemedical.example",
+    "address": "Los Angeles",
+    "mailto_url": "mailto:contact@onemedical.example?subject=quick%20question%20regarding%20One%20Medical%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20One%20Medical%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:28:53"
+  },
+  {
+    "id": 7,
+    "name": "Elizabeth Taylor's Aquatic Center",
+    "niche": "Clinic",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@elizabethtaylor'saquaticcenter.example",
+    "address": "Los Angeles",
+    "mailto_url": "mailto:contact@elizabethtaylor'saquaticcenter.example?subject=quick%20question%20regarding%20Elizabeth%20Taylor%27s%20Aquatic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Elizabeth%20Taylor%27s%20Aquatic%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:28:53"
+  },
+  {
+    "id": 8,
+    "name": "Los Angeles Clinic #8",
+    "niche": "Clinic",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@losangelesclinic#8.example",
+    "address": "Los Angeles",
+    "mailto_url": "mailto:contact@losangelesclinic#8.example?subject=quick%20question%20regarding%20Los%20Angeles%20Clinic%20%238%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Los%20Angeles%20Clinic%20%238%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:28:53"
+  },
+  {
+    "id": 9,
+    "name": "Venice Family Clinic",
+    "niche": "Clinic",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "https://www.venicefamilyclinic.org/",
+    "email": "contact@venicefamilyclinic.org",
+    "address": "600 Rose Avenue, Los Angeles 90291",
+    "mailto_url": "mailto:contact@venicefamilyclinic.org?subject=quick%20question%20regarding%20Venice%20Family%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.venicefamilyclinic.org/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Venice%20Family%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:28:53"
+  },
+  {
+    "id": 10,
+    "name": "Reliant Urgent Care",
+    "niche": "Clinic",
+    "city": "Los Angeles",
+    "phone": "+1 310 215 6000",
+    "website": "https://www.relianturgentcare.com/location/lax-airport-area/",
+    "email": "contact@relianturgentcare.com",
+    "address": "5901 West Century Boulevard, Los Angeles 90045",
+    "mailto_url": "mailto:contact@relianturgentcare.com?subject=quick%20question%20regarding%20Reliant%20Urgent%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.relianturgentcare.com/location/lax-airport-area/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Reliant%20Urgent%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:28:53"
+  }
+]

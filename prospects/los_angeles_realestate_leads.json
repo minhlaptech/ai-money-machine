@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Sotheby's Real Estate",
+    "niche": "Realestate",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sotheby'srealestate.example",
+    "address": "Los Angeles",
+    "mailto_url": "mailto:contact@sotheby'srealestate.example?subject=quick%20question%20regarding%20Sotheby%27s%20Real%20Estate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sotheby%27s%20Real%20Estate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:30:08"
+  },
+  {
+    "id": 2,
+    "name": "Los Feliz Properties",
+    "niche": "Realestate",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@losfelizproperties.example",
+    "address": "2018 Hillhurst Avenue, Los Angeles 90027",
+    "mailto_url": "mailto:contact@losfelizproperties.example?subject=quick%20question%20regarding%20Los%20Feliz%20Properties%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Los%20Feliz%20Properties%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:30:08"
+  },
+  {
+    "id": 3,
+    "name": "Miller & Desatnik Realty",
+    "niche": "Realestate",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@millerdesatnikrealty.example",
+    "address": "3627 Motor Avenue, Los Angeles",
+    "mailto_url": "mailto:contact@millerdesatnikrealty.example?subject=quick%20question%20regarding%20Miller%20%26%20Desatnik%20Realty%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Miller%20%26%20Desatnik%20Realty%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:30:08"
+  },
+  {
+    "id": 4,
+    "name": "Santee Court",
+    "niche": "Realestate",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@santeecourt.example",
+    "address": "716 South Los Angeles Street, Los Angeles 90014",
+    "mailto_url": "mailto:contact@santeecourt.example?subject=quick%20question%20regarding%20Santee%20Court%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Santee%20Court%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:30:08"
+  },
+  {
+    "id": 5,
+    "name": "LEVEL Furnished Living",
+    "niche": "Realestate",
+    "city": "Los Angeles",
+    "phone": "+1-213-873-8400",
+    "website": "https://www.stayinglevel.com/destinations/los-angeles/downtown-south-olive/",
+    "email": "contact@stayinglevel.com",
+    "address": "888 South Olive Street, Los Angeles 90014",
+    "mailto_url": "mailto:contact@stayinglevel.com?subject=quick%20question%20regarding%20LEVEL%20Furnished%20Living%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.stayinglevel.com/destinations/los-angeles/downtown-south-olive/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20LEVEL%20Furnished%20Living%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:30:08"
+  },
+  {
+    "id": 6,
+    "name": "Ritz Properties",
+    "niche": "Realestate",
+    "city": "Los Angeles",
+    "phone": "+1-213-487-8711",
+    "website": "ritz-properties.com",
+    "email": "contact@ritz-properties.com",
+    "address": "3660 Wilshire Boulevard, Los Angeles 90010",
+    "mailto_url": "mailto:contact@ritz-properties.com?subject=quick%20question%20regarding%20Ritz%20Properties%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28ritz-properties.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Ritz%20Properties%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:30:08"
+  },
+  {
+    "id": 7,
+    "name": "Coldwell Banker",
+    "niche": "Realestate",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@coldwellbanker.example",
+    "address": "Los Angeles",
+    "mailto_url": "mailto:contact@coldwellbanker.example?subject=quick%20question%20regarding%20Coldwell%20Banker%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Coldwell%20Banker%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:30:08"
+  },
+  {
+    "id": 8,
+    "name": "Proto Homes LLC",
+    "niche": "Realestate",
+    "city": "Los Angeles",
+    "phone": "+1-310-271-7544",
+    "website": "https://www.protohomes.com",
+    "email": "contact@protohomes.com",
+    "address": "917 West 17th Street, Los Angeles 90015",
+    "mailto_url": "mailto:contact@protohomes.com?subject=quick%20question%20regarding%20Proto%20Homes%20LLC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.protohomes.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Proto%20Homes%20LLC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:30:08"
+  },
+  {
+    "id": 9,
+    "name": "Los Angeles Realestate #9",
+    "niche": "Realestate",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@losangelesrealestate#9.example",
+    "address": "Los Angeles",
+    "mailto_url": "mailto:contact@losangelesrealestate#9.example?subject=quick%20question%20regarding%20Los%20Angeles%20Realestate%20%239%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Los%20Angeles%20Realestate%20%239%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:30:08"
+  },
+  {
+    "id": 10,
+    "name": "KMK Management",
+    "niche": "Realestate",
+    "city": "Los Angeles",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@kmkmanagement.example",
+    "address": "2999 Overland Avenue, Los Angeles",
+    "mailto_url": "mailto:contact@kmkmanagement.example?subject=quick%20question%20regarding%20KMK%20Management%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20KMK%20Management%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:30:08"
+  }
+]
