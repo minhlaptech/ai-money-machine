@@ -520,9 +520,9 @@ def send_telegram_fulfillment_report():
 • 📈 <b>Weekly ROI Automation:</b> <code>Scheduled for Every Monday</code>
 
 💰 <b>FINANCIAL RUNWAY:</b>
-• 💵 <b>Cash Realized:</b> <code>$260,600 Upfront</code>
-• 🔄 <b>Monthly MRR:</b> <code>$83,550 / mo</code>
-• 🚀 <b>Annual ARR:</b> <code>$1,002,600 / yr ARR ($1M Milestone Conquered!)</code>
+• 💵 <b>Cash Realized (Real Cash):</b> <code>$0.00 USD</code>
+• 🔄 <b>Monthly MRR Target:</b> <code>$83,550 / mo</code>
+• 🚀 <b>Annual ARR Target:</b> <code>$1,002,600 / yr Target</code>
 
 👉 <a href="https://work-minh-lap.vercel.app/fulfillment"><b>Mở Operations Fulfillment Hub</b></a>"""
 

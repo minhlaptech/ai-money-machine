@@ -51,8 +51,8 @@ def send_briefing():
 • 🎯 <b>Tiến Độ Đóng Gói Toàn Diện:</b> <code>95 / 95 Hồ Sơ Doanh Nghiệp (100% Hoàn Tất)</code>
 • 📄 <b>Tổng Số Ấn Phẩm Số Hóa:</b> <code>855 Files Bàn Giao Sản Xuất</code>
 • 🔒 <b>Bảo Đảm Toàn Vẹn Mật Mã:</b> <code>100% Cryptographic SHA-256 Checksums</code>
-• 💰 <b>Doanh Thu Hợp Đồng Bảo Vệ:</b> <code>$1,002,600 / năm ARR ($1M ARR Milestone)</code>
-• 💵 <b>Tiền Mặt Thực Thu Lũy Kế:</b> <code>$260,600.00 USD</code>
+• 💰 <b>Mục Tiêu Doanh Thu Pipeline:</b> <code>$83,550 / tháng ($1,002,600 / năm ARR Target)</code>
+• 💵 <b>Tiền Mặt Thực Thu Lũy Kế (Real Cash):</b> <code>$0.00 USD</code>
 
 📊 <b>PHÂN BỔ TRỌN BỘ 95 GÓI HỒ SƠ (.ZIP ARCHIVE):</b>
 • 🏢 <b>Base SMBs (60):</b> <code>60 Dossiers · 540 Files · Strategy, Pitch, Sandbox, MSA, Invoice, ROI, SLA, Portal</code>

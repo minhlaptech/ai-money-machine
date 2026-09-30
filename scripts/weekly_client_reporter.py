@@ -616,11 +616,10 @@ def send_consolidated_telegram_summary(total_clients, total_appointments, total_
 • 💵 <b>Giá trị kinh tế bảo vệ tuần này:</b> <code>+${total_protected:,} / tuần</code>
 • 🚀 <b>Giá trị bảo vệ quy tháng:</b> <code>+${total_protected * 4:,} / tháng</code>
 
-💰 <b>DÒNG TIỀN DOANH NGHIỆP:</b>
-• 🔄 <b>MRR định kỳ:</b> <code>$83,550 / tháng</code>
-• 🚀 <b>ARR quy năm:</b> <code>$1,002,600 / năm ARR</code>
-• 💵 <b>Tiền mặt Upfront:</b> <code>$260,600 Cash</code>
-• 🏆 <b>Tỷ lệ giữ chân khách hàng (Retention):</b> <code>100.0% (0% Churn)</code>
+💰 <b>DÒNG TIỀN DOANH NGHIỆP THỰC TẾ:</b>
+• 💵 <b>Tiền thực thu (Real Cash):</b> <code>$0.00 USD</code>
+• 🔄 <b>Mục tiêu Pipeline (Unbilled Target):</b> <code>$83,550 / tháng ($1,002,600 / năm)</code>
+• 🏆 <b>Tài khoản sẵn sàng tiếp cận:</b> <code>{total_clients} Doanh nghiệp</code>
 
 👉 <a href="https://work-minh-lap.vercel.app/portal"><b>Mở VIP Client Portals Command Hub</b></a>"""
 

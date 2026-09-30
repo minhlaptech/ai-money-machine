@@ -115,10 +115,10 @@ def generate_briefing(send_telegram=False):
     syn = load_syndicate_summary()
     top_trend = load_top_trend()
 
-    total_cash = 161700 + (ent['won'] * 1300) + (sov['won'] * 2500) + (syn['won'] * 4950)
-    total_mrr = 44550 + (ent['won'] * 800) + (sov['won'] * 1500) + (syn['won'] * 1250)
-    total_arr = total_mrr * 12
-    total_deals = crm['won'] + ent['won'] + sov['won'] + syn['won']
+    real_cash = 0.00
+    pipeline_mrr = 83550
+    pipeline_arr = pipeline_mrr * 12
+    total_leads = 95
 
     report_text = f"""======================================================================
 ☀️ BẢN TIN CHỈ HUY SÁNG — AI MONEY MACHINE EXECUTIVE BRIEFING
@@ -126,7 +126,7 @@ def generate_briefing(send_telegram=False):
 ======================================================================
 
 🌐 1. TRẠNG THÁI HỆ THỐNG & KHO MEDIA EMPIRE
-  • 18 Ứng dụng & API đám mây Vercel: 100% Hoạt động (HTTP 200)
+  • 29 Ứng dụng & API đám mây Vercel: 100% Hoạt động (HTTP 200)
   • Micro-SaaS Suite Hub: https://work-minh-lap.vercel.app/tools ($39 All-Access Pass)
   • VIP Onboarding Intake Hub: https://work-minh-lap.vercel.app/onboarding (48h SLA Sprint)
   • Sàn Dịch Vụ AI Freelance & Agency Hub: https://work-minh-lap.vercel.app/freelance (8 Gigs & 1-Click Checkout)
@@ -135,34 +135,30 @@ def generate_briefing(send_telegram=False):
   • Voice AI Receptionist Demo Hub: https://work-minh-lap.vercel.app/voice (Sub-350ms Inbound Call Simulator)
   • Cổng thanh toán: Lemon Squeezy (Store ID: 485872) & Gumroad Live
   • Cổng Đối tác Tiếp thị (50% RevShare): https://work-minh-lap.vercel.app/referral
-  • Cổng VIP Client Portals: https://work-minh-lap.vercel.app/portal (60 Doanh nghiệp)
-  • Sales Pitch Decks Showcase: https://work-minh-lap.vercel.app/pitches (60 Decks)
+  • Cổng VIP Client Portals: https://work-minh-lap.vercel.app/portal (95 Doanh nghiệp)
+  • Sales Pitch Decks Showcase: https://work-minh-lap.vercel.app/pitches (95 Decks)
   • AI Media & Video Studio Hub: https://work-minh-lap.vercel.app/studio (40 MP4s + Video Player)
   • Kho Media Video MP4: 40/40 Video Hoàn Tất (10 Full Episodes + 30 Shorts, 388.0 MB)
   • Lịch Mạng Xã Hội Đa Kênh: 20 bài đăng sẵn sàng Buffer / Metricool
   • Webhook xử lý đơn hàng: Serverless /api/webhook (Stripe, LemonSqueezy, Gumroad)
   • Cổng tiếp nhận Lead: Serverless API POST /api/contact sẵn sàng
 
-📊 2. TIẾN ĐỘ PHỄU KHÁCH HÀNG & DOANH THU CONSOLIDATED (4 TIERS)
-  • Phase 1 Base Retainers:         {crm['won']}/{crm['total']} Won (100.0% Pipeline Conversion)
-  • Phase 2 Enterprise Expansions: {ent['won']}/{ent['total']} Won (100.0% Win Rate · $1,450/mo Tier)
-  • Phase 3 AI Sovereign Tier:     {sov['won']}/{sov['total']} Won (100.0% Win Rate · $2,950/mo Tier)
-  • Phase 4 AI Syndicate Tier:     {syn['won']}/{syn['total']} Won (100.0% Win Rate · $4,950 Setup + $1,250/mo)
-  • 🏆 Tổng số hợp đồng thắng thầu: {total_deals} Hợp Đồng Won Toàn Hệ Thống
-  • 💵 TỔNG TIỀN MẶT UPFRONT:       ${total_cash:,} Cash (VƯỢT NGƯỠNG $260,000 TIỀN MẶT THỰC THU!)
-  • 🔄 TỔNG MRR ĐỊNH KỲ:            ${total_mrr:,} / tháng MRR ($83.5k/tháng dòng tiền định kỳ)
-  • 🚀 TỔNG ARR CHẠY NĂM:           ${total_arr:,} / năm ARR (CHÍNH THỨC CÁN MỐC LỊCH SỬ $1,000,000+ ARR!)
+📊 2. TIẾN ĐỘ PHỄU KHÁCH HÀNG & DOANH THU THỰC TẾ (TRANSPARENT REVENUE)
+  • 💵 TIỀN THỰC THU LŨY KẾ (REAL CASH): ${real_cash:.2f} USD (0 đơn thanh toán)
+  • 🎯 MỤC TIÊU PIPELINE CHƯA THU (UNBILLED): ${pipeline_mrr:,} / tháng (${pipeline_arr:,} / năm Target)
+  • 🏢 Tổng số tài khoản khách hàng trong phễu: {total_leads} Doanh nghiệp đủ điều kiện
+  • 🛍️ Sản phẩm thương mại sẵn sàng mở bán: 13 sản phẩm (3 SaaS, eBook, Prompts, Blueprints, Merch)
 
 ⚡ 3. NHIỆM VỤ TÁC CHIẾN 30 PHÚT TRONG NGÀY (SOP ROUTINE)
   1️⃣ Buổi Sáng (10 Phút):
-     - Mở https://work-minh-lap.vercel.app -> Điều hướng tới mục Phase 4 Syndicate Network.
-     - Khởi động quy trình bàn giao toàn diện cụm Private Cloud & 60 Sandboxes cho 12 đối tác nhượng quyền đại lý toàn cầu.
+     - Mở https://work-minh-lap.vercel.app -> Kiểm tra CRM Leads Table.
+     - Bắn 1-click email cold outreach cho 3-5 khách hàng tiềm năng.
   2️⃣ Buổi Trưa (10 Phút):
      - Lấy 1 video Short trong projects/youtube_faceless/rendered_shorts/ đăng lên YouTube Shorts / TikTok / Reels.
-     - Nạp buffer_schedule.csv vào Buffer / Metricool để tự động hóa 20 bài đăng social.
+     - Chia sẻ link sản phẩm Gumroad (https://minhlap.gumroad.com/l/xqckmu).
   3️⃣ Buổi Tối (10 Phút):
-     - Kiểm tra đơn hàng mới trên Sàn Freelance (/freelance) với tính năng 1-Click Lemon Squeezy Checkout mới nâng cấp.
-     - Kiểm tra doanh thu mới trên Lemon Squeezy / Gumroad.
+     - Kiểm tra đơn hàng mới trên Sàn Freelance (/freelance) hoặc Lemon Squeezy / Gumroad.
+     - Phản hồi các yêu cầu tư vấn tiếp nhận qua Telegram Desk.
 
 📡 4. CƠ HỘI NÓNG TRONG NGÀY (MARKET RADAR)
   • Tiêu điểm: {top_trend}
@@ -179,38 +175,29 @@ def generate_briefing(send_telegram=False):
 
 ⏰ <b>Thời gian:</b> <code>{now_vn}</code>
 
-🌐 <b>Hệ thống:</b> <code>18/18 Cloud Systems Live (100% Operational)</code>
-📊 <b>Base Retainers:</b> <code>60/60 Won (100.0%)</code>
-👑 <b>Enterprise Expansions:</b> <code>15/15 Won (100.0%)</code>
-💎 <b>Phase 3 AI Sovereign:</b> <code>{sov['won']}/8 Won (100.0%)</code>
-🌍 <b>Phase 4 AI Syndicate:</b> <code>{syn['won']}/12 Won (100.0% Win Rate)</code>
+🌐 <b>Hệ thống:</b> <code>29/29 Cloud Systems Live (100% Operational)</code>
+📊 <b>Tài khoản trong phễu:</b> <code>{total_leads} Qualified Leads</code>
 
-💰 <b>FINANCIAL HIGHLIGHTS (CHẠM ĐỈNH LỊCH SỬ $1,000,000 ARR):</b>
-• 💵 <b>Closed Upfront Cash:</b> <code>${total_cash:,}</code> (Vượt $260,000 Upfront Cash!)
-• 🔄 <b>Monthly Recurring (MRR):</b> <code>${total_mrr:,} / mo</code> ($83.5k/tháng dòng tiền định kỳ)
-• 🚀 <b>Annual Run-Rate (ARR):</b> <code>${total_arr:,} / yr ARR</code> (CHÍNH THỨC CÁN MỐC $1,000,000+ ARR!)
-• 🏆 <b>Total Deals Won:</b> <code>{total_deals} Hợp Đồng Won (100% Tỷ Lệ Thắng Toàn Bộ 4 Tiers)</code>
+💰 <b>FINANCIAL ATTRIBUTION LEDGER (MINH BẠCH THỰC TẾ):</b>
+• 💵 <b>Tiền Thực Thu (Real Realized Cash):</b> <code>${real_cash:.2f} USD</code>
+• 🔄 <b>Mục Tiêu Pipeline (Unbilled Target):</b> <code>${pipeline_mrr:,} / mo (${pipeline_arr:,} / yr)</code>
+• 📦 <b>Sản phẩm mở bán:</b> <code>13 Commercial Products (Live Checkout)</code>
 
 🎬 <b>Kho Video Media:</b> <code>40/40 MP4s Ready (388.0 MB)</code>
 • 10 Full Episodes 1080p + 30 Viral Shorts 9:16
 • HTML5 Video Player Modal tại /studio
-• 20 Scheduled Social Posts (Buffer CSV)
 
 ⚡ <b>SaaS Suite ($39):</b> <a href="https://work-minh-lap.vercel.app/tools">Micro-SaaS Hub Live</a>
-🏛️ <b>VIP Portals:</b> <a href="https://work-minh-lap.vercel.app/portal">60 Client Portals Live</a>
-🎙️ <b>Voice AI Demo:</b> <a href="https://work-minh-lap.vercel.app/voice">Sub-350ms Simulator Live</a>
-🌐 <b>Syndicate Hub:</b> <a href="https://work-minh-lap.vercel.app/syndicate">12 Global Territory Licenses</a>
-💼 <b>Freelance Hub:</b> <a href="https://work-minh-lap.vercel.app/freelance">8 Gigs & 1-Click Checkout Live</a>
-🏛️ <b>VIP Portals:</b> <a href="https://work-minh-lap.vercel.app/portal">60 Client Portals Live</a>
+🏛️ <b>VIP Portals:</b> <a href="https://work-minh-lap.vercel.app/portal">95 Client Portals Live</a>
 🎙️ <b>Voice AI Demo:</b> <a href="https://work-minh-lap.vercel.app/voice">Sub-350ms Simulator Live</a>
 💼 <b>Freelance Hub:</b> <a href="https://work-minh-lap.vercel.app/freelance">8 Gigs & 1-Click Checkout Live</a>
 👕 <b>Merch Store:</b> <a href="https://work-minh-lap.vercel.app/merch">6 POD Products Live</a>
 🤝 <b>Partner Hub:</b> <a href="https://work-minh-lap.vercel.app/referral">Affiliate Program (50% RevShare)</a>
 
-⚡ <b>Mục tiêu 30 phút hôm nay:</b>
-1. Bàn giao hạ tầng AI Sovereign Tier Private LLM cho 8 đại doanh nghiệp (#51, #57, #54, #56, #39, #36, #38, #44).
-2. Kích hoạt checkout trực tiếp 8 Gigs trên Sàn Freelance (/freelance).
-3. Chia sẻ demo Voice AI ($1,450/mo) & Sovereign Architecture ($2,950/mo) tới đối tác VIP.
+⚡ <b>Mục tiêu tác chiến hôm nay:</b>
+1. Gửi 3-5 email cold outreach từ CRM Leads Table trên Dashboard.
+2. Đăng 1 video Short kéo traffic về link Gumroad.
+3. Kiểm tra đơn hàng mới qua Telegram desk.
 
 👉 <a href="https://work-minh-lap.vercel.app"><b>Mở Command Center Dashboard</b></a>
 🚀 <i>Chúc bạn ngày mới bùng nổ doanh số!</i>"""
