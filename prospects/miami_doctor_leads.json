@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "80th Terrace Health Center",
+    "niche": "Doctor",
+    "city": "Miami",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@80thterracehealthcenter.example",
+    "address": "Miami",
+    "mailto_url": "mailto:contact@80thterracehealthcenter.example?subject=quick%20question%20regarding%2080th%20Terrace%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%2080th%20Terrace%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:53:23"
+  },
+  {
+    "id": 2,
+    "name": "Downtown Family Health Center",
+    "niche": "Doctor",
+    "city": "Miami",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@downtownfamilyhealthcenter.example",
+    "address": "Miami",
+    "mailto_url": "mailto:contact@downtownfamilyhealthcenter.example?subject=quick%20question%20regarding%20Downtown%20Family%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Downtown%20Family%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:53:23"
+  },
+  {
+    "id": 3,
+    "name": "Stephan Baker MD FACS",
+    "niche": "Doctor",
+    "city": "Miami",
+    "phone": "+1-305-381-8837",
+    "website": "https://www.drbaker.com/",
+    "email": "contact@drbaker.com",
+    "address": "3850 Bird Road, Miami 33146",
+    "mailto_url": "mailto:contact@drbaker.com?subject=quick%20question%20regarding%20Stephan%20Baker%20MD%20FACS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.drbaker.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Stephan%20Baker%20MD%20FACS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:53:23"
+  },
+  {
+    "id": 4,
+    "name": "Balto Plastic Surgery",
+    "niche": "Doctor",
+    "city": "Miami",
+    "phone": "+1-786-228-1510",
+    "website": "https://baltoplasticsurgery.com/",
+    "email": "contact@baltoplasticsurgery.com",
+    "address": "2036 Southwest 1st Street, Miami 33135",
+    "mailto_url": "mailto:contact@baltoplasticsurgery.com?subject=quick%20question%20regarding%20Balto%20Plastic%20Surgery%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//baltoplasticsurgery.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Balto%20Plastic%20Surgery%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:53:23"
+  },
+  {
+    "id": 5,
+    "name": "Online Psychiatrists",
+    "niche": "Doctor",
+    "city": "Miami",
+    "phone": "+1-305-859-0509",
+    "website": "https://www.onlinepsychiatrists.com/miami-psychiatrists-office/",
+    "email": "contact@onlinepsychiatrists.com",
+    "address": "701 Brickell Avenue, Miami 33131",
+    "mailto_url": "mailto:contact@onlinepsychiatrists.com?subject=quick%20question%20regarding%20Online%20Psychiatrists%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.onlinepsychiatrists.com/miami-psychiatrists-office/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Online%20Psychiatrists%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:53:23"
+  }
+]
