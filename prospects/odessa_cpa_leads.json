@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Odessa Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "Odessa",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.odessapremiercpastudio.example",
+    "email": "info@odessapremiercpastudio.example",
+    "address": "120 Boulevard Ave, Odessa",
+    "mailto_url": "mailto:info@odessapremiercpastudio.example?subject=quick%20question%20regarding%20Odessa%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:47:52"
+  },
+  {
+    "id": 2,
+    "name": "Apex Odessa Cpa Center",
+    "niche": "Cpa",
+    "city": "Odessa",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexodessacpacenter.example",
+    "email": "info@apexodessacpacenter.example",
+    "address": "240 Boulevard Ave, Odessa",
+    "mailto_url": "mailto:info@apexodessacpacenter.example?subject=quick%20question%20regarding%20Apex%20Odessa%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:47:52"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of Odessa",
+    "niche": "Cpa",
+    "city": "Odessa",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersofodessa.example",
+    "email": "info@beaconcpapartnersofodessa.example",
+    "address": "360 Boulevard Ave, Odessa",
+    "mailto_url": "mailto:info@beaconcpapartnersofodessa.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20Odessa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:47:52"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Odessa Cpa Group",
+    "niche": "Cpa",
+    "city": "Odessa",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardodessacpagroup.example",
+    "email": "info@vanguardodessacpagroup.example",
+    "address": "480 Boulevard Ave, Odessa",
+    "mailto_url": "mailto:info@vanguardodessacpagroup.example?subject=quick%20question%20regarding%20Vanguard%20Odessa%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:47:52"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics Odessa",
+    "niche": "Cpa",
+    "city": "Odessa",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticsodessa.example",
+    "email": "info@luminacpaandaestheticsodessa.example",
+    "address": "600 Boulevard Ave, Odessa",
+    "mailto_url": "mailto:info@luminacpaandaestheticsodessa.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20Odessa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:47:52"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Cpa Clinic of Odessa",
+    "niche": "Cpa",
+    "city": "Odessa",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivecpaclinicofodessa.example",
+    "email": "info@proactivecpaclinicofodessa.example",
+    "address": "720 Boulevard Ave, Odessa",
+    "mailto_url": "mailto:info@proactivecpaclinicofodessa.example?subject=quick%20question%20regarding%20ProActive%20Cpa%20Clinic%20of%20Odessa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:47:52"
+  },
+  {
+    "id": 7,
+    "name": "Elite Cpa Specialists Odessa",
+    "niche": "Cpa",
+    "city": "Odessa",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitecpaspecialistsodessa.example",
+    "email": "info@elitecpaspecialistsodessa.example",
+    "address": "840 Boulevard Ave, Odessa",
+    "mailto_url": "mailto:info@elitecpaspecialistsodessa.example?subject=quick%20question%20regarding%20Elite%20Cpa%20Specialists%20Odessa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:47:52"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Cpa Odessa",
+    "niche": "Cpa",
+    "city": "Odessa",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestcpaodessa.example",
+    "email": "info@summitcrestcpaodessa.example",
+    "address": "960 Boulevard Ave, Odessa",
+    "mailto_url": "mailto:info@summitcrestcpaodessa.example?subject=quick%20question%20regarding%20Summit%20Crest%20Cpa%20Odessa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:47:52"
+  },
+  {
+    "id": 9,
+    "name": "Metro Cpa Care Center Odessa",
+    "niche": "Cpa",
+    "city": "Odessa",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocpacarecenterodessa.example",
+    "email": "info@metrocpacarecenterodessa.example",
+    "address": "1080 Boulevard Ave, Odessa",
+    "mailto_url": "mailto:info@metrocpacarecenterodessa.example?subject=quick%20question%20regarding%20Metro%20Cpa%20Care%20Center%20Odessa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:47:52"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Cpa Practice Odessa",
+    "niche": "Cpa",
+    "city": "Odessa",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastcpapracticeodessa.example",
+    "email": "info@pacificcoastcpapracticeodessa.example",
+    "address": "1200 Boulevard Ave, Odessa",
+    "mailto_url": "mailto:info@pacificcoastcpapracticeodessa.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Cpa%20Practice%20Odessa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:47:52"
+  }
+]
