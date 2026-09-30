@@ -1,5 +1,5 @@
 # 👕 Print-on-Demand Ready-to-Publish Listing: CAP_10X_ENGINEER
-> **Tạo lúc**: 2026-09-30 21:41:48  
+> **Tạo lúc**: 2026-09-30 22:17:18  
 > **Ngách mục tiêu**: `Software Engineers, Founders, AI Hackers, Tech Enthusiasts`  
 > **Tệp thiết kế / Mockup**: `projects/print_on_demand/designs/cap_10x_engineer.jpg`
 

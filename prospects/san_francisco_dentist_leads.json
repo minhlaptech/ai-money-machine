@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "San Francisco Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "San Francisco",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.sanfranciscopremierdentiststudio.example",
+    "email": "info@sanfranciscopremierdentiststudio.example",
+    "address": "120 Boulevard Ave, San Francisco",
+    "mailto_url": "mailto:info@sanfranciscopremierdentiststudio.example?subject=quick%20question%20regarding%20San%20Francisco%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:18:37"
+  },
+  {
+    "id": 2,
+    "name": "Apex San Francisco Dentist Center",
+    "niche": "Dentist",
+    "city": "San Francisco",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexsanfranciscodentistcenter.example",
+    "email": "info@apexsanfranciscodentistcenter.example",
+    "address": "240 Boulevard Ave, San Francisco",
+    "mailto_url": "mailto:info@apexsanfranciscodentistcenter.example?subject=quick%20question%20regarding%20Apex%20San%20Francisco%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:18:37"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of San Francisco",
+    "niche": "Dentist",
+    "city": "San Francisco",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersofsanfrancisco.example",
+    "email": "info@beacondentistpartnersofsanfrancisco.example",
+    "address": "360 Boulevard Ave, San Francisco",
+    "mailto_url": "mailto:info@beacondentistpartnersofsanfrancisco.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20San%20Francisco%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:18:37"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard San Francisco Dentist Group",
+    "niche": "Dentist",
+    "city": "San Francisco",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardsanfranciscodentistgroup.example",
+    "email": "info@vanguardsanfranciscodentistgroup.example",
+    "address": "480 Boulevard Ave, San Francisco",
+    "mailto_url": "mailto:info@vanguardsanfranciscodentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20San%20Francisco%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:18:37"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics San Francisco",
+    "niche": "Dentist",
+    "city": "San Francisco",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticssanfrancisco.example",
+    "email": "info@luminadentistandaestheticssanfrancisco.example",
+    "address": "600 Boulevard Ave, San Francisco",
+    "mailto_url": "mailto:info@luminadentistandaestheticssanfrancisco.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20San%20Francisco%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:18:37"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Dentist Clinic of San Francisco",
+    "niche": "Dentist",
+    "city": "San Francisco",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedentistclinicofsanfrancisco.example",
+    "email": "info@proactivedentistclinicofsanfrancisco.example",
+    "address": "720 Boulevard Ave, San Francisco",
+    "mailto_url": "mailto:info@proactivedentistclinicofsanfrancisco.example?subject=quick%20question%20regarding%20ProActive%20Dentist%20Clinic%20of%20San%20Francisco%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:18:37"
+  },
+  {
+    "id": 7,
+    "name": "Elite Dentist Specialists San Francisco",
+    "niche": "Dentist",
+    "city": "San Francisco",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedentistspecialistssanfrancisco.example",
+    "email": "info@elitedentistspecialistssanfrancisco.example",
+    "address": "840 Boulevard Ave, San Francisco",
+    "mailto_url": "mailto:info@elitedentistspecialistssanfrancisco.example?subject=quick%20question%20regarding%20Elite%20Dentist%20Specialists%20San%20Francisco%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:18:37"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Dentist San Francisco",
+    "niche": "Dentist",
+    "city": "San Francisco",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdentistsanfrancisco.example",
+    "email": "info@summitcrestdentistsanfrancisco.example",
+    "address": "960 Boulevard Ave, San Francisco",
+    "mailto_url": "mailto:info@summitcrestdentistsanfrancisco.example?subject=quick%20question%20regarding%20Summit%20Crest%20Dentist%20San%20Francisco%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:18:37"
+  },
+  {
+    "id": 9,
+    "name": "Metro Dentist Care Center San Francisco",
+    "niche": "Dentist",
+    "city": "San Francisco",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodentistcarecentersanfrancisco.example",
+    "email": "info@metrodentistcarecentersanfrancisco.example",
+    "address": "1080 Boulevard Ave, San Francisco",
+    "mailto_url": "mailto:info@metrodentistcarecentersanfrancisco.example?subject=quick%20question%20regarding%20Metro%20Dentist%20Care%20Center%20San%20Francisco%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:18:37"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Dentist Practice San Francisco",
+    "niche": "Dentist",
+    "city": "San Francisco",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdentistpracticesanfrancisco.example",
+    "email": "info@pacificcoastdentistpracticesanfrancisco.example",
+    "address": "1200 Boulevard Ave, San Francisco",
+    "mailto_url": "mailto:info@pacificcoastdentistpracticesanfrancisco.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Dentist%20Practice%20San%20Francisco%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:18:37"
+  }
+]

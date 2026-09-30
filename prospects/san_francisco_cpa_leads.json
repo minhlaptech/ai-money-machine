@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Eddy's Tax and Accounting",
+    "niche": "Cpa",
+    "city": "San Francisco",
+    "phone": "+1 415-529-1387",
+    "website": "N/A",
+    "email": "contact@eddy'staxandaccounting.example",
+    "address": "3420 25th Street, San Francisco",
+    "mailto_url": "mailto:contact@eddy'staxandaccounting.example?subject=quick%20question%20regarding%20Eddy%27s%20Tax%20and%20Accounting%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Eddy%27s%20Tax%20and%20Accounting%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:18"
+  },
+  {
+    "id": 2,
+    "name": "Todd Tax Service",
+    "niche": "Cpa",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "http://www.toddtax.com/",
+    "email": "contact@toddtax.com",
+    "address": "1310 Church Street, San Francisco",
+    "mailto_url": "mailto:contact@toddtax.com?subject=quick%20question%20regarding%20Todd%20Tax%20Service%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.toddtax.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Todd%20Tax%20Service%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:18"
+  },
+  {
+    "id": 3,
+    "name": "Howe's Tax & Bookkeeping",
+    "niche": "Cpa",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "https://www.howestax.com/",
+    "email": "contact@howestax.com",
+    "address": "3892 26th Street, San Francisco",
+    "mailto_url": "mailto:contact@howestax.com?subject=quick%20question%20regarding%20Howe%27s%20Tax%20%26%20Bookkeeping%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.howestax.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Howe%27s%20Tax%20%26%20Bookkeeping%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:18"
+  },
+  {
+    "id": 4,
+    "name": "Raymond James",
+    "niche": "Cpa",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@raymondjames.example",
+    "address": "360A West Portal Avenue, San Francisco 94127",
+    "mailto_url": "mailto:contact@raymondjames.example?subject=quick%20question%20regarding%20Raymond%20James%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Raymond%20James%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:18"
+  },
+  {
+    "id": 5,
+    "name": "Nelson Louie & Wong",
+    "niche": "Cpa",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@nelsonlouiewong.example",
+    "address": "258 West Portal Avenue, San Francisco 94127",
+    "mailto_url": "mailto:contact@nelsonlouiewong.example?subject=quick%20question%20regarding%20Nelson%20Louie%20%26%20Wong%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Nelson%20Louie%20%26%20Wong%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:18"
+  },
+  {
+    "id": 6,
+    "name": "MacPherson & MacPherson",
+    "niche": "Cpa",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@macphersonmacpherson.example",
+    "address": "37 Vicente Street, San Francisco 94127",
+    "mailto_url": "mailto:contact@macphersonmacpherson.example?subject=quick%20question%20regarding%20MacPherson%20%26%20MacPherson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20MacPherson%20%26%20MacPherson%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:18"
+  },
+  {
+    "id": 7,
+    "name": "Lawrence A. Smith",
+    "niche": "Cpa",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lawrenceasmith.example",
+    "address": "82 West Portal Avenue, San Francisco 94127",
+    "mailto_url": "mailto:contact@lawrenceasmith.example?subject=quick%20question%20regarding%20Lawrence%20A.%20Smith%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lawrence%20A.%20Smith%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:18"
+  },
+  {
+    "id": 8,
+    "name": "Lynda Chang, CPA",
+    "niche": "Cpa",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lyndachangcpa.example",
+    "address": "1151 Taraval Street, San Francisco 94116",
+    "mailto_url": "mailto:contact@lyndachangcpa.example?subject=quick%20question%20regarding%20Lynda%20Chang%2C%20CPA%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lynda%20Chang%2C%20CPA%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:18"
+  },
+  {
+    "id": 9,
+    "name": "Yee's Income Tax and Accounting",
+    "niche": "Cpa",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@yee'sincometaxandaccounting.example",
+    "address": "Pacific Avenue, San Francisco",
+    "mailto_url": "mailto:contact@yee'sincometaxandaccounting.example?subject=quick%20question%20regarding%20Yee%27s%20Income%20Tax%20and%20Accounting%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Yee%27s%20Income%20Tax%20and%20Accounting%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:18"
+  },
+  {
+    "id": 10,
+    "name": "Accounting & Taxes",
+    "niche": "Cpa",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@accountingtaxes.example",
+    "address": "San Francisco",
+    "mailto_url": "mailto:contact@accountingtaxes.example?subject=quick%20question%20regarding%20Accounting%20%26%20Taxes%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Accounting%20%26%20Taxes%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:18"
+  }
+]

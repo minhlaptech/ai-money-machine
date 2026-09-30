@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Stephen Moore Home",
+    "niche": "Realestate",
+    "city": "San Francisco",
+    "phone": "+1-415-754-8656",
+    "website": "https://www.stephenmoorehome.com/",
+    "email": "contact@stephenmoorehome.com",
+    "address": "3845 24th Street, San Francisco",
+    "mailto_url": "mailto:contact@stephenmoorehome.com?subject=quick%20question%20regarding%20Stephen%20Moore%20Home%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.stephenmoorehome.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Stephen%20Moore%20Home%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:44"
+  },
+  {
+    "id": 2,
+    "name": "Combined Realty",
+    "niche": "Realestate",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@combinedrealty.example",
+    "address": "1871 Market Street, San Francisco",
+    "mailto_url": "mailto:contact@combinedrealty.example?subject=quick%20question%20regarding%20Combined%20Realty%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Combined%20Realty%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:44"
+  },
+  {
+    "id": 3,
+    "name": "Downing & Company Real Estate Services",
+    "niche": "Realestate",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@downingcompanyrealestateservices.example",
+    "address": "3496 22nd Street, San Francisco",
+    "mailto_url": "mailto:contact@downingcompanyrealestateservices.example?subject=quick%20question%20regarding%20Downing%20%26%20Company%20Real%20Estate%20Services%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Downing%20%26%20Company%20Real%20Estate%20Services%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:44"
+  },
+  {
+    "id": 4,
+    "name": "Thomas D. Harvey Realtor & Insurance",
+    "niche": "Realestate",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@thomasdharveyrealtorinsurance.example",
+    "address": "1048 Valencia Street, San Francisco",
+    "mailto_url": "mailto:contact@thomasdharveyrealtorinsurance.example?subject=quick%20question%20regarding%20Thomas%20D.%20Harvey%20Realtor%20%26%20Insurance%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Thomas%20D.%20Harvey%20Realtor%20%26%20Insurance%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:44"
+  },
+  {
+    "id": 5,
+    "name": "Brick & Mortar",
+    "niche": "Realestate",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@brickmortar.example",
+    "address": "587 Castro Street, San Francisco 94114",
+    "mailto_url": "mailto:contact@brickmortar.example?subject=quick%20question%20regarding%20Brick%20%26%20Mortar%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Brick%20%26%20Mortar%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:44"
+  },
+  {
+    "id": 6,
+    "name": "Herth Real Estate",
+    "niche": "Realestate",
+    "city": "San Francisco",
+    "phone": "+1-415-861-5200",
+    "website": "http://www.herth.com",
+    "email": "contact@herth.com",
+    "address": "555 Castro Street, San Francisco 94114",
+    "mailto_url": "mailto:contact@herth.com?subject=quick%20question%20regarding%20Herth%20Real%20Estate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.herth.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Herth%20Real%20Estate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:44"
+  },
+  {
+    "id": 7,
+    "name": "Urban Group Real Estate",
+    "niche": "Realestate",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@urbangrouprealestate.example",
+    "address": "1328 Valencia Street, San Francisco",
+    "mailto_url": "mailto:contact@urbangrouprealestate.example?subject=quick%20question%20regarding%20Urban%20Group%20Real%20Estate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Urban%20Group%20Real%20Estate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:44"
+  },
+  {
+    "id": 8,
+    "name": "Keller Williams Realty",
+    "niche": "Realestate",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@kellerwilliamsrealty.example",
+    "address": "1624 California Street, San Francisco 94109",
+    "mailto_url": "mailto:contact@kellerwilliamsrealty.example?subject=quick%20question%20regarding%20Keller%20Williams%20Realty%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Keller%20Williams%20Realty%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:44"
+  },
+  {
+    "id": 9,
+    "name": "Revestor",
+    "niche": "Realestate",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "http://www.revestor.com/",
+    "email": "contact@revestor.com",
+    "address": "505 Montgomery Street, San Francisco 94111",
+    "mailto_url": "mailto:contact@revestor.com?subject=quick%20question%20regarding%20Revestor%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.revestor.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Revestor%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:44"
+  },
+  {
+    "id": 10,
+    "name": "Raven Office Centers",
+    "niche": "Realestate",
+    "city": "San Francisco",
+    "phone": "+1-415-837-3201",
+    "website": "https://ravenios.com/",
+    "email": "contact@ravenios.com",
+    "address": "388, Suite 1300 Market Street, San Francisco",
+    "mailto_url": "mailto:contact@ravenios.com?subject=quick%20question%20regarding%20Raven%20Office%20Centers%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//ravenios.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Raven%20Office%20Centers%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:20:44"
+  }
+]

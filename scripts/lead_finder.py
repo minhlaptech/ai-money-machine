@@ -181,4 +181,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     results = query_osm_overpass(args.niche, args.city, args.limit)
-    save_leads(results, f"{args.city.lower()}_{args.niche}")
+    city_slug = args.city.lower().replace(" ", "_")
+    save_leads(results, f"{city_slug}_{args.niche}")

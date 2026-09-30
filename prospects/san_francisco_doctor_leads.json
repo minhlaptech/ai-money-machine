@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Potrero Hill Health Center",
+    "niche": "Doctor",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@potrerohillhealthcenter.example",
+    "address": "1050 Wisconsin Street, San Francisco",
+    "mailto_url": "mailto:contact@potrerohillhealthcenter.example?subject=quick%20question%20regarding%20Potrero%20Hill%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Potrero%20Hill%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:19:57"
+  },
+  {
+    "id": 2,
+    "name": "Asthma & Allergy Clinic of Marin and SF Inc.",
+    "niche": "Doctor",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@asthmaallergyclinicofmarinandsfinc.example",
+    "address": "6850 Geary Boulevard, San Francisco 94121",
+    "mailto_url": "mailto:contact@asthmaallergyclinicofmarinandsfinc.example?subject=quick%20question%20regarding%20Asthma%20%26%20Allergy%20Clinic%20of%20Marin%20and%20SF%20Inc.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Asthma%20%26%20Allergy%20Clinic%20of%20Marin%20and%20SF%20Inc.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:19:57"
+  },
+  {
+    "id": 3,
+    "name": "San Francisco Doctor #3",
+    "niche": "Doctor",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sanfranciscodoctor#3.example",
+    "address": "San Francisco",
+    "mailto_url": "mailto:contact@sanfranciscodoctor#3.example?subject=quick%20question%20regarding%20San%20Francisco%20Doctor%20%233%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20San%20Francisco%20Doctor%20%233%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:19:57"
+  },
+  {
+    "id": 4,
+    "name": "Marina Chiropractic",
+    "niche": "Doctor",
+    "city": "San Francisco",
+    "phone": "+1-415-563-1046",
+    "website": "http://marinachiropractic.blogspot.de/",
+    "email": "contact@marinachiropractic.blogspot.de",
+    "address": "2295 Chestnut Street, San Francisco",
+    "mailto_url": "mailto:contact@marinachiropractic.blogspot.de?subject=quick%20question%20regarding%20Marina%20Chiropractic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//marinachiropractic.blogspot.de/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Marina%20Chiropractic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:19:57"
+  },
+  {
+    "id": 5,
+    "name": "Arthur H. Coleman medical center",
+    "niche": "Doctor",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@arthurhcolemanmedicalcenter.example",
+    "address": "San Francisco",
+    "mailto_url": "mailto:contact@arthurhcolemanmedicalcenter.example?subject=quick%20question%20regarding%20Arthur%20H.%20Coleman%20medical%20center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Arthur%20H.%20Coleman%20medical%20center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:19:57"
+  },
+  {
+    "id": 6,
+    "name": "Noe Valley Pediatrics",
+    "niche": "Doctor",
+    "city": "San Francisco",
+    "phone": "+1 415-641-1019",
+    "website": "https://noevalleypediatrics.com/",
+    "email": "contact@noevalleypediatrics.com",
+    "address": "3700 24th Street, San Francisco",
+    "mailto_url": "mailto:contact@noevalleypediatrics.com?subject=quick%20question%20regarding%20Noe%20Valley%20Pediatrics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//noevalleypediatrics.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Noe%20Valley%20Pediatrics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:19:57"
+  },
+  {
+    "id": 7,
+    "name": "San Francisco Surgical Arts",
+    "niche": "Doctor",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "https://www.sfsurgicalarts.com/",
+    "email": "contact@sfsurgicalarts.com",
+    "address": "301 Main Street, San Francisco",
+    "mailto_url": "mailto:contact@sfsurgicalarts.com?subject=quick%20question%20regarding%20San%20Francisco%20Surgical%20Arts%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.sfsurgicalarts.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20San%20Francisco%20Surgical%20Arts%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:19:57"
+  },
+  {
+    "id": 8,
+    "name": "My Doctor Medical Group",
+    "niche": "Doctor",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "https://mydoctorsf.com/",
+    "email": "contact@mydoctorsf.com",
+    "address": "450 Sutter Street, San Francisco",
+    "mailto_url": "mailto:contact@mydoctorsf.com?subject=quick%20question%20regarding%20My%20Doctor%20Medical%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//mydoctorsf.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20My%20Doctor%20Medical%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:19:57"
+  },
+  {
+    "id": 9,
+    "name": "Brookside Healthcare & Diagnostics",
+    "niche": "Doctor",
+    "city": "San Francisco",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@brooksidehealthcarediagnostics.example",
+    "address": "Arnaldo Highway, San Francisco 4107",
+    "mailto_url": "mailto:contact@brooksidehealthcarediagnostics.example?subject=quick%20question%20regarding%20Brookside%20Healthcare%20%26%20Diagnostics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Brookside%20Healthcare%20%26%20Diagnostics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:19:57"
+  },
+  {
+    "id": 10,
+    "name": "whole family md",
+    "niche": "Doctor",
+    "city": "San Francisco",
+    "phone": "+1 415-642-0333",
+    "website": "https://wholefamilymd.org/",
+    "email": "contact@wholefamilymd.org",
+    "address": "1286 Sanchez Street, San Francisco",
+    "mailto_url": "mailto:contact@wholefamilymd.org?subject=quick%20question%20regarding%20whole%20family%20md%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//wholefamilymd.org/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20whole%20family%20md%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:19:57"
+  }
+]

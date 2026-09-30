@@ -1,5 +1,5 @@
 # 👕 Print-on-Demand Ready-to-Publish Listing: HOODIE_COFFEE_LLMS
-> **Tạo lúc**: 2026-09-30 21:41:48  
+> **Tạo lúc**: 2026-09-30 22:17:18  
 > **Ngách mục tiêu**: `Programmers, AI Engineers, Tech Workers, Solopreneurs`  
 > **Tệp thiết kế / Mockup**: `projects/print_on_demand/designs/hoodie_coffee_llms.jpg`
 
