@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Green Bay Premier Doctor Studio",
+    "niche": "Doctor",
+    "city": "Green Bay",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.greenbaypremierdoctorstudio.example",
+    "email": "info@greenbaypremierdoctorstudio.example",
+    "address": "120 Boulevard Ave, Green Bay",
+    "mailto_url": "mailto:info@greenbaypremierdoctorstudio.example?subject=quick%20question%20regarding%20Green%20Bay%20Premier%20Doctor%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:46:47"
+  },
+  {
+    "id": 2,
+    "name": "Apex Green Bay Doctor Center",
+    "niche": "Doctor",
+    "city": "Green Bay",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexgreenbaydoctorcenter.example",
+    "email": "info@apexgreenbaydoctorcenter.example",
+    "address": "240 Boulevard Ave, Green Bay",
+    "mailto_url": "mailto:info@apexgreenbaydoctorcenter.example?subject=quick%20question%20regarding%20Apex%20Green%20Bay%20Doctor%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:46:47"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Doctor Partners of Green Bay",
+    "niche": "Doctor",
+    "city": "Green Bay",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondoctorpartnersofgreenbay.example",
+    "email": "info@beacondoctorpartnersofgreenbay.example",
+    "address": "360 Boulevard Ave, Green Bay",
+    "mailto_url": "mailto:info@beacondoctorpartnersofgreenbay.example?subject=quick%20question%20regarding%20Beacon%20Doctor%20Partners%20of%20Green%20Bay%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:46:47"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Green Bay Doctor Group",
+    "niche": "Doctor",
+    "city": "Green Bay",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardgreenbaydoctorgroup.example",
+    "email": "info@vanguardgreenbaydoctorgroup.example",
+    "address": "480 Boulevard Ave, Green Bay",
+    "mailto_url": "mailto:info@vanguardgreenbaydoctorgroup.example?subject=quick%20question%20regarding%20Vanguard%20Green%20Bay%20Doctor%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:46:47"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Doctor & Aesthetics Green Bay",
+    "niche": "Doctor",
+    "city": "Green Bay",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadoctorandaestheticsgreenbay.example",
+    "email": "info@luminadoctorandaestheticsgreenbay.example",
+    "address": "600 Boulevard Ave, Green Bay",
+    "mailto_url": "mailto:info@luminadoctorandaestheticsgreenbay.example?subject=quick%20question%20regarding%20Lumina%20Doctor%20%26%20Aesthetics%20Green%20Bay%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:46:47"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Doctor Clinic of Green Bay",
+    "niche": "Doctor",
+    "city": "Green Bay",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedoctorclinicofgreenbay.example",
+    "email": "info@proactivedoctorclinicofgreenbay.example",
+    "address": "720 Boulevard Ave, Green Bay",
+    "mailto_url": "mailto:info@proactivedoctorclinicofgreenbay.example?subject=quick%20question%20regarding%20ProActive%20Doctor%20Clinic%20of%20Green%20Bay%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:46:47"
+  },
+  {
+    "id": 7,
+    "name": "Elite Doctor Specialists Green Bay",
+    "niche": "Doctor",
+    "city": "Green Bay",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedoctorspecialistsgreenbay.example",
+    "email": "info@elitedoctorspecialistsgreenbay.example",
+    "address": "840 Boulevard Ave, Green Bay",
+    "mailto_url": "mailto:info@elitedoctorspecialistsgreenbay.example?subject=quick%20question%20regarding%20Elite%20Doctor%20Specialists%20Green%20Bay%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:46:47"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Doctor Green Bay",
+    "niche": "Doctor",
+    "city": "Green Bay",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdoctorgreenbay.example",
+    "email": "info@summitcrestdoctorgreenbay.example",
+    "address": "960 Boulevard Ave, Green Bay",
+    "mailto_url": "mailto:info@summitcrestdoctorgreenbay.example?subject=quick%20question%20regarding%20Summit%20Crest%20Doctor%20Green%20Bay%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:46:47"
+  },
+  {
+    "id": 9,
+    "name": "Metro Doctor Care Center Green Bay",
+    "niche": "Doctor",
+    "city": "Green Bay",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodoctorcarecentergreenbay.example",
+    "email": "info@metrodoctorcarecentergreenbay.example",
+    "address": "1080 Boulevard Ave, Green Bay",
+    "mailto_url": "mailto:info@metrodoctorcarecentergreenbay.example?subject=quick%20question%20regarding%20Metro%20Doctor%20Care%20Center%20Green%20Bay%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:46:47"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Doctor Practice Green Bay",
+    "niche": "Doctor",
+    "city": "Green Bay",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdoctorpracticegreenbay.example",
+    "email": "info@pacificcoastdoctorpracticegreenbay.example",
+    "address": "1200 Boulevard Ave, Green Bay",
+    "mailto_url": "mailto:info@pacificcoastdoctorpracticegreenbay.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Doctor%20Practice%20Green%20Bay%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:46:47"
+  }
+]
