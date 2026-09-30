@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Duluth Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Duluth",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.duluthpremierclinicstudio.example",
+    "email": "info@duluthpremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Duluth",
+    "mailto_url": "mailto:info@duluthpremierclinicstudio.example?subject=quick%20question%20regarding%20Duluth%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:01:34"
+  },
+  {
+    "id": 2,
+    "name": "Apex Duluth Clinic Center",
+    "niche": "Clinic",
+    "city": "Duluth",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexduluthcliniccenter.example",
+    "email": "info@apexduluthcliniccenter.example",
+    "address": "240 Boulevard Ave, Duluth",
+    "mailto_url": "mailto:info@apexduluthcliniccenter.example?subject=quick%20question%20regarding%20Apex%20Duluth%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:01:34"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Duluth",
+    "niche": "Clinic",
+    "city": "Duluth",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofduluth.example",
+    "email": "info@beaconclinicpartnersofduluth.example",
+    "address": "360 Boulevard Ave, Duluth",
+    "mailto_url": "mailto:info@beaconclinicpartnersofduluth.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Duluth%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:01:34"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Duluth Clinic Group",
+    "niche": "Clinic",
+    "city": "Duluth",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardduluthclinicgroup.example",
+    "email": "info@vanguardduluthclinicgroup.example",
+    "address": "480 Boulevard Ave, Duluth",
+    "mailto_url": "mailto:info@vanguardduluthclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Duluth%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:01:34"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Duluth",
+    "niche": "Clinic",
+    "city": "Duluth",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsduluth.example",
+    "email": "info@luminaclinicandaestheticsduluth.example",
+    "address": "600 Boulevard Ave, Duluth",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsduluth.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Duluth%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:01:34"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Duluth",
+    "niche": "Clinic",
+    "city": "Duluth",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofduluth.example",
+    "email": "info@proactiveclinicclinicofduluth.example",
+    "address": "720 Boulevard Ave, Duluth",
+    "mailto_url": "mailto:info@proactiveclinicclinicofduluth.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Duluth%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:01:34"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Duluth",
+    "niche": "Clinic",
+    "city": "Duluth",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistsduluth.example",
+    "email": "info@eliteclinicspecialistsduluth.example",
+    "address": "840 Boulevard Ave, Duluth",
+    "mailto_url": "mailto:info@eliteclinicspecialistsduluth.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Duluth%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:01:34"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Duluth",
+    "niche": "Clinic",
+    "city": "Duluth",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicduluth.example",
+    "email": "info@summitcrestclinicduluth.example",
+    "address": "960 Boulevard Ave, Duluth",
+    "mailto_url": "mailto:info@summitcrestclinicduluth.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Duluth%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:01:34"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Duluth",
+    "niche": "Clinic",
+    "city": "Duluth",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecenterduluth.example",
+    "email": "info@metrocliniccarecenterduluth.example",
+    "address": "1080 Boulevard Ave, Duluth",
+    "mailto_url": "mailto:info@metrocliniccarecenterduluth.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Duluth%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:01:34"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Duluth",
+    "niche": "Clinic",
+    "city": "Duluth",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticeduluth.example",
+    "email": "info@pacificcoastclinicpracticeduluth.example",
+    "address": "1200 Boulevard Ave, Duluth",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticeduluth.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Duluth%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:01:34"
+  }
+]
