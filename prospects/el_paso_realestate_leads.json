@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Hermann",
+    "niche": "Realestate",
+    "city": "El Paso",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@hermann.example",
+    "address": "El Paso",
+    "mailto_url": "mailto:contact@hermann.example?subject=quick%20question%20regarding%20Hermann%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hermann%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:46:11"
+  },
+  {
+    "id": 2,
+    "name": "Villa Sierra Apartments",
+    "niche": "Realestate",
+    "city": "El Paso",
+    "phone": "+1-915-562-4119",
+    "website": "https://www.villasierraapts.com/",
+    "email": "contact@villasierraapts.com",
+    "address": "2435 McKinley Avenue, El Paso 79930",
+    "mailto_url": "mailto:contact@villasierraapts.com?subject=quick%20question%20regarding%20Villa%20Sierra%20Apartments%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.villasierraapts.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Villa%20Sierra%20Apartments%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:46:11"
+  },
+  {
+    "id": 3,
+    "name": "Royal Estates of El Paso",
+    "niche": "Realestate",
+    "city": "El Paso",
+    "phone": "+1-915-833-3332",
+    "website": "https://www.royalestatesofelpaso.com/",
+    "email": "contact@royalestatesofelpaso.com",
+    "address": "435 South Mesa Hills Drive, El Paso 79912",
+    "mailto_url": "mailto:contact@royalestatesofelpaso.com?subject=quick%20question%20regarding%20Royal%20Estates%20of%20El%20Paso%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.royalestatesofelpaso.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Royal%20Estates%20of%20El%20Paso%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:46:11"
+  },
+  {
+    "id": 4,
+    "name": "Better Homes and Gardens Real Estate Elevate",
+    "niche": "Realestate",
+    "city": "El Paso",
+    "phone": "+1-915-225-2266",
+    "website": "https://elevate.sites.bhgrealestate.com",
+    "email": "contact@elevate.sites.bhgrealestate.com",
+    "address": "6633 North Mesa Street, El Paso 79912",
+    "mailto_url": "mailto:contact@elevate.sites.bhgrealestate.com?subject=quick%20question%20regarding%20Better%20Homes%20and%20Gardens%20Real%20Estate%20Elevate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//elevate.sites.bhgrealestate.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Better%20Homes%20and%20Gardens%20Real%20Estate%20Elevate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:46:11"
+  },
+  {
+    "id": 5,
+    "name": "Coldwell Banker",
+    "niche": "Realestate",
+    "city": "El Paso",
+    "phone": "+1-915-544-5205",
+    "website": "http://cbclrg.com",
+    "email": "contact@cbclrg.com",
+    "address": "7338 Remcon Circle, El Paso 79912",
+    "mailto_url": "mailto:contact@cbclrg.com?subject=quick%20question%20regarding%20Coldwell%20Banker%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//cbclrg.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Coldwell%20Banker%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:46:11"
+  },
+  {
+    "id": 6,
+    "name": "Sunworld",
+    "niche": "Realestate",
+    "city": "El Paso",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sunworld.example",
+    "address": "El Paso",
+    "mailto_url": "mailto:contact@sunworld.example?subject=quick%20question%20regarding%20Sunworld%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sunworld%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:46:11"
+  }
+]

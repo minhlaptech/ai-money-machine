@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Sunny Smiles",
+    "niche": "Dentist",
+    "city": "El Paso",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sunnysmiles.example",
+    "address": "El Paso",
+    "mailto_url": "mailto:contact@sunnysmiles.example?subject=quick%20question%20regarding%20Sunny%20Smiles%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sunny%20Smiles%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:44:22"
+  },
+  {
+    "id": 2,
+    "name": "Salimero",
+    "niche": "Dentist",
+    "city": "El Paso",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@salimero.example",
+    "address": "El Paso",
+    "mailto_url": "mailto:contact@salimero.example?subject=quick%20question%20regarding%20Salimero%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Salimero%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:44:22"
+  },
+  {
+    "id": 3,
+    "name": "Guerra Dental",
+    "niche": "Dentist",
+    "city": "El Paso",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@guerradental.example",
+    "address": "El Paso",
+    "mailto_url": "mailto:contact@guerradental.example?subject=quick%20question%20regarding%20Guerra%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Guerra%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:44:22"
+  },
+  {
+    "id": 4,
+    "name": "Aspen Dental",
+    "niche": "Dentist",
+    "city": "El Paso",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@aspendental.example",
+    "address": "El Paso",
+    "mailto_url": "mailto:contact@aspendental.example?subject=quick%20question%20regarding%20Aspen%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Aspen%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:44:22"
+  },
+  {
+    "id": 5,
+    "name": "JT Orthodontics",
+    "niche": "Dentist",
+    "city": "El Paso",
+    "phone": "N/A",
+    "website": "https://jtorthodontics.com/",
+    "email": "contact@jtorthodontics.com",
+    "address": "5551 N. Mesa Street, El Paso 79912",
+    "mailto_url": "mailto:contact@jtorthodontics.com?subject=quick%20question%20regarding%20JT%20Orthodontics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//jtorthodontics.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20JT%20Orthodontics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:44:22"
+  },
+  {
+    "id": 6,
+    "name": "JT Orthodontics",
+    "niche": "Dentist",
+    "city": "El Paso",
+    "phone": "+1-915-855-6616",
+    "website": "N/A",
+    "email": "contact@jtorthodontics.example",
+    "address": "3030 Trawood Drive, El Paso 79936",
+    "mailto_url": "mailto:contact@jtorthodontics.example?subject=quick%20question%20regarding%20JT%20Orthodontics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20JT%20Orthodontics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:44:22"
+  },
+  {
+    "id": 7,
+    "name": "Oasis Dental",
+    "niche": "Dentist",
+    "city": "El Paso",
+    "phone": "+1-915-781-7725",
+    "website": "https://oasisdentalep.com/",
+    "email": "contact@oasisdentalep.com",
+    "address": "5340 El Paso Drive, El Paso 77905",
+    "mailto_url": "mailto:contact@oasisdentalep.com?subject=quick%20question%20regarding%20Oasis%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//oasisdentalep.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Oasis%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:44:22"
+  },
+  {
+    "id": 8,
+    "name": "Redd Road Family Dental",
+    "niche": "Dentist",
+    "city": "El Paso",
+    "phone": "+1-915-833-3484",
+    "website": "https://reddroadfamilydental.com",
+    "email": "contact@reddroadfamilydental.com",
+    "address": "6901 Helen of Troy Dr, El Paso 79911",
+    "mailto_url": "mailto:contact@reddroadfamilydental.com?subject=quick%20question%20regarding%20Redd%20Road%20Family%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//reddroadfamilydental.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Redd%20Road%20Family%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:44:22"
+  },
+  {
+    "id": 9,
+    "name": "Blizzard Jr William",
+    "niche": "Dentist",
+    "city": "El Paso",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@blizzardjrwilliam.example",
+    "address": "El Paso",
+    "mailto_url": "mailto:contact@blizzardjrwilliam.example?subject=quick%20question%20regarding%20Blizzard%20Jr%20William%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Blizzard%20Jr%20William%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:44:22"
+  },
+  {
+    "id": 10,
+    "name": "El Paso Dentist #10",
+    "niche": "Dentist",
+    "city": "El Paso",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@elpasodentist#10.example",
+    "address": "El Paso",
+    "mailto_url": "mailto:contact@elpasodentist#10.example?subject=quick%20question%20regarding%20El%20Paso%20Dentist%20%2310%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20El%20Paso%20Dentist%20%2310%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:44:22"
+  }
+]
