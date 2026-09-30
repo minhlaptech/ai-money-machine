@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Rochester Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Rochester",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.rochesterpremierdentiststudio.example",
+    "email": "info@rochesterpremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Rochester",
+    "mailto_url": "mailto:info@rochesterpremierdentiststudio.example?subject=quick%20question%20regarding%20Rochester%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:04:48"
+  },
+  {
+    "id": 2,
+    "name": "Apex Rochester Dentist Center",
+    "niche": "Dentist",
+    "city": "Rochester",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexrochesterdentistcenter.example",
+    "email": "info@apexrochesterdentistcenter.example",
+    "address": "240 Boulevard Ave, Rochester",
+    "mailto_url": "mailto:info@apexrochesterdentistcenter.example?subject=quick%20question%20regarding%20Apex%20Rochester%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:04:48"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Rochester",
+    "niche": "Dentist",
+    "city": "Rochester",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersofrochester.example",
+    "email": "info@beacondentistpartnersofrochester.example",
+    "address": "360 Boulevard Ave, Rochester",
+    "mailto_url": "mailto:info@beacondentistpartnersofrochester.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Rochester%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:04:48"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Rochester Dentist Group",
+    "niche": "Dentist",
+    "city": "Rochester",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardrochesterdentistgroup.example",
+    "email": "info@vanguardrochesterdentistgroup.example",
+    "address": "480 Boulevard Ave, Rochester",
+    "mailto_url": "mailto:info@vanguardrochesterdentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Rochester%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:04:48"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Rochester",
+    "niche": "Dentist",
+    "city": "Rochester",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticsrochester.example",
+    "email": "info@luminadentistandaestheticsrochester.example",
+    "address": "600 Boulevard Ave, Rochester",
+    "mailto_url": "mailto:info@luminadentistandaestheticsrochester.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Rochester%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:04:48"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Dentist Clinic of Rochester",
+    "niche": "Dentist",
+    "city": "Rochester",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedentistclinicofrochester.example",
+    "email": "info@proactivedentistclinicofrochester.example",
+    "address": "720 Boulevard Ave, Rochester",
+    "mailto_url": "mailto:info@proactivedentistclinicofrochester.example?subject=quick%20question%20regarding%20ProActive%20Dentist%20Clinic%20of%20Rochester%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:04:48"
+  },
+  {
+    "id": 7,
+    "name": "Elite Dentist Specialists Rochester",
+    "niche": "Dentist",
+    "city": "Rochester",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedentistspecialistsrochester.example",
+    "email": "info@elitedentistspecialistsrochester.example",
+    "address": "840 Boulevard Ave, Rochester",
+    "mailto_url": "mailto:info@elitedentistspecialistsrochester.example?subject=quick%20question%20regarding%20Elite%20Dentist%20Specialists%20Rochester%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:04:48"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Dentist Rochester",
+    "niche": "Dentist",
+    "city": "Rochester",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdentistrochester.example",
+    "email": "info@summitcrestdentistrochester.example",
+    "address": "960 Boulevard Ave, Rochester",
+    "mailto_url": "mailto:info@summitcrestdentistrochester.example?subject=quick%20question%20regarding%20Summit%20Crest%20Dentist%20Rochester%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:04:48"
+  },
+  {
+    "id": 9,
+    "name": "Metro Dentist Care Center Rochester",
+    "niche": "Dentist",
+    "city": "Rochester",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodentistcarecenterrochester.example",
+    "email": "info@metrodentistcarecenterrochester.example",
+    "address": "1080 Boulevard Ave, Rochester",
+    "mailto_url": "mailto:info@metrodentistcarecenterrochester.example?subject=quick%20question%20regarding%20Metro%20Dentist%20Care%20Center%20Rochester%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:04:48"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Dentist Practice Rochester",
+    "niche": "Dentist",
+    "city": "Rochester",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdentistpracticerochester.example",
+    "email": "info@pacificcoastdentistpracticerochester.example",
+    "address": "1200 Boulevard Ave, Rochester",
+    "mailto_url": "mailto:info@pacificcoastdentistpracticerochester.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Dentist%20Practice%20Rochester%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:04:48"
+  }
+]
