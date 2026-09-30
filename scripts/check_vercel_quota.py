@@ -29,6 +29,7 @@ with urllib.request.urlopen(req) as r:
         oldest_dt = datetime.fromtimestamp(oldest.get("created")/1000)
         newest_dt = datetime.fromtimestamp(newest.get("created")/1000)
         print(f"Newest deployment: {newest_dt}")
+        print(f"Newest state: {newest.get('state')} | errorCode: {newest.get('errorCode')} | commit: {newest.get('meta', {}).get('githubCommitMessage')}")
         print(f"Oldest deployment in list of 100: {oldest_dt}")
         # The rolling 24h window expires when deployments older than 24h drop off!
         now = datetime.now()
