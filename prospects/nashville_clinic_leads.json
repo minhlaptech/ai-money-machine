@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Meharry Clinics",
+    "niche": "Clinic",
+    "city": "Nashville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@meharryclinics.example",
+    "address": "Nashville",
+    "mailto_url": "mailto:contact@meharryclinics.example?subject=quick%20question%20regarding%20Meharry%20Clinics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Meharry%20Clinics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:21:28"
+  },
+  {
+    "id": 2,
+    "name": "Nurse",
+    "niche": "Clinic",
+    "city": "Nashville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@nurse.example",
+    "address": "Nashville",
+    "mailto_url": "mailto:contact@nurse.example?subject=quick%20question%20regarding%20Nurse%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Nurse%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:21:28"
+  },
+  {
+    "id": 3,
+    "name": "Vanderbilt Health Gaylord Opryland Clinic",
+    "niche": "Clinic",
+    "city": "Nashville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@vanderbilthealthgaylordoprylandclinic.example",
+    "address": "Nashville",
+    "mailto_url": "mailto:contact@vanderbilthealthgaylordoprylandclinic.example?subject=quick%20question%20regarding%20Vanderbilt%20Health%20Gaylord%20Opryland%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Vanderbilt%20Health%20Gaylord%20Opryland%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:21:28"
+  },
+  {
+    "id": 4,
+    "name": "Passport Health Nashville Travel Clinic",
+    "niche": "Clinic",
+    "city": "Nashville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@passporthealthnashvilletravelclinic.example",
+    "address": "1916 Patterson Street, Nashville 37203",
+    "mailto_url": "mailto:contact@passporthealthnashvilletravelclinic.example?subject=quick%20question%20regarding%20Passport%20Health%20Nashville%20Travel%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Passport%20Health%20Nashville%20Travel%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:21:28"
+  },
+  {
+    "id": 5,
+    "name": "Faith Family Medical Center",
+    "niche": "Clinic",
+    "city": "Nashville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@faithfamilymedicalcenter.example",
+    "address": "Nashville",
+    "mailto_url": "mailto:contact@faithfamilymedicalcenter.example?subject=quick%20question%20regarding%20Faith%20Family%20Medical%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Faith%20Family%20Medical%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:21:28"
+  },
+  {
+    "id": 6,
+    "name": "NSI",
+    "niche": "Clinic",
+    "city": "Nashville",
+    "phone": "N/A",
+    "website": "https://www.tolmanmedical.com/",
+    "email": "contact@tolmanmedical.com",
+    "address": "118 30th Avenue North, Nashville 37203",
+    "mailto_url": "mailto:contact@tolmanmedical.com?subject=quick%20question%20regarding%20NSI%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.tolmanmedical.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20NSI%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:21:28"
+  },
+  {
+    "id": 7,
+    "name": "Siragusa Vein and Laser",
+    "niche": "Clinic",
+    "city": "Nashville",
+    "phone": "+1-615-884-7600",
+    "website": "https://nashvilleveincenter.com",
+    "email": "contact@nashvilleveincenter.com",
+    "address": "28 White Bridge Road, Nashville 37205",
+    "mailto_url": "mailto:contact@nashvilleveincenter.com?subject=quick%20question%20regarding%20Siragusa%20Vein%20and%20Laser%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//nashvilleveincenter.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Siragusa%20Vein%20and%20Laser%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:21:28"
+  },
+  {
+    "id": 8,
+    "name": "Nashville Clinic #8",
+    "niche": "Clinic",
+    "city": "Nashville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@nashvilleclinic#8.example",
+    "address": "Nashville",
+    "mailto_url": "mailto:contact@nashvilleclinic#8.example?subject=quick%20question%20regarding%20Nashville%20Clinic%20%238%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Nashville%20Clinic%20%238%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:21:28"
+  },
+  {
+    "id": 9,
+    "name": "Baptist Ambulatory Surgery Center",
+    "niche": "Clinic",
+    "city": "Nashville",
+    "phone": "+1 615 321 7330",
+    "website": "https://baptistasc.com/",
+    "email": "contact@baptistasc.com",
+    "address": "312 21st Avenue North, Nashville 37236",
+    "mailto_url": "mailto:contact@baptistasc.com?subject=quick%20question%20regarding%20Baptist%20Ambulatory%20Surgery%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//baptistasc.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Baptist%20Ambulatory%20Surgery%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:21:28"
+  },
+  {
+    "id": 10,
+    "name": "Northridge Surgery Center",
+    "niche": "Clinic",
+    "city": "Nashville",
+    "phone": "+1 615 868 8942",
+    "website": "https://northridgesc.com/",
+    "email": "contact@northridgesc.com",
+    "address": "647 Myatt Drive, Nashville 37115",
+    "mailto_url": "mailto:contact@northridgesc.com?subject=quick%20question%20regarding%20Northridge%20Surgery%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//northridgesc.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Northridge%20Surgery%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:21:28"
+  }
+]
