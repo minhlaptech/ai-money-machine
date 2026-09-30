@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OmniScrape AI</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Header -->
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-icon">⚡</div>
+        <div class="brand-text">
+          <h1>OmniScrape <span class="gradient-text">AI</span></h1>
+          <p class="tagline">1-Click Web Data to Excel & CSV</p>
+        </div>
+      </div>
+      <div class="badge-container">
+        <span id="licenseBadge" class="badge badge-free">FREE TIER</span>
+      </div>
+    </header>
+
+    <!-- Page Quick Stats -->
+    <section class="stats-bar" id="statsBar">
+      <div class="stat-item">
+        <span class="stat-num" id="statTables">0</span>
+        <span class="stat-label">Tables</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" id="statEmails">0</span>
+        <span class="stat-label">Emails</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" id="statPhones">0</span>
+        <span class="stat-label">Phones</span>
+      </div>
+    </section>
+
+    <!-- Navigation Tabs -->
+    <nav class="tab-nav">
+      <button class="tab-btn active" data-tab="auto">⚡ Auto Detect</button>
+      <button class="tab-btn" data-tab="tables">📊 Tables</button>
+      <button class="tab-btn" data-tab="lists">📦 Cards / Lists</button>
+      <button class="tab-btn" data-tab="contacts">📇 Contacts</button>
+    </nav>
+
+    <!-- Action Section -->
+    <section class="action-panel">
+      <button id="btnScrapeNow" class="btn btn-primary">
+        <span class="icon">🚀</span>
+        <span>Extract Data From Current Page</span>
+      </button>
+    </section>
+
+    <!-- Data Preview Section -->
+    <section class="preview-section" id="previewSection" style="display: none;">
+      <div class="preview-header">
+        <div class="preview-title">
+          <strong id="previewDatasetName">Extracted Data</strong>
+          <span class="row-count" id="previewRowCount">(0 rows)</span>
+        </div>
+        <div class="preview-controls">
+          <input type="text" id="filterInput" placeholder="Filter rows..." class="filter-input">
+        </div>
+      </div>
+
+      <div class="table-scroll-container">
+        <table id="dataTable" class="data-table">
+          <thead id="tableHead"></thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+
+      <!-- Export Buttons -->
+      <div class="export-actions">
+        <button id="btnExportCsv" class="btn btn-export btn-csv">
+          <span>📥</span> Download CSV
+        </button>
+        <button id="btnExportJson" class="btn btn-export btn-json">
+          <span>📄</span> JSON
+        </button>
+        <button id="btnCopyClipboard" class="btn btn-export btn-copy">
+          <span>📋</span> Copy All
+        </button>
+      </div>
+    </section>
+
+    <!-- Empty / Welcome State -->
+    <section class="empty-state" id="emptyState">
+      <div class="empty-icon">🌐</div>
+      <h3>Ready to Extract</h3>
+      <p>Navigate to any website with tables, products, or directories and click <strong>Extract Data</strong> above.</p>
+    </section>
+
+    <!-- Pro Banner / Upgrade Trigger -->
+    <footer class="app-footer">
+      <div class="pro-promo" id="proPromo">
+        <div class="pro-text">
+          <strong>⚡ Unlock OmniScrape Pro</strong>
+          <small>Unlimited rows, auto-pagination & webhooks</small>
+        </div>
+        <button id="btnOpenUpgrade" class="btn btn-upgrade">Get Pro ($19)</button>
+      </div>
+      <div class="footer-links">
+        <a href="#" id="linkEnterKey">Enter License Key</a> •
+        <a href="https://work-minh-lap.vercel.app" target="_blank">AI Empire Hub</a>
+      </div>
+    </footer>
+
+    <!-- License Key Modal -->
+    <div class="modal-backdrop" id="licenseModal" style="display: none;">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3>Activate OmniScrape Pro</h3>
+          <button class="btn-close" id="btnCloseModal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>Enter the License Key sent to your email after purchasing on Lemon Squeezy:</p>
+          <input type="text" id="licenseKeyInput" placeholder="OMNI-PRO-XXXX-XXXX" class="license-input">
+          <div id="licenseFeedback" class="license-feedback"></div>
+          <button id="btnActivateKey" class="btn btn-primary btn-block">Activate License</button>
+          <hr class="modal-divider">
+          <p class="small-text">Don't have a license key yet?</p>
+          <a href="https://minhlap.lemonsqueezy.com" target="_blank" class="btn btn-outline btn-block">
+            Buy Lifetime License ($19 USD)
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
