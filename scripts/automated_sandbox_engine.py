@@ -1,9 +1,9 @@
 """
-Executive Autonomous Sandbox & Simulation Engine (95 Accounts · 4 Tiers)
+Executive Autonomous Sandbox & Simulation Engine (119 Accounts · 4 Tiers)
 ========================================================================
-Tự động tạo và chuẩn hóa 95 môi trường thử nghiệm tương tác (Interactive Live Sandboxes)
-cho toàn bộ 4 phân tầng doanh nghiệp thuộc đế chế $1,002,600 ARR:
-  1. Base Retainers (60 accounts): Web Copilot Chatbot Sandbox & UAT Acceptance Panel.
+Tự động tạo và chuẩn hóa 119 môi trường thử nghiệm tương tác (Interactive Live Sandboxes)
+cho toàn bộ 4 phân tầng doanh nghiệp thuộc đế chế:
+  1. Base Retainers (84 accounts): Web Copilot Chatbot Sandbox & UAT Acceptance Panel.
   2. Enterprise Swarms (15 accounts): Voice AI Inbound SIP Receptionist & Audio Wave Simulator.
   3. Sovereign Private VPCs (8 accounts): Air-Gapped Llama-3 70B & Zero-Data-Leakage GPU Console.
   4. Syndicate Franchise Nodes (12 accounts): White-Label Multi-Tenant Agency Hub & Revenue Split Simulator.

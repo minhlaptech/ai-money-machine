@@ -1,12 +1,12 @@
 """
-Executive Autonomous Deliverables Packager (95 Accounts · 4 Tiers)
+Executive Autonomous Deliverables Packager (119 Accounts · 4 Tiers)
 ==================================================================
-Tự động đóng gói trọn bộ 9 ấn phẩm số hóa cao cấp cho toàn bộ 95 khách hàng
-thuộc 4 phân tầng doanh nghiệp ($1,002,600 ARR Empire):
-  1. Base Retainers (60 accounts): $650/mo - Turnkey AI Web Intake Copilot
+Tự động đóng gói trọn bộ 9 ấn phẩm số hóa cao cấp cho toàn bộ 119 khách hàng
+thuộc 4 phân tầng doanh nghiệp ($1,218,600 ARR Target Pipeline):
+  1. Base Retainers (84 accounts): $997/mo - Turnkey AI Web Intake Copilot
   2. Enterprise Swarms (15 accounts): $1,450/mo - Voice AI SIP Receptionist Swarm
-  3. Sovereign Private VPCs (8 accounts): $2,950/mo - Air-Gapped NVIDIA H100 Llama-3 70B
-  4. Syndicate Franchise Nodes (12 accounts): $1,250/mo - White-Label Multi-Tenant Agency Hub
+  3. Sovereign Private VPCs (8 accounts): $1,500/mo - Air-Gapped NVIDIA H100 Llama-3 70B
+  4. Syndicate Franchise Nodes (12 accounts): $2,500/mo - White-Label Multi-Tenant Agency Hub
 
 Mỗi file nén ZIP (client_packages/{slug}_executive_dossier.zip) bao gồm:
   - WELCOME_CLIENT_ONBOARDING_GUIDE.md (Được may đo riêng theo phân tầng & thông số kỹ thuật)
