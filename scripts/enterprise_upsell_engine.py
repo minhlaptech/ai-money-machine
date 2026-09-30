@@ -8,6 +8,7 @@ Expansion Tier:
 - Add-on Modules: Omnichannel Voice AI Intake + Multi-Location Franchise + Custom Fine-Tuned Model
 - Expansion Value: +$1,300 Setup Upfront + +$800/month Retainer Add-on (Total $1,450/mo)
 - Target: Top 15 High-Value Enterprise Accounts across Batches 3, 4, 6
+- Strict Accounting: Real Cash Realized: $0.00 (Awaiting live payment gateway webhook)
 """
 
 import sys
@@ -385,10 +386,10 @@ def print_summary():
     print(f"  • 📞 Expansion Calls Booked:   {len(booked_accounts)}")
     print(f"  • 🏆 Expansion Won:            {len(won_accounts)}")
     print(f"  • ⏳ Identified / Staged:       {len(id_accounts)}")
-    print("-" * 75)
-    print(f"  💰 Total Expansion Setup Potential: +${total_setup:,} Upfront Cash")
-    print(f"  🔄 Total Expansion MRR Potential:   +${total_addon_mrr:,} / month MRR")
-    print(f"  🚀 Annual ARR Expansion Runway:     +${(total_addon_mrr * 12):,} / year ARR")
+    print(f"  💰 Projected Expansion Setup Potential: +${total_setup:,} Upfront Value")
+    print(f"  🔄 Projected Expansion MRR Potential:   +${total_addon_mrr:,} / month MRR")
+    print(f"  🚀 Annual ARR Expansion Runway:         +${(total_addon_mrr * 12):,} / year ARR")
+    print(f"  🛡️ Real Cash Realized (Accounting):     $0.00 (Awaiting live payment gateway webhook)")
     print("=" * 75)
 
 def send_telegram_upsell_alert(lead_id, name, old_st, new_st, setup, mrr_addon):
