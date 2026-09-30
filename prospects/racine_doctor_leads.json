@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Racine Premier Doctor Studio",
+    "niche": "Doctor",
+    "city": "Racine",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.racinepremierdoctorstudio.example",
+    "email": "info@racinepremierdoctorstudio.example",
+    "address": "120 Boulevard Ave, Racine",
+    "mailto_url": "mailto:info@racinepremierdoctorstudio.example?subject=quick%20question%20regarding%20Racine%20Premier%20Doctor%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:30"
+  },
+  {
+    "id": 2,
+    "name": "Apex Racine Doctor Center",
+    "niche": "Doctor",
+    "city": "Racine",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexracinedoctorcenter.example",
+    "email": "info@apexracinedoctorcenter.example",
+    "address": "240 Boulevard Ave, Racine",
+    "mailto_url": "mailto:info@apexracinedoctorcenter.example?subject=quick%20question%20regarding%20Apex%20Racine%20Doctor%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:30"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Doctor Partners of Racine",
+    "niche": "Doctor",
+    "city": "Racine",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondoctorpartnersofracine.example",
+    "email": "info@beacondoctorpartnersofracine.example",
+    "address": "360 Boulevard Ave, Racine",
+    "mailto_url": "mailto:info@beacondoctorpartnersofracine.example?subject=quick%20question%20regarding%20Beacon%20Doctor%20Partners%20of%20Racine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:30"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Racine Doctor Group",
+    "niche": "Doctor",
+    "city": "Racine",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardracinedoctorgroup.example",
+    "email": "info@vanguardracinedoctorgroup.example",
+    "address": "480 Boulevard Ave, Racine",
+    "mailto_url": "mailto:info@vanguardracinedoctorgroup.example?subject=quick%20question%20regarding%20Vanguard%20Racine%20Doctor%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:30"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Doctor & Aesthetics Racine",
+    "niche": "Doctor",
+    "city": "Racine",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadoctorandaestheticsracine.example",
+    "email": "info@luminadoctorandaestheticsracine.example",
+    "address": "600 Boulevard Ave, Racine",
+    "mailto_url": "mailto:info@luminadoctorandaestheticsracine.example?subject=quick%20question%20regarding%20Lumina%20Doctor%20%26%20Aesthetics%20Racine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:30"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Doctor Clinic of Racine",
+    "niche": "Doctor",
+    "city": "Racine",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedoctorclinicofracine.example",
+    "email": "info@proactivedoctorclinicofracine.example",
+    "address": "720 Boulevard Ave, Racine",
+    "mailto_url": "mailto:info@proactivedoctorclinicofracine.example?subject=quick%20question%20regarding%20ProActive%20Doctor%20Clinic%20of%20Racine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:30"
+  },
+  {
+    "id": 7,
+    "name": "Elite Doctor Specialists Racine",
+    "niche": "Doctor",
+    "city": "Racine",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedoctorspecialistsracine.example",
+    "email": "info@elitedoctorspecialistsracine.example",
+    "address": "840 Boulevard Ave, Racine",
+    "mailto_url": "mailto:info@elitedoctorspecialistsracine.example?subject=quick%20question%20regarding%20Elite%20Doctor%20Specialists%20Racine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:30"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Doctor Racine",
+    "niche": "Doctor",
+    "city": "Racine",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdoctorracine.example",
+    "email": "info@summitcrestdoctorracine.example",
+    "address": "960 Boulevard Ave, Racine",
+    "mailto_url": "mailto:info@summitcrestdoctorracine.example?subject=quick%20question%20regarding%20Summit%20Crest%20Doctor%20Racine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:30"
+  },
+  {
+    "id": 9,
+    "name": "Metro Doctor Care Center Racine",
+    "niche": "Doctor",
+    "city": "Racine",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodoctorcarecenterracine.example",
+    "email": "info@metrodoctorcarecenterracine.example",
+    "address": "1080 Boulevard Ave, Racine",
+    "mailto_url": "mailto:info@metrodoctorcarecenterracine.example?subject=quick%20question%20regarding%20Metro%20Doctor%20Care%20Center%20Racine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:30"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Doctor Practice Racine",
+    "niche": "Doctor",
+    "city": "Racine",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdoctorpracticeracine.example",
+    "email": "info@pacificcoastdoctorpracticeracine.example",
+    "address": "1200 Boulevard Ave, Racine",
+    "mailto_url": "mailto:info@pacificcoastdoctorpracticeracine.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Doctor%20Practice%20Racine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:30"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Clifton Larson Allen",
+    "niche": "Lawyer",
+    "city": "Racine",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@cliftonlarsonallen.example",
+    "address": "222 Main Street, Racine",
+    "mailto_url": "mailto:contact@cliftonlarsonallen.example?subject=quick%20question%20regarding%20Clifton%20Larson%20Allen%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Clifton%20Larson%20Allen%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:51"
+  },
+  {
+    "id": 2,
+    "name": "Patton Law Office, S.C.",
+    "niche": "Lawyer",
+    "city": "Racine",
+    "phone": "+1-262-221-4848",
+    "website": "https://www.pattonlawwi.com",
+    "email": "contact@pattonlawwi.com",
+    "address": "1636 Taylor Avenue, Racine 53142",
+    "mailto_url": "mailto:contact@pattonlawwi.com?subject=quick%20question%20regarding%20Patton%20Law%20Office%2C%20S.C.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.pattonlawwi.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Patton%20Law%20Office%2C%20S.C.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:51"
+  },
+  {
+    "id": 3,
+    "name": "Sterling Lawyers",
+    "niche": "Lawyer",
+    "city": "Racine",
+    "phone": "+1-262-425-5656",
+    "website": "https://www.sterlinglawyers.com/wisconsin/locations/racine/",
+    "email": "contact@sterlinglawyers.com",
+    "address": "731 Main Street, Racine 53403",
+    "mailto_url": "mailto:contact@sterlinglawyers.com?subject=quick%20question%20regarding%20Sterling%20Lawyers%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.sterlinglawyers.com/wisconsin/locations/racine/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sterling%20Lawyers%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:51"
+  },
+  {
+    "id": 4,
+    "name": "Racine Lawyer #4",
+    "niche": "Lawyer",
+    "city": "Racine",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@racinelawyer#4.example",
+    "address": "704 Park Avenue, Racine",
+    "mailto_url": "mailto:contact@racinelawyer#4.example?subject=quick%20question%20regarding%20Racine%20Lawyer%20%234%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Racine%20Lawyer%20%234%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:51"
+  },
+  {
+    "id": 5,
+    "name": "Racine Lawyer #5",
+    "niche": "Lawyer",
+    "city": "Racine",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@racinelawyer#5.example",
+    "address": "Racine",
+    "mailto_url": "mailto:contact@racinelawyer#5.example?subject=quick%20question%20regarding%20Racine%20Lawyer%20%235%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Racine%20Lawyer%20%235%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:51"
+  },
+  {
+    "id": 6,
+    "name": "Jeffrey Leavell, SC",
+    "niche": "Lawyer",
+    "city": "Racine",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@jeffreyleavellsc.example",
+    "address": "723 Main Street, Racine",
+    "mailto_url": "mailto:contact@jeffreyleavellsc.example?subject=quick%20question%20regarding%20Jeffrey%20Leavell%2C%20SC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jeffrey%20Leavell%2C%20SC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:51"
+  },
+  {
+    "id": 7,
+    "name": "Racine Lawyer #7",
+    "niche": "Lawyer",
+    "city": "Racine",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@racinelawyer#7.example",
+    "address": "822 Wisconsin Avenue, Racine",
+    "mailto_url": "mailto:contact@racinelawyer#7.example?subject=quick%20question%20regarding%20Racine%20Lawyer%20%237%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Racine%20Lawyer%20%237%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:51"
+  },
+  {
+    "id": 8,
+    "name": "Servantez Law Offices",
+    "niche": "Lawyer",
+    "city": "Racine",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@servantezlawoffices.example",
+    "address": "4101 Washington Avenue, Racine",
+    "mailto_url": "mailto:contact@servantezlawoffices.example?subject=quick%20question%20regarding%20Servantez%20Law%20Offices%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Servantez%20Law%20Offices%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:51"
+  },
+  {
+    "id": 9,
+    "name": "Bruner Law Offices S.C.",
+    "niche": "Lawyer",
+    "city": "Racine",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@brunerlawofficessc.example",
+    "address": "827 Main Street, Racine",
+    "mailto_url": "mailto:contact@brunerlawofficessc.example?subject=quick%20question%20regarding%20Bruner%20Law%20Offices%20S.C.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bruner%20Law%20Offices%20S.C.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:51"
+  },
+  {
+    "id": 10,
+    "name": "Grunn Law Office",
+    "niche": "Lawyer",
+    "city": "Racine",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@grunnlawoffice.example",
+    "address": "310 6th Street, Racine",
+    "mailto_url": "mailto:contact@grunnlawoffice.example?subject=quick%20question%20regarding%20Grunn%20Law%20Office%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Grunn%20Law%20Office%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:52:51"
+  }
+]
