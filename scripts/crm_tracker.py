@@ -1,7 +1,7 @@
 """
 Autonomous B2B CRM Pipeline Tracker & State Manager
 ---------------------------------------------------
-Quản lý trạng thái tiếp cận và phễu khách hàng (Pipeline CRM) cho toàn bộ 30 leads.
+Quản lý trạng thái tiếp cận và phễu khách hàng (Pipeline CRM) cho toàn bộ 84 leads.
 Theo dõi từng giai đoạn tiếp cận: New -> Day 1 Sent -> Day 3 Follow-Up -> Day 7 Break-Up -> Call Booked -> Won.
 """
 

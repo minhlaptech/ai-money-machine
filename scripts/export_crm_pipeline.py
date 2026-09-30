@@ -1,7 +1,7 @@
 """
 Master B2B CRM Pipeline & Deliverables Exporter (CSV & JSON)
 ------------------------------------------------------------
-Exports all 30 curated leads with their complete 7-deliverable digital arsenal URLs:
+Exports all 84 curated leads with their complete 8-deliverable digital arsenal URLs:
  1. Proposal & Audit
  2. 10-Slide Sales Pitch Deck
  3. Live Client Sandbox

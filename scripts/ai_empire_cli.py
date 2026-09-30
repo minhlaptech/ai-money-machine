@@ -81,9 +81,9 @@ def print_banner():
   [50] 🔒 Mở Enterprise Security & Trust Center (/trust - SOC-2 & HIPAA Verification)
   [51] ⚡ Mở Global AI Performance & Benchmark Index (/benchmarks - 12 Industry Leaderboards)
   [52] 🛡️ Mở SLA Financial Guarantee Center (/guarantee - $5,000 Performance Bond)
-  [53] 🧠 Mở Self-Service Knowledge Base & AI Studio (/knowledge - 84 Client Agent Workspaces)
+  [53] 🧠 Mở Self-Service Knowledge Base & AI Studio (/knowledge - 119 Client Agent Workspaces)
   [54] 📬 Mở Omnichannel Unified Inbox & HITL Dispatch (/inbox - Human-in-the-Loop Triaging)
-  [55] 📈 Mở Client Value Attribution Engine (/attribution - $2,733,800/wk Protected Value)
+  [55] 📈 Mở Client Value Attribution Engine (/attribution - $3.50M/mo Empirical ROI Ledger)
   [0] Thoát
 ======================================================================
 """)
@@ -120,7 +120,7 @@ def main_loop():
             run_script("scripts/lead_finder.py", ["--niche", niche, "--city", city, "--limit", limit])
 
         elif choice == '4':
-            sub = input("Tạo đề xuất cho 1 khách hàng hay toàn bộ 60 leads? (1: Một khách / 60: Trọn bộ 60 leads, mặc định 60): ").strip()
+            sub = input("Tạo đề xuất cho 1 khách hàng hay toàn bộ 84 leads? (1: Một khách / 84: Trọn bộ 84 leads, mặc định 84): ").strip()
             if sub == '1':
                 name = input("Nhập tên doanh nghiệp khách hàng: ").strip() or "Austin Dental Co"
                 niche = input("Nhập lĩnh vực: ").strip() or "Cosmetic Dentistry"
@@ -130,7 +130,7 @@ def main_loop():
                 run_script("scripts/batch_proposal_generator.py")
 
         elif choice == '5':
-            sub = input("Tạo Pitch Deck cho 1 khách hàng hay toàn bộ 60 leads? (1: Một khách / 60: Trọn bộ 60 leads, mặc định 60): ").strip()
+            sub = input("Tạo Pitch Deck cho 1 khách hàng hay toàn bộ 84 leads? (1: Một khách / 84: Trọn bộ 84 leads, mặc định 84): ").strip()
             if sub == '1':
                 name = input("Nhập tên doanh nghiệp: ").strip() or "Austin Dental Co"
                 niche = input("Nhập lĩnh vực: ").strip() or "Cosmetic Dentistry"
@@ -140,7 +140,7 @@ def main_loop():
                 run_script("scripts/generate_client_pitch_deck.py", ["--all"])
 
         elif choice == '6':
-            sub = input("Tạo Sandbox thử nghiệm cho 1 khách hàng hay toàn bộ 60 leads? (1: Một khách / 60: Trọn bộ 60 leads, mặc định 60): ").strip()
+            sub = input("Tạo Sandbox thử nghiệm cho 1 khách hàng hay toàn bộ 84 leads? (1: Một khách / 84: Trọn bộ 84 leads, mặc định 84): ").strip()
             if sub == '1':
                 name = input("Nhập tên doanh nghiệp: ").strip() or "Austin Dental Co"
                 niche = input("Nhập lĩnh vực: ").strip() or "Cosmetic Dentistry"
@@ -150,7 +150,7 @@ def main_loop():
                 run_script("scripts/generate_client_sandbox.py", ["--all"])
 
         elif choice == '7':
-            sub = input("Tạo hợp đồng cho 1 khách hàng hay toàn bộ 60 leads? (1: Một khách / 60: Trọn bộ 60 leads, mặc định 60): ").strip()
+            sub = input("Tạo hợp đồng cho 1 khách hàng hay toàn bộ 84 leads? (1: Một khách / 84: Trọn bộ 84 leads, mặc định 84): ").strip()
             if sub == '1':
                 name = input("Nhập tên doanh nghiệp khách hàng: ").strip() or "Austin Dental Co"
                 niche = input("Nhập lĩnh vực: ").strip() or "Cosmetic Dentistry"
@@ -160,7 +160,7 @@ def main_loop():
                 run_script("scripts/generate_client_agreement.py", ["--all"])
 
         elif choice == '8':
-            sub = input("Xuất hóa đơn cho 1 khách hàng hay toàn bộ 60 leads? (1: Một khách / 60: Trọn bộ 60 leads, mặc định 60): ").strip()
+            sub = input("Xuất hóa đơn cho 1 khách hàng hay toàn bộ 84 leads? (1: Một khách / 84: Trọn bộ 84 leads, mặc định 84): ").strip()
             if sub == '1':
                 name = input("Nhập tên doanh nghiệp khách hàng: ").strip() or "Austin Dental Co"
                 niche = input("Nhập lĩnh vực: ").strip() or "Cosmetic Dentistry"
@@ -170,7 +170,7 @@ def main_loop():
                 run_script("scripts/generate_client_invoice.py", ["--all"])
 
         elif choice == '9':
-            sub = input("Tạo báo cáo ROI cho 1 khách hàng hay toàn bộ 60 leads? (1: Một khách / 60: Trọn bộ 60 leads, mặc định 60): ").strip()
+            sub = input("Tạo báo cáo ROI cho 1 khách hàng hay toàn bộ 84 leads? (1: Một khách / 84: Trọn bộ 84 leads, mặc định 84): ").strip()
             if sub == '1':
                 name = input("Nhập tên doanh nghiệp: ").strip() or "Austin Dental Co"
                 niche = input("Nhập lĩnh vực: ").strip() or "Cosmetic Dentistry"
