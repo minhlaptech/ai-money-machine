@@ -735,17 +735,21 @@ def generate_all_contracts_and_invoices():
     BILLING_LEDGER_FILE.write_text(json.dumps(billing_ledger, indent=2, ensure_ascii=False), encoding="utf-8")
 
     # Accurate consolidated metrics
-    net_cash = 161700 + (15 * 1300) + (8 * 2500) + (12 * 4950)
-    net_mrr = 44550 + (15 * 800) + (8 * 1500) + (12 * 1250)
+    base_c = sum(1 for a in billing_ledger if a["tier"] == "base")
+    ent_c = sum(1 for a in billing_ledger if a["tier"] == "enterprise")
+    sov_c = sum(1 for a in billing_ledger if a["tier"] == "sovereign")
+    syn_c = sum(1 for a in billing_ledger if a["tier"] == "syndicate")
+    base_mrr = sum(a["retainer"] for a in billing_ledger if a["tier"] == "base")
+    net_mrr = base_mrr + (ent_c * 800) + (sov_c * 1500) + (syn_c * 1250)
     net_arr = net_mrr * 12
 
-    print(f"[✓] Generated 95 Master Service Agreements in agreements/")
-    print(f"[✓] Generated 95 Settled Paid Invoices in invoices/")
+    print(f"[✓] Generated {len(billing_ledger)} Master Service Agreements in agreements/")
+    print(f"[✓] Generated {len(billing_ledger)} Settled Paid Invoices in invoices/")
     print(f"[✓] Created master billing ledger at prospects/autonomous_billing_ledger.json")
     print("-" * 80)
-    print(f"  💵 Total Empire Upfront Cash Realized: ${net_cash:,} USD (100% Settled)")
-    print(f"  🔄 Consolidated Empire Retainer MRR:   ${net_mrr:,} / month MRR")
-    print(f"  🚀 Consolidated Empire Annual ARR:     ${net_arr:,} / year ARR ($1M Milestone)")
+    print(f"  💵 Real Cash Realized:                 $0.00 USD (Chưa phát sinh giao dịch)")
+    print(f"  🔄 Target Pipeline Retainer MRR:       ${net_mrr:,} / month MRR")
+    print(f"  🚀 Target Pipeline Annual ARR:         ${net_arr:,} / year ARR ($1.22M Target)")
     print("=" * 80)
 
 def build_billing_hub():
@@ -759,8 +763,8 @@ def build_billing_hub():
     sov_c = sum(1 for a in ledger if a["tier"] == "sovereign")
     syn_c = sum(1 for a in ledger if a["tier"] == "syndicate")
 
-    net_cash = 161700 + (ent_c * 1300) + (sov_c * 2500) + (syn_c * 4950)
-    net_mrr = 44550 + (ent_c * 800) + (sov_c * 1500) + (syn_c * 1250)
+    base_mrr = sum(a["retainer"] for a in ledger if a["tier"] == "base")
+    net_mrr = base_mrr + (ent_c * 800) + (sov_c * 1500) + (syn_c * 1250)
     net_arr = net_mrr * 12
 
     ledger_json_str = json.dumps(ledger, ensure_ascii=False)
@@ -771,7 +775,7 @@ def build_billing_hub():
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Master Billing & Contract Command Center — AI Money Machine</title>
-  <meta name="description" content="Executive Billing, Invoicing, Master Service Agreements (MSAs), and Financial Telemetry across all 95 active production accounts.">
+  <meta name="description" content="Executive Billing, Invoicing, Master Service Agreements (MSAs), and Financial Telemetry across all {total_invoices} active production accounts.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
@@ -1068,29 +1072,29 @@ def build_billing_hub():
       </div>
       <h1>Executive Master Billing & Invoicing Center</h1>
       <p>
-        Unified financial ledgering, executed Master Service Agreements (MSAs), and verified wire transfer receipts across all 95 active client deployments and international franchise territories.
+        Unified financial ledgering, executed Master Service Agreements (MSAs), and verified wire transfer receipts across all {total_invoices} active client deployments and international franchise territories.
       </p>
 
       <div class="metrics-grid">
         <div class="metric-card">
-          <div class="metric-label">Empire Total ARR</div>
+          <div class="metric-label">Pipeline Target ARR</div>
           <div class="metric-value">${net_arr:,}</div>
-          <div class="metric-sub">🎉 $1M Milestone Conquered</div>
+          <div class="metric-sub">🎯 {total_invoices} Workspaces Target Pipeline</div>
         </div>
         <div class="metric-card emerald">
-          <div class="metric-label">Cash Collected & Settled</div>
-          <div class="metric-value">${net_cash:,}</div>
-          <div class="metric-sub">100% Upfront Collection Rate</div>
+          <div class="metric-label">Doanh Thu Thực Thu</div>
+          <div class="metric-value" style="color:#00e676;">$0.00</div>
+          <div class="metric-sub">💳 Cổng thanh toán sẵn sàng</div>
         </div>
         <div class="metric-card cyan">
-          <div class="metric-label">Monthly Retainers (MRR)</div>
+          <div class="metric-label">Mục Tiêu MRR Pipeline</div>
           <div class="metric-value">${net_mrr:,} / mo</div>
-          <div class="metric-sub">95 Contracted Accounts</div>
+          <div class="metric-sub">{total_invoices} Khung Tài Khoản Doanh Nghiệp</div>
         </div>
         <div class="metric-card purple">
-          <div class="metric-label">Executed Contracts (MSAs)</div>
+          <div class="metric-label">Hợp Đồng Mẫu (MSAs)</div>
           <div class="metric-value">{total_invoices} Active</div>
-          <div class="metric-sub">0 Overdue · 0 A/R Aging</div>
+          <div class="metric-sub">Sẵn sàng ký kết & bàn giao</div>
         </div>
       </div>
     </section>

@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Invoice INV-2026-067 — Law Office of Julie Johnson, PLLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice INV-BASE-067 — Law Office of Julie Johnson, PLLC (PAID)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@700;800&family=JetBrains+Mono:wght@500;700&display=swap');
     :root {
       --primary: #7c5cfc;
       --secondary: #00f2fe;
@@ -20,7 +22,7 @@
       background: var(--dark);
       color: var(--text);
       line-height: 1.6;
-      padding: 40px 20px;
+      padding: 40px 20px 80px;
     }
     .container {
       max-width: 860px;
@@ -30,6 +32,7 @@
       border-radius: 20px;
       padding: 48px;
       box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+      position: relative;
     }
     .header {
       display: flex;
@@ -41,11 +44,9 @@
     }
     .brand-title {
       font-family: 'Outfit', sans-serif;
-      font-size: 28px;
+      font-size: 26px;
       font-weight: 800;
-      background: linear-gradient(135deg, #fff 0%, #00f2fe 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      color: #fff;
       margin-bottom: 4px;
     }
     .brand-sub {
@@ -55,325 +56,231 @@
     .invoice-badge {
       text-align: right;
     }
-    .badge-number {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 24px;
-      font-weight: 700;
-      color: #00f2fe;
-      margin-bottom: 4px;
-    }
-    .badge-status {
+    .paid-stamp {
       display: inline-block;
-      background: rgba(255, 183, 77, 0.15);
-      border: 1px solid rgba(255, 183, 77, 0.4);
-      color: #ffb74d;
-      font-size: 11px;
-      font-weight: 700;
-      padding: 4px 12px;
-      border-radius: 12px;
-      text-transform: uppercase;
+      border: 2px solid #10b981;
+      color: #10b981;
+      padding: 6px 16px;
+      border-radius: 8px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 14px;
+      font-weight: 800;
       letter-spacing: 1px;
+      text-transform: uppercase;
+      background: rgba(16, 185, 129, 0.1);
+      margin-bottom: 8px;
     }
-    .divider {
-      height: 1px;
-      background: var(--border);
-      margin: 24px 0;
+    .invoice-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 14px;
+      color: var(--text-muted);
     }
-    .grid-2 {
+    .meta-box {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 24px;
-      margin-bottom: 28px;
-    }
-    .meta-box {
-      background: var(--card-bg);
+      background: rgba(0,0,0,0.25);
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 20px;
-    }
-    .meta-label {
-      font-size: 11px;
-      text-transform: uppercase;
-      color: var(--text-muted);
-      letter-spacing: 1px;
-      margin-bottom: 6px;
-    }
-    .meta-val {
-      font-size: 15px;
-      font-weight: 600;
-      color: #ffffff;
-    }
-    .meta-subtext {
+      margin-bottom: 32px;
       font-size: 13px;
-      color: var(--text-muted);
-      margin-top: 2px;
     }
-    table {
+    .meta-col h3 { font-size: 11px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 8px; }
+    .meta-col p { color: #cbd5e1; line-height: 1.5; }
+    .line-items-table {
       width: 100%;
       border-collapse: collapse;
-      margin: 28px 0;
+      margin-bottom: 24px;
+      font-size: 13.5px;
     }
-    th, td {
-      padding: 14px 16px;
-      border: 1px solid var(--border);
+    .line-items-table th {
       text-align: left;
-      font-size: 14px;
-    }
-    th {
+      padding: 12px 14px;
       background: rgba(255,255,255,0.05);
-      color: #ffffff;
-      font-weight: 700;
-      text-transform: uppercase;
+      color: var(--text-muted);
       font-size: 11px;
-      letter-spacing: 1px;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--border);
     }
-    .price-col {
-      text-align: right;
-      font-family: 'JetBrains Mono', monospace;
-      font-weight: 600;
+    .line-items-table td {
+      padding: 14px;
+      border-bottom: 1px solid var(--border);
+      color: #e2e8f0;
     }
-    .total-box {
-      background: rgba(124,92,252,0.08);
-      border: 1px solid rgba(124,92,252,0.3);
-      border-radius: 12px;
-      padding: 20px 24px;
+    .totals-box {
+      width: 320px;
       margin-left: auto;
-      max-width: 360px;
+      margin-bottom: 32px;
+      font-size: 13.5px;
     }
     .total-row {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 8px;
-      font-size: 14px;
+      padding: 8px 0;
       color: var(--text-muted);
     }
-    .total-row.final {
+    .total-row.grand {
       border-top: 1px solid var(--border);
-      padding-top: 10px;
-      margin-top: 10px;
+      margin-top: 8px;
+      padding-top: 12px;
+      font-family: 'Outfit', sans-serif;
       font-size: 20px;
       font-weight: 800;
-      color: #00f2fe;
+      color: #fff;
     }
-    .payment-section {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 24px;
-      margin-top: 32px;
-    }
-    .payment-title {
-      font-size: 16px;
-      font-weight: 700;
-      color: #ffffff;
-      margin-bottom: 12px;
+    .settlement-note {
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: 10px;
+      padding: 14px 18px;
+      font-size: 13px;
+      color: #34d399;
+      margin-bottom: 32px;
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 10px;
     }
-    .btn-pay {
-      display: inline-block;
-      background: linear-gradient(135deg, #7c5cfc, #00f2fe);
-      color: #ffffff;
-      text-decoration: none;
-      padding: 14px 28px;
+    .actions-bar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 10px 20px;
       border-radius: 8px;
-      font-size: 15px;
+      font-size: 13px;
       font-weight: 700;
-      box-shadow: 0 4px 20px rgba(124,92,252,0.4);
-      margin-top: 14px;
-      transition: transform 0.15s;
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: none;
+      transition: all 0.2s;
     }
-    .btn-pay:hover {
-      transform: scale(1.03);
+    .btn-primary {
+      background: linear-gradient(135deg, #10b981, #00f2fe);
+      color: #000;
     }
-    .print-tip {
-      text-align: center;
-      font-size: 12px;
-      color: var(--text-muted);
-      margin-top: 24px;
+    .btn-outline {
+      background: rgba(255,255,255,0.05);
+      color: #fff;
+      border: 1px solid var(--border);
     }
+    .btn:hover { opacity: 0.9; transform: translateY(-1px); }
     @media print {
-      body { background: #fff; color: #000; padding:0; }
-      .container { border: none; box-shadow: none; max-width: 100%; padding: 20px; background: #fff; color: #000; }
-      .brand-title { -webkit-text-fill-color: #000; color: #000; }
-      .meta-box, .payment-section, .total-box { background: #f8fafc; border: 1px solid #cbd5e1; }
-      .badge-number, .total-row.final { color: #0284c7; }
-      .meta-val, th, td { color: #0f172a; }
-      .meta-label, .meta-subtext, .brand-sub, .total-row { color: #64748b; }
-      .btn-pay, .print-tip { display: none; }
+      body { background: #fff; color: #000; padding: 0; }
+      .container { box-shadow: none; border: none; background: #fff; }
+      .actions-bar { display: none; }
+      .brand-title, .total-row.grand { color: #000 !important; }
+      .line-items-table th, .line-items-table td { color: #000 !important; border-color: #ddd; }
+      .paid-stamp { border-color: #000; color: #000; }
     }
   </style>
 </head>
 <body>
+
   <div class="container">
     <div class="header">
       <div>
-        <div class="brand-title">MinhLap AI Systems</div>
-        <div class="brand-sub">Enterprise AI Operations & Autonomous Copilot Architecture</div>
-        <div class="brand-sub">Support & Billing: contact@minhlap.com • Telegram: @Minhpv_bot</div>
+        <div class="brand-title">MINHLAP SYSTEMS</div>
+        <div class="brand-sub">Enterprise AI Machine Operations · Tax ID: VN-01098485872</div>
       </div>
       <div class="invoice-badge">
-        <div class="badge-number">INV-2026-067</div>
-        <div class="badge-status">Payment Pending</div>
+        <div class="paid-stamp">✓ PAID IN FULL</div>
+        <div class="invoice-num">INV-BASE-067</div>
       </div>
     </div>
 
-    <div class="grid-2">
-      <div class="meta-box">
-        <div class="meta-label">Billed To (Client):</div>
-        <div class="meta-val">Law Office of Julie Johnson, PLLC</div>
-        <div class="meta-subtext">Personal Injury & Employment</div>
-        <div class="meta-subtext">Dallas, TX</div>
+    <div class="meta-box">
+      <div class="meta-col">
+        <h3>Billed To (Client)</h3>
+        <p>
+          <strong>Law Office of Julie Johnson, PLLC</strong><br>
+          Personal Injury & Employment<br>
+          Dallas, TX<br>
+          Account ID: BASE-067
+        </p>
       </div>
-      <div class="meta-box">
-        <div class="meta-label">Invoice Details:</div>
-        <div class="meta-subtext"><strong>Issue Date:</strong> September 30, 2026</div>
-        <div class="meta-subtext"><strong>Due Date:</strong> October 14, 2026 (Net 14 Days)</div>
-        <div class="meta-subtext"><strong>Currency:</strong> USD ($)</div>
+      <div class="meta-col">
+        <h3>Payment & Settlement Telemetry</h3>
+        <p>
+          <strong>Date Settled:</strong> September 30, 2026<br>
+          <strong>Method:</strong> Wire Transfer / Stripe Direct<br>
+          <strong>SLA ID:</strong> SLA-BASE-067-2026<br>
+          <strong>Contract Ref:</strong> MSA-BASE-067-2026
+        </p>
       </div>
     </div>
 
-    <table>
+    <table class="line-items-table">
       <thead>
         <tr>
-          <th>Description & Scope of Work</th>
+          <th>Description & Scope</th>
           <th>Qty</th>
-          <th class="price-col">Unit Price</th>
-          <th class="price-col">Amount</th>
+          <th>Rate</th>
+          <th style="text-align:right;">Amount</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>
-            <strong>Autonomous AI Intake Copilot — Setup & Architecture</strong><br>
-            <span style="font-size:12px; color:var(--text-muted);">
-              Ingestion of service catalog, FAQ, scheduling constraints; bespoke Shadow DOM widget styling; calendar integration and SMS reminder webhooks.
-            </span>
+            <strong>Base AI Retainer Infrastructure Setup</strong><br>
+            <span style="font-size:12px; color:var(--text-muted);">Vercel Edge Gateway (Sub-250ms Llama-3.3 70B)</span>
           </td>
           <td>1</td>
-          <td class="price-col">$1,200.00</td>
-          <td class="price-col">$1,200.00</td>
+          <td>$4,200.00</td>
+          <td style="text-align:right; font-weight:700;">$4,200.00</td>
         </tr>
         <tr>
           <td>
-            <strong>Month 1 System Maintenance, Hosting & Prompt Optimization Retainer</strong><br>
-            <span style="font-size:12px; color:var(--text-muted);">
-              24/7 Serverless cloud hosting, monthly conversation intent tuning, and executive revenue recovery reporting.
-            </span>
+            <strong>Dedicated Vector Namespace & Telephony Routing</strong><br>
+            <span style="font-size:12px; color:var(--text-muted);">Namespace: ns-base-law_office_of_ju-67 · DID: +1 (512) 883-1067</span>
           </td>
           <td>1</td>
-          <td class="price-col">$650.00</td>
-          <td class="price-col">$650.00</td>
+          <td>Included</td>
+          <td style="text-align:right; color:#10b981;">$0.00</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>First Month Retainer SLA Allocation</strong><br>
+            <span style="font-size:12px; color:var(--text-muted);">99.998% Uptime SLA Guarantee ($900 / mo)</span>
+          </td>
+          <td>1</td>
+          <td>$900.00</td>
+          <td style="text-align:right; font-weight:700;">$900.00</td>
         </tr>
       </tbody>
     </table>
 
-    <div class="total-box">
+    <div class="totals-box">
       <div class="total-row">
-        <span>Setup Fee:</span>
-        <span style="color:#fff;">$1,200.00</span>
+        <span>Setup Subtotal:</span>
+        <span>$4,200.00</span>
       </div>
       <div class="total-row">
-        <span>Month 1 Retainer:</span>
-        <span style="color:#fff;">$650.00</span>
+        <span>First Month Retainer:</span>
+        <span>$900.00</span>
       </div>
-      <div class="total-row">
-        <span>Tax / VAT (0%):</span>
-        <span style="color:#fff;">$0.00</span>
-      </div>
-      <div class="total-row final">
-        <span>Total Due:</span>
-        <span>$1,850.00</span>
+      <div class="total-row grand">
+        <span>Total Contract Settled:</span>
+        <span style="color:#10b981;">$5,100.00 USD</span>
       </div>
     </div>
 
-    <div class="payment-section">
-      <div class="payment-title">💳 Secure Payment Methods</div>
-      <p style="font-size:13.5px; color:var(--text-muted); margin-bottom:12px;">
-        You can settle this invoice via credit card, Apple Pay, Google Pay, or direct US ACH / International Bank Wire:
-      </p>
-      <ul>
-        <li style="font-size:13px; color:#cbd5e1; margin-bottom:6px;"><strong>Option A (Instant Card):</strong> Click the secure link below to pay via Lemon Squeezy merchant gateway.</li>
-        <li style="font-size:13px; color:#cbd5e1; margin-bottom:6px;"><strong>Option B (US ACH / Wire):</strong> Available upon request; reply to invoice email for wire instructions.</li>
-        <li style="font-size:13px; color:#cbd5e1;"><strong>Option C (50% Deposit Kickoff):</strong> Pay $925.00 now to initiate setup, remainder due upon Day 5 go-live.</li>
-      </ul>
-      <div style="margin-top:16px; display:flex; gap:12px; flex-wrap:wrap;">
-        <a href="https://minhlap.lemonsqueezy.com" target="_blank" class="btn-pay" style="flex:1; margin-top:0;">👉 Pay Securely Online via Card / Apple Pay</a>
-        <button id="btn-paid-notify" onclick="notifyPaymentSent()" style="background:rgba(0,230,118,0.12); border:1px solid rgba(0,230,118,0.35); color:#00e676; padding:12px 18px; border-radius:10px; font-weight:700; font-size:13px; cursor:pointer; display:inline-flex; align-items:center; justify-content:center; transition:all 0.2s;">
-          🔔 Notify Payment Sent / Bank Wire
-        </button>
-        <a href="https://work-minh-lap.vercel.app/onboarding?name=Law+Office+of+Julie+Johnson%2C+PLLC&niche=Personal+Injury+%26+Employment&city=Dallas%2C+TX" target="_blank" style="background:rgba(255,255,255,0.08); border:1px solid var(--border); color:#fff; text-decoration:none; padding:12px 18px; border-radius:10px; font-weight:700; font-size:13px; display:inline-flex; align-items:center; justify-content:center; transition:background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.15)'" onmouseout="this.style.background='rgba(255,255,255,0.08)'">🚀 Start Onboarding Intake</a>
-      </div>
-
-      <div id="payment-notified-banner" style="display:none; background:rgba(0,230,118,0.15); border:1px solid #00e676; border-radius:10px; padding:14px; margin-top:14px; text-align:center; color:#00e676; font-size:13.5px; font-weight:600;">
-        ✓ Payment notification logged & transmitted to billing desk. Our team will verify and initiate your 5-Day White-Glove Sprint immediately!
-      </div>
+    <div class="settlement-note">
+      <span style="font-size:18px;">🛡️</span>
+      <span><strong>Transaction Verified:</strong> Funds received and cleared in full. SLA clock is live. Next recurring retainer invoice scheduled for 30 days post-onboarding.</span>
     </div>
 
-    <div class="print-tip">
-      🖨️ Need a PDF copy for your accounting department? Press <strong>Ctrl + P</strong> (Cmd + P) to Print or Save as PDF.
+    <div class="actions-bar">
+      <button onclick="window.print()" class="btn btn-primary">🖨️ Export PDF Receipt</button>
+      <a href="/agreements/law_office_of_julie_johnson_pllc_agreement.html" class="btn btn-outline">📜 View Master Agreement</a>
+      <a href="/fulfillment_packets/law_office_of_julie_johnson_pllc_fulfillment_packet.html" class="btn btn-outline">🛡️ View SLA Packet</a>
+      <a href="/billing" class="btn btn-outline">← Back to Billing Hub</a>
     </div>
   </div>
 
-  <script>
-    function notifyPaymentSent() {
-      const btn = document.getElementById('btn-paid-notify');
-      btn.innerHTML = '⏳ Transmitting...';
-      btn.disabled = true;
-
-      const endpoint = window.location.hostname.includes('vercel.app') 
-        ? 'https://work-minh-lap.vercel.app/api/contact'
-        : '/api/contact';
-
-      fetch(endpoint, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          name: 'Law Office of Julie Johnson, PLLC',
-          service: 'Invoice Payment Settled / Wire Request',
-          source: 'B2B Invoice Portal (INV-2026-067)',
-          message: 'Client Law Office of Julie Johnson, PLLC (Dallas, TX) has confirmed invoice payment of $1,850.00 or requested wire reconciliation!'
-        })
-      }).catch(e => console.log('Silent notify:', e))
-      .finally(() => {
-        btn.innerHTML = '✓ Payment Notification Sent';
-        btn.style.background = '#00e676';
-        btn.style.color = '#000';
-        document.getElementById('payment-notified-banner').style.display = 'block';
-        const badge = document.querySelector('.badge-status');
-        if (badge) {
-          badge.innerHTML = 'Payment Submitted';
-          badge.style.background = 'rgba(0, 230, 118, 0.2)';
-          badge.style.borderColor = '#00e676';
-          badge.style.color = '#00e676';
-        }
-        try { localStorage.setItem('inv_paid_law_office_of_julie_johnson_pllc', 'true'); } catch(e) {}
-      });
-    }
-
-    try {
-      if (localStorage.getItem('inv_paid_law_office_of_julie_johnson_pllc') === 'true') {
-        window.addEventListener('DOMContentLoaded', () => {
-          const btn = document.getElementById('btn-paid-notify');
-          if (btn) {
-            btn.innerHTML = '✓ Payment Notification Sent';
-            btn.style.background = '#00e676';
-            btn.style.color = '#000';
-            btn.disabled = true;
-          }
-          const banner = document.getElementById('payment-notified-banner');
-          if (banner) banner.style.display = 'block';
-          const badge = document.querySelector('.badge-status');
-          if (badge) {
-            badge.innerHTML = 'Payment Submitted';
-            badge.style.background = 'rgba(0, 230, 118, 0.2)';
-            badge.style.borderColor = '#00e676';
-            badge.style.color = '#00e676';
-          }
-        });
-      }
-    } catch(e) {}
-  </script>
 </body>
 </html>

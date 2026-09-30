@@ -1885,8 +1885,8 @@ def build_sandboxes_hub(records):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Autonomous Sandbox & Simulation Hub — 95 Active Client Simulators</title>
-  <meta name="description" content="Executive interactive simulation and acceptance testing hub for 95 production AI deployments across Base, Enterprise Voice, Sovereign VPC, and Syndicate tiers.">
+  <title>Autonomous Sandbox & Simulation Hub — 119 Active Client Simulators</title>
+  <meta name="description" content="Executive interactive simulation and acceptance testing hub for 119 production AI deployments across Base, Enterprise Voice, Sovereign VPC, and Syndicate tiers ($101,550/mo Target Pipeline).">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <style>
@@ -2231,14 +2231,14 @@ def build_sandboxes_hub(records):
         <div class="brand-icon">🧪</div>
         <div>
           <div class="brand-title">Autonomous Sandbox & Simulation Hub</div>
-          <div class="brand-sub">Flagship #18 • 95 Live Production Environments</div>
+          <div class="brand-sub">Flagship #18 • 119 Live Production Environments</div>
         </div>
       </a>
       <div class="nav-links">
         <a href="/" class="nav-btn">⚡ Dashboard</a>
-        <a href="/portal" class="nav-btn">🏛️ Portals (95)</a>
+        <a href="/portal" class="nav-btn">🏛️ Portals (119)</a>
         <a href="/fulfillment" class="nav-btn">🛡️ Ops Hub</a>
-        <a href="/billing" class="nav-btn">🧾 Billing (95)</a>
+        <a href="/billing" class="nav-btn">🧾 Billing (119)</a>
         <a href="/tools" class="nav-btn">⚡ SaaS Suite</a>
       </div>
     </div>
@@ -2248,12 +2248,12 @@ def build_sandboxes_hub(records):
     <div class="hero">
       <span class="hero-badge">● 100% Live Acceptance Environments</span>
       <h1>Executive Interactive Sandbox Hub</h1>
-      <p>Instant acceptance testing and live behavioral simulations across all 95 accounts in our 4-tier enterprise AI infrastructure ($1,002,600 ARR verified).</p>
+      <p>Instant acceptance testing and live behavioral simulations across all 119 accounts in our 4-tier enterprise AI infrastructure ($101,550/mo Target Pipeline · $1.22M ARR Target).</p>
     </div>
 
     <div class="kpi-grid">
       <div class="kpi-card">
-        <div class="kpi-val" style="color:#00f2fe;">95 / 95</div>
+        <div class="kpi-val" style="color:#00f2fe;">119 / 119</div>
         <div class="kpi-lbl">Active Live Sandboxes</div>
       </div>
       <div class="kpi-card">
@@ -2265,15 +2265,15 @@ def build_sandboxes_hub(records):
         <div class="kpi-lbl">Global Edge & Voice Latency</div>
       </div>
       <div class="kpi-card">
-        <div class="kpi-val" style="color:#f59e0b;">$1,002,600</div>
-        <div class="kpi-lbl">Tested ARR Protected</div>
+        <div class="kpi-val" style="color:#f59e0b;">$1,218,600</div>
+        <div class="kpi-lbl">Target Pipeline ARR ($0 Realized)</div>
       </div>
     </div>
 
     <div class="controls-bar">
       <div class="filter-pills">
-        <button class="pill-btn active" onclick="filterTier('all', this)">All Sandboxes (95)</button>
-        <button class="pill-btn" onclick="filterTier('base', this)">Base SMBs (60)</button>
+        <button class="pill-btn active" onclick="filterTier('all', this)">All Sandboxes (119)</button>
+        <button class="pill-btn" onclick="filterTier('base', this)">Base SMBs (84)</button>
         <button class="pill-btn" onclick="filterTier('enterprise', this)">Enterprise Voice (15)</button>
         <button class="pill-btn" onclick="filterTier('sovereign', this)">Sovereign GPU (8)</button>
         <button class="pill-btn" onclick="filterTier('syndicate', this)">Syndicate Franchise (12)</button>

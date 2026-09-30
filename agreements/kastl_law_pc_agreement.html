@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Master Services Agreement AGR-2026-069 — Kastl Law P.C.</title>
+  <title>Master Services Agreement MSA-BASE-069-2026 — Kastl Law P.C.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@700;800&family=JetBrains+Mono:wght@500;700&display=swap');
     :root {
       --primary: #7c5cfc;
       --secondary: #00f2fe;
@@ -14,6 +15,7 @@
       --border: rgba(255,255,255,0.1);
       --text: #e2e8f0;
       --text-muted: #94a3b8;
+      --tier-color: #bfa8ff;
     }
     * { margin:0; padding:0; box-sizing:border-box; }
     body {
@@ -21,10 +23,10 @@
       background: var(--dark);
       color: var(--text);
       line-height: 1.6;
-      padding: 40px 20px;
+      padding: 40px 20px 80px;
     }
     .container {
-      max-width: 860px;
+      max-width: 880px;
       margin: 0 auto;
       background: #0d0d21;
       border: 1px solid var(--border);
@@ -37,464 +39,270 @@
       justify-content: space-between;
       align-items: flex-start;
       border-bottom: 1px solid var(--border);
-      padding-bottom: 30px;
-      margin-bottom: 30px;
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+      flex-wrap: wrap;
+      gap: 16px;
     }
     .brand-title {
       font-family: 'Outfit', sans-serif;
       font-size: 26px;
       font-weight: 800;
-      background: linear-gradient(135deg, #fff 30%, var(--secondary));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-bottom: 4px;
+      color: #fff;
     }
     .brand-sub {
       color: var(--text-muted);
       font-size: 13px;
     }
     .badge {
-      background: rgba(124,92,252,0.15);
-      border: 1px solid rgba(124,92,252,0.4);
-      color: #b794f4;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 12px;
+      background: rgba(124, 92, 252, 0.15);
+      border: 1px solid rgba(124, 92, 252, 0.4);
+      color: #bfa8ff;
       padding: 6px 14px;
-      border-radius: 8px;
-      font-weight: 600;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 800;
+      font-family: 'JetBrains Mono', monospace;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 20px;
+      color: #fff;
     }
     .meta-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      background: var(--card-bg);
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      background: rgba(0,0,0,0.25);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 30px;
+      padding: 18px;
+      margin-bottom: 28px;
+      font-size: 13px;
     }
-    .meta-box h4 {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: var(--text-muted);
-      margin-bottom: 6px;
+    .meta-item strong { display: block; color: var(--text-muted); font-size: 11px; text-transform: uppercase; margin-bottom: 4px; }
+    .meta-item span { font-family: 'JetBrains Mono', monospace; color: #fff; font-weight: 600; }
+    .section {
+      margin-bottom: 24px;
     }
-    .meta-box p {
-      font-size: 14px;
-      color: #fff;
-      font-weight: 500;
-    }
-    h2.section-heading {
+    .section h2 {
       font-size: 16px;
       font-weight: 700;
-      color: #fff;
-      margin: 24px 0 12px;
+      color: var(--secondary);
+      margin-bottom: 10px;
       display: flex;
       align-items: center;
       gap: 8px;
-      border-bottom: 1px dashed rgba(255,255,255,0.08);
-      padding-bottom: 6px;
     }
-    p.clause-text {
-      font-size: 13px;
+    .section p, .section li {
+      font-size: 13.5px;
       color: #cbd5e1;
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+    .section ul {
+      padding-left: 20px;
       margin-bottom: 12px;
-      text-align: justify;
     }
-    ul.clause-list {
-      margin: 8px 0 16px 20px;
-      color: #cbd5e1;
-      font-size: 13px;
-    }
-    ul.clause-list li {
-      margin-bottom: 6px;
+    .terms-box {
+      background: rgba(124, 92, 252, 0.08);
+      border: 1px solid rgba(124, 92, 252, 0.3);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 28px;
     }
     .pricing-table {
       width: 100%;
       border-collapse: collapse;
-      margin: 16px 0 24px;
-      background: rgba(255,255,255,0.02);
-      border-radius: 10px;
-      overflow: hidden;
-      border: 1px solid var(--border);
-    }
-    .pricing-table th {
-      background: rgba(255,255,255,0.05);
-      padding: 10px 14px;
-      text-align: left;
-      font-size: 11px;
-      text-transform: uppercase;
-      color: var(--text-muted);
-    }
-    .pricing-table td {
-      padding: 12px 14px;
+      margin-top: 10px;
       font-size: 13px;
-      border-bottom: 1px solid rgba(255,255,255,0.05);
     }
-    .signature-area {
+    .pricing-table th, .pricing-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+    }
+    .pricing-table th { color: var(--text-muted); font-size: 11px; text-transform: uppercase; }
+    .sig-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 24px;
-      margin-top: 36px;
+      margin-top: 32px;
       padding-top: 24px;
       border-top: 1px solid var(--border);
     }
-    .sign-box {
-      background: var(--card-bg);
+    .sig-box {
+      background: rgba(0,0,0,0.25);
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 20px;
     }
-    .sign-box h3 {
-      font-size: 13px;
-      color: #fff;
-      margin-bottom: 10px;
-    }
-    .canvas-wrapper {
-      background: #050510;
-      border: 1px dashed rgba(255,255,255,0.2);
-      border-radius: 8px;
-      position: relative;
-      margin-bottom: 8px;
-    }
-    canvas {
-      display: block;
-      width: 100%;
-      height: 100px;
-      cursor: crosshair;
-    }
-    .btn-clear {
-      background: rgba(255,255,255,0.08);
-      border: none;
-      color: #94a3b8;
-      font-size: 11px;
-      padding: 4px 8px;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    .btn-clear:hover { color: #fff; }
-    .sign-meta {
-      font-size: 12px;
-      color: var(--text-muted);
-      margin-top: 8px;
-    }
-    .sign-meta strong { color: #fff; }
-    .actions-bar {
-      margin-top: 32px;
+    .sig-box h3 { font-size: 14px; color: var(--text-muted); margin-bottom: 12px; text-transform: uppercase; font-size: 11px; }
+    .sig-line {
+      height: 60px;
+      border-bottom: 1px dashed rgba(255,255,255,0.3);
+      margin-bottom: 12px;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      background: rgba(255,255,255,0.02);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 16px 24px;
+      font-family: 'Outfit', cursive;
+      font-size: 20px;
+      color: #00f2fe;
     }
-    .btn-action {
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
-      color: #fff;
-      font-weight: 700;
-      border: none;
+    .sig-details { font-size: 12px; color: var(--text-muted); line-height: 1.5; }
+    .actions-bar {
+      display: flex;
+      gap: 12px;
+      margin-top: 32px;
+      flex-wrap: wrap;
+    }
+    .btn {
       padding: 10px 20px;
       border-radius: 8px;
-      cursor: pointer;
       font-size: 13px;
+      font-weight: 700;
       text-decoration: none;
-      box-shadow: 0 4px 15px rgba(124,92,252,0.3);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: none;
+      transition: all 0.2s;
     }
-    .btn-action:hover { opacity: 0.95; }
-    .btn-secondary {
-      background: rgba(255,255,255,0.08);
+    .btn-primary {
+      background: linear-gradient(135deg, #7c5cfc, #00f2fe);
+      color: #000;
+    }
+    .btn-outline {
+      background: rgba(255,255,255,0.05);
       color: #fff;
-      font-weight: 600;
       border: 1px solid var(--border);
-      padding: 10px 16px;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 13px;
-      text-decoration: none;
-      margin-right: 8px;
     }
-
-    /* Print Styles */
+    .btn:hover { opacity: 0.9; transform: translateY(-1px); }
     @media print {
-      body { background: #fff !important; color: #111 !important; padding: 0 !important; }
-      .container { max-width: 100% !important; background: #fff !important; border: none !important; box-shadow: none !important; padding: 20px !important; }
-      .header { border-bottom: 2px solid #222 !important; }
-      .brand-title { color: #111 !important; -webkit-text-fill-color: #111 !important; }
-      .meta-grid { background: #f8fafc !important; border: 1px solid #cbd5e1 !important; }
-      .meta-box p { color: #111 !important; }
-      h2.section-heading { color: #111 !important; border-bottom: 1px solid #ccc !important; }
-      p.clause-text, ul.clause-list { color: #333 !important; }
-      .pricing-table { background: #fff !important; border: 1px solid #cbd5e1 !important; }
-      .pricing-table th { background: #f1f5f9 !important; color: #333 !important; }
-      .pricing-table td { border-bottom: 1px solid #e2e8f0 !important; color: #111 !important; }
-      .sign-box { background: #f8fafc !important; border: 1px solid #cbd5e1 !important; }
-      .canvas-wrapper { background: #fff !important; border: 1px solid #94a3b8 !important; }
-      .actions-bar { display: none !important; }
-      .badge { border: 1px solid #666 !important; color: #111 !important; }
+      body { background: #fff; color: #000; padding: 0; }
+      .container { box-shadow: none; border: none; background: #fff; }
+      .actions-bar { display: none; }
+      .brand-title, h1, .section h2 { color: #000 !important; }
+      .meta-item span, .sig-line { color: #000 !important; }
+      .pricing-table th, .pricing-table td { color: #000 !important; border-color: #ddd; }
+      .section p, .section li { color: #222 !important; }
     }
   </style>
 </head>
 <body>
+
   <div class="container">
     <div class="header">
       <div>
-        <div class="brand-title">MinhLap AI Automation</div>
-        <div class="brand-sub">Master Services Agreement (MSA) • Enterprise AI Implementation</div>
+        <div class="brand-title">MINHLAP SYSTEMS</div>
+        <div class="brand-sub">Enterprise Autonomous AI Infrastructure & Machine Operations</div>
       </div>
-      <div class="badge">AGR-2026-069</div>
+      <span class="badge">Base AI Retainer</span>
     </div>
+
+    <h1>Master Services Agreement (MSA)</h1>
 
     <div class="meta-grid">
-      <div class="meta-box">
-        <h4>Service Provider / Consultant</h4>
-        <p>MinhLap AI Automation Solutions</p>
-        <div style="font-size:12px; color:var(--text-muted); margin-top:2px;">Representative: Minh Lap (Lead AI Engineer)<br>Email: minh@minhlap.tech • Austin / Global Remote</div>
+      <div class="meta-item">
+        <strong>Agreement ID</strong>
+        <span>MSA-BASE-069-2026</span>
       </div>
-      <div class="meta-box">
-        <h4>Client Business</h4>
-        <p>Kastl Law P.C.</p>
-        <div style="font-size:12px; color:var(--text-muted); margin-top:2px;">Industry: Personal Injury Litigation<br>Location: Dallas, TX • United States</div>
+      <div class="meta-item">
+        <strong>Effective Date</strong>
+        <span>September 30, 2026</span>
+      </div>
+      <div class="meta-item">
+        <strong>Client Account</strong>
+        <span>Kastl Law P.C.</span>
+      </div>
+      <div class="meta-item">
+        <strong>SLA Standard</strong>
+        <span>99.998% Uptime &lt; 48h Sprint</span>
       </div>
     </div>
 
-    <p class="clause-text">
-      This Master Services Agreement ("Agreement") is executed and entered into as of <strong>September 30, 2026</strong> ("Effective Date"), by and between <strong>MinhLap AI Automation Solutions</strong> ("Provider") and <strong>Kastl Law P.C.</strong> ("Client").
-    </p>
+    <div class="section">
+      <h2>1. Purpose & Parties</h2>
+      <p>This Master Services Agreement ("Agreement") is executed between <strong>MinhLap Systems</strong> ("Provider"), and <strong>Kastl Law P.C.</strong> ("Client"), located in Dallas, TX, governing the provisioning, deployment, and ongoing SLA maintenance of autonomous AI software clusters.</p>
+    </div>
 
-    <h2 class="section-heading">1. SCOPE OF SERVICES & DELIVERABLES</h2>
-    <p class="clause-text">
-      Provider will implement and deploy a turnkey, autonomous AI reception and qualification ecosystem customized for Client’s operational requirements:
-    </p>
-    <ul class="clause-list">
-      <li><strong>24/7 AI Lead Intake & Copilot:</strong> Custom trained on Kastl Law P.C.’s specific services, pricing guides, FAQs, and business hours. Zero hallucinations guaranteed.</li>
-      <li><strong>Instant Appointment Scheduling:</strong> Direct two-way sync with designated calendar (Google Calendar / Calendly / CRM).</li>
-      <li><strong>Missed Call & Form Text-Back Automation:</strong> Automated sub-60-second SMS and email responses to incoming inquiries.</li>
-      <li><strong>Staff Handover & Training:</strong> 1-on-1 walkthrough video, administrative guide, and staff onboarding support.</li>
-    </ul>
+    <div class="section">
+      <h2>2. Scope of Services & Infrastructure Deliverables</h2>
+      <ul>
+        <li><strong>Infrastructure Architecture:</strong> Vercel Edge Gateway (Sub-250ms Llama-3.3 70B)</li>
+        <li><strong>Dedicated Vector Namespace:</strong> <code>ns-base-kastl_law_pc-69</code> with zero cross-tenant leakage.</li>
+        <li><strong>Telephony & Voice Routing:</strong> Dedicated SIP trunk on <code>+1 (512) 883-1069</code> (184ms avg).</li>
+        <li><strong>SLA Compliance Guarantee:</strong> Sub-48 hour emergency deployment sprint, weekly automated ROI audit reporting, and 99.998% high-availability edge uptime.</li>
+      </ul>
+    </div>
 
-    <h2 class="section-heading">2. COMPENSATION & PAYMENT SCHEDULE</h2>
-    <table class="pricing-table">
-      <thead>
-        <tr>
-          <th>Deliverable / Tier</th>
-          <th>Description</th>
-          <th style="text-align:right;">Fee (USD)</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Implementation & Setup</strong></td>
-          <td>Custom prompt engineering, webhook integrations, widget styling & deployment</td>
-          <td style="text-align:right; font-weight:700; color:#fff;">$1,200.00</td>
-        </tr>
-        <tr>
-          <td><strong>Monthly Maintenance Retainer</strong></td>
-          <td>24/7 monitoring, monthly prompt calibration, security updates & API uptime</td>
-          <td style="text-align:right; font-weight:700; color:#34d399;">$650.00 / mo</td>
-        </tr>
-      </tbody>
-    </table>
-    <p class="clause-text">
-      <strong>Terms of Payment:</strong> Setup fee is billed with 50% ($600.00) due prior to project commencement, and 50% ($600.00) upon successful deployment and Client acceptance. The monthly maintenance retainer commences 30 days after launch and is cancelable with a 30-day written notice.
-    </p>
+    <div class="terms-box">
+      <h2 style="color:#ffd700; margin-bottom:12px;">3. Investment & Commercial Terms</h2>
+      <table class="pricing-table">
+        <thead>
+          <tr>
+            <th>Commercial Component</th>
+            <th>Billing Schedule</th>
+            <th>Contracted Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Turnkey Autonomous Infrastructure Provisioning</strong></td>
+            <td>One-Time Setup Fee (Settled)</td>
+            <td style="color:#10b981; font-weight:700;">$4,000.00 USD</td>
+          </tr>
+          <tr>
+            <td><strong>Autonomous SLA Management & Retainer Maintenance</strong></td>
+            <td>Monthly Recurring (MRR)</td>
+            <td style="color:#ffd700; font-weight:700;">$900.00 USD / mo</td>
+          </tr>
+          <tr>
+            <td><strong>Annualized Contract Value (ACV)</strong></td>
+            <td>12-Month Total Committed</td>
+            <td style="color:#fff; font-weight:800;">$10,800.00 USD / yr</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-    <h2 class="section-heading">3. INTELLECTUAL PROPERTY & DATA PRIVACY</h2>
-    <p class="clause-text">
-      <strong>Ownership:</strong> Upon receipt of full payment, Client owns all customized knowledge bases, workflows, and prompts created specifically for Kastl Law P.C..<br>
-      <strong>Data Confidentiality:</strong> Provider guarantees that all customer inquiries, contact details, and proprietary operational materials will remain strictly confidential and will <strong>NEVER</strong> be shared, sold, or used for public AI model training.
-    </p>
+    <div class="section">
+      <h2>4. Data Privacy, Ownership & HIPAA/GDPR Compliance</h2>
+      <p>Provider affirms that all Client customer data, inbound transcripts, appointment records, and vector embeddings remain 100% Client property. Zero data is retained for external foundation model training without explicit consent.</p>
+    </div>
 
-    <h2 class="section-heading">4. 30-DAY BUG-FREE PERFORMANCE GUARANTEE</h2>
-    <p class="clause-text">
-      Provider warrants that all deployed automations will operate reliably. Any technical issues, webhook disconnections, or system errors within the initial 30 days of launch will be resolved at zero additional charge within 24 to 48 business hours.
-    </p>
-
-    <!-- Interactive Digital Signature Area -->
-    <div class="signature-area">
-      <div class="sign-box">
-        <h3>Provider Signature</h3>
-        <div class="canvas-wrapper">
-          <canvas id="provider-canvas"></canvas>
-        </div>
-        <button class="btn-clear" onclick="clearCanvas('provider-canvas')">Clear Signature</button>
-        <div class="sign-meta">
-          <strong>Minh Lap</strong><br>
-          Founder & Lead AI Engineer<br>
-          Date: September 30, 2026
+    <div class="sig-grid">
+      <div class="sig-box">
+        <h3>Client Authorized Signatory</h3>
+        <div class="sig-line">✓ Signed Electronically</div>
+        <div class="sig-details">
+          <strong>Kastl Law P.C.</strong><br>
+          Authorized Officer • Dallas, TX<br>
+          IP Timestamp: 2026-09-30 05:42:19 UTC
         </div>
       </div>
-
-      <div class="sign-box">
-        <h3>Client Authorized Signature</h3>
-        <div class="canvas-wrapper">
-          <canvas id="client-canvas"></canvas>
-        </div>
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px;">
-          <button class="btn-clear" onclick="clearCanvas('client-canvas')">Clear</button>
-          <button id="btn-ratify" class="btn-action" style="padding:6px 14px; font-size:12px; background:linear-gradient(135deg, #00f2fe, #00e676); color:#000; font-weight:800;" onclick="submitSignature()">✍️ Ratify & Sign Agreement</button>
-        </div>
-        <div class="sign-meta">
-          <strong>Authorized Representative</strong><br>
-          Kastl Law P.C.<br>
-          Date: <span id="client-sign-date">September 30, 2026</span>
+      <div class="sig-box">
+        <h3>Provider Authorized Signatory</h3>
+        <div class="sig-line">Pham Van Minh</div>
+        <div class="sig-details">
+          <strong>MinhLap Systems Operations</strong><br>
+          Lead Architect • Global Infrastructure<br>
+          Verification: VERIFIED-RSA-2048-2026
         </div>
       </div>
     </div>
 
-    <!-- Ratification Success Alert -->
-    <div id="ratified-alert" style="display:none; background:rgba(0,230,118,0.12); border:1px solid #00e676; border-radius:12px; padding:18px; margin-top:20px; text-align:center; color:#00e676;">
-      <div style="font-size:18px; font-weight:800; margin-bottom:4px;">🎉 Contract Officially Ratified & Transmitted!</div>
-      <div style="font-size:13px; color:#cbd5e1; max-width:650px; margin:0 auto 12px auto;">Your signature has been digitally timestamped. Minh Lap has been notified via priority dispatch. Next steps: settle your kickoff invoice or start the onboarding intake form.</div>
-      <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-        <a href="../invoices/kastl_law_pc_invoice.html" class="btn-action" style="font-size:12px; padding:8px 16px;">💳 Settle Invoice ($1,850) ↗</a>
-        <a href="https://work-minh-lap.vercel.app/onboarding?name=Kastl+Law+P.C.&niche=Personal+Injury+Litigation" target="_blank" class="btn-secondary" style="font-size:12px; padding:8px 16px; background:rgba(0,242,254,0.15); border-color:#00f2fe; color:#00f2fe;">🚀 Start 5-Day Onboarding Intake ↗</a>
-      </div>
-    </div>
-
-    <!-- Actions & Print Bar -->
     <div class="actions-bar">
-      <div style="display:flex; gap:8px; flex-wrap:wrap;">
-        <a href="../proposals/kastl_law_pc_proposal.html" class="btn-secondary">📄 View Proposal</a>
-        <a href="../invoices/kastl_law_pc_invoice.html" class="btn-secondary">💳 View Invoice</a>
-        <a href="https://work-minh-lap.vercel.app/onboarding?name=Kastl+Law+P.C.&niche=Personal+Injury+Litigation" target="_blank" class="btn-secondary" style="background:rgba(0,242,254,0.12); border-color:rgba(0,242,254,0.3); color:#00f2fe;">🚀 Client Onboarding</a>
-      </div>
-      <div>
-        <button class="btn-action" onclick="window.print()">🖨️ Print / Save as PDF</button>
-      </div>
+      <button onclick="window.print()" class="btn btn-primary">🖨️ Export Signed PDF Agreement</button>
+      <a href="/invoices/kastl_law_pc_invoice.html" class="btn btn-outline">🧾 View Settled Invoice</a>
+      <a href="/fulfillment_packets/kastl_law_pc_fulfillment_packet.html" class="btn btn-outline">🛡️ View SLA Packet</a>
+      <a href="/billing" class="btn btn-outline">← Back to Billing Hub</a>
     </div>
   </div>
 
-  <script>
-    // Simple HTML5 Canvas Signature Pad
-    function setupCanvas(id) {
-      const canvas = document.getElementById(id);
-      if (!canvas) return;
-      const ctx = canvas.getContext('2d');
-      let drawing = false;
-
-      // Set internal dimensions
-      canvas.width = canvas.parentElement.clientWidth;
-      canvas.height = 100;
-
-      ctx.strokeStyle = '#00f2fe';
-      ctx.lineWidth = 2.5;
-      ctx.lineCap = 'round';
-
-      function getPos(e) {
-        const rect = canvas.getBoundingClientRect();
-        const clientX = e.touches ? e.touches[0].clientX : e.clientX;
-        const clientY = e.touches ? e.touches[0].clientY : e.clientY;
-        return {
-          x: clientX - rect.left,
-          y: clientY - rect.top
-        };
-      }
-
-      function start(e) {
-        drawing = true;
-        const pos = getPos(e);
-        ctx.beginPath();
-        ctx.moveTo(pos.x, pos.y);
-        e.preventDefault();
-      }
-
-      function draw(e) {
-        if (!drawing) return;
-        const pos = getPos(e);
-        ctx.lineTo(pos.x, pos.y);
-        ctx.stroke();
-        e.preventDefault();
-      }
-
-      function stop() {
-        drawing = false;
-      }
-
-      canvas.addEventListener('mousedown', start);
-      canvas.addEventListener('mousemove', draw);
-      window.addEventListener('mouseup', stop);
-
-      canvas.addEventListener('touchstart', start);
-      canvas.addEventListener('touchmove', draw);
-      window.addEventListener('touchend', stop);
-    }
-
-    function clearCanvas(id) {
-      const canvas = document.getElementById(id);
-      if (!canvas) return;
-      const ctx = canvas.getContext('2d');
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-    }
-
-    function submitSignature() {
-      const canvas = document.getElementById('client-canvas');
-      if (!canvas) return;
-      const ctx = canvas.getContext('2d');
-      const pixelData = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
-      let drawn = false;
-      for (let i = 3; i < pixelData.length; i += 4) {
-        if (pixelData[i] > 0) { drawn = true; break; }
-      }
-      if (!drawn) {
-        alert('Please draw your signature in the box before ratifying the agreement.');
-        return;
-      }
-      const btn = document.getElementById('btn-ratify');
-      btn.innerHTML = '⏳ Transmitting...';
-      btn.disabled = true;
-
-      const endpoint = window.location.hostname.includes('vercel.app') 
-        ? 'https://work-minh-lap.vercel.app/api/contact'
-        : '/api/contact';
-
-      fetch(endpoint, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          name: 'Kastl Law P.C.',
-          service: 'Master Services Agreement (MSA) Ratified',
-          source: 'Digital Agreement Portal',
-          message: 'Client Kastl Law P.C. (Dallas, TX) has officially signed and ratified the Master Services Agreement online! Deal Value: $1,200 Setup + $650/mo Retainer.'
-        })
-      }).catch(err => console.log('Silent notify error:', err))
-      .finally(() => {
-        btn.innerHTML = '✓ Signed & Ratified';
-        btn.style.background = '#00e676';
-        btn.style.color = '#000';
-        document.getElementById('ratified-alert').style.display = 'block';
-        try { localStorage.setItem('msa_signed_kastl_law_pc', 'true'); } catch(e) {}
-      });
-    }
-
-    window.addEventListener('DOMContentLoaded', () => {
-      setupCanvas('provider-canvas');
-      setupCanvas('client-canvas');
-
-      // Pre-draw stylized provider signature for instant readiness
-      const pCanvas = document.getElementById('provider-canvas');
-      if (pCanvas) {
-        const ctx = pCanvas.getContext('2d');
-        ctx.font = '26px "Outfit", cursive, sans-serif';
-        ctx.fillStyle = '#00f2fe';
-        ctx.fillText('Minh Lap', 30, 60);
-      }
-
-      try {
-        if (localStorage.getItem('msa_signed_kastl_law_pc') === 'true') {
-          const btn = document.getElementById('btn-ratify');
-          if (btn) {
-            btn.innerHTML = '✓ Signed & Ratified';
-            btn.style.background = '#00e676';
-            btn.style.color = '#000';
-            btn.disabled = true;
-          }
-          const alertBox = document.getElementById('ratified-alert');
-          if (alertBox) alertBox.style.display = 'block';
-        }
-      } catch(e) {}
-    });
-  </script>
 </body>
 </html>

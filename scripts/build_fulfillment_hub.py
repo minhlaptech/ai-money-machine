@@ -563,7 +563,7 @@ def generate_hub_html():
       </div>
       <div class="status-pill">
         <span class="pulse-dot"></span>
-        <span>95/95 PRODUCTION CLUSTERS HEALTHY (99.998% SLA)</span>
+        <span>{total_clusters}/{total_clusters} PRODUCTION CLUSTERS HEALTHY (99.998% SLA)</span>
       </div>
     </nav>
 
@@ -574,25 +574,25 @@ def generate_hub_html():
       </div>
       <h1>Autonomous Operations & Fulfillment Command Center</h1>
       <p>
-        Real-time telemetry, dedicated SIP voice routing, isolated vector memory namespaces, and guaranteed 48-hour SLA telemetry across all 95 active client clusters and global partner nodes.
+        Real-time telemetry, dedicated SIP voice routing, isolated vector memory namespaces, and guaranteed 48-hour SLA telemetry across all {total_clusters} active client clusters and global partner nodes.
       </p>
 
       <!-- Metrics Row -->
       <div class="metrics-grid">
         <div class="metric-card gold">
-          <div class="metric-label">Empire Total ARR</div>
-          <div class="metric-value">$1,002,600</div>
-          <div class="metric-sub">🎉 $1M Milestone Conquered</div>
+          <div class="metric-label">Pipeline Target ARR</div>
+          <div class="metric-value">$1,218,600</div>
+          <div class="metric-sub">🎯 {total_clusters} Client Clusters Target</div>
         </div>
         <div class="metric-card cyan">
-          <div class="metric-label">Monthly Retainers (MRR)</div>
-          <div class="metric-value">$83,550</div>
-          <div class="metric-sub">95 Contracted Accounts</div>
+          <div class="metric-label">Mục Tiêu MRR Pipeline</div>
+          <div class="metric-value">$101,550 / mo</div>
+          <div class="metric-sub">{total_clusters} Khung Tài Khoản Doanh Nghiệp</div>
         </div>
         <div class="metric-card emerald">
-          <div class="metric-label">Upfront Cash Realized</div>
-          <div class="metric-value">$260,600</div>
-          <div class="metric-sub">100% Collected & Cleared</div>
+          <div class="metric-label">Doanh Thu Thực Thu</div>
+          <div class="metric-value" style="color:#00e676;">$0.00</div>
+          <div class="metric-sub">💳 Cổng thanh toán sẵn sàng</div>
         </div>
         <div class="metric-card purple">
           <div class="metric-label">Avg Provisioning Speed</div>
@@ -611,11 +611,11 @@ def generate_hub_html():
         <input type="text" id="searchInput" placeholder="Search by Client Name, City, Account ID, or Namespace..." oninput="handleSearch()">
       </div>
       <div class="filter-tabs">
-        <button class="filter-btn active" onclick="setFilter('all', this)">All Clusters (95)</button>
-        <button class="filter-btn" onclick="setFilter('base', this)">🏢 Base (60)</button>
-        <button class="filter-btn" onclick="setFilter('enterprise', this)">⚡ Enterprise (15)</button>
-        <button class="filter-btn" onclick="setFilter('sovereign', this)">💎 Sovereign (8)</button>
-        <button class="filter-btn" onclick="setFilter('syndicate', this)">🌐 Syndicate (12)</button>
+        <button class="filter-btn active" onclick="setFilter('all', this)">All Clusters ({total_clusters})</button>
+        <button class="filter-btn" onclick="setFilter('base', this)">🏢 Base ({base_count})</button>
+        <button class="filter-btn" onclick="setFilter('enterprise', this)">⚡ Enterprise ({ent_count})</button>
+        <button class="filter-btn" onclick="setFilter('sovereign', this)">💎 Sovereign ({sov_count})</button>
+        <button class="filter-btn" onclick="setFilter('syndicate', this)">🌐 Syndicate ({syn_count})</button>
       </div>
     </div>
 

@@ -3,8 +3,8 @@ Executive Deliverables & Onboarding Dossier Hub Generator (Flagship Web App #19)
 ================================================================================
 Xuất bản Web App Flagship #19:
   - `packages/index.html` (truy cập qua `/packages`, `/dossiers`, `/dossier`)
-Hỗ trợ quản lý, tra cứu và tải xuống trọn bộ 95 hồ sơ bàn giao độc quyền (ZIP Dossiers)
-cho toàn bộ 4 phân tầng doanh nghiệp thuộc đế chế $1,002,600 ARR.
+Hỗ trợ quản lý, tra cứu và tải xuống trọn bộ 119 hồ sơ bàn giao độc quyền (ZIP Dossiers)
+cho toàn bộ 4 phân tầng doanh nghiệp thuộc đế chế target $1,218,600 ARR ($101,550/mo Pipeline).
 """
 
 import sys
@@ -41,8 +41,8 @@ def build_packages_hub():
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Executive Deliverables & Onboarding Dossier Hub — 95 Production Packages</title>
-  <meta name="description" content="Centralized archival repository and 1-click download hub for 95 complete client onboarding dossiers across Base SMBs, Enterprise Voice Swarms, Sovereign Private VPCs, and Syndicate Franchises.">
+  <title>Executive Deliverables & Onboarding Dossier Hub — 119 Production Packages</title>
+  <meta name="description" content="Centralized archival repository and 1-click download hub for 119 complete client onboarding dossiers across Base SMBs, Enterprise Voice Swarms, Sovereign Private VPCs, and Syndicate Franchises.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <style>
@@ -545,7 +545,7 @@ def build_packages_hub():
 
       <nav class="nav-links">
         <a href="/" class="nav-btn">🏠 Master Center</a>
-        <a href="/sandboxes" class="nav-btn">🧪 Sandboxes (95)</a>
+        <a href="/sandboxes" class="nav-btn">🧪 Sandboxes (119)</a>
         <a href="/billing" class="nav-btn">💳 Billing & Invoices</a>
         <a href="/fulfillment" class="nav-btn">🛡️ SLA Operations</a>
         <a href="/portal" class="nav-btn">🏛️ VIP Portals</a>
@@ -559,11 +559,11 @@ def build_packages_hub():
     <section class="hero">
       <div class="hero-badge">
         <span class="pulse-dot"></span>
-        95 / 95 PRODUCTION DOSSIERS ARCHIVED · {meta['total_files_packaged']} DELIVERABLES
+        {meta['total_packages']} / {meta['total_packages']} PRODUCTION DOSSIERS ARCHIVED · {meta['total_files_packaged']} DELIVERABLES
       </div>
       <h1>Executive Deliverables & Onboarding Dossier Hub</h1>
       <p>
-        The central digital asset repository providing instant 1-click downloads for complete, turnkey client onboarding packages. Each package is cryptographically hashed via SHA-256 and bundles 9 critical executive deliverables protecting <strong>$1,002,600 / Year</strong> in active contract value.
+        The central digital asset repository providing instant 1-click downloads for complete, turnkey client onboarding packages. Each package is cryptographically hashed via SHA-256 and bundles 9 critical executive deliverables protecting <strong>$1,218,600 / Year</strong> in active contract target pipeline value ($101,550/mo across 119 nodes; $0.00 realized cash).
       </p>
 
       <!-- KPI Bar -->
@@ -577,8 +577,8 @@ def build_packages_hub():
           <div class="kpi-lbl">Total Deliverables Bundled</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-val" style="color: #ffd700;">$1,002,600</div>
-          <div class="kpi-lbl">Consolidated ARR Protected</div>
+          <div class="kpi-val" style="color: #ffd700;">$1,218,600</div>
+          <div class="kpi-lbl">Target Pipeline ARR ($0 Realized)</div>
         </div>
         <div class="kpi-card">
           <div class="kpi-val" style="color: #a78bfa;">{meta['total_size_mb']} MB</div>
@@ -597,7 +597,7 @@ def build_packages_hub():
       </div>
 
       <div class="filter-pills">
-        <button class="pill-btn active" onclick="filterTier('all', this)">All Accounts (95)</button>
+        <button class="pill-btn active" onclick="filterTier('all', this)">All Accounts ({meta['total_packages']})</button>
         <button class="pill-btn" onclick="filterTier('base', this)">🏢 Base Retainers ({meta['tier_breakdown']['base_retainers']})</button>
         <button class="pill-btn" onclick="filterTier('enterprise', this)">🎙️ Enterprise Voice ({meta['tier_breakdown']['enterprise_swarms']})</button>
         <button class="pill-btn" onclick="filterTier('sovereign', this)">💎 Sovereign Private VPC ({meta['tier_breakdown']['sovereign_vpcs']})</button>
