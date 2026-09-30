@@ -647,7 +647,7 @@ def build_inbox_hub():
       <div class="brand-icon">📥</div>
       <div class="brand-text">
         <h1>OMNICHANNEL INBOX & HITL DISPATCH</h1>
-        <span>95 CONNECTED CLIENT ACCOUNTS • 4 INBOUND CHANNELS</span>
+        <span>{total_accounts} CONNECTED CLIENT ACCOUNTS • 4 INBOUND CHANNELS</span>
       </div>
     </a>
     <div class="header-actions">
@@ -668,12 +668,12 @@ def build_inbox_hub():
     <div class="kpi-card">
       <div class="kpi-icon" style="background:rgba(0,242,254,0.15); color:var(--cyan);">📥</div>
       <div>
-        <div class="kpi-val">95 / 95</div>
+        <div class="kpi-val">{total_accounts} / {total_accounts}</div>
         <div class="kpi-lbl">Unified Inboxes</div>
       </div>
     </div>
     <div class="kpi-card">
-      <div class="kpi-icon" style="background:rgba(16,185,129,0.15); color:var(--emerald);">⏱️</div>
+      <div class="kpi-icon" style="background:rgba(160,185,129,0.15); color:var(--emerald);">⏱️</div>
       <div>
         <div class="kpi-val">&lt; 14s</div>
         <div class="kpi-lbl">Speed-to-Lead</div>
@@ -703,10 +703,10 @@ def build_inbox_hub():
       <div class="sidebar-search">
         <div class="search-input-wrap">
           <span>🔍</span>
-          <input type="text" id="searchInput" placeholder="Search 95 accounts, names, messages..." oninput="filterConversations()">
+          <input type="text" id="searchInput" placeholder="Search {total_accounts} accounts, names, messages..." oninput="filterConversations()">
         </div>
         <div class="channel-chips">
-          <div class="channel-chip active" onclick="setChannelFilter('all', this)">All (95)</div>
+          <div class="channel-chip active" onclick="setChannelFilter('all', this)">All ({total_accounts})</div>
           <div class="channel-chip" onclick="setChannelFilter('web', this)">💬 Web</div>
           <div class="channel-chip" onclick="setChannelFilter('sms', this)">📱 SMS</div>
           <div class="channel-chip" onclick="setChannelFilter('whatsapp', this)">💚 WhatsApp</div>

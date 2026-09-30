@@ -113,6 +113,11 @@ def build_attribution_hub():
     total_hours_saved_monthly = sum(r["hours_saved"] for r in records)
     avg_roi_multiplier = round(total_value_monthly / total_mrr, 1)
 
+    base_count = sum(1 for r in records if r["tier"] == "base")
+    ent_count = sum(1 for r in records if r["tier"] == "enterprise")
+    sov_count = sum(1 for r in records if r["tier"] == "sovereign")
+    syn_count = sum(1 for r in records if r["tier"] == "syndicate")
+
     records_json = json.dumps(records, ensure_ascii=False)
 
     html_content = f"""<!DOCTYPE html>
@@ -460,7 +465,7 @@ def build_attribution_hub():
       <div class="kpi-card">
         <div class="kpi-title">Protected Client Value (Monthly)</div>
         <div class="kpi-val">${total_value_monthly:,.0f}</div>
-        <div class="kpi-sub">🛡️ Verified across 95 live accounts</div>
+        <div class="kpi-sub">🛡️ Verified across {total_accounts} live accounts</div>
       </div>
       <div class="kpi-card">
         <div class="kpi-title">Average Empirical ROI Multiple</div>
@@ -484,14 +489,14 @@ def build_attribution_hub():
       <!-- Left: Accounts Selector -->
       <div class="selector-panel">
         <div class="search-wrap">
-          <input type="text" id="accSearch" placeholder="Search 95 accounts by name, industry, city..." oninput="filterAccounts()">
+          <input type="text" id="accSearch" placeholder="Search {total_accounts} accounts by name, industry, city..." oninput="filterAccounts()">
         </div>
         <div class="tier-filter-chips">
-          <div class="tier-chip active" onclick="setTierFilter('all', this)">All (95)</div>
-          <div class="tier-chip" onclick="setTierFilter('base', this)">Base SMB (60)</div>
-          <div class="tier-chip" onclick="setTierFilter('enterprise', this)">Enterprise (15)</div>
-          <div class="tier-chip" onclick="setTierFilter('sovereign', this)">Sovereign (8)</div>
-          <div class="tier-chip" onclick="setTierFilter('syndicate', this)">Syndicate (12)</div>
+          <div class="tier-chip active" onclick="setTierFilter('all', this)">All ({total_accounts})</div>
+          <div class="tier-chip" onclick="setTierFilter('base', this)">Base SMB ({base_count})</div>
+          <div class="tier-chip" onclick="setTierFilter('enterprise', this)">Enterprise ({ent_count})</div>
+          <div class="tier-chip" onclick="setTierFilter('sovereign', this)">Sovereign ({sov_count})</div>
+          <div class="tier-chip" onclick="setTierFilter('syndicate', this)">Syndicate ({syn_count})</div>
         </div>
         <div class="accounts-list" id="accountsListContainer">
           <!-- Dynamically populated -->
@@ -588,7 +593,7 @@ def build_attribution_hub():
     <!-- Global Attribution Ledger Table -->
     <div class="table-section">
       <div class="table-header">
-        <h3>📋 Master Financial Attribution Ledger (95 Accounts)</h3>
+        <h3>📋 Master Financial Attribution Ledger ({total_accounts} Accounts)</h3>
         <button class="nav-btn" style="background:linear-gradient(135deg, var(--gold), #ff8c00); color:#000; font-weight:800; border:none;" onclick="exportCfoLedger()">📥 Export CFO CSV Ledger</button>
       </div>
       <div class="table-responsive">
@@ -736,12 +741,12 @@ def build_attribution_hub():
       const a = document.createElement('a');
       a.setAttribute('hidden', '');
       a.setAttribute('href', url);
-      a.setAttribute('download', `CFO_Financial_Attribution_Ledger_95_Accounts.csv`);
+      a.setAttribute('download', `CFO_Financial_Attribution_Ledger_{total_accounts}_Accounts.csv`);
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
 
-      showToast("📥 CFO Ledger CSV (95 Accounts) downloaded successfully!");
+      showToast("📥 CFO Ledger CSV ({total_accounts} Accounts) downloaded successfully!");
     }}
 
     function showToast(msg) {{
