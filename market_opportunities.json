@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 13:43:15",
+  "updated_at": "2026-09-30 20:55:37",
   "total_analyzed": 40,
   "high_priority_opportunities": [
     {
@@ -19,8 +19,8 @@
       "source": "Hacker News (ask)",
       "title": "Ask HN: What are you reading?",
       "text": "I&#x27;m plowing through the Dungeon Crawler Carl series, which is not particularly challenging as sci-fi&#x2F;LitRPG goes, but entertaining enough.  I&#x27;m also wrapping up Doctorow&#x27;s _Enshittification_, and I&#x27;m looking for something a little meaty to keep the brain working...",
-      "score": 228,
-      "comments": 278,
+      "score": 350,
+      "comments": 367,
       "url": "https://news.ycombinator.com/item?id=49893157",
       "intent_score": 50,
       "matched_keywords": [
@@ -56,7 +56,7 @@
       "title": "serpapi/awesome-seo-tools - Curated list of awesome SEO tools",
       "text": "Curated list of awesome SEO tools",
       "score": 1102,
-      "comments": 370,
+      "comments": 371,
       "url": "https://github.com/serpapi/awesome-seo-tools",
       "intent_score": 50,
       "matched_keywords": [
@@ -79,7 +79,7 @@
       "source": "GitHub Trending",
       "title": "StJudeWasHere/seonaut - Open source SEO audit tool.",
       "text": "Open source SEO audit tool.",
-      "score": 797,
+      "score": 798,
       "comments": 134,
       "url": "https://github.com/StJudeWasHere/seonaut",
       "intent_score": 50,
@@ -125,18 +125,6 @@
     },
     {
       "source": "Hacker News (ask)",
-      "title": "Management is forcing us to use AI",
-      "text": "I’m paraphrasing; «You use AI or you’re not working here. Humans are not perfect coders nor are AIs. So why should you be allowed to code without AI. It’s a netloss for us. You either use it or you start looking for a different job.»<p>Can’t believe Im being forced to make myself dumber. I really dont want to spend even more hours in front of my laptop, but looks like I have to because this whole ",
-      "score": 19,
-      "comments": 22,
-      "url": "https://news.ycombinator.com/item?id=49873913",
-      "intent_score": 40,
-      "matched_keywords": [
-        "looking for"
-      ]
-    },
-    {
-      "source": "Hacker News (ask)",
       "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
       "text": "Do you currently work with or know anyone who is still using:<p>* dBase&#x2F;Clipper&#x2F;CLARION&#x2F;Paradox&#x2F;other DOS RAD environments on period hardware to run business processes?<p>* CNC mills&#x2F;spectrometers&#x2F;microscopes&#x2F;other industrial instruments controlled by ISA cards (either bespoke or standards like GPIB)?<p>* Anything with a parallel port dongle?<p>If so, I&#x27;d be",
       "score": 292,
@@ -168,23 +156,11 @@
       "matched_keywords": []
     },
     {
-      "source": "Hacker News (ask)",
-      "title": "Is there a lanscaping tool which can take photos of my garden and make 3D model?",
-      "text": "I am looking for a tool which would allow me to take photos of my garden and then generate a 3D editable garden where I can drag and move things. Something like Blender or CAD but with the photos as inputs.",
-      "score": 3,
-      "comments": 2,
-      "url": "https://news.ycombinator.com/item?id=49896742",
-      "intent_score": 25,
-      "matched_keywords": [
-        "looking for"
-      ]
-    },
-    {
       "source": "Hacker News (show)",
       "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
       "text": "",
-      "score": 191,
-      "comments": 28,
+      "score": 301,
+      "comments": 45,
       "url": "https://news.ycombinator.com/item?id=49898778",
       "intent_score": 25,
       "matched_keywords": []
@@ -193,19 +169,9 @@
       "source": "Hacker News (show)",
       "title": "Show HN: NSL – WSL for Linux",
       "text": "One of the things that Windows really got right is WSL2. I drive an atomic Linux distro for daily use, but wanted a way to develop with multiple different distros with that same WSL UX.  NSL is my answer. It is a faithful reproduction of the developer experience, powered by a single VM that hosts one or more systemd-nspawn containers with your development instances. Host file edits and port sharin",
-      "score": 118,
-      "comments": 28,
+      "score": 146,
+      "comments": 30,
       "url": "https://news.ycombinator.com/item?id=49894351",
-      "intent_score": 25,
-      "matched_keywords": []
-    },
-    {
-      "source": "Hacker News (show)",
-      "title": "Show HN: HN.watch – Videos of all Hacker News posts",
-      "text": "Hi HN, I’m Per, founder of Scrimba (YC S20). We’ve spent the last decade teaching people how to code with an HTML-based video format. We’ve now plugged an LLM into it, so that people can create explainer videos about anything. It’s called “Scrimba Explain”.<p>To demo this technology for Hacker News, we built HN.watch. It’s like HN, but with explainer videos instead of articles. We create them on-t",
-      "score": 209,
-      "comments": 51,
-      "url": "https://news.ycombinator.com/item?id=49879401",
       "intent_score": 25,
       "matched_keywords": []
     },

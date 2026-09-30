@@ -1,8 +1,8 @@
 # 🌐 Báo Cáo Phân Tích Cơ Hội Thị Trường Quốc Tế (AI Scout)
 
-- **Thời gian quét**: 2026-09-30 13:43:15
+- **Thời gian quét**: 2026-09-30 20:55:37
 - **Số lượng mục phân tích**: 40
-- **Số cơ hội nhu cầu cao (High Intent)**: 20
+- **Số cơ hội nhu cầu cao (High Intent)**: 17
 
 ## 🎯 Top Cơ Hội & Vấn Đề Nóng Được Phát Hiện:
 
@@ -56,13 +56,13 @@
 - **Từ khóa nhu cầu bắt gặp**: `seo`
 - **Tóm tắt mô tả**: Best SEO Tools Stash...
 
-### 11. [Management is forcing us to use AI](https://news.ycombinator.com/item?id=49873913)
-- **Nguồn**: `Hacker News (ask)` | **Điểm tiềm năng**: `40`
-- **Từ khóa nhu cầu bắt gặp**: `looking for`
-- **Tóm tắt mô tả**: I’m paraphrasing; «You use AI or you’re not working here. Humans are not perfect coders nor are AIs. So why should you be allowed to code without AI. It’s a netloss for us. You either use it or you st...
-
-### 12. [Ask HN: Who's still keeping a DOS machine up because the business depends on it?](https://news.ycombinator.com/item?id=49848955)
+### 11. [Ask HN: Who's still keeping a DOS machine up because the business depends on it?](https://news.ycombinator.com/item?id=49848955)
 - **Nguồn**: `Hacker News (ask)` | **Điểm tiềm năng**: `25`
 - **Từ khóa nhu cầu bắt gặp**: ``
 - **Tóm tắt mô tả**: Do you currently work with or know anyone who is still using:<p>* dBase&#x2F;Clipper&#x2F;CLARION&#x2F;Paradox&#x2F;other DOS RAD environments on period hardware to run business processes?<p>* CNC mil...
+
+### 12. [Ask HN: OpenSEO inspiration for other tools, asking for opinion](https://news.ycombinator.com/item?id=49898465)
+- **Nguồn**: `Hacker News (ask)` | **Điểm tiềm năng**: `25`
+- **Từ khóa nhu cầu bắt gặp**: `seo`
+- **Tóm tắt mô tả**: OpenSEO got to 22k+ stars in &lt;7 months<p>We were planning to opensource 4 tools (2 of which we have build but they are not opensource yet)<p>- Meltwater alternative for social listening (already ta...
 
