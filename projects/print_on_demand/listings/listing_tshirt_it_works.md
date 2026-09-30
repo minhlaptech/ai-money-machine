@@ -1,5 +1,5 @@
 # 👕 Print-on-Demand Ready-to-Publish Listing: TSHIRT_IT_WORKS
-> **Tạo lúc**: 2026-09-30 11:16:20  
+> **Tạo lúc**: 2026-09-30 21:41:48  
 > **Ngách mục tiêu**: `Software Engineers, DevOps, IT Support`  
 > **Tệp thiết kế / Mockup**: `projects/print_on_demand/designs/tshirt_it_works_on_my_machine.jpg`
 

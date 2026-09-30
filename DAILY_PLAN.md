@@ -1,16 +1,16 @@
 # 📅 KẾ HOẠCH TÁC CHIẾN HÀNG NGÀY (DAILY PLAN)
 > AI đọc file này đầu mỗi phiên chat để biết kế hoạch ngày hôm nay
-> Cập nhật lần cuối: 2026-09-30 21:50 (GMT+7) — Phiên #96
+> Cập nhật lần cuối: 2026-09-30 21:55 (GMT+7) — Phiên #97
 
 ---
 
 ## 📆 NGÀY HIỆN TẠI: 2026-09-30 (Thứ Tư)
 
-### 🎯 Mục tiêu trọng tâm Phiên #96:
+### 🎯 Mục tiêu trọng tâm Phiên #97:
 1. Duy trì tính toàn vẹn hệ thống 100%: 29/29 Cloud Applications đạt HTTP 200, Binary Parity `index.html` == `dashboard.html`.
-2. Kiểm toán và chuẩn hóa 10 gói đề xuất thầu thắng giải Upwork (`scripts/upwork_proposal_generator.py`) phục vụ nguồn thu Freelance & Agency.
-3. Đồng bộ và bảo chứng liên kết chứng minh năng lực (Live Demos & Portfolio) trên toàn bộ 10 phân khúc kỹ năng AI.
-4. Đảm bảo toàn bộ 8 nguồn thu nhập số độc lập trong hệ sinh thái AI Money Machine sẵn sàng 100% cho chuyển đổi.
+2. Kiểm toán và chuẩn hóa 6 sản phẩm Merch Lập trình viên & Kỹ sư AI (`scripts/pod_listing_generator.py`) kèm bảng tính Net Profit Margin.
+3. Đóng gói trọn bộ 15 kịch bản tự động hóa doanh nghiệp Make.com & n8n JSON vào `distribution_kit/ai_automation_blueprints_pack.zip`.
+4. Rà soát sàn thương mại Merch Store (`/merch`) và bộ Master Bundle ($39).
 
 ### 📋 Checklist Tác Vụ Trong Ngày:
 
@@ -18,10 +18,10 @@
 |---|----------|------------------|------------|-------------------|
 | 1 | Kiểm tra sức khỏe toàn hệ thống | `scripts/system_health_check.py` | ✅ Hoàn thành | 29/29 Cloud Hubs HTTP 200 (~120ms) |
 | 2 | Kiểm tra Binary Parity giao diện | `fc.exe /b index.html dashboard.html` | ✅ Hoàn thành | Khớp 100% từng byte (0 byte diff) |
-| 3 | Kiểm toán 10 Gói Thầu Upwork | `scripts/upwork_proposal_generator.py` | ✅ Hoàn thành | 10/10 Đề xuất thầu chuẩn hóa |
-| 4 | Xác minh Đề xuất Enterprise RAG | `projects/ai_freelancing/proposals/` | ✅ Hoàn thành | Tích hợp Live Demo & Guardrails |
-| 5 | Rà soát liên kết Freelance Hub | `https://work-minh-lap.vercel.app/freelance` | ✅ Hoàn thành | 8 High-Ticket Gigs HTTP 200 |
-| 6 | Cập nhật Master Control & Daily Plan | `MASTER_CONTROL.md`, `DAILY_PLAN.md` | ✅ Hoàn thành | Đồng bộ phiên #96 |
+| 3 | Kiểm toán 6 Thiết kế Merch POD | `scripts/pod_listing_generator.py --all` | ✅ Hoàn thành | 6/6 Listing MD & Bulk CSV |
+| 4 | Đóng gói 15 Automation Blueprints | `scripts/generate_all_blueprints.py` | ✅ Hoàn thành | ZIP 21 KB tại distribution_kit |
+| 5 | Rà soát liên kết Merch Store | `https://work-minh-lap.vercel.app/merch` | ✅ Hoàn thành | 6 Sản phẩm hiển thị trơn tru |
+| 6 | Cập nhật Master Control & Daily Plan | `MASTER_CONTROL.md`, `DAILY_PLAN.md` | ✅ Hoàn thành | Đồng bộ phiên #97 |
 
 ---
 
