@@ -117,8 +117,8 @@ def main_loop():
             run_script("autonomous_agent/market_scout.py")
 
         elif choice == '3':
-            niche = input("Nhập ngành nghề (dentist / doctor / lawyer / cpa / realestate, mặc định dentist): ").strip() or "dentist"
-            city = input("Nhập thành phố (Austin / Miami / Chicago / Dallas, mặc định Austin): ").strip() or "Austin"
+            niche = input("Nhập ngành nghề (dentist / doctor / clinic / lawyer / cpa / realestate, mặc định dentist): ").strip() or "dentist"
+            city = input("Nhập thành phố (Austin / Miami / Chicago / Dallas / Phoenix, mặc định Austin): ").strip() or "Austin"
             limit = input("Số lượng khách cần quét (mặc định 5): ").strip() or "5"
             run_script("scripts/lead_finder.py", ["--niche", niche, "--city", city, "--limit", limit])
 
@@ -274,8 +274,8 @@ def main_loop():
                 webbrowser.open(local_hub.as_uri())
 
         elif choice == '19':
-            sub = input("Đóng gói trọn bộ 60 khách hàng hay 1 khách cụ thể? (1-60: Nhập ID khách / Enter: Toàn bộ 60 khách): ").strip()
-            if sub.isdigit() and 1 <= int(sub) <= 60:
+            sub = input("Đóng gói trọn bộ 84 khách hàng hay 1 khách cụ thể? (1-84: Nhập ID khách / Enter: Toàn bộ 84 khách): ").strip()
+            if sub.isdigit() and 1 <= int(sub) <= 84:
                 run_script("scripts/package_client_deliverables.py", ["--lead", sub])
             else:
                 run_script("scripts/package_client_deliverables.py", ["--all"])
