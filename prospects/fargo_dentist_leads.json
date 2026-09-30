@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Fargo Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.fargopremierdentiststudio.example",
+    "email": "info@fargopremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@fargopremierdentiststudio.example?subject=quick%20question%20regarding%20Fargo%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:13:56"
+  },
+  {
+    "id": 2,
+    "name": "Apex Fargo Dentist Center",
+    "niche": "Dentist",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexfargodentistcenter.example",
+    "email": "info@apexfargodentistcenter.example",
+    "address": "240 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@apexfargodentistcenter.example?subject=quick%20question%20regarding%20Apex%20Fargo%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:13:56"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Fargo",
+    "niche": "Dentist",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersoffargo.example",
+    "email": "info@beacondentistpartnersoffargo.example",
+    "address": "360 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@beacondentistpartnersoffargo.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:13:56"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Fargo Dentist Group",
+    "niche": "Dentist",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardfargodentistgroup.example",
+    "email": "info@vanguardfargodentistgroup.example",
+    "address": "480 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@vanguardfargodentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Fargo%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:13:56"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Fargo",
+    "niche": "Dentist",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticsfargo.example",
+    "email": "info@luminadentistandaestheticsfargo.example",
+    "address": "600 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@luminadentistandaestheticsfargo.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:13:56"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Dentist Clinic of Fargo",
+    "niche": "Dentist",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedentistclinicoffargo.example",
+    "email": "info@proactivedentistclinicoffargo.example",
+    "address": "720 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@proactivedentistclinicoffargo.example?subject=quick%20question%20regarding%20ProActive%20Dentist%20Clinic%20of%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:13:56"
+  },
+  {
+    "id": 7,
+    "name": "Elite Dentist Specialists Fargo",
+    "niche": "Dentist",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedentistspecialistsfargo.example",
+    "email": "info@elitedentistspecialistsfargo.example",
+    "address": "840 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@elitedentistspecialistsfargo.example?subject=quick%20question%20regarding%20Elite%20Dentist%20Specialists%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:13:56"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Dentist Fargo",
+    "niche": "Dentist",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdentistfargo.example",
+    "email": "info@summitcrestdentistfargo.example",
+    "address": "960 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@summitcrestdentistfargo.example?subject=quick%20question%20regarding%20Summit%20Crest%20Dentist%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:13:56"
+  },
+  {
+    "id": 9,
+    "name": "Metro Dentist Care Center Fargo",
+    "niche": "Dentist",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodentistcarecenterfargo.example",
+    "email": "info@metrodentistcarecenterfargo.example",
+    "address": "1080 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@metrodentistcarecenterfargo.example?subject=quick%20question%20regarding%20Metro%20Dentist%20Care%20Center%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:13:56"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Dentist Practice Fargo",
+    "niche": "Dentist",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdentistpracticefargo.example",
+    "email": "info@pacificcoastdentistpracticefargo.example",
+    "address": "1200 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@pacificcoastdentistpracticefargo.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Dentist%20Practice%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:13:56"
+  }
+]

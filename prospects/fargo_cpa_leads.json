@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Fargo Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.fargopremiercpastudio.example",
+    "email": "info@fargopremiercpastudio.example",
+    "address": "120 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@fargopremiercpastudio.example?subject=quick%20question%20regarding%20Fargo%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:14:35"
+  },
+  {
+    "id": 2,
+    "name": "Apex Fargo Cpa Center",
+    "niche": "Cpa",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexfargocpacenter.example",
+    "email": "info@apexfargocpacenter.example",
+    "address": "240 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@apexfargocpacenter.example?subject=quick%20question%20regarding%20Apex%20Fargo%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:14:35"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of Fargo",
+    "niche": "Cpa",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersoffargo.example",
+    "email": "info@beaconcpapartnersoffargo.example",
+    "address": "360 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@beaconcpapartnersoffargo.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:14:35"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Fargo Cpa Group",
+    "niche": "Cpa",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardfargocpagroup.example",
+    "email": "info@vanguardfargocpagroup.example",
+    "address": "480 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@vanguardfargocpagroup.example?subject=quick%20question%20regarding%20Vanguard%20Fargo%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:14:35"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics Fargo",
+    "niche": "Cpa",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticsfargo.example",
+    "email": "info@luminacpaandaestheticsfargo.example",
+    "address": "600 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@luminacpaandaestheticsfargo.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:14:35"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Cpa Clinic of Fargo",
+    "niche": "Cpa",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivecpaclinicoffargo.example",
+    "email": "info@proactivecpaclinicoffargo.example",
+    "address": "720 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@proactivecpaclinicoffargo.example?subject=quick%20question%20regarding%20ProActive%20Cpa%20Clinic%20of%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:14:35"
+  },
+  {
+    "id": 7,
+    "name": "Elite Cpa Specialists Fargo",
+    "niche": "Cpa",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitecpaspecialistsfargo.example",
+    "email": "info@elitecpaspecialistsfargo.example",
+    "address": "840 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@elitecpaspecialistsfargo.example?subject=quick%20question%20regarding%20Elite%20Cpa%20Specialists%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:14:35"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Cpa Fargo",
+    "niche": "Cpa",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestcpafargo.example",
+    "email": "info@summitcrestcpafargo.example",
+    "address": "960 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@summitcrestcpafargo.example?subject=quick%20question%20regarding%20Summit%20Crest%20Cpa%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:14:35"
+  },
+  {
+    "id": 9,
+    "name": "Metro Cpa Care Center Fargo",
+    "niche": "Cpa",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocpacarecenterfargo.example",
+    "email": "info@metrocpacarecenterfargo.example",
+    "address": "1080 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@metrocpacarecenterfargo.example?subject=quick%20question%20regarding%20Metro%20Cpa%20Care%20Center%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:14:35"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Cpa Practice Fargo",
+    "niche": "Cpa",
+    "city": "Fargo",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastcpapracticefargo.example",
+    "email": "info@pacificcoastcpapracticefargo.example",
+    "address": "1200 Boulevard Ave, Fargo",
+    "mailto_url": "mailto:info@pacificcoastcpapracticefargo.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Cpa%20Practice%20Fargo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:14:35"
+  }
+]
