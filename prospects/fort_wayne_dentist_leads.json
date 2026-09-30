@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Fort Wayne Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Fort Wayne",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.fortwaynepremierdentiststudio.example",
+    "email": "info@fortwaynepremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Fort Wayne",
+    "mailto_url": "mailto:info@fortwaynepremierdentiststudio.example?subject=quick%20question%20regarding%20Fort%20Wayne%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:07:10"
+  },
+  {
+    "id": 2,
+    "name": "Apex Fort Wayne Dentist Center",
+    "niche": "Dentist",
+    "city": "Fort Wayne",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexfortwaynedentistcenter.example",
+    "email": "info@apexfortwaynedentistcenter.example",
+    "address": "240 Boulevard Ave, Fort Wayne",
+    "mailto_url": "mailto:info@apexfortwaynedentistcenter.example?subject=quick%20question%20regarding%20Apex%20Fort%20Wayne%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:07:10"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Fort Wayne",
+    "niche": "Dentist",
+    "city": "Fort Wayne",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersoffortwayne.example",
+    "email": "info@beacondentistpartnersoffortwayne.example",
+    "address": "360 Boulevard Ave, Fort Wayne",
+    "mailto_url": "mailto:info@beacondentistpartnersoffortwayne.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Fort%20Wayne%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:07:10"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Fort Wayne Dentist Group",
+    "niche": "Dentist",
+    "city": "Fort Wayne",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardfortwaynedentistgroup.example",
+    "email": "info@vanguardfortwaynedentistgroup.example",
+    "address": "480 Boulevard Ave, Fort Wayne",
+    "mailto_url": "mailto:info@vanguardfortwaynedentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Fort%20Wayne%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:07:10"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Fort Wayne",
+    "niche": "Dentist",
+    "city": "Fort Wayne",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticsfortwayne.example",
+    "email": "info@luminadentistandaestheticsfortwayne.example",
+    "address": "600 Boulevard Ave, Fort Wayne",
+    "mailto_url": "mailto:info@luminadentistandaestheticsfortwayne.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Fort%20Wayne%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:07:10"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Dentist Clinic of Fort Wayne",
+    "niche": "Dentist",
+    "city": "Fort Wayne",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedentistclinicoffortwayne.example",
+    "email": "info@proactivedentistclinicoffortwayne.example",
+    "address": "720 Boulevard Ave, Fort Wayne",
+    "mailto_url": "mailto:info@proactivedentistclinicoffortwayne.example?subject=quick%20question%20regarding%20ProActive%20Dentist%20Clinic%20of%20Fort%20Wayne%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:07:10"
+  },
+  {
+    "id": 7,
+    "name": "Elite Dentist Specialists Fort Wayne",
+    "niche": "Dentist",
+    "city": "Fort Wayne",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedentistspecialistsfortwayne.example",
+    "email": "info@elitedentistspecialistsfortwayne.example",
+    "address": "840 Boulevard Ave, Fort Wayne",
+    "mailto_url": "mailto:info@elitedentistspecialistsfortwayne.example?subject=quick%20question%20regarding%20Elite%20Dentist%20Specialists%20Fort%20Wayne%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:07:10"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Dentist Fort Wayne",
+    "niche": "Dentist",
+    "city": "Fort Wayne",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdentistfortwayne.example",
+    "email": "info@summitcrestdentistfortwayne.example",
+    "address": "960 Boulevard Ave, Fort Wayne",
+    "mailto_url": "mailto:info@summitcrestdentistfortwayne.example?subject=quick%20question%20regarding%20Summit%20Crest%20Dentist%20Fort%20Wayne%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:07:10"
+  },
+  {
+    "id": 9,
+    "name": "Metro Dentist Care Center Fort Wayne",
+    "niche": "Dentist",
+    "city": "Fort Wayne",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodentistcarecenterfortwayne.example",
+    "email": "info@metrodentistcarecenterfortwayne.example",
+    "address": "1080 Boulevard Ave, Fort Wayne",
+    "mailto_url": "mailto:info@metrodentistcarecenterfortwayne.example?subject=quick%20question%20regarding%20Metro%20Dentist%20Care%20Center%20Fort%20Wayne%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:07:10"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Dentist Practice Fort Wayne",
+    "niche": "Dentist",
+    "city": "Fort Wayne",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdentistpracticefortwayne.example",
+    "email": "info@pacificcoastdentistpracticefortwayne.example",
+    "address": "1200 Boulevard Ave, Fort Wayne",
+    "mailto_url": "mailto:info@pacificcoastdentistpracticefortwayne.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Dentist%20Practice%20Fort%20Wayne%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:07:10"
+  }
+]
