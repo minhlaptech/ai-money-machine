@@ -472,12 +472,11 @@ def print_sovereign_summary():
     print(f"  • 📞 Strategy Calls Booked:    {len(booked_accounts)}")
     print(f"  • 🏆 Sovereign Tier Won:       {len(won_accounts)}")
     print(f"  • ⏳ Identified / Staged:       {len(id_accounts)}")
-    print("-" * 80)
-    print(f"  💰 Current Sovereign Won Cash: +${current_won_setup:,} Upfront Cash")
-    print(f"  🔄 Current Sovereign Won MRR:  +${current_won_mrr:,} / month MRR")
-    print(f"  🚀 Max Sovereign Cash Target:  +${total_setup:,} Upfront Cash ($201,200 Total Empire)")
-    print(f"  🌟 Max Sovereign MRR Target:   +${total_addon_mrr:,} / mo MRR ($68,550/mo Total Empire)")
-    print(f"  💎 Max Sovereign ARR Target:   +${(total_addon_mrr * 12):,} / yr ARR ($822,600/yr Total Empire)")
+    print(f"  💰 Projected Sovereign Won Value: +${current_won_setup:,} Upfront Value")
+    print(f"  🔄 Projected Sovereign Won MRR:  +${current_won_mrr:,} / month MRR")
+    print(f"  🚀 Max Sovereign Setup Target:   +${total_setup:,} Upfront Value")
+    print(f"  🌟 Consolidated Pipeline Target: $101,550 / mo MRR ($1,218,600 ARR Across 119 Nodes)")
+    print(f"  🛡️ Real Cash Realized (Accounting): $0.00 (Awaiting live payment gateway webhook)")
     print("=" * 80)
 
 def send_telegram_sovereign_alert(lead_id, name, old_st, new_st, setup, mrr_addon):

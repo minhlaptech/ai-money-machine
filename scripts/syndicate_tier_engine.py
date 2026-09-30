@@ -4,14 +4,15 @@
 AI Money Machine — AI Syndicate & Franchise Partner Engine (Phase 4 Expansion)
 =============================================================================
 Licenses the turnkey AI Money Machine infrastructure to 12 regional agency
-licensees worldwide to crack the $1,000,000 / year ARR ($1M ARR) milestone!
+licensees worldwide to scale the $1,218,600 ARR portfolio!
 
 Phase 4 Syndicate Franchise Partner Specifications:
 - Upfront Private Cloud License & White-Label Setup: $4,950
 - Monthly Core Swarm, Retraining & Infrastructure Retainer: $1,250 / month
 - Target: 12 Regional Boutique Agencies & Elite Consultancies Worldwide
-- Total Syndicate Capacity: +$59,400 Upfront Cash & +$15,000/mo MRR (+$180,000/yr ARR)
-- Consolidated Empire Milestone: $260,600 Upfront Cash & $1,002,600 / year ARR!
+- Total Syndicate Capacity: +$59,400 Upfront Value & +$15,000/mo MRR (+$180,000/yr ARR)
+- Consolidated Pipeline Target: $101,550/mo MRR · $1,218,600 / year ARR across 119 Nodes!
+- Strict Accounting: Real Cash Realized: $0.00 (Awaiting live payment gateway webhook)
 """
 
 import sys
@@ -513,12 +514,11 @@ def print_syndicate_summary():
     print(f"  • 📞 Partner Interviews Booked: {booked_c}")
     print(f"  • 🏆 Syndicate Partners Won:    {won_c}")
     print(f"  • ⏳ Identified / Staged:       {staged_c}")
-    print("-" * 80)
-    print(f"  💰 Current Syndicate Cash:     +${current_cash:,} Upfront Cash")
-    print(f"  🔄 Current Syndicate MRR:      +${current_mrr:,} / month MRR")
-    print(f"  🚀 Max Syndicate Cash Target:  +$59,400 Upfront Cash (${total_cash:,} Total Empire)")
-    print(f"  🌟 Max Syndicate MRR Target:   +$15,000 / mo MRR (${total_mrr:,}/mo Total Empire)")
-    print(f"  💎 Max Syndicate ARR Target:   +$180,000 / yr ARR (${total_arr:,}/yr Total Empire)")
+    print(f"  💰 Current Syndicate Won Value: +${current_cash:,} Upfront Value")
+    print(f"  🔄 Current Syndicate Won MRR:   +${current_mrr:,} / month MRR")
+    print(f"  🚀 Max Syndicate Setup Target:  +$59,400 Upfront Value")
+    print(f"  🌟 Consolidated Pipeline Target: $101,550 / mo MRR ($1,218,600 ARR Across 119 Nodes)")
+    print(f"  🛡️ Real Cash Realized (Accounting): $0.00 (Awaiting live payment gateway webhook)")
     print("=" * 80)
 
 def send_telegram_syndicate_alert(partner_id, name, territory, old_st, new_st, setup, retainer):
