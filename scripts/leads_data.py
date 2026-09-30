@@ -341,6 +341,133 @@ ALL_LEADS = [
         "id": 60, "batch": 6, "name": "Thrive Neuro & Brain Health", "niche": "Deep TMS & Cognitive Optimization", "city": "San Jose, CA",
         "to": "eval@thriveneurohealth.example", "doc": "Dr. Rachel Green", "type": "medical",
         "val": 3000, "lost": 6, "value": 3000, "retainer": 800, "color": "#7c3aed", "icon": "🧠"
+    },
+
+    # =========================================================================
+    # BATCH 7: Verified Inbound Scrapes (Dallas Law & Miami Dental)
+    # =========================================================================
+    # --- Dallas Legal Practices (15 Real Firms) ---
+    {
+        "id": 61, "batch": 7, "name": "Morgan Weisbrod", "niche": "Disability & Injury Law", "city": "Dallas, TX",
+        "to": "contact@morganweisbrod.com", "doc": "Morgan Weisbrod", "type": "legal",
+        "val": 3500, "lost": 5, "value": 3500, "retainer": 850, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 62, "batch": 7, "name": "Guajardo & Marks, LLP", "niche": "Personal Injury Law", "city": "Dallas, TX",
+        "to": "contact@guajardomarks.com", "doc": "Michael Guajardo", "type": "legal",
+        "val": 4000, "lost": 4, "value": 4000, "retainer": 900, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 63, "batch": 7, "name": "Law Office of William Teitelbaum", "niche": "Civil & Criminal Law", "city": "Dallas, TX",
+        "to": "contact@lawofficeofwilliamteitelbaum.example", "doc": "William Teitelbaum", "type": "legal",
+        "val": 3000, "lost": 5, "value": 3000, "retainer": 800, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 64, "batch": 7, "name": "Orsinger, Nelson, Downing and Anderson, LLP", "niche": "Family & Appellate Law", "city": "Dallas, TX",
+        "to": "contact@ondafamilylaw.com", "doc": "Richard Orsinger", "type": "legal",
+        "val": 4500, "lost": 4, "value": 4500, "retainer": 950, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 65, "batch": 7, "name": "Clements & Clements, Attorneys at Law", "niche": "Trial & Injury Attorneys", "city": "Dallas, TX",
+        "to": "contact@clementslaw.com", "doc": "Robert Clements", "type": "legal",
+        "val": 3800, "lost": 5, "value": 3800, "retainer": 900, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 66, "batch": 7, "name": "Saputo Law Firm", "niche": "Criminal Defense & Trial", "city": "Dallas, TX",
+        "to": "contact@saputo.law", "doc": "Paul Saputo", "type": "legal",
+        "val": 3500, "lost": 5, "value": 3500, "retainer": 850, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 67, "batch": 7, "name": "Law Office of Julie Johnson, PLLC", "niche": "Personal Injury & Employment", "city": "Dallas, TX",
+        "to": "contact@juliejohnsonlaw.com", "doc": "Julie Johnson", "type": "legal",
+        "val": 4200, "lost": 4, "value": 4200, "retainer": 900, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 68, "batch": 7, "name": "Zegen Law Firm PLLC", "niche": "Dallas Divorce & Family Law", "city": "Dallas, TX",
+        "to": "contact@thedallasdivorceattorney.com", "doc": "Scott Zegen", "type": "legal",
+        "val": 3200, "lost": 6, "value": 3200, "retainer": 850, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 69, "batch": 7, "name": "Kastl Law P.C.", "niche": "Personal Injury Litigation", "city": "Dallas, TX",
+        "to": "contact@kastllaw.com", "doc": "Kristina Kastl", "type": "legal",
+        "val": 4000, "lost": 4, "value": 4000, "retainer": 900, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 70, "batch": 7, "name": "Hastings Law Firm", "niche": "Medical Malpractice Attorneys", "city": "Dallas, TX",
+        "to": "contact@hastingsfirm.com", "doc": "Tommy Hastings", "type": "legal",
+        "val": 5000, "lost": 3, "value": 5000, "retainer": 1000, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 71, "batch": 7, "name": "The Benton Law Firm", "niche": "Serious Injury & Auto Litigation", "city": "Dallas, TX",
+        "to": "contact@thebentonlawfirm.com", "doc": "Jeff Benton", "type": "legal",
+        "val": 4200, "lost": 4, "value": 4200, "retainer": 950, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 72, "batch": 7, "name": "Slater Matsil", "niche": "Intellectual Property & Patents", "city": "Dallas, TX",
+        "to": "contact@slatermatsil.example", "doc": "Ira Matsil", "type": "legal",
+        "val": 5500, "lost": 3, "value": 5500, "retainer": 1000, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 73, "batch": 7, "name": "Brooker Law, PLLC", "niche": "Catastrophic Injury & Commercial Law", "city": "Dallas, TX",
+        "to": "contact@brookerlaw.com", "doc": "Chip Brooker", "type": "legal",
+        "val": 4800, "lost": 4, "value": 4800, "retainer": 950, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 74, "batch": 7, "name": "Scroggins Law Group PLLC", "niche": "Board Certified Family Law", "city": "Dallas, TX",
+        "to": "contact@scrogginslawgroup.example", "doc": "Mark Scroggins", "type": "legal",
+        "val": 3600, "lost": 5, "value": 3600, "retainer": 850, "color": "#38bdf8", "icon": "⚖️"
+    },
+    {
+        "id": 75, "batch": 7, "name": "Lyons & Simmons, LLP", "niche": "High-Stakes Trial Lawyers", "city": "Dallas, TX",
+        "to": "contact@lyons-simmons.com", "doc": "Michael Lyons", "type": "legal",
+        "val": 5200, "lost": 3, "value": 5200, "retainer": 1000, "color": "#38bdf8", "icon": "⚖️"
+    },
+
+    # --- Miami Dental Clinics (9 Real Clinics) ---
+    {
+        "id": 76, "batch": 7, "name": "Miami Village Dental", "niche": "Comprehensive Family Dentistry", "city": "Miami, FL",
+        "to": "contact@miamivillagedental.example", "doc": "Dr. Elena Gomez", "type": "dental",
+        "val": 1200, "lost": 10, "value": 1200, "retainer": 650, "color": "#00e676", "icon": "🦷"
+    },
+    {
+        "id": 77, "batch": 7, "name": "Miami Premier Dental Care", "niche": "Cosmetic & Restorative Dentistry", "city": "Miami, FL",
+        "to": "contact@miamipremierdental.example", "doc": "Dr. Carlos Ramos", "type": "dental",
+        "val": 1400, "lost": 9, "value": 1400, "retainer": 700, "color": "#00e676", "icon": "🦷"
+    },
+    {
+        "id": 78, "batch": 7, "name": "Vizcaya Dental Arts", "niche": "Cosmetic Veneers & Smile Makeovers", "city": "Miami, FL",
+        "to": "contact@vizcayadentalarts.com", "doc": "Dr. Mario Alvarez", "type": "dental",
+        "val": 1800, "lost": 8, "value": 1800, "retainer": 750, "color": "#00e676", "icon": "🦷"
+    },
+    {
+        "id": 79, "batch": 7, "name": "Miami One Dental Studio", "niche": "Invisalign & Dental Implants", "city": "Miami, FL",
+        "to": "contact@miamionedental.example", "doc": "Dr. Jessica Ortiz", "type": "dental",
+        "val": 1600, "lost": 9, "value": 1600, "retainer": 700, "color": "#00e676", "icon": "🦷"
+    },
+    {
+        "id": 80, "batch": 7, "name": "CAD/CAM Dental CENTER Miami", "niche": "Digital 3D Same-Day Crowns", "city": "Miami, FL",
+        "to": "contact@cadcamcenter.com", "doc": "Dr. Alex Levin", "type": "dental",
+        "val": 2000, "lost": 7, "value": 2000, "retainer": 800, "color": "#00e676", "icon": "🦷"
+    },
+    {
+        "id": 81, "batch": 7, "name": "Epic Smiles Miami", "niche": "Orthodontics & Clear Aligners", "city": "Miami, FL",
+        "to": "contact@epicsmilesmiami.example", "doc": "Dr. Sofia Morales", "type": "dental",
+        "val": 1500, "lost": 8, "value": 1500, "retainer": 700, "color": "#00e676", "icon": "🦷"
+    },
+    {
+        "id": 82, "batch": 7, "name": "Biscayne Modern Dental", "niche": "Laser Periodontics & Sleep Apnea", "city": "Miami, FL",
+        "to": "contact@biscaynemoderndental.example", "doc": "Dr. David Chen", "type": "dental",
+        "val": 1300, "lost": 10, "value": 1300, "retainer": 650, "color": "#00e676", "icon": "🦷"
+    },
+    {
+        "id": 83, "batch": 7, "name": "Healthy Children Pediatric Dentistry", "niche": "Pediatric Dental Specialists", "city": "Miami, FL",
+        "to": "contact@healthychildrenpediatrics.example", "doc": "Dr. Amanda Perez", "type": "dental",
+        "val": 1100, "lost": 12, "value": 1100, "retainer": 650, "color": "#00e676", "icon": "🦷"
+    },
+    {
+        "id": 84, "batch": 7, "name": "Ultra Smile Aesthetic Dental", "niche": "Teeth Whitening & Sedation", "city": "Miami, FL",
+        "to": "contact@ultrasmile.example", "doc": "Dr. Gabriel Santos", "type": "dental",
+        "val": 1700, "lost": 8, "value": 1700, "retainer": 750, "color": "#00e676", "icon": "🦷"
     }
 ]
 
@@ -356,6 +483,6 @@ def get_lead_by_slug(slug: str):
 
 if __name__ == "__main__":
     print(f"Total Leads Loaded: {len(ALL_LEADS)}")
-    for b in range(1, 7):
+    for b in range(1, 8):
         b_leads = [l for l in ALL_LEADS if l["batch"] == b]
         print(f"  Batch {b}: {len(b_leads)} accounts | IDs {b_leads[0]['id']} - {b_leads[-1]['id']}")

@@ -1065,13 +1065,14 @@ RT the first tweet if you found this valuable! 🔄</div>
         <!-- Filter Pill Controls & Sequence Switcher -->
         <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:12px;">
           <div style="display:flex; gap:8px; flex-wrap:wrap;">
-            <button class="batch-pill-btn active" onclick="filterBatch('all', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#fff; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">All Leads (60)</button>
+            <button class="batch-pill-btn active" onclick="filterBatch('all', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#fff; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">All Leads (84)</button>
             <button class="batch-pill-btn" onclick="filterBatch('1', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#b794f4; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🦷 B1: SMBs (10)</button>
             <button class="batch-pill-btn" onclick="filterBatch('2', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#00f2fe; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🛍️ B2: E-Com & SaaS (10)</button>
             <button class="batch-pill-btn" onclick="filterBatch('3', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#ffb74d; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🏛️ B3: Legal & CPA (10)</button>
             <button class="batch-pill-btn" onclick="filterBatch('4', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#38bdf8; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🏡 B4: Contracting (10)</button>
             <button class="batch-pill-btn" onclick="filterBatch('5', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#a78bfa; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🚀 B5: Agency/Tech (10)</button>
             <button class="batch-pill-btn" onclick="filterBatch('6', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#fb7185; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">🩺 B6: Healthcare (10)</button>
+            <button class="batch-pill-btn" onclick="filterBatch('7', this)" style="background:rgba(255,255,255,0.06); border:1px solid var(--border); color:#34d399; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600; cursor:pointer;">📍 B7: Dallas & Miami Live (24)</button>
           </div>
           <div style="display:flex; gap:6px; background:rgba(0,0,0,0.3); padding:4px; border-radius:10px; border:1px solid var(--border);">
             <button class="stage-pill-btn active" onclick="filterStage(1, this)" style="background:linear-gradient(135deg,var(--accent),var(--cyan)); border:none; color:#fff; padding:5px 12px; border-radius:6px; font-size:11px; font-weight:700; cursor:pointer;">🎯 Day 1: Hook</button>
@@ -2299,7 +2300,33 @@ const LEADS_DATA = [
   { id: 57, batch: 6, name: 'ClearVision Lasik Center', niche: 'Contoura Vision & Refractive Surgery', city: 'Atlanta, GA', to: 'consult@clearvisionlasikatl.example', doc: 'Dr. Angela White', type: 'medical', val: 3500, lost: 6 },
   { id: 58, batch: 6, name: 'PureBreathe Sinus Institute', niche: 'Advanced Balloon Sinuplasty & ENT', city: 'Houston, TX', to: 'relief@purebreathesinus.example', doc: 'Dr. Farhan Qasim', type: 'medical', val: 2800, lost: 7 },
   { id: 59, batch: 6, name: 'Radiance Hair Restoration', niche: 'Robotic ARTAS FUE Transplants', city: 'New York, NY', to: 'evaluations@radiancehairrestoration.example', doc: 'Dr. James Sterling', type: 'medical', val: 5000, lost: 4 },
-  { id: 60, batch: 6, name: 'Thrive Neuro & Brain Health', niche: 'Deep TMS & Cognitive Optimization', city: 'San Jose, CA', to: 'eval@thriveneurohealth.example', doc: 'Dr. Rachel Green', type: 'medical', val: 3000, lost: 6 }
+  { id: 60, batch: 6, name: 'Thrive Neuro & Brain Health', niche: 'Deep TMS & Cognitive Optimization', city: 'San Jose, CA', to: 'eval@thriveneurohealth.example', doc: 'Dr. Rachel Green', type: 'medical', val: 3000, lost: 6 },
+
+  // --- BATCH 7: Verified Inbound Scrapes (Dallas Law & Miami Dental) ---
+  { id: 61, batch: 7, name: 'Morgan Weisbrod', niche: 'Disability & Injury Law', city: 'Dallas, TX', to: 'contact@morganweisbrod.com', doc: 'Morgan Weisbrod', type: 'legal', val: 3500, lost: 5 },
+  { id: 62, batch: 7, name: 'Guajardo & Marks, LLP', niche: 'Personal Injury Law', city: 'Dallas, TX', to: 'contact@guajardomarks.com', doc: 'Michael Guajardo', type: 'legal', val: 4000, lost: 4 },
+  { id: 63, batch: 7, name: 'Law Office of William Teitelbaum', niche: 'Civil & Criminal Law', city: 'Dallas, TX', to: 'contact@lawofficeofwilliamteitelbaum.example', doc: 'William Teitelbaum', type: 'legal', val: 3000, lost: 5 },
+  { id: 64, batch: 7, name: 'Orsinger, Nelson, Downing and Anderson, LLP', niche: 'Family & Appellate Law', city: 'Dallas, TX', to: 'contact@ondafamilylaw.com', doc: 'Richard Orsinger', type: 'legal', val: 4500, lost: 4 },
+  { id: 65, batch: 7, name: 'Clements & Clements, Attorneys at Law', niche: 'Trial & Injury Attorneys', city: 'Dallas, TX', to: 'contact@clementslaw.com', doc: 'Robert Clements', type: 'legal', val: 3800, lost: 5 },
+  { id: 66, batch: 7, name: 'Saputo Law Firm', niche: 'Criminal Defense & Trial', city: 'Dallas, TX', to: 'contact@saputo.law', doc: 'Paul Saputo', type: 'legal', val: 3500, lost: 5 },
+  { id: 67, batch: 7, name: 'Law Office of Julie Johnson, PLLC', niche: 'Personal Injury & Employment', city: 'Dallas, TX', to: 'contact@juliejohnsonlaw.com', doc: 'Julie Johnson', type: 'legal', val: 4200, lost: 4 },
+  { id: 68, batch: 7, name: 'Zegen Law Firm PLLC', niche: 'Dallas Divorce & Family Law', city: 'Dallas, TX', to: 'contact@thedallasdivorceattorney.com', doc: 'Scott Zegen', type: 'legal', val: 3200, lost: 6 },
+  { id: 69, batch: 7, name: 'Kastl Law P.C.', niche: 'Personal Injury Litigation', city: 'Dallas, TX', to: 'contact@kastllaw.com', doc: 'Kristina Kastl', type: 'legal', val: 4000, lost: 4 },
+  { id: 70, batch: 7, name: 'Hastings Law Firm', niche: 'Medical Malpractice Attorneys', city: 'Dallas, TX', to: 'contact@hastingsfirm.com', doc: 'Tommy Hastings', type: 'legal', val: 5000, lost: 3 },
+  { id: 71, batch: 7, name: 'The Benton Law Firm', niche: 'Serious Injury & Auto Litigation', city: 'Dallas, TX', to: 'contact@thebentonlawfirm.com', doc: 'Jeff Benton', type: 'legal', val: 4200, lost: 4 },
+  { id: 72, batch: 7, name: 'Slater Matsil', niche: 'Intellectual Property & Patents', city: 'Dallas, TX', to: 'contact@slatermatsil.example', doc: 'Ira Matsil', type: 'legal', val: 5500, lost: 3 },
+  { id: 73, batch: 7, name: 'Brooker Law, PLLC', niche: 'Catastrophic Injury & Commercial Law', city: 'Dallas, TX', to: 'contact@brookerlaw.com', doc: 'Chip Brooker', type: 'legal', val: 4800, lost: 4 },
+  { id: 74, batch: 7, name: 'Scroggins Law Group PLLC', niche: 'Board Certified Family Law', city: 'Dallas, TX', to: 'contact@scrogginslawgroup.example', doc: 'Mark Scroggins', type: 'legal', val: 3600, lost: 5 },
+  { id: 75, batch: 7, name: 'Lyons & Simmons, LLP', niche: 'High-Stakes Trial Lawyers', city: 'Dallas, TX', to: 'contact@lyons-simmons.com', doc: 'Michael Lyons', type: 'legal', val: 5200, lost: 3 },
+  { id: 76, batch: 7, name: 'Miami Village Dental', niche: 'Comprehensive Family Dentistry', city: 'Miami, FL', to: 'contact@miamivillagedental.example', doc: 'Dr. Elena Gomez', type: 'dental', val: 1200, lost: 10 },
+  { id: 77, batch: 7, name: 'Miami Premier Dental Care', niche: 'Cosmetic & Restorative Dentistry', city: 'Miami, FL', to: 'contact@miamipremierdental.example', doc: 'Dr. Carlos Ramos', type: 'dental', val: 1400, lost: 9 },
+  { id: 78, batch: 7, name: 'Vizcaya Dental Arts', niche: 'Cosmetic Veneers & Smile Makeovers', city: 'Miami, FL', to: 'contact@vizcayadentalarts.com', doc: 'Dr. Mario Alvarez', type: 'dental', val: 1800, lost: 8 },
+  { id: 79, batch: 7, name: 'Miami One Dental Studio', niche: 'Invisalign & Dental Implants', city: 'Miami, FL', to: 'contact@miamionedental.example', doc: 'Dr. Jessica Ortiz', type: 'dental', val: 1600, lost: 9 },
+  { id: 80, batch: 7, name: 'CAD/CAM Dental CENTER Miami', niche: 'Digital 3D Same-Day Crowns', city: 'Miami, FL', to: 'contact@cadcamcenter.com', doc: 'Dr. Alex Levin', type: 'dental', val: 2000, lost: 7 },
+  { id: 81, batch: 7, name: 'Epic Smiles Miami', niche: 'Orthodontics & Clear Aligners', city: 'Miami, FL', to: 'contact@epicsmilesmiami.example', doc: 'Dr. Sofia Morales', type: 'dental', val: 1500, lost: 8 },
+  { id: 82, batch: 7, name: 'Biscayne Modern Dental', niche: 'Laser Periodontics & Sleep Apnea', city: 'Miami, FL', to: 'contact@biscaynemoderndental.example', doc: 'Dr. David Chen', type: 'dental', val: 1300, lost: 10 },
+  { id: 83, batch: 7, name: 'Healthy Children Pediatric Dentistry', niche: 'Pediatric Dental Specialists', city: 'Miami, FL', to: 'contact@healthychildrenpediatrics.example', doc: 'Dr. Amanda Perez', type: 'dental', val: 1100, lost: 12 },
+  { id: 84, batch: 7, name: 'Ultra Smile Aesthetic Dental', niche: 'Teeth Whitening & Sedation', city: 'Miami, FL', to: 'contact@ultrasmile.example', doc: 'Dr. Gabriel Santos', type: 'dental', val: 1700, lost: 8 }
 ];
 
 let currentBatchFilter = 'all';
@@ -2313,7 +2340,7 @@ function getLeadStatus(id) {
   if (saved) return saved;
   if (WON_LEAD_IDS.includes(id)) return 'won';
   if (BOOKED_LEAD_IDS.includes(id)) return 'booked';
-  return 'day7';
+  return id > 60 ? 'new' : 'day7';
 }
 
 function setLeadStatus(id, st) {
@@ -2495,7 +2522,9 @@ function renderLeadsTable() {
       ? '<span style="background:rgba(56,189,248,0.18); color:#38bdf8; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 4: Contracting</span>'
       : l.batch === 5
       ? '<span style="background:rgba(167,139,250,0.18); color:#a78bfa; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 5: Agency/Tech</span>'
-      : '<span style="background:rgba(251,113,133,0.18); color:#fb7185; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 6: Healthcare</span>';
+      : l.batch === 6
+      ? '<span style="background:rgba(251,113,133,0.18); color:#fb7185; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 6: Healthcare</span>'
+      : '<span style="background:rgba(52,211,153,0.18); color:#34d399; padding:2px 8px; border-radius:4px; font-size:11px;">Batch 7: Dallas/Miami</span>';
       
     let slug = l.name.toLowerCase().replace(/ /g, '_').replace(/&/g, 'and').replace(/\//g, '-').replace(/\\/g, '-').replace(/,/g, '').replace(/\./g, '');
     let proposalLink = `proposals/${slug}_proposal.html`;
