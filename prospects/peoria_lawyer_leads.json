@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Howard & Howard Attorneys",
+    "niche": "Lawyer",
+    "city": "Peoria",
+    "phone": "+1-309-672-1483",
+    "website": "https://www.howardandhoward.com/",
+    "email": "contact@howardandhoward.com",
+    "address": "211 Fulton Street, Peoria 61602",
+    "mailto_url": "mailto:contact@howardandhoward.com?subject=quick%20question%20regarding%20Howard%20%26%20Howard%20Attorneys%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.howardandhoward.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Howard%20%26%20Howard%20Attorneys%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:21:50"
+  },
+  {
+    "id": 2,
+    "name": "Gary L. Morris",
+    "niche": "Lawyer",
+    "city": "Peoria",
+    "phone": "+1-309-676-1594",
+    "website": "https://garylmorris.com/",
+    "email": "contact@garylmorris.com",
+    "address": "214 Southwest Jefferson Avenue, Peoria 61602",
+    "mailto_url": "mailto:contact@garylmorris.com?subject=quick%20question%20regarding%20Gary%20L.%20Morris%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//garylmorris.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Gary%20L.%20Morris%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:21:50"
+  },
+  {
+    "id": 3,
+    "name": "Prairie State Legal Services",
+    "niche": "Lawyer",
+    "city": "Peoria",
+    "phone": "+1-309-674-9831;+1-800-322-2280",
+    "website": "N/A",
+    "email": "contact@prairiestatelegalservices.example",
+    "address": "331 Fulton Street, Peoria 61602",
+    "mailto_url": "mailto:contact@prairiestatelegalservices.example?subject=quick%20question%20regarding%20Prairie%20State%20Legal%20Services%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Prairie%20State%20Legal%20Services%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:21:50"
+  },
+  {
+    "id": 4,
+    "name": "Hasselberg, Grebe, Snodgrass, Urban, & Wentworth",
+    "niche": "Lawyer",
+    "city": "Peoria",
+    "phone": "+1-309-637-1400",
+    "website": "https://hgsuw.com/",
+    "email": "contact@hgsuw.com",
+    "address": "401 Main Street, Peoria 61602-1258",
+    "mailto_url": "mailto:contact@hgsuw.com?subject=quick%20question%20regarding%20Hasselberg%2C%20Grebe%2C%20Snodgrass%2C%20Urban%2C%20%26%20Wentworth%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//hgsuw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hasselberg%2C%20Grebe%2C%20Snodgrass%2C%20Urban%2C%20%26%20Wentworth%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:21:50"
+  },
+  {
+    "id": 5,
+    "name": "LeFante Law Offices, P.C.",
+    "niche": "Lawyer",
+    "city": "Peoria",
+    "phone": "+1-309-999-1111",
+    "website": "https://lefantelaw.com/",
+    "email": "contact@lefantelaw.com",
+    "address": "456 Fulton Street, Peoria 61602",
+    "mailto_url": "mailto:contact@lefantelaw.com?subject=quick%20question%20regarding%20LeFante%20Law%20Offices%2C%20P.C.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//lefantelaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20LeFante%20Law%20Offices%2C%20P.C.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:21:50"
+  },
+  {
+    "id": 6,
+    "name": "Peter J. Lynch, LLC",
+    "niche": "Lawyer",
+    "city": "Peoria",
+    "phone": "+1-309-573-1443",
+    "website": "http://www.peterlynchlaw.com/",
+    "email": "contact@peterlynchlaw.com",
+    "address": "456 Fulton Street, Peoria 61602",
+    "mailto_url": "mailto:contact@peterlynchlaw.com?subject=quick%20question%20regarding%20Peter%20J.%20Lynch%2C%20LLC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.peterlynchlaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Peter%20J.%20Lynch%2C%20LLC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:21:50"
+  },
+  {
+    "id": 7,
+    "name": "Murphy & Dunn Law",
+    "niche": "Lawyer",
+    "city": "Peoria",
+    "phone": "+1-309-674-5551",
+    "website": "https://www.murphy-law-group.com/",
+    "email": "contact@murphy-law-group.com",
+    "address": "456 Fulton Street, Peoria 61602",
+    "mailto_url": "mailto:contact@murphy-law-group.com?subject=quick%20question%20regarding%20Murphy%20%26%20Dunn%20Law%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.murphy-law-group.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Murphy%20%26%20Dunn%20Law%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:21:50"
+  },
+  {
+    "id": 8,
+    "name": "Miller Law Office, P.C.",
+    "niche": "Lawyer",
+    "city": "Peoria",
+    "phone": "+1-309-740-2710",
+    "website": "https://www.il-crimlaw.com/",
+    "email": "contact@il-crimlaw.com",
+    "address": "416 Main Street, Peoria 61602-3141",
+    "mailto_url": "mailto:contact@il-crimlaw.com?subject=quick%20question%20regarding%20Miller%20Law%20Office%2C%20P.C.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.il-crimlaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Miller%20Law%20Office%2C%20P.C.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:21:50"
+  },
+  {
+    "id": 9,
+    "name": "McCarthy Law Firm",
+    "niche": "Lawyer",
+    "city": "Peoria",
+    "phone": "+1-309-674-4508",
+    "website": "https://www.mccarthylaw.org/",
+    "email": "contact@mccarthylaw.org",
+    "address": "416 Main Street, Peoria 61602",
+    "mailto_url": "mailto:contact@mccarthylaw.org?subject=quick%20question%20regarding%20McCarthy%20Law%20Firm%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.mccarthylaw.org/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20McCarthy%20Law%20Firm%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:21:50"
+  },
+  {
+    "id": 10,
+    "name": "Miller, Hall, & Triggs, LLC",
+    "niche": "Lawyer",
+    "city": "Peoria",
+    "phone": "+1-309-671-9600",
+    "website": "https://mhtlaw.com/",
+    "email": "contact@mhtlaw.com",
+    "address": "416 Main Street, Peoria 61602",
+    "mailto_url": "mailto:contact@mhtlaw.com?subject=quick%20question%20regarding%20Miller%2C%20Hall%2C%20%26%20Triggs%2C%20LLC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//mhtlaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Miller%2C%20Hall%2C%20%26%20Triggs%2C%20LLC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:21:50"
+  }
+]
