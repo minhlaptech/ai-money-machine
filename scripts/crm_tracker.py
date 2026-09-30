@@ -87,8 +87,9 @@ def print_summary():
     print(f"  • 🏆 Won Retainer Clients:  {won_count}")
     print("-" * 70)
     print(f"  💰 Total Pipeline Potential: ${total_pipeline_val:,}")
-    print(f"  💵 Closed Upfront Setup:     ${closed_val:,}")
-    print(f"  🔄 Recurring Monthly Retainer: ${mrr_val:,}/month")
+    print(f"  💵 Won Contract Value (Projected): ${closed_val:,}")
+    print(f"  🔄 Projected Monthly Retainer: ${mrr_val:,}/month")
+    print(f"  🛡️ Real Cash Realized (Accounting): $0.00 (Awaiting Payment Webhook)")
     print("=" * 70)
 
 def send_telegram_alert(lead, old_status, new_status):
