@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Akron Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Akron",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.akronpremierclinicstudio.example",
+    "email": "info@akronpremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Akron",
+    "mailto_url": "mailto:info@akronpremierclinicstudio.example?subject=quick%20question%20regarding%20Akron%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:04:40"
+  },
+  {
+    "id": 2,
+    "name": "Apex Akron Clinic Center",
+    "niche": "Clinic",
+    "city": "Akron",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexakroncliniccenter.example",
+    "email": "info@apexakroncliniccenter.example",
+    "address": "240 Boulevard Ave, Akron",
+    "mailto_url": "mailto:info@apexakroncliniccenter.example?subject=quick%20question%20regarding%20Apex%20Akron%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:04:40"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Akron",
+    "niche": "Clinic",
+    "city": "Akron",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofakron.example",
+    "email": "info@beaconclinicpartnersofakron.example",
+    "address": "360 Boulevard Ave, Akron",
+    "mailto_url": "mailto:info@beaconclinicpartnersofakron.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Akron%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:04:40"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Akron Clinic Group",
+    "niche": "Clinic",
+    "city": "Akron",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardakronclinicgroup.example",
+    "email": "info@vanguardakronclinicgroup.example",
+    "address": "480 Boulevard Ave, Akron",
+    "mailto_url": "mailto:info@vanguardakronclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Akron%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:04:40"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Akron",
+    "niche": "Clinic",
+    "city": "Akron",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsakron.example",
+    "email": "info@luminaclinicandaestheticsakron.example",
+    "address": "600 Boulevard Ave, Akron",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsakron.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Akron%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:04:40"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Akron",
+    "niche": "Clinic",
+    "city": "Akron",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofakron.example",
+    "email": "info@proactiveclinicclinicofakron.example",
+    "address": "720 Boulevard Ave, Akron",
+    "mailto_url": "mailto:info@proactiveclinicclinicofakron.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Akron%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:04:40"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Akron",
+    "niche": "Clinic",
+    "city": "Akron",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistsakron.example",
+    "email": "info@eliteclinicspecialistsakron.example",
+    "address": "840 Boulevard Ave, Akron",
+    "mailto_url": "mailto:info@eliteclinicspecialistsakron.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Akron%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:04:40"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Akron",
+    "niche": "Clinic",
+    "city": "Akron",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicakron.example",
+    "email": "info@summitcrestclinicakron.example",
+    "address": "960 Boulevard Ave, Akron",
+    "mailto_url": "mailto:info@summitcrestclinicakron.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Akron%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:04:40"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Akron",
+    "niche": "Clinic",
+    "city": "Akron",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecenterakron.example",
+    "email": "info@metrocliniccarecenterakron.example",
+    "address": "1080 Boulevard Ave, Akron",
+    "mailto_url": "mailto:info@metrocliniccarecenterakron.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Akron%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:04:40"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Akron",
+    "niche": "Clinic",
+    "city": "Akron",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticeakron.example",
+    "email": "info@pacificcoastclinicpracticeakron.example",
+    "address": "1200 Boulevard Ave, Akron",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticeakron.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Akron%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:04:40"
+  }
+]
