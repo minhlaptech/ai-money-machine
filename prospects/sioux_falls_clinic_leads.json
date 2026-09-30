@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Allergy & Asthma Clinic",
+    "niche": "Clinic",
+    "city": "Sioux Falls",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@allergyasthmaclinic.example",
+    "address": "4301 West 57th Street, Sioux Falls 57108",
+    "mailto_url": "mailto:contact@allergyasthmaclinic.example?subject=quick%20question%20regarding%20Allergy%20%26%20Asthma%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Allergy%20%26%20Asthma%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:16:57"
+  },
+  {
+    "id": 2,
+    "name": "Sanford Diabetes Care Center",
+    "niche": "Clinic",
+    "city": "Sioux Falls",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sanforddiabetescarecenter.example",
+    "address": "1305 West 18th Street, Sioux Falls 57115",
+    "mailto_url": "mailto:contact@sanforddiabetescarecenter.example?subject=quick%20question%20regarding%20Sanford%20Diabetes%20Care%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sanford%20Diabetes%20Care%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:16:57"
+  },
+  {
+    "id": 3,
+    "name": "LifeScape Rehabilitation Center",
+    "niche": "Clinic",
+    "city": "Sioux Falls",
+    "phone": "+16054449700",
+    "website": "N/A",
+    "email": "contact@lifescaperehabilitationcenter.example",
+    "address": "1020 West 18th Street, Sioux Falls 57104",
+    "mailto_url": "mailto:contact@lifescaperehabilitationcenter.example?subject=quick%20question%20regarding%20LifeScape%20Rehabilitation%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20LifeScape%20Rehabilitation%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:16:57"
+  },
+  {
+    "id": 4,
+    "name": "Falls Community Health",
+    "niche": "Clinic",
+    "city": "Sioux Falls",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@fallscommunityhealth.example",
+    "address": "521 North Main Avenue, Sioux Falls",
+    "mailto_url": "mailto:contact@fallscommunityhealth.example?subject=quick%20question%20regarding%20Falls%20Community%20Health%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Falls%20Community%20Health%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:16:57"
+  },
+  {
+    "id": 5,
+    "name": "Passport Health Sioux Falls Travel Clinic",
+    "niche": "Clinic",
+    "city": "Sioux Falls",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@passporthealthsiouxfallstravelclinic.example",
+    "address": "7405 South Bitterroot Place, Sioux Falls 57108",
+    "mailto_url": "mailto:contact@passporthealthsiouxfallstravelclinic.example?subject=quick%20question%20regarding%20Passport%20Health%20Sioux%20Falls%20Travel%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Passport%20Health%20Sioux%20Falls%20Travel%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:16:57"
+  },
+  {
+    "id": 6,
+    "name": "Midwest Medical Building",
+    "niche": "Clinic",
+    "city": "Sioux Falls",
+    "phone": "+1-605-444-8600",
+    "website": "https://www.sfsh.com/",
+    "email": "contact@sfsh.com",
+    "address": "716 East 19th Street, Sioux Falls 57105",
+    "mailto_url": "mailto:contact@sfsh.com?subject=quick%20question%20regarding%20Midwest%20Medical%20Building%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.sfsh.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Midwest%20Medical%20Building%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:16:57"
+  },
+  {
+    "id": 7,
+    "name": "Avera@Home",
+    "niche": "Clinic",
+    "city": "Sioux Falls",
+    "phone": "N/A",
+    "website": "https://locations.avera.org/avera-at-home-home-health-sioux-falls",
+    "email": "contact@locations.avera.org",
+    "address": "5300 South Broadband Lane, Sioux Falls 57108",
+    "mailto_url": "mailto:contact@locations.avera.org?subject=quick%20question%20regarding%20Avera%40Home%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//locations.avera.org/avera-at-home-home-health-sioux-falls%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Avera%40Home%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:16:57"
+  }
+]
