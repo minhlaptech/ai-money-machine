@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Columbia Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Columbia",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.columbiapremierclinicstudio.example",
+    "email": "info@columbiapremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Columbia",
+    "mailto_url": "mailto:info@columbiapremierclinicstudio.example?subject=quick%20question%20regarding%20Columbia%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:33:13"
+  },
+  {
+    "id": 2,
+    "name": "Apex Columbia Clinic Center",
+    "niche": "Clinic",
+    "city": "Columbia",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexcolumbiacliniccenter.example",
+    "email": "info@apexcolumbiacliniccenter.example",
+    "address": "240 Boulevard Ave, Columbia",
+    "mailto_url": "mailto:info@apexcolumbiacliniccenter.example?subject=quick%20question%20regarding%20Apex%20Columbia%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:33:13"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Columbia",
+    "niche": "Clinic",
+    "city": "Columbia",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofcolumbia.example",
+    "email": "info@beaconclinicpartnersofcolumbia.example",
+    "address": "360 Boulevard Ave, Columbia",
+    "mailto_url": "mailto:info@beaconclinicpartnersofcolumbia.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Columbia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:33:13"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Columbia Clinic Group",
+    "niche": "Clinic",
+    "city": "Columbia",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardcolumbiaclinicgroup.example",
+    "email": "info@vanguardcolumbiaclinicgroup.example",
+    "address": "480 Boulevard Ave, Columbia",
+    "mailto_url": "mailto:info@vanguardcolumbiaclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Columbia%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:33:13"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Columbia",
+    "niche": "Clinic",
+    "city": "Columbia",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticscolumbia.example",
+    "email": "info@luminaclinicandaestheticscolumbia.example",
+    "address": "600 Boulevard Ave, Columbia",
+    "mailto_url": "mailto:info@luminaclinicandaestheticscolumbia.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Columbia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:33:13"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Columbia",
+    "niche": "Clinic",
+    "city": "Columbia",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofcolumbia.example",
+    "email": "info@proactiveclinicclinicofcolumbia.example",
+    "address": "720 Boulevard Ave, Columbia",
+    "mailto_url": "mailto:info@proactiveclinicclinicofcolumbia.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Columbia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:33:13"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Columbia",
+    "niche": "Clinic",
+    "city": "Columbia",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistscolumbia.example",
+    "email": "info@eliteclinicspecialistscolumbia.example",
+    "address": "840 Boulevard Ave, Columbia",
+    "mailto_url": "mailto:info@eliteclinicspecialistscolumbia.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Columbia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:33:13"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Columbia",
+    "niche": "Clinic",
+    "city": "Columbia",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestcliniccolumbia.example",
+    "email": "info@summitcrestcliniccolumbia.example",
+    "address": "960 Boulevard Ave, Columbia",
+    "mailto_url": "mailto:info@summitcrestcliniccolumbia.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Columbia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:33:13"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Columbia",
+    "niche": "Clinic",
+    "city": "Columbia",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecentercolumbia.example",
+    "email": "info@metrocliniccarecentercolumbia.example",
+    "address": "1080 Boulevard Ave, Columbia",
+    "mailto_url": "mailto:info@metrocliniccarecentercolumbia.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Columbia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:33:13"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Columbia",
+    "niche": "Clinic",
+    "city": "Columbia",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticecolumbia.example",
+    "email": "info@pacificcoastclinicpracticecolumbia.example",
+    "address": "1200 Boulevard Ave, Columbia",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticecolumbia.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Columbia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:33:13"
+  }
+]
