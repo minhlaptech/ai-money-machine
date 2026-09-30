@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Cleveland Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Cleveland",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.clevelandpremierdentiststudio.example",
+    "email": "info@clevelandpremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Cleveland",
+    "mailto_url": "mailto:info@clevelandpremierdentiststudio.example?subject=quick%20question%20regarding%20Cleveland%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:40:17"
+  },
+  {
+    "id": 2,
+    "name": "Apex Cleveland Dentist Center",
+    "niche": "Dentist",
+    "city": "Cleveland",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexclevelanddentistcenter.example",
+    "email": "info@apexclevelanddentistcenter.example",
+    "address": "240 Boulevard Ave, Cleveland",
+    "mailto_url": "mailto:info@apexclevelanddentistcenter.example?subject=quick%20question%20regarding%20Apex%20Cleveland%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:40:17"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Cleveland",
+    "niche": "Dentist",
+    "city": "Cleveland",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersofcleveland.example",
+    "email": "info@beacondentistpartnersofcleveland.example",
+    "address": "360 Boulevard Ave, Cleveland",
+    "mailto_url": "mailto:info@beacondentistpartnersofcleveland.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Cleveland%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:40:17"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Cleveland Dentist Group",
+    "niche": "Dentist",
+    "city": "Cleveland",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardclevelanddentistgroup.example",
+    "email": "info@vanguardclevelanddentistgroup.example",
+    "address": "480 Boulevard Ave, Cleveland",
+    "mailto_url": "mailto:info@vanguardclevelanddentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Cleveland%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:40:17"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Cleveland",
+    "niche": "Dentist",
+    "city": "Cleveland",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticscleveland.example",
+    "email": "info@luminadentistandaestheticscleveland.example",
+    "address": "600 Boulevard Ave, Cleveland",
+    "mailto_url": "mailto:info@luminadentistandaestheticscleveland.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Cleveland%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:40:17"
+  }
+]

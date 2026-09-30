@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Cleveland Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Cleveland",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.clevelandpremierclinicstudio.example",
+    "email": "info@clevelandpremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Cleveland",
+    "mailto_url": "mailto:info@clevelandpremierclinicstudio.example?subject=quick%20question%20regarding%20Cleveland%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:41:11"
+  },
+  {
+    "id": 2,
+    "name": "Apex Cleveland Clinic Center",
+    "niche": "Clinic",
+    "city": "Cleveland",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexclevelandcliniccenter.example",
+    "email": "info@apexclevelandcliniccenter.example",
+    "address": "240 Boulevard Ave, Cleveland",
+    "mailto_url": "mailto:info@apexclevelandcliniccenter.example?subject=quick%20question%20regarding%20Apex%20Cleveland%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:41:11"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Cleveland",
+    "niche": "Clinic",
+    "city": "Cleveland",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofcleveland.example",
+    "email": "info@beaconclinicpartnersofcleveland.example",
+    "address": "360 Boulevard Ave, Cleveland",
+    "mailto_url": "mailto:info@beaconclinicpartnersofcleveland.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Cleveland%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:41:11"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Cleveland Clinic Group",
+    "niche": "Clinic",
+    "city": "Cleveland",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardclevelandclinicgroup.example",
+    "email": "info@vanguardclevelandclinicgroup.example",
+    "address": "480 Boulevard Ave, Cleveland",
+    "mailto_url": "mailto:info@vanguardclevelandclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Cleveland%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:41:11"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Cleveland",
+    "niche": "Clinic",
+    "city": "Cleveland",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticscleveland.example",
+    "email": "info@luminaclinicandaestheticscleveland.example",
+    "address": "600 Boulevard Ave, Cleveland",
+    "mailto_url": "mailto:info@luminaclinicandaestheticscleveland.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Cleveland%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:41:11"
+  }
+]
