@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Albuquerque Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.albuquerquepremierclinicstudio.example",
+    "email": "info@albuquerquepremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@albuquerquepremierclinicstudio.example?subject=quick%20question%20regarding%20Albuquerque%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:32:20"
+  },
+  {
+    "id": 2,
+    "name": "Apex Albuquerque Clinic Center",
+    "niche": "Clinic",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexalbuquerquecliniccenter.example",
+    "email": "info@apexalbuquerquecliniccenter.example",
+    "address": "240 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@apexalbuquerquecliniccenter.example?subject=quick%20question%20regarding%20Apex%20Albuquerque%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:32:20"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Albuquerque",
+    "niche": "Clinic",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofalbuquerque.example",
+    "email": "info@beaconclinicpartnersofalbuquerque.example",
+    "address": "360 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@beaconclinicpartnersofalbuquerque.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:32:20"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Albuquerque Clinic Group",
+    "niche": "Clinic",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardalbuquerqueclinicgroup.example",
+    "email": "info@vanguardalbuquerqueclinicgroup.example",
+    "address": "480 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@vanguardalbuquerqueclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Albuquerque%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:32:20"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Albuquerque",
+    "niche": "Clinic",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsalbuquerque.example",
+    "email": "info@luminaclinicandaestheticsalbuquerque.example",
+    "address": "600 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsalbuquerque.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:32:20"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Albuquerque",
+    "niche": "Clinic",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofalbuquerque.example",
+    "email": "info@proactiveclinicclinicofalbuquerque.example",
+    "address": "720 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@proactiveclinicclinicofalbuquerque.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:32:20"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Albuquerque",
+    "niche": "Clinic",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistsalbuquerque.example",
+    "email": "info@eliteclinicspecialistsalbuquerque.example",
+    "address": "840 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@eliteclinicspecialistsalbuquerque.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:32:20"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Albuquerque",
+    "niche": "Clinic",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicalbuquerque.example",
+    "email": "info@summitcrestclinicalbuquerque.example",
+    "address": "960 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@summitcrestclinicalbuquerque.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:32:20"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Albuquerque",
+    "niche": "Clinic",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecenteralbuquerque.example",
+    "email": "info@metrocliniccarecenteralbuquerque.example",
+    "address": "1080 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@metrocliniccarecenteralbuquerque.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:32:20"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Albuquerque",
+    "niche": "Clinic",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticealbuquerque.example",
+    "email": "info@pacificcoastclinicpracticealbuquerque.example",
+    "address": "1200 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticealbuquerque.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:32:20"
+  }
+]

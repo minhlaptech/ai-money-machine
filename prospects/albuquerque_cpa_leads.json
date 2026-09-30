@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Albuquerque Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.albuquerquepremiercpastudio.example",
+    "email": "info@albuquerquepremiercpastudio.example",
+    "address": "120 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@albuquerquepremiercpastudio.example?subject=quick%20question%20regarding%20Albuquerque%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:33:07"
+  },
+  {
+    "id": 2,
+    "name": "Apex Albuquerque Cpa Center",
+    "niche": "Cpa",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexalbuquerquecpacenter.example",
+    "email": "info@apexalbuquerquecpacenter.example",
+    "address": "240 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@apexalbuquerquecpacenter.example?subject=quick%20question%20regarding%20Apex%20Albuquerque%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:33:07"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of Albuquerque",
+    "niche": "Cpa",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersofalbuquerque.example",
+    "email": "info@beaconcpapartnersofalbuquerque.example",
+    "address": "360 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@beaconcpapartnersofalbuquerque.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:33:07"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Albuquerque Cpa Group",
+    "niche": "Cpa",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardalbuquerquecpagroup.example",
+    "email": "info@vanguardalbuquerquecpagroup.example",
+    "address": "480 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@vanguardalbuquerquecpagroup.example?subject=quick%20question%20regarding%20Vanguard%20Albuquerque%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:33:07"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics Albuquerque",
+    "niche": "Cpa",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticsalbuquerque.example",
+    "email": "info@luminacpaandaestheticsalbuquerque.example",
+    "address": "600 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@luminacpaandaestheticsalbuquerque.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:33:07"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Cpa Clinic of Albuquerque",
+    "niche": "Cpa",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivecpaclinicofalbuquerque.example",
+    "email": "info@proactivecpaclinicofalbuquerque.example",
+    "address": "720 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@proactivecpaclinicofalbuquerque.example?subject=quick%20question%20regarding%20ProActive%20Cpa%20Clinic%20of%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:33:07"
+  },
+  {
+    "id": 7,
+    "name": "Elite Cpa Specialists Albuquerque",
+    "niche": "Cpa",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitecpaspecialistsalbuquerque.example",
+    "email": "info@elitecpaspecialistsalbuquerque.example",
+    "address": "840 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@elitecpaspecialistsalbuquerque.example?subject=quick%20question%20regarding%20Elite%20Cpa%20Specialists%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:33:07"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Cpa Albuquerque",
+    "niche": "Cpa",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestcpaalbuquerque.example",
+    "email": "info@summitcrestcpaalbuquerque.example",
+    "address": "960 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@summitcrestcpaalbuquerque.example?subject=quick%20question%20regarding%20Summit%20Crest%20Cpa%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:33:07"
+  },
+  {
+    "id": 9,
+    "name": "Metro Cpa Care Center Albuquerque",
+    "niche": "Cpa",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocpacarecenteralbuquerque.example",
+    "email": "info@metrocpacarecenteralbuquerque.example",
+    "address": "1080 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@metrocpacarecenteralbuquerque.example?subject=quick%20question%20regarding%20Metro%20Cpa%20Care%20Center%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:33:07"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Cpa Practice Albuquerque",
+    "niche": "Cpa",
+    "city": "Albuquerque",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastcpapracticealbuquerque.example",
+    "email": "info@pacificcoastcpapracticealbuquerque.example",
+    "address": "1200 Boulevard Ave, Albuquerque",
+    "mailto_url": "mailto:info@pacificcoastcpapracticealbuquerque.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Cpa%20Practice%20Albuquerque%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:33:07"
+  }
+]
