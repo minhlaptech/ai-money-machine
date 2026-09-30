@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Tallahassee Allergy Asthma",
+    "niche": "Doctor",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@tallahasseeallergyasthma.example",
+    "address": "2619 Centennial Boulevard, Tallahassee",
+    "mailto_url": "mailto:contact@tallahasseeallergyasthma.example?subject=quick%20question%20regarding%20Tallahassee%20Allergy%20Asthma%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Tallahassee%20Allergy%20Asthma%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:58:58"
+  },
+  {
+    "id": 2,
+    "name": "Tallahassee Ear, Nose, and Throat",
+    "niche": "Doctor",
+    "city": "Tallahassee",
+    "phone": "+1-850-877-0101",
+    "website": "http://tallyent.com",
+    "email": "contact@tallyent.com",
+    "address": "1405 Centerville Road, Tallahassee 32308",
+    "mailto_url": "mailto:contact@tallyent.com?subject=quick%20question%20regarding%20Tallahassee%20Ear%2C%20Nose%2C%20and%20Throat%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//tallyent.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Tallahassee%20Ear%2C%20Nose%2C%20and%20Throat%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:58:58"
+  },
+  {
+    "id": 3,
+    "name": "Capital Health Plan",
+    "niche": "Doctor",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@capitalhealthplan.example",
+    "address": "2140 Centerville Road, Tallahassee",
+    "mailto_url": "mailto:contact@capitalhealthplan.example?subject=quick%20question%20regarding%20Capital%20Health%20Plan%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Capital%20Health%20Plan%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:58:58"
+  },
+  {
+    "id": 4,
+    "name": "Preventive Cardiology & Internal Medicine",
+    "niche": "Doctor",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@preventivecardiologyinternalmedicine.example",
+    "address": "3606 Maclay Boulevard, Tallahassee 32312",
+    "mailto_url": "mailto:contact@preventivecardiologyinternalmedicine.example?subject=quick%20question%20regarding%20Preventive%20Cardiology%20%26%20Internal%20Medicine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Preventive%20Cardiology%20%26%20Internal%20Medicine%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:58:58"
+  },
+  {
+    "id": 5,
+    "name": "Tallahassee Sleep Diagnostic Center",
+    "niche": "Doctor",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "http://tallysleeplab.com/Home_Page.html",
+    "email": "contact@tallysleeplab.com",
+    "address": "Tallahassee",
+    "mailto_url": "mailto:contact@tallysleeplab.com?subject=quick%20question%20regarding%20Tallahassee%20Sleep%20Diagnostic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//tallysleeplab.com/Home_Page.html%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Tallahassee%20Sleep%20Diagnostic%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:58:58"
+  },
+  {
+    "id": 6,
+    "name": "Lowery Chiropractic Clinic",
+    "niche": "Doctor",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "https://www.lowerychiro.com/",
+    "email": "contact@lowerychiro.com",
+    "address": "Tallahassee",
+    "mailto_url": "mailto:contact@lowerychiro.com?subject=quick%20question%20regarding%20Lowery%20Chiropractic%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.lowerychiro.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lowery%20Chiropractic%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:58:58"
+  },
+  {
+    "id": 7,
+    "name": "Ben Fragale DMD MS Endodontist",
+    "niche": "Doctor",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@benfragaledmdmsendodontist.example",
+    "address": "Tallahassee",
+    "mailto_url": "mailto:contact@benfragaledmdmsendodontist.example?subject=quick%20question%20regarding%20Ben%20Fragale%20DMD%20MS%20Endodontist%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Ben%20Fragale%20DMD%20MS%20Endodontist%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:58:58"
+  },
+  {
+    "id": 8,
+    "name": "Whitfield Chiropractic Clinic",
+    "niche": "Doctor",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "https://whitfieldchiro.com/",
+    "email": "contact@whitfieldchiro.com",
+    "address": "1216 Miccosukee Road, Tallahassee 32308",
+    "mailto_url": "mailto:contact@whitfieldchiro.com?subject=quick%20question%20regarding%20Whitfield%20Chiropractic%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//whitfieldchiro.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Whitfield%20Chiropractic%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:58:58"
+  },
+  {
+    "id": 9,
+    "name": "Cunningham Chiropractic",
+    "niche": "Doctor",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@cunninghamchiropractic.example",
+    "address": "1319 East 7th Avenue, Tallahassee",
+    "mailto_url": "mailto:contact@cunninghamchiropractic.example?subject=quick%20question%20regarding%20Cunningham%20Chiropractic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Cunningham%20Chiropractic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:58:58"
+  },
+  {
+    "id": 10,
+    "name": "Capital Pediatrics",
+    "niche": "Doctor",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@capitalpediatrics.example",
+    "address": "Tallahassee",
+    "mailto_url": "mailto:contact@capitalpediatrics.example?subject=quick%20question%20regarding%20Capital%20Pediatrics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Capital%20Pediatrics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:58:58"
+  }
+]

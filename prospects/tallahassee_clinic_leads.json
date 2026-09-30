@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Ecstatic Chiropractic",
+    "niche": "Clinic",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@ecstaticchiropractic.example",
+    "address": "2819 Mahan Drive, Tallahassee 32308",
+    "mailto_url": "mailto:contact@ecstaticchiropractic.example?subject=quick%20question%20regarding%20Ecstatic%20Chiropractic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Ecstatic%20Chiropractic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:04"
+  },
+  {
+    "id": 2,
+    "name": "Behavioral Health Solutions",
+    "niche": "Clinic",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "https://www.behavioralhealthtallahassee.com/",
+    "email": "contact@behavioralhealthtallahassee.com",
+    "address": "2898 Mahan Drive, Tallahassee 32308",
+    "mailto_url": "mailto:contact@behavioralhealthtallahassee.com?subject=quick%20question%20regarding%20Behavioral%20Health%20Solutions%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.behavioralhealthtallahassee.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Behavioral%20Health%20Solutions%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:04"
+  },
+  {
+    "id": 3,
+    "name": "Patients First",
+    "niche": "Clinic",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@patientsfirst.example",
+    "address": "Tallahassee",
+    "mailto_url": "mailto:contact@patientsfirst.example?subject=quick%20question%20regarding%20Patients%20First%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Patients%20First%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:04"
+  },
+  {
+    "id": 4,
+    "name": "Women's Imaging Center",
+    "niche": "Clinic",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "https://www.radassociates.com/specialties/womens-imaging/",
+    "email": "contact@radassociates.com",
+    "address": "Tallahassee",
+    "mailto_url": "mailto:contact@radassociates.com?subject=quick%20question%20regarding%20Women%27s%20Imaging%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.radassociates.com/specialties/womens-imaging/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Women%27s%20Imaging%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:04"
+  },
+  {
+    "id": 5,
+    "name": "Tallahassee Diagnostic Imaging",
+    "niche": "Clinic",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "https://www.radassociates.com/tdi/",
+    "email": "contact@radassociates.com",
+    "address": "Tallahassee",
+    "mailto_url": "mailto:contact@radassociates.com?subject=quick%20question%20regarding%20Tallahassee%20Diagnostic%20Imaging%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.radassociates.com/tdi/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Tallahassee%20Diagnostic%20Imaging%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:04"
+  },
+  {
+    "id": 6,
+    "name": "Balanced Chiropractic Institute",
+    "niche": "Clinic",
+    "city": "Tallahassee",
+    "phone": "+1-850-531-0111",
+    "website": "https://www.bcitally.com/",
+    "email": "contact@bcitally.com",
+    "address": "3375 Capital Circle Northeast, Tallahassee 32308",
+    "mailto_url": "mailto:contact@bcitally.com?subject=quick%20question%20regarding%20Balanced%20Chiropractic%20Institute%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.bcitally.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Balanced%20Chiropractic%20Institute%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:04"
+  },
+  {
+    "id": 7,
+    "name": "Tallahassee Orthopedic and Sports Physical Therapy",
+    "niche": "Clinic",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@tallahasseeorthopedicandsportsphysicaltherapy.example",
+    "address": "2121 West Tennessee Street, Tallahassee 32304",
+    "mailto_url": "mailto:contact@tallahasseeorthopedicandsportsphysicaltherapy.example?subject=quick%20question%20regarding%20Tallahassee%20Orthopedic%20and%20Sports%20Physical%20Therapy%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Tallahassee%20Orthopedic%20and%20Sports%20Physical%20Therapy%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:04"
+  },
+  {
+    "id": 8,
+    "name": "TMH Physicians Partners Pulmonary Critical Care Sleep",
+    "niche": "Clinic",
+    "city": "Tallahassee",
+    "phone": "+1 850-878-8714",
+    "website": "https://www.tmh.org/location/tmh-physician-partners-pulmonary-critical-care-sleep",
+    "email": "contact@tmh.org",
+    "address": "1607 Saint James Court, Tallahassee 32308",
+    "mailto_url": "mailto:contact@tmh.org?subject=quick%20question%20regarding%20TMH%20Physicians%20Partners%20Pulmonary%20Critical%20Care%20Sleep%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.tmh.org/location/tmh-physician-partners-pulmonary-critical-care-sleep%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20TMH%20Physicians%20Partners%20Pulmonary%20Critical%20Care%20Sleep%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:04"
+  },
+  {
+    "id": 9,
+    "name": "TMH Physicians Partners Heart Failure",
+    "niche": "Clinic",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@tmhphysicianspartnersheartfailure.example",
+    "address": "1609 Physicians Drive, Tallahassee",
+    "mailto_url": "mailto:contact@tmhphysicianspartnersheartfailure.example?subject=quick%20question%20regarding%20TMH%20Physicians%20Partners%20Heart%20Failure%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20TMH%20Physicians%20Partners%20Heart%20Failure%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:04"
+  },
+  {
+    "id": 10,
+    "name": "DaVita Dialysis",
+    "niche": "Clinic",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "https://www.davita.com/locations/fl/tallahassee/1607-physicians-dr--4089",
+    "email": "contact@davita.com",
+    "address": "1607 Physicians Drive, Tallahassee 32308",
+    "mailto_url": "mailto:contact@davita.com?subject=quick%20question%20regarding%20DaVita%20Dialysis%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.davita.com/locations/fl/tallahassee/1607-physicians-dr--4089%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20DaVita%20Dialysis%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:04"
+  }
+]

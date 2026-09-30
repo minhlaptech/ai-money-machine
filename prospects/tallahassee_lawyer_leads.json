@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Heckman Law Group",
+    "niche": "Lawyer",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@heckmanlawgroup.example",
+    "address": "326 Williams Street, Tallahassee",
+    "mailto_url": "mailto:contact@heckmanlawgroup.example?subject=quick%20question%20regarding%20Heckman%20Law%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Heckman%20Law%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:13"
+  },
+  {
+    "id": 2,
+    "name": "Lamia Trial Lawyers",
+    "niche": "Lawyer",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "http://lamiatriallawyers.com/",
+    "email": "contact@lamiatriallawyers.com",
+    "address": "285 Pinewood Drive, Tallahassee 32303",
+    "mailto_url": "mailto:contact@lamiatriallawyers.com?subject=quick%20question%20regarding%20Lamia%20Trial%20Lawyers%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//lamiatriallawyers.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lamia%20Trial%20Lawyers%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:13"
+  },
+  {
+    "id": 3,
+    "name": "Law Offices of Marion D. Lamb, III",
+    "niche": "Lawyer",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lawofficesofmariondlambiii.example",
+    "address": "217 Pinewood Drive, Tallahassee",
+    "mailto_url": "mailto:contact@lawofficesofmariondlambiii.example?subject=quick%20question%20regarding%20Law%20Offices%20of%20Marion%20D.%20Lamb%2C%20III%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Law%20Offices%20of%20Marion%20D.%20Lamb%2C%20III%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:13"
+  },
+  {
+    "id": 4,
+    "name": "Proctor And Kole Attorneys at Law",
+    "niche": "Lawyer",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "https://www.proctorkolefirm.com/",
+    "email": "contact@proctorkolefirm.com",
+    "address": "229 Pinewood Drive, Tallahassee 32303",
+    "mailto_url": "mailto:contact@proctorkolefirm.com?subject=quick%20question%20regarding%20Proctor%20And%20Kole%20Attorneys%20at%20Law%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.proctorkolefirm.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Proctor%20And%20Kole%20Attorneys%20at%20Law%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:13"
+  },
+  {
+    "id": 5,
+    "name": "Mathew's Law Firm, PA",
+    "niche": "Lawyer",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "https://www.mathewslawfirm.com/",
+    "email": "contact@mathewslawfirm.com",
+    "address": "277 Pinewood Drive, Tallahassee 32303",
+    "mailto_url": "mailto:contact@mathewslawfirm.com?subject=quick%20question%20regarding%20Mathew%27s%20Law%20Firm%2C%20PA%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.mathewslawfirm.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Mathew%27s%20Law%20Firm%2C%20PA%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:13"
+  },
+  {
+    "id": 6,
+    "name": "C&L Associates",
+    "niche": "Lawyer",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@classociates.example",
+    "address": "Tallahassee",
+    "mailto_url": "mailto:contact@classociates.example?subject=quick%20question%20regarding%20C%26L%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20C%26L%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:13"
+  },
+  {
+    "id": 7,
+    "name": "Florida Law Enforcement Liaison",
+    "niche": "Lawyer",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@floridalawenforcementliaison.example",
+    "address": "Tallahassee",
+    "mailto_url": "mailto:contact@floridalawenforcementliaison.example?subject=quick%20question%20regarding%20Florida%20Law%20Enforcement%20Liaison%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Florida%20Law%20Enforcement%20Liaison%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:13"
+  },
+  {
+    "id": 8,
+    "name": "Footman Law Firm, P.A",
+    "niche": "Lawyer",
+    "city": "Tallahassee",
+    "phone": "+1 850-597-7396",
+    "website": "https://footmanlaw.com/",
+    "email": "contact@footmanlaw.com",
+    "address": "1695 Metropolitan Circle, Tallahassee 32308",
+    "mailto_url": "mailto:contact@footmanlaw.com?subject=quick%20question%20regarding%20Footman%20Law%20Firm%2C%20P.A%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//footmanlaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Footman%20Law%20Firm%2C%20P.A%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:13"
+  },
+  {
+    "id": 9,
+    "name": "Sniffen and Spellman, PA",
+    "niche": "Lawyer",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "https://sniffenlaw.com/",
+    "email": "contact@sniffenlaw.com",
+    "address": "123 North Monroe Street, Tallahassee 32301",
+    "mailto_url": "mailto:contact@sniffenlaw.com?subject=quick%20question%20regarding%20Sniffen%20and%20Spellman%2C%20PA%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//sniffenlaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sniffen%20and%20Spellman%2C%20PA%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:13"
+  },
+  {
+    "id": 10,
+    "name": "Becker and Poliakoff",
+    "niche": "Lawyer",
+    "city": "Tallahassee",
+    "phone": "N/A",
+    "website": "http://www.becker-poliakoff.com/",
+    "email": "contact@becker-poliakoff.com",
+    "address": "Tallahassee",
+    "mailto_url": "mailto:contact@becker-poliakoff.com?subject=quick%20question%20regarding%20Becker%20and%20Poliakoff%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.becker-poliakoff.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Becker%20and%20Poliakoff%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:59:13"
+  }
+]
