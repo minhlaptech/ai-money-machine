@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Dallas Premier Doctor Studio",
+    "niche": "Doctor",
+    "city": "Dallas",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.dallaspremierdoctorstudio.example",
+    "email": "info@dallaspremierdoctorstudio.example",
+    "address": "120 Boulevard Ave, Dallas",
+    "mailto_url": "mailto:info@dallaspremierdoctorstudio.example?subject=quick%20question%20regarding%20Dallas%20Premier%20Doctor%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:08:34"
+  },
+  {
+    "id": 2,
+    "name": "Apex Dallas Doctor Center",
+    "niche": "Doctor",
+    "city": "Dallas",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexdallasdoctorcenter.example",
+    "email": "info@apexdallasdoctorcenter.example",
+    "address": "240 Boulevard Ave, Dallas",
+    "mailto_url": "mailto:info@apexdallasdoctorcenter.example?subject=quick%20question%20regarding%20Apex%20Dallas%20Doctor%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:08:34"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Doctor Partners of Dallas",
+    "niche": "Doctor",
+    "city": "Dallas",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondoctorpartnersofdallas.example",
+    "email": "info@beacondoctorpartnersofdallas.example",
+    "address": "360 Boulevard Ave, Dallas",
+    "mailto_url": "mailto:info@beacondoctorpartnersofdallas.example?subject=quick%20question%20regarding%20Beacon%20Doctor%20Partners%20of%20Dallas%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:08:34"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Dallas Doctor Group",
+    "niche": "Doctor",
+    "city": "Dallas",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguarddallasdoctorgroup.example",
+    "email": "info@vanguarddallasdoctorgroup.example",
+    "address": "480 Boulevard Ave, Dallas",
+    "mailto_url": "mailto:info@vanguarddallasdoctorgroup.example?subject=quick%20question%20regarding%20Vanguard%20Dallas%20Doctor%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:08:34"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Doctor & Aesthetics Dallas",
+    "niche": "Doctor",
+    "city": "Dallas",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadoctorandaestheticsdallas.example",
+    "email": "info@luminadoctorandaestheticsdallas.example",
+    "address": "600 Boulevard Ave, Dallas",
+    "mailto_url": "mailto:info@luminadoctorandaestheticsdallas.example?subject=quick%20question%20regarding%20Lumina%20Doctor%20%26%20Aesthetics%20Dallas%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:08:34"
+  }
+]
