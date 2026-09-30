@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "James J. Riggie Real Estate",
+    "niche": "Realestate",
+    "city": "Buffalo",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@jamesjriggierealestate.example",
+    "address": "Buffalo",
+    "mailto_url": "mailto:contact@jamesjriggierealestate.example?subject=quick%20question%20regarding%20James%20J.%20Riggie%20Real%20Estate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20James%20J.%20Riggie%20Real%20Estate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:17:01"
+  },
+  {
+    "id": 2,
+    "name": "Maddux Century 21",
+    "niche": "Realestate",
+    "city": "Buffalo",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@madduxcentury21.example",
+    "address": "S Ash St, Buffalo 65622",
+    "mailto_url": "mailto:contact@madduxcentury21.example?subject=quick%20question%20regarding%20Maddux%20Century%2021%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Maddux%20Century%2021%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:17:01"
+  },
+  {
+    "id": 3,
+    "name": "Envision Real Estate",
+    "niche": "Realestate",
+    "city": "Buffalo",
+    "phone": "+1-716-274-4663",
+    "website": "https://www.seeingyouhome.com/",
+    "email": "contact@seeingyouhome.com",
+    "address": "1385 Hertel Avenue, Buffalo 14216",
+    "mailto_url": "mailto:contact@seeingyouhome.com?subject=quick%20question%20regarding%20Envision%20Real%20Estate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.seeingyouhome.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Envision%20Real%20Estate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:17:01"
+  },
+  {
+    "id": 4,
+    "name": "Miranda Real Estate & Management",
+    "niche": "Realestate",
+    "city": "Buffalo",
+    "phone": "+17168366600",
+    "website": "http://mirandareal-estate.com/",
+    "email": "contact@mirandareal-estate.com",
+    "address": "3080 Main Street, Buffalo 14214",
+    "mailto_url": "mailto:contact@mirandareal-estate.com?subject=quick%20question%20regarding%20Miranda%20Real%20Estate%20%26%20Management%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//mirandareal-estate.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Miranda%20Real%20Estate%20%26%20Management%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:17:01"
+  },
+  {
+    "id": 5,
+    "name": "716 Realty Group",
+    "niche": "Realestate",
+    "city": "Buffalo",
+    "phone": "+17162666691",
+    "website": "https://www.716realtygroup.com/",
+    "email": "contact@716realtygroup.com",
+    "address": "1382 Hertel Avenue, Buffalo 14216",
+    "mailto_url": "mailto:contact@716realtygroup.com?subject=quick%20question%20regarding%20716%20Realty%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.716realtygroup.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20716%20Realty%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:17:01"
+  }
+]

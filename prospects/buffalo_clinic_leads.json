@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Buffalo Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Buffalo",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.buffalopremierclinicstudio.example",
+    "email": "info@buffalopremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Buffalo",
+    "mailto_url": "mailto:info@buffalopremierclinicstudio.example?subject=quick%20question%20regarding%20Buffalo%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:15:59"
+  },
+  {
+    "id": 2,
+    "name": "Apex Buffalo Clinic Center",
+    "niche": "Clinic",
+    "city": "Buffalo",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexbuffalocliniccenter.example",
+    "email": "info@apexbuffalocliniccenter.example",
+    "address": "240 Boulevard Ave, Buffalo",
+    "mailto_url": "mailto:info@apexbuffalocliniccenter.example?subject=quick%20question%20regarding%20Apex%20Buffalo%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:15:59"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Buffalo",
+    "niche": "Clinic",
+    "city": "Buffalo",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofbuffalo.example",
+    "email": "info@beaconclinicpartnersofbuffalo.example",
+    "address": "360 Boulevard Ave, Buffalo",
+    "mailto_url": "mailto:info@beaconclinicpartnersofbuffalo.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Buffalo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:15:59"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Buffalo Clinic Group",
+    "niche": "Clinic",
+    "city": "Buffalo",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardbuffaloclinicgroup.example",
+    "email": "info@vanguardbuffaloclinicgroup.example",
+    "address": "480 Boulevard Ave, Buffalo",
+    "mailto_url": "mailto:info@vanguardbuffaloclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Buffalo%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:15:59"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Buffalo",
+    "niche": "Clinic",
+    "city": "Buffalo",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsbuffalo.example",
+    "email": "info@luminaclinicandaestheticsbuffalo.example",
+    "address": "600 Boulevard Ave, Buffalo",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsbuffalo.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Buffalo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:15:59"
+  }
+]
