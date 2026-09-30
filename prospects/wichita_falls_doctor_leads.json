@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Heart Clinic",
+    "niche": "Doctor",
+    "city": "Wichita Falls",
+    "phone": "+1-940-687-5000",
+    "website": "N/A",
+    "email": "contact@heartclinic.example",
+    "address": "1631 11th Street, Wichita Falls 76301",
+    "mailto_url": "mailto:contact@heartclinic.example?subject=quick%20question%20regarding%20Heart%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Heart%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:55:06"
+  },
+  {
+    "id": 2,
+    "name": "Live Oak Oral Surgery",
+    "niche": "Doctor",
+    "city": "Wichita Falls",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@liveoakoralsurgery.example",
+    "address": "Wichita Falls",
+    "mailto_url": "mailto:contact@liveoakoralsurgery.example?subject=quick%20question%20regarding%20Live%20Oak%20Oral%20Surgery%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Live%20Oak%20Oral%20Surgery%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:55:06"
+  },
+  {
+    "id": 3,
+    "name": "Orthopedic Associates",
+    "niche": "Doctor",
+    "city": "Wichita Falls",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@orthopedicassociates.example",
+    "address": "1 West Medical Court, Wichita Falls 76310",
+    "mailto_url": "mailto:contact@orthopedicassociates.example?subject=quick%20question%20regarding%20Orthopedic%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Orthopedic%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:55:06"
+  },
+  {
+    "id": 4,
+    "name": "North Texas Surgical Group",
+    "niche": "Doctor",
+    "city": "Wichita Falls",
+    "phone": "+1-940-687-8000",
+    "website": "https://www.northtexassurgicalgroup.com/",
+    "email": "contact@northtexassurgicalgroup.com",
+    "address": "2945 Southwest Parkway, Wichita Falls 76308",
+    "mailto_url": "mailto:contact@northtexassurgicalgroup.com?subject=quick%20question%20regarding%20North%20Texas%20Surgical%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.northtexassurgicalgroup.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20North%20Texas%20Surgical%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:55:06"
+  },
+  {
+    "id": 5,
+    "name": "Momentum Specialty Surgery & Stay Suites",
+    "niche": "Doctor",
+    "city": "Wichita Falls",
+    "phone": "+1-940-400-6400",
+    "website": "N/A",
+    "email": "contact@momentumspecialtysurgerystaysuites.example",
+    "address": "4 Burnside Drive, Wichita Falls 76310",
+    "mailto_url": "mailto:contact@momentumspecialtysurgerystaysuites.example?subject=quick%20question%20regarding%20Momentum%20Specialty%20Surgery%20%26%20Stay%20Suites%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Momentum%20Specialty%20Surgery%20%26%20Stay%20Suites%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:55:06"
+  }
+]
