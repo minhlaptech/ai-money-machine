@@ -1,16 +1,16 @@
 # 📅 KẾ HOẠCH TÁC CHIẾN HÀNG NGÀY (DAILY PLAN)
 > AI đọc file này đầu mỗi phiên chat để biết kế hoạch ngày hôm nay
-> Cập nhật lần cuối: 2026-09-30 21:55 (GMT+7) — Phiên #97
+> Cập nhật lần cuối: 2026-09-30 22:00 (GMT+7) — Phiên #98
 
 ---
 
 ## 📆 NGÀY HIỆN TẠI: 2026-09-30 (Thứ Tư)
 
-### 🎯 Mục tiêu trọng tâm Phiên #97:
+### 🎯 Mục tiêu trọng tâm Phiên #98:
 1. Duy trì tính toàn vẹn hệ thống 100%: 29/29 Cloud Applications đạt HTTP 200, Binary Parity `index.html` == `dashboard.html`.
-2. Kiểm toán và chuẩn hóa 6 sản phẩm Merch Lập trình viên & Kỹ sư AI (`scripts/pod_listing_generator.py`) kèm bảng tính Net Profit Margin.
-3. Đóng gói trọn bộ 15 kịch bản tự động hóa doanh nghiệp Make.com & n8n JSON vào `distribution_kit/ai_automation_blueprints_pack.zip`.
-4. Rà soát sàn thương mại Merch Store (`/merch`) và bộ Master Bundle ($39).
+2. Kiểm tra Vercel Deployment Quota: Bản build mới nhất `READY` (0 lỗi), rolling window 24h hoạt động ổn định.
+3. Xác minh kho sách điện tử & Prompt Pack PDF (5.4 MB tổng dung lượng) sẵn sàng phân phối sau checkout.
+4. Đảm bảo toàn bộ hệ sinh thái sẵn sàng chuyển đổi doanh thu thực tế.
 
 ### 📋 Checklist Tác Vụ Trong Ngày:
 
@@ -18,10 +18,10 @@
 |---|----------|------------------|------------|-------------------|
 | 1 | Kiểm tra sức khỏe toàn hệ thống | `scripts/system_health_check.py` | ✅ Hoàn thành | 29/29 Cloud Hubs HTTP 200 (~120ms) |
 | 2 | Kiểm tra Binary Parity giao diện | `fc.exe /b index.html dashboard.html` | ✅ Hoàn thành | Khớp 100% từng byte (0 byte diff) |
-| 3 | Kiểm toán 6 Thiết kế Merch POD | `scripts/pod_listing_generator.py --all` | ✅ Hoàn thành | 6/6 Listing MD & Bulk CSV |
-| 4 | Đóng gói 15 Automation Blueprints | `scripts/generate_all_blueprints.py` | ✅ Hoàn thành | ZIP 21 KB tại distribution_kit |
-| 5 | Rà soát liên kết Merch Store | `https://work-minh-lap.vercel.app/merch` | ✅ Hoàn thành | 6 Sản phẩm hiển thị trơn tru |
-| 6 | Cập nhật Master Control & Daily Plan | `MASTER_CONTROL.md`, `DAILY_PLAN.md` | ✅ Hoàn thành | Đồng bộ phiên #97 |
+| 3 | Kiểm toán Vercel Quota | `scripts/check_vercel_quota.py` | ✅ Hoàn thành | Quota an toàn, build READY |
+| 4 | Kiểm tra Kho PDF Ebook & Prompts | `projects/digital_products/products/` | ✅ Hoàn thành | 2 File PDF (5.4 MB) nguyên vẹn |
+| 5 | Rà soát Cổng thanh toán Lemon Squeezy | Store ID 485872 (MinhLap) | ✅ Hoàn thành | Sẵn sàng xử lý webhook |
+| 6 | Cập nhật Master Control & Daily Plan | `MASTER_CONTROL.md`, `DAILY_PLAN.md` | ✅ Hoàn thành | Đồng bộ phiên #98 |
 
 ---
 
