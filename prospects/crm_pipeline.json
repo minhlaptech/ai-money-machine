@@ -397,10 +397,10 @@
     "city": "Phoenix, AZ",
     "to": "design@bluewavecustompools.example",
     "doc": "Jason Bennett",
-    "status": "day3",
+    "status": "day7",
     "value": 5000,
     "retainer": 750,
-    "last_touch": "2026-09-30 23:19"
+    "last_touch": "2026-09-30 23:37"
   },
   {
     "id": 32,
@@ -410,10 +410,10 @@
     "city": "Las Vegas, NV",
     "to": "quotes@solarmatrixepc.example",
     "doc": "Elena Hayes",
-    "status": "day3",
+    "status": "day7",
     "value": 6000,
     "retainer": 850,
-    "last_touch": "2026-09-30 23:19"
+    "last_touch": "2026-09-30 23:37"
   },
   {
     "id": 33,
@@ -423,10 +423,10 @@
     "city": "Charlotte, NC",
     "to": "concierge@eliteartisankitchens.example",
     "doc": "Marcus Sterling",
-    "status": "day3",
+    "status": "day7",
     "value": 4500,
     "retainer": 750,
-    "last_touch": "2026-09-30 23:19"
+    "last_touch": "2026-09-30 23:37"
   },
   {
     "id": 34,
@@ -436,10 +436,10 @@
     "city": "Nashville, TN",
     "to": "inspections@ironcladfoundation.example",
     "doc": "Travis Cole",
-    "status": "day3",
+    "status": "day7",
     "value": 3800,
     "retainer": 700,
-    "last_touch": "2026-09-30 23:19"
+    "last_touch": "2026-09-30 23:37"
   },
   {
     "id": 35,
@@ -449,10 +449,10 @@
     "city": "Salt Lake City, UT",
     "to": "inquiries@sierravistalandscape.example",
     "doc": "Chloe Davies",
-    "status": "day3",
+    "status": "day7",
     "value": 3500,
     "retainer": 700,
-    "last_touch": "2026-09-30 23:19"
+    "last_touch": "2026-09-30 23:37"
   },
   {
     "id": 36,
@@ -462,10 +462,10 @@
     "city": "Houston, TX",
     "to": "estimates@paramountcommroofing.example",
     "doc": "Robert Lang",
-    "status": "day3",
+    "status": "day7",
     "value": 7500,
     "retainer": 950,
-    "last_touch": "2026-09-30 23:19"
+    "last_touch": "2026-09-30 23:37"
   },
   {
     "id": 37,
@@ -475,10 +475,10 @@
     "city": "Tampa, FL",
     "to": "service@precisionclimatefl.example",
     "doc": "Derek Vance",
-    "status": "day3",
+    "status": "day7",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 23:19"
+    "last_touch": "2026-09-30 23:37"
   },
   {
     "id": 38,
@@ -488,10 +488,10 @@
     "city": "Philadelphia, PA",
     "to": "bids@tristateglasspa.example",
     "doc": "Anthony Russo",
-    "status": "day3",
+    "status": "day7",
     "value": 4200,
     "retainer": 750,
-    "last_touch": "2026-09-30 23:19"
+    "last_touch": "2026-09-30 23:37"
   },
   {
     "id": 39,
@@ -501,10 +501,10 @@
     "city": "Raleigh, NC",
     "to": "plans@benchmarkcustomnc.example",
     "doc": "Jonathan Drake",
-    "status": "day3",
+    "status": "day7",
     "value": 8000,
     "retainer": 1000,
-    "last_touch": "2026-09-30 23:19"
+    "last_touch": "2026-09-30 23:37"
   },
   {
     "id": 40,
@@ -514,10 +514,10 @@
     "city": "Minneapolis, MN",
     "to": "emergency@apexrestorationmn.example",
     "doc": "Sarah Lindqvist",
-    "status": "day3",
+    "status": "day7",
     "value": 5500,
     "retainer": 800,
-    "last_touch": "2026-09-30 23:19"
+    "last_touch": "2026-09-30 23:37"
   },
   {
     "id": 41,

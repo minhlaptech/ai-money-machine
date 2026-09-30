@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "A & M Accounting",
+    "niche": "Cpa",
+    "city": "Minneapolis",
+    "phone": "+1-612-870-1324",
+    "website": "https://www.amaccounting.com",
+    "email": "contact@amaccounting.com",
+    "address": "2529 Nicollet Avenue, Minneapolis 55404",
+    "mailto_url": "mailto:contact@amaccounting.com?subject=quick%20question%20regarding%20A%20%26%20M%20Accounting%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.amaccounting.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20A%20%26%20M%20Accounting%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:39:17"
+  },
+  {
+    "id": 2,
+    "name": "Romer & Company, PC",
+    "niche": "Cpa",
+    "city": "Minneapolis",
+    "phone": "+1-612-872-0012",
+    "website": "https://www.romercpas.com",
+    "email": "contact@romercpas.com",
+    "address": "4322 Nicollet Avenue, Minneapolis 55409",
+    "mailto_url": "mailto:contact@romercpas.com?subject=quick%20question%20regarding%20Romer%20%26%20Company%2C%20PC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.romercpas.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Romer%20%26%20Company%2C%20PC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:39:17"
+  },
+  {
+    "id": 3,
+    "name": "Victory",
+    "niche": "Cpa",
+    "city": "Minneapolis",
+    "phone": "+1 612 987 6827",
+    "website": "https://www.victorybusinesssolutions.org/",
+    "email": "contact@victorybusinesssolutions.org",
+    "address": "2839 Lyndale Avenue South, Minneapolis 55408",
+    "mailto_url": "mailto:contact@victorybusinesssolutions.org?subject=quick%20question%20regarding%20Victory%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.victorybusinesssolutions.org/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Victory%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:39:17"
+  },
+  {
+    "id": 4,
+    "name": "Guta Tax Service",
+    "niche": "Cpa",
+    "city": "Minneapolis",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@gutataxservice.example",
+    "address": "2327 East Franklin Avenue, Minneapolis",
+    "mailto_url": "mailto:contact@gutataxservice.example?subject=quick%20question%20regarding%20Guta%20Tax%20Service%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Guta%20Tax%20Service%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:39:17"
+  },
+  {
+    "id": 5,
+    "name": "Lottsa Tax and Accounting Services, Inc.",
+    "niche": "Cpa",
+    "city": "Minneapolis",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lottsataxandaccountingservicesinc.example",
+    "address": "Minneapolis",
+    "mailto_url": "mailto:contact@lottsataxandaccountingservicesinc.example?subject=quick%20question%20regarding%20Lottsa%20Tax%20and%20Accounting%20Services%2C%20Inc.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lottsa%20Tax%20and%20Accounting%20Services%2C%20Inc.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:39:17"
+  },
+  {
+    "id": 6,
+    "name": "Imran's Tax Service",
+    "niche": "Cpa",
+    "city": "Minneapolis",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@imran'staxservice.example",
+    "address": "322 West Lake Street, Minneapolis 55408",
+    "mailto_url": "mailto:contact@imran'staxservice.example?subject=quick%20question%20regarding%20Imran%27s%20Tax%20Service%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Imran%27s%20Tax%20Service%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:39:17"
+  },
+  {
+    "id": 7,
+    "name": "Integrity 1st",
+    "niche": "Cpa",
+    "city": "Minneapolis",
+    "phone": "+1 612 402 0836",
+    "website": "N/A",
+    "email": "contact@integrity1st.example",
+    "address": "Minneapolis",
+    "mailto_url": "mailto:contact@integrity1st.example?subject=quick%20question%20regarding%20Integrity%201st%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Integrity%201st%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:39:17"
+  },
+  {
+    "id": 8,
+    "name": "Minneapolis Cpa #8",
+    "niche": "Cpa",
+    "city": "Minneapolis",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@minneapoliscpa#8.example",
+    "address": "2501 South Wayzata Boulevard, Minneapolis 55405",
+    "mailto_url": "mailto:contact@minneapoliscpa#8.example?subject=quick%20question%20regarding%20Minneapolis%20Cpa%20%238%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Minneapolis%20Cpa%20%238%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:39:17"
+  }
+]
