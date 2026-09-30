@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Lexington Dentist #1",
+    "niche": "Dentist",
+    "city": "Lexington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lexingtondentist#1.example",
+    "address": "Lexington",
+    "mailto_url": "mailto:contact@lexingtondentist#1.example?subject=quick%20question%20regarding%20Lexington%20Dentist%20%231%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lexington%20Dentist%20%231%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:48:04"
+  },
+  {
+    "id": 2,
+    "name": "Lexington Periodontics and Implant Dentistry, PLLC",
+    "niche": "Dentist",
+    "city": "Lexington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lexingtonperiodonticsandimplantdentistrypllc.example",
+    "address": "620 Perimeter Drive, Lexington",
+    "mailto_url": "mailto:contact@lexingtonperiodonticsandimplantdentistrypllc.example?subject=quick%20question%20regarding%20Lexington%20Periodontics%20and%20Implant%20Dentistry%2C%20PLLC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lexington%20Periodontics%20and%20Implant%20Dentistry%2C%20PLLC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:48:04"
+  },
+  {
+    "id": 3,
+    "name": "Lexington Smile Studio Fawn Rosenberg DMD FAGD",
+    "niche": "Dentist",
+    "city": "Lexington",
+    "phone": "+1 781-861-6008",
+    "website": "https://www.lexingtoncosmeticdentistry.com/",
+    "email": "contact@lexingtoncosmeticdentistry.com",
+    "address": "922 Waltham Street, Lexington 02421",
+    "mailto_url": "mailto:contact@lexingtoncosmeticdentistry.com?subject=quick%20question%20regarding%20Lexington%20Smile%20Studio%20Fawn%20Rosenberg%20DMD%20FAGD%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.lexingtoncosmeticdentistry.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lexington%20Smile%20Studio%20Fawn%20Rosenberg%20DMD%20FAGD%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:48:04"
+  },
+  {
+    "id": 4,
+    "name": "Arnold Dental",
+    "niche": "Dentist",
+    "city": "Lexington",
+    "phone": "+1-859-269-1000",
+    "website": "https://cosmeticdentistryoflexington.com/",
+    "email": "contact@cosmeticdentistryoflexington.com",
+    "address": "699 Perimeter Drive, Lexington 40517",
+    "mailto_url": "mailto:contact@cosmeticdentistryoflexington.com?subject=quick%20question%20regarding%20Arnold%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//cosmeticdentistryoflexington.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Arnold%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:48:04"
+  },
+  {
+    "id": 5,
+    "name": "Meadowthorpe Family Dentistry",
+    "niche": "Dentist",
+    "city": "Lexington",
+    "phone": "+1 859 254 9267",
+    "website": "https://meadowthorpefamilydentistry.com/",
+    "email": "contact@meadowthorpefamilydentistry.com",
+    "address": "1393 West Main Street, Lexington 40508-2047",
+    "mailto_url": "mailto:contact@meadowthorpefamilydentistry.com?subject=quick%20question%20regarding%20Meadowthorpe%20Family%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//meadowthorpefamilydentistry.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Meadowthorpe%20Family%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:48:04"
+  },
+  {
+    "id": 6,
+    "name": "Alumni Dental Center",
+    "niche": "Dentist",
+    "city": "Lexington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@alumnidentalcenter.example",
+    "address": "2335 Sterlington Road, Lexington",
+    "mailto_url": "mailto:contact@alumnidentalcenter.example?subject=quick%20question%20regarding%20Alumni%20Dental%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Alumni%20Dental%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:48:04"
+  },
+  {
+    "id": 7,
+    "name": "Aspen Dental",
+    "niche": "Dentist",
+    "city": "Lexington",
+    "phone": "+1 859-272-0130",
+    "website": "https://www.aspendental.com/dentist/ky/lexington/3695-nicholasville-rd-ste-140/",
+    "email": "contact@aspendental.com",
+    "address": "3695 Nicholasville Road, Lexington 40503",
+    "mailto_url": "mailto:contact@aspendental.com?subject=quick%20question%20regarding%20Aspen%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.aspendental.com/dentist/ky/lexington/3695-nicholasville-rd-ste-140/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Aspen%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:48:04"
+  },
+  {
+    "id": 8,
+    "name": "The Smile Lexington",
+    "niche": "Dentist",
+    "city": "Lexington",
+    "phone": "N/A",
+    "website": "https://www.thesmilelexington.com/",
+    "email": "contact@thesmilelexington.com",
+    "address": "431 Redding Road, Lexington",
+    "mailto_url": "mailto:contact@thesmilelexington.com?subject=quick%20question%20regarding%20The%20Smile%20Lexington%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.thesmilelexington.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20The%20Smile%20Lexington%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:48:04"
+  },
+  {
+    "id": 9,
+    "name": "Dental Boutique at Lansdowne",
+    "niche": "Dentist",
+    "city": "Lexington",
+    "phone": "N/A",
+    "website": "https://www.dblsmiles.com/",
+    "email": "contact@dblsmiles.com",
+    "address": "3399 Tates Creek Road, Lexington",
+    "mailto_url": "mailto:contact@dblsmiles.com?subject=quick%20question%20regarding%20Dental%20Boutique%20at%20Lansdowne%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.dblsmiles.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dental%20Boutique%20at%20Lansdowne%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:48:04"
+  },
+  {
+    "id": 10,
+    "name": "Kentucky Orthodontics & Invisalign",
+    "niche": "Dentist",
+    "city": "Lexington",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@kentuckyorthodonticsinvisalign.example",
+    "address": "860 Corporate Drive, Lexington 40503",
+    "mailto_url": "mailto:contact@kentuckyorthodonticsinvisalign.example?subject=quick%20question%20regarding%20Kentucky%20Orthodontics%20%26%20Invisalign%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Kentucky%20Orthodontics%20%26%20Invisalign%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:48:04"
+  }
+]
