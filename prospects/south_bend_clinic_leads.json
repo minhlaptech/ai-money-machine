@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "South Bend Medical Foundation",
+    "niche": "Clinic",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@southbendmedicalfoundation.example",
+    "address": "Douglas Road, South Bend",
+    "mailto_url": "mailto:contact@southbendmedicalfoundation.example?subject=quick%20question%20regarding%20South%20Bend%20Medical%20Foundation%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20South%20Bend%20Medical%20Foundation%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:24"
+  },
+  {
+    "id": 2,
+    "name": "South Bend Clinic",
+    "niche": "Clinic",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@southbendclinic.example",
+    "address": "2102 Inwood Road, South Bend",
+    "mailto_url": "mailto:contact@southbendclinic.example?subject=quick%20question%20regarding%20South%20Bend%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20South%20Bend%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:24"
+  },
+  {
+    "id": 3,
+    "name": "Women's Care Center",
+    "niche": "Clinic",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@women'scarecenter.example",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@women'scarecenter.example?subject=quick%20question%20regarding%20Women%27s%20Care%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Women%27s%20Care%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:24"
+  },
+  {
+    "id": 4,
+    "name": "South Bend Clinic",
+    "niche": "Clinic",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@southbendclinic.example",
+    "address": "211 North Eddy Street, South Bend 46617",
+    "mailto_url": "mailto:contact@southbendclinic.example?subject=quick%20question%20regarding%20South%20Bend%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20South%20Bend%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:24"
+  },
+  {
+    "id": 5,
+    "name": "South Bend Clinic #5",
+    "niche": "Clinic",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@southbendclinic#5.example",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@southbendclinic#5.example?subject=quick%20question%20regarding%20South%20Bend%20Clinic%20%235%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20South%20Bend%20Clinic%20%235%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:24"
+  },
+  {
+    "id": 6,
+    "name": "South Bend Clinic - Portage Road",
+    "niche": "Clinic",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@southbendclinic-portageroad.example",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@southbendclinic-portageroad.example?subject=quick%20question%20regarding%20South%20Bend%20Clinic%20-%20Portage%20Road%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20South%20Bend%20Clinic%20-%20Portage%20Road%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:24"
+  },
+  {
+    "id": 7,
+    "name": "South Bend Clinic #7",
+    "niche": "Clinic",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@southbendclinic#7.example",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@southbendclinic#7.example?subject=quick%20question%20regarding%20South%20Bend%20Clinic%20%237%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20South%20Bend%20Clinic%20%237%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:24"
+  },
+  {
+    "id": 8,
+    "name": "Vet Center - South Bend",
+    "niche": "Clinic",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@vetcenter-southbend.example",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@vetcenter-southbend.example?subject=quick%20question%20regarding%20Vet%20Center%20-%20South%20Bend%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Vet%20Center%20-%20South%20Bend%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:24"
+  },
+  {
+    "id": 9,
+    "name": "Saint Joseph Family Medicine",
+    "niche": "Clinic",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@saintjosephfamilymedicine.example",
+    "address": "1025 Widener Lane, South Bend 46614",
+    "mailto_url": "mailto:contact@saintjosephfamilymedicine.example?subject=quick%20question%20regarding%20Saint%20Joseph%20Family%20Medicine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Saint%20Joseph%20Family%20Medicine%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:24"
+  },
+  {
+    "id": 10,
+    "name": "Briarcliff Health & Rehabilitation Center",
+    "niche": "Clinic",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@briarcliffhealthrehabilitationcenter.example",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@briarcliffhealthrehabilitationcenter.example?subject=quick%20question%20regarding%20Briarcliff%20Health%20%26%20Rehabilitation%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Briarcliff%20Health%20%26%20Rehabilitation%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:24"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Hammerschmidt, Amaral & Jonas",
+    "niche": "Lawyer",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@hammerschmidtamaraljonas.example",
+    "address": "137 North Michigan Street, South Bend",
+    "mailto_url": "mailto:contact@hammerschmidtamaraljonas.example?subject=quick%20question%20regarding%20Hammerschmidt%2C%20Amaral%20%26%20Jonas%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hammerschmidt%2C%20Amaral%20%26%20Jonas%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:27"
+  },
+  {
+    "id": 2,
+    "name": "Michael C. Murphy Elder Law",
+    "niche": "Lawyer",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@michaelcmurphyelderlaw.example",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@michaelcmurphyelderlaw.example?subject=quick%20question%20regarding%20Michael%20C.%20Murphy%20Elder%20Law%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Michael%20C.%20Murphy%20Elder%20Law%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:27"
+  },
+  {
+    "id": 3,
+    "name": "Stipp Law",
+    "niche": "Lawyer",
+    "city": "South Bend",
+    "phone": "+1-574-273-1717",
+    "website": "https://www.stipp-law.com/",
+    "email": "contact@stipp-law.com",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@stipp-law.com?subject=quick%20question%20regarding%20Stipp%20Law%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.stipp-law.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Stipp%20Law%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:27"
+  },
+  {
+    "id": 4,
+    "name": "Godfrey Law Offices",
+    "niche": "Lawyer",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@godfreylawoffices.example",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@godfreylawoffices.example?subject=quick%20question%20regarding%20Godfrey%20Law%20Offices%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Godfrey%20Law%20Offices%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:27"
+  },
+  {
+    "id": 5,
+    "name": "Peyoner Law Office",
+    "niche": "Lawyer",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@peyonerlawoffice.example",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@peyonerlawoffice.example?subject=quick%20question%20regarding%20Peyoner%20Law%20Office%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Peyoner%20Law%20Office%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:27"
+  },
+  {
+    "id": 6,
+    "name": "Barnes & Thornburg LLP",
+    "niche": "Lawyer",
+    "city": "South Bend",
+    "phone": "+1 574 233 1171",
+    "website": "https://btlaw.com/",
+    "email": "contact@btlaw.com",
+    "address": "201 South Main Street, South Bend 46601",
+    "mailto_url": "mailto:contact@btlaw.com?subject=quick%20question%20regarding%20Barnes%20%26%20Thornburg%20LLP%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//btlaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Barnes%20%26%20Thornburg%20LLP%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:27"
+  },
+  {
+    "id": 7,
+    "name": "Peter Francis Geraci Law, LLC",
+    "niche": "Lawyer",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@peterfrancisgeracilawllc.example",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@peterfrancisgeracilawllc.example?subject=quick%20question%20regarding%20Peter%20Francis%20Geraci%20Law%2C%20LLC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Peter%20Francis%20Geraci%20Law%2C%20LLC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:27"
+  },
+  {
+    "id": 8,
+    "name": "Monterrosa Law Group",
+    "niche": "Lawyer",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@monterrosalawgroup.example",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@monterrosalawgroup.example?subject=quick%20question%20regarding%20Monterrosa%20Law%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Monterrosa%20Law%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:27"
+  },
+  {
+    "id": 9,
+    "name": "Hahn Walz, P.C.",
+    "niche": "Lawyer",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@hahnwalzpc.example",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@hahnwalzpc.example?subject=quick%20question%20regarding%20Hahn%20Walz%2C%20P.C.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hahn%20Walz%2C%20P.C.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:27"
+  },
+  {
+    "id": 10,
+    "name": "Sweeney Julian Personal Injury Trial Attorneys",
+    "niche": "Lawyer",
+    "city": "South Bend",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sweeneyjulianpersonalinjurytrialattorneys.example",
+    "address": "South Bend",
+    "mailto_url": "mailto:contact@sweeneyjulianpersonalinjurytrialattorneys.example?subject=quick%20question%20regarding%20Sweeney%20Julian%20Personal%20Injury%20Trial%20Attorneys%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sweeney%20Julian%20Personal%20Injury%20Trial%20Attorneys%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:09:27"
+  }
+]
