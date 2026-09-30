@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 09:24:03",
+  "updated_at": "2026-09-30 13:43:15",
   "total_analyzed": 40,
   "high_priority_opportunities": [
     {
@@ -19,8 +19,8 @@
       "source": "Hacker News (ask)",
       "title": "Ask HN: What are you reading?",
       "text": "I&#x27;m plowing through the Dungeon Crawler Carl series, which is not particularly challenging as sci-fi&#x2F;LitRPG goes, but entertaining enough.  I&#x27;m also wrapping up Doctorow&#x27;s _Enshittification_, and I&#x27;m looking for something a little meaty to keep the brain working...",
-      "score": 145,
-      "comments": 226,
+      "score": 228,
+      "comments": 278,
       "url": "https://news.ycombinator.com/item?id=49893157",
       "intent_score": 50,
       "matched_keywords": [
@@ -56,7 +56,7 @@
       "title": "serpapi/awesome-seo-tools - Curated list of awesome SEO tools",
       "text": "Curated list of awesome SEO tools",
       "score": 1102,
-      "comments": 369,
+      "comments": 370,
       "url": "https://github.com/serpapi/awesome-seo-tools",
       "intent_score": 50,
       "matched_keywords": [
@@ -103,7 +103,7 @@
       "source": "GitHub Trending",
       "title": "iannuttall/seo - The only SEO skill your agent needs. 70+ SEO audit tools through a local CLI and MCP server, using your own crawl, Search Console, and GA4 data.",
       "text": "The only SEO skill your agent needs. 70+ SEO audit tools through a local CLI and MCP server, using your own crawl, Search Console, and GA4 data.",
-      "score": 544,
+      "score": 545,
       "comments": 45,
       "url": "https://github.com/iannuttall/seo",
       "intent_score": 50,
@@ -159,6 +159,16 @@
     },
     {
       "source": "Hacker News (ask)",
+      "title": "Ask HN: Any nerds out there who've read a lot of research papers?",
+      "text": "Which are the most memorable abstracts you have read? I know I am a jackass who usually vibecodes my way through assignments but even I don&#x27;t want to write a cookie-cutter intro for my paper. I wanna write something that stays with the reader. What paper has stuck with you, what made it memorable?",
+      "score": 33,
+      "comments": 20,
+      "url": "https://news.ycombinator.com/item?id=49835866",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (ask)",
       "title": "Is there a lanscaping tool which can take photos of my garden and make 3D model?",
       "text": "I am looking for a tool which would allow me to take photos of my garden and then generate a 3D editable garden where I can drag and move things. Something like Blender or CAD but with the photos as inputs.",
       "score": 3,
@@ -170,21 +180,11 @@
       ]
     },
     {
-      "source": "Hacker News (ask)",
-      "title": "Ask HN: Any nerds out there who've read a lot of research papers?",
-      "text": "Which are the most memorable abstracts you have read? I know I am a jackass who usually vibecodes my way through assignments but even I don&#x27;t want to write a cookie-cutter intro for my paper. I wanna write something that stays with the reader. What paper has stuck with you, what made it memorable?",
-      "score": 33,
-      "comments": 20,
-      "url": "https://news.ycombinator.com/item?id=49835866",
-      "intent_score": 25,
-      "matched_keywords": []
-    },
-    {
       "source": "Hacker News (show)",
       "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
       "text": "",
-      "score": 116,
-      "comments": 22,
+      "score": 191,
+      "comments": 28,
       "url": "https://news.ycombinator.com/item?id=49898778",
       "intent_score": 25,
       "matched_keywords": []
@@ -193,9 +193,19 @@
       "source": "Hacker News (show)",
       "title": "Show HN: NSL – WSL for Linux",
       "text": "One of the things that Windows really got right is WSL2. I drive an atomic Linux distro for daily use, but wanted a way to develop with multiple different distros with that same WSL UX.  NSL is my answer. It is a faithful reproduction of the developer experience, powered by a single VM that hosts one or more systemd-nspawn containers with your development instances. Host file edits and port sharin",
-      "score": 86,
-      "comments": 22,
+      "score": 118,
+      "comments": 28,
       "url": "https://news.ycombinator.com/item?id=49894351",
+      "intent_score": 25,
+      "matched_keywords": []
+    },
+    {
+      "source": "Hacker News (show)",
+      "title": "Show HN: HN.watch – Videos of all Hacker News posts",
+      "text": "Hi HN, I’m Per, founder of Scrimba (YC S20). We’ve spent the last decade teaching people how to code with an HTML-based video format. We’ve now plugged an LLM into it, so that people can create explainer videos about anything. It’s called “Scrimba Explain”.<p>To demo this technology for Hacker News, we built HN.watch. It’s like HN, but with explainer videos instead of articles. We create them on-t",
+      "score": 209,
+      "comments": 51,
+      "url": "https://news.ycombinator.com/item?id=49879401",
       "intent_score": 25,
       "matched_keywords": []
     },
@@ -208,6 +218,18 @@
       "url": "https://github.com/merklefruit/SaaS4Devs",
       "intent_score": 25,
       "matched_keywords": []
+    },
+    {
+      "source": "Dev.to (#saas)",
+      "title": "Automated Multimodal Vision Audits: Grading Character Consistency Frame-by-Frame",
+      "text": "Automated Multimodal Vision Audits: Grading Character Consistency Frame-by-Frame           ...",
+      "score": 5,
+      "comments": 1,
+      "url": "https://dev.to/biffer_rowley_4cdbf203087/automated-multimodal-vision-audits-grading-character-consistency-frame-by-frame-12l3",
+      "intent_score": 25,
+      "matched_keywords": [
+        "automate"
+      ]
     }
   ]
 }
