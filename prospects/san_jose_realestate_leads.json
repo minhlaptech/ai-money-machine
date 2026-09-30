@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "EQ1 Real Estate",
+    "niche": "Realestate",
+    "city": "San Jose",
+    "phone": "+1 408 807 0792",
+    "website": "https://www.eq1realestate.com/",
+    "email": "contact@eq1realestate.com",
+    "address": "1762 Technology Drive, San Jose 95110",
+    "mailto_url": "mailto:contact@eq1realestate.com?subject=quick%20question%20regarding%20EQ1%20Real%20Estate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.eq1realestate.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20EQ1%20Real%20Estate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:03:35"
+  },
+  {
+    "id": 2,
+    "name": "Cooley Commercial",
+    "niche": "Realestate",
+    "city": "San Jose",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@cooleycommercial.example",
+    "address": "San Jose",
+    "mailto_url": "mailto:contact@cooleycommercial.example?subject=quick%20question%20regarding%20Cooley%20Commercial%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Cooley%20Commercial%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:03:35"
+  },
+  {
+    "id": 3,
+    "name": "Valley View Realty",
+    "niche": "Realestate",
+    "city": "San Jose",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@valleyviewrealty.example",
+    "address": "San Jose",
+    "mailto_url": "mailto:contact@valleyviewrealty.example?subject=quick%20question%20regarding%20Valley%20View%20Realty%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Valley%20View%20Realty%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:03:35"
+  },
+  {
+    "id": 4,
+    "name": "Pisciotta Properties",
+    "niche": "Realestate",
+    "city": "San Jose",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@pisciottaproperties.example",
+    "address": "San Jose",
+    "mailto_url": "mailto:contact@pisciottaproperties.example?subject=quick%20question%20regarding%20Pisciotta%20Properties%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Pisciotta%20Properties%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:03:35"
+  },
+  {
+    "id": 5,
+    "name": "APPR Commercial",
+    "niche": "Realestate",
+    "city": "San Jose",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@apprcommercial.example",
+    "address": "396 North 1st Street, San Jose 95112",
+    "mailto_url": "mailto:contact@apprcommercial.example?subject=quick%20question%20regarding%20APPR%20Commercial%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20APPR%20Commercial%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:03:35"
+  },
+  {
+    "id": 6,
+    "name": "Ritchie Commercial",
+    "niche": "Realestate",
+    "city": "San Jose",
+    "phone": "N/A",
+    "website": "https://ritchiecommercial.com/",
+    "email": "contact@ritchiecommercial.com",
+    "address": "34 West Santa Clara Street, San Jose 95113",
+    "mailto_url": "mailto:contact@ritchiecommercial.com?subject=quick%20question%20regarding%20Ritchie%20Commercial%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//ritchiecommercial.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Ritchie%20Commercial%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:03:35"
+  },
+  {
+    "id": 7,
+    "name": "Bell Plaza Financial Group",
+    "niche": "Realestate",
+    "city": "San Jose",
+    "phone": "N/A",
+    "website": "http://www.bellplazainc.com/",
+    "email": "contact@bellplazainc.com",
+    "address": "San Jose",
+    "mailto_url": "mailto:contact@bellplazainc.com?subject=quick%20question%20regarding%20Bell%20Plaza%20Financial%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.bellplazainc.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bell%20Plaza%20Financial%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:03:35"
+  },
+  {
+    "id": 8,
+    "name": "Stratton Properties",
+    "niche": "Realestate",
+    "city": "San Jose",
+    "phone": "N/A",
+    "website": "http://strattonrealestate.net/",
+    "email": "contact@strattonrealestate.net",
+    "address": "2875 Senter Road, San Jose 95111",
+    "mailto_url": "mailto:contact@strattonrealestate.net?subject=quick%20question%20regarding%20Stratton%20Properties%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//strattonrealestate.net/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Stratton%20Properties%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:03:35"
+  },
+  {
+    "id": 9,
+    "name": "New Land Real Estate Services",
+    "niche": "Realestate",
+    "city": "San Jose",
+    "phone": "N/A",
+    "website": "https://newlandcorp.com/",
+    "email": "contact@newlandcorp.com",
+    "address": "2266 Senter Road, San Jose 95112",
+    "mailto_url": "mailto:contact@newlandcorp.com?subject=quick%20question%20regarding%20New%20Land%20Real%20Estate%20Services%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//newlandcorp.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20New%20Land%20Real%20Estate%20Services%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:03:35"
+  },
+  {
+    "id": 10,
+    "name": "VS Realty & Loans",
+    "niche": "Realestate",
+    "city": "San Jose",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@vsrealtyloans.example",
+    "address": "2114 Senter Road, San Jose 95112",
+    "mailto_url": "mailto:contact@vsrealtyloans.example?subject=quick%20question%20regarding%20VS%20Realty%20%26%20Loans%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20VS%20Realty%20%26%20Loans%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:03:35"
+  }
+]

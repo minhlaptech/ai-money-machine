@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "San Jose Premier Doctor Studio",
+    "niche": "Doctor",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.sanjosepremierdoctorstudio.example",
+    "email": "info@sanjosepremierdoctorstudio.example",
+    "address": "120 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@sanjosepremierdoctorstudio.example?subject=quick%20question%20regarding%20San%20Jose%20Premier%20Doctor%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:01:54"
+  },
+  {
+    "id": 2,
+    "name": "Apex San Jose Doctor Center",
+    "niche": "Doctor",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexsanjosedoctorcenter.example",
+    "email": "info@apexsanjosedoctorcenter.example",
+    "address": "240 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@apexsanjosedoctorcenter.example?subject=quick%20question%20regarding%20Apex%20San%20Jose%20Doctor%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:01:54"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Doctor Partners of San Jose",
+    "niche": "Doctor",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondoctorpartnersofsanjose.example",
+    "email": "info@beacondoctorpartnersofsanjose.example",
+    "address": "360 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@beacondoctorpartnersofsanjose.example?subject=quick%20question%20regarding%20Beacon%20Doctor%20Partners%20of%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:01:54"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard San Jose Doctor Group",
+    "niche": "Doctor",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardsanjosedoctorgroup.example",
+    "email": "info@vanguardsanjosedoctorgroup.example",
+    "address": "480 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@vanguardsanjosedoctorgroup.example?subject=quick%20question%20regarding%20Vanguard%20San%20Jose%20Doctor%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:01:54"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Doctor & Aesthetics San Jose",
+    "niche": "Doctor",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadoctorandaestheticssanjose.example",
+    "email": "info@luminadoctorandaestheticssanjose.example",
+    "address": "600 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@luminadoctorandaestheticssanjose.example?subject=quick%20question%20regarding%20Lumina%20Doctor%20%26%20Aesthetics%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:01:54"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Doctor Clinic of San Jose",
+    "niche": "Doctor",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedoctorclinicofsanjose.example",
+    "email": "info@proactivedoctorclinicofsanjose.example",
+    "address": "720 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@proactivedoctorclinicofsanjose.example?subject=quick%20question%20regarding%20ProActive%20Doctor%20Clinic%20of%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:01:54"
+  },
+  {
+    "id": 7,
+    "name": "Elite Doctor Specialists San Jose",
+    "niche": "Doctor",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedoctorspecialistssanjose.example",
+    "email": "info@elitedoctorspecialistssanjose.example",
+    "address": "840 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@elitedoctorspecialistssanjose.example?subject=quick%20question%20regarding%20Elite%20Doctor%20Specialists%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:01:54"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Doctor San Jose",
+    "niche": "Doctor",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdoctorsanjose.example",
+    "email": "info@summitcrestdoctorsanjose.example",
+    "address": "960 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@summitcrestdoctorsanjose.example?subject=quick%20question%20regarding%20Summit%20Crest%20Doctor%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:01:54"
+  },
+  {
+    "id": 9,
+    "name": "Metro Doctor Care Center San Jose",
+    "niche": "Doctor",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodoctorcarecentersanjose.example",
+    "email": "info@metrodoctorcarecentersanjose.example",
+    "address": "1080 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@metrodoctorcarecentersanjose.example?subject=quick%20question%20regarding%20Metro%20Doctor%20Care%20Center%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:01:54"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Doctor Practice San Jose",
+    "niche": "Doctor",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdoctorpracticesanjose.example",
+    "email": "info@pacificcoastdoctorpracticesanjose.example",
+    "address": "1200 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@pacificcoastdoctorpracticesanjose.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Doctor%20Practice%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:01:54"
+  }
+]

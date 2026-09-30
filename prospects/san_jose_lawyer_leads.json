@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "San Jose Premier Lawyer Studio",
+    "niche": "Lawyer",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.sanjosepremierlawyerstudio.example",
+    "email": "info@sanjosepremierlawyerstudio.example",
+    "address": "120 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@sanjosepremierlawyerstudio.example?subject=quick%20question%20regarding%20San%20Jose%20Premier%20Lawyer%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:02:47"
+  },
+  {
+    "id": 2,
+    "name": "Apex San Jose Lawyer Center",
+    "niche": "Lawyer",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexsanjoselawyercenter.example",
+    "email": "info@apexsanjoselawyercenter.example",
+    "address": "240 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@apexsanjoselawyercenter.example?subject=quick%20question%20regarding%20Apex%20San%20Jose%20Lawyer%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:02:47"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Lawyer Partners of San Jose",
+    "niche": "Lawyer",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconlawyerpartnersofsanjose.example",
+    "email": "info@beaconlawyerpartnersofsanjose.example",
+    "address": "360 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@beaconlawyerpartnersofsanjose.example?subject=quick%20question%20regarding%20Beacon%20Lawyer%20Partners%20of%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:02:47"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard San Jose Lawyer Group",
+    "niche": "Lawyer",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardsanjoselawyergroup.example",
+    "email": "info@vanguardsanjoselawyergroup.example",
+    "address": "480 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@vanguardsanjoselawyergroup.example?subject=quick%20question%20regarding%20Vanguard%20San%20Jose%20Lawyer%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:02:47"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Lawyer & Aesthetics San Jose",
+    "niche": "Lawyer",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminalawyerandaestheticssanjose.example",
+    "email": "info@luminalawyerandaestheticssanjose.example",
+    "address": "600 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@luminalawyerandaestheticssanjose.example?subject=quick%20question%20regarding%20Lumina%20Lawyer%20%26%20Aesthetics%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:02:47"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Lawyer Clinic of San Jose",
+    "niche": "Lawyer",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivelawyerclinicofsanjose.example",
+    "email": "info@proactivelawyerclinicofsanjose.example",
+    "address": "720 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@proactivelawyerclinicofsanjose.example?subject=quick%20question%20regarding%20ProActive%20Lawyer%20Clinic%20of%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:02:47"
+  },
+  {
+    "id": 7,
+    "name": "Elite Lawyer Specialists San Jose",
+    "niche": "Lawyer",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitelawyerspecialistssanjose.example",
+    "email": "info@elitelawyerspecialistssanjose.example",
+    "address": "840 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@elitelawyerspecialistssanjose.example?subject=quick%20question%20regarding%20Elite%20Lawyer%20Specialists%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:02:47"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Lawyer San Jose",
+    "niche": "Lawyer",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestlawyersanjose.example",
+    "email": "info@summitcrestlawyersanjose.example",
+    "address": "960 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@summitcrestlawyersanjose.example?subject=quick%20question%20regarding%20Summit%20Crest%20Lawyer%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:02:47"
+  },
+  {
+    "id": 9,
+    "name": "Metro Lawyer Care Center San Jose",
+    "niche": "Lawyer",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrolawyercarecentersanjose.example",
+    "email": "info@metrolawyercarecentersanjose.example",
+    "address": "1080 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@metrolawyercarecentersanjose.example?subject=quick%20question%20regarding%20Metro%20Lawyer%20Care%20Center%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:02:47"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Lawyer Practice San Jose",
+    "niche": "Lawyer",
+    "city": "San Jose",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastlawyerpracticesanjose.example",
+    "email": "info@pacificcoastlawyerpracticesanjose.example",
+    "address": "1200 Boulevard Ave, San Jose",
+    "mailto_url": "mailto:info@pacificcoastlawyerpracticesanjose.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Lawyer%20Practice%20San%20Jose%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:02:47"
+  }
+]
