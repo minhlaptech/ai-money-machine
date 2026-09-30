@@ -267,10 +267,10 @@
     "city": "Chicago, IL",
     "to": "contact@sterlinglegalchi.example",
     "doc": "David Sterling",
-    "status": "won",
+    "status": "day7",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:38"
+    "last_touch": "2026-09-30 22:55"
   },
   {
     "id": 22,
@@ -280,10 +280,10 @@
     "city": "Aspen, CO",
     "to": "inquiries@summitcrestrealty.example",
     "doc": "Victoria Vance",
-    "status": "won",
+    "status": "day7",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 03:59"
+    "last_touch": "2026-09-30 22:55"
   },
   {
     "id": 23,
@@ -293,10 +293,10 @@
     "city": "Boston, MA",
     "to": "tax@beaconhillcpa.example",
     "doc": "Marcus Brody",
-    "status": "won",
+    "status": "day7",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:20"
+    "last_touch": "2026-09-30 22:55"
   },
   {
     "id": 24,
@@ -306,10 +306,10 @@
     "city": "San Diego, CA",
     "to": "help@pacificfamilylawsd.example",
     "doc": "Elena Rostova",
-    "status": "won",
+    "status": "day7",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:22"
+    "last_touch": "2026-09-30 22:55"
   },
   {
     "id": 25,
@@ -319,10 +319,10 @@
     "city": "New York, NY",
     "to": "office@vanguardwealthnyc.example",
     "doc": "Jonathan Vance",
-    "status": "won",
+    "status": "day7",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:22"
+    "last_touch": "2026-09-30 22:55"
   },
   {
     "id": 26,
@@ -332,10 +332,10 @@
     "city": "Austin, TX",
     "to": "hello@redwoodcounseltx.example",
     "doc": "Sarah Jenkins",
-    "status": "won",
+    "status": "day7",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:23"
+    "last_touch": "2026-09-30 22:55"
   },
   {
     "id": 27,
@@ -345,10 +345,10 @@
     "city": "Dallas, TX",
     "to": "deals@pinnaclecredfw.example",
     "doc": "Robert Miller",
-    "status": "won",
+    "status": "day7",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:23"
+    "last_touch": "2026-09-30 22:55"
   },
   {
     "id": 28,
@@ -358,10 +358,10 @@
     "city": "Seattle, WA",
     "to": "info@harborviewestateswa.example",
     "doc": "Cynthia Thorne",
-    "status": "won",
+    "status": "day7",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:26"
+    "last_touch": "2026-09-30 22:55"
   },
   {
     "id": 29,
@@ -371,10 +371,10 @@
     "city": "Atlanta, GA",
     "to": "valuation@apexauditadvisory.example",
     "doc": "Richard Hall",
-    "status": "won",
+    "status": "day7",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:26"
+    "last_touch": "2026-09-30 22:55"
   },
   {
     "id": 30,
@@ -384,10 +384,10 @@
     "city": "Miami, FL",
     "to": "litigation@metroinjurydefense.example",
     "doc": "Carlos Mendez",
-    "status": "won",
+    "status": "day7",
     "value": 1500,
     "retainer": 750,
-    "last_touch": "2026-09-30 04:28"
+    "last_touch": "2026-09-30 22:55"
   },
   {
     "id": 31,

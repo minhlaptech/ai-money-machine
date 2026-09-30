@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Philadelphia Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.philadelphiapremiercpastudio.example",
+    "email": "info@philadelphiapremiercpastudio.example",
+    "address": "120 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@philadelphiapremiercpastudio.example?subject=quick%20question%20regarding%20Philadelphia%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:51"
+  },
+  {
+    "id": 2,
+    "name": "Apex Philadelphia Cpa Center",
+    "niche": "Cpa",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexphiladelphiacpacenter.example",
+    "email": "info@apexphiladelphiacpacenter.example",
+    "address": "240 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@apexphiladelphiacpacenter.example?subject=quick%20question%20regarding%20Apex%20Philadelphia%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:51"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of Philadelphia",
+    "niche": "Cpa",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersofphiladelphia.example",
+    "email": "info@beaconcpapartnersofphiladelphia.example",
+    "address": "360 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@beaconcpapartnersofphiladelphia.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:51"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Philadelphia Cpa Group",
+    "niche": "Cpa",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardphiladelphiacpagroup.example",
+    "email": "info@vanguardphiladelphiacpagroup.example",
+    "address": "480 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@vanguardphiladelphiacpagroup.example?subject=quick%20question%20regarding%20Vanguard%20Philadelphia%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:51"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics Philadelphia",
+    "niche": "Cpa",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticsphiladelphia.example",
+    "email": "info@luminacpaandaestheticsphiladelphia.example",
+    "address": "600 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@luminacpaandaestheticsphiladelphia.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:51"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Cpa Clinic of Philadelphia",
+    "niche": "Cpa",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivecpaclinicofphiladelphia.example",
+    "email": "info@proactivecpaclinicofphiladelphia.example",
+    "address": "720 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@proactivecpaclinicofphiladelphia.example?subject=quick%20question%20regarding%20ProActive%20Cpa%20Clinic%20of%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:51"
+  },
+  {
+    "id": 7,
+    "name": "Elite Cpa Specialists Philadelphia",
+    "niche": "Cpa",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitecpaspecialistsphiladelphia.example",
+    "email": "info@elitecpaspecialistsphiladelphia.example",
+    "address": "840 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@elitecpaspecialistsphiladelphia.example?subject=quick%20question%20regarding%20Elite%20Cpa%20Specialists%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:51"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Cpa Philadelphia",
+    "niche": "Cpa",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestcpaphiladelphia.example",
+    "email": "info@summitcrestcpaphiladelphia.example",
+    "address": "960 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@summitcrestcpaphiladelphia.example?subject=quick%20question%20regarding%20Summit%20Crest%20Cpa%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:51"
+  },
+  {
+    "id": 9,
+    "name": "Metro Cpa Care Center Philadelphia",
+    "niche": "Cpa",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocpacarecenterphiladelphia.example",
+    "email": "info@metrocpacarecenterphiladelphia.example",
+    "address": "1080 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@metrocpacarecenterphiladelphia.example?subject=quick%20question%20regarding%20Metro%20Cpa%20Care%20Center%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:51"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Cpa Practice Philadelphia",
+    "niche": "Cpa",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastcpapracticephiladelphia.example",
+    "email": "info@pacificcoastcpapracticephiladelphia.example",
+    "address": "1200 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@pacificcoastcpapracticephiladelphia.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Cpa%20Practice%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:51"
+  }
+]

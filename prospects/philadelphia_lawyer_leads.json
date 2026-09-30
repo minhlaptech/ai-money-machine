@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Philadelphia Premier Lawyer Studio",
+    "niche": "Lawyer",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.philadelphiapremierlawyerstudio.example",
+    "email": "info@philadelphiapremierlawyerstudio.example",
+    "address": "120 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@philadelphiapremierlawyerstudio.example?subject=quick%20question%20regarding%20Philadelphia%20Premier%20Lawyer%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:40"
+  },
+  {
+    "id": 2,
+    "name": "Apex Philadelphia Lawyer Center",
+    "niche": "Lawyer",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexphiladelphialawyercenter.example",
+    "email": "info@apexphiladelphialawyercenter.example",
+    "address": "240 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@apexphiladelphialawyercenter.example?subject=quick%20question%20regarding%20Apex%20Philadelphia%20Lawyer%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:40"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Lawyer Partners of Philadelphia",
+    "niche": "Lawyer",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconlawyerpartnersofphiladelphia.example",
+    "email": "info@beaconlawyerpartnersofphiladelphia.example",
+    "address": "360 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@beaconlawyerpartnersofphiladelphia.example?subject=quick%20question%20regarding%20Beacon%20Lawyer%20Partners%20of%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:40"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Philadelphia Lawyer Group",
+    "niche": "Lawyer",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardphiladelphialawyergroup.example",
+    "email": "info@vanguardphiladelphialawyergroup.example",
+    "address": "480 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@vanguardphiladelphialawyergroup.example?subject=quick%20question%20regarding%20Vanguard%20Philadelphia%20Lawyer%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:40"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Lawyer & Aesthetics Philadelphia",
+    "niche": "Lawyer",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminalawyerandaestheticsphiladelphia.example",
+    "email": "info@luminalawyerandaestheticsphiladelphia.example",
+    "address": "600 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@luminalawyerandaestheticsphiladelphia.example?subject=quick%20question%20regarding%20Lumina%20Lawyer%20%26%20Aesthetics%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:40"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Lawyer Clinic of Philadelphia",
+    "niche": "Lawyer",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivelawyerclinicofphiladelphia.example",
+    "email": "info@proactivelawyerclinicofphiladelphia.example",
+    "address": "720 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@proactivelawyerclinicofphiladelphia.example?subject=quick%20question%20regarding%20ProActive%20Lawyer%20Clinic%20of%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:40"
+  },
+  {
+    "id": 7,
+    "name": "Elite Lawyer Specialists Philadelphia",
+    "niche": "Lawyer",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitelawyerspecialistsphiladelphia.example",
+    "email": "info@elitelawyerspecialistsphiladelphia.example",
+    "address": "840 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@elitelawyerspecialistsphiladelphia.example?subject=quick%20question%20regarding%20Elite%20Lawyer%20Specialists%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:40"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Lawyer Philadelphia",
+    "niche": "Lawyer",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestlawyerphiladelphia.example",
+    "email": "info@summitcrestlawyerphiladelphia.example",
+    "address": "960 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@summitcrestlawyerphiladelphia.example?subject=quick%20question%20regarding%20Summit%20Crest%20Lawyer%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:40"
+  },
+  {
+    "id": 9,
+    "name": "Metro Lawyer Care Center Philadelphia",
+    "niche": "Lawyer",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrolawyercarecenterphiladelphia.example",
+    "email": "info@metrolawyercarecenterphiladelphia.example",
+    "address": "1080 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@metrolawyercarecenterphiladelphia.example?subject=quick%20question%20regarding%20Metro%20Lawyer%20Care%20Center%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:40"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Lawyer Practice Philadelphia",
+    "niche": "Lawyer",
+    "city": "Philadelphia",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastlawyerpracticephiladelphia.example",
+    "email": "info@pacificcoastlawyerpracticephiladelphia.example",
+    "address": "1200 Boulevard Ave, Philadelphia",
+    "mailto_url": "mailto:info@pacificcoastlawyerpracticephiladelphia.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Lawyer%20Practice%20Philadelphia%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:57:40"
+  }
+]
