@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "EmergeOrtho Orthopedic Clinic",
+    "niche": "Doctor",
+    "city": "Greensboro",
+    "phone": "+1 336-545-5000",
+    "website": "https://emergeortho.com/locations/greensboro-signature/",
+    "email": "contact@emergeortho.com",
+    "address": "3200 Northline Avenue, Greensboro",
+    "mailto_url": "mailto:contact@emergeortho.com?subject=quick%20question%20regarding%20EmergeOrtho%20Orthopedic%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//emergeortho.com/locations/greensboro-signature/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20EmergeOrtho%20Orthopedic%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:16:39"
+  },
+  {
+    "id": 2,
+    "name": "Eagle Gastroenterology",
+    "niche": "Doctor",
+    "city": "Greensboro",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@eaglegastroenterology.example",
+    "address": "Greensboro",
+    "mailto_url": "mailto:contact@eaglegastroenterology.example?subject=quick%20question%20regarding%20Eagle%20Gastroenterology%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Eagle%20Gastroenterology%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:16:39"
+  },
+  {
+    "id": 3,
+    "name": "AFC Urgent Care New Garden",
+    "niche": "Doctor",
+    "city": "Greensboro",
+    "phone": "+1 336-609-6000",
+    "website": "https://www.afcurgentcare.com/new-garden/",
+    "email": "contact@afcurgentcare.com",
+    "address": "1653 New Garden Road, Greensboro",
+    "mailto_url": "mailto:contact@afcurgentcare.com?subject=quick%20question%20regarding%20AFC%20Urgent%20Care%20New%20Garden%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.afcurgentcare.com/new-garden/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20AFC%20Urgent%20Care%20New%20Garden%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:16:39"
+  },
+  {
+    "id": 4,
+    "name": "Guilford Neurologic Associates",
+    "niche": "Doctor",
+    "city": "Greensboro",
+    "phone": "+1-336-273-2511",
+    "website": "https://www.conehealth.com/locations/profile/cone-health-guilford-neurologic-associates/",
+    "email": "contact@conehealth.com",
+    "address": "912 3rd Street, Greensboro",
+    "mailto_url": "mailto:contact@conehealth.com?subject=quick%20question%20regarding%20Guilford%20Neurologic%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.conehealth.com/locations/profile/cone-health-guilford-neurologic-associates/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Guilford%20Neurologic%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:16:39"
+  },
+  {
+    "id": 5,
+    "name": "Palladium Primary Care",
+    "niche": "Doctor",
+    "city": "Greensboro",
+    "phone": "+1-336-841-8500",
+    "website": "N/A",
+    "email": "contact@palladiumprimarycare.example",
+    "address": "2510 West Gate City Boulevard, Greensboro 27403",
+    "mailto_url": "mailto:contact@palladiumprimarycare.example?subject=quick%20question%20regarding%20Palladium%20Primary%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Palladium%20Primary%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:16:39"
+  },
+  {
+    "id": 6,
+    "name": "Greensboro Dermatology Associates, P.A.",
+    "niche": "Doctor",
+    "city": "Greensboro",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@greensborodermatologyassociatespa.example",
+    "address": "2704 St Jude Street, Greensboro",
+    "mailto_url": "mailto:contact@greensborodermatologyassociatespa.example?subject=quick%20question%20regarding%20Greensboro%20Dermatology%20Associates%2C%20P.A.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Greensboro%20Dermatology%20Associates%2C%20P.A.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:16:39"
+  },
+  {
+    "id": 7,
+    "name": "LeBauer Allergy & Asthma",
+    "niche": "Doctor",
+    "city": "Greensboro",
+    "phone": "+1 336-282-2300",
+    "website": "https://lebauerallergy.com/",
+    "email": "contact@lebauerallergy.com",
+    "address": "3200 Brassfield Road, Greensboro",
+    "mailto_url": "mailto:contact@lebauerallergy.com?subject=quick%20question%20regarding%20LeBauer%20Allergy%20%26%20Asthma%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//lebauerallergy.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20LeBauer%20Allergy%20%26%20Asthma%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:16:39"
+  },
+  {
+    "id": 8,
+    "name": "Hecker Eye Care Associates",
+    "niche": "Doctor",
+    "city": "Greensboro",
+    "phone": "+1 336-715-2773",
+    "website": "https://www.heckereye.com/",
+    "email": "contact@heckereye.com",
+    "address": "1507 Westover Terrace, Greensboro",
+    "mailto_url": "mailto:contact@heckereye.com?subject=quick%20question%20regarding%20Hecker%20Eye%20Care%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.heckereye.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hecker%20Eye%20Care%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:16:39"
+  },
+  {
+    "id": 9,
+    "name": "Carolina Age Management Institute",
+    "niche": "Doctor",
+    "city": "Greensboro",
+    "phone": "+1 336-738-0099",
+    "website": "https://carolinaagemanagement.com/",
+    "email": "contact@carolinaagemanagement.com",
+    "address": "1507 Westover Terrace, Greensboro",
+    "mailto_url": "mailto:contact@carolinaagemanagement.com?subject=quick%20question%20regarding%20Carolina%20Age%20Management%20Institute%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//carolinaagemanagement.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Carolina%20Age%20Management%20Institute%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:16:39"
+  },
+  {
+    "id": 10,
+    "name": "Carolina Psychological Associates",
+    "niche": "Doctor",
+    "city": "Greensboro",
+    "phone": "+1 336-272-0855",
+    "website": "https://www.carolinapsychological.com/",
+    "email": "contact@carolinapsychological.com",
+    "address": "1501 Highwoods Boulevard, Greensboro",
+    "mailto_url": "mailto:contact@carolinapsychological.com?subject=quick%20question%20regarding%20Carolina%20Psychological%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.carolinapsychological.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Carolina%20Psychological%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:16:39"
+  }
+]
