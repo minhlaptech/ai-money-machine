@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Dr Tang Tri Nguyen, DDS",
+    "niche": "Dentist",
+    "city": "Davenport",
+    "phone": "+1-416-536-8523",
+    "website": "N/A",
+    "email": "contact@drtangtringuyendds.example",
+    "address": "1198 Bloor Street West, Davenport",
+    "mailto_url": "mailto:contact@drtangtringuyendds.example?subject=quick%20question%20regarding%20Dr%20Tang%20Tri%20Nguyen%2C%20DDS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dr%20Tang%20Tri%20Nguyen%2C%20DDS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:12"
+  },
+  {
+    "id": 2,
+    "name": "Your Dental Office",
+    "niche": "Dentist",
+    "city": "Davenport",
+    "phone": "+1 416-588-2880",
+    "website": "https://ydo.one",
+    "email": "contact@ydo.one",
+    "address": "1196 Bloor Street West, Davenport",
+    "mailto_url": "mailto:contact@ydo.one?subject=quick%20question%20regarding%20Your%20Dental%20Office%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//ydo.one%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Your%20Dental%20Office%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:12"
+  },
+  {
+    "id": 3,
+    "name": "Cosmetic and Family Dentistry",
+    "niche": "Dentist",
+    "city": "Davenport",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@cosmeticandfamilydentistry.example",
+    "address": "Davenport",
+    "mailto_url": "mailto:contact@cosmeticandfamilydentistry.example?subject=quick%20question%20regarding%20Cosmetic%20and%20Family%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Cosmetic%20and%20Family%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:12"
+  },
+  {
+    "id": 4,
+    "name": "Schecter Dental",
+    "niche": "Dentist",
+    "city": "Davenport",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@schecterdental.example",
+    "address": "930 St. Clair Avenue West, Davenport",
+    "mailto_url": "mailto:contact@schecterdental.example?subject=quick%20question%20regarding%20Schecter%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Schecter%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:12"
+  },
+  {
+    "id": 5,
+    "name": "Dentistry on Queen West",
+    "niche": "Dentist",
+    "city": "Davenport",
+    "phone": "+1-647-350-1156",
+    "website": "https://dentistryonqueenwest.ca/",
+    "email": "contact@dentistryonqueenwest.ca",
+    "address": "1157 Queen Street West, Davenport M6J 1J4",
+    "mailto_url": "mailto:contact@dentistryonqueenwest.ca?subject=quick%20question%20regarding%20Dentistry%20on%20Queen%20West%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//dentistryonqueenwest.ca/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dentistry%20on%20Queen%20West%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:12"
+  },
+  {
+    "id": 6,
+    "name": "Dentistry on Dupont",
+    "niche": "Dentist",
+    "city": "Davenport",
+    "phone": "+14165530531",
+    "website": "https://www.dentistryondupont.ca/",
+    "email": "contact@dentistryondupont.ca",
+    "address": "Davenport",
+    "mailto_url": "mailto:contact@dentistryondupont.ca?subject=quick%20question%20regarding%20Dentistry%20on%20Dupont%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.dentistryondupont.ca/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dentistry%20on%20Dupont%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:12"
+  },
+  {
+    "id": 7,
+    "name": "Smile Design Dental Studio",
+    "niche": "Dentist",
+    "city": "Davenport",
+    "phone": "N/A",
+    "website": "https://smiledesignstudio.ca/",
+    "email": "contact@smiledesignstudio.ca",
+    "address": "1269 Bloor Street West, Davenport",
+    "mailto_url": "mailto:contact@smiledesignstudio.ca?subject=quick%20question%20regarding%20Smile%20Design%20Dental%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//smiledesignstudio.ca/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Smile%20Design%20Dental%20Studio%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:12"
+  },
+  {
+    "id": 8,
+    "name": "Mint Dentistry",
+    "niche": "Dentist",
+    "city": "Davenport",
+    "phone": "+1-416-516-6468",
+    "website": "https://www.mintdentistry.ca/",
+    "email": "contact@mintdentistry.ca",
+    "address": "1153 Queen Street West, Davenport",
+    "mailto_url": "mailto:contact@mintdentistry.ca?subject=quick%20question%20regarding%20Mint%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.mintdentistry.ca/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Mint%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:12"
+  },
+  {
+    "id": 9,
+    "name": "Lisgar Park Dental",
+    "niche": "Dentist",
+    "city": "Davenport",
+    "phone": "+1-647-350-5530",
+    "website": "https://lisgarparkdental.com/",
+    "email": "contact@lisgarparkdental.com",
+    "address": "Davenport",
+    "mailto_url": "mailto:contact@lisgarparkdental.com?subject=quick%20question%20regarding%20Lisgar%20Park%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//lisgarparkdental.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lisgar%20Park%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:12"
+  },
+  {
+    "id": 10,
+    "name": "Dundas Ossington Dentistry",
+    "niche": "Dentist",
+    "city": "Davenport",
+    "phone": "+1-416-588-4466",
+    "website": "N/A",
+    "email": "contact@dundasossingtondentistry.example",
+    "address": "1217 Dundas Street West, Davenport",
+    "mailto_url": "mailto:contact@dundasossingtondentistry.example?subject=quick%20question%20regarding%20Dundas%20Ossington%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dundas%20Ossington%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:12"
+  }
+]

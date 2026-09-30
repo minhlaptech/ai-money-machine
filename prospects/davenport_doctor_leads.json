@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Davenport Medical Clinic",
+    "niche": "Doctor",
+    "city": "Davenport",
+    "phone": "+1 402 364 2105",
+    "website": "N/A",
+    "email": "contact@davenportmedicalclinic.example",
+    "address": "Davenport",
+    "mailto_url": "mailto:contact@davenportmedicalclinic.example?subject=quick%20question%20regarding%20Davenport%20Medical%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Davenport%20Medical%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:15"
+  },
+  {
+    "id": 2,
+    "name": "St. Clair Medical Centre",
+    "niche": "Doctor",
+    "city": "Davenport",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@stclairmedicalcentre.example",
+    "address": "Davenport",
+    "mailto_url": "mailto:contact@stclairmedicalcentre.example?subject=quick%20question%20regarding%20St.%20Clair%20Medical%20Centre%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20St.%20Clair%20Medical%20Centre%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:15"
+  },
+  {
+    "id": 3,
+    "name": "Dufferin Foot Clinic",
+    "niche": "Doctor",
+    "city": "Davenport",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dufferinfootclinic.example",
+    "address": "Davenport",
+    "mailto_url": "mailto:contact@dufferinfootclinic.example?subject=quick%20question%20regarding%20Dufferin%20Foot%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dufferin%20Foot%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:15"
+  },
+  {
+    "id": 4,
+    "name": "Keele & Rogers Medical Centre Walk-In Clinic",
+    "niche": "Doctor",
+    "city": "Davenport",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@keelerogersmedicalcentrewalk-inclinic.example",
+    "address": "Davenport",
+    "mailto_url": "mailto:contact@keelerogersmedicalcentrewalk-inclinic.example?subject=quick%20question%20regarding%20Keele%20%26%20Rogers%20Medical%20Centre%20Walk-In%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Keele%20%26%20Rogers%20Medical%20Centre%20Walk-In%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:15"
+  },
+  {
+    "id": 5,
+    "name": "Primacy Lansdowne Dundas Medical Clinic",
+    "niche": "Doctor",
+    "city": "Davenport",
+    "phone": "N/A",
+    "website": "https://www.ldmedical.ca",
+    "email": "contact@ldmedical.ca",
+    "address": "Davenport",
+    "mailto_url": "mailto:contact@ldmedical.ca?subject=quick%20question%20regarding%20Primacy%20Lansdowne%20Dundas%20Medical%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.ldmedical.ca%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Primacy%20Lansdowne%20Dundas%20Medical%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:15"
+  },
+  {
+    "id": 6,
+    "name": "College Concord Medical Clinic",
+    "niche": "Doctor",
+    "city": "Davenport",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@collegeconcordmedicalclinic.example",
+    "address": "Davenport",
+    "mailto_url": "mailto:contact@collegeconcordmedicalclinic.example?subject=quick%20question%20regarding%20College%20Concord%20Medical%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20College%20Concord%20Medical%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:15"
+  },
+  {
+    "id": 7,
+    "name": "Dufferin St. Clair Community Clinic",
+    "niche": "Doctor",
+    "city": "Davenport",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dufferinstclaircommunityclinic.example",
+    "address": "Davenport",
+    "mailto_url": "mailto:contact@dufferinstclaircommunityclinic.example?subject=quick%20question%20regarding%20Dufferin%20St.%20Clair%20Community%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dufferin%20St.%20Clair%20Community%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:15"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Magdy Elkashab",
+    "niche": "Doctor",
+    "city": "Davenport",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@drmagdyelkashab.example",
+    "address": "Davenport",
+    "mailto_url": "mailto:contact@drmagdyelkashab.example?subject=quick%20question%20regarding%20Dr.%20Magdy%20Elkashab%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dr.%20Magdy%20Elkashab%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:15"
+  },
+  {
+    "id": 9,
+    "name": "Dufferin Cardiac Clinic",
+    "niche": "Doctor",
+    "city": "Davenport",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dufferincardiacclinic.example",
+    "address": "Davenport",
+    "mailto_url": "mailto:contact@dufferincardiacclinic.example?subject=quick%20question%20regarding%20Dufferin%20Cardiac%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dufferin%20Cardiac%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:15"
+  },
+  {
+    "id": 10,
+    "name": "Dufferin Medical Centre",
+    "niche": "Doctor",
+    "city": "Davenport",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dufferinmedicalcentre.example",
+    "address": "1615 Dufferin Street, Davenport",
+    "mailto_url": "mailto:contact@dufferinmedicalcentre.example?subject=quick%20question%20regarding%20Dufferin%20Medical%20Centre%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dufferin%20Medical%20Centre%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:34:15"
+  }
+]
