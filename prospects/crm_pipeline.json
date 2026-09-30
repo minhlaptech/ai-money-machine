@@ -7,10 +7,10 @@
     "city": "Austin, TX",
     "to": "contact@austindentalco.example",
     "doc": "Dr. Miller",
-    "status": "won",
+    "status": "day1",
     "value": 1200,
     "retainer": 650,
-    "last_touch": "2026-09-30 03:33"
+    "last_touch": "2026-09-30 08:55"
   },
   {
     "id": 2,
