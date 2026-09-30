@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Miami Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "Miami",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.miamipremierrealestatestudio.example",
+    "email": "info@miamipremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, Miami",
+    "mailto_url": "mailto:info@miamipremierrealestatestudio.example?subject=quick%20question%20regarding%20Miami%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:21:49"
+  },
+  {
+    "id": 2,
+    "name": "Apex Miami Realestate Center",
+    "niche": "Realestate",
+    "city": "Miami",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexmiamirealestatecenter.example",
+    "email": "info@apexmiamirealestatecenter.example",
+    "address": "240 Boulevard Ave, Miami",
+    "mailto_url": "mailto:info@apexmiamirealestatecenter.example?subject=quick%20question%20regarding%20Apex%20Miami%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:21:49"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of Miami",
+    "niche": "Realestate",
+    "city": "Miami",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersofmiami.example",
+    "email": "info@beaconrealestatepartnersofmiami.example",
+    "address": "360 Boulevard Ave, Miami",
+    "mailto_url": "mailto:info@beaconrealestatepartnersofmiami.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20Miami%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:21:49"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Miami Realestate Group",
+    "niche": "Realestate",
+    "city": "Miami",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardmiamirealestategroup.example",
+    "email": "info@vanguardmiamirealestategroup.example",
+    "address": "480 Boulevard Ave, Miami",
+    "mailto_url": "mailto:info@vanguardmiamirealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20Miami%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:21:49"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics Miami",
+    "niche": "Realestate",
+    "city": "Miami",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticsmiami.example",
+    "email": "info@luminarealestateandaestheticsmiami.example",
+    "address": "600 Boulevard Ave, Miami",
+    "mailto_url": "mailto:info@luminarealestateandaestheticsmiami.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20Miami%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:21:49"
+  }
+]
