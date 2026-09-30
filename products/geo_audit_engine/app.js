@@ -370,8 +370,11 @@ function executeMockPayment() {
       proBtn.classList.add('btn-pro');
     }
 
-    showToast("🎉 License Activated! Full AI Crawlability unlocked.");
-  }, 1200);
+    showToast("🎉 Redirecting to secure checkout gateway...");
+    setTimeout(() => {
+      window.location.href = "https://minhlap.gumroad.com/l/xqckmu";
+    }, 1200);
+  }, 1000);
 }
 
 // Toast Helper
