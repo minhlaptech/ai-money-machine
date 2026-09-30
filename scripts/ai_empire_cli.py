@@ -26,7 +26,7 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v22.0 ⚡
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v25.0 ⚡
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
@@ -76,6 +76,14 @@ def print_banner():
   [45] 🛡️ Mở SLA Operations & Client Fulfillment Hub (/fulfillment - 119 Clusters)
   [46] 💳 Mở Master Billing & Invoicing Center (/billing - 119 MSAs & Paid Receipts)
   [47] 🧪 Mở Autonomous Sandbox & Simulation Hub (/sandboxes - 119 Live Copilots)
+  [48] 🌐 Mở Global NOC & Edge Telemetry Hub (/telemetry - 99.98% SLA & Real-Time Nodes)
+  [49] 📚 Mở Developer Documentation & API Hub (/docs - 6 Interactive SDKs & Webhooks)
+  [50] 🔒 Mở Enterprise Security & Trust Center (/trust - SOC-2 & HIPAA Verification)
+  [51] ⚡ Mở Global AI Performance & Benchmark Index (/benchmarks - 12 Industry Leaderboards)
+  [52] 🛡️ Mở SLA Financial Guarantee Center (/guarantee - $5,000 Performance Bond)
+  [53] 🧠 Mở Self-Service Knowledge Base & AI Studio (/knowledge - 84 Client Agent Workspaces)
+  [54] 📬 Mở Omnichannel Unified Inbox & HITL Dispatch (/inbox - Human-in-the-Loop Triaging)
+  [55] 📈 Mở Client Value Attribution Engine (/attribution - $2,733,800/wk Protected Value)
   [0] Thoát
 ======================================================================
 """)
@@ -95,7 +103,7 @@ def run_script(rel_path, args=None):
 def main_loop():
     while True:
         print_banner()
-        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-47]: ").strip()
+        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-55]: ").strip()
 
         if choice == '1':
             ping = input("Bạn có muốn gửi báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
@@ -571,11 +579,115 @@ def main_loop():
             except Exception:
                 webbrowser.open(local_sb.as_uri())
 
+        elif choice == '48':
+            action = input("1: Mở trình duyệt (/telemetry) / 2: Bắn báo cáo Telegram (1/2, mặc định 1): ").strip()
+            if action == '2':
+                run_script("scripts/dispatch_telemetry_hub_briefing.py")
+            else:
+                url = "https://work-minh-lap.vercel.app/telemetry"
+                local = ROOT_DIR / "telemetry" / "index.html"
+                print(f"[*] Đang mở Global NOC & Edge Telemetry Hub trên trình duyệt: {url}")
+                try:
+                    webbrowser.open(url)
+                except Exception:
+                    webbrowser.open(local.as_uri())
+
+        elif choice == '49':
+            action = input("1: Mở trình duyệt (/docs) / 2: Bắn báo cáo Telegram (1/2, mặc định 1): ").strip()
+            if action == '2':
+                run_script("scripts/dispatch_docs_hub_briefing.py")
+            else:
+                url = "https://work-minh-lap.vercel.app/docs"
+                local = ROOT_DIR / "docs" / "index.html"
+                print(f"[*] Đang mở Developer Documentation Hub trên trình duyệt: {url}")
+                try:
+                    webbrowser.open(url)
+                except Exception:
+                    webbrowser.open(local.as_uri())
+
+        elif choice == '50':
+            action = input("1: Mở trình duyệt (/trust) / 2: Bắn báo cáo Telegram (1/2, mặc định 1): ").strip()
+            if action == '2':
+                run_script("scripts/dispatch_trust_center_briefing.py")
+            else:
+                url = "https://work-minh-lap.vercel.app/trust"
+                local = ROOT_DIR / "trust" / "index.html"
+                print(f"[*] Đang mở Enterprise Trust Center trên trình duyệt: {url}")
+                try:
+                    webbrowser.open(url)
+                except Exception:
+                    webbrowser.open(local.as_uri())
+
+        elif choice == '51':
+            action = input("1: Mở trình duyệt (/benchmarks) / 2: Bắn báo cáo Telegram (1/2, mặc định 1): ").strip()
+            if action == '2':
+                run_script("scripts/dispatch_benchmarks_hub_briefing.py")
+            else:
+                url = "https://work-minh-lap.vercel.app/benchmarks"
+                local = ROOT_DIR / "benchmarks" / "index.html"
+                print(f"[*] Đang mở Benchmark Index Hub trên trình duyệt: {url}")
+                try:
+                    webbrowser.open(url)
+                except Exception:
+                    webbrowser.open(local.as_uri())
+
+        elif choice == '52':
+            action = input("1: Mở trình duyệt (/guarantee) / 2: Bắn báo cáo Telegram (1/2, mặc định 1): ").strip()
+            if action == '2':
+                run_script("scripts/dispatch_guarantee_hub_briefing.py")
+            else:
+                url = "https://work-minh-lap.vercel.app/guarantee"
+                local = ROOT_DIR / "guarantee" / "index.html"
+                print(f"[*] Đang mở SLA Guarantee Center trên trình duyệt: {url}")
+                try:
+                    webbrowser.open(url)
+                except Exception:
+                    webbrowser.open(local.as_uri())
+
+        elif choice == '53':
+            action = input("1: Mở trình duyệt (/knowledge) / 2: Bắn báo cáo Telegram (1/2, mặc định 1): ").strip()
+            if action == '2':
+                run_script("scripts/dispatch_knowledge_studio_briefing.py")
+            else:
+                url = "https://work-minh-lap.vercel.app/knowledge"
+                local = ROOT_DIR / "knowledge" / "index.html"
+                print(f"[*] Đang mở Knowledge Studio Hub trên trình duyệt: {url}")
+                try:
+                    webbrowser.open(url)
+                except Exception:
+                    webbrowser.open(local.as_uri())
+
+        elif choice == '54':
+            action = input("1: Mở trình duyệt (/inbox) / 2: Bắn báo cáo Telegram (1/2, mặc định 1): ").strip()
+            if action == '2':
+                run_script("scripts/dispatch_inbox_hub_briefing.py")
+            else:
+                url = "https://work-minh-lap.vercel.app/inbox"
+                local = ROOT_DIR / "inbox" / "index.html"
+                print(f"[*] Đang mở Omnichannel Unified Inbox trên trình duyệt: {url}")
+                try:
+                    webbrowser.open(url)
+                except Exception:
+                    webbrowser.open(local.as_uri())
+
+        elif choice == '55':
+            action = input("1: Mở trình duyệt (/attribution) / 2: Bắn báo cáo Telegram (1/2, mặc định 1): ").strip()
+            if action == '2':
+                run_script("scripts/dispatch_attribution_hub_briefing.py")
+            else:
+                url = "https://work-minh-lap.vercel.app/attribution"
+                local = ROOT_DIR / "attribution" / "index.html"
+                print(f"[*] Đang mở Client Value Attribution Engine trên trình duyệt: {url}")
+                try:
+                    webbrowser.open(url)
+                except Exception:
+                    webbrowser.open(local.as_uri())
+
         elif choice == '0':
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 47.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 55.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 
