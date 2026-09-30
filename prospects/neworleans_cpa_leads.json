@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "New Orleans Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.neworleanspremiercpastudio.example",
+    "email": "info@neworleanspremiercpastudio.example",
+    "address": "120 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@neworleanspremiercpastudio.example?subject=quick%20question%20regarding%20New%20Orleans%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:07:46"
+  },
+  {
+    "id": 2,
+    "name": "Apex New Orleans Cpa Center",
+    "niche": "Cpa",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexneworleanscpacenter.example",
+    "email": "info@apexneworleanscpacenter.example",
+    "address": "240 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@apexneworleanscpacenter.example?subject=quick%20question%20regarding%20Apex%20New%20Orleans%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:07:46"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of New Orleans",
+    "niche": "Cpa",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersofneworleans.example",
+    "email": "info@beaconcpapartnersofneworleans.example",
+    "address": "360 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@beaconcpapartnersofneworleans.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20New%20Orleans%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:07:46"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard New Orleans Cpa Group",
+    "niche": "Cpa",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardneworleanscpagroup.example",
+    "email": "info@vanguardneworleanscpagroup.example",
+    "address": "480 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@vanguardneworleanscpagroup.example?subject=quick%20question%20regarding%20Vanguard%20New%20Orleans%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:07:46"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics New Orleans",
+    "niche": "Cpa",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticsneworleans.example",
+    "email": "info@luminacpaandaestheticsneworleans.example",
+    "address": "600 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@luminacpaandaestheticsneworleans.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20New%20Orleans%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:07:46"
+  }
+]

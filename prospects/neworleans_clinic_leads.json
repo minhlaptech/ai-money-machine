@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Student Health Services",
+    "niche": "Clinic",
+    "city": "New Orleans",
+    "phone": "N/A",
+    "website": "http://studenthealth.uno.edu/",
+    "email": "contact@studenthealth.uno.edu",
+    "address": "New Orleans",
+    "mailto_url": "mailto:contact@studenthealth.uno.edu?subject=quick%20question%20regarding%20Student%20Health%20Services%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//studenthealth.uno.edu/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Student%20Health%20Services%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:07:01"
+  },
+  {
+    "id": 2,
+    "name": "Southern Skin and Welness",
+    "niche": "Clinic",
+    "city": "New Orleans",
+    "phone": "N/A",
+    "website": "https://www.southernskin.com/",
+    "email": "contact@southernskin.com",
+    "address": "644 Camp Street, New Orleans 70130",
+    "mailto_url": "mailto:contact@southernskin.com?subject=quick%20question%20regarding%20Southern%20Skin%20and%20Welness%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.southernskin.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Southern%20Skin%20and%20Welness%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:07:01"
+  },
+  {
+    "id": 3,
+    "name": "Harrah's Employee Health Center",
+    "niche": "Clinic",
+    "city": "New Orleans",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@harrah'semployeehealthcenter.example",
+    "address": "New Orleans",
+    "mailto_url": "mailto:contact@harrah'semployeehealthcenter.example?subject=quick%20question%20regarding%20Harrah%27s%20Employee%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Harrah%27s%20Employee%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:07:01"
+  },
+  {
+    "id": 4,
+    "name": "Ventanilla de Salud",
+    "niche": "Clinic",
+    "city": "New Orleans",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@ventanilladesalud.example",
+    "address": "New Orleans",
+    "mailto_url": "mailto:contact@ventanilladesalud.example?subject=quick%20question%20regarding%20Ventanilla%20de%20Salud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Ventanilla%20de%20Salud%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:07:01"
+  },
+  {
+    "id": 5,
+    "name": "Concentra Urgent Care",
+    "niche": "Clinic",
+    "city": "New Orleans",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@concentraurgentcare.example",
+    "address": "318 Baronne Street, New Orleans 70112",
+    "mailto_url": "mailto:contact@concentraurgentcare.example?subject=quick%20question%20regarding%20Concentra%20Urgent%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Concentra%20Urgent%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:07:01"
+  }
+]

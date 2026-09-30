@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "New Orleans Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.neworleanspremierrealestatestudio.example",
+    "email": "info@neworleanspremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@neworleanspremierrealestatestudio.example?subject=quick%20question%20regarding%20New%20Orleans%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:08:09"
+  },
+  {
+    "id": 2,
+    "name": "Apex New Orleans Realestate Center",
+    "niche": "Realestate",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexneworleansrealestatecenter.example",
+    "email": "info@apexneworleansrealestatecenter.example",
+    "address": "240 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@apexneworleansrealestatecenter.example?subject=quick%20question%20regarding%20Apex%20New%20Orleans%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:08:09"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of New Orleans",
+    "niche": "Realestate",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersofneworleans.example",
+    "email": "info@beaconrealestatepartnersofneworleans.example",
+    "address": "360 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@beaconrealestatepartnersofneworleans.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20New%20Orleans%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:08:09"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard New Orleans Realestate Group",
+    "niche": "Realestate",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardneworleansrealestategroup.example",
+    "email": "info@vanguardneworleansrealestategroup.example",
+    "address": "480 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@vanguardneworleansrealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20New%20Orleans%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:08:09"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics New Orleans",
+    "niche": "Realestate",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticsneworleans.example",
+    "email": "info@luminarealestateandaestheticsneworleans.example",
+    "address": "600 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@luminarealestateandaestheticsneworleans.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20New%20Orleans%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:08:09"
+  }
+]

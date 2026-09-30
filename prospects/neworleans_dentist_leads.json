@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "DENS tandartsen",
+    "niche": "Dentist",
+    "city": "New Orleans",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@denstandartsen.example",
+    "address": "New Orleans",
+    "mailto_url": "mailto:contact@denstandartsen.example?subject=quick%20question%20regarding%20DENS%20tandartsen%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20DENS%20tandartsen%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:06:05"
+  },
+  {
+    "id": 2,
+    "name": "Concord Family Dental of New Orleans",
+    "niche": "Dentist",
+    "city": "New Orleans",
+    "phone": "N/A",
+    "website": "https://www.concordalgiers.com/",
+    "email": "contact@concordalgiers.com",
+    "address": "3727 Macarthur Boulevard, New Orleans 70114",
+    "mailto_url": "mailto:contact@concordalgiers.com?subject=quick%20question%20regarding%20Concord%20Family%20Dental%20of%20New%20Orleans%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.concordalgiers.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Concord%20Family%20Dental%20of%20New%20Orleans%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:06:05"
+  },
+  {
+    "id": 3,
+    "name": "Uptown Dental",
+    "niche": "Dentist",
+    "city": "New Orleans",
+    "phone": "N/A",
+    "website": "https://www.uptowndentalnola.com/",
+    "email": "contact@uptowndentalnola.com",
+    "address": "8131 Saint Charles Avenue, New Orleans 70118",
+    "mailto_url": "mailto:contact@uptowndentalnola.com?subject=quick%20question%20regarding%20Uptown%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.uptowndentalnola.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Uptown%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:06:05"
+  },
+  {
+    "id": 4,
+    "name": "Kimberly A. Meng, DDS",
+    "niche": "Dentist",
+    "city": "New Orleans",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@kimberlyamengdds.example",
+    "address": "New Orleans",
+    "mailto_url": "mailto:contact@kimberlyamengdds.example?subject=quick%20question%20regarding%20Kimberly%20A.%20Meng%2C%20DDS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Kimberly%20A.%20Meng%2C%20DDS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:06:05"
+  },
+  {
+    "id": 5,
+    "name": "New Orleans Dentist #5",
+    "niche": "Dentist",
+    "city": "New Orleans",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@neworleansdentist#5.example",
+    "address": "4819 Chef Menteur Highway, New Orleans",
+    "mailto_url": "mailto:contact@neworleansdentist#5.example?subject=quick%20question%20regarding%20New%20Orleans%20Dentist%20%235%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20New%20Orleans%20Dentist%20%235%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:06:05"
+  }
+]

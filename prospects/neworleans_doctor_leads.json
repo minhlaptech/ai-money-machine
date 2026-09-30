@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "New Orleans Premier Doctor Studio",
+    "niche": "Doctor",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.neworleanspremierdoctorstudio.example",
+    "email": "info@neworleanspremierdoctorstudio.example",
+    "address": "120 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@neworleanspremierdoctorstudio.example?subject=quick%20question%20regarding%20New%20Orleans%20Premier%20Doctor%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:06:36"
+  },
+  {
+    "id": 2,
+    "name": "Apex New Orleans Doctor Center",
+    "niche": "Doctor",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexneworleansdoctorcenter.example",
+    "email": "info@apexneworleansdoctorcenter.example",
+    "address": "240 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@apexneworleansdoctorcenter.example?subject=quick%20question%20regarding%20Apex%20New%20Orleans%20Doctor%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:06:36"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Doctor Partners of New Orleans",
+    "niche": "Doctor",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondoctorpartnersofneworleans.example",
+    "email": "info@beacondoctorpartnersofneworleans.example",
+    "address": "360 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@beacondoctorpartnersofneworleans.example?subject=quick%20question%20regarding%20Beacon%20Doctor%20Partners%20of%20New%20Orleans%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:06:36"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard New Orleans Doctor Group",
+    "niche": "Doctor",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardneworleansdoctorgroup.example",
+    "email": "info@vanguardneworleansdoctorgroup.example",
+    "address": "480 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@vanguardneworleansdoctorgroup.example?subject=quick%20question%20regarding%20Vanguard%20New%20Orleans%20Doctor%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:06:36"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Doctor & Aesthetics New Orleans",
+    "niche": "Doctor",
+    "city": "New Orleans",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadoctorandaestheticsneworleans.example",
+    "email": "info@luminadoctorandaestheticsneworleans.example",
+    "address": "600 Boulevard Ave, New Orleans",
+    "mailto_url": "mailto:info@luminadoctorandaestheticsneworleans.example?subject=quick%20question%20regarding%20Lumina%20Doctor%20%26%20Aesthetics%20New%20Orleans%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:06:36"
+  }
+]
