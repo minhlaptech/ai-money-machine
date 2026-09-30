@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Property Solutions Real Estate Group",
+    "niche": "Realestate",
+    "city": "Richmond",
+    "phone": "+1-403-460-6553",
+    "website": "https://www.propertysolutionsrealestate.ca/",
+    "email": "contact@propertysolutionsrealestate.ca",
+    "address": "2203 26 Avenue SW, Richmond T2T 1E9",
+    "mailto_url": "mailto:contact@propertysolutionsrealestate.ca?subject=quick%20question%20regarding%20Property%20Solutions%20Real%20Estate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.propertysolutionsrealestate.ca/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Property%20Solutions%20Real%20Estate%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:02:34"
+  },
+  {
+    "id": 2,
+    "name": "Newman Properties",
+    "niche": "Realestate",
+    "city": "Richmond",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@newmanproperties.example",
+    "address": "204 West Broad Street, Richmond 23220",
+    "mailto_url": "mailto:contact@newmanproperties.example?subject=quick%20question%20regarding%20Newman%20Properties%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Newman%20Properties%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:02:34"
+  },
+  {
+    "id": 3,
+    "name": "Bridgfords",
+    "niche": "Realestate",
+    "city": "Richmond",
+    "phone": "+44 1748 550 027",
+    "website": "https://www.bridgfords.co.uk/toletoffice/Richmond/1991",
+    "email": "contact@bridgfords.co.uk",
+    "address": "Richmond",
+    "mailto_url": "mailto:contact@bridgfords.co.uk?subject=quick%20question%20regarding%20Bridgfords%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.bridgfords.co.uk/toletoffice/Richmond/1991%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bridgfords%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:02:34"
+  },
+  {
+    "id": 4,
+    "name": "Norman Brown",
+    "niche": "Realestate",
+    "city": "Richmond",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@normanbrown.example",
+    "address": "Queens Road, Richmond",
+    "mailto_url": "mailto:contact@normanbrown.example?subject=quick%20question%20regarding%20Norman%20Brown%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Norman%20Brown%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:02:34"
+  },
+  {
+    "id": 5,
+    "name": "Marcus Alderson",
+    "niche": "Realestate",
+    "city": "Richmond",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@marcusalderson.example",
+    "address": "King Street, Richmond",
+    "mailto_url": "mailto:contact@marcusalderson.example?subject=quick%20question%20regarding%20Marcus%20Alderson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Marcus%20Alderson%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:02:34"
+  }
+]

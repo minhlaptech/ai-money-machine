@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Richmond Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "Richmond",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.richmondpremiercpastudio.example",
+    "email": "info@richmondpremiercpastudio.example",
+    "address": "120 Boulevard Ave, Richmond",
+    "mailto_url": "mailto:info@richmondpremiercpastudio.example?subject=quick%20question%20regarding%20Richmond%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:02:14"
+  },
+  {
+    "id": 2,
+    "name": "Apex Richmond Cpa Center",
+    "niche": "Cpa",
+    "city": "Richmond",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexrichmondcpacenter.example",
+    "email": "info@apexrichmondcpacenter.example",
+    "address": "240 Boulevard Ave, Richmond",
+    "mailto_url": "mailto:info@apexrichmondcpacenter.example?subject=quick%20question%20regarding%20Apex%20Richmond%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:02:14"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of Richmond",
+    "niche": "Cpa",
+    "city": "Richmond",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersofrichmond.example",
+    "email": "info@beaconcpapartnersofrichmond.example",
+    "address": "360 Boulevard Ave, Richmond",
+    "mailto_url": "mailto:info@beaconcpapartnersofrichmond.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20Richmond%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:02:14"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Richmond Cpa Group",
+    "niche": "Cpa",
+    "city": "Richmond",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardrichmondcpagroup.example",
+    "email": "info@vanguardrichmondcpagroup.example",
+    "address": "480 Boulevard Ave, Richmond",
+    "mailto_url": "mailto:info@vanguardrichmondcpagroup.example?subject=quick%20question%20regarding%20Vanguard%20Richmond%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:02:14"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics Richmond",
+    "niche": "Cpa",
+    "city": "Richmond",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticsrichmond.example",
+    "email": "info@luminacpaandaestheticsrichmond.example",
+    "address": "600 Boulevard Ave, Richmond",
+    "mailto_url": "mailto:info@luminacpaandaestheticsrichmond.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20Richmond%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:02:14"
+  }
+]
