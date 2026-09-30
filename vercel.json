@@ -65,6 +65,9 @@
     { "source": "/developer", "destination": "/docs/index.html" },
     { "source": "/trust", "destination": "/trust/index.html" },
     { "source": "/compliance", "destination": "/trust/index.html" },
-    { "source": "/security", "destination": "/trust/index.html" }
+    { "source": "/security", "destination": "/trust/index.html" },
+    { "source": "/benchmarks", "destination": "/benchmarks/index.html" },
+    { "source": "/analytics", "destination": "/benchmarks/index.html" },
+    { "source": "/performance", "destination": "/benchmarks/index.html" }
   ]
 }
