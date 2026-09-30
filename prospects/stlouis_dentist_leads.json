@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "St. Louis Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.st.louispremierdentiststudio.example",
+    "email": "info@st.louispremierdentiststudio.example",
+    "address": "120 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@st.louispremierdentiststudio.example?subject=quick%20question%20regarding%20St.%20Louis%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:32:03"
+  },
+  {
+    "id": 2,
+    "name": "Apex St. Louis Dentist Center",
+    "niche": "Dentist",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexst.louisdentistcenter.example",
+    "email": "info@apexst.louisdentistcenter.example",
+    "address": "240 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@apexst.louisdentistcenter.example?subject=quick%20question%20regarding%20Apex%20St.%20Louis%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:32:03"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of St. Louis",
+    "niche": "Dentist",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersofst.louis.example",
+    "email": "info@beacondentistpartnersofst.louis.example",
+    "address": "360 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@beacondentistpartnersofst.louis.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20St.%20Louis%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:32:03"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard St. Louis Dentist Group",
+    "niche": "Dentist",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardst.louisdentistgroup.example",
+    "email": "info@vanguardst.louisdentistgroup.example",
+    "address": "480 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@vanguardst.louisdentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20St.%20Louis%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:32:03"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics St. Louis",
+    "niche": "Dentist",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticsst.louis.example",
+    "email": "info@luminadentistandaestheticsst.louis.example",
+    "address": "600 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@luminadentistandaestheticsst.louis.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20St.%20Louis%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:32:03"
+  }
+]

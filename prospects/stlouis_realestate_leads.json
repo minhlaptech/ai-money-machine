@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "St. Louis Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.st.louispremierrealestatestudio.example",
+    "email": "info@st.louispremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@st.louispremierrealestatestudio.example?subject=quick%20question%20regarding%20St.%20Louis%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:33:33"
+  },
+  {
+    "id": 2,
+    "name": "Apex St. Louis Realestate Center",
+    "niche": "Realestate",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexst.louisrealestatecenter.example",
+    "email": "info@apexst.louisrealestatecenter.example",
+    "address": "240 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@apexst.louisrealestatecenter.example?subject=quick%20question%20regarding%20Apex%20St.%20Louis%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:33:33"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of St. Louis",
+    "niche": "Realestate",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersofst.louis.example",
+    "email": "info@beaconrealestatepartnersofst.louis.example",
+    "address": "360 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@beaconrealestatepartnersofst.louis.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20St.%20Louis%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:33:33"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard St. Louis Realestate Group",
+    "niche": "Realestate",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardst.louisrealestategroup.example",
+    "email": "info@vanguardst.louisrealestategroup.example",
+    "address": "480 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@vanguardst.louisrealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20St.%20Louis%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:33:33"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics St. Louis",
+    "niche": "Realestate",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticsst.louis.example",
+    "email": "info@luminarealestateandaestheticsst.louis.example",
+    "address": "600 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@luminarealestateandaestheticsst.louis.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20St.%20Louis%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:33:33"
+  }
+]

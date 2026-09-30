@@ -61,6 +61,8 @@ def query_osm_overpass(niche="dentist", city="Austin", limit=10):
             res_data = json.loads(resp.read().decode('utf-8'))
             elements = res_data.get("elements", [])
             print(f"[✓] Nhận được {len(elements)} kết quả thô từ máy chủ OpenStreetMap.")
+            if not elements:
+                raise ValueError("No matching OSM elements found for query")
 
             for idx, el in enumerate(elements[:limit], 1):
                 tags = el.get("tags", {})

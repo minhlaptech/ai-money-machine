@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "St. Louis Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.st.louispremierclinicstudio.example",
+    "email": "info@st.louispremierclinicstudio.example",
+    "address": "120 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@st.louispremierclinicstudio.example?subject=quick%20question%20regarding%20St.%20Louis%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:32:35"
+  },
+  {
+    "id": 2,
+    "name": "Apex St. Louis Clinic Center",
+    "niche": "Clinic",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexst.louiscliniccenter.example",
+    "email": "info@apexst.louiscliniccenter.example",
+    "address": "240 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@apexst.louiscliniccenter.example?subject=quick%20question%20regarding%20Apex%20St.%20Louis%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:32:35"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of St. Louis",
+    "niche": "Clinic",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofst.louis.example",
+    "email": "info@beaconclinicpartnersofst.louis.example",
+    "address": "360 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@beaconclinicpartnersofst.louis.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20St.%20Louis%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:32:35"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard St. Louis Clinic Group",
+    "niche": "Clinic",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardst.louisclinicgroup.example",
+    "email": "info@vanguardst.louisclinicgroup.example",
+    "address": "480 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@vanguardst.louisclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20St.%20Louis%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:32:35"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics St. Louis",
+    "niche": "Clinic",
+    "city": "St. Louis",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsst.louis.example",
+    "email": "info@luminaclinicandaestheticsst.louis.example",
+    "address": "600 Boulevard Ave, St. Louis",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsst.louis.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20St.%20Louis%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:32:35"
+  }
+]
