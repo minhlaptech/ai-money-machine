@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Memphis Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "Memphis",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.memphispremiercpastudio.example",
+    "email": "info@memphispremiercpastudio.example",
+    "address": "120 Boulevard Ave, Memphis",
+    "mailto_url": "mailto:info@memphispremiercpastudio.example?subject=quick%20question%20regarding%20Memphis%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:58:08"
+  },
+  {
+    "id": 2,
+    "name": "Apex Memphis Cpa Center",
+    "niche": "Cpa",
+    "city": "Memphis",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexmemphiscpacenter.example",
+    "email": "info@apexmemphiscpacenter.example",
+    "address": "240 Boulevard Ave, Memphis",
+    "mailto_url": "mailto:info@apexmemphiscpacenter.example?subject=quick%20question%20regarding%20Apex%20Memphis%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:58:08"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of Memphis",
+    "niche": "Cpa",
+    "city": "Memphis",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersofmemphis.example",
+    "email": "info@beaconcpapartnersofmemphis.example",
+    "address": "360 Boulevard Ave, Memphis",
+    "mailto_url": "mailto:info@beaconcpapartnersofmemphis.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20Memphis%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:58:08"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Memphis Cpa Group",
+    "niche": "Cpa",
+    "city": "Memphis",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardmemphiscpagroup.example",
+    "email": "info@vanguardmemphiscpagroup.example",
+    "address": "480 Boulevard Ave, Memphis",
+    "mailto_url": "mailto:info@vanguardmemphiscpagroup.example?subject=quick%20question%20regarding%20Vanguard%20Memphis%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:58:08"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics Memphis",
+    "niche": "Cpa",
+    "city": "Memphis",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticsmemphis.example",
+    "email": "info@luminacpaandaestheticsmemphis.example",
+    "address": "600 Boulevard Ave, Memphis",
+    "mailto_url": "mailto:info@luminacpaandaestheticsmemphis.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20Memphis%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:58:08"
+  }
+]
