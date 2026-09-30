@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SnapOCR Pro — Windows Screen Text & Table Extractor</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <!-- Load lightweight offline-capable OCR engine -->
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+</head>
+<body>
+  <div class="window-shell">
+    <!-- Fluent Title Bar -->
+    <header class="title-bar">
+      <div class="title-brand">
+        <div class="app-logo">👁️‍🗨️</div>
+        <span class="app-title">SnapOCR <span class="tag-pro">PRO</span></span>
+        <span class="version-label">v1.0.0 (Fluent Win11)</span>
+      </div>
+      <div class="title-actions">
+        <span id="tierBadge" class="tier-badge tier-free">FREE TIER (20 Quotas/Day)</span>
+        <button id="btnUpgradeNav" class="btn-upgrade-sm">⚡ Get Lifetime Pro ($14.99)</button>
+      </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <div class="app-body">
+      <!-- Left Panel: Input & Image Drop Zone -->
+      <aside class="input-panel">
+        <div class="panel-header">
+          <h2>1. Capture or Drop Image</h2>
+          <span class="tip-shortcut">💡 Shortcut: Press <strong>Ctrl + V</strong> anywhere</span>
+        </div>
+
+        <div class="drop-zone" id="dropZone">
+          <div class="drop-prompt" id="dropPrompt">
+            <div class="icon-camera">📷</div>
+            <h3>Drop screenshot here or paste clipboard</h3>
+            <p>Supports PNG, JPG, WEBP, BMP, or Snipping Tool pastes</p>
+            <div class="drop-actions">
+              <label for="fileInput" class="btn btn-secondary">
+                📂 Browse Image File
+              </label>
+              <input type="file" id="fileInput" accept="image/*" style="display: none;">
+              <button id="btnPasteClipboard" class="btn btn-primary">
+                📋 Paste (Ctrl+V)
+              </button>
+            </div>
+          </div>
+          <!-- Preview Canvas / Image -->
+          <div class="image-preview-wrap" id="previewWrap" style="display: none;">
+            <img id="imagePreview" alt="Screenshot preview">
+            <button id="btnRemoveImage" class="btn-clear-img" title="Remove image">&times;</button>
+          </div>
+        </div>
+
+        <!-- OCR Settings -->
+        <div class="settings-card">
+          <div class="setting-row">
+            <label for="langSelect">Recognition Language:</label>
+            <select id="langSelect" class="form-select">
+              <option value="eng">English (Auto Latin)</option>
+              <option value="vie">Vietnamese (Tiếng Việt)</option>
+              <option value="chi_sim">Chinese Simplified (中文)</option>
+              <option value="jpn">Japanese (日本語)</option>
+              <option value="kor">Korean (한국어)</option>
+              <option value="fra">French (Français)</option>
+              <option value="deu">German (Deutsch)</option>
+            </select>
+          </div>
+
+          <div class="setting-row">
+            <label for="modeSelect">Target Structure:</label>
+            <select id="modeSelect" class="form-select">
+              <option value="auto">Auto Clean Paragraphs</option>
+              <option value="table">Table / Tabular Grid (Excel)</option>
+              <option value="code">Source Code / Math Formulas</option>
+              <option value="single_line">Single Line / Passwords</option>
+            </select>
+          </div>
+
+          <button id="btnRunOcr" class="btn btn-accent btn-block" disabled>
+            <span>⚡ Run OCR Extraction</span>
+          </button>
+          <div class="ocr-progress-container" id="progressWrap" style="display: none;">
+            <div class="progress-bar-fill" id="progressBar"></div>
+            <span class="progress-text" id="progressText">Initializing AI model...</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Right Panel: Results & Quick Actions -->
+      <main class="output-panel">
+        <div class="panel-header">
+          <div class="tabs-header">
+            <button class="nav-tab active" data-tab="text">📝 Extracted Text</button>
+            <button class="nav-tab" data-tab="table">📊 Table Preview</button>
+            <button class="nav-tab" data-tab="translate">🌐 Instant Translate</button>
+          </div>
+          <div class="quick-toolbar">
+            <button id="btnCopyText" class="btn-tool" title="Copy to clipboard">
+              <span>📋</span> Copy
+            </button>
+            <button id="btnExportCsv" class="btn-tool" title="Export as CSV">
+              <span>📥</span> CSV
+            </button>
+            <button id="btnExportMarkdown" class="btn-tool" title="Copy as Markdown">
+              <span>📑</span> Markdown
+            </button>
+            <button id="btnClearAll" class="btn-tool btn-tool-danger" title="Clear all">
+              <span>🗑️</span> Clear
+            </button>
+          </div>
+        </div>
+
+        <!-- Tab 1: Extracted Text Area -->
+        <div class="tab-pane active" id="paneText">
+          <textarea id="outputTextArea" placeholder="Extracted text will appear here automatically. You can edit, format, or copy it directly..." spellcheck="false"></textarea>
+          <div class="text-meta">
+            <span id="charCount">0 characters</span> •
+            <span id="wordCount">0 words</span> •
+            <span id="confidenceScore">Confidence: 0%</span>
+          </div>
+        </div>
+
+        <!-- Tab 2: Table Preview Grid -->
+        <div class="tab-pane" id="paneTable" style="display: none;">
+          <div class="table-preview-container" id="tablePreviewContainer">
+            <p class="empty-table-msg">Run OCR with "Table" structure to view tabular rows and columns here.</p>
+          </div>
+        </div>
+
+        <!-- Tab 3: Instant Translate -->
+        <div class="tab-pane" id="paneTranslate" style="display: none;">
+          <div class="translate-controls">
+            <select id="targetLang" class="form-select">
+              <option value="vi">Translate to Tiếng Việt (Vietnamese)</option>
+              <option value="en">Translate to English</option>
+              <option value="zh">Translate to Chinese</option>
+              <option value="ja">Translate to Japanese</option>
+              <option value="ko">Translate to Korean</option>
+              <option value="es">Translate to Spanish</option>
+            </select>
+            <button id="btnTranslateNow" class="btn btn-secondary">Translate Now</button>
+          </div>
+          <textarea id="translatedTextArea" placeholder="Translated text will appear here..." readonly></textarea>
+        </div>
+      </main>
+    </div>
+
+    <!-- Footer Bar -->
+    <footer class="app-status-bar">
+      <div class="status-left">
+        <span class="status-indicator"></span>
+        <span id="statusMessage">Engine ready. Waiting for input image or clipboard paste.</span>
+      </div>
+      <div class="status-right">
+        <a href="#" id="linkEnterKey">Enter Pro License</a> •
+        <a href="https://work-minh-lap.vercel.app" target="_blank">AI Empire Ecosystem</a>
+      </div>
+    </footer>
+
+    <!-- License Modal -->
+    <div class="modal-backdrop" id="licenseModal" style="display: none;">
+      <div class="modal-dialog">
+        <div class="modal-head">
+          <h3>Activate SnapOCR Pro Lifetime License</h3>
+          <button class="btn-close" id="btnCloseModal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>Unlock unlimited OCR scans, offline dictionary, table-to-Excel engine, and priority support.</p>
+          <input type="text" id="licenseInput" placeholder="SNAP-PRO-XXXX-XXXX" class="form-input">
+          <div id="licenseFeedback" class="feedback-msg"></div>
+          <button id="btnActivateKey" class="btn btn-accent btn-block">Activate License Key</button>
+          <div class="divider-text">OR</div>
+          <a href="https://minhlap.lemonsqueezy.com" target="_blank" class="btn btn-outline btn-block">
+            Purchase Lifetime Key on Lemon Squeezy ($14.99 USD)
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
