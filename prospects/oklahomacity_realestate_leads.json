@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Oklahoma City Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "Oklahoma City",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.oklahomacitypremierrealestatestudio.example",
+    "email": "info@oklahomacitypremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, Oklahoma City",
+    "mailto_url": "mailto:info@oklahomacitypremierrealestatestudio.example?subject=quick%20question%20regarding%20Oklahoma%20City%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:50:22"
+  },
+  {
+    "id": 2,
+    "name": "Apex Oklahoma City Realestate Center",
+    "niche": "Realestate",
+    "city": "Oklahoma City",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexoklahomacityrealestatecenter.example",
+    "email": "info@apexoklahomacityrealestatecenter.example",
+    "address": "240 Boulevard Ave, Oklahoma City",
+    "mailto_url": "mailto:info@apexoklahomacityrealestatecenter.example?subject=quick%20question%20regarding%20Apex%20Oklahoma%20City%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:50:22"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of Oklahoma City",
+    "niche": "Realestate",
+    "city": "Oklahoma City",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersofoklahomacity.example",
+    "email": "info@beaconrealestatepartnersofoklahomacity.example",
+    "address": "360 Boulevard Ave, Oklahoma City",
+    "mailto_url": "mailto:info@beaconrealestatepartnersofoklahomacity.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20Oklahoma%20City%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:50:22"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Oklahoma City Realestate Group",
+    "niche": "Realestate",
+    "city": "Oklahoma City",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardoklahomacityrealestategroup.example",
+    "email": "info@vanguardoklahomacityrealestategroup.example",
+    "address": "480 Boulevard Ave, Oklahoma City",
+    "mailto_url": "mailto:info@vanguardoklahomacityrealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20Oklahoma%20City%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:50:22"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics Oklahoma City",
+    "niche": "Realestate",
+    "city": "Oklahoma City",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticsoklahomacity.example",
+    "email": "info@luminarealestateandaestheticsoklahomacity.example",
+    "address": "600 Boulevard Ave, Oklahoma City",
+    "mailto_url": "mailto:info@luminarealestateandaestheticsoklahomacity.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20Oklahoma%20City%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:50:22"
+  }
+]
