@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Des Moines Premier Doctor Studio",
+    "niche": "Doctor",
+    "city": "Des Moines",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.desmoinespremierdoctorstudio.example",
+    "email": "info@desmoinespremierdoctorstudio.example",
+    "address": "120 Boulevard Ave, Des Moines",
+    "mailto_url": "mailto:info@desmoinespremierdoctorstudio.example?subject=quick%20question%20regarding%20Des%20Moines%20Premier%20Doctor%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:09"
+  },
+  {
+    "id": 2,
+    "name": "Apex Des Moines Doctor Center",
+    "niche": "Doctor",
+    "city": "Des Moines",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexdesmoinesdoctorcenter.example",
+    "email": "info@apexdesmoinesdoctorcenter.example",
+    "address": "240 Boulevard Ave, Des Moines",
+    "mailto_url": "mailto:info@apexdesmoinesdoctorcenter.example?subject=quick%20question%20regarding%20Apex%20Des%20Moines%20Doctor%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:09"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Doctor Partners of Des Moines",
+    "niche": "Doctor",
+    "city": "Des Moines",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondoctorpartnersofdesmoines.example",
+    "email": "info@beacondoctorpartnersofdesmoines.example",
+    "address": "360 Boulevard Ave, Des Moines",
+    "mailto_url": "mailto:info@beacondoctorpartnersofdesmoines.example?subject=quick%20question%20regarding%20Beacon%20Doctor%20Partners%20of%20Des%20Moines%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:09"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Des Moines Doctor Group",
+    "niche": "Doctor",
+    "city": "Des Moines",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguarddesmoinesdoctorgroup.example",
+    "email": "info@vanguarddesmoinesdoctorgroup.example",
+    "address": "480 Boulevard Ave, Des Moines",
+    "mailto_url": "mailto:info@vanguarddesmoinesdoctorgroup.example?subject=quick%20question%20regarding%20Vanguard%20Des%20Moines%20Doctor%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:09"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Doctor & Aesthetics Des Moines",
+    "niche": "Doctor",
+    "city": "Des Moines",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadoctorandaestheticsdesmoines.example",
+    "email": "info@luminadoctorandaestheticsdesmoines.example",
+    "address": "600 Boulevard Ave, Des Moines",
+    "mailto_url": "mailto:info@luminadoctorandaestheticsdesmoines.example?subject=quick%20question%20regarding%20Lumina%20Doctor%20%26%20Aesthetics%20Des%20Moines%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:09"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Doctor Clinic of Des Moines",
+    "niche": "Doctor",
+    "city": "Des Moines",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedoctorclinicofdesmoines.example",
+    "email": "info@proactivedoctorclinicofdesmoines.example",
+    "address": "720 Boulevard Ave, Des Moines",
+    "mailto_url": "mailto:info@proactivedoctorclinicofdesmoines.example?subject=quick%20question%20regarding%20ProActive%20Doctor%20Clinic%20of%20Des%20Moines%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:09"
+  },
+  {
+    "id": 7,
+    "name": "Elite Doctor Specialists Des Moines",
+    "niche": "Doctor",
+    "city": "Des Moines",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedoctorspecialistsdesmoines.example",
+    "email": "info@elitedoctorspecialistsdesmoines.example",
+    "address": "840 Boulevard Ave, Des Moines",
+    "mailto_url": "mailto:info@elitedoctorspecialistsdesmoines.example?subject=quick%20question%20regarding%20Elite%20Doctor%20Specialists%20Des%20Moines%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:09"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Doctor Des Moines",
+    "niche": "Doctor",
+    "city": "Des Moines",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdoctordesmoines.example",
+    "email": "info@summitcrestdoctordesmoines.example",
+    "address": "960 Boulevard Ave, Des Moines",
+    "mailto_url": "mailto:info@summitcrestdoctordesmoines.example?subject=quick%20question%20regarding%20Summit%20Crest%20Doctor%20Des%20Moines%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:09"
+  },
+  {
+    "id": 9,
+    "name": "Metro Doctor Care Center Des Moines",
+    "niche": "Doctor",
+    "city": "Des Moines",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodoctorcarecenterdesmoines.example",
+    "email": "info@metrodoctorcarecenterdesmoines.example",
+    "address": "1080 Boulevard Ave, Des Moines",
+    "mailto_url": "mailto:info@metrodoctorcarecenterdesmoines.example?subject=quick%20question%20regarding%20Metro%20Doctor%20Care%20Center%20Des%20Moines%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:09"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Doctor Practice Des Moines",
+    "niche": "Doctor",
+    "city": "Des Moines",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdoctorpracticedesmoines.example",
+    "email": "info@pacificcoastdoctorpracticedesmoines.example",
+    "address": "1200 Boulevard Ave, Des Moines",
+    "mailto_url": "mailto:info@pacificcoastdoctorpracticedesmoines.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Doctor%20Practice%20Des%20Moines%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:09"
+  }
+]

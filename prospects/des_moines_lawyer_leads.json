@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Taylor Law Offices",
+    "niche": "Lawyer",
+    "city": "Des Moines",
+    "phone": "+1-515-953-0226",
+    "website": "https://www.ktaylorlawoffices.com/",
+    "email": "contact@ktaylorlawoffices.com",
+    "address": "Des Moines",
+    "mailto_url": "mailto:contact@ktaylorlawoffices.com?subject=quick%20question%20regarding%20Taylor%20Law%20Offices%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.ktaylorlawoffices.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Taylor%20Law%20Offices%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:51"
+  },
+  {
+    "id": 2,
+    "name": "Long & Gilliam",
+    "niche": "Lawyer",
+    "city": "Des Moines",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@longgilliam.example",
+    "address": "5907 Grand Avenue, Des Moines 50312",
+    "mailto_url": "mailto:contact@longgilliam.example?subject=quick%20question%20regarding%20Long%20%26%20Gilliam%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Long%20%26%20Gilliam%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:51"
+  },
+  {
+    "id": 3,
+    "name": "Ibson Law",
+    "niche": "Lawyer",
+    "city": "Des Moines",
+    "phone": "N/A",
+    "website": "www.ibsonlaw.com",
+    "email": "contact@ibsonlaw.com",
+    "address": "2629 Beaver Avenue, Des Moines 50310",
+    "mailto_url": "mailto:contact@ibsonlaw.com?subject=quick%20question%20regarding%20Ibson%20Law%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28www.ibsonlaw.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Ibson%20Law%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:51"
+  },
+  {
+    "id": 4,
+    "name": "Des Moines Lawyer #4",
+    "niche": "Lawyer",
+    "city": "Des Moines",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@desmoineslawyer#4.example",
+    "address": "Des Moines",
+    "mailto_url": "mailto:contact@desmoineslawyer#4.example?subject=quick%20question%20regarding%20Des%20Moines%20Lawyer%20%234%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Des%20Moines%20Lawyer%20%234%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:51"
+  },
+  {
+    "id": 5,
+    "name": "Regeibald, McDonald & Young",
+    "niche": "Lawyer",
+    "city": "Des Moines",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@regeibaldmcdonaldyoung.example",
+    "address": "Des Moines",
+    "mailto_url": "mailto:contact@regeibaldmcdonaldyoung.example?subject=quick%20question%20regarding%20Regeibald%2C%20McDonald%20%26%20Young%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Regeibald%2C%20McDonald%20%26%20Young%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:51"
+  },
+  {
+    "id": 6,
+    "name": "Law Office of Bishop Naff",
+    "niche": "Lawyer",
+    "city": "Des Moines",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lawofficeofbishopnaff.example",
+    "address": "Des Moines",
+    "mailto_url": "mailto:contact@lawofficeofbishopnaff.example?subject=quick%20question%20regarding%20Law%20Office%20of%20Bishop%20Naff%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Law%20Office%20of%20Bishop%20Naff%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:51"
+  },
+  {
+    "id": 7,
+    "name": "Law Offices of Gehrke, Baker, Doll & Kelly",
+    "niche": "Lawyer",
+    "city": "Des Moines",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lawofficesofgehrkebakerdollkelly.example",
+    "address": "Des Moines",
+    "mailto_url": "mailto:contact@lawofficesofgehrkebakerdollkelly.example?subject=quick%20question%20regarding%20Law%20Offices%20of%20Gehrke%2C%20Baker%2C%20Doll%20%26%20Kelly%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Law%20Offices%20of%20Gehrke%2C%20Baker%2C%20Doll%20%26%20Kelly%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:51"
+  },
+  {
+    "id": 8,
+    "name": "L.A. Law & Associates",
+    "niche": "Lawyer",
+    "city": "Des Moines",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lalawassociates.example",
+    "address": "Des Moines",
+    "mailto_url": "mailto:contact@lalawassociates.example?subject=quick%20question%20regarding%20L.A.%20Law%20%26%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20L.A.%20Law%20%26%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:51"
+  },
+  {
+    "id": 9,
+    "name": "Fredrikson & Byron",
+    "niche": "Lawyer",
+    "city": "Des Moines",
+    "phone": "+1-515-242-8900",
+    "website": "https://www.fredlaw.com/contact-des-moines",
+    "email": "contact@fredlaw.com",
+    "address": "111 East Grand Avenue, Des Moines 50309",
+    "mailto_url": "mailto:contact@fredlaw.com?subject=quick%20question%20regarding%20Fredrikson%20%26%20Byron%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.fredlaw.com/contact-des-moines%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Fredrikson%20%26%20Byron%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:51"
+  },
+  {
+    "id": 10,
+    "name": "Van Cleaf & McCormack Law Firm",
+    "niche": "Lawyer",
+    "city": "Des Moines",
+    "phone": "+1-515-288-8030",
+    "website": "https://www.vancleafandmccormack.com/?utm_source=google-local&utm_medium=organic&utm_campaign=1123",
+    "email": "contact@vancleafandmccormack.com",
+    "address": "118 Southeast 4th Street, Des Moines 50309",
+    "mailto_url": "mailto:contact@vancleafandmccormack.com?subject=quick%20question%20regarding%20Van%20Cleaf%20%26%20McCormack%20Law%20Firm%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.vancleafandmccormack.com/%3Futm_source%3Dgoogle-local%26utm_medium%3Dorganic%26utm_campaign%3D1123%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Van%20Cleaf%20%26%20McCormack%20Law%20Firm%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:58:51"
+  }
+]
