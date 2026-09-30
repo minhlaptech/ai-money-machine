@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Fresno Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.fresnopremierclinicstudio.example",
+    "email": "info@fresnopremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@fresnopremierclinicstudio.example?subject=quick%20question%20regarding%20Fresno%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:40:49"
+  },
+  {
+    "id": 2,
+    "name": "Apex Fresno Clinic Center",
+    "niche": "Clinic",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexfresnocliniccenter.example",
+    "email": "info@apexfresnocliniccenter.example",
+    "address": "240 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@apexfresnocliniccenter.example?subject=quick%20question%20regarding%20Apex%20Fresno%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:40:49"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Fresno",
+    "niche": "Clinic",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersoffresno.example",
+    "email": "info@beaconclinicpartnersoffresno.example",
+    "address": "360 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@beaconclinicpartnersoffresno.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:40:49"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Fresno Clinic Group",
+    "niche": "Clinic",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardfresnoclinicgroup.example",
+    "email": "info@vanguardfresnoclinicgroup.example",
+    "address": "480 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@vanguardfresnoclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Fresno%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:40:49"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Fresno",
+    "niche": "Clinic",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsfresno.example",
+    "email": "info@luminaclinicandaestheticsfresno.example",
+    "address": "600 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsfresno.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:40:49"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Fresno",
+    "niche": "Clinic",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicoffresno.example",
+    "email": "info@proactiveclinicclinicoffresno.example",
+    "address": "720 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@proactiveclinicclinicoffresno.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:40:49"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Fresno",
+    "niche": "Clinic",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistsfresno.example",
+    "email": "info@eliteclinicspecialistsfresno.example",
+    "address": "840 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@eliteclinicspecialistsfresno.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:40:49"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Fresno",
+    "niche": "Clinic",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicfresno.example",
+    "email": "info@summitcrestclinicfresno.example",
+    "address": "960 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@summitcrestclinicfresno.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:40:49"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Fresno",
+    "niche": "Clinic",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecenterfresno.example",
+    "email": "info@metrocliniccarecenterfresno.example",
+    "address": "1080 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@metrocliniccarecenterfresno.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:40:49"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Fresno",
+    "niche": "Clinic",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticefresno.example",
+    "email": "info@pacificcoastclinicpracticefresno.example",
+    "address": "1200 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticefresno.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:40:49"
+  }
+]

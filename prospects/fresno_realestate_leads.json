@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Fresno Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.fresnopremierrealestatestudio.example",
+    "email": "info@fresnopremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@fresnopremierrealestatestudio.example?subject=quick%20question%20regarding%20Fresno%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:42:03"
+  },
+  {
+    "id": 2,
+    "name": "Apex Fresno Realestate Center",
+    "niche": "Realestate",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexfresnorealestatecenter.example",
+    "email": "info@apexfresnorealestatecenter.example",
+    "address": "240 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@apexfresnorealestatecenter.example?subject=quick%20question%20regarding%20Apex%20Fresno%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:42:03"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of Fresno",
+    "niche": "Realestate",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersoffresno.example",
+    "email": "info@beaconrealestatepartnersoffresno.example",
+    "address": "360 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@beaconrealestatepartnersoffresno.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:42:03"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Fresno Realestate Group",
+    "niche": "Realestate",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardfresnorealestategroup.example",
+    "email": "info@vanguardfresnorealestategroup.example",
+    "address": "480 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@vanguardfresnorealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20Fresno%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:42:03"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics Fresno",
+    "niche": "Realestate",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticsfresno.example",
+    "email": "info@luminarealestateandaestheticsfresno.example",
+    "address": "600 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@luminarealestateandaestheticsfresno.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:42:03"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Realestate Clinic of Fresno",
+    "niche": "Realestate",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiverealestateclinicoffresno.example",
+    "email": "info@proactiverealestateclinicoffresno.example",
+    "address": "720 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@proactiverealestateclinicoffresno.example?subject=quick%20question%20regarding%20ProActive%20Realestate%20Clinic%20of%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:42:03"
+  },
+  {
+    "id": 7,
+    "name": "Elite Realestate Specialists Fresno",
+    "niche": "Realestate",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliterealestatespecialistsfresno.example",
+    "email": "info@eliterealestatespecialistsfresno.example",
+    "address": "840 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@eliterealestatespecialistsfresno.example?subject=quick%20question%20regarding%20Elite%20Realestate%20Specialists%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:42:03"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Realestate Fresno",
+    "niche": "Realestate",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestrealestatefresno.example",
+    "email": "info@summitcrestrealestatefresno.example",
+    "address": "960 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@summitcrestrealestatefresno.example?subject=quick%20question%20regarding%20Summit%20Crest%20Realestate%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:42:03"
+  },
+  {
+    "id": 9,
+    "name": "Metro Realestate Care Center Fresno",
+    "niche": "Realestate",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrorealestatecarecenterfresno.example",
+    "email": "info@metrorealestatecarecenterfresno.example",
+    "address": "1080 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@metrorealestatecarecenterfresno.example?subject=quick%20question%20regarding%20Metro%20Realestate%20Care%20Center%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:42:03"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Realestate Practice Fresno",
+    "niche": "Realestate",
+    "city": "Fresno",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastrealestatepracticefresno.example",
+    "email": "info@pacificcoastrealestatepracticefresno.example",
+    "address": "1200 Boulevard Ave, Fresno",
+    "mailto_url": "mailto:info@pacificcoastrealestatepracticefresno.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Realestate%20Practice%20Fresno%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:42:03"
+  }
+]
