@@ -65,6 +65,7 @@ LIVE_URLS = [
     ("Master Billing & Invoicing Center (/billing)", "https://work-minh-lap.vercel.app/billing"),
     ("Autonomous Sandbox & Simulation Hub (/sandboxes)", "https://work-minh-lap.vercel.app/sandboxes"),
     ("Executive Deliverables & Dossier Hub (/packages)", "https://work-minh-lap.vercel.app/packages"),
+    ("Global NOC & Edge Telemetry Hub (/telemetry)", "https://work-minh-lap.vercel.app/telemetry"),
     ("Serverless Health API (/api/health)", "https://work-minh-lap.vercel.app/api/health"),
 ]
 

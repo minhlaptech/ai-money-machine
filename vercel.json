@@ -55,6 +55,9 @@
     { "source": "/packages", "destination": "/packages/index.html" },
     { "source": "/dossiers", "destination": "/packages/index.html" },
     { "source": "/dossier", "destination": "/packages/index.html" },
-    { "source": "/deliverables", "destination": "/packages/index.html" }
+    { "source": "/deliverables", "destination": "/packages/index.html" },
+    { "source": "/telemetry", "destination": "/telemetry/index.html" },
+    { "source": "/status", "destination": "/telemetry/index.html" },
+    { "source": "/noc", "destination": "/telemetry/index.html" }
   ]
 }
