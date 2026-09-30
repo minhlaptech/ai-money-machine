@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "David W. Becheller, DMD",
+    "niche": "Dentist",
+    "city": "Champaign",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@davidwbechellerdmd.example",
+    "address": "Champaign",
+    "mailto_url": "mailto:contact@davidwbechellerdmd.example?subject=quick%20question%20regarding%20David%20W.%20Becheller%2C%20DMD%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20David%20W.%20Becheller%2C%20DMD%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:28:51"
+  },
+  {
+    "id": 2,
+    "name": "Deborah L. Stewart, DMD",
+    "niche": "Dentist",
+    "city": "Champaign",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@deborahlstewartdmd.example",
+    "address": "Champaign",
+    "mailto_url": "mailto:contact@deborahlstewartdmd.example?subject=quick%20question%20regarding%20Deborah%20L.%20Stewart%2C%20DMD%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Deborah%20L.%20Stewart%2C%20DMD%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:28:51"
+  },
+  {
+    "id": 3,
+    "name": "SmileHealthy",
+    "niche": "Dentist",
+    "city": "Champaign",
+    "phone": "+1-217-600-7000",
+    "website": "https://www.promisehealth.org/smilehealthy",
+    "email": "contact@promisehealth.org",
+    "address": "819 Bloomington Road, Champaign 61820",
+    "mailto_url": "mailto:contact@promisehealth.org?subject=quick%20question%20regarding%20SmileHealthy%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.promisehealth.org/smilehealthy%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20SmileHealthy%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:28:51"
+  },
+  {
+    "id": 4,
+    "name": "Smile Doctors Orthodontics",
+    "niche": "Dentist",
+    "city": "Champaign",
+    "phone": "+1-217-886-8217",
+    "website": "https://smiledoctors.com/locations/champaign-broadmoor/",
+    "email": "contact@smiledoctors.com",
+    "address": "1715 Broadmoor Drive, Champaign 61821-5984",
+    "mailto_url": "mailto:contact@smiledoctors.com?subject=quick%20question%20regarding%20Smile%20Doctors%20Orthodontics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//smiledoctors.com/locations/champaign-broadmoor/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Smile%20Doctors%20Orthodontics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:28:51"
+  },
+  {
+    "id": 5,
+    "name": "Gray Yallaly & Black D.D.S.",
+    "niche": "Dentist",
+    "city": "Champaign",
+    "phone": "+1 217 3569344",
+    "website": "https://www.dentistschampaign.com/",
+    "email": "contact@dentistschampaign.com",
+    "address": "1717 Broadmoor Drive, Champaign",
+    "mailto_url": "mailto:contact@dentistschampaign.com?subject=quick%20question%20regarding%20Gray%20Yallaly%20%26%20Black%20D.D.S.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.dentistschampaign.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Gray%20Yallaly%20%26%20Black%20D.D.S.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:28:51"
+  },
+  {
+    "id": 6,
+    "name": "Bright and Right Dental",
+    "niche": "Dentist",
+    "city": "Champaign",
+    "phone": "+1-217-366-0050",
+    "website": "https://www.brightandrightdental.com/",
+    "email": "contact@brightandrightdental.com",
+    "address": "2502 Galen Drive, Champaign 61821",
+    "mailto_url": "mailto:contact@brightandrightdental.com?subject=quick%20question%20regarding%20Bright%20and%20Right%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.brightandrightdental.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bright%20and%20Right%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:28:51"
+  },
+  {
+    "id": 7,
+    "name": "Affinity Family Dental Champaign",
+    "niche": "Dentist",
+    "city": "Champaign",
+    "phone": "+1-217-298-7999",
+    "website": "https://affinityfamilydentists.com/champaign/",
+    "email": "contact@affinityfamilydentists.com",
+    "address": "2918 Crossing Court, Champaign 61822",
+    "mailto_url": "mailto:contact@affinityfamilydentists.com?subject=quick%20question%20regarding%20Affinity%20Family%20Dental%20Champaign%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//affinityfamilydentists.com/champaign/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Affinity%20Family%20Dental%20Champaign%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:28:51"
+  },
+  {
+    "id": 8,
+    "name": "Aspen Dental",
+    "niche": "Dentist",
+    "city": "Champaign",
+    "phone": "+1-217-204-9025",
+    "website": "https://www.aspendental.com/dentist/il/champaign/1902-n-prospect-ave-ste-1/",
+    "email": "contact@aspendental.com",
+    "address": "1902 North Prospect Avenue, Champaign 61822",
+    "mailto_url": "mailto:contact@aspendental.com?subject=quick%20question%20regarding%20Aspen%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.aspendental.com/dentist/il/champaign/1902-n-prospect-ave-ste-1/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Aspen%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:28:51"
+  },
+  {
+    "id": 9,
+    "name": "Champaign Endodontics",
+    "niche": "Dentist",
+    "city": "Champaign",
+    "phone": "+1-217-352-5809",
+    "website": "https://www.illinoisrootcanal.com/",
+    "email": "contact@illinoisrootcanal.com",
+    "address": "2916 Crossing Court, Champaign 61822",
+    "mailto_url": "mailto:contact@illinoisrootcanal.com?subject=quick%20question%20regarding%20Champaign%20Endodontics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.illinoisrootcanal.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Champaign%20Endodontics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:28:51"
+  },
+  {
+    "id": 10,
+    "name": "Hill Dental",
+    "niche": "Dentist",
+    "city": "Champaign",
+    "phone": "+1-217-356-5620",
+    "website": "N/A",
+    "email": "contact@hilldental.example",
+    "address": "2914 Crossing Court, Champaign 61822",
+    "mailto_url": "mailto:contact@hilldental.example?subject=quick%20question%20regarding%20Hill%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hill%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:28:51"
+  }
+]

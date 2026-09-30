@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Champaign Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Champaign",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.champaignpremierclinicstudio.example",
+    "email": "info@champaignpremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Champaign",
+    "mailto_url": "mailto:info@champaignpremierclinicstudio.example?subject=quick%20question%20regarding%20Champaign%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:10"
+  },
+  {
+    "id": 2,
+    "name": "Apex Champaign Clinic Center",
+    "niche": "Clinic",
+    "city": "Champaign",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexchampaigncliniccenter.example",
+    "email": "info@apexchampaigncliniccenter.example",
+    "address": "240 Boulevard Ave, Champaign",
+    "mailto_url": "mailto:info@apexchampaigncliniccenter.example?subject=quick%20question%20regarding%20Apex%20Champaign%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:10"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Champaign",
+    "niche": "Clinic",
+    "city": "Champaign",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofchampaign.example",
+    "email": "info@beaconclinicpartnersofchampaign.example",
+    "address": "360 Boulevard Ave, Champaign",
+    "mailto_url": "mailto:info@beaconclinicpartnersofchampaign.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Champaign%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:10"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Champaign Clinic Group",
+    "niche": "Clinic",
+    "city": "Champaign",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardchampaignclinicgroup.example",
+    "email": "info@vanguardchampaignclinicgroup.example",
+    "address": "480 Boulevard Ave, Champaign",
+    "mailto_url": "mailto:info@vanguardchampaignclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Champaign%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:10"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Champaign",
+    "niche": "Clinic",
+    "city": "Champaign",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticschampaign.example",
+    "email": "info@luminaclinicandaestheticschampaign.example",
+    "address": "600 Boulevard Ave, Champaign",
+    "mailto_url": "mailto:info@luminaclinicandaestheticschampaign.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Champaign%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:10"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Champaign",
+    "niche": "Clinic",
+    "city": "Champaign",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofchampaign.example",
+    "email": "info@proactiveclinicclinicofchampaign.example",
+    "address": "720 Boulevard Ave, Champaign",
+    "mailto_url": "mailto:info@proactiveclinicclinicofchampaign.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Champaign%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:10"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Champaign",
+    "niche": "Clinic",
+    "city": "Champaign",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistschampaign.example",
+    "email": "info@eliteclinicspecialistschampaign.example",
+    "address": "840 Boulevard Ave, Champaign",
+    "mailto_url": "mailto:info@eliteclinicspecialistschampaign.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Champaign%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:10"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Champaign",
+    "niche": "Clinic",
+    "city": "Champaign",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicchampaign.example",
+    "email": "info@summitcrestclinicchampaign.example",
+    "address": "960 Boulevard Ave, Champaign",
+    "mailto_url": "mailto:info@summitcrestclinicchampaign.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Champaign%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:10"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Champaign",
+    "niche": "Clinic",
+    "city": "Champaign",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecenterchampaign.example",
+    "email": "info@metrocliniccarecenterchampaign.example",
+    "address": "1080 Boulevard Ave, Champaign",
+    "mailto_url": "mailto:info@metrocliniccarecenterchampaign.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Champaign%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:10"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Champaign",
+    "niche": "Clinic",
+    "city": "Champaign",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticechampaign.example",
+    "email": "info@pacificcoastclinicpracticechampaign.example",
+    "address": "1200 Boulevard Ave, Champaign",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticechampaign.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Champaign%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:10"
+  }
+]

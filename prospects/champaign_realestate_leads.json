@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Keller Williams Realty",
+    "niche": "Realestate",
+    "city": "Champaign",
+    "phone": "+1-217-356-6100",
+    "website": "https://kwchampaign.com/",
+    "email": "contact@kwchampaign.com",
+    "address": "2441 Village Green Place, Champaign 61822",
+    "mailto_url": "mailto:contact@kwchampaign.com?subject=quick%20question%20regarding%20Keller%20Williams%20Realty%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//kwchampaign.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Keller%20Williams%20Realty%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:34"
+  },
+  {
+    "id": 2,
+    "name": "Berkshire Hathaway HomeServices",
+    "niche": "Realestate",
+    "city": "Champaign",
+    "phone": "+1-217-351-7653",
+    "website": "https://cirealtors.com/",
+    "email": "contact@cirealtors.com",
+    "address": "2500 Village Green Place, Champaign 61822",
+    "mailto_url": "mailto:contact@cirealtors.com?subject=quick%20question%20regarding%20Berkshire%20Hathaway%20HomeServices%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//cirealtors.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Berkshire%20Hathaway%20HomeServices%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:34"
+  },
+  {
+    "id": 3,
+    "name": "RE/MAX Choice",
+    "niche": "Realestate",
+    "city": "Champaign",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@re/maxchoice.example",
+    "address": "2919 Crossing Court, Champaign 61822",
+    "mailto_url": "mailto:contact@re/maxchoice.example?subject=quick%20question%20regarding%20RE/MAX%20Choice%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20RE/MAX%20Choice%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:34"
+  },
+  {
+    "id": 4,
+    "name": "RE/MAX",
+    "niche": "Realestate",
+    "city": "Champaign",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@re/max.example",
+    "address": "Champaign",
+    "mailto_url": "mailto:contact@re/max.example?subject=quick%20question%20regarding%20RE/MAX%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20RE/MAX%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:34"
+  },
+  {
+    "id": 5,
+    "name": "LIVE Real Estate Group",
+    "niche": "Realestate",
+    "city": "Champaign",
+    "phone": "+1-217-515-5483",
+    "website": "N/A",
+    "email": "contact@liverealestategroup.example",
+    "address": "1005 South Neil Street, Champaign 61820",
+    "mailto_url": "mailto:contact@liverealestategroup.example?subject=quick%20question%20regarding%20LIVE%20Real%20Estate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20LIVE%20Real%20Estate%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:34"
+  },
+  {
+    "id": 6,
+    "name": "Hughes Real Estate",
+    "niche": "Realestate",
+    "city": "Champaign",
+    "phone": "+1-217-359-0203",
+    "website": "http://www.hughesre.com/home.htm",
+    "email": "contact@hughesre.com",
+    "address": "313 North Mattis Avenue, Champaign 61821",
+    "mailto_url": "mailto:contact@hughesre.com?subject=quick%20question%20regarding%20Hughes%20Real%20Estate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.hughesre.com/home.htm%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hughes%20Real%20Estate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:34"
+  },
+  {
+    "id": 7,
+    "name": "Champaign County Realty",
+    "niche": "Realestate",
+    "city": "Champaign",
+    "phone": "+1-217-352-1234",
+    "website": "https://www.champaign-realty.com/",
+    "email": "contact@champaign-realty.com",
+    "address": "1712 South Duncan Road, Champaign 61822",
+    "mailto_url": "mailto:contact@champaign-realty.com?subject=quick%20question%20regarding%20Champaign%20County%20Realty%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.champaign-realty.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Champaign%20County%20Realty%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:34"
+  },
+  {
+    "id": 8,
+    "name": "Coldwell Banker",
+    "niche": "Realestate",
+    "city": "Champaign",
+    "phone": "+1-217-351-1988",
+    "website": "https://cbhonig-bell.com/Champaign/Office/Detail/Champaign/36001310",
+    "email": "contact@cbhonig-bell.com",
+    "address": "1608 Broadmoor Drive, Champaign 61821",
+    "mailto_url": "mailto:contact@cbhonig-bell.com?subject=quick%20question%20regarding%20Coldwell%20Banker%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//cbhonig-bell.com/Champaign/Office/Detail/Champaign/36001310%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Coldwell%20Banker%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:34"
+  },
+  {
+    "id": 9,
+    "name": "Green Street Realty",
+    "niche": "Realestate",
+    "city": "Champaign",
+    "phone": "+1-217-356-8750",
+    "website": "https://www.greenstrealty.com/",
+    "email": "contact@greenstrealty.com",
+    "address": "510 South Neil Street, Champaign 61820",
+    "mailto_url": "mailto:contact@greenstrealty.com?subject=quick%20question%20regarding%20Green%20Street%20Realty%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.greenstrealty.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Green%20Street%20Realty%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:29:34"
+  }
+]
