@@ -26,8 +26,8 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v32.5 ⚡
-      🌟 65-METRO EDITION · 390 B2B DATASETS (789 FILES) 🌟
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v32.6 ⚡
+      🌟 66-METRO EDITION · 396 B2B DATASETS (801 FILES) 🌟
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
@@ -119,7 +119,7 @@ def main_loop():
 
         elif choice == '3':
             niche = input("Nhập ngành nghề (dentist / doctor / clinic / lawyer / cpa / realestate, mặc định dentist): ").strip() or "dentist"
-            city = input("Nhập thành phố (Austin / Miami / Chicago / Dallas / Phoenix / Seattle / Denver / Atlanta / Boston / San Francisco / Los Angeles / New York / Houston / San Diego / Philadelphia / San Jose / San Antonio / Washington / Nashville / Charlotte / Las Vegas / Orlando / Minneapolis / Tampa / Portland / Salt Lake City / Raleigh / Columbus / Indianapolis / Pittsburgh / Kansas City / Cincinnati / Sacramento / St. Louis / Milwaukee / Cleveland / Baltimore / Oklahoma City / Louisville / Memphis / Richmond / New Orleans / Hartford / Buffalo / Providence / Birmingham / Honolulu / Albuquerque / Tucson / Fresno / El Paso / Omaha / Boise / Des Moines / Little Rock / Spokane / Grand Rapids / Colorado Springs / Greensboro / Baton Rouge / Knoxville / Greenville / Columbia / Charleston / Savannah, mặc định Austin): ").strip() or "Austin"
+            city = input("Nhập thành phố (Austin / Miami / Chicago / Dallas / Phoenix / Seattle / Denver / Atlanta / Boston / San Francisco / Los Angeles / New York / Houston / San Diego / Philadelphia / San Jose / San Antonio / Washington / Nashville / Charlotte / Las Vegas / Orlando / Minneapolis / Tampa / Portland / Salt Lake City / Raleigh / Columbus / Indianapolis / Pittsburgh / Kansas City / Cincinnati / Sacramento / St. Louis / Milwaukee / Cleveland / Baltimore / Oklahoma City / Louisville / Memphis / Richmond / New Orleans / Hartford / Buffalo / Providence / Birmingham / Honolulu / Albuquerque / Tucson / Fresno / El Paso / Omaha / Boise / Des Moines / Little Rock / Spokane / Grand Rapids / Colorado Springs / Greensboro / Baton Rouge / Knoxville / Greenville / Columbia / Charleston / Savannah / Chattanooga, mặc định Austin): ").strip() or "Austin"
             limit = input("Số lượng khách cần quét (mặc định 5): ").strip() or "5"
             run_script("scripts/lead_finder.py", ["--niche", niche, "--city", city, "--limit", limit])
 

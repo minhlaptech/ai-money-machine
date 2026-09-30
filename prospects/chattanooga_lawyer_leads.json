@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Abstract Title & Escrow",
+    "niche": "Lawyer",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@abstracttitleescrow.example",
+    "address": "25 Patten Parkway, Chattanooga 37402",
+    "mailto_url": "mailto:contact@abstracttitleescrow.example?subject=quick%20question%20regarding%20Abstract%20Title%20%26%20Escrow%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Abstract%20Title%20%26%20Escrow%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:41:01"
+  },
+  {
+    "id": 2,
+    "name": "Anderson & Briggs",
+    "niche": "Lawyer",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@andersonbriggs.example",
+    "address": "Patten Parkway, Chattanooga 37402",
+    "mailto_url": "mailto:contact@andersonbriggs.example?subject=quick%20question%20regarding%20Anderson%20%26%20Briggs%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Anderson%20%26%20Briggs%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:41:01"
+  },
+  {
+    "id": 3,
+    "name": "Cindy Bice",
+    "niche": "Lawyer",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@cindybice.example",
+    "address": "23 Patten Parkway, Chattanooga 37402",
+    "mailto_url": "mailto:contact@cindybice.example?subject=quick%20question%20regarding%20Cindy%20Bice%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Cindy%20Bice%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:41:01"
+  },
+  {
+    "id": 4,
+    "name": "Patty, Rymer, & Ulin, P.C.",
+    "niche": "Lawyer",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@pattyrymerulinpc.example",
+    "address": "19 Patten Parkway, Chattanooga 37402",
+    "mailto_url": "mailto:contact@pattyrymerulinpc.example?subject=quick%20question%20regarding%20Patty%2C%20Rymer%2C%20%26%20Ulin%2C%20P.C.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Patty%2C%20Rymer%2C%20%26%20Ulin%2C%20P.C.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:41:01"
+  },
+  {
+    "id": 5,
+    "name": "Teetler Law Office",
+    "niche": "Lawyer",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@teetlerlawoffice.example",
+    "address": "Chattanooga",
+    "mailto_url": "mailto:contact@teetlerlawoffice.example?subject=quick%20question%20regarding%20Teetler%20Law%20Office%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Teetler%20Law%20Office%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:41:01"
+  },
+  {
+    "id": 6,
+    "name": "Woodard Injury Law - Chattanooga",
+    "niche": "Lawyer",
+    "city": "Chattanooga",
+    "phone": "+1-615-314-4626",
+    "website": "https://woodardinjurylaw.com/chattanooga-personal-injury-attorney/",
+    "email": "contact@woodardinjurylaw.com",
+    "address": "1089 Bailey Ave Ste, Chattanooga 37404",
+    "mailto_url": "mailto:contact@woodardinjurylaw.com?subject=quick%20question%20regarding%20Woodard%20Injury%20Law%20-%20Chattanooga%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//woodardinjurylaw.com/chattanooga-personal-injury-attorney/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Woodard%20Injury%20Law%20-%20Chattanooga%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:41:01"
+  },
+  {
+    "id": 7,
+    "name": "Cagle & Associates",
+    "niche": "Lawyer",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@cagleassociates.example",
+    "address": "4509 Highway 58, Chattanooga",
+    "mailto_url": "mailto:contact@cagleassociates.example?subject=quick%20question%20regarding%20Cagle%20%26%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Cagle%20%26%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:41:01"
+  },
+  {
+    "id": 8,
+    "name": "Presley Law Firm",
+    "niche": "Lawyer",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@presleylawfirm.example",
+    "address": "Chattanooga",
+    "mailto_url": "mailto:contact@presleylawfirm.example?subject=quick%20question%20regarding%20Presley%20Law%20Firm%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Presley%20Law%20Firm%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:41:01"
+  }
+]

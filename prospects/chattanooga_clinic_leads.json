@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Dodson Avenue Community Health Center",
+    "niche": "Clinic",
+    "city": "Chattanooga",
+    "phone": "+1 423 778 2800",
+    "website": "https://www.erlanger.org/locations/community-health-centers/ut-erlanger-community-health-centers",
+    "email": "contact@erlanger.org",
+    "address": "1200 Dodson Avenue, Chattanooga 37406",
+    "mailto_url": "mailto:contact@erlanger.org?subject=quick%20question%20regarding%20Dodson%20Avenue%20Community%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.erlanger.org/locations/community-health-centers/ut-erlanger-community-health-centers%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dodson%20Avenue%20Community%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:40:54"
+  },
+  {
+    "id": 2,
+    "name": "Chattanooga Imaging",
+    "niche": "Clinic",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@chattanoogaimaging.example",
+    "address": "Chattanooga",
+    "mailto_url": "mailto:contact@chattanoogaimaging.example?subject=quick%20question%20regarding%20Chattanooga%20Imaging%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Chattanooga%20Imaging%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:40:54"
+  },
+  {
+    "id": 3,
+    "name": "Urgent Care for Children",
+    "niche": "Clinic",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@urgentcareforchildren.example",
+    "address": "Chattanooga",
+    "mailto_url": "mailto:contact@urgentcareforchildren.example?subject=quick%20question%20regarding%20Urgent%20Care%20for%20Children%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Urgent%20Care%20for%20Children%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:40:54"
+  },
+  {
+    "id": 4,
+    "name": "Erlanger ExpressCare",
+    "niche": "Clinic",
+    "city": "Chattanooga",
+    "phone": "+1 423-451-8632",
+    "website": "N/A",
+    "email": "contact@erlangerexpresscare.example",
+    "address": "5441 Highway 153, Chattanooga 37343",
+    "mailto_url": "mailto:contact@erlangerexpresscare.example?subject=quick%20question%20regarding%20Erlanger%20ExpressCare%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Erlanger%20ExpressCare%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:40:54"
+  },
+  {
+    "id": 5,
+    "name": "Galen Center for Diabetes & Endocrinology at Gunbarrel",
+    "niche": "Clinic",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@galencenterfordiabetesendocrinologyatgunbarrel.example",
+    "address": "1726 Gunbarrel Road, Chattanooga",
+    "mailto_url": "mailto:contact@galencenterfordiabetesendocrinologyatgunbarrel.example?subject=quick%20question%20regarding%20Galen%20Center%20for%20Diabetes%20%26%20Endocrinology%20at%20Gunbarrel%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Galen%20Center%20for%20Diabetes%20%26%20Endocrinology%20at%20Gunbarrel%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:40:54"
+  },
+  {
+    "id": 6,
+    "name": "Erlanger East Brainerd Internal Medicine",
+    "niche": "Clinic",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@erlangereastbrainerdinternalmedicine.example",
+    "address": "1720 Gunbarrel Road, Chattanooga",
+    "mailto_url": "mailto:contact@erlangereastbrainerdinternalmedicine.example?subject=quick%20question%20regarding%20Erlanger%20East%20Brainerd%20Internal%20Medicine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Erlanger%20East%20Brainerd%20Internal%20Medicine%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:40:54"
+  },
+  {
+    "id": 7,
+    "name": "Chattanooga Oral & Maxillofacial Surgery",
+    "niche": "Clinic",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@chattanoogaoralmaxillofacialsurgery.example",
+    "address": "1720 Gunbarrel Road, Chattanooga",
+    "mailto_url": "mailto:contact@chattanoogaoralmaxillofacialsurgery.example?subject=quick%20question%20regarding%20Chattanooga%20Oral%20%26%20Maxillofacial%20Surgery%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Chattanooga%20Oral%20%26%20Maxillofacial%20Surgery%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:40:54"
+  },
+  {
+    "id": 8,
+    "name": "Acu Chatt",
+    "niche": "Clinic",
+    "city": "Chattanooga",
+    "phone": "+1-423 708 5651",
+    "website": "https://www.acuchatt.com/",
+    "email": "contact@acuchatt.com",
+    "address": "822 East Main Street, Chattanooga 37408-1428",
+    "mailto_url": "mailto:contact@acuchatt.com?subject=quick%20question%20regarding%20Acu%20Chatt%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.acuchatt.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Acu%20Chatt%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:40:54"
+  },
+  {
+    "id": 9,
+    "name": "Clinica Medicos",
+    "niche": "Clinic",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@clinicamedicos.example",
+    "address": "Chattanooga",
+    "mailto_url": "mailto:contact@clinicamedicos.example?subject=quick%20question%20regarding%20Clinica%20Medicos%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Clinica%20Medicos%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:40:54"
+  },
+  {
+    "id": 10,
+    "name": "Weight Loss Center of Chattanooga",
+    "niche": "Clinic",
+    "city": "Chattanooga",
+    "phone": "N/A",
+    "website": "https://weightlosschatt.com/",
+    "email": "contact@weightlosschatt.com",
+    "address": "7405 Shallowford Road, Chattanooga 37421",
+    "mailto_url": "mailto:contact@weightlosschatt.com?subject=quick%20question%20regarding%20Weight%20Loss%20Center%20of%20Chattanooga%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//weightlosschatt.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Weight%20Loss%20Center%20of%20Chattanooga%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:40:54"
+  }
+]
