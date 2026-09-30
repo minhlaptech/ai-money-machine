@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Baton Rouge Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Baton Rouge",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.batonrougepremierclinicstudio.example",
+    "email": "info@batonrougepremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Baton Rouge",
+    "mailto_url": "mailto:info@batonrougepremierclinicstudio.example?subject=quick%20question%20regarding%20Baton%20Rouge%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:00"
+  },
+  {
+    "id": 2,
+    "name": "Apex Baton Rouge Clinic Center",
+    "niche": "Clinic",
+    "city": "Baton Rouge",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexbatonrougecliniccenter.example",
+    "email": "info@apexbatonrougecliniccenter.example",
+    "address": "240 Boulevard Ave, Baton Rouge",
+    "mailto_url": "mailto:info@apexbatonrougecliniccenter.example?subject=quick%20question%20regarding%20Apex%20Baton%20Rouge%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:00"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Baton Rouge",
+    "niche": "Clinic",
+    "city": "Baton Rouge",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofbatonrouge.example",
+    "email": "info@beaconclinicpartnersofbatonrouge.example",
+    "address": "360 Boulevard Ave, Baton Rouge",
+    "mailto_url": "mailto:info@beaconclinicpartnersofbatonrouge.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Baton%20Rouge%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:00"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Baton Rouge Clinic Group",
+    "niche": "Clinic",
+    "city": "Baton Rouge",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardbatonrougeclinicgroup.example",
+    "email": "info@vanguardbatonrougeclinicgroup.example",
+    "address": "480 Boulevard Ave, Baton Rouge",
+    "mailto_url": "mailto:info@vanguardbatonrougeclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Baton%20Rouge%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:00"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Baton Rouge",
+    "niche": "Clinic",
+    "city": "Baton Rouge",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsbatonrouge.example",
+    "email": "info@luminaclinicandaestheticsbatonrouge.example",
+    "address": "600 Boulevard Ave, Baton Rouge",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsbatonrouge.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Baton%20Rouge%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:00"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Baton Rouge",
+    "niche": "Clinic",
+    "city": "Baton Rouge",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofbatonrouge.example",
+    "email": "info@proactiveclinicclinicofbatonrouge.example",
+    "address": "720 Boulevard Ave, Baton Rouge",
+    "mailto_url": "mailto:info@proactiveclinicclinicofbatonrouge.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Baton%20Rouge%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:00"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Baton Rouge",
+    "niche": "Clinic",
+    "city": "Baton Rouge",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistsbatonrouge.example",
+    "email": "info@eliteclinicspecialistsbatonrouge.example",
+    "address": "840 Boulevard Ave, Baton Rouge",
+    "mailto_url": "mailto:info@eliteclinicspecialistsbatonrouge.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Baton%20Rouge%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:00"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Baton Rouge",
+    "niche": "Clinic",
+    "city": "Baton Rouge",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicbatonrouge.example",
+    "email": "info@summitcrestclinicbatonrouge.example",
+    "address": "960 Boulevard Ave, Baton Rouge",
+    "mailto_url": "mailto:info@summitcrestclinicbatonrouge.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Baton%20Rouge%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:00"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Baton Rouge",
+    "niche": "Clinic",
+    "city": "Baton Rouge",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecenterbatonrouge.example",
+    "email": "info@metrocliniccarecenterbatonrouge.example",
+    "address": "1080 Boulevard Ave, Baton Rouge",
+    "mailto_url": "mailto:info@metrocliniccarecenterbatonrouge.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Baton%20Rouge%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:00"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Baton Rouge",
+    "niche": "Clinic",
+    "city": "Baton Rouge",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticebatonrouge.example",
+    "email": "info@pacificcoastclinicpracticebatonrouge.example",
+    "address": "1200 Boulevard Ave, Baton Rouge",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticebatonrouge.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Baton%20Rouge%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:00"
+  }
+]

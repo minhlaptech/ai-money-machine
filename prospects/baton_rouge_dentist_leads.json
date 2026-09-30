@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Sherwood Dental Care",
+    "niche": "Dentist",
+    "city": "Baton Rouge",
+    "phone": "+1 225-292-4321",
+    "website": "https://www.collinsdental.com/",
+    "email": "contact@collinsdental.com",
+    "address": "11700 Haymarket Avenue, Baton Rouge 70816",
+    "mailto_url": "mailto:contact@collinsdental.com?subject=quick%20question%20regarding%20Sherwood%20Dental%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.collinsdental.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sherwood%20Dental%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:20:14"
+  },
+  {
+    "id": 2,
+    "name": "LSU School of Dentistry",
+    "niche": "Dentist",
+    "city": "Baton Rouge",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lsuschoolofdentistry.example",
+    "address": "5425 Brittany Drive, Baton Rouge",
+    "mailto_url": "mailto:contact@lsuschoolofdentistry.example?subject=quick%20question%20regarding%20LSU%20School%20of%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20LSU%20School%20of%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:20:14"
+  },
+  {
+    "id": 3,
+    "name": "Mark A. Tallis, D.D.S.",
+    "niche": "Dentist",
+    "city": "Baton Rouge",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@markatallisdds.example",
+    "address": "5225 O'Donovan Drive, Baton Rouge",
+    "mailto_url": "mailto:contact@markatallisdds.example?subject=quick%20question%20regarding%20Mark%20A.%20Tallis%2C%20D.D.S.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Mark%20A.%20Tallis%2C%20D.D.S.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:20:14"
+  },
+  {
+    "id": 4,
+    "name": "Acadian Modern Dentistry",
+    "niche": "Dentist",
+    "city": "Baton Rouge",
+    "phone": "+1 225-747-0181",
+    "website": "https://www.acadianmoderndentistry.com/",
+    "email": "contact@acadianmoderndentistry.com",
+    "address": "3535 Perkins Road, Baton Rouge",
+    "mailto_url": "mailto:contact@acadianmoderndentistry.com?subject=quick%20question%20regarding%20Acadian%20Modern%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.acadianmoderndentistry.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Acadian%20Modern%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:20:14"
+  },
+  {
+    "id": 5,
+    "name": "Hightower Dental Concepts",
+    "niche": "Dentist",
+    "city": "Baton Rouge",
+    "phone": "+1 225-769-0031",
+    "website": "https://dentalconceptsbr.com/",
+    "email": "contact@dentalconceptsbr.com",
+    "address": "Baton Rouge",
+    "mailto_url": "mailto:contact@dentalconceptsbr.com?subject=quick%20question%20regarding%20Hightower%20Dental%20Concepts%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//dentalconceptsbr.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hightower%20Dental%20Concepts%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:20:14"
+  },
+  {
+    "id": 6,
+    "name": "Premier Dental Care",
+    "niche": "Dentist",
+    "city": "Baton Rouge",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@premierdentalcare.example",
+    "address": "5188 Highland Road, Baton Rouge",
+    "mailto_url": "mailto:contact@premierdentalcare.example?subject=quick%20question%20regarding%20Premier%20Dental%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Premier%20Dental%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:20:14"
+  },
+  {
+    "id": 7,
+    "name": "W Dentistry",
+    "niche": "Dentist",
+    "city": "Baton Rouge",
+    "phone": "+1-225-927-3442",
+    "website": "https://wndental.com",
+    "email": "contact@wndental.com",
+    "address": "7931 Jefferson Highway, Baton Rouge 70809",
+    "mailto_url": "mailto:contact@wndental.com?subject=quick%20question%20regarding%20W%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//wndental.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20W%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:20:14"
+  },
+  {
+    "id": 8,
+    "name": "Bayou Braces",
+    "niche": "Dentist",
+    "city": "Baton Rouge",
+    "phone": "+1 225-926-4133",
+    "website": "https://www.bayousmiles.com/",
+    "email": "contact@bayousmiles.com",
+    "address": "2726 Continental Drive, Baton Rouge",
+    "mailto_url": "mailto:contact@bayousmiles.com?subject=quick%20question%20regarding%20Bayou%20Braces%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.bayousmiles.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bayou%20Braces%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:20:14"
+  },
+  {
+    "id": 9,
+    "name": "Baton Rouge Dentist #9",
+    "niche": "Dentist",
+    "city": "Baton Rouge",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@batonrougedentist#9.example",
+    "address": "4616 Concord Avenue, Baton Rouge",
+    "mailto_url": "mailto:contact@batonrougedentist#9.example?subject=quick%20question%20regarding%20Baton%20Rouge%20Dentist%20%239%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Baton%20Rouge%20Dentist%20%239%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:20:14"
+  },
+  {
+    "id": 10,
+    "name": "Baton Rouge Dentist #10",
+    "niche": "Dentist",
+    "city": "Baton Rouge",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@batonrougedentist#10.example",
+    "address": "Baton Rouge",
+    "mailto_url": "mailto:contact@batonrougedentist#10.example?subject=quick%20question%20regarding%20Baton%20Rouge%20Dentist%20%2310%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Baton%20Rouge%20Dentist%20%2310%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:20:14"
+  }
+]

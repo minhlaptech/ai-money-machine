@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "The Ambeau Law Firm",
+    "niche": "Lawyer",
+    "city": "Baton Rouge",
+    "phone": "+1-225-330-7009",
+    "website": "https://www.ambeaulaw.com/",
+    "email": "contact@ambeaulaw.com",
+    "address": "343 3rd Street, Baton Rouge 70801",
+    "mailto_url": "mailto:contact@ambeaulaw.com?subject=quick%20question%20regarding%20The%20Ambeau%20Law%20Firm%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.ambeaulaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20The%20Ambeau%20Law%20Firm%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:16"
+  },
+  {
+    "id": 2,
+    "name": "Moore & Hunter",
+    "niche": "Lawyer",
+    "city": "Baton Rouge",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@moorehunter.example",
+    "address": "6515 Perkins Road, Baton Rouge",
+    "mailto_url": "mailto:contact@moorehunter.example?subject=quick%20question%20regarding%20Moore%20%26%20Hunter%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Moore%20%26%20Hunter%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:16"
+  },
+  {
+    "id": 3,
+    "name": "Fisher Injury Lawyers",
+    "niche": "Lawyer",
+    "city": "Baton Rouge",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@fisherinjurylawyers.example",
+    "address": "6715 Perkins Road, Baton Rouge",
+    "mailto_url": "mailto:contact@fisherinjurylawyers.example?subject=quick%20question%20regarding%20Fisher%20Injury%20Lawyers%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Fisher%20Injury%20Lawyers%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:16"
+  },
+  {
+    "id": 4,
+    "name": "Joubert Law Firm",
+    "niche": "Lawyer",
+    "city": "Baton Rouge",
+    "phone": "+1 225-761-3822",
+    "website": "https://www.joubertlawfirm.com",
+    "email": "contact@joubertlawfirm.com",
+    "address": "2171 Quail Run Drive, Baton Rouge 70808",
+    "mailto_url": "mailto:contact@joubertlawfirm.com?subject=quick%20question%20regarding%20Joubert%20Law%20Firm%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.joubertlawfirm.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Joubert%20Law%20Firm%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:16"
+  },
+  {
+    "id": 5,
+    "name": "Ragland, Alderman & Associates, INC.",
+    "niche": "Lawyer",
+    "city": "Baton Rouge",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@raglandaldermanassociatesinc.example",
+    "address": "Baton Rouge",
+    "mailto_url": "mailto:contact@raglandaldermanassociatesinc.example?subject=quick%20question%20regarding%20Ragland%2C%20Alderman%20%26%20Associates%2C%20INC.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Ragland%2C%20Alderman%20%26%20Associates%2C%20INC.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:16"
+  },
+  {
+    "id": 6,
+    "name": "The Fields Law Firm LLC.",
+    "niche": "Lawyer",
+    "city": "Baton Rouge",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@thefieldslawfirmllc.example",
+    "address": "Baton Rouge",
+    "mailto_url": "mailto:contact@thefieldslawfirmllc.example?subject=quick%20question%20regarding%20The%20Fields%20Law%20Firm%20LLC.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20The%20Fields%20Law%20Firm%20LLC.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:16"
+  },
+  {
+    "id": 7,
+    "name": "Knightshead Law Firm",
+    "niche": "Lawyer",
+    "city": "Baton Rouge",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@knightsheadlawfirm.example",
+    "address": "2415 Government Street, Baton Rouge",
+    "mailto_url": "mailto:contact@knightsheadlawfirm.example?subject=quick%20question%20regarding%20Knightshead%20Law%20Firm%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Knightshead%20Law%20Firm%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:16"
+  },
+  {
+    "id": 8,
+    "name": "Lamb Law Firm",
+    "niche": "Lawyer",
+    "city": "Baton Rouge",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lamblawfirm.example",
+    "address": "2023 Government Street, Baton Rouge 70806",
+    "mailto_url": "mailto:contact@lamblawfirm.example?subject=quick%20question%20regarding%20Lamb%20Law%20Firm%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lamb%20Law%20Firm%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:16"
+  },
+  {
+    "id": 9,
+    "name": "Gordon McKernan",
+    "niche": "Lawyer",
+    "city": "Baton Rouge",
+    "phone": "+1 225 888-8888",
+    "website": "https://www.getgordon.com/locations/baton-rouge-personal-injury-attorneys/",
+    "email": "contact@getgordon.com",
+    "address": "Baton Rouge",
+    "mailto_url": "mailto:contact@getgordon.com?subject=quick%20question%20regarding%20Gordon%20McKernan%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.getgordon.com/locations/baton-rouge-personal-injury-attorneys/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Gordon%20McKernan%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:16"
+  },
+  {
+    "id": 10,
+    "name": "John P. Calmes, Jr.",
+    "niche": "Lawyer",
+    "city": "Baton Rouge",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@johnpcalmesjr.example",
+    "address": "Baton Rouge",
+    "mailto_url": "mailto:contact@johnpcalmesjr.example?subject=quick%20question%20regarding%20John%20P.%20Calmes%2C%20Jr.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20John%20P.%20Calmes%2C%20Jr.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:21:16"
+  }
+]
