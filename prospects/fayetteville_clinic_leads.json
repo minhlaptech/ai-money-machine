@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Fayette County Health Department",
+    "niche": "Clinic",
+    "city": "Fayetteville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@fayettecountyhealthdepartment.example",
+    "address": "245 Booker Avenue, Fayetteville 30215",
+    "mailto_url": "mailto:contact@fayettecountyhealthdepartment.example?subject=quick%20question%20regarding%20Fayette%20County%20Health%20Department%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Fayette%20County%20Health%20Department%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:40"
+  },
+  {
+    "id": 2,
+    "name": "Fayetteville Surgical Associates",
+    "niche": "Clinic",
+    "city": "Fayetteville",
+    "phone": "+1 479 521 3300",
+    "website": "https://fsapa.com/",
+    "email": "contact@fsapa.com",
+    "address": "3264 North Northhills Boulevard, Fayetteville 72703",
+    "mailto_url": "mailto:contact@fsapa.com?subject=quick%20question%20regarding%20Fayetteville%20Surgical%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//fsapa.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Fayetteville%20Surgical%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:40"
+  },
+  {
+    "id": 3,
+    "name": "Cardiovascular and Thoracic Surgery",
+    "niche": "Clinic",
+    "city": "Fayetteville",
+    "phone": "+1 479 404 2110",
+    "website": "https://www.wregional.com/main/cardiovascular-and-thoracic-surgery",
+    "email": "contact@wregional.com",
+    "address": "3276 North Northhills Boulevard, Fayetteville 72703",
+    "mailto_url": "mailto:contact@wregional.com?subject=quick%20question%20regarding%20Cardiovascular%20and%20Thoracic%20Surgery%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.wregional.com/main/cardiovascular-and-thoracic-surgery%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Cardiovascular%20and%20Thoracic%20Surgery%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:40"
+  },
+  {
+    "id": 4,
+    "name": "Advanced Aesthetics",
+    "niche": "Clinic",
+    "city": "Fayetteville",
+    "phone": "+1 770 461 4000",
+    "website": "https://www.plasticsurgerycorner.com/",
+    "email": "contact@plasticsurgerycorner.com",
+    "address": "874 West Lanier Avenue, Fayetteville 30214",
+    "mailto_url": "mailto:contact@plasticsurgerycorner.com?subject=quick%20question%20regarding%20Advanced%20Aesthetics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.plasticsurgerycorner.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Advanced%20Aesthetics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:40"
+  },
+  {
+    "id": 5,
+    "name": "Community Clinic",
+    "niche": "Clinic",
+    "city": "Fayetteville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@communityclinic.example",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@communityclinic.example?subject=quick%20question%20regarding%20Community%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Community%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:40"
+  },
+  {
+    "id": 6,
+    "name": "Center for Children & Adolescents",
+    "niche": "Clinic",
+    "city": "Fayetteville",
+    "phone": "N/A",
+    "website": "https://www.pca-nwa.com/",
+    "email": "contact@pca-nwa.com",
+    "address": "2533 West Sunbridge Drive, Fayetteville 72703",
+    "mailto_url": "mailto:contact@pca-nwa.com?subject=quick%20question%20regarding%20Center%20for%20Children%20%26%20Adolescents%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.pca-nwa.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Center%20for%20Children%20%26%20Adolescents%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:40"
+  },
+  {
+    "id": 7,
+    "name": "FastMed",
+    "niche": "Clinic",
+    "city": "Fayetteville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@fastmed.example",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@fastmed.example?subject=quick%20question%20regarding%20FastMed%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20FastMed%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:40"
+  },
+  {
+    "id": 8,
+    "name": "Washington Regional Urgent Care",
+    "niche": "Clinic",
+    "city": "Fayetteville",
+    "phone": "+1 479 404 1010",
+    "website": "https://www.wregional.com/main/urgent-care-clinic.aspx",
+    "email": "contact@wregional.com",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@wregional.com?subject=quick%20question%20regarding%20Washington%20Regional%20Urgent%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.wregional.com/main/urgent-care-clinic.aspx%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Washington%20Regional%20Urgent%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:40"
+  },
+  {
+    "id": 9,
+    "name": "Therapy Playground",
+    "niche": "Clinic",
+    "city": "Fayetteville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@therapyplayground.example",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@therapyplayground.example?subject=quick%20question%20regarding%20Therapy%20Playground%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Therapy%20Playground%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:40"
+  },
+  {
+    "id": 10,
+    "name": "QwikMed",
+    "niche": "Clinic",
+    "city": "Fayetteville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@qwikmed.example",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@qwikmed.example?subject=quick%20question%20regarding%20QwikMed%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20QwikMed%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:40"
+  }
+]

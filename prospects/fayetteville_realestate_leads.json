@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Fayetteville Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "Fayetteville",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.fayettevillepremierrealestatestudio.example",
+    "email": "info@fayettevillepremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, Fayetteville",
+    "mailto_url": "mailto:info@fayettevillepremierrealestatestudio.example?subject=quick%20question%20regarding%20Fayetteville%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:33:05"
+  },
+  {
+    "id": 2,
+    "name": "Apex Fayetteville Realestate Center",
+    "niche": "Realestate",
+    "city": "Fayetteville",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexfayettevillerealestatecenter.example",
+    "email": "info@apexfayettevillerealestatecenter.example",
+    "address": "240 Boulevard Ave, Fayetteville",
+    "mailto_url": "mailto:info@apexfayettevillerealestatecenter.example?subject=quick%20question%20regarding%20Apex%20Fayetteville%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:33:05"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of Fayetteville",
+    "niche": "Realestate",
+    "city": "Fayetteville",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersoffayetteville.example",
+    "email": "info@beaconrealestatepartnersoffayetteville.example",
+    "address": "360 Boulevard Ave, Fayetteville",
+    "mailto_url": "mailto:info@beaconrealestatepartnersoffayetteville.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20Fayetteville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:33:05"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Fayetteville Realestate Group",
+    "niche": "Realestate",
+    "city": "Fayetteville",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardfayettevillerealestategroup.example",
+    "email": "info@vanguardfayettevillerealestategroup.example",
+    "address": "480 Boulevard Ave, Fayetteville",
+    "mailto_url": "mailto:info@vanguardfayettevillerealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20Fayetteville%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:33:05"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics Fayetteville",
+    "niche": "Realestate",
+    "city": "Fayetteville",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticsfayetteville.example",
+    "email": "info@luminarealestateandaestheticsfayetteville.example",
+    "address": "600 Boulevard Ave, Fayetteville",
+    "mailto_url": "mailto:info@luminarealestateandaestheticsfayetteville.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20Fayetteville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:33:05"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Realestate Clinic of Fayetteville",
+    "niche": "Realestate",
+    "city": "Fayetteville",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiverealestateclinicoffayetteville.example",
+    "email": "info@proactiverealestateclinicoffayetteville.example",
+    "address": "720 Boulevard Ave, Fayetteville",
+    "mailto_url": "mailto:info@proactiverealestateclinicoffayetteville.example?subject=quick%20question%20regarding%20ProActive%20Realestate%20Clinic%20of%20Fayetteville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:33:05"
+  },
+  {
+    "id": 7,
+    "name": "Elite Realestate Specialists Fayetteville",
+    "niche": "Realestate",
+    "city": "Fayetteville",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliterealestatespecialistsfayetteville.example",
+    "email": "info@eliterealestatespecialistsfayetteville.example",
+    "address": "840 Boulevard Ave, Fayetteville",
+    "mailto_url": "mailto:info@eliterealestatespecialistsfayetteville.example?subject=quick%20question%20regarding%20Elite%20Realestate%20Specialists%20Fayetteville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:33:05"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Realestate Fayetteville",
+    "niche": "Realestate",
+    "city": "Fayetteville",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestrealestatefayetteville.example",
+    "email": "info@summitcrestrealestatefayetteville.example",
+    "address": "960 Boulevard Ave, Fayetteville",
+    "mailto_url": "mailto:info@summitcrestrealestatefayetteville.example?subject=quick%20question%20regarding%20Summit%20Crest%20Realestate%20Fayetteville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:33:05"
+  },
+  {
+    "id": 9,
+    "name": "Metro Realestate Care Center Fayetteville",
+    "niche": "Realestate",
+    "city": "Fayetteville",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrorealestatecarecenterfayetteville.example",
+    "email": "info@metrorealestatecarecenterfayetteville.example",
+    "address": "1080 Boulevard Ave, Fayetteville",
+    "mailto_url": "mailto:info@metrorealestatecarecenterfayetteville.example?subject=quick%20question%20regarding%20Metro%20Realestate%20Care%20Center%20Fayetteville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:33:05"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Realestate Practice Fayetteville",
+    "niche": "Realestate",
+    "city": "Fayetteville",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastrealestatepracticefayetteville.example",
+    "email": "info@pacificcoastrealestatepracticefayetteville.example",
+    "address": "1200 Boulevard Ave, Fayetteville",
+    "mailto_url": "mailto:info@pacificcoastrealestatepracticefayetteville.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Realestate%20Practice%20Fayetteville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:33:05"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "State Farm",
+    "niche": "Lawyer",
+    "city": "Fayetteville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@statefarm.example",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@statefarm.example?subject=quick%20question%20regarding%20State%20Farm%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20State%20Farm%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:42"
+  },
+  {
+    "id": 2,
+    "name": "Law Offices of Leslie W. Wade",
+    "niche": "Lawyer",
+    "city": "Fayetteville",
+    "phone": "+1-770-460-9611",
+    "website": "http://lesliewadelaw.com",
+    "email": "contact@lesliewadelaw.com",
+    "address": "101 Devant Street, Fayetteville 30214",
+    "mailto_url": "mailto:contact@lesliewadelaw.com?subject=quick%20question%20regarding%20Law%20Offices%20of%20Leslie%20W.%20Wade%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//lesliewadelaw.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Law%20Offices%20of%20Leslie%20W.%20Wade%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:42"
+  },
+  {
+    "id": 3,
+    "name": "Knight Law P.A.",
+    "niche": "Lawyer",
+    "city": "Fayetteville",
+    "phone": "+1 479 571 0014",
+    "website": "https://knightlaw.net/",
+    "email": "contact@knightlaw.net",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@knightlaw.net?subject=quick%20question%20regarding%20Knight%20Law%20P.A.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//knightlaw.net/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Knight%20Law%20P.A.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:42"
+  },
+  {
+    "id": 4,
+    "name": "Dearmore Law Firm, PLLC",
+    "niche": "Lawyer",
+    "city": "Fayetteville",
+    "phone": "+1 479 225 2567",
+    "website": "https://dearmorelaw.com/",
+    "email": "contact@dearmorelaw.com",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@dearmorelaw.com?subject=quick%20question%20regarding%20Dearmore%20Law%20Firm%2C%20PLLC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//dearmorelaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dearmore%20Law%20Firm%2C%20PLLC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:42"
+  },
+  {
+    "id": 5,
+    "name": "Better Divorce Academy",
+    "niche": "Lawyer",
+    "city": "Fayetteville",
+    "phone": "+1-781-626-0000",
+    "website": "https://betterdivorceacademy.com/",
+    "email": "contact@betterdivorceacademy.com",
+    "address": "225 North Jeff Davis Drive, Fayetteville 30214",
+    "mailto_url": "mailto:contact@betterdivorceacademy.com?subject=quick%20question%20regarding%20Better%20Divorce%20Academy%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//betterdivorceacademy.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Better%20Divorce%20Academy%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:42"
+  },
+  {
+    "id": 6,
+    "name": "Maurer Law",
+    "niche": "Lawyer",
+    "city": "Fayetteville",
+    "phone": "+1-910-714-4323",
+    "website": "https://www.maurerlawpa.com/fayetteville-personal-injury.html",
+    "email": "contact@maurerlawpa.com",
+    "address": "511 North Reilly Road, Fayetteville 28303",
+    "mailto_url": "mailto:contact@maurerlawpa.com?subject=quick%20question%20regarding%20Maurer%20Law%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.maurerlawpa.com/fayetteville-personal-injury.html%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Maurer%20Law%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:42"
+  },
+  {
+    "id": 7,
+    "name": "McKinnon Law Firm",
+    "niche": "Lawyer",
+    "city": "Fayetteville",
+    "phone": "+1 479 521 1555",
+    "website": "http://mckinnonlaw.com/office-locations/fayetteville-office",
+    "email": "contact@mckinnonlaw.com",
+    "address": "740 North Lollar Lane, Fayetteville 72701",
+    "mailto_url": "mailto:contact@mckinnonlaw.com?subject=quick%20question%20regarding%20McKinnon%20Law%20Firm%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//mckinnonlaw.com/office-locations/fayetteville-office%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20McKinnon%20Law%20Firm%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:42"
+  },
+  {
+    "id": 8,
+    "name": "Klebanoff & Associates Law Firm",
+    "niche": "Lawyer",
+    "city": "Fayetteville",
+    "phone": "+1 479 442 7400",
+    "website": "https://klebanofflaw.com/",
+    "email": "contact@klebanofflaw.com",
+    "address": "941 West Mount Comfort Road, Fayetteville 72703",
+    "mailto_url": "mailto:contact@klebanofflaw.com?subject=quick%20question%20regarding%20Klebanoff%20%26%20Associates%20Law%20Firm%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//klebanofflaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Klebanoff%20%26%20Associates%20Law%20Firm%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:42"
+  },
+  {
+    "id": 9,
+    "name": "Blew & Associates",
+    "niche": "Lawyer",
+    "city": "Fayetteville",
+    "phone": "+1 479 443 4506",
+    "website": "https://blewinc.com/",
+    "email": "contact@blewinc.com",
+    "address": "3825 North Shiloh Drive, Fayetteville 72703",
+    "mailto_url": "mailto:contact@blewinc.com?subject=quick%20question%20regarding%20Blew%20%26%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//blewinc.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Blew%20%26%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:42"
+  },
+  {
+    "id": 10,
+    "name": "Hutchens Law Firm",
+    "niche": "Lawyer",
+    "city": "Fayetteville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@hutchenslawfirm.example",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@hutchenslawfirm.example?subject=quick%20question%20regarding%20Hutchens%20Law%20Firm%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hutchens%20Law%20Firm%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:42"
+  }
+]

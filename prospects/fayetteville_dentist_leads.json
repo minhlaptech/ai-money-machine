@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Fisher Dentures",
+    "niche": "Dentist",
+    "city": "Fayetteville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@fisherdentures.example",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@fisherdentures.example?subject=quick%20question%20regarding%20Fisher%20Dentures%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Fisher%20Dentures%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:30"
+  },
+  {
+    "id": 2,
+    "name": "DentalWork",
+    "niche": "Dentist",
+    "city": "Fayetteville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dentalwork.example",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@dentalwork.example?subject=quick%20question%20regarding%20DentalWork%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20DentalWork%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:30"
+  },
+  {
+    "id": 3,
+    "name": "Beavers & Broomfield Family Dentistry",
+    "niche": "Dentist",
+    "city": "Fayetteville",
+    "phone": "+1 479 856 6610",
+    "website": "https://www.bbdentistry.com/",
+    "email": "contact@bbdentistry.com",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@bbdentistry.com?subject=quick%20question%20regarding%20Beavers%20%26%20Broomfield%20Family%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.bbdentistry.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Beavers%20%26%20Broomfield%20Family%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:30"
+  },
+  {
+    "id": 4,
+    "name": "Sequoyah Dental",
+    "niche": "Dentist",
+    "city": "Fayetteville",
+    "phone": "+1 479 313 7373",
+    "website": "https://www.sequoyahdental.com/",
+    "email": "contact@sequoyahdental.com",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@sequoyahdental.com?subject=quick%20question%20regarding%20Sequoyah%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.sequoyahdental.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sequoyah%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:30"
+  },
+  {
+    "id": 5,
+    "name": "Westrock Orthodontics",
+    "niche": "Dentist",
+    "city": "Fayetteville",
+    "phone": "+1 479 443 1583",
+    "website": "https://westrockortho.com/location/fayetteville-ar/",
+    "email": "contact@westrockortho.com",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@westrockortho.com?subject=quick%20question%20regarding%20Westrock%20Orthodontics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//westrockortho.com/location/fayetteville-ar/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Westrock%20Orthodontics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:30"
+  },
+  {
+    "id": 6,
+    "name": "Brad Jones, DDS",
+    "niche": "Dentist",
+    "city": "Fayetteville",
+    "phone": "+1 479 521 3107",
+    "website": "https://bradjonesdds.com/",
+    "email": "contact@bradjonesdds.com",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@bradjonesdds.com?subject=quick%20question%20regarding%20Brad%20Jones%2C%20DDS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//bradjonesdds.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Brad%20Jones%2C%20DDS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:30"
+  },
+  {
+    "id": 7,
+    "name": "Walter Henderson DDS",
+    "niche": "Dentist",
+    "city": "Fayetteville",
+    "phone": "+1 479 442 6512",
+    "website": "https://www.facebook.com/WalterHendersonDds/",
+    "email": "contact@facebook.com",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@facebook.com?subject=quick%20question%20regarding%20Walter%20Henderson%20DDS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.facebook.com/WalterHendersonDds/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Walter%20Henderson%20DDS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:30"
+  },
+  {
+    "id": 8,
+    "name": "O2 Dental Group of Fayetteville",
+    "niche": "Dentist",
+    "city": "Fayetteville",
+    "phone": "+1-910-484-5141",
+    "website": "https://www.o2smiles.com/fayetteville-nc/",
+    "email": "contact@o2smiles.com",
+    "address": "1916 Skibo Road, Fayetteville 28314",
+    "mailto_url": "mailto:contact@o2smiles.com?subject=quick%20question%20regarding%20O2%20Dental%20Group%20of%20Fayetteville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.o2smiles.com/fayetteville-nc/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20O2%20Dental%20Group%20of%20Fayetteville%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:30"
+  },
+  {
+    "id": 9,
+    "name": "McQueen Dental",
+    "niche": "Dentist",
+    "city": "Fayetteville",
+    "phone": "+1-479-521-2653",
+    "website": "https://www.mcqdental.com",
+    "email": "contact@mcqdental.com",
+    "address": "640 North Garland Avenue, Fayetteville 72701",
+    "mailto_url": "mailto:contact@mcqdental.com?subject=quick%20question%20regarding%20McQueen%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.mcqdental.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20McQueen%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:30"
+  },
+  {
+    "id": 10,
+    "name": "Dreamworks Dental Care",
+    "niche": "Dentist",
+    "city": "Fayetteville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dreamworksdentalcare.example",
+    "address": "Fayetteville",
+    "mailto_url": "mailto:contact@dreamworksdentalcare.example?subject=quick%20question%20regarding%20Dreamworks%20Dental%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dreamworks%20Dental%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:32:30"
+  }
+]
