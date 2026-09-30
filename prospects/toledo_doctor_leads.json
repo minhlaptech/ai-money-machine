@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Toledo Premier Doctor Studio",
+    "niche": "Doctor",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.toledopremierdoctorstudio.example",
+    "email": "info@toledopremierdoctorstudio.example",
+    "address": "120 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@toledopremierdoctorstudio.example?subject=quick%20question%20regarding%20Toledo%20Premier%20Doctor%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:01:47"
+  },
+  {
+    "id": 2,
+    "name": "Apex Toledo Doctor Center",
+    "niche": "Doctor",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apextoledodoctorcenter.example",
+    "email": "info@apextoledodoctorcenter.example",
+    "address": "240 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@apextoledodoctorcenter.example?subject=quick%20question%20regarding%20Apex%20Toledo%20Doctor%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:01:47"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Doctor Partners of Toledo",
+    "niche": "Doctor",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondoctorpartnersoftoledo.example",
+    "email": "info@beacondoctorpartnersoftoledo.example",
+    "address": "360 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@beacondoctorpartnersoftoledo.example?subject=quick%20question%20regarding%20Beacon%20Doctor%20Partners%20of%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:01:47"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Toledo Doctor Group",
+    "niche": "Doctor",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardtoledodoctorgroup.example",
+    "email": "info@vanguardtoledodoctorgroup.example",
+    "address": "480 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@vanguardtoledodoctorgroup.example?subject=quick%20question%20regarding%20Vanguard%20Toledo%20Doctor%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:01:47"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Doctor & Aesthetics Toledo",
+    "niche": "Doctor",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadoctorandaestheticstoledo.example",
+    "email": "info@luminadoctorandaestheticstoledo.example",
+    "address": "600 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@luminadoctorandaestheticstoledo.example?subject=quick%20question%20regarding%20Lumina%20Doctor%20%26%20Aesthetics%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:01:47"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Doctor Clinic of Toledo",
+    "niche": "Doctor",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedoctorclinicoftoledo.example",
+    "email": "info@proactivedoctorclinicoftoledo.example",
+    "address": "720 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@proactivedoctorclinicoftoledo.example?subject=quick%20question%20regarding%20ProActive%20Doctor%20Clinic%20of%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:01:47"
+  },
+  {
+    "id": 7,
+    "name": "Elite Doctor Specialists Toledo",
+    "niche": "Doctor",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedoctorspecialiststoledo.example",
+    "email": "info@elitedoctorspecialiststoledo.example",
+    "address": "840 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@elitedoctorspecialiststoledo.example?subject=quick%20question%20regarding%20Elite%20Doctor%20Specialists%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:01:47"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Doctor Toledo",
+    "niche": "Doctor",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdoctortoledo.example",
+    "email": "info@summitcrestdoctortoledo.example",
+    "address": "960 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@summitcrestdoctortoledo.example?subject=quick%20question%20regarding%20Summit%20Crest%20Doctor%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:01:47"
+  },
+  {
+    "id": 9,
+    "name": "Metro Doctor Care Center Toledo",
+    "niche": "Doctor",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodoctorcarecentertoledo.example",
+    "email": "info@metrodoctorcarecentertoledo.example",
+    "address": "1080 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@metrodoctorcarecentertoledo.example?subject=quick%20question%20regarding%20Metro%20Doctor%20Care%20Center%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:01:47"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Doctor Practice Toledo",
+    "niche": "Doctor",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdoctorpracticetoledo.example",
+    "email": "info@pacificcoastdoctorpracticetoledo.example",
+    "address": "1200 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@pacificcoastdoctorpracticetoledo.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Doctor%20Practice%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:01:47"
+  }
+]

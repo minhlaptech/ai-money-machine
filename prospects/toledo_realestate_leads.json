@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Toledo Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.toledopremierrealestatestudio.example",
+    "email": "info@toledopremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@toledopremierrealestatestudio.example?subject=quick%20question%20regarding%20Toledo%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:02:17"
+  },
+  {
+    "id": 2,
+    "name": "Apex Toledo Realestate Center",
+    "niche": "Realestate",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apextoledorealestatecenter.example",
+    "email": "info@apextoledorealestatecenter.example",
+    "address": "240 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@apextoledorealestatecenter.example?subject=quick%20question%20regarding%20Apex%20Toledo%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:02:17"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of Toledo",
+    "niche": "Realestate",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersoftoledo.example",
+    "email": "info@beaconrealestatepartnersoftoledo.example",
+    "address": "360 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@beaconrealestatepartnersoftoledo.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:02:17"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Toledo Realestate Group",
+    "niche": "Realestate",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardtoledorealestategroup.example",
+    "email": "info@vanguardtoledorealestategroup.example",
+    "address": "480 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@vanguardtoledorealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20Toledo%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:02:17"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics Toledo",
+    "niche": "Realestate",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticstoledo.example",
+    "email": "info@luminarealestateandaestheticstoledo.example",
+    "address": "600 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@luminarealestateandaestheticstoledo.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:02:17"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Realestate Clinic of Toledo",
+    "niche": "Realestate",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiverealestateclinicoftoledo.example",
+    "email": "info@proactiverealestateclinicoftoledo.example",
+    "address": "720 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@proactiverealestateclinicoftoledo.example?subject=quick%20question%20regarding%20ProActive%20Realestate%20Clinic%20of%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:02:17"
+  },
+  {
+    "id": 7,
+    "name": "Elite Realestate Specialists Toledo",
+    "niche": "Realestate",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliterealestatespecialiststoledo.example",
+    "email": "info@eliterealestatespecialiststoledo.example",
+    "address": "840 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@eliterealestatespecialiststoledo.example?subject=quick%20question%20regarding%20Elite%20Realestate%20Specialists%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:02:17"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Realestate Toledo",
+    "niche": "Realestate",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestrealestatetoledo.example",
+    "email": "info@summitcrestrealestatetoledo.example",
+    "address": "960 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@summitcrestrealestatetoledo.example?subject=quick%20question%20regarding%20Summit%20Crest%20Realestate%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:02:17"
+  },
+  {
+    "id": 9,
+    "name": "Metro Realestate Care Center Toledo",
+    "niche": "Realestate",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrorealestatecarecentertoledo.example",
+    "email": "info@metrorealestatecarecentertoledo.example",
+    "address": "1080 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@metrorealestatecarecentertoledo.example?subject=quick%20question%20regarding%20Metro%20Realestate%20Care%20Center%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:02:17"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Realestate Practice Toledo",
+    "niche": "Realestate",
+    "city": "Toledo",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastrealestatepracticetoledo.example",
+    "email": "info@pacificcoastrealestatepracticetoledo.example",
+    "address": "1200 Boulevard Ave, Toledo",
+    "mailto_url": "mailto:info@pacificcoastrealestatepracticetoledo.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Realestate%20Practice%20Toledo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:02:17"
+  }
+]
