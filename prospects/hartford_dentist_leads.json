@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Hartford Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Hartford",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.hartfordpremierdentiststudio.example",
+    "email": "info@hartfordpremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Hartford",
+    "mailto_url": "mailto:info@hartfordpremierdentiststudio.example?subject=quick%20question%20regarding%20Hartford%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:10:43"
+  },
+  {
+    "id": 2,
+    "name": "Apex Hartford Dentist Center",
+    "niche": "Dentist",
+    "city": "Hartford",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexhartforddentistcenter.example",
+    "email": "info@apexhartforddentistcenter.example",
+    "address": "240 Boulevard Ave, Hartford",
+    "mailto_url": "mailto:info@apexhartforddentistcenter.example?subject=quick%20question%20regarding%20Apex%20Hartford%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:10:43"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Hartford",
+    "niche": "Dentist",
+    "city": "Hartford",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersofhartford.example",
+    "email": "info@beacondentistpartnersofhartford.example",
+    "address": "360 Boulevard Ave, Hartford",
+    "mailto_url": "mailto:info@beacondentistpartnersofhartford.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Hartford%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:10:43"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Hartford Dentist Group",
+    "niche": "Dentist",
+    "city": "Hartford",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardhartforddentistgroup.example",
+    "email": "info@vanguardhartforddentistgroup.example",
+    "address": "480 Boulevard Ave, Hartford",
+    "mailto_url": "mailto:info@vanguardhartforddentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Hartford%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:10:43"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Hartford",
+    "niche": "Dentist",
+    "city": "Hartford",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticshartford.example",
+    "email": "info@luminadentistandaestheticshartford.example",
+    "address": "600 Boulevard Ave, Hartford",
+    "mailto_url": "mailto:info@luminadentistandaestheticshartford.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Hartford%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:10:43"
+  }
+]

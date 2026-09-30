@@ -26,7 +26,7 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v29.7 ⚡
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v29.8 ⚡
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
@@ -118,7 +118,7 @@ def main_loop():
 
         elif choice == '3':
             niche = input("Nhập ngành nghề (dentist / doctor / clinic / lawyer / cpa / realestate, mặc định dentist): ").strip() or "dentist"
-            city = input("Nhập thành phố (Austin / Miami / Chicago / Dallas / Phoenix / Seattle / Denver / Atlanta / Boston / San Francisco / Los Angeles / New York / Houston / San Diego / Philadelphia / San Jose / San Antonio / Washington / Nashville / Charlotte / Las Vegas / Orlando / Minneapolis / Tampa / Portland / Salt Lake City / Raleigh / Columbus / Indianapolis / Pittsburgh / Kansas City / Cincinnati / Sacramento / St. Louis / Milwaukee / Cleveland / Baltimore / Oklahoma City / Louisville / Memphis / Richmond / New Orleans, mặc định Austin): ").strip() or "Austin"
+            city = input("Nhập thành phố (Austin / Miami / Chicago / Dallas / Phoenix / Seattle / Denver / Atlanta / Boston / San Francisco / Los Angeles / New York / Houston / San Diego / Philadelphia / San Jose / San Antonio / Washington / Nashville / Charlotte / Las Vegas / Orlando / Minneapolis / Tampa / Portland / Salt Lake City / Raleigh / Columbus / Indianapolis / Pittsburgh / Kansas City / Cincinnati / Sacramento / St. Louis / Milwaukee / Cleveland / Baltimore / Oklahoma City / Louisville / Memphis / Richmond / New Orleans / Hartford, mặc định Austin): ").strip() or "Austin"
             limit = input("Số lượng khách cần quét (mặc định 5): ").strip() or "5"
             run_script("scripts/lead_finder.py", ["--niche", niche, "--city", city, "--limit", limit])
 

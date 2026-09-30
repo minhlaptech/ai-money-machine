@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Hartford Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "Hartford",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.hartfordpremiercpastudio.example",
+    "email": "info@hartfordpremiercpastudio.example",
+    "address": "120 Boulevard Ave, Hartford",
+    "mailto_url": "mailto:info@hartfordpremiercpastudio.example?subject=quick%20question%20regarding%20Hartford%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:12:17"
+  },
+  {
+    "id": 2,
+    "name": "Apex Hartford Cpa Center",
+    "niche": "Cpa",
+    "city": "Hartford",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexhartfordcpacenter.example",
+    "email": "info@apexhartfordcpacenter.example",
+    "address": "240 Boulevard Ave, Hartford",
+    "mailto_url": "mailto:info@apexhartfordcpacenter.example?subject=quick%20question%20regarding%20Apex%20Hartford%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:12:17"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of Hartford",
+    "niche": "Cpa",
+    "city": "Hartford",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersofhartford.example",
+    "email": "info@beaconcpapartnersofhartford.example",
+    "address": "360 Boulevard Ave, Hartford",
+    "mailto_url": "mailto:info@beaconcpapartnersofhartford.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20Hartford%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:12:17"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Hartford Cpa Group",
+    "niche": "Cpa",
+    "city": "Hartford",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardhartfordcpagroup.example",
+    "email": "info@vanguardhartfordcpagroup.example",
+    "address": "480 Boulevard Ave, Hartford",
+    "mailto_url": "mailto:info@vanguardhartfordcpagroup.example?subject=quick%20question%20regarding%20Vanguard%20Hartford%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:12:17"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics Hartford",
+    "niche": "Cpa",
+    "city": "Hartford",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticshartford.example",
+    "email": "info@luminacpaandaestheticshartford.example",
+    "address": "600 Boulevard Ave, Hartford",
+    "mailto_url": "mailto:info@luminacpaandaestheticshartford.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20Hartford%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:12:17"
+  }
+]
