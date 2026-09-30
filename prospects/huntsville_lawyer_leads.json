@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Bond & Botes Law Offices",
+    "niche": "Lawyer",
+    "city": "Huntsville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@bondboteslawoffices.example",
+    "address": "Huntsville",
+    "mailto_url": "mailto:contact@bondboteslawoffices.example?subject=quick%20question%20regarding%20Bond%20%26%20Botes%20Law%20Offices%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bond%20%26%20Botes%20Law%20Offices%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:39"
+  },
+  {
+    "id": 2,
+    "name": "Law Offices of Joseph G. Pleva",
+    "niche": "Lawyer",
+    "city": "Huntsville",
+    "phone": "+1-256-617-7115",
+    "website": "https://www.plevalawoffice.com/",
+    "email": "contact@plevalawoffice.com",
+    "address": "3330 L&N Drive Southwest, Huntsville 35801",
+    "mailto_url": "mailto:contact@plevalawoffice.com?subject=quick%20question%20regarding%20Law%20Offices%20of%20Joseph%20G.%20Pleva%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.plevalawoffice.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Law%20Offices%20of%20Joseph%20G.%20Pleva%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:39"
+  },
+  {
+    "id": 3,
+    "name": "Hornsby, Watson & Hornsby",
+    "niche": "Lawyer",
+    "city": "Huntsville",
+    "phone": "+1 256 650 5500",
+    "website": "https://www.hornsbywatson.com/",
+    "email": "contact@hornsbywatson.com",
+    "address": "1110 Gleneagles Drive Southwest, Huntsville 35801",
+    "mailto_url": "mailto:contact@hornsbywatson.com?subject=quick%20question%20regarding%20Hornsby%2C%20Watson%20%26%20Hornsby%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.hornsbywatson.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hornsby%2C%20Watson%20%26%20Hornsby%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:39"
+  },
+  {
+    "id": 4,
+    "name": "Martinson and Beason, PC",
+    "niche": "Lawyer",
+    "city": "Huntsville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@martinsonandbeasonpc.example",
+    "address": "Huntsville",
+    "mailto_url": "mailto:contact@martinsonandbeasonpc.example?subject=quick%20question%20regarding%20Martinson%20and%20Beason%2C%20PC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Martinson%20and%20Beason%2C%20PC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:39"
+  },
+  {
+    "id": 5,
+    "name": "George Flowers Attorney At Law",
+    "niche": "Lawyer",
+    "city": "Huntsville",
+    "phone": "+1-256-210-1100",
+    "website": "https://georgeflowers.com/",
+    "email": "contact@georgeflowers.com",
+    "address": "1813 University Drive Northwest, Huntsville",
+    "mailto_url": "mailto:contact@georgeflowers.com?subject=quick%20question%20regarding%20George%20Flowers%20Attorney%20At%20Law%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//georgeflowers.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20George%20Flowers%20Attorney%20At%20Law%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:39"
+  },
+  {
+    "id": 6,
+    "name": "HKM Employment Attorneys LLP",
+    "niche": "Lawyer",
+    "city": "Huntsville",
+    "phone": "+1-256-500-1666",
+    "website": "https://hkm.com/huntsville/",
+    "email": "contact@hkm.com",
+    "address": "201 East Side Square, Huntsville 35801",
+    "mailto_url": "mailto:contact@hkm.com?subject=quick%20question%20regarding%20HKM%20Employment%20Attorneys%20LLP%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//hkm.com/huntsville/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20HKM%20Employment%20Attorneys%20LLP%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:39"
+  },
+  {
+    "id": 7,
+    "name": "Summit Family Law P.C.",
+    "niche": "Lawyer",
+    "city": "Huntsville",
+    "phone": "+1-256-925-1457",
+    "website": "https://summitfamilylaw.com/locations/huntsville-divorce-lawyer",
+    "email": "contact@summitfamilylaw.com",
+    "address": "225 Holmes Avenue Northeast, Huntsville 35801",
+    "mailto_url": "mailto:contact@summitfamilylaw.com?subject=quick%20question%20regarding%20Summit%20Family%20Law%20P.C.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//summitfamilylaw.com/locations/huntsville-divorce-lawyer%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Summit%20Family%20Law%20P.C.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:39"
+  },
+  {
+    "id": 8,
+    "name": "Wimer & Lee, P.A.",
+    "niche": "Lawyer",
+    "city": "Huntsville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@wimerleepa.example",
+    "address": "100 Washington Street Northeast, Huntsville 35804",
+    "mailto_url": "mailto:contact@wimerleepa.example?subject=quick%20question%20regarding%20Wimer%20%26%20Lee%2C%20P.A.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Wimer%20%26%20Lee%2C%20P.A.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:39"
+  },
+  {
+    "id": 9,
+    "name": "Huntsville Lawyer #9",
+    "niche": "Lawyer",
+    "city": "Huntsville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@huntsvillelawyer#9.example",
+    "address": "Huntsville",
+    "mailto_url": "mailto:contact@huntsvillelawyer#9.example?subject=quick%20question%20regarding%20Huntsville%20Lawyer%20%239%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Huntsville%20Lawyer%20%239%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:39"
+  }
+]

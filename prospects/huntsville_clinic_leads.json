@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Huntsville Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Huntsville",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.huntsvillepremierclinicstudio.example",
+    "email": "info@huntsvillepremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Huntsville",
+    "mailto_url": "mailto:info@huntsvillepremierclinicstudio.example?subject=quick%20question%20regarding%20Huntsville%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:33"
+  },
+  {
+    "id": 2,
+    "name": "Apex Huntsville Clinic Center",
+    "niche": "Clinic",
+    "city": "Huntsville",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexhuntsvillecliniccenter.example",
+    "email": "info@apexhuntsvillecliniccenter.example",
+    "address": "240 Boulevard Ave, Huntsville",
+    "mailto_url": "mailto:info@apexhuntsvillecliniccenter.example?subject=quick%20question%20regarding%20Apex%20Huntsville%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:33"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Huntsville",
+    "niche": "Clinic",
+    "city": "Huntsville",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofhuntsville.example",
+    "email": "info@beaconclinicpartnersofhuntsville.example",
+    "address": "360 Boulevard Ave, Huntsville",
+    "mailto_url": "mailto:info@beaconclinicpartnersofhuntsville.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Huntsville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:33"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Huntsville Clinic Group",
+    "niche": "Clinic",
+    "city": "Huntsville",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardhuntsvilleclinicgroup.example",
+    "email": "info@vanguardhuntsvilleclinicgroup.example",
+    "address": "480 Boulevard Ave, Huntsville",
+    "mailto_url": "mailto:info@vanguardhuntsvilleclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Huntsville%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:33"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Huntsville",
+    "niche": "Clinic",
+    "city": "Huntsville",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticshuntsville.example",
+    "email": "info@luminaclinicandaestheticshuntsville.example",
+    "address": "600 Boulevard Ave, Huntsville",
+    "mailto_url": "mailto:info@luminaclinicandaestheticshuntsville.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Huntsville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:33"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Huntsville",
+    "niche": "Clinic",
+    "city": "Huntsville",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofhuntsville.example",
+    "email": "info@proactiveclinicclinicofhuntsville.example",
+    "address": "720 Boulevard Ave, Huntsville",
+    "mailto_url": "mailto:info@proactiveclinicclinicofhuntsville.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Huntsville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:33"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Huntsville",
+    "niche": "Clinic",
+    "city": "Huntsville",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistshuntsville.example",
+    "email": "info@eliteclinicspecialistshuntsville.example",
+    "address": "840 Boulevard Ave, Huntsville",
+    "mailto_url": "mailto:info@eliteclinicspecialistshuntsville.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Huntsville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:33"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Huntsville",
+    "niche": "Clinic",
+    "city": "Huntsville",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinichuntsville.example",
+    "email": "info@summitcrestclinichuntsville.example",
+    "address": "960 Boulevard Ave, Huntsville",
+    "mailto_url": "mailto:info@summitcrestclinichuntsville.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Huntsville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:33"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Huntsville",
+    "niche": "Clinic",
+    "city": "Huntsville",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecenterhuntsville.example",
+    "email": "info@metrocliniccarecenterhuntsville.example",
+    "address": "1080 Boulevard Ave, Huntsville",
+    "mailto_url": "mailto:info@metrocliniccarecenterhuntsville.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Huntsville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:33"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Huntsville",
+    "niche": "Clinic",
+    "city": "Huntsville",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticehuntsville.example",
+    "email": "info@pacificcoastclinicpracticehuntsville.example",
+    "address": "1200 Boulevard Ave, Huntsville",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticehuntsville.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Huntsville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:43:33"
+  }
+]
