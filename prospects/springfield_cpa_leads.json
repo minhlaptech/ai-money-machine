@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Springfield Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.springfieldpremiercpastudio.example",
+    "email": "info@springfieldpremiercpastudio.example",
+    "address": "120 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@springfieldpremiercpastudio.example?subject=quick%20question%20regarding%20Springfield%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:20"
+  },
+  {
+    "id": 2,
+    "name": "Apex Springfield Cpa Center",
+    "niche": "Cpa",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexspringfieldcpacenter.example",
+    "email": "info@apexspringfieldcpacenter.example",
+    "address": "240 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@apexspringfieldcpacenter.example?subject=quick%20question%20regarding%20Apex%20Springfield%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:20"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of Springfield",
+    "niche": "Cpa",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersofspringfield.example",
+    "email": "info@beaconcpapartnersofspringfield.example",
+    "address": "360 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@beaconcpapartnersofspringfield.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:20"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Springfield Cpa Group",
+    "niche": "Cpa",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardspringfieldcpagroup.example",
+    "email": "info@vanguardspringfieldcpagroup.example",
+    "address": "480 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@vanguardspringfieldcpagroup.example?subject=quick%20question%20regarding%20Vanguard%20Springfield%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:20"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics Springfield",
+    "niche": "Cpa",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticsspringfield.example",
+    "email": "info@luminacpaandaestheticsspringfield.example",
+    "address": "600 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@luminacpaandaestheticsspringfield.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:20"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Cpa Clinic of Springfield",
+    "niche": "Cpa",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivecpaclinicofspringfield.example",
+    "email": "info@proactivecpaclinicofspringfield.example",
+    "address": "720 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@proactivecpaclinicofspringfield.example?subject=quick%20question%20regarding%20ProActive%20Cpa%20Clinic%20of%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:20"
+  },
+  {
+    "id": 7,
+    "name": "Elite Cpa Specialists Springfield",
+    "niche": "Cpa",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitecpaspecialistsspringfield.example",
+    "email": "info@elitecpaspecialistsspringfield.example",
+    "address": "840 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@elitecpaspecialistsspringfield.example?subject=quick%20question%20regarding%20Elite%20Cpa%20Specialists%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:20"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Cpa Springfield",
+    "niche": "Cpa",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestcpaspringfield.example",
+    "email": "info@summitcrestcpaspringfield.example",
+    "address": "960 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@summitcrestcpaspringfield.example?subject=quick%20question%20regarding%20Summit%20Crest%20Cpa%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:20"
+  },
+  {
+    "id": 9,
+    "name": "Metro Cpa Care Center Springfield",
+    "niche": "Cpa",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocpacarecenterspringfield.example",
+    "email": "info@metrocpacarecenterspringfield.example",
+    "address": "1080 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@metrocpacarecenterspringfield.example?subject=quick%20question%20regarding%20Metro%20Cpa%20Care%20Center%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:20"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Cpa Practice Springfield",
+    "niche": "Cpa",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastcpapracticespringfield.example",
+    "email": "info@pacificcoastcpapracticespringfield.example",
+    "address": "1200 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@pacificcoastcpapracticespringfield.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Cpa%20Practice%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:20"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "The Law Office of Jonathan A. Bay",
+    "niche": "Lawyer",
+    "city": "Springfield",
+    "phone": "+1 417-873-9100",
+    "website": "http://thelawofficeofjonathan.com",
+    "email": "contact@thelawofficeofjonathan.com",
+    "address": "1736 East Sunshine Street, Springfield 65804",
+    "mailto_url": "mailto:contact@thelawofficeofjonathan.com?subject=quick%20question%20regarding%20The%20Law%20Office%20of%20Jonathan%20A.%20Bay%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//thelawofficeofjonathan.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20The%20Law%20Office%20of%20Jonathan%20A.%20Bay%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:05"
+  },
+  {
+    "id": 2,
+    "name": "Shay & Associates",
+    "niche": "Lawyer",
+    "city": "Springfield",
+    "phone": "+1-217-523-5900",
+    "website": "https://www.shayandassociates.com/",
+    "email": "contact@shayandassociates.com",
+    "address": "1030 South Durkin Drive, Springfield 62704",
+    "mailto_url": "mailto:contact@shayandassociates.com?subject=quick%20question%20regarding%20Shay%20%26%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.shayandassociates.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Shay%20%26%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:05"
+  },
+  {
+    "id": 3,
+    "name": "Lathrop & Gage LLP",
+    "niche": "Lawyer",
+    "city": "Springfield",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lathropgagellp.example",
+    "address": "910 East St Louis Street, Springfield 65806",
+    "mailto_url": "mailto:contact@lathropgagellp.example?subject=quick%20question%20regarding%20Lathrop%20%26%20Gage%20LLP%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lathrop%20%26%20Gage%20LLP%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:05"
+  },
+  {
+    "id": 4,
+    "name": "Dean Price Law",
+    "niche": "Lawyer",
+    "city": "Springfield",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@deanpricelaw.example",
+    "address": "1125 North Boonville Avenue, Springfield 65802",
+    "mailto_url": "mailto:contact@deanpricelaw.example?subject=quick%20question%20regarding%20Dean%20Price%20Law%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dean%20Price%20Law%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:05"
+  },
+  {
+    "id": 5,
+    "name": "Tad Morlan",
+    "niche": "Lawyer",
+    "city": "Springfield",
+    "phone": "+1-417-865-4400",
+    "website": "N/A",
+    "email": "contact@tadmorlan.example",
+    "address": "939 North Boonville Avenue, Springfield 65802",
+    "mailto_url": "mailto:contact@tadmorlan.example?subject=quick%20question%20regarding%20Tad%20Morlan%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Tad%20Morlan%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:05"
+  },
+  {
+    "id": 6,
+    "name": "Carver & Associates",
+    "niche": "Lawyer",
+    "city": "Springfield",
+    "phone": "+1-417-831-6363",
+    "website": "https://gocarverllc.com/",
+    "email": "contact@gocarverllc.com",
+    "address": "901 E St Louis St., Springfield 65806",
+    "mailto_url": "mailto:contact@gocarverllc.com?subject=quick%20question%20regarding%20Carver%20%26%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//gocarverllc.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Carver%20%26%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:05"
+  },
+  {
+    "id": 7,
+    "name": "Masterson Law",
+    "niche": "Lawyer",
+    "city": "Springfield",
+    "phone": "+1 417-522-1280",
+    "website": "https://mastersonlawllc.com",
+    "email": "contact@mastersonlawllc.com",
+    "address": "1771 South Fremont Avenue, Springfield 65804",
+    "mailto_url": "mailto:contact@mastersonlawllc.com?subject=quick%20question%20regarding%20Masterson%20Law%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//mastersonlawllc.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Masterson%20Law%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:05"
+  },
+  {
+    "id": 8,
+    "name": "Springfield Family Law, LLC",
+    "niche": "Lawyer",
+    "city": "Springfield",
+    "phone": "+1 417-832-2144",
+    "website": "https://www.spfdfamilylaw.com/",
+    "email": "contact@spfdfamilylaw.com",
+    "address": "227 E Sunshine St, Springfield 65807",
+    "mailto_url": "mailto:contact@spfdfamilylaw.com?subject=quick%20question%20regarding%20Springfield%20Family%20Law%2C%20LLC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.spfdfamilylaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Springfield%20Family%20Law%2C%20LLC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:05"
+  },
+  {
+    "id": 9,
+    "name": "Noll Law Office",
+    "niche": "Lawyer",
+    "city": "Springfield",
+    "phone": "+1-217-414-8889",
+    "website": "https://www.noll-law.com/",
+    "email": "contact@noll-law.com",
+    "address": "930 East Monroe Street, Springfield 62701",
+    "mailto_url": "mailto:contact@noll-law.com?subject=quick%20question%20regarding%20Noll%20Law%20Office%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.noll-law.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Noll%20Law%20Office%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:05"
+  },
+  {
+    "id": 10,
+    "name": "Fran’s Building Law Offices",
+    "niche": "Lawyer",
+    "city": "Springfield",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@fran’sbuildinglawoffices.example",
+    "address": "730 B Street, Springfield 97477",
+    "mailto_url": "mailto:contact@fran’sbuildinglawoffices.example?subject=quick%20question%20regarding%20Fran%E2%80%99s%20Building%20Law%20Offices%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Fran%E2%80%99s%20Building%20Law%20Offices%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:05"
+  }
+]

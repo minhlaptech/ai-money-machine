@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Springfield Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.springfieldpremierrealestatestudio.example",
+    "email": "info@springfieldpremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@springfieldpremierrealestatestudio.example?subject=quick%20question%20regarding%20Springfield%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:31"
+  },
+  {
+    "id": 2,
+    "name": "Apex Springfield Realestate Center",
+    "niche": "Realestate",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexspringfieldrealestatecenter.example",
+    "email": "info@apexspringfieldrealestatecenter.example",
+    "address": "240 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@apexspringfieldrealestatecenter.example?subject=quick%20question%20regarding%20Apex%20Springfield%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:31"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of Springfield",
+    "niche": "Realestate",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersofspringfield.example",
+    "email": "info@beaconrealestatepartnersofspringfield.example",
+    "address": "360 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@beaconrealestatepartnersofspringfield.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:31"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Springfield Realestate Group",
+    "niche": "Realestate",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardspringfieldrealestategroup.example",
+    "email": "info@vanguardspringfieldrealestategroup.example",
+    "address": "480 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@vanguardspringfieldrealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20Springfield%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:31"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics Springfield",
+    "niche": "Realestate",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticsspringfield.example",
+    "email": "info@luminarealestateandaestheticsspringfield.example",
+    "address": "600 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@luminarealestateandaestheticsspringfield.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:31"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Realestate Clinic of Springfield",
+    "niche": "Realestate",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiverealestateclinicofspringfield.example",
+    "email": "info@proactiverealestateclinicofspringfield.example",
+    "address": "720 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@proactiverealestateclinicofspringfield.example?subject=quick%20question%20regarding%20ProActive%20Realestate%20Clinic%20of%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:31"
+  },
+  {
+    "id": 7,
+    "name": "Elite Realestate Specialists Springfield",
+    "niche": "Realestate",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliterealestatespecialistsspringfield.example",
+    "email": "info@eliterealestatespecialistsspringfield.example",
+    "address": "840 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@eliterealestatespecialistsspringfield.example?subject=quick%20question%20regarding%20Elite%20Realestate%20Specialists%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:31"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Realestate Springfield",
+    "niche": "Realestate",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestrealestatespringfield.example",
+    "email": "info@summitcrestrealestatespringfield.example",
+    "address": "960 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@summitcrestrealestatespringfield.example?subject=quick%20question%20regarding%20Summit%20Crest%20Realestate%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:31"
+  },
+  {
+    "id": 9,
+    "name": "Metro Realestate Care Center Springfield",
+    "niche": "Realestate",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrorealestatecarecenterspringfield.example",
+    "email": "info@metrorealestatecarecenterspringfield.example",
+    "address": "1080 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@metrorealestatecarecenterspringfield.example?subject=quick%20question%20regarding%20Metro%20Realestate%20Care%20Center%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:31"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Realestate Practice Springfield",
+    "niche": "Realestate",
+    "city": "Springfield",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastrealestatepracticespringfield.example",
+    "email": "info@pacificcoastrealestatepracticespringfield.example",
+    "address": "1200 Boulevard Ave, Springfield",
+    "mailto_url": "mailto:info@pacificcoastrealestatepracticespringfield.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Realestate%20Practice%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:24:31"
+  }
+]

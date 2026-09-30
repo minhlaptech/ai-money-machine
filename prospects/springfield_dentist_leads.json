@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Sorina Dental Office",
+    "niche": "Dentist",
+    "city": "Springfield",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sorinadentaloffice.example",
+    "address": "155 Morris Avenue, Springfield",
+    "mailto_url": "mailto:contact@sorinadentaloffice.example?subject=quick%20question%20regarding%20Sorina%20Dental%20Office%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sorina%20Dental%20Office%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:23:48"
+  },
+  {
+    "id": 2,
+    "name": "Aspen Dental",
+    "niche": "Dentist",
+    "city": "Springfield",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@aspendental.example",
+    "address": "Springfield",
+    "mailto_url": "mailto:contact@aspendental.example?subject=quick%20question%20regarding%20Aspen%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Aspen%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:23:48"
+  },
+  {
+    "id": 3,
+    "name": "Prairie Dental Group: Tanya L. DeSanto DDS",
+    "niche": "Dentist",
+    "city": "Springfield",
+    "phone": "+1-217-546-0412",
+    "website": "https://www.prairiedentalgroup.com/",
+    "email": "contact@prairiedentalgroup.com",
+    "address": "2900 Greenbriar Drive, Springfield 62704",
+    "mailto_url": "mailto:contact@prairiedentalgroup.com?subject=quick%20question%20regarding%20Prairie%20Dental%20Group%3A%20Tanya%20L.%20DeSanto%20DDS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.prairiedentalgroup.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Prairie%20Dental%20Group%3A%20Tanya%20L.%20DeSanto%20DDS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:23:48"
+  },
+  {
+    "id": 4,
+    "name": "Dennis R. Monnig DDS",
+    "niche": "Dentist",
+    "city": "Springfield",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dennisrmonnigdds.example",
+    "address": "Springfield",
+    "mailto_url": "mailto:contact@dennisrmonnigdds.example?subject=quick%20question%20regarding%20Dennis%20R.%20Monnig%20DDS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dennis%20R.%20Monnig%20DDS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:23:48"
+  },
+  {
+    "id": 5,
+    "name": "DDS Dentures+Implant Solutions of Springfield",
+    "niche": "Dentist",
+    "city": "Springfield",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@ddsdentures+implantsolutionsofspringfield.example",
+    "address": "Springfield",
+    "mailto_url": "mailto:contact@ddsdentures+implantsolutionsofspringfield.example?subject=quick%20question%20regarding%20DDS%20Dentures%2BImplant%20Solutions%20of%20Springfield%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20DDS%20Dentures%2BImplant%20Solutions%20of%20Springfield%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:23:48"
+  },
+  {
+    "id": 6,
+    "name": "Robert Dewar DDS PC",
+    "niche": "Dentist",
+    "city": "Springfield",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@robertdewarddspc.example",
+    "address": "Springfield",
+    "mailto_url": "mailto:contact@robertdewarddspc.example?subject=quick%20question%20regarding%20Robert%20Dewar%20DDS%20PC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Robert%20Dewar%20DDS%20PC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:23:48"
+  },
+  {
+    "id": 7,
+    "name": "Midtowne Dental Center",
+    "niche": "Dentist",
+    "city": "Springfield",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@midtownedentalcenter.example",
+    "address": "Springfield",
+    "mailto_url": "mailto:contact@midtownedentalcenter.example?subject=quick%20question%20regarding%20Midtowne%20Dental%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Midtowne%20Dental%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:23:48"
+  },
+  {
+    "id": 8,
+    "name": "My Dentist",
+    "niche": "Dentist",
+    "city": "Springfield",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@mydentist.example",
+    "address": "Springfield",
+    "mailto_url": "mailto:contact@mydentist.example?subject=quick%20question%20regarding%20My%20Dentist%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20My%20Dentist%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:23:48"
+  },
+  {
+    "id": 9,
+    "name": "Sunshine Dental Associates",
+    "niche": "Dentist",
+    "city": "Springfield",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sunshinedentalassociates.example",
+    "address": "Springfield",
+    "mailto_url": "mailto:contact@sunshinedentalassociates.example?subject=quick%20question%20regarding%20Sunshine%20Dental%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sunshine%20Dental%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:23:48"
+  },
+  {
+    "id": 10,
+    "name": "Duff Family Dental",
+    "niche": "Dentist",
+    "city": "Springfield",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dufffamilydental.example",
+    "address": "Springfield",
+    "mailto_url": "mailto:contact@dufffamilydental.example?subject=quick%20question%20regarding%20Duff%20Family%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Duff%20Family%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:23:48"
+  }
+]
