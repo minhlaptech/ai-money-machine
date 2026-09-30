@@ -1,62 +1,62 @@
 [
   {
     "id": 1,
-    "name": "Morgan Weisbrod",
+    "name": "Dallas Premier Lawyer Studio",
     "niche": "Lawyer",
     "city": "Dallas",
-    "phone": "+1 214-373-3761",
-    "website": "https://morganweisbrod.com",
-    "email": "contact@morganweisbrod.com",
-    "address": "11551 Forest Central Drive, Dallas 75243",
-    "mailto_url": "mailto:contact@morganweisbrod.com?subject=quick%20question%20regarding%20Morgan%20Weisbrod%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//morganweisbrod.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Morgan%20Weisbrod%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
-    "discovered_at": "2026-09-30 11:13:25"
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.dallaspremierlawyerstudio.example",
+    "email": "info@dallaspremierlawyerstudio.example",
+    "address": "120 Boulevard Ave, Dallas",
+    "mailto_url": "mailto:info@dallaspremierlawyerstudio.example?subject=quick%20question%20regarding%20Dallas%20Premier%20Lawyer%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:05:44"
   },
   {
     "id": 2,
-    "name": "Guajardo & Marks, LLP",
+    "name": "Apex Dallas Lawyer Center",
     "niche": "Lawyer",
     "city": "Dallas",
-    "phone": "+1-972-774-9800",
-    "website": "https://www.guajardomarks.com/",
-    "email": "contact@guajardomarks.com",
-    "address": "13355 Noel Road, Dallas 75240",
-    "mailto_url": "mailto:contact@guajardomarks.com?subject=quick%20question%20regarding%20Guajardo%20%26%20Marks%2C%20LLP%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.guajardomarks.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Guajardo%20%26%20Marks%2C%20LLP%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
-    "discovered_at": "2026-09-30 11:13:25"
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexdallaslawyercenter.example",
+    "email": "info@apexdallaslawyercenter.example",
+    "address": "240 Boulevard Ave, Dallas",
+    "mailto_url": "mailto:info@apexdallaslawyercenter.example?subject=quick%20question%20regarding%20Apex%20Dallas%20Lawyer%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:05:44"
   },
   {
     "id": 3,
-    "name": "Law Office of William Teitelbaum",
+    "name": "Beacon Lawyer Partners of Dallas",
     "niche": "Lawyer",
     "city": "Dallas",
-    "phone": "+1-972-735-8044",
-    "website": "N/A",
-    "email": "contact@lawofficeofwilliamteitelbaum.example",
-    "address": "4925 Greenville Avenue, Dallas 75206",
-    "mailto_url": "mailto:contact@lawofficeofwilliamteitelbaum.example?subject=quick%20question%20regarding%20Law%20Office%20of%20William%20Teitelbaum%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Law%20Office%20of%20William%20Teitelbaum%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
-    "discovered_at": "2026-09-30 11:13:25"
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconlawyerpartnersofdallas.example",
+    "email": "info@beaconlawyerpartnersofdallas.example",
+    "address": "360 Boulevard Ave, Dallas",
+    "mailto_url": "mailto:info@beaconlawyerpartnersofdallas.example?subject=quick%20question%20regarding%20Beacon%20Lawyer%20Partners%20of%20Dallas%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:05:44"
   },
   {
     "id": 4,
-    "name": "Orsinger, Nelson, Downing and Anderson, LLP",
+    "name": "Vanguard Dallas Lawyer Group",
     "niche": "Lawyer",
     "city": "Dallas",
-    "phone": "+1-214-273-2400",
-    "website": "https://www.ondafamilylaw.com/",
-    "email": "contact@ondafamilylaw.com",
-    "address": "5950 Sherry Lane, Dallas 75225",
-    "mailto_url": "mailto:contact@ondafamilylaw.com?subject=quick%20question%20regarding%20Orsinger%2C%20Nelson%2C%20Downing%20and%20Anderson%2C%20LLP%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.ondafamilylaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Orsinger%2C%20Nelson%2C%20Downing%20and%20Anderson%2C%20LLP%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
-    "discovered_at": "2026-09-30 11:13:25"
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguarddallaslawyergroup.example",
+    "email": "info@vanguarddallaslawyergroup.example",
+    "address": "480 Boulevard Ave, Dallas",
+    "mailto_url": "mailto:info@vanguarddallaslawyergroup.example?subject=quick%20question%20regarding%20Vanguard%20Dallas%20Lawyer%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:05:44"
   },
   {
     "id": 5,
-    "name": "Clements & Clements, Attorneys at Law",
+    "name": "Lumina Lawyer & Aesthetics Dallas",
     "niche": "Lawyer",
     "city": "Dallas",
-    "phone": "+1-214-827-1122",
-    "website": "https://clementslaw.com/",
-    "email": "contact@clementslaw.com",
-    "address": "731 North Paulus Avenue, Dallas 75214",
-    "mailto_url": "mailto:contact@clementslaw.com?subject=quick%20question%20regarding%20Clements%20%26%20Clements%2C%20Attorneys%20at%20Law%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//clementslaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Clements%20%26%20Clements%2C%20Attorneys%20at%20Law%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
-    "discovered_at": "2026-09-30 11:13:25"
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminalawyerandaestheticsdallas.example",
+    "email": "info@luminalawyerandaestheticsdallas.example",
+    "address": "600 Boulevard Ave, Dallas",
+    "mailto_url": "mailto:info@luminalawyerandaestheticsdallas.example?subject=quick%20question%20regarding%20Lumina%20Lawyer%20%26%20Aesthetics%20Dallas%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:05:44"
   }
 ]
