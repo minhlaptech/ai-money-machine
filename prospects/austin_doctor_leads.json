@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Austin Regional Clinic",
+    "niche": "Doctor",
+    "city": "Austin",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@austinregionalclinic.example",
+    "address": "Austin",
+    "mailto_url": "mailto:contact@austinregionalclinic.example?subject=quick%20question%20regarding%20Austin%20Regional%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Austin%20Regional%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 13:47:56"
+  },
+  {
+    "id": 2,
+    "name": "SharpeVision modern LASIK",
+    "niche": "Doctor",
+    "city": "Austin",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sharpevisionmodernlasik.example",
+    "address": "Austin",
+    "mailto_url": "mailto:contact@sharpevisionmodernlasik.example?subject=quick%20question%20regarding%20SharpeVision%20modern%20LASIK%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20SharpeVision%20modern%20LASIK%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 13:47:56"
+  },
+  {
+    "id": 3,
+    "name": "Freedom Eye Care - Soroush Azadi, O.D.",
+    "niche": "Doctor",
+    "city": "Austin",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@freedomeyecare-soroushazadiod.example",
+    "address": "4211 South Lamar Boulevard, Austin 78704",
+    "mailto_url": "mailto:contact@freedomeyecare-soroushazadiod.example?subject=quick%20question%20regarding%20Freedom%20Eye%20Care%20-%20Soroush%20Azadi%2C%20O.D.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Freedom%20Eye%20Care%20-%20Soroush%20Azadi%2C%20O.D.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 13:47:56"
+  },
+  {
+    "id": 4,
+    "name": "Austin Foot and Ankle Specialists",
+    "niche": "Doctor",
+    "city": "Austin",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@austinfootandanklespecialists.example",
+    "address": "2312 Western Trails Boulevard, Austin 78745",
+    "mailto_url": "mailto:contact@austinfootandanklespecialists.example?subject=quick%20question%20regarding%20Austin%20Foot%20and%20Ankle%20Specialists%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Austin%20Foot%20and%20Ankle%20Specialists%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 13:47:56"
+  },
+  {
+    "id": 5,
+    "name": "Allergies & Asthma Clinic",
+    "niche": "Doctor",
+    "city": "Austin",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@allergiesasthmaclinic.example",
+    "address": "2312 Western Trails Boulevard, Austin 78745",
+    "mailto_url": "mailto:contact@allergiesasthmaclinic.example?subject=quick%20question%20regarding%20Allergies%20%26%20Asthma%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Allergies%20%26%20Asthma%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 13:47:56"
+  }
+]
