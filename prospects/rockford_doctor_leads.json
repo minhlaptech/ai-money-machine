@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Mercy Family Clinic - Rockford",
+    "niche": "Doctor",
+    "city": "Rockford",
+    "phone": "+1-641-756-3303",
+    "website": "http://www.mercynorthiowa.com/rockford",
+    "email": "contact@mercynorthiowa.com",
+    "address": "702 East Main Street, Rockford 50468",
+    "mailto_url": "mailto:contact@mercynorthiowa.com?subject=quick%20question%20regarding%20Mercy%20Family%20Clinic%20-%20Rockford%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.mercynorthiowa.com/rockford%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Mercy%20Family%20Clinic%20-%20Rockford%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:26:35"
+  },
+  {
+    "id": 2,
+    "name": "Alpine Health Center",
+    "niche": "Doctor",
+    "city": "Rockford",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@alpinehealthcenter.example",
+    "address": "Rockford",
+    "mailto_url": "mailto:contact@alpinehealthcenter.example?subject=quick%20question%20regarding%20Alpine%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Alpine%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:26:35"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Mary White",
+    "niche": "Doctor",
+    "city": "Rockford",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@drmarywhite.example",
+    "address": "6451 East Riverside Boulevard, Rockford 61114",
+    "mailto_url": "mailto:contact@drmarywhite.example?subject=quick%20question%20regarding%20Dr.%20Mary%20White%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dr.%20Mary%20White%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:26:35"
+  },
+  {
+    "id": 4,
+    "name": "Wight Care Clinic",
+    "niche": "Doctor",
+    "city": "Rockford",
+    "phone": "N/A",
+    "website": "http://www.wightcareclinic.com",
+    "email": "contact@wightcareclinic.com",
+    "address": "Rockford",
+    "mailto_url": "mailto:contact@wightcareclinic.com?subject=quick%20question%20regarding%20Wight%20Care%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.wightcareclinic.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Wight%20Care%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:26:35"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Syed M. Mohiuddin, MD",
+    "niche": "Doctor",
+    "city": "Rockford",
+    "phone": "+1 815-398-0450",
+    "website": "N/A",
+    "email": "contact@drsyedmmohiuddinmd.example",
+    "address": "Rockford",
+    "mailto_url": "mailto:contact@drsyedmmohiuddinmd.example?subject=quick%20question%20regarding%20Dr.%20Syed%20M.%20Mohiuddin%2C%20MD%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dr.%20Syed%20M.%20Mohiuddin%2C%20MD%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:26:35"
+  },
+  {
+    "id": 6,
+    "name": "Jamil Hussain MD",
+    "niche": "Doctor",
+    "city": "Rockford",
+    "phone": "+1 815-398-0450",
+    "website": "N/A",
+    "email": "contact@jamilhussainmd.example",
+    "address": "Rockford",
+    "mailto_url": "mailto:contact@jamilhussainmd.example?subject=quick%20question%20regarding%20Jamil%20Hussain%20MD%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jamil%20Hussain%20MD%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:26:35"
+  },
+  {
+    "id": 7,
+    "name": "Orthopedic Rehab Specialists",
+    "niche": "Doctor",
+    "city": "Rockford",
+    "phone": "+1 815-227-1700",
+    "website": "https://www.orspt.com/",
+    "email": "contact@orspt.com",
+    "address": "2662 McFarland Road, Rockford 61107",
+    "mailto_url": "mailto:contact@orspt.com?subject=quick%20question%20regarding%20Orthopedic%20Rehab%20Specialists%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.orspt.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Orthopedic%20Rehab%20Specialists%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:26:35"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Regina Beljus M.D.",
+    "niche": "Doctor",
+    "city": "Rockford",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@drreginabeljusmd.example",
+    "address": "Rockford",
+    "mailto_url": "mailto:contact@drreginabeljusmd.example?subject=quick%20question%20regarding%20Dr.%20Regina%20Beljus%20M.D.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dr.%20Regina%20Beljus%20M.D.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:26:35"
+  },
+  {
+    "id": 9,
+    "name": "Dr.Paul Revis M.D.",
+    "niche": "Doctor",
+    "city": "Rockford",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@drpaulrevismd.example",
+    "address": "Rockford",
+    "mailto_url": "mailto:contact@drpaulrevismd.example?subject=quick%20question%20regarding%20Dr.Paul%20Revis%20M.D.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dr.Paul%20Revis%20M.D.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:26:35"
+  },
+  {
+    "id": 10,
+    "name": "OSF Medical Group - Primary Care",
+    "niche": "Doctor",
+    "city": "Rockford",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@osfmedicalgroup-primarycare.example",
+    "address": "Rockford",
+    "mailto_url": "mailto:contact@osfmedicalgroup-primarycare.example?subject=quick%20question%20regarding%20OSF%20Medical%20Group%20-%20Primary%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20OSF%20Medical%20Group%20-%20Primary%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:26:35"
+  }
+]
