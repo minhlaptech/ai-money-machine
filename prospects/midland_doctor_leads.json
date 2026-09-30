@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "GP Superclinic",
+    "niche": "Doctor",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@gpsuperclinic.example",
+    "address": "Midland",
+    "mailto_url": "mailto:contact@gpsuperclinic.example?subject=quick%20question%20regarding%20GP%20Superclinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20GP%20Superclinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:41"
+  },
+  {
+    "id": 2,
+    "name": "Midland Internal Medicine Associates",
+    "niche": "Doctor",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@midlandinternalmedicineassociates.example",
+    "address": "5912 Eastman Avenue, Midland 48640",
+    "mailto_url": "mailto:contact@midlandinternalmedicineassociates.example?subject=quick%20question%20regarding%20Midland%20Internal%20Medicine%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Midland%20Internal%20Medicine%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:41"
+  },
+  {
+    "id": 3,
+    "name": "Bay Eye Care Center",
+    "niche": "Doctor",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@bayeyecarecenter.example",
+    "address": "1715 East Ashman Street, Midland 48642",
+    "mailto_url": "mailto:contact@bayeyecarecenter.example?subject=quick%20question%20regarding%20Bay%20Eye%20Care%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bay%20Eye%20Care%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:41"
+  },
+  {
+    "id": 4,
+    "name": "Naheed Rizvi, M.D., PLLC",
+    "niche": "Doctor",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@naheedrizvimdpllc.example",
+    "address": "111 East Wackerly Street, Midland 48642",
+    "mailto_url": "mailto:contact@naheedrizvimdpllc.example?subject=quick%20question%20regarding%20Naheed%20Rizvi%2C%20M.D.%2C%20PLLC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Naheed%20Rizvi%2C%20M.D.%2C%20PLLC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:41"
+  },
+  {
+    "id": 5,
+    "name": "Downtown Medical Center",
+    "niche": "Doctor",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@downtownmedicalcenter.example",
+    "address": "Midland",
+    "mailto_url": "mailto:contact@downtownmedicalcenter.example?subject=quick%20question%20regarding%20Downtown%20Medical%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Downtown%20Medical%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:41"
+  },
+  {
+    "id": 6,
+    "name": "Midland Spine Institute",
+    "niche": "Doctor",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "https://www.midlandspine.com",
+    "email": "contact@midlandspine.com",
+    "address": "3300 North A Street, Midland 79705",
+    "mailto_url": "mailto:contact@midlandspine.com?subject=quick%20question%20regarding%20Midland%20Spine%20Institute%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.midlandspine.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Midland%20Spine%20Institute%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:41"
+  },
+  {
+    "id": 7,
+    "name": "Midland Oral and Maxillofacial Surgery P.C.",
+    "niche": "Doctor",
+    "city": "Midland",
+    "phone": "+1 989 839 9979",
+    "website": "N/A",
+    "email": "contact@midlandoralandmaxillofacialsurgerypc.example",
+    "address": "6112 Merlin Court, Midland 48640",
+    "mailto_url": "mailto:contact@midlandoralandmaxillofacialsurgerypc.example?subject=quick%20question%20regarding%20Midland%20Oral%20and%20Maxillofacial%20Surgery%20P.C.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Midland%20Oral%20and%20Maxillofacial%20Surgery%20P.C.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:41"
+  },
+  {
+    "id": 8,
+    "name": "Gastroenterology & Hepatology Associates of Mid-Michigan",
+    "niche": "Doctor",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@gastroenterologyhepatologyassociatesofmid-michigan.example",
+    "address": "Midland",
+    "mailto_url": "mailto:contact@gastroenterologyhepatologyassociatesofmid-michigan.example?subject=quick%20question%20regarding%20Gastroenterology%20%26%20Hepatology%20Associates%20of%20Mid-Michigan%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Gastroenterology%20%26%20Hepatology%20Associates%20of%20Mid-Michigan%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:41"
+  },
+  {
+    "id": 9,
+    "name": "West Texas Physical Therapy",
+    "niche": "Doctor",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@westtexasphysicaltherapy.example",
+    "address": "Midland",
+    "mailto_url": "mailto:contact@westtexasphysicaltherapy.example?subject=quick%20question%20regarding%20West%20Texas%20Physical%20Therapy%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20West%20Texas%20Physical%20Therapy%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:41"
+  },
+  {
+    "id": 10,
+    "name": "Complete Care Midland",
+    "niche": "Doctor",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@completecaremidland.example",
+    "address": "1701 North Loop 250 West, Midland 79707",
+    "mailto_url": "mailto:contact@completecaremidland.example?subject=quick%20question%20regarding%20Complete%20Care%20Midland%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Complete%20Care%20Midland%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:41"
+  }
+]

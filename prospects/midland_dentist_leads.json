@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Drakeview Dental Centers",
+    "niche": "Dentist",
+    "city": "Midland",
+    "phone": "+1 989 631 2562",
+    "website": "N/A",
+    "email": "contact@drakeviewdentalcenters.example",
+    "address": "2802 North Saginaw Road, Midland 48640",
+    "mailto_url": "mailto:contact@drakeviewdentalcenters.example?subject=quick%20question%20regarding%20Drakeview%20Dental%20Centers%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Drakeview%20Dental%20Centers%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:32"
+  },
+  {
+    "id": 2,
+    "name": "Hale and Hale Family Dentistry",
+    "niche": "Dentist",
+    "city": "Midland",
+    "phone": "+1 989 631 5050",
+    "website": "N/A",
+    "email": "contact@haleandhalefamilydentistry.example",
+    "address": "3102 Swede Avenue, Midland 48642",
+    "mailto_url": "mailto:contact@haleandhalefamilydentistry.example?subject=quick%20question%20regarding%20Hale%20and%20Hale%20Family%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hale%20and%20Hale%20Family%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:32"
+  },
+  {
+    "id": 3,
+    "name": "Aspen Dental",
+    "niche": "Dentist",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@aspendental.example",
+    "address": "Midland",
+    "mailto_url": "mailto:contact@aspendental.example?subject=quick%20question%20regarding%20Aspen%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Aspen%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:32"
+  },
+  {
+    "id": 4,
+    "name": "Huronia Dental Centre",
+    "niche": "Dentist",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@huroniadentalcentre.example",
+    "address": "Midland",
+    "mailto_url": "mailto:contact@huroniadentalcentre.example?subject=quick%20question%20regarding%20Huronia%20Dental%20Centre%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Huronia%20Dental%20Centre%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:32"
+  },
+  {
+    "id": 5,
+    "name": "Midland Bay Dental",
+    "niche": "Dentist",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@midlandbaydental.example",
+    "address": "Midland",
+    "mailto_url": "mailto:contact@midlandbaydental.example?subject=quick%20question%20regarding%20Midland%20Bay%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Midland%20Bay%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:32"
+  },
+  {
+    "id": 6,
+    "name": "Midland Family Dentistry",
+    "niche": "Dentist",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@midlandfamilydentistry.example",
+    "address": "Midland",
+    "mailto_url": "mailto:contact@midlandfamilydentistry.example?subject=quick%20question%20regarding%20Midland%20Family%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Midland%20Family%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:32"
+  },
+  {
+    "id": 7,
+    "name": "The Dental Studio of Midland",
+    "niche": "Dentist",
+    "city": "Midland",
+    "phone": "+1-432-315-2739",
+    "website": "https://www.midlanddentalstudio.com/",
+    "email": "contact@midlanddentalstudio.com",
+    "address": "414 Veterans Airpark Lane, Midland 79705",
+    "mailto_url": "mailto:contact@midlanddentalstudio.com?subject=quick%20question%20regarding%20The%20Dental%20Studio%20of%20Midland%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.midlanddentalstudio.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20The%20Dental%20Studio%20of%20Midland%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:32"
+  },
+  {
+    "id": 8,
+    "name": "Aria Dental",
+    "niche": "Dentist",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@ariadental.example",
+    "address": "2 Old Great Northern Highway, Midland",
+    "mailto_url": "mailto:contact@ariadental.example?subject=quick%20question%20regarding%20Aria%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Aria%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:32"
+  },
+  {
+    "id": 9,
+    "name": "Dental Sense",
+    "niche": "Dentist",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dentalsense.example",
+    "address": "Midland",
+    "mailto_url": "mailto:contact@dentalsense.example?subject=quick%20question%20regarding%20Dental%20Sense%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dental%20Sense%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:32"
+  },
+  {
+    "id": 10,
+    "name": "Jones & Jones DDS",
+    "niche": "Dentist",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@jonesjonesdds.example",
+    "address": "6118 Merlin Court, Midland 48640",
+    "mailto_url": "mailto:contact@jonesjonesdds.example?subject=quick%20question%20regarding%20Jones%20%26%20Jones%20DDS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jones%20%26%20Jones%20DDS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:32"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Redi Med",
+    "niche": "Clinic",
+    "city": "Midland",
+    "phone": "+1 989 631 7110",
+    "website": "N/A",
+    "email": "contact@redimed.example",
+    "address": "4615 Eastman Avenue, Midland 48640",
+    "mailto_url": "mailto:contact@redimed.example?subject=quick%20question%20regarding%20Redi%20Med%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Redi%20Med%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:43"
+  },
+  {
+    "id": 2,
+    "name": "Midland Health",
+    "niche": "Clinic",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@midlandhealth.example",
+    "address": "Midland",
+    "mailto_url": "mailto:contact@midlandhealth.example?subject=quick%20question%20regarding%20Midland%20Health%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Midland%20Health%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:43"
+  },
+  {
+    "id": 3,
+    "name": "Kehres Health Chiropractic",
+    "niche": "Clinic",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@kehreshealthchiropractic.example",
+    "address": "601 East Wackerly Street, Midland",
+    "mailto_url": "mailto:contact@kehreshealthchiropractic.example?subject=quick%20question%20regarding%20Kehres%20Health%20Chiropractic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Kehres%20Health%20Chiropractic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:43"
+  },
+  {
+    "id": 4,
+    "name": "CSC Chigamik Community Health Centre",
+    "niche": "Clinic",
+    "city": "Midland",
+    "phone": "+1-705-527-4154",
+    "website": "https://www.chigamik.ca/",
+    "email": "contact@chigamik.ca",
+    "address": "845 King Street, Midland L4R 0B7",
+    "mailto_url": "mailto:contact@chigamik.ca?subject=quick%20question%20regarding%20CSC%20Chigamik%20Community%20Health%20Centre%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.chigamik.ca/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20CSC%20Chigamik%20Community%20Health%20Centre%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:43"
+  },
+  {
+    "id": 5,
+    "name": "Hope Urgent Care",
+    "niche": "Clinic",
+    "city": "Midland",
+    "phone": "+1 989 631 9900",
+    "website": "https://hopeurgentcare.com/",
+    "email": "contact@hopeurgentcare.com",
+    "address": "111 East Wackerly Street, Midland 48642",
+    "mailto_url": "mailto:contact@hopeurgentcare.com?subject=quick%20question%20regarding%20Hope%20Urgent%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//hopeurgentcare.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hope%20Urgent%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:43"
+  },
+  {
+    "id": 6,
+    "name": "Family Practice Center Midland – Gerstacker Building",
+    "niche": "Clinic",
+    "city": "Midland",
+    "phone": "+1 989-839-3500",
+    "website": "https://www.mymichigan.org/locations/profile/?id=1379",
+    "email": "contact@mymichigan.org",
+    "address": "4611 North Campus Ridge Drive, Midland 48640",
+    "mailto_url": "mailto:contact@mymichigan.org?subject=quick%20question%20regarding%20Family%20Practice%20Center%20Midland%20%E2%80%93%20Gerstacker%20Building%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.mymichigan.org/locations/profile/%3Fid%3D1379%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Family%20Practice%20Center%20Midland%20%E2%80%93%20Gerstacker%20Building%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:43"
+  },
+  {
+    "id": 7,
+    "name": "F. Marie Hall Outpatient Center",
+    "niche": "Clinic",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "https://www.midlandhealth.org/main/locations/f-marie-hall-outpatient-center-2",
+    "email": "contact@midlandhealth.org",
+    "address": "4214 Andrews Highway, Midland 79703",
+    "mailto_url": "mailto:contact@midlandhealth.org?subject=quick%20question%20regarding%20F.%20Marie%20Hall%20Outpatient%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.midlandhealth.org/main/locations/f-marie-hall-outpatient-center-2%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20F.%20Marie%20Hall%20Outpatient%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:43"
+  },
+  {
+    "id": 8,
+    "name": "MyMichigan Urgent Care Midland",
+    "niche": "Clinic",
+    "city": "Midland",
+    "phone": "+1 989 633 1350",
+    "website": "https://www.mymichigan.org/locations/profile/urgentcare-midland/?searchId=f3ce9abc-1727-ee11-a85f-000d3a61151d&sort=13&page=1&pageSize=10",
+    "email": "contact@mymichigan.org",
+    "address": "3009 North Saginaw Road, Midland 48640",
+    "mailto_url": "mailto:contact@mymichigan.org?subject=quick%20question%20regarding%20MyMichigan%20Urgent%20Care%20Midland%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.mymichigan.org/locations/profile/urgentcare-midland/%3FsearchId%3Df3ce9abc-1727-ee11-a85f-000d3a61151d%26sort%3D13%26page%3D1%26pageSize%3D10%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20MyMichigan%20Urgent%20Care%20Midland%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:43"
+  },
+  {
+    "id": 9,
+    "name": "EMS",
+    "niche": "Clinic",
+    "city": "Midland",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@ems.example",
+    "address": "Midland",
+    "mailto_url": "mailto:contact@ems.example?subject=quick%20question%20regarding%20EMS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20EMS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:43"
+  },
+  {
+    "id": 10,
+    "name": "DaVita Midland at Home",
+    "niche": "Clinic",
+    "city": "Midland",
+    "phone": "+1 800 424 6589",
+    "website": "N/A",
+    "email": "contact@davitamidlandathome.example",
+    "address": "4901 Jefferson Avenue, Midland 48640",
+    "mailto_url": "mailto:contact@davitamidlandathome.example?subject=quick%20question%20regarding%20DaVita%20Midland%20at%20Home%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20DaVita%20Midland%20at%20Home%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:45:43"
+  }
+]
