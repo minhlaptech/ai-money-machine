@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Henry C. Miller Commercial",
+    "niche": "Realestate",
+    "city": "San Antonio",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@henrycmillercommercial.example",
+    "address": "10123 Broadway, San Antonio 78217",
+    "mailto_url": "mailto:contact@henrycmillercommercial.example?subject=quick%20question%20regarding%20Henry%20C.%20Miller%20Commercial%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Henry%20C.%20Miller%20Commercial%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:09:26"
+  },
+  {
+    "id": 2,
+    "name": "Sealy and Company",
+    "niche": "Realestate",
+    "city": "San Antonio",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sealyandcompany.example",
+    "address": "10121 Broadway, San Antonio 78217",
+    "mailto_url": "mailto:contact@sealyandcompany.example?subject=quick%20question%20regarding%20Sealy%20and%20Company%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sealy%20and%20Company%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:09:26"
+  },
+  {
+    "id": 3,
+    "name": "My Texas Home Resource",
+    "niche": "Realestate",
+    "city": "San Antonio",
+    "phone": "+1-210-386-9587",
+    "website": "https://www.mytexashomeresource.com/",
+    "email": "contact@mytexashomeresource.com",
+    "address": "11118 Wurzbach Road, San Antonio 78230",
+    "mailto_url": "mailto:contact@mytexashomeresource.com?subject=quick%20question%20regarding%20My%20Texas%20Home%20Resource%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.mytexashomeresource.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20My%20Texas%20Home%20Resource%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:09:26"
+  },
+  {
+    "id": 4,
+    "name": "Rubiola Realty and Mortgage",
+    "niche": "Realestate",
+    "city": "San Antonio",
+    "phone": "+1-210-828-6007",
+    "website": "https://www.rubiola.com/",
+    "email": "contact@rubiola.com",
+    "address": "332 West Sunset Road, San Antonio 78209",
+    "mailto_url": "mailto:contact@rubiola.com?subject=quick%20question%20regarding%20Rubiola%20Realty%20and%20Mortgage%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.rubiola.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Rubiola%20Realty%20and%20Mortgage%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:09:26"
+  },
+  {
+    "id": 5,
+    "name": "Montserrat Constructora",
+    "niche": "Realestate",
+    "city": "San Antonio",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@montserratconstructora.example",
+    "address": "San Antonio",
+    "mailto_url": "mailto:contact@montserratconstructora.example?subject=quick%20question%20regarding%20Montserrat%20Constructora%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Montserrat%20Constructora%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:09:26"
+  },
+  {
+    "id": 6,
+    "name": "Great Jones",
+    "niche": "Realestate",
+    "city": "San Antonio",
+    "phone": "+1-210-880-3298",
+    "website": "https://www.greatjones.co/san-antonio",
+    "email": "contact@greatjones.co",
+    "address": "18911 Hardy Oak Blvd, San Antonio 78258",
+    "mailto_url": "mailto:contact@greatjones.co?subject=quick%20question%20regarding%20Great%20Jones%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.greatjones.co/san-antonio%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Great%20Jones%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:09:26"
+  },
+  {
+    "id": 7,
+    "name": "Diego Zirilli Inmobiliaria y Venta de Usados",
+    "niche": "Realestate",
+    "city": "San Antonio",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@diegozirilliinmobiliariayventadeusados.example",
+    "address": "San Antonio",
+    "mailto_url": "mailto:contact@diegozirilliinmobiliariayventadeusados.example?subject=quick%20question%20regarding%20Diego%20Zirilli%20Inmobiliaria%20y%20Venta%20de%20Usados%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Diego%20Zirilli%20Inmobiliaria%20y%20Venta%20de%20Usados%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:09:26"
+  },
+  {
+    "id": 8,
+    "name": "Texas Relocation Experts",
+    "niche": "Realestate",
+    "city": "San Antonio",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@texasrelocationexperts.example",
+    "address": "San Antonio",
+    "mailto_url": "mailto:contact@texasrelocationexperts.example?subject=quick%20question%20regarding%20Texas%20Relocation%20Experts%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Texas%20Relocation%20Experts%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:09:26"
+  },
+  {
+    "id": 9,
+    "name": "Madison on Dietrich Appartment Homes",
+    "niche": "Realestate",
+    "city": "San Antonio",
+    "phone": "+1 210 9399097",
+    "website": "https://www.madisonondietrichapts.com/",
+    "email": "contact@madisonondietrichapts.com",
+    "address": "San Antonio",
+    "mailto_url": "mailto:contact@madisonondietrichapts.com?subject=quick%20question%20regarding%20Madison%20on%20Dietrich%20Appartment%20Homes%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.madisonondietrichapts.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Madison%20on%20Dietrich%20Appartment%20Homes%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:09:26"
+  },
+  {
+    "id": 10,
+    "name": "Dietrich Road Apartments",
+    "niche": "Realestate",
+    "city": "San Antonio",
+    "phone": "+1 210 4776334",
+    "website": "N/A",
+    "email": "contact@dietrichroadapartments.example",
+    "address": "San Antonio",
+    "mailto_url": "mailto:contact@dietrichroadapartments.example?subject=quick%20question%20regarding%20Dietrich%20Road%20Apartments%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dietrich%20Road%20Apartments%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:09:26"
+  }
+]

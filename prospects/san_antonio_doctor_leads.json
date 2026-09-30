@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Healy-Murphy Center",
+    "niche": "Doctor",
+    "city": "San Antonio",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@healy-murphycenter.example",
+    "address": "San Antonio",
+    "mailto_url": "mailto:contact@healy-murphycenter.example?subject=quick%20question%20regarding%20Healy-Murphy%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Healy-Murphy%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:07:37"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Paul A Darrow",
+    "niche": "Doctor",
+    "city": "San Antonio",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@drpauladarrow.example",
+    "address": "2526 Nacogdoches Road, San Antonio 78217",
+    "mailto_url": "mailto:contact@drpauladarrow.example?subject=quick%20question%20regarding%20Dr.%20Paul%20A%20Darrow%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dr.%20Paul%20A%20Darrow%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:07:37"
+  },
+  {
+    "id": 3,
+    "name": "Medicina Familiar",
+    "niche": "Doctor",
+    "city": "San Antonio",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@medicinafamiliar.example",
+    "address": "San Antonio",
+    "mailto_url": "mailto:contact@medicinafamiliar.example?subject=quick%20question%20regarding%20Medicina%20Familiar%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Medicina%20Familiar%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:07:37"
+  },
+  {
+    "id": 4,
+    "name": "Posta de Salud Rural Cuncumén",
+    "niche": "Doctor",
+    "city": "San Antonio",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@postadesaludruralcuncumén.example",
+    "address": "San Antonio",
+    "mailto_url": "mailto:contact@postadesaludruralcuncumén.example?subject=quick%20question%20regarding%20Posta%20de%20Salud%20Rural%20Cuncum%C3%A9n%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Posta%20de%20Salud%20Rural%20Cuncum%C3%A9n%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:07:37"
+  },
+  {
+    "id": 5,
+    "name": "Centro Municipal de Salud San Antonio Bajo",
+    "niche": "Doctor",
+    "city": "San Antonio",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@centromunicipaldesaludsanantoniobajo.example",
+    "address": "San Antonio",
+    "mailto_url": "mailto:contact@centromunicipaldesaludsanantoniobajo.example?subject=quick%20question%20regarding%20Centro%20Municipal%20de%20Salud%20San%20Antonio%20Bajo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Centro%20Municipal%20de%20Salud%20San%20Antonio%20Bajo%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:07:37"
+  },
+  {
+    "id": 6,
+    "name": "Puesto de Salud La Bodeguilla",
+    "niche": "Doctor",
+    "city": "San Antonio",
+    "phone": "+51 953718845",
+    "website": "N/A",
+    "email": "contact@puestodesaludlabodeguilla.example",
+    "address": "San Antonio",
+    "mailto_url": "mailto:contact@puestodesaludlabodeguilla.example?subject=quick%20question%20regarding%20Puesto%20de%20Salud%20La%20Bodeguilla%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Puesto%20de%20Salud%20La%20Bodeguilla%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:07:37"
+  },
+  {
+    "id": 7,
+    "name": "Arthritis Associates P A",
+    "niche": "Doctor",
+    "city": "San Antonio",
+    "phone": "+1-210-477-2626",
+    "website": "http://arthritisassociatespa.com",
+    "email": "contact@arthritisassociatespa.com",
+    "address": "4511 Horizon Hill Boulevard, San Antonio 78229",
+    "mailto_url": "mailto:contact@arthritisassociatespa.com?subject=quick%20question%20regarding%20Arthritis%20Associates%20P%20A%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//arthritisassociatespa.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Arthritis%20Associates%20P%20A%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:07:37"
+  },
+  {
+    "id": 8,
+    "name": "Laboratorio Clínico",
+    "niche": "Doctor",
+    "city": "San Antonio",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@laboratorioclínico.example",
+    "address": "San Antonio",
+    "mailto_url": "mailto:contact@laboratorioclínico.example?subject=quick%20question%20regarding%20Laboratorio%20Cl%C3%ADnico%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Laboratorio%20Cl%C3%ADnico%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:07:37"
+  },
+  {
+    "id": 9,
+    "name": "Centro de Salud Mental, HCV, \"Casa Azul\"",
+    "niche": "Doctor",
+    "city": "San Antonio",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@centrodesaludmentalhcv\"casaazul\".example",
+    "address": "2 Norte, San Antonio",
+    "mailto_url": "mailto:contact@centrodesaludmentalhcv\"casaazul\".example?subject=quick%20question%20regarding%20Centro%20de%20Salud%20Mental%2C%20HCV%2C%20%22Casa%20Azul%22%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Centro%20de%20Salud%20Mental%2C%20HCV%2C%20%22Casa%20Azul%22%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:07:37"
+  },
+  {
+    "id": 10,
+    "name": "Bandera Family Health Care",
+    "niche": "Doctor",
+    "city": "San Antonio",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@banderafamilyhealthcare.example",
+    "address": "7579 North Loop 1604 West, San Antonio 78255",
+    "mailto_url": "mailto:contact@banderafamilyhealthcare.example?subject=quick%20question%20regarding%20Bandera%20Family%20Health%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bandera%20Family%20Health%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:07:37"
+  }
+]

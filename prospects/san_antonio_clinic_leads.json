@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "San Antonio Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "San Antonio",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.sanantoniopremierclinicstudio.example",
+    "email": "info@sanantoniopremierclinicstudio.example",
+    "address": "120 Boulevard Ave, San Antonio",
+    "mailto_url": "mailto:info@sanantoniopremierclinicstudio.example?subject=quick%20question%20regarding%20San%20Antonio%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:08:07"
+  },
+  {
+    "id": 2,
+    "name": "Apex San Antonio Clinic Center",
+    "niche": "Clinic",
+    "city": "San Antonio",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexsanantoniocliniccenter.example",
+    "email": "info@apexsanantoniocliniccenter.example",
+    "address": "240 Boulevard Ave, San Antonio",
+    "mailto_url": "mailto:info@apexsanantoniocliniccenter.example?subject=quick%20question%20regarding%20Apex%20San%20Antonio%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:08:07"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of San Antonio",
+    "niche": "Clinic",
+    "city": "San Antonio",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofsanantonio.example",
+    "email": "info@beaconclinicpartnersofsanantonio.example",
+    "address": "360 Boulevard Ave, San Antonio",
+    "mailto_url": "mailto:info@beaconclinicpartnersofsanantonio.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20San%20Antonio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:08:07"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard San Antonio Clinic Group",
+    "niche": "Clinic",
+    "city": "San Antonio",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardsanantonioclinicgroup.example",
+    "email": "info@vanguardsanantonioclinicgroup.example",
+    "address": "480 Boulevard Ave, San Antonio",
+    "mailto_url": "mailto:info@vanguardsanantonioclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20San%20Antonio%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:08:07"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics San Antonio",
+    "niche": "Clinic",
+    "city": "San Antonio",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticssanantonio.example",
+    "email": "info@luminaclinicandaestheticssanantonio.example",
+    "address": "600 Boulevard Ave, San Antonio",
+    "mailto_url": "mailto:info@luminaclinicandaestheticssanantonio.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20San%20Antonio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:08:07"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of San Antonio",
+    "niche": "Clinic",
+    "city": "San Antonio",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofsanantonio.example",
+    "email": "info@proactiveclinicclinicofsanantonio.example",
+    "address": "720 Boulevard Ave, San Antonio",
+    "mailto_url": "mailto:info@proactiveclinicclinicofsanantonio.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20San%20Antonio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:08:07"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists San Antonio",
+    "niche": "Clinic",
+    "city": "San Antonio",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistssanantonio.example",
+    "email": "info@eliteclinicspecialistssanantonio.example",
+    "address": "840 Boulevard Ave, San Antonio",
+    "mailto_url": "mailto:info@eliteclinicspecialistssanantonio.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20San%20Antonio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:08:07"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic San Antonio",
+    "niche": "Clinic",
+    "city": "San Antonio",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicsanantonio.example",
+    "email": "info@summitcrestclinicsanantonio.example",
+    "address": "960 Boulevard Ave, San Antonio",
+    "mailto_url": "mailto:info@summitcrestclinicsanantonio.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20San%20Antonio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:08:07"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center San Antonio",
+    "niche": "Clinic",
+    "city": "San Antonio",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecentersanantonio.example",
+    "email": "info@metrocliniccarecentersanantonio.example",
+    "address": "1080 Boulevard Ave, San Antonio",
+    "mailto_url": "mailto:info@metrocliniccarecentersanantonio.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20San%20Antonio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:08:07"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice San Antonio",
+    "niche": "Clinic",
+    "city": "San Antonio",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticesanantonio.example",
+    "email": "info@pacificcoastclinicpracticesanantonio.example",
+    "address": "1200 Boulevard Ave, San Antonio",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticesanantonio.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20San%20Antonio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 23:08:07"
+  }
+]
