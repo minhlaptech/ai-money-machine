@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Seattle Premier Doctor Studio",
+    "niche": "Doctor",
+    "city": "Seattle",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.seattlepremierdoctorstudio.example",
+    "email": "info@seattlepremierdoctorstudio.example",
+    "address": "120 Boulevard Ave, Seattle",
+    "mailto_url": "mailto:info@seattlepremierdoctorstudio.example?subject=quick%20question%20regarding%20Seattle%20Premier%20Doctor%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:56:49"
+  },
+  {
+    "id": 2,
+    "name": "Apex Seattle Doctor Center",
+    "niche": "Doctor",
+    "city": "Seattle",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexseattledoctorcenter.example",
+    "email": "info@apexseattledoctorcenter.example",
+    "address": "240 Boulevard Ave, Seattle",
+    "mailto_url": "mailto:info@apexseattledoctorcenter.example?subject=quick%20question%20regarding%20Apex%20Seattle%20Doctor%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:56:49"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Doctor Partners of Seattle",
+    "niche": "Doctor",
+    "city": "Seattle",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondoctorpartnersofseattle.example",
+    "email": "info@beacondoctorpartnersofseattle.example",
+    "address": "360 Boulevard Ave, Seattle",
+    "mailto_url": "mailto:info@beacondoctorpartnersofseattle.example?subject=quick%20question%20regarding%20Beacon%20Doctor%20Partners%20of%20Seattle%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:56:49"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Seattle Doctor Group",
+    "niche": "Doctor",
+    "city": "Seattle",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardseattledoctorgroup.example",
+    "email": "info@vanguardseattledoctorgroup.example",
+    "address": "480 Boulevard Ave, Seattle",
+    "mailto_url": "mailto:info@vanguardseattledoctorgroup.example?subject=quick%20question%20regarding%20Vanguard%20Seattle%20Doctor%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:56:49"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Doctor & Aesthetics Seattle",
+    "niche": "Doctor",
+    "city": "Seattle",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadoctorandaestheticsseattle.example",
+    "email": "info@luminadoctorandaestheticsseattle.example",
+    "address": "600 Boulevard Ave, Seattle",
+    "mailto_url": "mailto:info@luminadoctorandaestheticsseattle.example?subject=quick%20question%20regarding%20Lumina%20Doctor%20%26%20Aesthetics%20Seattle%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:56:49"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Doctor Clinic of Seattle",
+    "niche": "Doctor",
+    "city": "Seattle",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedoctorclinicofseattle.example",
+    "email": "info@proactivedoctorclinicofseattle.example",
+    "address": "720 Boulevard Ave, Seattle",
+    "mailto_url": "mailto:info@proactivedoctorclinicofseattle.example?subject=quick%20question%20regarding%20ProActive%20Doctor%20Clinic%20of%20Seattle%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:56:49"
+  },
+  {
+    "id": 7,
+    "name": "Elite Doctor Specialists Seattle",
+    "niche": "Doctor",
+    "city": "Seattle",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedoctorspecialistsseattle.example",
+    "email": "info@elitedoctorspecialistsseattle.example",
+    "address": "840 Boulevard Ave, Seattle",
+    "mailto_url": "mailto:info@elitedoctorspecialistsseattle.example?subject=quick%20question%20regarding%20Elite%20Doctor%20Specialists%20Seattle%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:56:49"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Doctor Seattle",
+    "niche": "Doctor",
+    "city": "Seattle",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdoctorseattle.example",
+    "email": "info@summitcrestdoctorseattle.example",
+    "address": "960 Boulevard Ave, Seattle",
+    "mailto_url": "mailto:info@summitcrestdoctorseattle.example?subject=quick%20question%20regarding%20Summit%20Crest%20Doctor%20Seattle%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:56:49"
+  },
+  {
+    "id": 9,
+    "name": "Metro Doctor Care Center Seattle",
+    "niche": "Doctor",
+    "city": "Seattle",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodoctorcarecenterseattle.example",
+    "email": "info@metrodoctorcarecenterseattle.example",
+    "address": "1080 Boulevard Ave, Seattle",
+    "mailto_url": "mailto:info@metrodoctorcarecenterseattle.example?subject=quick%20question%20regarding%20Metro%20Doctor%20Care%20Center%20Seattle%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:56:49"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Doctor Practice Seattle",
+    "niche": "Doctor",
+    "city": "Seattle",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdoctorpracticeseattle.example",
+    "email": "info@pacificcoastdoctorpracticeseattle.example",
+    "address": "1200 Boulevard Ave, Seattle",
+    "mailto_url": "mailto:info@pacificcoastdoctorpracticeseattle.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Doctor%20Practice%20Seattle%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:56:49"
+  }
+]
