@@ -193,14 +193,14 @@ def send_direct_telegram(sc):
         elif "headline" in product.lower():
             fulfill = "https://work-minh-lap.vercel.app/headlineiq"
         else:
-            fulfill = "https://work-minh-lap.vercel.app/guides/The_AI_Money_Blueprint.pdf"
+            fulfill = "https://work-minh-lap.vercel.app/downloads/The_AI_Money_Blueprint.pdf"
     elif "seller_id" in payload: # Gumroad
         cust_name = payload.get("full_name", "Customer")
         cust_email = payload.get("email", "N/A")
         amount = f"${(payload.get('price', 2700) / 100):.2f}"
         product = payload.get("product_name", "Prompt Pack")
         order_id = payload.get("order_number", "GUM-001")
-        fulfill = "https://work-minh-lap.vercel.app/guides/AI_Marketing_Prompt_Pack_110.pdf"
+        fulfill = "https://work-minh-lap.vercel.app/downloads/AI_Marketing_Prompt_Pack_110.pdf"
     else: # B2B Stripe
         cust_name = payload.get("customer_name", "Client")
         cust_email = payload.get("customer_email", "N/A")

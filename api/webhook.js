@@ -96,9 +96,9 @@ export default async function handler(req, res) {
     const pLower = productName.toLowerCase();
 
     if (pLower.includes('money blueprint') || pLower.includes('guide')) {
-      fulfillmentUrl = 'https://work-minh-lap.vercel.app/guides/The_AI_Money_Blueprint.pdf';
+      fulfillmentUrl = 'https://work-minh-lap.vercel.app/downloads/The_AI_Money_Blueprint.pdf';
     } else if (pLower.includes('prompt')) {
-      fulfillmentUrl = 'https://work-minh-lap.vercel.app/guides/AI_Marketing_Prompt_Pack_110.pdf';
+      fulfillmentUrl = 'https://work-minh-lap.vercel.app/downloads/AI_Marketing_Prompt_Pack_110.pdf';
     } else if (pLower.includes('extension') || pLower.includes('geo')) {
       fulfillmentUrl = 'https://work-minh-lap.vercel.app/synapsegeo';
     } else if (pLower.includes('review')) {
