@@ -68,6 +68,9 @@
     { "source": "/security", "destination": "/trust/index.html" },
     { "source": "/benchmarks", "destination": "/benchmarks/index.html" },
     { "source": "/analytics", "destination": "/benchmarks/index.html" },
-    { "source": "/performance", "destination": "/benchmarks/index.html" }
+    { "source": "/performance", "destination": "/benchmarks/index.html" },
+    { "source": "/guarantee", "destination": "/guarantee/index.html" },
+    { "source": "/sla", "destination": "/guarantee/index.html" },
+    { "source": "/guarantees", "destination": "/guarantee/index.html" }
   ]
 }
