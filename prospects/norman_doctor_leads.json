@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Wise Eye Associates",
+    "niche": "Doctor",
+    "city": "Norman",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@wiseeyeassociates.example",
+    "address": "2201 McKown Drive, Norman 73072",
+    "mailto_url": "mailto:contact@wiseeyeassociates.example?subject=quick%20question%20regarding%20Wise%20Eye%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Wise%20Eye%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:15"
+  },
+  {
+    "id": 2,
+    "name": "Perinatal Center Oklahoma",
+    "niche": "Doctor",
+    "city": "Norman",
+    "phone": "+1 405 801 2542",
+    "website": "http://www.perinatalok.com",
+    "email": "contact@perinatalok.com",
+    "address": "3201 West Tecumseh Road, Norman 73072",
+    "mailto_url": "mailto:contact@perinatalok.com?subject=quick%20question%20regarding%20Perinatal%20Center%20Oklahoma%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.perinatalok.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Perinatal%20Center%20Oklahoma%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:15"
+  },
+  {
+    "id": 3,
+    "name": "Immediate Care of Oklahoma",
+    "niche": "Doctor",
+    "city": "Norman",
+    "phone": "+1 405-829-6095; +1 405-321-7100",
+    "website": "https://www.immediatecareok.com/locations-norman-ok-24th",
+    "email": "contact@immediatecareok.com",
+    "address": "800 24th Avenue Northwest, Norman",
+    "mailto_url": "mailto:contact@immediatecareok.com?subject=quick%20question%20regarding%20Immediate%20Care%20of%20Oklahoma%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.immediatecareok.com/locations-norman-ok-24th%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Immediate%20Care%20of%20Oklahoma%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:15"
+  },
+  {
+    "id": 4,
+    "name": "Cornerstone Nutrition & Diabetes",
+    "niche": "Doctor",
+    "city": "Norman",
+    "phone": "+1-405-701-9909",
+    "website": "https://cornerstonenutritionok.com/",
+    "email": "contact@cornerstonenutritionok.com",
+    "address": "2429 Westport Drive, Norman 73069",
+    "mailto_url": "mailto:contact@cornerstonenutritionok.com?subject=quick%20question%20regarding%20Cornerstone%20Nutrition%20%26%20Diabetes%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//cornerstonenutritionok.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Cornerstone%20Nutrition%20%26%20Diabetes%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:15"
+  },
+  {
+    "id": 5,
+    "name": "Goddard Health Center",
+    "niche": "Doctor",
+    "city": "Norman",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@goddardhealthcenter.example",
+    "address": "620 Elm Avenue, Norman 73069",
+    "mailto_url": "mailto:contact@goddardhealthcenter.example?subject=quick%20question%20regarding%20Goddard%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Goddard%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:15"
+  }
+]

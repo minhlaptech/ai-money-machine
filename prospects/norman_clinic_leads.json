@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Urgent Care Access Medical Center",
+    "niche": "Clinic",
+    "city": "Norman",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@urgentcareaccessmedicalcenter.example",
+    "address": "334 12th Avenue Southeast, Norman 73071",
+    "mailto_url": "mailto:contact@urgentcareaccessmedicalcenter.example?subject=quick%20question%20regarding%20Urgent%20Care%20Access%20Medical%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Urgent%20Care%20Access%20Medical%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:17"
+  },
+  {
+    "id": 2,
+    "name": "Norman Regional Hospital",
+    "niche": "Clinic",
+    "city": "Norman",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@normanregionalhospital.example",
+    "address": "Norman",
+    "mailto_url": "mailto:contact@normanregionalhospital.example?subject=quick%20question%20regarding%20Norman%20Regional%20Hospital%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Norman%20Regional%20Hospital%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:17"
+  },
+  {
+    "id": 3,
+    "name": "Passport Health Norman Travel Clinic",
+    "niche": "Clinic",
+    "city": "Norman",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@passporthealthnormantravelclinic.example",
+    "address": "2500 McGee Drive, Norman 73072",
+    "mailto_url": "mailto:contact@passporthealthnormantravelclinic.example?subject=quick%20question%20regarding%20Passport%20Health%20Norman%20Travel%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Passport%20Health%20Norman%20Travel%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:17"
+  },
+  {
+    "id": 4,
+    "name": "The Joint Chiropractic",
+    "niche": "Clinic",
+    "city": "Norman",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@thejointchiropractic.example",
+    "address": "Norman",
+    "mailto_url": "mailto:contact@thejointchiropractic.example?subject=quick%20question%20regarding%20The%20Joint%20Chiropractic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20The%20Joint%20Chiropractic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:17"
+  },
+  {
+    "id": 5,
+    "name": "Skinlab Injectables",
+    "niche": "Clinic",
+    "city": "Norman",
+    "phone": "N/A",
+    "website": "https://www.skinlabinjectables.com/",
+    "email": "contact@skinlabinjectables.com",
+    "address": "227 West Main Street, Norman 73069",
+    "mailto_url": "mailto:contact@skinlabinjectables.com?subject=quick%20question%20regarding%20Skinlab%20Injectables%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.skinlabinjectables.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Skinlab%20Injectables%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:17"
+  },
+  {
+    "id": 6,
+    "name": "Norman Regional Nine",
+    "niche": "Clinic",
+    "city": "Norman",
+    "phone": "+1-405-307-1000",
+    "website": "https://www.normanregional.com/locations/norman-regional-nine/",
+    "email": "contact@normanregional.com",
+    "address": "Norman",
+    "mailto_url": "mailto:contact@normanregional.com?subject=quick%20question%20regarding%20Norman%20Regional%20Nine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.normanregional.com/locations/norman-regional-nine/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Norman%20Regional%20Nine%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:17"
+  },
+  {
+    "id": 7,
+    "name": "OU Health Stephenson Cancer Center at Norman Regional",
+    "niche": "Clinic",
+    "city": "Norman",
+    "phone": "+1-572-244-0209",
+    "website": "https://www.ouhealth.com/find-a-location/ou-health-stephenson-cancer-center-at-norman-reg/",
+    "email": "contact@ouhealth.com",
+    "address": "3240 HealthPlex Drive, Norman 73072",
+    "mailto_url": "mailto:contact@ouhealth.com?subject=quick%20question%20regarding%20OU%20Health%20Stephenson%20Cancer%20Center%20at%20Norman%20Regional%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.ouhealth.com/find-a-location/ou-health-stephenson-cancer-center-at-norman-reg/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20OU%20Health%20Stephenson%20Cancer%20Center%20at%20Norman%20Regional%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:17"
+  },
+  {
+    "id": 8,
+    "name": "Eye clinic",
+    "niche": "Clinic",
+    "city": "Norman",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@eyeclinic.example",
+    "address": "1125 North Porter Avenue, Norman",
+    "mailto_url": "mailto:contact@eyeclinic.example?subject=quick%20question%20regarding%20Eye%20clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Eye%20clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:17"
+  },
+  {
+    "id": 9,
+    "name": "Absentee Shawnee Tribal Health System",
+    "niche": "Clinic",
+    "city": "Norman",
+    "phone": "+1 405 447 0300",
+    "website": "https://asthealth.org/",
+    "email": "contact@asthealth.org",
+    "address": "15951 Little Axe Drive, Norman 73026",
+    "mailto_url": "mailto:contact@asthealth.org?subject=quick%20question%20regarding%20Absentee%20Shawnee%20Tribal%20Health%20System%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//asthealth.org/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Absentee%20Shawnee%20Tribal%20Health%20System%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:17"
+  },
+  {
+    "id": 10,
+    "name": "Norman Clinic #10",
+    "niche": "Clinic",
+    "city": "Norman",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@normanclinic#10.example",
+    "address": "Norman",
+    "mailto_url": "mailto:contact@normanclinic#10.example?subject=quick%20question%20regarding%20Norman%20Clinic%20%2310%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Norman%20Clinic%20%2310%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:39:17"
+  }
+]
