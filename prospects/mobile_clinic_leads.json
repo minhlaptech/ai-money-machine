@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Mobile Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Mobile",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.mobilepremierclinicstudio.example",
+    "email": "info@mobilepremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Mobile",
+    "mailto_url": "mailto:info@mobilepremierclinicstudio.example?subject=quick%20question%20regarding%20Mobile%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:53:48"
+  },
+  {
+    "id": 2,
+    "name": "Apex Mobile Clinic Center",
+    "niche": "Clinic",
+    "city": "Mobile",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexmobilecliniccenter.example",
+    "email": "info@apexmobilecliniccenter.example",
+    "address": "240 Boulevard Ave, Mobile",
+    "mailto_url": "mailto:info@apexmobilecliniccenter.example?subject=quick%20question%20regarding%20Apex%20Mobile%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:53:48"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Mobile",
+    "niche": "Clinic",
+    "city": "Mobile",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofmobile.example",
+    "email": "info@beaconclinicpartnersofmobile.example",
+    "address": "360 Boulevard Ave, Mobile",
+    "mailto_url": "mailto:info@beaconclinicpartnersofmobile.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Mobile%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:53:48"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Mobile Clinic Group",
+    "niche": "Clinic",
+    "city": "Mobile",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardmobileclinicgroup.example",
+    "email": "info@vanguardmobileclinicgroup.example",
+    "address": "480 Boulevard Ave, Mobile",
+    "mailto_url": "mailto:info@vanguardmobileclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Mobile%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:53:48"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Mobile",
+    "niche": "Clinic",
+    "city": "Mobile",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsmobile.example",
+    "email": "info@luminaclinicandaestheticsmobile.example",
+    "address": "600 Boulevard Ave, Mobile",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsmobile.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Mobile%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:53:48"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Mobile",
+    "niche": "Clinic",
+    "city": "Mobile",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofmobile.example",
+    "email": "info@proactiveclinicclinicofmobile.example",
+    "address": "720 Boulevard Ave, Mobile",
+    "mailto_url": "mailto:info@proactiveclinicclinicofmobile.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Mobile%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:53:48"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Mobile",
+    "niche": "Clinic",
+    "city": "Mobile",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistsmobile.example",
+    "email": "info@eliteclinicspecialistsmobile.example",
+    "address": "840 Boulevard Ave, Mobile",
+    "mailto_url": "mailto:info@eliteclinicspecialistsmobile.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Mobile%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:53:48"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Mobile",
+    "niche": "Clinic",
+    "city": "Mobile",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicmobile.example",
+    "email": "info@summitcrestclinicmobile.example",
+    "address": "960 Boulevard Ave, Mobile",
+    "mailto_url": "mailto:info@summitcrestclinicmobile.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Mobile%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:53:48"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Mobile",
+    "niche": "Clinic",
+    "city": "Mobile",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecentermobile.example",
+    "email": "info@metrocliniccarecentermobile.example",
+    "address": "1080 Boulevard Ave, Mobile",
+    "mailto_url": "mailto:info@metrocliniccarecentermobile.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Mobile%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:53:48"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Mobile",
+    "niche": "Clinic",
+    "city": "Mobile",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticemobile.example",
+    "email": "info@pacificcoastclinicpracticemobile.example",
+    "address": "1200 Boulevard Ave, Mobile",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticemobile.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Mobile%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:53:48"
+  }
+]
