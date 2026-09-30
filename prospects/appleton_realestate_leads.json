@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Appleton Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "Appleton",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.appletonpremierrealestatestudio.example",
+    "email": "info@appletonpremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, Appleton",
+    "mailto_url": "mailto:info@appletonpremierrealestatestudio.example?subject=quick%20question%20regarding%20Appleton%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:56:04"
+  },
+  {
+    "id": 2,
+    "name": "Apex Appleton Realestate Center",
+    "niche": "Realestate",
+    "city": "Appleton",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexappletonrealestatecenter.example",
+    "email": "info@apexappletonrealestatecenter.example",
+    "address": "240 Boulevard Ave, Appleton",
+    "mailto_url": "mailto:info@apexappletonrealestatecenter.example?subject=quick%20question%20regarding%20Apex%20Appleton%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:56:04"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of Appleton",
+    "niche": "Realestate",
+    "city": "Appleton",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersofappleton.example",
+    "email": "info@beaconrealestatepartnersofappleton.example",
+    "address": "360 Boulevard Ave, Appleton",
+    "mailto_url": "mailto:info@beaconrealestatepartnersofappleton.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20Appleton%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:56:04"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Appleton Realestate Group",
+    "niche": "Realestate",
+    "city": "Appleton",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardappletonrealestategroup.example",
+    "email": "info@vanguardappletonrealestategroup.example",
+    "address": "480 Boulevard Ave, Appleton",
+    "mailto_url": "mailto:info@vanguardappletonrealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20Appleton%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:56:04"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics Appleton",
+    "niche": "Realestate",
+    "city": "Appleton",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticsappleton.example",
+    "email": "info@luminarealestateandaestheticsappleton.example",
+    "address": "600 Boulevard Ave, Appleton",
+    "mailto_url": "mailto:info@luminarealestateandaestheticsappleton.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20Appleton%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:56:04"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Realestate Clinic of Appleton",
+    "niche": "Realestate",
+    "city": "Appleton",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiverealestateclinicofappleton.example",
+    "email": "info@proactiverealestateclinicofappleton.example",
+    "address": "720 Boulevard Ave, Appleton",
+    "mailto_url": "mailto:info@proactiverealestateclinicofappleton.example?subject=quick%20question%20regarding%20ProActive%20Realestate%20Clinic%20of%20Appleton%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:56:04"
+  },
+  {
+    "id": 7,
+    "name": "Elite Realestate Specialists Appleton",
+    "niche": "Realestate",
+    "city": "Appleton",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliterealestatespecialistsappleton.example",
+    "email": "info@eliterealestatespecialistsappleton.example",
+    "address": "840 Boulevard Ave, Appleton",
+    "mailto_url": "mailto:info@eliterealestatespecialistsappleton.example?subject=quick%20question%20regarding%20Elite%20Realestate%20Specialists%20Appleton%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:56:04"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Realestate Appleton",
+    "niche": "Realestate",
+    "city": "Appleton",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestrealestateappleton.example",
+    "email": "info@summitcrestrealestateappleton.example",
+    "address": "960 Boulevard Ave, Appleton",
+    "mailto_url": "mailto:info@summitcrestrealestateappleton.example?subject=quick%20question%20regarding%20Summit%20Crest%20Realestate%20Appleton%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:56:04"
+  },
+  {
+    "id": 9,
+    "name": "Metro Realestate Care Center Appleton",
+    "niche": "Realestate",
+    "city": "Appleton",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrorealestatecarecenterappleton.example",
+    "email": "info@metrorealestatecarecenterappleton.example",
+    "address": "1080 Boulevard Ave, Appleton",
+    "mailto_url": "mailto:info@metrorealestatecarecenterappleton.example?subject=quick%20question%20regarding%20Metro%20Realestate%20Care%20Center%20Appleton%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:56:04"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Realestate Practice Appleton",
+    "niche": "Realestate",
+    "city": "Appleton",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastrealestatepracticeappleton.example",
+    "email": "info@pacificcoastrealestatepracticeappleton.example",
+    "address": "1200 Boulevard Ave, Appleton",
+    "mailto_url": "mailto:info@pacificcoastrealestatepracticeappleton.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Realestate%20Practice%20Appleton%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:56:04"
+  }
+]

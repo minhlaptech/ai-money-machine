@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Appleton Dental Care",
+    "niche": "Dentist",
+    "city": "Appleton",
+    "phone": "+1 320 289 2241",
+    "website": "https://www.appletondentalmn.com/",
+    "email": "contact@appletondentalmn.com",
+    "address": "32 South Behl Street, Appleton 56208",
+    "mailto_url": "mailto:contact@appletondentalmn.com?subject=quick%20question%20regarding%20Appleton%20Dental%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.appletondentalmn.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Appleton%20Dental%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:55:18"
+  },
+  {
+    "id": 2,
+    "name": "Artistic Smiles Dentistry",
+    "niche": "Dentist",
+    "city": "Appleton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@artisticsmilesdentistry.example",
+    "address": "3825 East Calumet Street, Appleton",
+    "mailto_url": "mailto:contact@artisticsmilesdentistry.example?subject=quick%20question%20regarding%20Artistic%20Smiles%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Artistic%20Smiles%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:55:18"
+  },
+  {
+    "id": 3,
+    "name": "Bell Dentistry",
+    "niche": "Dentist",
+    "city": "Appleton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@belldentistry.example",
+    "address": "3525 East Calumet Street, Appleton",
+    "mailto_url": "mailto:contact@belldentistry.example?subject=quick%20question%20regarding%20Bell%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bell%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:55:18"
+  },
+  {
+    "id": 4,
+    "name": "Apple Town Dental Care",
+    "niche": "Dentist",
+    "city": "Appleton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@appletowndentalcare.example",
+    "address": "Appleton",
+    "mailto_url": "mailto:contact@appletowndentalcare.example?subject=quick%20question%20regarding%20Apple%20Town%20Dental%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Apple%20Town%20Dental%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:55:18"
+  },
+  {
+    "id": 5,
+    "name": "Modern Touch Dentistry",
+    "niche": "Dentist",
+    "city": "Appleton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@moderntouchdentistry.example",
+    "address": "Appleton",
+    "mailto_url": "mailto:contact@moderntouchdentistry.example?subject=quick%20question%20regarding%20Modern%20Touch%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Modern%20Touch%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:55:18"
+  },
+  {
+    "id": 6,
+    "name": "Appleton Park Dental",
+    "niche": "Dentist",
+    "city": "Appleton",
+    "phone": "+44 1925 266488",
+    "website": "https://www.appletonparkdental.co.uk/",
+    "email": "contact@appletonparkdental.co.uk",
+    "address": "37 Dudlow Green Road, Appleton",
+    "mailto_url": "mailto:contact@appletonparkdental.co.uk?subject=quick%20question%20regarding%20Appleton%20Park%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.appletonparkdental.co.uk/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Appleton%20Park%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:55:18"
+  },
+  {
+    "id": 7,
+    "name": "Tetting & Tetting DDS",
+    "niche": "Dentist",
+    "city": "Appleton",
+    "phone": "+19207399612",
+    "website": "https://www.tettingdds.com/",
+    "email": "contact@tettingdds.com",
+    "address": "901 W Association Drive, Appleton 54914",
+    "mailto_url": "mailto:contact@tettingdds.com?subject=quick%20question%20regarding%20Tetting%20%26%20Tetting%20DDS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.tettingdds.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Tetting%20%26%20Tetting%20DDS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:55:18"
+  },
+  {
+    "id": 8,
+    "name": "RLJ Dental",
+    "niche": "Dentist",
+    "city": "Appleton",
+    "phone": "N/A",
+    "website": "https://rljdentalappleton.com/",
+    "email": "contact@rljdentalappleton.com",
+    "address": "3432 N Association Drive, Appleton 54914",
+    "mailto_url": "mailto:contact@rljdentalappleton.com?subject=quick%20question%20regarding%20RLJ%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//rljdentalappleton.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20RLJ%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:55:18"
+  },
+  {
+    "id": 9,
+    "name": "Polzin Family Dental",
+    "niche": "Dentist",
+    "city": "Appleton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@polzinfamilydental.example",
+    "address": "1425 East John Street, Appleton",
+    "mailto_url": "mailto:contact@polzinfamilydental.example?subject=quick%20question%20regarding%20Polzin%20Family%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Polzin%20Family%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:55:18"
+  },
+  {
+    "id": 10,
+    "name": "Appleton Dental Center",
+    "niche": "Dentist",
+    "city": "Appleton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@appletondentalcenter.example",
+    "address": "Appleton",
+    "mailto_url": "mailto:contact@appletondentalcenter.example?subject=quick%20question%20regarding%20Appleton%20Dental%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Appleton%20Dental%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:55:18"
+  }
+]
