@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Nancy N. and J.C. Lewis Cancer Center & Research Pavilion",
+    "niche": "Clinic",
+    "city": "Savannah",
+    "phone": "+1-912-819-5704",
+    "website": "https://www.sjchs.org/cancer",
+    "email": "contact@sjchs.org",
+    "address": "225 Candler Drive, Savannah 31405",
+    "mailto_url": "mailto:contact@sjchs.org?subject=quick%20question%20regarding%20Nancy%20N.%20and%20J.C.%20Lewis%20Cancer%20Center%20%26%20Research%20Pavilion%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.sjchs.org/cancer%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Nancy%20N.%20and%20J.C.%20Lewis%20Cancer%20Center%20%26%20Research%20Pavilion%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:40"
+  },
+  {
+    "id": 2,
+    "name": "J.C. Lewis Primary Health Care Center",
+    "niche": "Clinic",
+    "city": "Savannah",
+    "phone": "+1 912 495 8887",
+    "website": "https://jclewishealth.org/",
+    "email": "contact@jclewishealth.org",
+    "address": "125 Fahm Street, Savannah 31401",
+    "mailto_url": "mailto:contact@jclewishealth.org?subject=quick%20question%20regarding%20J.C.%20Lewis%20Primary%20Health%20Care%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//jclewishealth.org/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20J.C.%20Lewis%20Primary%20Health%20Care%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:40"
+  },
+  {
+    "id": 3,
+    "name": "J.C. Lewis Behavioral Healthcare Center",
+    "niche": "Clinic",
+    "city": "Savannah",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@jclewisbehavioralhealthcarecenter.example",
+    "address": "Savannah",
+    "mailto_url": "mailto:contact@jclewisbehavioralhealthcarecenter.example?subject=quick%20question%20regarding%20J.C.%20Lewis%20Behavioral%20Healthcare%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20J.C.%20Lewis%20Behavioral%20Healthcare%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:40"
+  },
+  {
+    "id": 4,
+    "name": "Chatham County Health Department",
+    "niche": "Clinic",
+    "city": "Savannah",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@chathamcountyhealthdepartment.example",
+    "address": "Savannah",
+    "mailto_url": "mailto:contact@chathamcountyhealthdepartment.example?subject=quick%20question%20regarding%20Chatham%20County%20Health%20Department%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Chatham%20County%20Health%20Department%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:40"
+  },
+  {
+    "id": 5,
+    "name": "Savannah neurology specialists",
+    "niche": "Clinic",
+    "city": "Savannah",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@savannahneurologyspecialists.example",
+    "address": "Savannah",
+    "mailto_url": "mailto:contact@savannahneurologyspecialists.example?subject=quick%20question%20regarding%20Savannah%20neurology%20specialists%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Savannah%20neurology%20specialists%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:40"
+  },
+  {
+    "id": 6,
+    "name": "Advantage Infusions",
+    "niche": "Clinic",
+    "city": "Savannah",
+    "phone": "+1-912-777-7314",
+    "website": "N/A",
+    "email": "contact@advantageinfusions.example",
+    "address": "7001 Hodgson Memorial Drive, Savannah 31401",
+    "mailto_url": "mailto:contact@advantageinfusions.example?subject=quick%20question%20regarding%20Advantage%20Infusions%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Advantage%20Infusions%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:40"
+  },
+  {
+    "id": 7,
+    "name": "West Tennessee Bone & Joint Clinic",
+    "niche": "Clinic",
+    "city": "Savannah",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@westtennesseebonejointclinic.example",
+    "address": "Savannah",
+    "mailto_url": "mailto:contact@westtennesseebonejointclinic.example?subject=quick%20question%20regarding%20West%20Tennessee%20Bone%20%26%20Joint%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20West%20Tennessee%20Bone%20%26%20Joint%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:40"
+  },
+  {
+    "id": 8,
+    "name": "Davis Centre",
+    "niche": "Clinic",
+    "city": "Savannah",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@daviscentre.example",
+    "address": "1010 Wayne Road, Savannah 38372",
+    "mailto_url": "mailto:contact@daviscentre.example?subject=quick%20question%20regarding%20Davis%20Centre%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Davis%20Centre%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:40"
+  },
+  {
+    "id": 9,
+    "name": "West Tennessee Bone & Joint",
+    "niche": "Clinic",
+    "city": "Savannah",
+    "phone": "+1-731-661-9825",
+    "website": "N/A",
+    "email": "contact@westtennesseebonejoint.example",
+    "address": "1940 Pickwick Street South, Savannah 38372",
+    "mailto_url": "mailto:contact@westtennesseebonejoint.example?subject=quick%20question%20regarding%20West%20Tennessee%20Bone%20%26%20Joint%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20West%20Tennessee%20Bone%20%26%20Joint%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:40"
+  },
+  {
+    "id": 10,
+    "name": "Savannah Foot Clinic",
+    "niche": "Clinic",
+    "city": "Savannah",
+    "phone": "+1-731-925-3342",
+    "website": "https://bkboydpodiatrist.com/savannah-office/",
+    "email": "contact@bkboydpodiatrist.com",
+    "address": "1950 Pickwick Street South, Savannah 38372",
+    "mailto_url": "mailto:contact@bkboydpodiatrist.com?subject=quick%20question%20regarding%20Savannah%20Foot%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//bkboydpodiatrist.com/savannah-office/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Savannah%20Foot%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:40"
+  }
+]

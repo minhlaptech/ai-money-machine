@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "J.C. Lewis Dental Center",
+    "niche": "Dentist",
+    "city": "Savannah",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@jclewisdentalcenter.example",
+    "address": "Savannah",
+    "mailto_url": "mailto:contact@jclewisdentalcenter.example?subject=quick%20question%20regarding%20J.C.%20Lewis%20Dental%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20J.C.%20Lewis%20Dental%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:23"
+  },
+  {
+    "id": 2,
+    "name": "Savannah Dental Group",
+    "niche": "Dentist",
+    "city": "Savannah",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@savannahdentalgroup.example",
+    "address": "5509 Paulsen Street, Savannah 31405",
+    "mailto_url": "mailto:contact@savannahdentalgroup.example?subject=quick%20question%20regarding%20Savannah%20Dental%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Savannah%20Dental%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:23"
+  },
+  {
+    "id": 3,
+    "name": "Greg Abbott DDS",
+    "niche": "Dentist",
+    "city": "Savannah",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@gregabbottdds.example",
+    "address": "Savannah",
+    "mailto_url": "mailto:contact@gregabbottdds.example?subject=quick%20question%20regarding%20Greg%20Abbott%20DDS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Greg%20Abbott%20DDS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:23"
+  },
+  {
+    "id": 4,
+    "name": "Miller Dental Group",
+    "niche": "Dentist",
+    "city": "Savannah",
+    "phone": "N/A",
+    "website": "https://dentist-savannah.com/",
+    "email": "contact@dentist-savannah.com",
+    "address": "901 East 66th Street, Savannah 31404",
+    "mailto_url": "mailto:contact@dentist-savannah.com?subject=quick%20question%20regarding%20Miller%20Dental%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//dentist-savannah.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Miller%20Dental%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:23"
+  },
+  {
+    "id": 5,
+    "name": "Savannah Smiles",
+    "niche": "Dentist",
+    "city": "Savannah",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@savannahsmiles.example",
+    "address": "Savannah",
+    "mailto_url": "mailto:contact@savannahsmiles.example?subject=quick%20question%20regarding%20Savannah%20Smiles%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Savannah%20Smiles%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:23"
+  },
+  {
+    "id": 6,
+    "name": "Stacy R. Wilkerson, DDS",
+    "niche": "Dentist",
+    "city": "Savannah",
+    "phone": "+1-731-925-5346",
+    "website": "N/A",
+    "email": "contact@stacyrwilkersondds.example",
+    "address": "1480 Florence Road, Savannah 38372",
+    "mailto_url": "mailto:contact@stacyrwilkersondds.example?subject=quick%20question%20regarding%20Stacy%20R.%20Wilkerson%2C%20DDS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Stacy%20R.%20Wilkerson%2C%20DDS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:23"
+  },
+  {
+    "id": 7,
+    "name": "Savannah Dentist #7",
+    "niche": "Dentist",
+    "city": "Savannah",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@savannahdentist#7.example",
+    "address": "Savannah",
+    "mailto_url": "mailto:contact@savannahdentist#7.example?subject=quick%20question%20regarding%20Savannah%20Dentist%20%237%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Savannah%20Dentist%20%237%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:38:23"
+  }
+]
