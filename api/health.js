@@ -18,7 +18,7 @@ export default function handler(req, res) {
 
   return res.status(200).json({
     status: 'operational',
-    version: '8.7.0',
+    version: '8.8.0',
     timestamp: now.toISOString(),
     local_time_vn: now.toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' }),
     author: 'Minh Lap',
@@ -37,7 +37,7 @@ export default function handler(req, res) {
         sovereign_vpcs: 8,
         syndicate_franchises: 12
       },
-      flagship_hubs: 25,
+      flagship_hubs: 26,
       saas_tools: 5,
       client_packages_zip: 95,
       packaged_deliverables: 855,
@@ -71,6 +71,7 @@ export default function handler(req, res) {
       { name: 'Global AI Performance & Benchmark Index', status: 'live', url: 'https://work-minh-lap.vercel.app/benchmarks' },
       { name: 'SLA Incident Response & Financial Guarantee Center', status: 'live', url: 'https://work-minh-lap.vercel.app/guarantee' },
       { name: 'Self-Service Knowledge Base & AI Agent Studio', status: 'live', url: 'https://work-minh-lap.vercel.app/knowledge' },
+      { name: 'Omnichannel Unified Inbox & HITL Dispatch Center', status: 'live', url: 'https://work-minh-lap.vercel.app/inbox' },
       { name: 'Serverless Health API', status: 'live', url: 'https://work-minh-lap.vercel.app/api/health' },
       { name: 'Serverless Telemetry API', status: 'live', url: 'https://work-minh-lap.vercel.app/api/telemetry' }
     ]

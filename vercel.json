@@ -74,6 +74,9 @@
     { "source": "/guarantees", "destination": "/guarantee/index.html" },
     { "source": "/knowledge", "destination": "/knowledge/index.html" },
     { "source": "/agent-studio", "destination": "/knowledge/index.html" },
-    { "source": "/studio/agent", "destination": "/knowledge/index.html" }
+    { "source": "/studio/agent", "destination": "/knowledge/index.html" },
+    { "source": "/inbox", "destination": "/inbox/index.html" },
+    { "source": "/conversations", "destination": "/inbox/index.html" },
+    { "source": "/dispatch", "destination": "/inbox/index.html" }
   ]
 }
