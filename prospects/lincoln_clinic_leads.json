@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Lincoln Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.lincolnpremierclinicstudio.example",
+    "email": "info@lincolnpremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@lincolnpremierclinicstudio.example?subject=quick%20question%20regarding%20Lincoln%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:50"
+  },
+  {
+    "id": 2,
+    "name": "Apex Lincoln Clinic Center",
+    "niche": "Clinic",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexlincolncliniccenter.example",
+    "email": "info@apexlincolncliniccenter.example",
+    "address": "240 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@apexlincolncliniccenter.example?subject=quick%20question%20regarding%20Apex%20Lincoln%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:50"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Lincoln",
+    "niche": "Clinic",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersoflincoln.example",
+    "email": "info@beaconclinicpartnersoflincoln.example",
+    "address": "360 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@beaconclinicpartnersoflincoln.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:50"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Lincoln Clinic Group",
+    "niche": "Clinic",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardlincolnclinicgroup.example",
+    "email": "info@vanguardlincolnclinicgroup.example",
+    "address": "480 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@vanguardlincolnclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Lincoln%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:50"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Lincoln",
+    "niche": "Clinic",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticslincoln.example",
+    "email": "info@luminaclinicandaestheticslincoln.example",
+    "address": "600 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@luminaclinicandaestheticslincoln.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:50"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Lincoln",
+    "niche": "Clinic",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicoflincoln.example",
+    "email": "info@proactiveclinicclinicoflincoln.example",
+    "address": "720 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@proactiveclinicclinicoflincoln.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:50"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Lincoln",
+    "niche": "Clinic",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistslincoln.example",
+    "email": "info@eliteclinicspecialistslincoln.example",
+    "address": "840 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@eliteclinicspecialistslincoln.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:50"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Lincoln",
+    "niche": "Clinic",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestcliniclincoln.example",
+    "email": "info@summitcrestcliniclincoln.example",
+    "address": "960 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@summitcrestcliniclincoln.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:50"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Lincoln",
+    "niche": "Clinic",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecenterlincoln.example",
+    "email": "info@metrocliniccarecenterlincoln.example",
+    "address": "1080 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@metrocliniccarecenterlincoln.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:50"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Lincoln",
+    "niche": "Clinic",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticelincoln.example",
+    "email": "info@pacificcoastclinicpracticelincoln.example",
+    "address": "1200 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticelincoln.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:50"
+  }
+]

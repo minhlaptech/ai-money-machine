@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Jensen Smith CPA",
+    "niche": "Cpa",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@jensensmithcpa.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@jensensmithcpa.example?subject=quick%20question%20regarding%20Jensen%20Smith%20CPA%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jensen%20Smith%20CPA%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:05"
+  },
+  {
+    "id": 2,
+    "name": "AIM Diversified",
+    "niche": "Cpa",
+    "city": "Lincoln",
+    "phone": "+1-402-466-2935",
+    "website": "N/A",
+    "email": "contact@aimdiversified.example",
+    "address": "1405 North Cotner Boulevard, Lincoln 68505",
+    "mailto_url": "mailto:contact@aimdiversified.example?subject=quick%20question%20regarding%20AIM%20Diversified%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20AIM%20Diversified%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:05"
+  },
+  {
+    "id": 3,
+    "name": "John W. Tutecky, CPA",
+    "niche": "Cpa",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@johnwtuteckycpa.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@johnwtuteckycpa.example?subject=quick%20question%20regarding%20John%20W.%20Tutecky%2C%20CPA%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20John%20W.%20Tutecky%2C%20CPA%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:05"
+  },
+  {
+    "id": 4,
+    "name": "Sure Shot Business Services Inc.",
+    "niche": "Cpa",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@sureshotbusinessservicesinc.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@sureshotbusinessservicesinc.example?subject=quick%20question%20regarding%20Sure%20Shot%20Business%20Services%20Inc.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sure%20Shot%20Business%20Services%20Inc.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:05"
+  },
+  {
+    "id": 5,
+    "name": "Shotkoski & Associates, PC",
+    "niche": "Cpa",
+    "city": "Lincoln",
+    "phone": "+1-402-476-9650",
+    "website": "https://shotcpa.com/",
+    "email": "contact@shotcpa.com",
+    "address": "3031 O Street, Lincoln 68510",
+    "mailto_url": "mailto:contact@shotcpa.com?subject=quick%20question%20regarding%20Shotkoski%20%26%20Associates%2C%20PC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//shotcpa.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Shotkoski%20%26%20Associates%2C%20PC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:05"
+  },
+  {
+    "id": 6,
+    "name": "Jackson Stapleton Accountants",
+    "niche": "Cpa",
+    "city": "Lincoln",
+    "phone": "+44 1522 519400",
+    "website": "https://jacksonstapleton.co.uk/",
+    "email": "contact@jacksonstapleton.co.uk",
+    "address": "86-88 Carholme Road, Lincoln LN1 1SP",
+    "mailto_url": "mailto:contact@jacksonstapleton.co.uk?subject=quick%20question%20regarding%20Jackson%20Stapleton%20Accountants%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//jacksonstapleton.co.uk/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jackson%20Stapleton%20Accountants%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:05"
+  },
+  {
+    "id": 7,
+    "name": "Wright Vigar",
+    "niche": "Cpa",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@wrightvigar.example",
+    "address": "15 Newland, Lincoln LN1 1XG",
+    "mailto_url": "mailto:contact@wrightvigar.example?subject=quick%20question%20regarding%20Wright%20Vigar%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Wright%20Vigar%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:05"
+  },
+  {
+    "id": 8,
+    "name": "Atkinson Saul Fairholm",
+    "niche": "Cpa",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@atkinsonsaulfairholm.example",
+    "address": "21 Newland, Lincoln LN1 1XP",
+    "mailto_url": "mailto:contact@atkinsonsaulfairholm.example?subject=quick%20question%20regarding%20Atkinson%20Saul%20Fairholm%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Atkinson%20Saul%20Fairholm%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:05"
+  },
+  {
+    "id": 9,
+    "name": "Malone Dirubbo & Company P.C.",
+    "niche": "Cpa",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@malonedirubbocompanypc.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@malonedirubbocompanypc.example?subject=quick%20question%20regarding%20Malone%20Dirubbo%20%26%20Company%20P.C.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Malone%20Dirubbo%20%26%20Company%20P.C.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:05"
+  },
+  {
+    "id": 10,
+    "name": "Lincoln Cpa #10",
+    "niche": "Cpa",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lincolncpa#10.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@lincolncpa#10.example?subject=quick%20question%20regarding%20Lincoln%20Cpa%20%2310%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lincoln%20Cpa%20%2310%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:05"
+  }
+]

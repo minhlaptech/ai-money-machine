@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Family Dentistry Center",
+    "niche": "Dentist",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@familydentistrycenter.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@familydentistrycenter.example?subject=quick%20question%20regarding%20Family%20Dentistry%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Family%20Dentistry%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:20"
+  },
+  {
+    "id": 2,
+    "name": "Family Dental Care",
+    "niche": "Dentist",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@familydentalcare.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@familydentalcare.example?subject=quick%20question%20regarding%20Family%20Dental%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Family%20Dental%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:20"
+  },
+  {
+    "id": 3,
+    "name": "Lincoln Dental Canterbury",
+    "niche": "Dentist",
+    "city": "Lincoln",
+    "phone": "+64 3 325 2696",
+    "website": "N/A",
+    "email": "contact@lincolndentalcanterbury.example",
+    "address": "55 Gerald Street, Lincoln 7608",
+    "mailto_url": "mailto:contact@lincolndentalcanterbury.example?subject=quick%20question%20regarding%20Lincoln%20Dental%20Canterbury%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lincoln%20Dental%20Canterbury%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:20"
+  },
+  {
+    "id": 4,
+    "name": "Lincoln Dentist #4",
+    "niche": "Dentist",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lincolndentist#4.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@lincolndentist#4.example?subject=quick%20question%20regarding%20Lincoln%20Dentist%20%234%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lincoln%20Dentist%20%234%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:20"
+  },
+  {
+    "id": 5,
+    "name": "Red Pepper Clinic",
+    "niche": "Dentist",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@redpepperclinic.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@redpepperclinic.example?subject=quick%20question%20regarding%20Red%20Pepper%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Red%20Pepper%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:20"
+  },
+  {
+    "id": 6,
+    "name": "Aspen Dental",
+    "niche": "Dentist",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@aspendental.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@aspendental.example?subject=quick%20question%20regarding%20Aspen%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Aspen%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:20"
+  },
+  {
+    "id": 7,
+    "name": "Edgewood Dental",
+    "niche": "Dentist",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@edgewooddental.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@edgewooddental.example?subject=quick%20question%20regarding%20Edgewood%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Edgewood%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:20"
+  },
+  {
+    "id": 8,
+    "name": "Parks Family Dental",
+    "niche": "Dentist",
+    "city": "Lincoln",
+    "phone": "+1-402-484-6042",
+    "website": "https://www.myparksfamilydental.com/",
+    "email": "contact@myparksfamilydental.com",
+    "address": "4210 Pioneer Woods Drive, Lincoln 68506",
+    "mailto_url": "mailto:contact@myparksfamilydental.com?subject=quick%20question%20regarding%20Parks%20Family%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.myparksfamilydental.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Parks%20Family%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:20"
+  },
+  {
+    "id": 9,
+    "name": "Northridge Dental",
+    "niche": "Dentist",
+    "city": "Lincoln",
+    "phone": "+1-402-477-1177",
+    "website": "https://www.northridgedental.org/",
+    "email": "contact@northridgedental.org",
+    "address": "1401 Superior Street, Lincoln 68521",
+    "mailto_url": "mailto:contact@northridgedental.org?subject=quick%20question%20regarding%20Northridge%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.northridgedental.org/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Northridge%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:20"
+  },
+  {
+    "id": 10,
+    "name": "Hurlbut Dental",
+    "niche": "Dentist",
+    "city": "Lincoln",
+    "phone": "+1-402-438-5588",
+    "website": "https://hurlbutdental.com/",
+    "email": "contact@hurlbutdental.com",
+    "address": "5611 Northwest 1st Street, Lincoln 68521",
+    "mailto_url": "mailto:contact@hurlbutdental.com?subject=quick%20question%20regarding%20Hurlbut%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//hurlbutdental.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hurlbut%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:25:20"
+  }
+]

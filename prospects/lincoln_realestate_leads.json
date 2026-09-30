@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Century 21",
+    "niche": "Realestate",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@century21.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@century21.example?subject=quick%20question%20regarding%20Century%2021%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Century%2021%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:20"
+  },
+  {
+    "id": 2,
+    "name": "American Home Realty",
+    "niche": "Realestate",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@americanhomerealty.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@americanhomerealty.example?subject=quick%20question%20regarding%20American%20Home%20Realty%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20American%20Home%20Realty%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:20"
+  },
+  {
+    "id": 3,
+    "name": "Benham & Reeves",
+    "niche": "Realestate",
+    "city": "Lincoln",
+    "phone": "+44 20 8187 0888",
+    "website": "https://www.benhams.com/estate-agents/white-city/",
+    "email": "contact@benhams.com",
+    "address": "1.1B Fountain Park Way, Lincoln W12 7NP",
+    "mailto_url": "mailto:contact@benhams.com?subject=quick%20question%20regarding%20Benham%20%26%20Reeves%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.benhams.com/estate-agents/white-city/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Benham%20%26%20Reeves%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:20"
+  },
+  {
+    "id": 4,
+    "name": "RE/MAX",
+    "niche": "Realestate",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@re/max.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@re/max.example?subject=quick%20question%20regarding%20RE/MAX%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20RE/MAX%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:20"
+  },
+  {
+    "id": 5,
+    "name": "Perry Reed Properties",
+    "niche": "Realestate",
+    "city": "Lincoln",
+    "phone": "+1-402-488-1666",
+    "website": "https://www.perryreid.com/",
+    "email": "contact@perryreid.com",
+    "address": "9200 Andermatt Drive, Lincoln 68526",
+    "mailto_url": "mailto:contact@perryreid.com?subject=quick%20question%20regarding%20Perry%20Reed%20Properties%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.perryreid.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Perry%20Reed%20Properties%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:20"
+  },
+  {
+    "id": 6,
+    "name": "Cloud Lettings",
+    "niche": "Realestate",
+    "city": "Lincoln",
+    "phone": "+44 1522 802020",
+    "website": "http://www.cloudlettings.co.uk/",
+    "email": "contact@cloudlettings.co.uk",
+    "address": "41 Carholme Road, Lincoln LN1 1RN",
+    "mailto_url": "mailto:contact@cloudlettings.co.uk?subject=quick%20question%20regarding%20Cloud%20Lettings%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.cloudlettings.co.uk/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Cloud%20Lettings%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:20"
+  },
+  {
+    "id": 7,
+    "name": "Coldwell Banker",
+    "niche": "Realestate",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@coldwellbanker.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@coldwellbanker.example?subject=quick%20question%20regarding%20Coldwell%20Banker%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Coldwell%20Banker%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:20"
+  },
+  {
+    "id": 8,
+    "name": "Century 21",
+    "niche": "Realestate",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@century21.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@century21.example?subject=quick%20question%20regarding%20Century%2021%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Century%2021%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:20"
+  },
+  {
+    "id": 9,
+    "name": "Loon Mountain Real Estate Co.",
+    "niche": "Realestate",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@loonmountainrealestateco.example",
+    "address": "Lincoln",
+    "mailto_url": "mailto:contact@loonmountainrealestateco.example?subject=quick%20question%20regarding%20Loon%20Mountain%20Real%20Estate%20Co.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Loon%20Mountain%20Real%20Estate%20Co.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:20"
+  },
+  {
+    "id": 10,
+    "name": "Your Move",
+    "niche": "Realestate",
+    "city": "Lincoln",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@yourmove.example",
+    "address": "5-9 Newland, Lincoln LN1 1UY",
+    "mailto_url": "mailto:contact@yourmove.example?subject=quick%20question%20regarding%20Your%20Move%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Your%20Move%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:20"
+  }
+]

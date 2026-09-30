@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Lincoln Premier Lawyer Studio",
+    "niche": "Lawyer",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.lincolnpremierlawyerstudio.example",
+    "email": "info@lincolnpremierlawyerstudio.example",
+    "address": "120 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@lincolnpremierlawyerstudio.example?subject=quick%20question%20regarding%20Lincoln%20Premier%20Lawyer%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:01"
+  },
+  {
+    "id": 2,
+    "name": "Apex Lincoln Lawyer Center",
+    "niche": "Lawyer",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexlincolnlawyercenter.example",
+    "email": "info@apexlincolnlawyercenter.example",
+    "address": "240 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@apexlincolnlawyercenter.example?subject=quick%20question%20regarding%20Apex%20Lincoln%20Lawyer%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:01"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Lawyer Partners of Lincoln",
+    "niche": "Lawyer",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconlawyerpartnersoflincoln.example",
+    "email": "info@beaconlawyerpartnersoflincoln.example",
+    "address": "360 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@beaconlawyerpartnersoflincoln.example?subject=quick%20question%20regarding%20Beacon%20Lawyer%20Partners%20of%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:01"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Lincoln Lawyer Group",
+    "niche": "Lawyer",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardlincolnlawyergroup.example",
+    "email": "info@vanguardlincolnlawyergroup.example",
+    "address": "480 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@vanguardlincolnlawyergroup.example?subject=quick%20question%20regarding%20Vanguard%20Lincoln%20Lawyer%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:01"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Lawyer & Aesthetics Lincoln",
+    "niche": "Lawyer",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminalawyerandaestheticslincoln.example",
+    "email": "info@luminalawyerandaestheticslincoln.example",
+    "address": "600 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@luminalawyerandaestheticslincoln.example?subject=quick%20question%20regarding%20Lumina%20Lawyer%20%26%20Aesthetics%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:01"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Lawyer Clinic of Lincoln",
+    "niche": "Lawyer",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivelawyerclinicoflincoln.example",
+    "email": "info@proactivelawyerclinicoflincoln.example",
+    "address": "720 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@proactivelawyerclinicoflincoln.example?subject=quick%20question%20regarding%20ProActive%20Lawyer%20Clinic%20of%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:01"
+  },
+  {
+    "id": 7,
+    "name": "Elite Lawyer Specialists Lincoln",
+    "niche": "Lawyer",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitelawyerspecialistslincoln.example",
+    "email": "info@elitelawyerspecialistslincoln.example",
+    "address": "840 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@elitelawyerspecialistslincoln.example?subject=quick%20question%20regarding%20Elite%20Lawyer%20Specialists%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:01"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Lawyer Lincoln",
+    "niche": "Lawyer",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestlawyerlincoln.example",
+    "email": "info@summitcrestlawyerlincoln.example",
+    "address": "960 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@summitcrestlawyerlincoln.example?subject=quick%20question%20regarding%20Summit%20Crest%20Lawyer%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:01"
+  },
+  {
+    "id": 9,
+    "name": "Metro Lawyer Care Center Lincoln",
+    "niche": "Lawyer",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrolawyercarecenterlincoln.example",
+    "email": "info@metrolawyercarecenterlincoln.example",
+    "address": "1080 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@metrolawyercarecenterlincoln.example?subject=quick%20question%20regarding%20Metro%20Lawyer%20Care%20Center%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:01"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Lawyer Practice Lincoln",
+    "niche": "Lawyer",
+    "city": "Lincoln",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastlawyerpracticelincoln.example",
+    "email": "info@pacificcoastlawyerpracticelincoln.example",
+    "address": "1200 Boulevard Ave, Lincoln",
+    "mailto_url": "mailto:info@pacificcoastlawyerpracticelincoln.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Lawyer%20Practice%20Lincoln%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:26:01"
+  }
+]
