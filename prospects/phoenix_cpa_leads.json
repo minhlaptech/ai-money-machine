@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Phoenix Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.phoenixpremiercpastudio.example",
+    "email": "info@phoenixpremiercpastudio.example",
+    "address": "120 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@phoenixpremiercpastudio.example?subject=quick%20question%20regarding%20Phoenix%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:20:44"
+  },
+  {
+    "id": 2,
+    "name": "Apex Phoenix Cpa Center",
+    "niche": "Cpa",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexphoenixcpacenter.example",
+    "email": "info@apexphoenixcpacenter.example",
+    "address": "240 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@apexphoenixcpacenter.example?subject=quick%20question%20regarding%20Apex%20Phoenix%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:20:44"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of Phoenix",
+    "niche": "Cpa",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersofphoenix.example",
+    "email": "info@beaconcpapartnersofphoenix.example",
+    "address": "360 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@beaconcpapartnersofphoenix.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20Phoenix%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:20:44"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Phoenix Cpa Group",
+    "niche": "Cpa",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardphoenixcpagroup.example",
+    "email": "info@vanguardphoenixcpagroup.example",
+    "address": "480 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@vanguardphoenixcpagroup.example?subject=quick%20question%20regarding%20Vanguard%20Phoenix%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:20:44"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics Phoenix",
+    "niche": "Cpa",
+    "city": "Phoenix",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticsphoenix.example",
+    "email": "info@luminacpaandaestheticsphoenix.example",
+    "address": "600 Boulevard Ave, Phoenix",
+    "mailto_url": "mailto:info@luminacpaandaestheticsphoenix.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20Phoenix%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 21:20:44"
+  }
+]
