@@ -10,6 +10,8 @@ scratch
 *.mp3
 *.wav
 *.zip
+!downloads/*.zip
+!products/**/*.zip
 projects/youtube_faceless/rendered_episodes
 projects/youtube_faceless/rendered_shorts
 projects/youtube_faceless/audio_episodes
