@@ -58,6 +58,10 @@
     { "source": "/deliverables", "destination": "/packages/index.html" },
     { "source": "/telemetry", "destination": "/telemetry/index.html" },
     { "source": "/status", "destination": "/telemetry/index.html" },
-    { "source": "/noc", "destination": "/telemetry/index.html" }
+    { "source": "/noc", "destination": "/telemetry/index.html" },
+    { "source": "/docs", "destination": "/docs/index.html" },
+    { "source": "/developers", "destination": "/docs/index.html" },
+    { "source": "/api-docs", "destination": "/docs/index.html" },
+    { "source": "/developer", "destination": "/docs/index.html" }
   ]
 }

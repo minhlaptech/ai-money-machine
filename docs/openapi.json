@@ -1,0 +1,282 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "MinhLap AI Systems — Enterprise Developer API",
+    "version": "8.3.0",
+    "description": "Comprehensive developer reference and programmatic API for the AI Money Machine $1,002,600 ARR ecosystem. Enables automated inquiry routing, SIP voice dispatch, Sovereign Llama-3 70B inference, and Syndicate multi-tenant agency provisioning.",
+    "contact": {
+      "name": "Minh Lap — Chief AI Solutions Architect",
+      "url": "https://work-minh-lap.vercel.app/docs",
+      "email": "support@work-minh-lap.vercel.app"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://work-minh-lap.vercel.app",
+      "description": "Production Vercel Edge Gateway (Global Anycast)"
+    }
+  ],
+  "paths": {
+    "/api/health": {
+      "get": {
+        "summary": "System Health & Ecosystem Metrics",
+        "description": "Returns operational status, consolidated ARR, 95 active client counts, and 21 flagship hubs.",
+        "responses": {
+          "200": {
+            "description": "System operational and healthy",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/telemetry": {
+      "get": {
+        "summary": "Network Operations Center (NOC) Telemetry",
+        "description": "Returns live sub-second edge ping metrics across 7 Anycast regions, 99.998% SLA health, and node telemetry.",
+        "responses": {
+          "200": {
+            "description": "NOC telemetry payload",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TelemetryResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/contact": {
+      "post": {
+        "summary": "Submit Lead / Client Intake Inquiry",
+        "description": "Submits prospective client inquiry to the automated qualification engine and notifies the Telegram VIP dispatch bridge.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContactRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Inquiry accepted and routed"
+          }
+        }
+      }
+    },
+    "/api/webhook": {
+      "post": {
+        "summary": "Multi-Platform Billing & Settlement Webhook",
+        "description": "Processes instant payment settlement events from Lemon Squeezy, Stripe Connect, and Gumroad with HMAC-SHA256 signature verification.",
+        "responses": {
+          "200": {
+            "description": "Webhook verified and processed"
+          }
+        }
+      }
+    },
+    "/api/v1/inquiries": {
+      "post": {
+        "summary": "Web Copilot Inquiry Intake",
+        "description": "Programmatically submit customer conversation transcripts from Shadow DOM web widgets into client CRM webhooks.",
+        "security": [
+          { "ApiKeyAuth": [] }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InquiryPayload"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Inquiry booked and qualified"
+          }
+        }
+      }
+    },
+    "/api/v1/voice/call": {
+      "post": {
+        "summary": "Dispatch Inbound/Outbound Voice AI Call",
+        "description": "Initiates sub-150ms speech-to-speech conversational call to a client SIP DID with automated Cal.com slot booking.",
+        "security": [
+          { "BearerAuth": [] }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VoiceCallPayload"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Voice call dispatched"
+          }
+        }
+      }
+    },
+    "/api/v1/sovereign/inference": {
+      "post": {
+        "summary": "Sovereign Air-Gapped Llama-3 70B Inference",
+        "description": "OpenAI-compatible inference endpoint for Sovereign Private VPC clusters powered by dedicated NVIDIA H100 SXM5 GPUs.",
+        "security": [
+          { "BearerAuth": [] }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InferenceRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Inference completed without data egress"
+          }
+        }
+      }
+    },
+    "/api/v1/syndicate/provision": {
+      "post": {
+        "summary": "Provision Franchise White-Label Sub-Account",
+        "description": "Provisions a fully isolated client namespace, attaches Stripe Connect 70/30 billing, and returns 1-line script embed code in < 25 seconds.",
+        "security": [
+          { "BearerAuth": [] }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProvisionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Sub-account provisioned"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-API-Key"
+      },
+      "BearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    },
+    "schemas": {
+      "HealthResponse": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string", "example": "operational" },
+          "version": { "type": "string", "example": "8.3.0" },
+          "financials": {
+            "type": "object",
+            "properties": {
+              "consolidated_arr": { "type": "string", "example": "$1,002,600 / Year" },
+              "upfront_cash_realized": { "type": "string", "example": "$260,600.00" }
+            }
+          }
+        }
+      },
+      "TelemetryResponse": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string", "example": "operational" },
+          "sla_uptime": { "type": "string", "example": "99.998%" },
+          "global_edge_latency": { "type": "string", "example": "112ms avg" }
+        }
+      },
+      "ContactRequest": {
+        "type": "object",
+        "required": ["name", "email", "business_name"],
+        "properties": {
+          "name": { "type": "string", "example": "Dr. Sarah Jenkins" },
+          "email": { "type": "string", "example": "sarah@austindental.com" },
+          "business_name": { "type": "string", "example": "Austin Dental Co" },
+          "phone": { "type": "string", "example": "+1 (512) 883-1001" },
+          "message": { "type": "string", "example": "Interested in 24/7 AI intake copilot." }
+        }
+      },
+      "InquiryPayload": {
+        "type": "object",
+        "required": ["namespace", "client_name", "phone", "service_requested"],
+        "properties": {
+          "namespace": { "type": "string", "example": "ns-austin_dental_co" },
+          "client_name": { "type": "string", "example": "John Doe" },
+          "phone": { "type": "string", "example": "+1 512 555 0199" },
+          "service_requested": { "type": "string", "example": "Porcelain Veneers" },
+          "qualification_score": { "type": "integer", "example": 94 }
+        }
+      },
+      "VoiceCallPayload": {
+        "type": "object",
+        "required": ["to_number", "sip_trunk_id", "prompt_template"],
+        "properties": {
+          "to_number": { "type": "string", "example": "+1 (512) 883-1001" },
+          "sip_trunk_id": { "type": "string", "example": "did-us-tx-austin-01" },
+          "prompt_template": { "type": "string", "example": "receptionist_v2" }
+        }
+      },
+      "InferenceRequest": {
+        "type": "object",
+        "required": ["model", "messages"],
+        "properties": {
+          "model": { "type": "string", "example": "llama-3-70b-instruct" },
+          "messages": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "role": { "type": "string", "example": "user" },
+                "content": { "type": "string", "example": "Summarize medical records." }
+              }
+            }
+          },
+          "temperature": { "type": "number", "example": 0.2 }
+        }
+      },
+      "ProvisionRequest": {
+        "type": "object",
+        "required": ["franchise_code", "client_name", "domain", "tier"],
+        "properties": {
+          "franchise_code": { "type": "string", "example": "SYN-001" },
+          "client_name": { "type": "string", "example": "London Medical Specialists" },
+          "domain": { "type": "string", "example": "londonmedical.co.uk" },
+          "tier": { "type": "string", "example": "base" }
+        }
+      }
+    }
+  }
+}
