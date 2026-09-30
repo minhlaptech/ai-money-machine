@@ -116,9 +116,13 @@ def generate_briefing(send_telegram=False):
     top_trend = load_top_trend()
 
     real_cash = 0.00
-    pipeline_mrr = 83550
+    base_count = crm.get("total", 84)
+    ent_count = ent.get("total", 15)
+    sov_count = sov.get("total", 8)
+    syn_count = syn.get("total", 12)
+    total_leads = base_count + ent_count + sov_count + syn_count
+    pipeline_mrr = (base_count * 650) + (ent_count * 1400) + (sov_count * 2400) + int(syn_count * 562.5)
     pipeline_arr = pipeline_mrr * 12
-    total_leads = 95
 
     report_text = f"""======================================================================
 ☀️ BẢN TIN CHỈ HUY SÁNG — AI MONEY MACHINE EXECUTIVE BRIEFING
@@ -135,8 +139,8 @@ def generate_briefing(send_telegram=False):
   • Voice AI Receptionist Demo Hub: https://work-minh-lap.vercel.app/voice (Sub-350ms Inbound Call Simulator)
   • Cổng thanh toán: Lemon Squeezy (Store ID: 485872) & Gumroad Live
   • Cổng Đối tác Tiếp thị (50% RevShare): https://work-minh-lap.vercel.app/referral
-  • Cổng VIP Client Portals: https://work-minh-lap.vercel.app/portal (95 Doanh nghiệp)
-  • Sales Pitch Decks Showcase: https://work-minh-lap.vercel.app/pitches (95 Decks)
+  • Cổng VIP Client Portals: https://work-minh-lap.vercel.app/portal ({total_leads} Doanh nghiệp)
+  • Sales Pitch Decks Showcase: https://work-minh-lap.vercel.app/pitches ({total_leads} Decks)
   • AI Media & Video Studio Hub: https://work-minh-lap.vercel.app/studio (40 MP4s + Video Player)
   • Kho Media Video MP4: 40/40 Video Hoàn Tất (10 Full Episodes + 30 Shorts, 388.0 MB)
   • Lịch Mạng Xã Hội Đa Kênh: 20 bài đăng sẵn sàng Buffer / Metricool
@@ -188,7 +192,7 @@ def generate_briefing(send_telegram=False):
 • HTML5 Video Player Modal tại /studio
 
 ⚡ <b>SaaS Suite ($39):</b> <a href="https://work-minh-lap.vercel.app/tools">Micro-SaaS Hub Live</a>
-🏛️ <b>VIP Portals:</b> <a href="https://work-minh-lap.vercel.app/portal">95 Client Portals Live</a>
+🏛️ <b>VIP Portals:</b> <a href="https://work-minh-lap.vercel.app/portal">{total_leads} Client Portals Live</a>
 🎙️ <b>Voice AI Demo:</b> <a href="https://work-minh-lap.vercel.app/voice">Sub-350ms Simulator Live</a>
 💼 <b>Freelance Hub:</b> <a href="https://work-minh-lap.vercel.app/freelance">8 Gigs & 1-Click Checkout Live</a>
 👕 <b>Merch Store:</b> <a href="https://work-minh-lap.vercel.app/merch">6 POD Products Live</a>
