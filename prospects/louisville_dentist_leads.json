@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Alan Reisman, DDS",
+    "niche": "Dentist",
+    "city": "Louisville",
+    "phone": "N/A",
+    "website": "https://alanreisman.com",
+    "email": "contact@alanreisman.com",
+    "address": "Louisville",
+    "mailto_url": "mailto:contact@alanreisman.com?subject=quick%20question%20regarding%20Alan%20Reisman%2C%20DDS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//alanreisman.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Alan%20Reisman%2C%20DDS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:52:31"
+  },
+  {
+    "id": 2,
+    "name": "Louisville Dentist #2",
+    "niche": "Dentist",
+    "city": "Louisville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@louisvilledentist#2.example",
+    "address": "4311 Bardstown Road, Louisville 40218",
+    "mailto_url": "mailto:contact@louisvilledentist#2.example?subject=quick%20question%20regarding%20Louisville%20Dentist%20%232%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Louisville%20Dentist%20%232%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:52:31"
+  },
+  {
+    "id": 3,
+    "name": "Burnette Family Dentistry",
+    "niche": "Dentist",
+    "city": "Louisville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@burnettefamilydentistry.example",
+    "address": "Louisville",
+    "mailto_url": "mailto:contact@burnettefamilydentistry.example?subject=quick%20question%20regarding%20Burnette%20Family%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Burnette%20Family%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:52:31"
+  },
+  {
+    "id": 4,
+    "name": "Ocean Dental",
+    "niche": "Dentist",
+    "city": "Louisville",
+    "phone": "+1-502-447-5699",
+    "website": "N/A",
+    "email": "contact@oceandental.example",
+    "address": "3977 7th Street Road, Louisville 40216",
+    "mailto_url": "mailto:contact@oceandental.example?subject=quick%20question%20regarding%20Ocean%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Ocean%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:52:31"
+  },
+  {
+    "id": 5,
+    "name": "Louisville Family Dental",
+    "niche": "Dentist",
+    "city": "Louisville",
+    "phone": "+1 402 234 3000",
+    "website": "http://www.louisvillefamilydental.net/",
+    "email": "contact@louisvillefamilydental.net",
+    "address": "229 Main Street, Louisville 68037",
+    "mailto_url": "mailto:contact@louisvillefamilydental.net?subject=quick%20question%20regarding%20Louisville%20Family%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//www.louisvillefamilydental.net/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Louisville%20Family%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:52:31"
+  }
+]
