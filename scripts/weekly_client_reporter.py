@@ -3,14 +3,14 @@
 """
 Autonomous Weekly Client Retainer Performance & Retention Engine
 -----------------------------------------------------------------
-Generates Weekly Executive Performance & ROI Statements for all 95
+Generates Weekly Executive Performance & ROI Statements for all 119
 active accounts across the 4 monetization tiers of the AI Money Machine:
-- 60 Base Retainer Clients
+- 84 Base Retainer Clients
 - 15 Enterprise Voice AI Swarms
 - 8 Sovereign Private VPC Clusters
 - 12 Syndicate Global Franchise Nodes
 
-Total Empire Revenue Active: $260,600 Cash · $83,550/mo MRR · $1,002,600 ARR
+Total Empire Target Pipeline: $101,550/mo MRR · $1,218,600 ARR ($0.00 Realized Cash)
 """
 
 import sys
@@ -610,7 +610,7 @@ def send_consolidated_telegram_summary(total_clients, total_appointments, total_
 
 ⏰ <b>Thời gian:</b> <code>{now_vn}</code>
 
-🛡️ <b>TỔNG QUAN HIỆU SUẤT TUẦN (95 CỤM):</b>
+🛡️ <b>TỔNG QUAN HIỆU SUẤT TUẦN ({total_clients} CỤM):</b>
 • 🏢 <b>Khách hàng được bảo vệ:</b> <code>{total_clients}/{total_clients} Accounts Active</code>
 • 📅 <b>Lịch hẹn & Cuộc gọi đã chốt:</b> <code>+{total_appointments:,} consultations/tuần</code>
 • 💵 <b>Giá trị kinh tế bảo vệ tuần này:</b> <code>+${total_protected:,} / tuần</code>
@@ -618,7 +618,7 @@ def send_consolidated_telegram_summary(total_clients, total_appointments, total_
 
 💰 <b>DÒNG TIỀN DOANH NGHIỆP THỰC TẾ:</b>
 • 💵 <b>Tiền thực thu (Real Cash):</b> <code>$0.00 USD</code>
-• 🔄 <b>Mục tiêu Pipeline (Unbilled Target):</b> <code>$83,550 / tháng ($1,002,600 / năm)</code>
+• 🔄 <b>Mục tiêu Pipeline (Unbilled Target):</b> <code>$101,550 / tháng ($1,218,600 / năm)</code>
 • 🏆 <b>Tài khoản sẵn sàng tiếp cận:</b> <code>{total_clients} Doanh nghiệp</code>
 
 👉 <a href="https://work-minh-lap.vercel.app/portal"><b>Mở VIP Client Portals Command Hub</b></a>"""
