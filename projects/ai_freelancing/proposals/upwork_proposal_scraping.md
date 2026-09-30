@@ -1,4 +1,4 @@
-Hi Alex,
+Hi there,
 
 Saw your posting regarding the data scraping & ai enrichment pipeline.
 
@@ -10,8 +10,6 @@ I build asynchronous Python and Playwright pipelines that extract clean datasets
 A couple of quick questions to ensure we scope this accurately:
 1. What is the target URL or domain directory you need scraped?
 2. What format do you prefer for the final export (Google Sheet, CSV, PostgreSQL database)?
-
-Regarding your specific requirement: Need to scrape 5,000 product specs from e-commerce sites
 
 Estimated Delivery: 1 to 2 days including a 10-row sample for your quality validation.
 

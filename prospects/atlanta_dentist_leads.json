@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Atlanta Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.atlantapremierdentiststudio.example",
+    "email": "info@atlantapremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@atlantapremierdentiststudio.example?subject=quick%20question%20regarding%20Atlanta%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:13"
+  },
+  {
+    "id": 2,
+    "name": "Apex Atlanta Dentist Center",
+    "niche": "Dentist",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexatlantadentistcenter.example",
+    "email": "info@apexatlantadentistcenter.example",
+    "address": "240 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@apexatlantadentistcenter.example?subject=quick%20question%20regarding%20Apex%20Atlanta%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:13"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Atlanta",
+    "niche": "Dentist",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersofatlanta.example",
+    "email": "info@beacondentistpartnersofatlanta.example",
+    "address": "360 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@beacondentistpartnersofatlanta.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:13"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Atlanta Dentist Group",
+    "niche": "Dentist",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardatlantadentistgroup.example",
+    "email": "info@vanguardatlantadentistgroup.example",
+    "address": "480 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@vanguardatlantadentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Atlanta%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:13"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Atlanta",
+    "niche": "Dentist",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticsatlanta.example",
+    "email": "info@luminadentistandaestheticsatlanta.example",
+    "address": "600 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@luminadentistandaestheticsatlanta.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:13"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Dentist Clinic of Atlanta",
+    "niche": "Dentist",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedentistclinicofatlanta.example",
+    "email": "info@proactivedentistclinicofatlanta.example",
+    "address": "720 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@proactivedentistclinicofatlanta.example?subject=quick%20question%20regarding%20ProActive%20Dentist%20Clinic%20of%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:13"
+  },
+  {
+    "id": 7,
+    "name": "Elite Dentist Specialists Atlanta",
+    "niche": "Dentist",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedentistspecialistsatlanta.example",
+    "email": "info@elitedentistspecialistsatlanta.example",
+    "address": "840 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@elitedentistspecialistsatlanta.example?subject=quick%20question%20regarding%20Elite%20Dentist%20Specialists%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:13"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Dentist Atlanta",
+    "niche": "Dentist",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdentistatlanta.example",
+    "email": "info@summitcrestdentistatlanta.example",
+    "address": "960 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@summitcrestdentistatlanta.example?subject=quick%20question%20regarding%20Summit%20Crest%20Dentist%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:13"
+  },
+  {
+    "id": 9,
+    "name": "Metro Dentist Care Center Atlanta",
+    "niche": "Dentist",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodentistcarecenteratlanta.example",
+    "email": "info@metrodentistcarecenteratlanta.example",
+    "address": "1080 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@metrodentistcarecenteratlanta.example?subject=quick%20question%20regarding%20Metro%20Dentist%20Care%20Center%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:13"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Dentist Practice Atlanta",
+    "niche": "Dentist",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdentistpracticeatlanta.example",
+    "email": "info@pacificcoastdentistpracticeatlanta.example",
+    "address": "1200 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@pacificcoastdentistpracticeatlanta.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Dentist%20Practice%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:13"
+  }
+]

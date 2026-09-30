@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Atlanta Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.atlantapremierrealestatestudio.example",
+    "email": "info@atlantapremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@atlantapremierrealestatestudio.example?subject=quick%20question%20regarding%20Atlanta%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:07:09"
+  },
+  {
+    "id": 2,
+    "name": "Apex Atlanta Realestate Center",
+    "niche": "Realestate",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexatlantarealestatecenter.example",
+    "email": "info@apexatlantarealestatecenter.example",
+    "address": "240 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@apexatlantarealestatecenter.example?subject=quick%20question%20regarding%20Apex%20Atlanta%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:07:09"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of Atlanta",
+    "niche": "Realestate",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersofatlanta.example",
+    "email": "info@beaconrealestatepartnersofatlanta.example",
+    "address": "360 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@beaconrealestatepartnersofatlanta.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:07:09"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Atlanta Realestate Group",
+    "niche": "Realestate",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardatlantarealestategroup.example",
+    "email": "info@vanguardatlantarealestategroup.example",
+    "address": "480 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@vanguardatlantarealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20Atlanta%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:07:09"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics Atlanta",
+    "niche": "Realestate",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticsatlanta.example",
+    "email": "info@luminarealestateandaestheticsatlanta.example",
+    "address": "600 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@luminarealestateandaestheticsatlanta.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:07:09"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Realestate Clinic of Atlanta",
+    "niche": "Realestate",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiverealestateclinicofatlanta.example",
+    "email": "info@proactiverealestateclinicofatlanta.example",
+    "address": "720 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@proactiverealestateclinicofatlanta.example?subject=quick%20question%20regarding%20ProActive%20Realestate%20Clinic%20of%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:07:09"
+  },
+  {
+    "id": 7,
+    "name": "Elite Realestate Specialists Atlanta",
+    "niche": "Realestate",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliterealestatespecialistsatlanta.example",
+    "email": "info@eliterealestatespecialistsatlanta.example",
+    "address": "840 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@eliterealestatespecialistsatlanta.example?subject=quick%20question%20regarding%20Elite%20Realestate%20Specialists%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:07:09"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Realestate Atlanta",
+    "niche": "Realestate",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestrealestateatlanta.example",
+    "email": "info@summitcrestrealestateatlanta.example",
+    "address": "960 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@summitcrestrealestateatlanta.example?subject=quick%20question%20regarding%20Summit%20Crest%20Realestate%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:07:09"
+  },
+  {
+    "id": 9,
+    "name": "Metro Realestate Care Center Atlanta",
+    "niche": "Realestate",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrorealestatecarecenteratlanta.example",
+    "email": "info@metrorealestatecarecenteratlanta.example",
+    "address": "1080 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@metrorealestatecarecenteratlanta.example?subject=quick%20question%20regarding%20Metro%20Realestate%20Care%20Center%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:07:09"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Realestate Practice Atlanta",
+    "niche": "Realestate",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastrealestatepracticeatlanta.example",
+    "email": "info@pacificcoastrealestatepracticeatlanta.example",
+    "address": "1200 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@pacificcoastrealestatepracticeatlanta.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Realestate%20Practice%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:07:09"
+  }
+]

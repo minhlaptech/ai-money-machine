@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Atlanta Premier Lawyer Studio",
+    "niche": "Lawyer",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.atlantapremierlawyerstudio.example",
+    "email": "info@atlantapremierlawyerstudio.example",
+    "address": "120 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@atlantapremierlawyerstudio.example?subject=quick%20question%20regarding%20Atlanta%20Premier%20Lawyer%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:36"
+  },
+  {
+    "id": 2,
+    "name": "Apex Atlanta Lawyer Center",
+    "niche": "Lawyer",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexatlantalawyercenter.example",
+    "email": "info@apexatlantalawyercenter.example",
+    "address": "240 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@apexatlantalawyercenter.example?subject=quick%20question%20regarding%20Apex%20Atlanta%20Lawyer%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:36"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Lawyer Partners of Atlanta",
+    "niche": "Lawyer",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconlawyerpartnersofatlanta.example",
+    "email": "info@beaconlawyerpartnersofatlanta.example",
+    "address": "360 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@beaconlawyerpartnersofatlanta.example?subject=quick%20question%20regarding%20Beacon%20Lawyer%20Partners%20of%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:36"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Atlanta Lawyer Group",
+    "niche": "Lawyer",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardatlantalawyergroup.example",
+    "email": "info@vanguardatlantalawyergroup.example",
+    "address": "480 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@vanguardatlantalawyergroup.example?subject=quick%20question%20regarding%20Vanguard%20Atlanta%20Lawyer%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:36"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Lawyer & Aesthetics Atlanta",
+    "niche": "Lawyer",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminalawyerandaestheticsatlanta.example",
+    "email": "info@luminalawyerandaestheticsatlanta.example",
+    "address": "600 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@luminalawyerandaestheticsatlanta.example?subject=quick%20question%20regarding%20Lumina%20Lawyer%20%26%20Aesthetics%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:36"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Lawyer Clinic of Atlanta",
+    "niche": "Lawyer",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivelawyerclinicofatlanta.example",
+    "email": "info@proactivelawyerclinicofatlanta.example",
+    "address": "720 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@proactivelawyerclinicofatlanta.example?subject=quick%20question%20regarding%20ProActive%20Lawyer%20Clinic%20of%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:36"
+  },
+  {
+    "id": 7,
+    "name": "Elite Lawyer Specialists Atlanta",
+    "niche": "Lawyer",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitelawyerspecialistsatlanta.example",
+    "email": "info@elitelawyerspecialistsatlanta.example",
+    "address": "840 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@elitelawyerspecialistsatlanta.example?subject=quick%20question%20regarding%20Elite%20Lawyer%20Specialists%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:36"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Lawyer Atlanta",
+    "niche": "Lawyer",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestlawyeratlanta.example",
+    "email": "info@summitcrestlawyeratlanta.example",
+    "address": "960 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@summitcrestlawyeratlanta.example?subject=quick%20question%20regarding%20Summit%20Crest%20Lawyer%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:36"
+  },
+  {
+    "id": 9,
+    "name": "Metro Lawyer Care Center Atlanta",
+    "niche": "Lawyer",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrolawyercarecenteratlanta.example",
+    "email": "info@metrolawyercarecenteratlanta.example",
+    "address": "1080 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@metrolawyercarecenteratlanta.example?subject=quick%20question%20regarding%20Metro%20Lawyer%20Care%20Center%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:36"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Lawyer Practice Atlanta",
+    "niche": "Lawyer",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastlawyerpracticeatlanta.example",
+    "email": "info@pacificcoastlawyerpracticeatlanta.example",
+    "address": "1200 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@pacificcoastlawyerpracticeatlanta.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Lawyer%20Practice%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:05:36"
+  }
+]

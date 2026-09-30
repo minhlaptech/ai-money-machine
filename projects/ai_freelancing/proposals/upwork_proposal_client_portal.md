@@ -1,4 +1,4 @@
-Hi Client,
+Hi there,
 
 Saw your posting regarding the enterprise ai copilot deployment & white-label client portal.
 

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Georgia Eye Associates",
+    "niche": "Doctor",
+    "city": "Atlanta",
+    "phone": "+1-404-233-3267",
+    "website": "https://www.georgiaeyeassociates.com/",
+    "email": "contact@georgiaeyeassociates.com",
+    "address": "3120 Maple Drive Northeast, Atlanta 30305",
+    "mailto_url": "mailto:contact@georgiaeyeassociates.com?subject=quick%20question%20regarding%20Georgia%20Eye%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.georgiaeyeassociates.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Georgia%20Eye%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:23"
+  },
+  {
+    "id": 2,
+    "name": "Georgia Injury Centers",
+    "niche": "Doctor",
+    "city": "Atlanta",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@georgiainjurycenters.example",
+    "address": "Atlanta",
+    "mailto_url": "mailto:contact@georgiainjurycenters.example?subject=quick%20question%20regarding%20Georgia%20Injury%20Centers%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Georgia%20Injury%20Centers%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:23"
+  },
+  {
+    "id": 3,
+    "name": "Peachtree Allergy & Asthma Clinic PC",
+    "niche": "Doctor",
+    "city": "Atlanta",
+    "phone": "+1-404-351-7520",
+    "website": "https://peachtreeallergyclinic.com/buckhead-office/",
+    "email": "contact@peachtreeallergyclinic.com",
+    "address": "1800 Peachtree Street Northeast, Atlanta 30309",
+    "mailto_url": "mailto:contact@peachtreeallergyclinic.com?subject=quick%20question%20regarding%20Peachtree%20Allergy%20%26%20Asthma%20Clinic%20PC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//peachtreeallergyclinic.com/buckhead-office/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Peachtree%20Allergy%20%26%20Asthma%20Clinic%20PC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:23"
+  },
+  {
+    "id": 4,
+    "name": "Kerolus Facial Plastic Surgery",
+    "niche": "Doctor",
+    "city": "Atlanta",
+    "phone": "+1-404-233-3937",
+    "website": "https://www.kerolusplasticsurgery.com",
+    "email": "contact@kerolusplasticsurgery.com",
+    "address": "1218 West Paces Ferry Road Northwest, Atlanta 30327",
+    "mailto_url": "mailto:contact@kerolusplasticsurgery.com?subject=quick%20question%20regarding%20Kerolus%20Facial%20Plastic%20Surgery%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.kerolusplasticsurgery.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Kerolus%20Facial%20Plastic%20Surgery%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:23"
+  },
+  {
+    "id": 5,
+    "name": "Lexington Plastic Surgeons",
+    "niche": "Doctor",
+    "city": "Atlanta",
+    "phone": "+1 888 9793528;+1 404 4001230",
+    "website": "https://lexingtonplasticsurgeons.com/location/atlanta/",
+    "email": "contact@lexingtonplasticsurgeons.com",
+    "address": "1 Spring Street Northwest, Atlanta 30308",
+    "mailto_url": "mailto:contact@lexingtonplasticsurgeons.com?subject=quick%20question%20regarding%20Lexington%20Plastic%20Surgeons%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//lexingtonplasticsurgeons.com/location/atlanta/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lexington%20Plastic%20Surgeons%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:23"
+  },
+  {
+    "id": 6,
+    "name": "Druid Hills Primary Care",
+    "niche": "Doctor",
+    "city": "Atlanta",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@druidhillsprimarycare.example",
+    "address": "1700 Briarcliff Road Northeast, Atlanta 30306",
+    "mailto_url": "mailto:contact@druidhillsprimarycare.example?subject=quick%20question%20regarding%20Druid%20Hills%20Primary%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Druid%20Hills%20Primary%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:23"
+  },
+  {
+    "id": 7,
+    "name": "Nip & Tuck Plastic Surgery",
+    "niche": "Doctor",
+    "city": "Atlanta",
+    "phone": "+1-404-777-8825",
+    "website": "https://www.drnipandtuck.com",
+    "email": "contact@drnipandtuck.com",
+    "address": "3280 Howell Mill Road Northwest, Atlanta 30327",
+    "mailto_url": "mailto:contact@drnipandtuck.com?subject=quick%20question%20regarding%20Nip%20%26%20Tuck%20Plastic%20Surgery%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.drnipandtuck.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Nip%20%26%20Tuck%20Plastic%20Surgery%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:23"
+  },
+  {
+    "id": 8,
+    "name": "LaserAway",
+    "niche": "Doctor",
+    "city": "Atlanta",
+    "phone": "+1-404-531-7100",
+    "website": "https://www.laseraway.com/locations/ga/atlanta-midtown/",
+    "email": "contact@laseraway.com",
+    "address": "931 Monroe Drive Northeast, Atlanta",
+    "mailto_url": "mailto:contact@laseraway.com?subject=quick%20question%20regarding%20LaserAway%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.laseraway.com/locations/ga/atlanta-midtown/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20LaserAway%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:23"
+  },
+  {
+    "id": 9,
+    "name": "Oculus Plastic Surgery",
+    "niche": "Doctor",
+    "city": "Atlanta",
+    "phone": "N/A",
+    "website": "https://oculusplasticsurgery.com",
+    "email": "contact@oculusplasticsurgery.com",
+    "address": "Atlanta 30305",
+    "mailto_url": "mailto:contact@oculusplasticsurgery.com?subject=quick%20question%20regarding%20Oculus%20Plastic%20Surgery%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//oculusplasticsurgery.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Oculus%20Plastic%20Surgery%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:23"
+  },
+  {
+    "id": 10,
+    "name": "AllCare Primary & Immediate Care",
+    "niche": "Doctor",
+    "city": "Atlanta",
+    "phone": "+1 404-551-4242",
+    "website": "https://allcarefamilymed.com/locations/midtown/",
+    "email": "contact@allcarefamilymed.com",
+    "address": "805 Peachtree Street Northeast, Atlanta",
+    "mailto_url": "mailto:contact@allcarefamilymed.com?subject=quick%20question%20regarding%20AllCare%20Primary%20%26%20Immediate%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//allcarefamilymed.com/locations/midtown/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20AllCare%20Primary%20%26%20Immediate%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:23"
+  }
+]

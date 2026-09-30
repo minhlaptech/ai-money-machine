@@ -118,7 +118,7 @@ def main_loop():
 
         elif choice == '3':
             niche = input("Nhập ngành nghề (dentist / doctor / clinic / lawyer / cpa / realestate, mặc định dentist): ").strip() or "dentist"
-            city = input("Nhập thành phố (Austin / Miami / Chicago / Dallas / Phoenix / Seattle / Denver, mặc định Austin): ").strip() or "Austin"
+            city = input("Nhập thành phố (Austin / Miami / Chicago / Dallas / Phoenix / Seattle / Denver / Atlanta, mặc định Austin): ").strip() or "Austin"
             limit = input("Số lượng khách cần quét (mặc định 5): ").strip() or "5"
             run_script("scripts/lead_finder.py", ["--niche", niche, "--city", city, "--limit", limit])
 

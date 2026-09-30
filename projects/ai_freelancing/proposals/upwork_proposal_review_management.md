@@ -1,4 +1,4 @@
-Hi Client,
+Hi there,
 
 Saw your posting regarding the autonomous ai customer review management & sentiment responder.
 

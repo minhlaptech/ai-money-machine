@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Atlanta Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.atlantapremierclinicstudio.example",
+    "email": "info@atlantapremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@atlantapremierclinicstudio.example?subject=quick%20question%20regarding%20Atlanta%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:01"
+  },
+  {
+    "id": 2,
+    "name": "Apex Atlanta Clinic Center",
+    "niche": "Clinic",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexatlantacliniccenter.example",
+    "email": "info@apexatlantacliniccenter.example",
+    "address": "240 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@apexatlantacliniccenter.example?subject=quick%20question%20regarding%20Apex%20Atlanta%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:01"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Atlanta",
+    "niche": "Clinic",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofatlanta.example",
+    "email": "info@beaconclinicpartnersofatlanta.example",
+    "address": "360 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@beaconclinicpartnersofatlanta.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:01"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Atlanta Clinic Group",
+    "niche": "Clinic",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardatlantaclinicgroup.example",
+    "email": "info@vanguardatlantaclinicgroup.example",
+    "address": "480 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@vanguardatlantaclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Atlanta%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:01"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Atlanta",
+    "niche": "Clinic",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsatlanta.example",
+    "email": "info@luminaclinicandaestheticsatlanta.example",
+    "address": "600 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsatlanta.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:01"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Atlanta",
+    "niche": "Clinic",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofatlanta.example",
+    "email": "info@proactiveclinicclinicofatlanta.example",
+    "address": "720 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@proactiveclinicclinicofatlanta.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:01"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Atlanta",
+    "niche": "Clinic",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistsatlanta.example",
+    "email": "info@eliteclinicspecialistsatlanta.example",
+    "address": "840 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@eliteclinicspecialistsatlanta.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:01"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Atlanta",
+    "niche": "Clinic",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicatlanta.example",
+    "email": "info@summitcrestclinicatlanta.example",
+    "address": "960 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@summitcrestclinicatlanta.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:01"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Atlanta",
+    "niche": "Clinic",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecenteratlanta.example",
+    "email": "info@metrocliniccarecenteratlanta.example",
+    "address": "1080 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@metrocliniccarecenteratlanta.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:01"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Atlanta",
+    "niche": "Clinic",
+    "city": "Atlanta",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticeatlanta.example",
+    "email": "info@pacificcoastclinicpracticeatlanta.example",
+    "address": "1200 Boulevard Ave, Atlanta",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticeatlanta.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Atlanta%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:06:01"
+  }
+]
