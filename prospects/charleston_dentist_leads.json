@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Charleston Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Charleston",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.charlestonpremierdentiststudio.example",
+    "email": "info@charlestonpremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Charleston",
+    "mailto_url": "mailto:info@charlestonpremierdentiststudio.example?subject=quick%20question%20regarding%20Charleston%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:35:56"
+  },
+  {
+    "id": 2,
+    "name": "Apex Charleston Dentist Center",
+    "niche": "Dentist",
+    "city": "Charleston",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexcharlestondentistcenter.example",
+    "email": "info@apexcharlestondentistcenter.example",
+    "address": "240 Boulevard Ave, Charleston",
+    "mailto_url": "mailto:info@apexcharlestondentistcenter.example?subject=quick%20question%20regarding%20Apex%20Charleston%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:35:56"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Charleston",
+    "niche": "Dentist",
+    "city": "Charleston",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersofcharleston.example",
+    "email": "info@beacondentistpartnersofcharleston.example",
+    "address": "360 Boulevard Ave, Charleston",
+    "mailto_url": "mailto:info@beacondentistpartnersofcharleston.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Charleston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:35:56"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Charleston Dentist Group",
+    "niche": "Dentist",
+    "city": "Charleston",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardcharlestondentistgroup.example",
+    "email": "info@vanguardcharlestondentistgroup.example",
+    "address": "480 Boulevard Ave, Charleston",
+    "mailto_url": "mailto:info@vanguardcharlestondentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Charleston%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:35:56"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Charleston",
+    "niche": "Dentist",
+    "city": "Charleston",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticscharleston.example",
+    "email": "info@luminadentistandaestheticscharleston.example",
+    "address": "600 Boulevard Ave, Charleston",
+    "mailto_url": "mailto:info@luminadentistandaestheticscharleston.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Charleston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:35:56"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Dentist Clinic of Charleston",
+    "niche": "Dentist",
+    "city": "Charleston",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedentistclinicofcharleston.example",
+    "email": "info@proactivedentistclinicofcharleston.example",
+    "address": "720 Boulevard Ave, Charleston",
+    "mailto_url": "mailto:info@proactivedentistclinicofcharleston.example?subject=quick%20question%20regarding%20ProActive%20Dentist%20Clinic%20of%20Charleston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:35:56"
+  },
+  {
+    "id": 7,
+    "name": "Elite Dentist Specialists Charleston",
+    "niche": "Dentist",
+    "city": "Charleston",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedentistspecialistscharleston.example",
+    "email": "info@elitedentistspecialistscharleston.example",
+    "address": "840 Boulevard Ave, Charleston",
+    "mailto_url": "mailto:info@elitedentistspecialistscharleston.example?subject=quick%20question%20regarding%20Elite%20Dentist%20Specialists%20Charleston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:35:56"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Dentist Charleston",
+    "niche": "Dentist",
+    "city": "Charleston",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdentistcharleston.example",
+    "email": "info@summitcrestdentistcharleston.example",
+    "address": "960 Boulevard Ave, Charleston",
+    "mailto_url": "mailto:info@summitcrestdentistcharleston.example?subject=quick%20question%20regarding%20Summit%20Crest%20Dentist%20Charleston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:35:56"
+  },
+  {
+    "id": 9,
+    "name": "Metro Dentist Care Center Charleston",
+    "niche": "Dentist",
+    "city": "Charleston",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodentistcarecentercharleston.example",
+    "email": "info@metrodentistcarecentercharleston.example",
+    "address": "1080 Boulevard Ave, Charleston",
+    "mailto_url": "mailto:info@metrodentistcarecentercharleston.example?subject=quick%20question%20regarding%20Metro%20Dentist%20Care%20Center%20Charleston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:35:56"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Dentist Practice Charleston",
+    "niche": "Dentist",
+    "city": "Charleston",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdentistpracticecharleston.example",
+    "email": "info@pacificcoastdentistpracticecharleston.example",
+    "address": "1200 Boulevard Ave, Charleston",
+    "mailto_url": "mailto:info@pacificcoastdentistpracticecharleston.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Dentist%20Practice%20Charleston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:35:56"
+  }
+]
