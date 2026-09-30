@@ -403,7 +403,7 @@ def send_telegram_youtube_digest(vid_list):
     msg = "\n".join(lines)
     try:
         req = urllib.request.Request(
-            f"https://api.telegram.org/bot${bot_token}/sendMessage",
+            f"https://api.telegram.org/bot{bot_token}/sendMessage",
             headers={"Content-Type": "application/json"},
             data=json.dumps({"chat_id": chat_id, "text": msg, "parse_mode": "HTML"}).encode("utf-8")
         )
