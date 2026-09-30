@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Milwaukee Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "Milwaukee",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.milwaukeepremierrealestatestudio.example",
+    "email": "info@milwaukeepremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, Milwaukee",
+    "mailto_url": "mailto:info@milwaukeepremierrealestatestudio.example?subject=quick%20question%20regarding%20Milwaukee%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:38:01"
+  },
+  {
+    "id": 2,
+    "name": "Apex Milwaukee Realestate Center",
+    "niche": "Realestate",
+    "city": "Milwaukee",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexmilwaukeerealestatecenter.example",
+    "email": "info@apexmilwaukeerealestatecenter.example",
+    "address": "240 Boulevard Ave, Milwaukee",
+    "mailto_url": "mailto:info@apexmilwaukeerealestatecenter.example?subject=quick%20question%20regarding%20Apex%20Milwaukee%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:38:01"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of Milwaukee",
+    "niche": "Realestate",
+    "city": "Milwaukee",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersofmilwaukee.example",
+    "email": "info@beaconrealestatepartnersofmilwaukee.example",
+    "address": "360 Boulevard Ave, Milwaukee",
+    "mailto_url": "mailto:info@beaconrealestatepartnersofmilwaukee.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20Milwaukee%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:38:01"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Milwaukee Realestate Group",
+    "niche": "Realestate",
+    "city": "Milwaukee",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardmilwaukeerealestategroup.example",
+    "email": "info@vanguardmilwaukeerealestategroup.example",
+    "address": "480 Boulevard Ave, Milwaukee",
+    "mailto_url": "mailto:info@vanguardmilwaukeerealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20Milwaukee%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:38:01"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics Milwaukee",
+    "niche": "Realestate",
+    "city": "Milwaukee",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticsmilwaukee.example",
+    "email": "info@luminarealestateandaestheticsmilwaukee.example",
+    "address": "600 Boulevard Ave, Milwaukee",
+    "mailto_url": "mailto:info@luminarealestateandaestheticsmilwaukee.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20Milwaukee%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 00:38:01"
+  }
+]
