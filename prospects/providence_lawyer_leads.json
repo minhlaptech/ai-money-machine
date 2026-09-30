@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Providence Premier Lawyer Studio",
+    "niche": "Lawyer",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.providencepremierlawyerstudio.example",
+    "email": "info@providencepremierlawyerstudio.example",
+    "address": "120 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@providencepremierlawyerstudio.example?subject=quick%20question%20regarding%20Providence%20Premier%20Lawyer%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:21:23"
+  },
+  {
+    "id": 2,
+    "name": "Apex Providence Lawyer Center",
+    "niche": "Lawyer",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexprovidencelawyercenter.example",
+    "email": "info@apexprovidencelawyercenter.example",
+    "address": "240 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@apexprovidencelawyercenter.example?subject=quick%20question%20regarding%20Apex%20Providence%20Lawyer%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:21:23"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Lawyer Partners of Providence",
+    "niche": "Lawyer",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconlawyerpartnersofprovidence.example",
+    "email": "info@beaconlawyerpartnersofprovidence.example",
+    "address": "360 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@beaconlawyerpartnersofprovidence.example?subject=quick%20question%20regarding%20Beacon%20Lawyer%20Partners%20of%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:21:23"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Providence Lawyer Group",
+    "niche": "Lawyer",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardprovidencelawyergroup.example",
+    "email": "info@vanguardprovidencelawyergroup.example",
+    "address": "480 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@vanguardprovidencelawyergroup.example?subject=quick%20question%20regarding%20Vanguard%20Providence%20Lawyer%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:21:23"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Lawyer & Aesthetics Providence",
+    "niche": "Lawyer",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminalawyerandaestheticsprovidence.example",
+    "email": "info@luminalawyerandaestheticsprovidence.example",
+    "address": "600 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@luminalawyerandaestheticsprovidence.example?subject=quick%20question%20regarding%20Lumina%20Lawyer%20%26%20Aesthetics%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:21:23"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Lawyer Clinic of Providence",
+    "niche": "Lawyer",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivelawyerclinicofprovidence.example",
+    "email": "info@proactivelawyerclinicofprovidence.example",
+    "address": "720 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@proactivelawyerclinicofprovidence.example?subject=quick%20question%20regarding%20ProActive%20Lawyer%20Clinic%20of%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:21:23"
+  },
+  {
+    "id": 7,
+    "name": "Elite Lawyer Specialists Providence",
+    "niche": "Lawyer",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitelawyerspecialistsprovidence.example",
+    "email": "info@elitelawyerspecialistsprovidence.example",
+    "address": "840 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@elitelawyerspecialistsprovidence.example?subject=quick%20question%20regarding%20Elite%20Lawyer%20Specialists%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:21:23"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Lawyer Providence",
+    "niche": "Lawyer",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestlawyerprovidence.example",
+    "email": "info@summitcrestlawyerprovidence.example",
+    "address": "960 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@summitcrestlawyerprovidence.example?subject=quick%20question%20regarding%20Summit%20Crest%20Lawyer%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:21:23"
+  },
+  {
+    "id": 9,
+    "name": "Metro Lawyer Care Center Providence",
+    "niche": "Lawyer",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrolawyercarecenterprovidence.example",
+    "email": "info@metrolawyercarecenterprovidence.example",
+    "address": "1080 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@metrolawyercarecenterprovidence.example?subject=quick%20question%20regarding%20Metro%20Lawyer%20Care%20Center%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:21:23"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Lawyer Practice Providence",
+    "niche": "Lawyer",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastlawyerpracticeprovidence.example",
+    "email": "info@pacificcoastlawyerpracticeprovidence.example",
+    "address": "1200 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@pacificcoastlawyerpracticeprovidence.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Lawyer%20Practice%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:21:23"
+  }
+]

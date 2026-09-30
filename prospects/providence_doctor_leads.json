@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Providence Premier Doctor Studio",
+    "niche": "Doctor",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.providencepremierdoctorstudio.example",
+    "email": "info@providencepremierdoctorstudio.example",
+    "address": "120 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@providencepremierdoctorstudio.example?subject=quick%20question%20regarding%20Providence%20Premier%20Doctor%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:20:41"
+  },
+  {
+    "id": 2,
+    "name": "Apex Providence Doctor Center",
+    "niche": "Doctor",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexprovidencedoctorcenter.example",
+    "email": "info@apexprovidencedoctorcenter.example",
+    "address": "240 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@apexprovidencedoctorcenter.example?subject=quick%20question%20regarding%20Apex%20Providence%20Doctor%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:20:41"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Doctor Partners of Providence",
+    "niche": "Doctor",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondoctorpartnersofprovidence.example",
+    "email": "info@beacondoctorpartnersofprovidence.example",
+    "address": "360 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@beacondoctorpartnersofprovidence.example?subject=quick%20question%20regarding%20Beacon%20Doctor%20Partners%20of%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:20:41"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Providence Doctor Group",
+    "niche": "Doctor",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardprovidencedoctorgroup.example",
+    "email": "info@vanguardprovidencedoctorgroup.example",
+    "address": "480 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@vanguardprovidencedoctorgroup.example?subject=quick%20question%20regarding%20Vanguard%20Providence%20Doctor%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:20:41"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Doctor & Aesthetics Providence",
+    "niche": "Doctor",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadoctorandaestheticsprovidence.example",
+    "email": "info@luminadoctorandaestheticsprovidence.example",
+    "address": "600 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@luminadoctorandaestheticsprovidence.example?subject=quick%20question%20regarding%20Lumina%20Doctor%20%26%20Aesthetics%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:20:41"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Doctor Clinic of Providence",
+    "niche": "Doctor",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedoctorclinicofprovidence.example",
+    "email": "info@proactivedoctorclinicofprovidence.example",
+    "address": "720 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@proactivedoctorclinicofprovidence.example?subject=quick%20question%20regarding%20ProActive%20Doctor%20Clinic%20of%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:20:41"
+  },
+  {
+    "id": 7,
+    "name": "Elite Doctor Specialists Providence",
+    "niche": "Doctor",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedoctorspecialistsprovidence.example",
+    "email": "info@elitedoctorspecialistsprovidence.example",
+    "address": "840 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@elitedoctorspecialistsprovidence.example?subject=quick%20question%20regarding%20Elite%20Doctor%20Specialists%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:20:41"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Doctor Providence",
+    "niche": "Doctor",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdoctorprovidence.example",
+    "email": "info@summitcrestdoctorprovidence.example",
+    "address": "960 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@summitcrestdoctorprovidence.example?subject=quick%20question%20regarding%20Summit%20Crest%20Doctor%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:20:41"
+  },
+  {
+    "id": 9,
+    "name": "Metro Doctor Care Center Providence",
+    "niche": "Doctor",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodoctorcarecenterprovidence.example",
+    "email": "info@metrodoctorcarecenterprovidence.example",
+    "address": "1080 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@metrodoctorcarecenterprovidence.example?subject=quick%20question%20regarding%20Metro%20Doctor%20Care%20Center%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:20:41"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Doctor Practice Providence",
+    "niche": "Doctor",
+    "city": "Providence",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdoctorpracticeprovidence.example",
+    "email": "info@pacificcoastdoctorpracticeprovidence.example",
+    "address": "1200 Boulevard Ave, Providence",
+    "mailto_url": "mailto:info@pacificcoastdoctorpracticeprovidence.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Doctor%20Practice%20Providence%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 01:20:41"
+  }
+]
