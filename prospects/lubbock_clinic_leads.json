@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Covenant Medical Group Urgent Care Center",
+    "niche": "Clinic",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@covenantmedicalgroupurgentcarecenter.example",
+    "address": "1910 Quaker Avenue, Lubbock 79407",
+    "mailto_url": "mailto:contact@covenantmedicalgroupurgentcarecenter.example?subject=quick%20question%20regarding%20Covenant%20Medical%20Group%20Urgent%20Care%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Covenant%20Medical%20Group%20Urgent%20Care%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:40"
+  },
+  {
+    "id": 2,
+    "name": "Wellness Lubbock",
+    "niche": "Clinic",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@wellnesslubbock.example",
+    "address": "4009 19th Street, Lubbock 79410",
+    "mailto_url": "mailto:contact@wellnesslubbock.example?subject=quick%20question%20regarding%20Wellness%20Lubbock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Wellness%20Lubbock%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:40"
+  },
+  {
+    "id": 3,
+    "name": "Lubbock Cancer Center",
+    "niche": "Clinic",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lubbockcancercenter.example",
+    "address": "4002 19th Street, Lubbock 79410",
+    "mailto_url": "mailto:contact@lubbockcancercenter.example?subject=quick%20question%20regarding%20Lubbock%20Cancer%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lubbock%20Cancer%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:40"
+  },
+  {
+    "id": 4,
+    "name": "Moody Neurorehabilitation Institute",
+    "niche": "Clinic",
+    "city": "Lubbock",
+    "phone": "+1-806-701-4008",
+    "website": "https://moodyneuro.org/location/westway/",
+    "email": "contact@moodyneuro.org",
+    "address": "4416 10th Street, Lubbock 79416",
+    "mailto_url": "mailto:contact@moodyneuro.org?subject=quick%20question%20regarding%20Moody%20Neurorehabilitation%20Institute%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//moodyneuro.org/location/westway/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Moody%20Neurorehabilitation%20Institute%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:40"
+  },
+  {
+    "id": 5,
+    "name": "Moody Neurorehabilitation Institute",
+    "niche": "Clinic",
+    "city": "Lubbock",
+    "phone": "+1-806-281-5400",
+    "website": "https://moodyneuro.org/location/lubbock/",
+    "email": "contact@moodyneuro.org",
+    "address": "1808 North Quaker Avenue, Lubbock 79415",
+    "mailto_url": "mailto:contact@moodyneuro.org?subject=quick%20question%20regarding%20Moody%20Neurorehabilitation%20Institute%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//moodyneuro.org/location/lubbock/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Moody%20Neurorehabilitation%20Institute%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:40"
+  },
+  {
+    "id": 6,
+    "name": "Student Wellness Center",
+    "niche": "Clinic",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@studentwellnesscenter.example",
+    "address": "1003 Flint Avenue, Lubbock 79409",
+    "mailto_url": "mailto:contact@studentwellnesscenter.example?subject=quick%20question%20regarding%20Student%20Wellness%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Student%20Wellness%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:40"
+  },
+  {
+    "id": 7,
+    "name": "Maupin Endodontics",
+    "niche": "Clinic",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@maupinendodontics.example",
+    "address": "Lubbock",
+    "mailto_url": "mailto:contact@maupinendodontics.example?subject=quick%20question%20regarding%20Maupin%20Endodontics%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Maupin%20Endodontics%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:40"
+  },
+  {
+    "id": 8,
+    "name": "West Texas ER",
+    "niche": "Clinic",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@westtexaser.example",
+    "address": "Lubbock",
+    "mailto_url": "mailto:contact@westtexaser.example?subject=quick%20question%20regarding%20West%20Texas%20ER%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20West%20Texas%20ER%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:40"
+  },
+  {
+    "id": 9,
+    "name": "Texas Tech Physicians of Lubbock - Southwest",
+    "niche": "Clinic",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@texastechphysiciansoflubbock-southwest.example",
+    "address": "Lubbock",
+    "mailto_url": "mailto:contact@texastechphysiciansoflubbock-southwest.example?subject=quick%20question%20regarding%20Texas%20Tech%20Physicians%20of%20Lubbock%20-%20Southwest%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Texas%20Tech%20Physicians%20of%20Lubbock%20-%20Southwest%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:40"
+  },
+  {
+    "id": 10,
+    "name": "Texas Tech Physicians of Lubbock - Southwest",
+    "niche": "Clinic",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@texastechphysiciansoflubbock-southwest.example",
+    "address": "4004 82nd Street, Lubbock 79423",
+    "mailto_url": "mailto:contact@texastechphysiciansoflubbock-southwest.example?subject=quick%20question%20regarding%20Texas%20Tech%20Physicians%20of%20Lubbock%20-%20Southwest%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Texas%20Tech%20Physicians%20of%20Lubbock%20-%20Southwest%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:40"
+  }
+]

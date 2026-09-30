@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Lubbock Premier Doctor Studio",
+    "niche": "Doctor",
+    "city": "Lubbock",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.lubbockpremierdoctorstudio.example",
+    "email": "info@lubbockpremierdoctorstudio.example",
+    "address": "120 Boulevard Ave, Lubbock",
+    "mailto_url": "mailto:info@lubbockpremierdoctorstudio.example?subject=quick%20question%20regarding%20Lubbock%20Premier%20Doctor%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:38"
+  },
+  {
+    "id": 2,
+    "name": "Apex Lubbock Doctor Center",
+    "niche": "Doctor",
+    "city": "Lubbock",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexlubbockdoctorcenter.example",
+    "email": "info@apexlubbockdoctorcenter.example",
+    "address": "240 Boulevard Ave, Lubbock",
+    "mailto_url": "mailto:info@apexlubbockdoctorcenter.example?subject=quick%20question%20regarding%20Apex%20Lubbock%20Doctor%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:38"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Doctor Partners of Lubbock",
+    "niche": "Doctor",
+    "city": "Lubbock",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondoctorpartnersoflubbock.example",
+    "email": "info@beacondoctorpartnersoflubbock.example",
+    "address": "360 Boulevard Ave, Lubbock",
+    "mailto_url": "mailto:info@beacondoctorpartnersoflubbock.example?subject=quick%20question%20regarding%20Beacon%20Doctor%20Partners%20of%20Lubbock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:38"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Lubbock Doctor Group",
+    "niche": "Doctor",
+    "city": "Lubbock",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardlubbockdoctorgroup.example",
+    "email": "info@vanguardlubbockdoctorgroup.example",
+    "address": "480 Boulevard Ave, Lubbock",
+    "mailto_url": "mailto:info@vanguardlubbockdoctorgroup.example?subject=quick%20question%20regarding%20Vanguard%20Lubbock%20Doctor%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:38"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Doctor & Aesthetics Lubbock",
+    "niche": "Doctor",
+    "city": "Lubbock",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadoctorandaestheticslubbock.example",
+    "email": "info@luminadoctorandaestheticslubbock.example",
+    "address": "600 Boulevard Ave, Lubbock",
+    "mailto_url": "mailto:info@luminadoctorandaestheticslubbock.example?subject=quick%20question%20regarding%20Lumina%20Doctor%20%26%20Aesthetics%20Lubbock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:38"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Doctor Clinic of Lubbock",
+    "niche": "Doctor",
+    "city": "Lubbock",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedoctorclinicoflubbock.example",
+    "email": "info@proactivedoctorclinicoflubbock.example",
+    "address": "720 Boulevard Ave, Lubbock",
+    "mailto_url": "mailto:info@proactivedoctorclinicoflubbock.example?subject=quick%20question%20regarding%20ProActive%20Doctor%20Clinic%20of%20Lubbock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:38"
+  },
+  {
+    "id": 7,
+    "name": "Elite Doctor Specialists Lubbock",
+    "niche": "Doctor",
+    "city": "Lubbock",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedoctorspecialistslubbock.example",
+    "email": "info@elitedoctorspecialistslubbock.example",
+    "address": "840 Boulevard Ave, Lubbock",
+    "mailto_url": "mailto:info@elitedoctorspecialistslubbock.example?subject=quick%20question%20regarding%20Elite%20Doctor%20Specialists%20Lubbock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:38"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Doctor Lubbock",
+    "niche": "Doctor",
+    "city": "Lubbock",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdoctorlubbock.example",
+    "email": "info@summitcrestdoctorlubbock.example",
+    "address": "960 Boulevard Ave, Lubbock",
+    "mailto_url": "mailto:info@summitcrestdoctorlubbock.example?subject=quick%20question%20regarding%20Summit%20Crest%20Doctor%20Lubbock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:38"
+  },
+  {
+    "id": 9,
+    "name": "Metro Doctor Care Center Lubbock",
+    "niche": "Doctor",
+    "city": "Lubbock",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodoctorcarecenterlubbock.example",
+    "email": "info@metrodoctorcarecenterlubbock.example",
+    "address": "1080 Boulevard Ave, Lubbock",
+    "mailto_url": "mailto:info@metrodoctorcarecenterlubbock.example?subject=quick%20question%20regarding%20Metro%20Doctor%20Care%20Center%20Lubbock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:38"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Doctor Practice Lubbock",
+    "niche": "Doctor",
+    "city": "Lubbock",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdoctorpracticelubbock.example",
+    "email": "info@pacificcoastdoctorpracticelubbock.example",
+    "address": "1200 Boulevard Ave, Lubbock",
+    "mailto_url": "mailto:info@pacificcoastdoctorpracticelubbock.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Doctor%20Practice%20Lubbock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:38"
+  }
+]

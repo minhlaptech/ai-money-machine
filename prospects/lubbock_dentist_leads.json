@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Gwen",
+    "niche": "Dentist",
+    "city": "Lubbock",
+    "phone": "+1 806-797-7078",
+    "website": "https://gwenjordendds.com/",
+    "email": "contact@gwenjordendds.com",
+    "address": "5301 50th Street, Lubbock 79414",
+    "mailto_url": "mailto:contact@gwenjordendds.com?subject=quick%20question%20regarding%20Gwen%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//gwenjordendds.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Gwen%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:22"
+  },
+  {
+    "id": 2,
+    "name": "Scott Dentistry",
+    "niche": "Dentist",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@scottdentistry.example",
+    "address": "Lubbock",
+    "mailto_url": "mailto:contact@scottdentistry.example?subject=quick%20question%20regarding%20Scott%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Scott%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:22"
+  },
+  {
+    "id": 3,
+    "name": "Salem Dental Center",
+    "niche": "Dentist",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@salemdentalcenter.example",
+    "address": "8502 Quaker Avenue, Lubbock 79424",
+    "mailto_url": "mailto:contact@salemdentalcenter.example?subject=quick%20question%20regarding%20Salem%20Dental%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Salem%20Dental%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:22"
+  },
+  {
+    "id": 4,
+    "name": "Abbeville Dentistry",
+    "niche": "Dentist",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@abbevilledentistry.example",
+    "address": "Lubbock",
+    "mailto_url": "mailto:contact@abbevilledentistry.example?subject=quick%20question%20regarding%20Abbeville%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Abbeville%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:22"
+  },
+  {
+    "id": 5,
+    "name": "Lubbock Dentist #5",
+    "niche": "Dentist",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lubbockdentist#5.example",
+    "address": "Lubbock",
+    "mailto_url": "mailto:contact@lubbockdentist#5.example?subject=quick%20question%20regarding%20Lubbock%20Dentist%20%235%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lubbock%20Dentist%20%235%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:22"
+  },
+  {
+    "id": 6,
+    "name": "Hill & Ioppolo Oral & Dental Implant Surgery",
+    "niche": "Dentist",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@hillioppolooraldentalimplantsurgery.example",
+    "address": "4211 85th Street, Lubbock 79423",
+    "mailto_url": "mailto:contact@hillioppolooraldentalimplantsurgery.example?subject=quick%20question%20regarding%20Hill%20%26%20Ioppolo%20Oral%20%26%20Dental%20Implant%20Surgery%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hill%20%26%20Ioppolo%20Oral%20%26%20Dental%20Implant%20Surgery%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:22"
+  },
+  {
+    "id": 7,
+    "name": "Robinson and Hamblen Dentistry",
+    "niche": "Dentist",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@robinsonandhamblendentistry.example",
+    "address": "4215 85th Street, Lubbock 79423",
+    "mailto_url": "mailto:contact@robinsonandhamblendentistry.example?subject=quick%20question%20regarding%20Robinson%20and%20Hamblen%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Robinson%20and%20Hamblen%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:22"
+  },
+  {
+    "id": 8,
+    "name": "Grimes & Simek Dentistry",
+    "niche": "Dentist",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@grimessimekdentistry.example",
+    "address": "4217 85th Street, Lubbock 79423",
+    "mailto_url": "mailto:contact@grimessimekdentistry.example?subject=quick%20question%20regarding%20Grimes%20%26%20Simek%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Grimes%20%26%20Simek%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:22"
+  },
+  {
+    "id": 9,
+    "name": "Lakeridge Dental",
+    "niche": "Dentist",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@lakeridgedental.example",
+    "address": "4222 98th Street, Lubbock 79423",
+    "mailto_url": "mailto:contact@lakeridgedental.example?subject=quick%20question%20regarding%20Lakeridge%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Lakeridge%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:22"
+  },
+  {
+    "id": 10,
+    "name": "Caprock Oral",
+    "niche": "Dentist",
+    "city": "Lubbock",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@caprockoral.example",
+    "address": "5730 66th Street, Lubbock 79424",
+    "mailto_url": "mailto:contact@caprockoral.example?subject=quick%20question%20regarding%20Caprock%20Oral%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Caprock%20Oral%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:43:22"
+  }
+]
