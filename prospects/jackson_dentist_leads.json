@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Jackson Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.jacksonpremierdentiststudio.example",
+    "email": "info@jacksonpremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@jacksonpremierdentiststudio.example?subject=quick%20question%20regarding%20Jackson%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:47"
+  },
+  {
+    "id": 2,
+    "name": "Apex Jackson Dentist Center",
+    "niche": "Dentist",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexjacksondentistcenter.example",
+    "email": "info@apexjacksondentistcenter.example",
+    "address": "240 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@apexjacksondentistcenter.example?subject=quick%20question%20regarding%20Apex%20Jackson%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:47"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Jackson",
+    "niche": "Dentist",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersofjackson.example",
+    "email": "info@beacondentistpartnersofjackson.example",
+    "address": "360 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@beacondentistpartnersofjackson.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:47"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Jackson Dentist Group",
+    "niche": "Dentist",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardjacksondentistgroup.example",
+    "email": "info@vanguardjacksondentistgroup.example",
+    "address": "480 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@vanguardjacksondentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Jackson%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:47"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Jackson",
+    "niche": "Dentist",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticsjackson.example",
+    "email": "info@luminadentistandaestheticsjackson.example",
+    "address": "600 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@luminadentistandaestheticsjackson.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:47"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Dentist Clinic of Jackson",
+    "niche": "Dentist",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedentistclinicofjackson.example",
+    "email": "info@proactivedentistclinicofjackson.example",
+    "address": "720 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@proactivedentistclinicofjackson.example?subject=quick%20question%20regarding%20ProActive%20Dentist%20Clinic%20of%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:47"
+  },
+  {
+    "id": 7,
+    "name": "Elite Dentist Specialists Jackson",
+    "niche": "Dentist",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedentistspecialistsjackson.example",
+    "email": "info@elitedentistspecialistsjackson.example",
+    "address": "840 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@elitedentistspecialistsjackson.example?subject=quick%20question%20regarding%20Elite%20Dentist%20Specialists%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:47"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Dentist Jackson",
+    "niche": "Dentist",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdentistjackson.example",
+    "email": "info@summitcrestdentistjackson.example",
+    "address": "960 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@summitcrestdentistjackson.example?subject=quick%20question%20regarding%20Summit%20Crest%20Dentist%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:47"
+  },
+  {
+    "id": 9,
+    "name": "Metro Dentist Care Center Jackson",
+    "niche": "Dentist",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodentistcarecenterjackson.example",
+    "email": "info@metrodentistcarecenterjackson.example",
+    "address": "1080 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@metrodentistcarecenterjackson.example?subject=quick%20question%20regarding%20Metro%20Dentist%20Care%20Center%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:47"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Dentist Practice Jackson",
+    "niche": "Dentist",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdentistpracticejackson.example",
+    "email": "info@pacificcoastdentistpracticejackson.example",
+    "address": "1200 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@pacificcoastdentistpracticejackson.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Dentist%20Practice%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:47"
+  }
+]

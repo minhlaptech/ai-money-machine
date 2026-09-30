@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Jackson Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.jacksonpremierrealestatestudio.example",
+    "email": "info@jacksonpremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@jacksonpremierrealestatestudio.example?subject=quick%20question%20regarding%20Jackson%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:28"
+  },
+  {
+    "id": 2,
+    "name": "Apex Jackson Realestate Center",
+    "niche": "Realestate",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexjacksonrealestatecenter.example",
+    "email": "info@apexjacksonrealestatecenter.example",
+    "address": "240 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@apexjacksonrealestatecenter.example?subject=quick%20question%20regarding%20Apex%20Jackson%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:28"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of Jackson",
+    "niche": "Realestate",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersofjackson.example",
+    "email": "info@beaconrealestatepartnersofjackson.example",
+    "address": "360 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@beaconrealestatepartnersofjackson.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:28"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Jackson Realestate Group",
+    "niche": "Realestate",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardjacksonrealestategroup.example",
+    "email": "info@vanguardjacksonrealestategroup.example",
+    "address": "480 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@vanguardjacksonrealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20Jackson%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:28"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics Jackson",
+    "niche": "Realestate",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticsjackson.example",
+    "email": "info@luminarealestateandaestheticsjackson.example",
+    "address": "600 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@luminarealestateandaestheticsjackson.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:28"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Realestate Clinic of Jackson",
+    "niche": "Realestate",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiverealestateclinicofjackson.example",
+    "email": "info@proactiverealestateclinicofjackson.example",
+    "address": "720 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@proactiverealestateclinicofjackson.example?subject=quick%20question%20regarding%20ProActive%20Realestate%20Clinic%20of%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:28"
+  },
+  {
+    "id": 7,
+    "name": "Elite Realestate Specialists Jackson",
+    "niche": "Realestate",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliterealestatespecialistsjackson.example",
+    "email": "info@eliterealestatespecialistsjackson.example",
+    "address": "840 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@eliterealestatespecialistsjackson.example?subject=quick%20question%20regarding%20Elite%20Realestate%20Specialists%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:28"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Realestate Jackson",
+    "niche": "Realestate",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestrealestatejackson.example",
+    "email": "info@summitcrestrealestatejackson.example",
+    "address": "960 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@summitcrestrealestatejackson.example?subject=quick%20question%20regarding%20Summit%20Crest%20Realestate%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:28"
+  },
+  {
+    "id": 9,
+    "name": "Metro Realestate Care Center Jackson",
+    "niche": "Realestate",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrorealestatecarecenterjackson.example",
+    "email": "info@metrorealestatecarecenterjackson.example",
+    "address": "1080 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@metrorealestatecarecenterjackson.example?subject=quick%20question%20regarding%20Metro%20Realestate%20Care%20Center%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:28"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Realestate Practice Jackson",
+    "niche": "Realestate",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastrealestatepracticejackson.example",
+    "email": "info@pacificcoastrealestatepracticejackson.example",
+    "address": "1200 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@pacificcoastrealestatepracticejackson.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Realestate%20Practice%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:28"
+  }
+]

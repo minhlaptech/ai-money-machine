@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Jackson Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.jacksonpremierclinicstudio.example",
+    "email": "info@jacksonpremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@jacksonpremierclinicstudio.example?subject=quick%20question%20regarding%20Jackson%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:00"
+  },
+  {
+    "id": 2,
+    "name": "Apex Jackson Clinic Center",
+    "niche": "Clinic",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexjacksoncliniccenter.example",
+    "email": "info@apexjacksoncliniccenter.example",
+    "address": "240 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@apexjacksoncliniccenter.example?subject=quick%20question%20regarding%20Apex%20Jackson%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:00"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Jackson",
+    "niche": "Clinic",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofjackson.example",
+    "email": "info@beaconclinicpartnersofjackson.example",
+    "address": "360 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@beaconclinicpartnersofjackson.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:00"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Jackson Clinic Group",
+    "niche": "Clinic",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardjacksonclinicgroup.example",
+    "email": "info@vanguardjacksonclinicgroup.example",
+    "address": "480 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@vanguardjacksonclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Jackson%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:00"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Jackson",
+    "niche": "Clinic",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsjackson.example",
+    "email": "info@luminaclinicandaestheticsjackson.example",
+    "address": "600 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsjackson.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:00"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Jackson",
+    "niche": "Clinic",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofjackson.example",
+    "email": "info@proactiveclinicclinicofjackson.example",
+    "address": "720 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@proactiveclinicclinicofjackson.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:00"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Jackson",
+    "niche": "Clinic",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistsjackson.example",
+    "email": "info@eliteclinicspecialistsjackson.example",
+    "address": "840 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@eliteclinicspecialistsjackson.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:00"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Jackson",
+    "niche": "Clinic",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicjackson.example",
+    "email": "info@summitcrestclinicjackson.example",
+    "address": "960 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@summitcrestclinicjackson.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:00"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Jackson",
+    "niche": "Clinic",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecenterjackson.example",
+    "email": "info@metrocliniccarecenterjackson.example",
+    "address": "1080 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@metrocliniccarecenterjackson.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:00"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Jackson",
+    "niche": "Clinic",
+    "city": "Jackson",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticejackson.example",
+    "email": "info@pacificcoastclinicpracticejackson.example",
+    "address": "1200 Boulevard Ave, Jackson",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticejackson.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Jackson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:51:00"
+  }
+]

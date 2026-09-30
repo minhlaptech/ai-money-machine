@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Jackson Whole Family Health",
+    "niche": "Doctor",
+    "city": "Jackson",
+    "phone": "+1-307-733-7003",
+    "website": "N/A",
+    "email": "contact@jacksonwholefamilyhealth.example",
+    "address": "1110 Maple Way, Jackson 83001",
+    "mailto_url": "mailto:contact@jacksonwholefamilyhealth.example?subject=quick%20question%20regarding%20Jackson%20Whole%20Family%20Health%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jackson%20Whole%20Family%20Health%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:50"
+  },
+  {
+    "id": 2,
+    "name": "Christ Community Health Services",
+    "niche": "Doctor",
+    "city": "Jackson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@christcommunityhealthservices.example",
+    "address": "Jackson",
+    "mailto_url": "mailto:contact@christcommunityhealthservices.example?subject=quick%20question%20regarding%20Christ%20Community%20Health%20Services%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Christ%20Community%20Health%20Services%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:50"
+  },
+  {
+    "id": 3,
+    "name": "Levy Dermatology",
+    "niche": "Doctor",
+    "city": "Jackson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@levydermatology.example",
+    "address": "Jackson",
+    "mailto_url": "mailto:contact@levydermatology.example?subject=quick%20question%20regarding%20Levy%20Dermatology%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Levy%20Dermatology%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:50"
+  },
+  {
+    "id": 4,
+    "name": "CenterWell",
+    "niche": "Doctor",
+    "city": "Jackson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@centerwell.example",
+    "address": "Jackson",
+    "mailto_url": "mailto:contact@centerwell.example?subject=quick%20question%20regarding%20CenterWell%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20CenterWell%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:50"
+  },
+  {
+    "id": 5,
+    "name": "Jackson Doctor #5",
+    "niche": "Doctor",
+    "city": "Jackson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@jacksondoctor#5.example",
+    "address": "Jackson",
+    "mailto_url": "mailto:contact@jacksondoctor#5.example?subject=quick%20question%20regarding%20Jackson%20Doctor%20%235%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jackson%20Doctor%20%235%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:50"
+  },
+  {
+    "id": 6,
+    "name": "Jackson Doctor #6",
+    "niche": "Doctor",
+    "city": "Jackson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@jacksondoctor#6.example",
+    "address": "Jackson",
+    "mailto_url": "mailto:contact@jacksondoctor#6.example?subject=quick%20question%20regarding%20Jackson%20Doctor%20%236%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jackson%20Doctor%20%236%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:50"
+  },
+  {
+    "id": 7,
+    "name": "Jackson Doctor #7",
+    "niche": "Doctor",
+    "city": "Jackson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@jacksondoctor#7.example",
+    "address": "Jackson",
+    "mailto_url": "mailto:contact@jacksondoctor#7.example?subject=quick%20question%20regarding%20Jackson%20Doctor%20%237%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jackson%20Doctor%20%237%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:50"
+  },
+  {
+    "id": 8,
+    "name": "Jackson Doctor #8",
+    "niche": "Doctor",
+    "city": "Jackson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@jacksondoctor#8.example",
+    "address": "Jackson",
+    "mailto_url": "mailto:contact@jacksondoctor#8.example?subject=quick%20question%20regarding%20Jackson%20Doctor%20%238%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jackson%20Doctor%20%238%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:50"
+  },
+  {
+    "id": 9,
+    "name": "Jackson Doctor #9",
+    "niche": "Doctor",
+    "city": "Jackson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@jacksondoctor#9.example",
+    "address": "Jackson",
+    "mailto_url": "mailto:contact@jacksondoctor#9.example?subject=quick%20question%20regarding%20Jackson%20Doctor%20%239%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jackson%20Doctor%20%239%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:50"
+  },
+  {
+    "id": 10,
+    "name": "Jackson Doctor #10",
+    "niche": "Doctor",
+    "city": "Jackson",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@jacksondoctor#10.example",
+    "address": "Jackson",
+    "mailto_url": "mailto:contact@jacksondoctor#10.example?subject=quick%20question%20regarding%20Jackson%20Doctor%20%2310%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jackson%20Doctor%20%2310%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:50:50"
+  }
+]
