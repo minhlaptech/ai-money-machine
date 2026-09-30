@@ -2,7 +2,7 @@
 Executive Sales Call Pitch Deck Generator
 ------------------------------------------
 Tự động tạo bộ trình chiếu bán hàng tương tác HTML5 (10-Slide Interactive Sales Deck)
-cho từng khách hàng trong 30 leads B2B mục tiêu.
+cho từng khách hàng trong 84 leads B2B mục tiêu.
 Được thiết kế tối ưu cho việc chia sẻ màn hình qua Zoom / Google Meet:
 1. Giao diện 16:9 Dark Glassmorphism sang trọng, mượt mà.
 2. Điều hướng bàn phím (Phím mũi tên, Space, F: Fullscreen, N: Speaker Notes).
@@ -1036,7 +1036,7 @@ def generate_pitch_deck(lead_id, name, niche, city, avg_val=750, lost_leads=18):
 
 def generate_all_decks():
     print("=" * 70)
-    print("🚀 GENERATING 30 CUSTOM CLIENT INTERACTIVE SALES PITCH DECKS")
+    print(f"🚀 GENERATING {len(LEADS)} CUSTOM CLIENT INTERACTIVE SALES PITCH DECKS")
     print("=" * 70)
 
     for l in LEADS:
@@ -1044,12 +1044,12 @@ def generate_all_decks():
         print(f"  [✓] #{l['id']:02d} Generated: {f.name}")
 
     print("-" * 70)
-    print(f"🎉 SUCCESS: All 30 sales pitch decks generated in: {PITCHES_DIR}")
+    print(f"🎉 SUCCESS: All {len(LEADS)} sales pitch decks generated in: {PITCHES_DIR}")
     print("=" * 70)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Executive Client Sales Pitch Decks")
-    parser.add_argument("--all", action="store_true", help="Generate pitch decks for all 30 curated leads")
+    parser.add_argument("--all", action="store_true", help="Generate pitch decks for all 84 curated leads")
     parser.add_argument("--id", type=int, default=1, help="Lead ID")
     parser.add_argument("--name", default="Austin Dental Co", help="Client name")
     parser.add_argument("--niche", default="Cosmetic Dentistry", help="Niche")

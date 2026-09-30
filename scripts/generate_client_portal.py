@@ -1,7 +1,7 @@
 """
 Executive Client VIP Command Portal Generator
 ----------------------------------------------
-Generates a branded, enterprise-grade Client VIP Portal for all 30 B2B clients:
+Generates a branded, enterprise-grade Client VIP Portal for all 84 B2B clients:
  1. Real-Time Copilot Status & 99.98% SLA Uptime Monitor
  2. Quantified Revenue Recovery & Performance Dashboard
  3. 5-Day White-Glove Implementation Sprint Tracker
@@ -10,7 +10,7 @@ Generates a branded, enterprise-grade Client VIP Portal for all 30 B2B clients:
  6. 1-Click Download of Complete Executive ZIP Dossier
  7. Priority VIP Engineering Helpdesk (Direct Telegram Dispatch)
 Outputs:
- - portals/{slug}_portal.html (30 Standalone Branded Client Portals)
+ - portals/{slug}_portal.html (84 Standalone Branded Client Portals)
  - portals/index.html (Universal VIP Portal with Client Switcher)
 """
 
@@ -935,7 +935,7 @@ def generate_portal_index():
 def generate_all_portals():
     PORTALS_DIR.mkdir(parents=True, exist_ok=True)
     print("=" * 75)
-    print("🚀 GENERATING 60 BRANDED VIP CLIENT COMMAND PORTALS + UNIVERSAL HUB")
+    print(f"🚀 GENERATING {len(LEADS)} BRANDED VIP CLIENT COMMAND PORTALS + UNIVERSAL HUB")
     print("=" * 75)
 
     for l in LEADS:
@@ -946,13 +946,13 @@ def generate_all_portals():
     print(f"  [✓] Generated Universal VIP Portal Hub: {idx.name}")
 
     print("-" * 75)
-    print(f"🎉 SUCCESS: All 60 VIP client portals + Universal Hub generated in: {PORTALS_DIR}")
+    print(f"🎉 SUCCESS: All {len(LEADS)} VIP client portals + Universal Hub generated in: {PORTALS_DIR}")
     print("=" * 75)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Executive Client VIP Portals")
-    parser.add_argument("--all", action="store_true", help="Generate portals for all 30 clients and universal hub")
-    parser.add_argument("--lead", type=int, help="Lead ID (1-30)")
+    parser.add_argument("--all", action="store_true", help="Generate portals for all 84 clients and universal hub")
+    parser.add_argument("--lead", type=int, help="Lead ID (1-84)")
     args = parser.parse_args()
 
     if args.lead:
