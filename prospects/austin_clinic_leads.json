@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Austin Regional Clinic",
+    "niche": "Clinic",
+    "city": "Austin",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@austinregionalclinic.example",
+    "address": "10401 Anderson Mill Road, Austin 78750",
+    "mailto_url": "mailto:contact@austinregionalclinic.example?subject=quick%20question%20regarding%20Austin%20Regional%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Austin%20Regional%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 20:54:25"
+  },
+  {
+    "id": 2,
+    "name": "Texan Surgery Center",
+    "niche": "Clinic",
+    "city": "Austin",
+    "phone": "+1-512-342-0900",
+    "website": "https://texansurgery.com/",
+    "email": "contact@texansurgery.com",
+    "address": "7000 North MoPac Expressway, Austin 78731",
+    "mailto_url": "mailto:contact@texansurgery.com?subject=quick%20question%20regarding%20Texan%20Surgery%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//texansurgery.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Texan%20Surgery%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 20:54:25"
+  },
+  {
+    "id": 3,
+    "name": "ProMed",
+    "niche": "Clinic",
+    "city": "Austin",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@promed.example",
+    "address": "Austin",
+    "mailto_url": "mailto:contact@promed.example?subject=quick%20question%20regarding%20ProMed%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20ProMed%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 20:54:25"
+  },
+  {
+    "id": 4,
+    "name": "Austin Regional Clinic",
+    "niche": "Clinic",
+    "city": "Austin",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@austinregionalclinic.example",
+    "address": "2785 East 7th Street, Austin",
+    "mailto_url": "mailto:contact@austinregionalclinic.example?subject=quick%20question%20regarding%20Austin%20Regional%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Austin%20Regional%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 20:54:25"
+  },
+  {
+    "id": 5,
+    "name": "Austin Regional Clinic Far West",
+    "niche": "Clinic",
+    "city": "Austin",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@austinregionalclinicfarwest.example",
+    "address": "6835 Austin Center Boulevard, Austin 78731",
+    "mailto_url": "mailto:contact@austinregionalclinicfarwest.example?subject=quick%20question%20regarding%20Austin%20Regional%20Clinic%20Far%20West%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Austin%20Regional%20Clinic%20Far%20West%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 20:54:25"
+  }
+]
