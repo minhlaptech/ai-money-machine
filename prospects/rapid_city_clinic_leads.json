@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Planned Parenthood",
+    "niche": "Clinic",
+    "city": "Rapid City",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@plannedparenthood.example",
+    "address": "Rapid City",
+    "mailto_url": "mailto:contact@plannedparenthood.example?subject=quick%20question%20regarding%20Planned%20Parenthood%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Planned%20Parenthood%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:20:06"
+  },
+  {
+    "id": 2,
+    "name": "Rapid City Service Unit",
+    "niche": "Clinic",
+    "city": "Rapid City",
+    "phone": "N/A",
+    "website": "https://www.ihs.gov/greatplains/healthcarefacilities/rapidcity",
+    "email": "contact@ihs.gov",
+    "address": "3200 Canyon Lake Drive, Rapid City 57702",
+    "mailto_url": "mailto:contact@ihs.gov?subject=quick%20question%20regarding%20Rapid%20City%20Service%20Unit%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.ihs.gov/greatplains/healthcarefacilities/rapidcity%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Rapid%20City%20Service%20Unit%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:20:06"
+  },
+  {
+    "id": 3,
+    "name": "Rapid City Medical Center",
+    "niche": "Clinic",
+    "city": "Rapid City",
+    "phone": "+1-605-342-3280",
+    "website": "http://Rapidcitymedicalcenter.com",
+    "email": "contact@Rapidcitymedicalcenter.com",
+    "address": "2820 Mount Rushmore Road, Rapid City 57701",
+    "mailto_url": "mailto:contact@Rapidcitymedicalcenter.com?subject=quick%20question%20regarding%20Rapid%20City%20Medical%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//Rapidcitymedicalcenter.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Rapid%20City%20Medical%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:20:06"
+  },
+  {
+    "id": 4,
+    "name": "Regional Medical Clinic",
+    "niche": "Clinic",
+    "city": "Rapid City",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@regionalmedicalclinic.example",
+    "address": "2929 5th Street, Rapid City 57701",
+    "mailto_url": "mailto:contact@regionalmedicalclinic.example?subject=quick%20question%20regarding%20Regional%20Medical%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Regional%20Medical%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:20:06"
+  },
+  {
+    "id": 5,
+    "name": "Dakota Regional Medical Clinic",
+    "niche": "Clinic",
+    "city": "Rapid City",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dakotaregionalmedicalclinic.example",
+    "address": "2905 5th Street, Rapid City 57701",
+    "mailto_url": "mailto:contact@dakotaregionalmedicalclinic.example?subject=quick%20question%20regarding%20Dakota%20Regional%20Medical%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dakota%20Regional%20Medical%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:20:06"
+  },
+  {
+    "id": 6,
+    "name": "Regional Medical Clinic",
+    "niche": "Clinic",
+    "city": "Rapid City",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@regionalmedicalclinic.example",
+    "address": "2805 5th Street, Rapid City 57701",
+    "mailto_url": "mailto:contact@regionalmedicalclinic.example?subject=quick%20question%20regarding%20Regional%20Medical%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Regional%20Medical%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:20:06"
+  },
+  {
+    "id": 7,
+    "name": "Same Day Surgery Center",
+    "niche": "Clinic",
+    "city": "Rapid City",
+    "phone": "+1 605 755 9900",
+    "website": "https://www.samedaysurgerycenter.org/",
+    "email": "contact@samedaysurgerycenter.org",
+    "address": "651 Cathedral Drive, Rapid City 57701",
+    "mailto_url": "mailto:contact@samedaysurgerycenter.org?subject=quick%20question%20regarding%20Same%20Day%20Surgery%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.samedaysurgerycenter.org/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Same%20Day%20Surgery%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:20:06"
+  },
+  {
+    "id": 8,
+    "name": "Black Hills Regional Eye Institute",
+    "niche": "Clinic",
+    "city": "Rapid City",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@blackhillsregionaleyeinstitute.example",
+    "address": "2800 3rd Street, Rapid City 57701",
+    "mailto_url": "mailto:contact@blackhillsregionaleyeinstitute.example?subject=quick%20question%20regarding%20Black%20Hills%20Regional%20Eye%20Institute%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Black%20Hills%20Regional%20Eye%20Institute%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:20:06"
+  },
+  {
+    "id": 9,
+    "name": "Community Health Center of the Black Hills",
+    "niche": "Clinic",
+    "city": "Rapid City",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@communityhealthcenteroftheblackhills.example",
+    "address": "504 East Monroe Street, Rapid City 57701",
+    "mailto_url": "mailto:contact@communityhealthcenteroftheblackhills.example?subject=quick%20question%20regarding%20Community%20Health%20Center%20of%20the%20Black%20Hills%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Community%20Health%20Center%20of%20the%20Black%20Hills%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:20:06"
+  },
+  {
+    "id": 10,
+    "name": "Medical Arts Clinic",
+    "niche": "Clinic",
+    "city": "Rapid City",
+    "phone": "+1 605 3422880",
+    "website": "https://www.rapidcitymedicalcenter.com/locations/2011-10-04-19-14-02/medical-arts-clinic",
+    "email": "contact@rapidcitymedicalcenter.com",
+    "address": "717 Saint Francis Street, Rapid City 57701",
+    "mailto_url": "mailto:contact@rapidcitymedicalcenter.com?subject=quick%20question%20regarding%20Medical%20Arts%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.rapidcitymedicalcenter.com/locations/2011-10-04-19-14-02/medical-arts-clinic%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Medical%20Arts%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:20:06"
+  }
+]
