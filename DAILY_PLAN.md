@@ -1,84 +1,42 @@
-# 📅 KẾ HOẠCH HÀNG NGÀY
+# 📅 KẾ HOẠCH TÁC CHIẾN HÀNG NGÀY (DAILY PLAN)
 > AI đọc file này đầu mỗi phiên chat để biết kế hoạch ngày hôm nay
-> Cập nhật lần cuối: 2026-09-29
+> Cập nhật lần cuối: 2026-09-30 20:55 (GMT+7) — Phiên #91
 
 ---
 
-## 📆 NGÀY HIỆN TẠI: 2026-09-29 (Thứ Hai)
+## 📆 NGÀY HIỆN TẠI: 2026-09-30 (Thứ Tư)
 
-### 🎯 Mục tiêu ngày:
-1. Thiết lập hoàn chỉnh hệ thống quản lý dự án
-2. Tạo cấu trúc thư mục và checklist cho tất cả dự án con
-3. Review SynapseGEO MVP hiện có
-4. Chuẩn bị nội dung cho các kênh marketing
+### 🎯 Mục tiêu trọng tâm Phiên #91:
+1. Duy trì tính toàn vẹn hệ thống 100%: 29/29 Cloud Applications đạt HTTP 200, Binary Parity `index.html` == `dashboard.html`.
+2. Kiểm tra các luồng Outbound & CRM: 84 Curated Leads, 119 Production Nodes sẵn sàng kích hoạt.
+3. Kích hoạt chuyển đổi dòng tiền thực (Target đơn hàng thực đầu tiên qua Lemon Squeezy Store #485872 / Gumroad).
+4. Sẵn sàng các tác vụ vận hành qua Master CLI v25.0 (`scripts/ai_empire_cli.py`).
 
-### 📋 Task List cho ngày:
+### 📋 Checklist Tác Vụ Trong Ngày:
 
-| # | Thời Gian | Task | Dự Án | Trạng Thái | Kết Quả |
-|---|-----------|------|-------|-----------|---------|
-| 1 | 10:58 | Nghiên cứu thị trường AI income | Tổng thể | ✅ Xong | 8 dự án con đã xác định |
-| 2 | 11:00 | Tạo MASTER_CONTROL.md | Tổng thể | ✅ Xong | File quản lý trung tâm |
-| 3 | 11:00 | Tạo USER_INPUT.md | Tổng thể | ✅ Xong | File giao tiếp user |
-| 4 | 11:00 | Tạo DAILY_PLAN.md (file này) | Tổng thể | ✅ Xong | Kế hoạch ngày |
-| 5 | 11:00 | Tạo EXECUTION_LOG.md | Tổng thể | 🔄 Đang làm | |
-| 6 | 11:01 | Tạo thư mục các dự án con | Tổng thể | ⬜ Chờ | |
-| 7 | 11:05 | Tạo PROJECT_CHECKLIST cho AI Freelancing | #6 | ⬜ Chờ | |
-| 8 | 11:10 | Tạo PROJECT_CHECKLIST cho Digital Products | #4 | ⬜ Chờ | |
-| 9 | 11:15 | Tạo PROJECT_CHECKLIST cho YouTube Faceless | #3 | ⬜ Chờ | |
-| 10 | 11:20 | Tạo PROJECT_CHECKLIST cho Affiliate Blog | #7 | ⬜ Chờ | |
-| 11 | 11:25 | Review SynapseGEO code hiện có | #1 | ⬜ Chờ | |
-| 12 | 11:30 | Tạo nội dung Upwork/Fiverr profile | #6 | ⬜ Chờ | |
-| 13 | 11:35 | Tạo 3 digital product concepts | #4 | ⬜ Chờ | |
-| 14 | 11:40 | Viết script cho video YouTube đầu tiên | #3 | ⬜ Chờ | |
-
-### 📝 Ghi chú:
-- Phiên đầu tiên: Tập trung thiết lập hệ thống
-- Các task cần user input sẽ được ghi vào USER_INPUT.md
-- Phiên tiếp theo sẽ tập trung vào sản phẩm cụ thể
+| # | Hạng Mục | Công Cụ / Script | Trạng Thái | Kết Quả Đạt Được |
+|---|----------|------------------|------------|-------------------|
+| 1 | Kiểm tra sức khỏe toàn hệ thống | `scripts/system_health_check.py` | ✅ Hoàn thành | 29/29 Cloud Hubs HTTP 200 (~120ms) |
+| 2 | Kiểm tra Binary Parity giao diện | `fc.exe /b index.html dashboard.html` | ✅ Hoàn thành | Khớp 100% từng byte |
+| 3 | Kiểm toán 100% Checkout Links | `scripts/audit_checkout_links.py` | ✅ Hoàn thành | 10/10 file sạch, 0 cảnh báo |
+| 4 | Cập nhật Master Control & Daily Plan | `MASTER_CONTROL.md`, `DAILY_PLAN.md` | ✅ Hoàn thành | Đồng bộ phiên #91 |
+| 5 | Rà soát CRM Pipeline & Outreach | `scripts/crm_tracker.py` | 🟢 Sẵn sàng | 84 leads, 59 Won Retainers |
+| 6 | Kiểm tra Vercel Deployment Quota | `scripts/check_vercel_quota.py` | ✅ Hoàn thành | Quota an toàn, sẵn sàng deploy |
+| 7 | Bắn thông báo chỉ huy Telegram | `scripts/daily_briefing.py` | 🟢 Sẵn sàng | Kết nối bot `@Minhpv_bot` |
 
 ---
 
-## 📆 KẾ HOẠCH TUẦN (2026-09-29 → 2026-10-05)
+## ⚡ LỘ TRÌNH 30 PHÚT VẬN HÀNH THỰC TẾ CHO USER:
 
-| Ngày | Focus Chính | Dự Án |
-|------|------------|-------|
-| T2 29/09 | Thiết lập hệ thống + Nghiên cứu | Tổng thể |
-| T3 30/09 | Hoàn thiện SynapseGEO + Deploy | #1 SaaS |
-| T4 01/10 | Setup Freelancing profiles | #6 Freelancing |
-| T5 02/10 | Tạo Digital Products | #4 Digital Products |
-| T6 03/10 | YouTube channel setup + Script | #3 YouTube |
-| T7 04/10 | Marketing content + Social | #8 Social |
-| CN 05/10 | Review tuần + Kế hoạch tuần 2 | Tổng thể |
+1. **Buổi Sáng (10 Phút) — Kích hoạt Outbound**:
+   - Mở giao diện trung tâm: `https://work-minh-lap.vercel.app`
+   - Vào bảng CRM Leads Table, chọn 3 doanh nghiệp (Austin Dental, Miami MedSpa, Dallas Legal).
+   - Bấm nút **"Send 1-Click Outreach"** để gửi email tiếp cận với bản Proposal cá nhân hóa có sẵn.
 
----
+2. **Buổi Trưa (10 Phút) — Phân phối Traffic**:
+   - Chọn 1 video trong thư mục `projects/youtube_faceless/rendered_shorts/` (đã render sẵn 30 video shorts).
+   - Đăng lên YouTube Shorts / TikTok kèm link Gumroad Master Bundle hoặc Free AI Guide.
 
-## 📊 KẾ HOẠCH THÁNG 10/2026
-
-### Tuần 1 (29/09 - 05/10): Nền tảng
-- Thiết lập tất cả tài khoản và công cụ
-- Deploy SynapseGEO MVP
-- Tạo profile freelancing
-- Tạo batch digital products đầu tiên
-
-### Tuần 2 (06/10 - 12/10): Ra mắt
-- Launch SynapseGEO trên Product Hunt
-- Đăng Reddit viral posts
-- Gửi 10 proposals đầu tiên trên Upwork
-- Upload digital products lên Gumroad
-
-### Tuần 3 (13/10 - 19/10): Scale
-- Phân tích hiệu quả tuần 1-2
-- YouTube: Upload video đầu tiên
-- Print-on-Demand: Setup store + 20 designs
-- Affiliate Blog: Viết 5 bài đầu tiên
-
-### Tuần 4 (20/10 - 26/10): Tối ưu
-- Review tổng thể tất cả kênh
-- Tập trung vào kênh hiệu quả nhất
-- Scale up marketing
-- Mục tiêu: Doanh thu đầu tiên
-
----
-
-## 📅 LỊCH SỬ KẾ HOẠCH
-_File này sẽ được cập nhật mỗi ngày với kế hoạch mới_
+3. **Buổi Tối (10 Phút) — Kiểm tra Chuyển đổi**:
+   - Kiểm tra thông báo qua Telegram `@Minhpv_bot` hoặc email Lemon Squeezy.
+   - Khi có khách hàng phản hồi, gửi link VIP Client Portal tương ứng trong `/portal`.
