@@ -5,14 +5,15 @@ AI Money Machine — Autonomous Contract, Billing & Invoicing Engine
 ==================================================================
 Manages all legal contracts (Master Services Agreements - MSAs),
 official paid invoices, wire settlement receipts, and financial ledgering
-for all 95 active production accounts across the 4 tiers of the empire:
-- 60 Base Retainers ($161,700 cash · $44,550/mo MRR)
-- 15 Enterprise Swarms ($19,500 cash · $12,000/mo MRR)
-- 8 Sovereign Private VPCs ($20,000 cash · $12,000/mo MRR)
-- 12 Syndicate Franchise Nodes ($59,400 cash · $15,000/mo MRR)
+for all 119 active production accounts across the 4 tiers of the empire:
+- 84 Base Retainers ($997/mo retainer)
+- 15 Enterprise Swarms ($1,450/mo retainer)
+- 8 Sovereign Private VPCs ($1,500/mo retainer)
+- 12 Syndicate Franchise Nodes ($2,500/mo retainer)
 
 Total Consolidated Empire Financials:
-$260,600 Upfront Cash Collected · $83,550/mo MRR · $1,002,600 ARR ($1M Milestone)
+Target Pipeline: $101,550/mo MRR · $1,218,600 ARR
+Strict Accounting: Real Cash Realized: $0.00 (Awaiting live payment gateway webhook)
 """
 
 import sys
