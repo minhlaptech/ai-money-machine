@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Thomas Street Health Center",
+    "niche": "Clinic",
+    "city": "Houston",
+    "phone": "+1-713-873-4000",
+    "website": "https://www.harrishealth.org/locations-hh/Pages/thomas-street-health-center.aspx",
+    "email": "contact@harrishealth.org",
+    "address": "2015 Thomas Street, Houston 77009",
+    "mailto_url": "mailto:contact@harrishealth.org?subject=quick%20question%20regarding%20Thomas%20Street%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.harrishealth.org/locations-hh/Pages/thomas-street-health-center.aspx%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Thomas%20Street%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:43:10"
+  },
+  {
+    "id": 2,
+    "name": "Texas Clinic Healthcare System",
+    "niche": "Clinic",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@texasclinichealthcaresystem.example",
+    "address": "Houston",
+    "mailto_url": "mailto:contact@texasclinichealthcaresystem.example?subject=quick%20question%20regarding%20Texas%20Clinic%20Healthcare%20System%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Texas%20Clinic%20Healthcare%20System%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:43:10"
+  },
+  {
+    "id": 3,
+    "name": "Gramercy Outpatient Surgery Center",
+    "niche": "Clinic",
+    "city": "Houston",
+    "phone": "+1-713-660-6900",
+    "website": "https://gramercyoutpatientsurgery.com/",
+    "email": "contact@gramercyoutpatientsurgery.com",
+    "address": "2727 Gramercy Street, Houston 77025",
+    "mailto_url": "mailto:contact@gramercyoutpatientsurgery.com?subject=quick%20question%20regarding%20Gramercy%20Outpatient%20Surgery%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//gramercyoutpatientsurgery.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Gramercy%20Outpatient%20Surgery%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:43:10"
+  },
+  {
+    "id": 4,
+    "name": "Kelsey-Seybold Clinic",
+    "niche": "Clinic",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@kelsey-seyboldclinic.example",
+    "address": "560 , Houston",
+    "mailto_url": "mailto:contact@kelsey-seyboldclinic.example?subject=quick%20question%20regarding%20Kelsey-Seybold%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Kelsey-Seybold%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:43:10"
+  },
+  {
+    "id": 5,
+    "name": "Memorial Hermann Imaging Center",
+    "niche": "Clinic",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@memorialhermannimagingcenter.example",
+    "address": "2900 Richmond Avenue, Houston",
+    "mailto_url": "mailto:contact@memorialhermannimagingcenter.example?subject=quick%20question%20regarding%20Memorial%20Hermann%20Imaging%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Memorial%20Hermann%20Imaging%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:43:10"
+  },
+  {
+    "id": 6,
+    "name": "Planned Parenthood",
+    "niche": "Clinic",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@plannedparenthood.example",
+    "address": "Houston",
+    "mailto_url": "mailto:contact@plannedparenthood.example?subject=quick%20question%20regarding%20Planned%20Parenthood%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Planned%20Parenthood%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:43:10"
+  },
+  {
+    "id": 7,
+    "name": "Keystone Surgery Center",
+    "niche": "Clinic",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@keystonesurgerycenter.example",
+    "address": "10005 Main Street, Houston",
+    "mailto_url": "mailto:contact@keystonesurgerycenter.example?subject=quick%20question%20regarding%20Keystone%20Surgery%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Keystone%20Surgery%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:43:10"
+  },
+  {
+    "id": 8,
+    "name": "Clutch City Dialysis",
+    "niche": "Clinic",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@clutchcitydialysis.example",
+    "address": "Houston",
+    "mailto_url": "mailto:contact@clutchcitydialysis.example?subject=quick%20question%20regarding%20Clutch%20City%20Dialysis%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Clutch%20City%20Dialysis%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:43:10"
+  },
+  {
+    "id": 9,
+    "name": "Texas Children's Pediatrics Cullen",
+    "niche": "Clinic",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@texaschildren'spediatricscullen.example",
+    "address": "Houston",
+    "mailto_url": "mailto:contact@texaschildren'spediatricscullen.example?subject=quick%20question%20regarding%20Texas%20Children%27s%20Pediatrics%20Cullen%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Texas%20Children%27s%20Pediatrics%20Cullen%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:43:10"
+  },
+  {
+    "id": 10,
+    "name": "Santa Clara Family Clinic",
+    "niche": "Clinic",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@santaclarafamilyclinic.example",
+    "address": "5616 Lawndale Street, Houston",
+    "mailto_url": "mailto:contact@santaclarafamilyclinic.example?subject=quick%20question%20regarding%20Santa%20Clara%20Family%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Santa%20Clara%20Family%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:43:10"
+  }
+]

@@ -26,7 +26,7 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v26.0 ⚡
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v26.8 ⚡
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
@@ -118,7 +118,7 @@ def main_loop():
 
         elif choice == '3':
             niche = input("Nhập ngành nghề (dentist / doctor / clinic / lawyer / cpa / realestate, mặc định dentist): ").strip() or "dentist"
-            city = input("Nhập thành phố (Austin / Miami / Chicago / Dallas / Phoenix / Seattle / Denver / Atlanta / Boston / San Francisco / Los Angeles / New York, mặc định Austin): ").strip() or "Austin"
+            city = input("Nhập thành phố (Austin / Miami / Chicago / Dallas / Phoenix / Seattle / Denver / Atlanta / Boston / San Francisco / Los Angeles / New York / Houston, mặc định Austin): ").strip() or "Austin"
             limit = input("Số lượng khách cần quét (mặc định 5): ").strip() or "5"
             run_script("scripts/lead_finder.py", ["--niche", niche, "--city", city, "--limit", limit])
 
@@ -213,7 +213,7 @@ def main_loop():
                 run_script("scripts/upwork_proposal_generator.py", args)
 
         elif choice == '12':
-            sub = input("Tạo trọn bộ 6 Viral Kits hay 1 chủ đề cụ thể? (all: Trọn bộ 6 kits / Enter: Chọn 1 chủ đề): ").strip().lower()
+            sub = input("Tạo trọn bộ 10 Viral Kits hay 1 chủ đề cụ thể? (all: Trọn bộ 10 kits / Enter: Chọn 1 chủ đề): ").strip().lower()
             if sub == 'all':
                 tg = input("Bắn thông báo về Telegram không? (y/n, mặc định y): ").strip().lower()
                 args = ["--all"]
@@ -221,7 +221,7 @@ def main_loop():
                     args.append("--telegram")
                 run_script("scripts/social_repurpose_engine.py", args)
             else:
-                print("Chủ đề: geo_audit / ai_automation / microsaas_blueprint / review_management / client_vip_portal / make_automation_secrets")
+                print("Chủ đề: geo_audit / ai_automation / microsaas_blueprint / review_management / client_vip_portal / make_automation_secrets / affiliate_partner_engine / pod_developer_merch / headline_iq_viral_hook / ai_freelancing_retainers")
                 topic = input("Chọn chủ đề (mặc định geo_audit): ").strip() or "geo_audit"
                 tg = input("Bắn thông báo về Telegram không? (y/n, mặc định y): ").strip().lower()
                 args = ["--topic", topic]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Houston Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.houstonpremierdentiststudio.example",
+    "email": "info@houstonpremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@houstonpremierdentiststudio.example?subject=quick%20question%20regarding%20Houston%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:21"
+  },
+  {
+    "id": 2,
+    "name": "Apex Houston Dentist Center",
+    "niche": "Dentist",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexhoustondentistcenter.example",
+    "email": "info@apexhoustondentistcenter.example",
+    "address": "240 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@apexhoustondentistcenter.example?subject=quick%20question%20regarding%20Apex%20Houston%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:21"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Houston",
+    "niche": "Dentist",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersofhouston.example",
+    "email": "info@beacondentistpartnersofhouston.example",
+    "address": "360 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@beacondentistpartnersofhouston.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:21"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Houston Dentist Group",
+    "niche": "Dentist",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardhoustondentistgroup.example",
+    "email": "info@vanguardhoustondentistgroup.example",
+    "address": "480 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@vanguardhoustondentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Houston%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:21"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Houston",
+    "niche": "Dentist",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticshouston.example",
+    "email": "info@luminadentistandaestheticshouston.example",
+    "address": "600 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@luminadentistandaestheticshouston.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:21"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Dentist Clinic of Houston",
+    "niche": "Dentist",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedentistclinicofhouston.example",
+    "email": "info@proactivedentistclinicofhouston.example",
+    "address": "720 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@proactivedentistclinicofhouston.example?subject=quick%20question%20regarding%20ProActive%20Dentist%20Clinic%20of%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:21"
+  },
+  {
+    "id": 7,
+    "name": "Elite Dentist Specialists Houston",
+    "niche": "Dentist",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedentistspecialistshouston.example",
+    "email": "info@elitedentistspecialistshouston.example",
+    "address": "840 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@elitedentistspecialistshouston.example?subject=quick%20question%20regarding%20Elite%20Dentist%20Specialists%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:21"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Dentist Houston",
+    "niche": "Dentist",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdentisthouston.example",
+    "email": "info@summitcrestdentisthouston.example",
+    "address": "960 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@summitcrestdentisthouston.example?subject=quick%20question%20regarding%20Summit%20Crest%20Dentist%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:21"
+  },
+  {
+    "id": 9,
+    "name": "Metro Dentist Care Center Houston",
+    "niche": "Dentist",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodentistcarecenterhouston.example",
+    "email": "info@metrodentistcarecenterhouston.example",
+    "address": "1080 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@metrodentistcarecenterhouston.example?subject=quick%20question%20regarding%20Metro%20Dentist%20Care%20Center%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:21"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Dentist Practice Houston",
+    "niche": "Dentist",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdentistpracticehouston.example",
+    "email": "info@pacificcoastdentistpracticehouston.example",
+    "address": "1200 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@pacificcoastdentistpracticehouston.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Dentist%20Practice%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:21"
+  }
+]

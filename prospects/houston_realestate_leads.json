@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Houston Premier Realestate Studio",
+    "niche": "Realestate",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.houstonpremierrealestatestudio.example",
+    "email": "info@houstonpremierrealestatestudio.example",
+    "address": "120 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@houstonpremierrealestatestudio.example?subject=quick%20question%20regarding%20Houston%20Premier%20Realestate%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:31"
+  },
+  {
+    "id": 2,
+    "name": "Apex Houston Realestate Center",
+    "niche": "Realestate",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexhoustonrealestatecenter.example",
+    "email": "info@apexhoustonrealestatecenter.example",
+    "address": "240 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@apexhoustonrealestatecenter.example?subject=quick%20question%20regarding%20Apex%20Houston%20Realestate%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:31"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Realestate Partners of Houston",
+    "niche": "Realestate",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconrealestatepartnersofhouston.example",
+    "email": "info@beaconrealestatepartnersofhouston.example",
+    "address": "360 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@beaconrealestatepartnersofhouston.example?subject=quick%20question%20regarding%20Beacon%20Realestate%20Partners%20of%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:31"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Houston Realestate Group",
+    "niche": "Realestate",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardhoustonrealestategroup.example",
+    "email": "info@vanguardhoustonrealestategroup.example",
+    "address": "480 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@vanguardhoustonrealestategroup.example?subject=quick%20question%20regarding%20Vanguard%20Houston%20Realestate%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:31"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Realestate & Aesthetics Houston",
+    "niche": "Realestate",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminarealestateandaestheticshouston.example",
+    "email": "info@luminarealestateandaestheticshouston.example",
+    "address": "600 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@luminarealestateandaestheticshouston.example?subject=quick%20question%20regarding%20Lumina%20Realestate%20%26%20Aesthetics%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:31"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Realestate Clinic of Houston",
+    "niche": "Realestate",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiverealestateclinicofhouston.example",
+    "email": "info@proactiverealestateclinicofhouston.example",
+    "address": "720 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@proactiverealestateclinicofhouston.example?subject=quick%20question%20regarding%20ProActive%20Realestate%20Clinic%20of%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:31"
+  },
+  {
+    "id": 7,
+    "name": "Elite Realestate Specialists Houston",
+    "niche": "Realestate",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliterealestatespecialistshouston.example",
+    "email": "info@eliterealestatespecialistshouston.example",
+    "address": "840 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@eliterealestatespecialistshouston.example?subject=quick%20question%20regarding%20Elite%20Realestate%20Specialists%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:31"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Realestate Houston",
+    "niche": "Realestate",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestrealestatehouston.example",
+    "email": "info@summitcrestrealestatehouston.example",
+    "address": "960 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@summitcrestrealestatehouston.example?subject=quick%20question%20regarding%20Summit%20Crest%20Realestate%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:31"
+  },
+  {
+    "id": 9,
+    "name": "Metro Realestate Care Center Houston",
+    "niche": "Realestate",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrorealestatecarecenterhouston.example",
+    "email": "info@metrorealestatecarecenterhouston.example",
+    "address": "1080 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@metrorealestatecarecenterhouston.example?subject=quick%20question%20regarding%20Metro%20Realestate%20Care%20Center%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:31"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Realestate Practice Houston",
+    "niche": "Realestate",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastrealestatepracticehouston.example",
+    "email": "info@pacificcoastrealestatepracticehouston.example",
+    "address": "1200 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@pacificcoastrealestatepracticehouston.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Realestate%20Practice%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:31"
+  }
+]

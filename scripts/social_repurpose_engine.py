@@ -289,23 +289,30 @@ We built a live asset around this: {data['cta']}
     return out_file
 
 def send_telegram_social_digest(topic_key, data):
+    import html
     bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "7756122540:AAErx-TV78dUcB0ch7IlZW10R0nIpt1pBhU")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID", "1624883046")
 
+    title_safe = html.escape(str(data['title']))
+    hook_safe = html.escape(str(data['hook']))
+    p0_safe = html.escape(str(data['points'][0]))
+    p1_safe = html.escape(str(data['points'][1]))
+    cta_safe = html.escape(str(data['cta']))
+
     html_msg = f"""📱 <b>[VIRAL SOCIAL CONTENT KIT READY]</b>
 
-🎯 <b>Chủ đề:</b> <code>{data['title']}</code>
+🎯 <b>Chủ đề:</b> <code>{title_safe}</code>
 📌 <b>Topic Key:</b> <code>{topic_key}</code>
 
 🐦 <b>Twitter / X Thread Hook:</b>
-<i>{data['hook']}</i>
+<i>{hook_safe}</i>
 
 💼 <b>Key Insights:</b>
-• {data['points'][0]}
-• {data['points'][1]}
+• {p0_safe}
+• {p1_safe}
 
 🔗 <b>Call-to-Action Link:</b>
-<code>{data['cta']}</code>
+<code>{cta_safe}</code>
 
 👉 <i>Trọn bộ 4 định dạng (X, LinkedIn, Shorts, Reddit) đã lưu tại projects/ai_content_social/repurposed/content_kit_{topic_key}.md</i>"""
 

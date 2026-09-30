@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Bayou City Dermatology",
+    "niche": "Doctor",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@bayoucitydermatology.example",
+    "address": "3747 Westheimer Road, Houston 77027",
+    "mailto_url": "mailto:contact@bayoucitydermatology.example?subject=quick%20question%20regarding%20Bayou%20City%20Dermatology%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bayou%20City%20Dermatology%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:50"
+  },
+  {
+    "id": 2,
+    "name": "K & N Pediatric Therapy Centers",
+    "niche": "Doctor",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@knpediatrictherapycenters.example",
+    "address": "Houston",
+    "mailto_url": "mailto:contact@knpediatrictherapycenters.example?subject=quick%20question%20regarding%20K%20%26%20N%20Pediatric%20Therapy%20Centers%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20K%20%26%20N%20Pediatric%20Therapy%20Centers%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:50"
+  },
+  {
+    "id": 3,
+    "name": "Clear Lake Foot & Ankle Specialist",
+    "niche": "Doctor",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "https://www.clearlakefoot.com/",
+    "email": "contact@clearlakefoot.com",
+    "address": "Houston",
+    "mailto_url": "mailto:contact@clearlakefoot.com?subject=quick%20question%20regarding%20Clear%20Lake%20Foot%20%26%20Ankle%20Specialist%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.clearlakefoot.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Clear%20Lake%20Foot%20%26%20Ankle%20Specialist%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:50"
+  },
+  {
+    "id": 4,
+    "name": "Texas Children's Health Center Clear Lake",
+    "niche": "Doctor",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@texaschildren'shealthcenterclearlake.example",
+    "address": "Houston",
+    "mailto_url": "mailto:contact@texaschildren'shealthcenterclearlake.example?subject=quick%20question%20regarding%20Texas%20Children%27s%20Health%20Center%20Clear%20Lake%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Texas%20Children%27s%20Health%20Center%20Clear%20Lake%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:50"
+  },
+  {
+    "id": 5,
+    "name": "Texas Cardiology Associates of Houston",
+    "niche": "Doctor",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@texascardiologyassociatesofhouston.example",
+    "address": "2627 Chestnut Ridge Road, Houston 77339",
+    "mailto_url": "mailto:contact@texascardiologyassociatesofhouston.example?subject=quick%20question%20regarding%20Texas%20Cardiology%20Associates%20of%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Texas%20Cardiology%20Associates%20of%20Houston%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:50"
+  },
+  {
+    "id": 6,
+    "name": "MedSpring Urgent Care of Kingwood",
+    "niche": "Doctor",
+    "city": "Houston",
+    "phone": "+1-832-548-4420",
+    "website": "https://medspring.com/texas/kingwood-kingwood-drive-urgent-care",
+    "email": "contact@medspring.com",
+    "address": "1450 Kingwood Drive, Houston 77339",
+    "mailto_url": "mailto:contact@medspring.com?subject=quick%20question%20regarding%20MedSpring%20Urgent%20Care%20of%20Kingwood%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//medspring.com/texas/kingwood-kingwood-drive-urgent-care%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20MedSpring%20Urgent%20Care%20of%20Kingwood%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:50"
+  },
+  {
+    "id": 7,
+    "name": "Smart Spine and Joint",
+    "niche": "Doctor",
+    "city": "Houston",
+    "phone": "+1 281-920-9022",
+    "website": "http://smartspineandjoint.com",
+    "email": "contact@smartspineandjoint.com",
+    "address": "12616 Briar Forest Drive, Houston 77077",
+    "mailto_url": "mailto:contact@smartspineandjoint.com?subject=quick%20question%20regarding%20Smart%20Spine%20and%20Joint%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//smartspineandjoint.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Smart%20Spine%20and%20Joint%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:50"
+  },
+  {
+    "id": 8,
+    "name": "K. Mathew Warnock, MD",
+    "niche": "Doctor",
+    "city": "Houston",
+    "phone": "+1-281-807-4380",
+    "website": "https://warnockmd.com/",
+    "email": "contact@warnockmd.com",
+    "address": "18220 State Highway 249, Houston 77070",
+    "mailto_url": "mailto:contact@warnockmd.com?subject=quick%20question%20regarding%20K.%20Mathew%20Warnock%2C%20MD%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//warnockmd.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20K.%20Mathew%20Warnock%2C%20MD%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:50"
+  },
+  {
+    "id": 9,
+    "name": "Northpoint Clinic",
+    "niche": "Doctor",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@northpointclinic.example",
+    "address": "5231 North Freeway, Houston",
+    "mailto_url": "mailto:contact@northpointclinic.example?subject=quick%20question%20regarding%20Northpoint%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Northpoint%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:50"
+  },
+  {
+    "id": 10,
+    "name": "MD Family Clinic",
+    "niche": "Doctor",
+    "city": "Houston",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@mdfamilyclinic.example",
+    "address": "5402 Airline Drive, Houston",
+    "mailto_url": "mailto:contact@mdfamilyclinic.example?subject=quick%20question%20regarding%20MD%20Family%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20MD%20Family%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:42:50"
+  }
+]

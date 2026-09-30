@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Houston Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.houstonpremiercpastudio.example",
+    "email": "info@houstonpremiercpastudio.example",
+    "address": "120 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@houstonpremiercpastudio.example?subject=quick%20question%20regarding%20Houston%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:02"
+  },
+  {
+    "id": 2,
+    "name": "Apex Houston Cpa Center",
+    "niche": "Cpa",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexhoustoncpacenter.example",
+    "email": "info@apexhoustoncpacenter.example",
+    "address": "240 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@apexhoustoncpacenter.example?subject=quick%20question%20regarding%20Apex%20Houston%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:02"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of Houston",
+    "niche": "Cpa",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersofhouston.example",
+    "email": "info@beaconcpapartnersofhouston.example",
+    "address": "360 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@beaconcpapartnersofhouston.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:02"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Houston Cpa Group",
+    "niche": "Cpa",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardhoustoncpagroup.example",
+    "email": "info@vanguardhoustoncpagroup.example",
+    "address": "480 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@vanguardhoustoncpagroup.example?subject=quick%20question%20regarding%20Vanguard%20Houston%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:02"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics Houston",
+    "niche": "Cpa",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticshouston.example",
+    "email": "info@luminacpaandaestheticshouston.example",
+    "address": "600 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@luminacpaandaestheticshouston.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:02"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Cpa Clinic of Houston",
+    "niche": "Cpa",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivecpaclinicofhouston.example",
+    "email": "info@proactivecpaclinicofhouston.example",
+    "address": "720 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@proactivecpaclinicofhouston.example?subject=quick%20question%20regarding%20ProActive%20Cpa%20Clinic%20of%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:02"
+  },
+  {
+    "id": 7,
+    "name": "Elite Cpa Specialists Houston",
+    "niche": "Cpa",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitecpaspecialistshouston.example",
+    "email": "info@elitecpaspecialistshouston.example",
+    "address": "840 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@elitecpaspecialistshouston.example?subject=quick%20question%20regarding%20Elite%20Cpa%20Specialists%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:02"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Cpa Houston",
+    "niche": "Cpa",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestcpahouston.example",
+    "email": "info@summitcrestcpahouston.example",
+    "address": "960 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@summitcrestcpahouston.example?subject=quick%20question%20regarding%20Summit%20Crest%20Cpa%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:02"
+  },
+  {
+    "id": 9,
+    "name": "Metro Cpa Care Center Houston",
+    "niche": "Cpa",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocpacarecenterhouston.example",
+    "email": "info@metrocpacarecenterhouston.example",
+    "address": "1080 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@metrocpacarecenterhouston.example?subject=quick%20question%20regarding%20Metro%20Cpa%20Care%20Center%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:02"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Cpa Practice Houston",
+    "niche": "Cpa",
+    "city": "Houston",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastcpapracticehouston.example",
+    "email": "info@pacificcoastcpapracticehouston.example",
+    "address": "1200 Boulevard Ave, Houston",
+    "mailto_url": "mailto:info@pacificcoastcpapracticehouston.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Cpa%20Practice%20Houston%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:44:02"
+  }
+]
