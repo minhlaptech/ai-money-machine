@@ -1,4 +1,4 @@
-Hi there,
+Hi Client,
 
 Saw your posting regarding the ai search & geo (generative engine optimization) audit.
 

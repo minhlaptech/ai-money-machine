@@ -1,4 +1,4 @@
-Hi there,
+Hi Client,
 
 Saw your posting regarding the data scraping & ai enrichment pipeline.
 

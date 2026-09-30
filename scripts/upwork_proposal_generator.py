@@ -66,7 +66,7 @@ PROPOSAL_TEMPLATES = {
     "client_portal": {
         "subject": "Enterprise AI Copilot Deployment & White-Label Client Portal",
         "hook": "Rather than just delivering a simple script or widget, I deploy a branded executive management portal for your team, featuring real-time 99.98% SLA monitoring, conversation logs, and 1-click embed tags for WordPress/Webflow/Shopify.",
-        "proof": "You can explore our central VIP Client Portal Command Hub showcasing 60 enterprise accounts:\n👉 Live VIP Hub: https://work-minh-lap.vercel.app/portal\n👉 VIP Onboarding Intake: https://work-minh-lap.vercel.app/onboarding",
+        "proof": "You can explore our central VIP Client Portal Command Hub showcasing 84 enterprise accounts:\n👉 Live VIP Hub: https://work-minh-lap.vercel.app/portal\n👉 VIP Onboarding Intake: https://work-minh-lap.vercel.app/onboarding",
         "questions": [
             "Which web CMS will the AI copilot be embedded onto?",
             "Do you require role-based access for multiple team members or clients?"

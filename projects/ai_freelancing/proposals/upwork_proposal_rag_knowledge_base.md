@@ -1,4 +1,4 @@
-Hi there,
+Hi Client,
 
 Saw your posting regarding the custom enterprise rag (retrieval-augmented generation) & knowledge base.
 

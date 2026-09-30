@@ -1,4 +1,4 @@
-Hi there,
+Hi Client,
 
 Saw your posting regarding the shopify & e-commerce ai sales concierge & cart recovery agent.
 

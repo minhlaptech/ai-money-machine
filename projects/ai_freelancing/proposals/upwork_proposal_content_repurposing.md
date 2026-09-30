@@ -1,4 +1,4 @@
-Hi there,
+Hi Client,
 
 Saw your posting regarding the autonomous multi-platform social content repurposing engine.
 
