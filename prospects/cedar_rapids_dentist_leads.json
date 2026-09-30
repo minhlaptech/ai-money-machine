@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Advanced Dental Care",
+    "niche": "Dentist",
+    "city": "Cedar Rapids",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@advanceddentalcare.example",
+    "address": "Cedar Rapids",
+    "mailto_url": "mailto:contact@advanceddentalcare.example?subject=quick%20question%20regarding%20Advanced%20Dental%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Advanced%20Dental%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:42"
+  },
+  {
+    "id": 2,
+    "name": "Aspen Dental",
+    "niche": "Dentist",
+    "city": "Cedar Rapids",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@aspendental.example",
+    "address": "Cedar Rapids",
+    "mailto_url": "mailto:contact@aspendental.example?subject=quick%20question%20regarding%20Aspen%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Aspen%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:42"
+  },
+  {
+    "id": 3,
+    "name": "Spring Valley Dental Care",
+    "niche": "Dentist",
+    "city": "Cedar Rapids",
+    "phone": "+1-319-294-2281",
+    "website": "https://www.springvalleydentalcare.com/",
+    "email": "contact@springvalleydentalcare.com",
+    "address": "3605 Center Point Road Northeast, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@springvalleydentalcare.com?subject=quick%20question%20regarding%20Spring%20Valley%20Dental%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.springvalleydentalcare.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Spring%20Valley%20Dental%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:42"
+  },
+  {
+    "id": 4,
+    "name": "Dental Associates of Cedar Rapids",
+    "niche": "Dentist",
+    "city": "Cedar Rapids",
+    "phone": "+1-319-248-7816",
+    "website": "https://www.dentalassoccr.com/",
+    "email": "contact@dentalassoccr.com",
+    "address": "3605 Center Point Road Northeast, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@dentalassoccr.com?subject=quick%20question%20regarding%20Dental%20Associates%20of%20Cedar%20Rapids%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.dentalassoccr.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dental%20Associates%20of%20Cedar%20Rapids%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:42"
+  },
+  {
+    "id": 5,
+    "name": "Parks & Schmit",
+    "niche": "Dentist",
+    "city": "Cedar Rapids",
+    "phone": "N/A",
+    "website": "https://www.iowaorthodontics.com",
+    "email": "contact@iowaorthodontics.com",
+    "address": "2727 1st Avenue East, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@iowaorthodontics.com?subject=quick%20question%20regarding%20Parks%20%26%20Schmit%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.iowaorthodontics.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Parks%20%26%20Schmit%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:42"
+  },
+  {
+    "id": 6,
+    "name": "Dental Arts",
+    "niche": "Dentist",
+    "city": "Cedar Rapids",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dentalarts.example",
+    "address": "Cedar Rapids",
+    "mailto_url": "mailto:contact@dentalarts.example?subject=quick%20question%20regarding%20Dental%20Arts%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dental%20Arts%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:42"
+  },
+  {
+    "id": 7,
+    "name": "Dental Touch",
+    "niche": "Dentist",
+    "city": "Cedar Rapids",
+    "phone": "+1-319-373-5082",
+    "website": "https://www.dentaltouch.com",
+    "email": "contact@dentaltouch.com",
+    "address": "5945 Council Street Northeast, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@dentaltouch.com?subject=quick%20question%20regarding%20Dental%20Touch%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.dentaltouch.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dental%20Touch%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:42"
+  },
+  {
+    "id": 8,
+    "name": "DentalCare Associates P.C.",
+    "niche": "Dentist",
+    "city": "Cedar Rapids",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dentalcareassociatespc.example",
+    "address": "2701 1st Avenue East, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@dentalcareassociatespc.example?subject=quick%20question%20regarding%20DentalCare%20Associates%20P.C.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20DentalCare%20Associates%20P.C.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:42"
+  },
+  {
+    "id": 9,
+    "name": "Katie Milden DDS Family Dentistry",
+    "niche": "Dentist",
+    "city": "Cedar Rapids",
+    "phone": "+1-319-365-9105",
+    "website": "https://www.drkatiemilden.com",
+    "email": "contact@drkatiemilden.com",
+    "address": "1815 1st Avenue East, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@drkatiemilden.com?subject=quick%20question%20regarding%20Katie%20Milden%20DDS%20Family%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.drkatiemilden.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Katie%20Milden%20DDS%20Family%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:42"
+  },
+  {
+    "id": 10,
+    "name": "Cedar Rapids Dentist #10",
+    "niche": "Dentist",
+    "city": "Cedar Rapids",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@cedarrapidsdentist#10.example",
+    "address": "Cedar Rapids",
+    "mailto_url": "mailto:contact@cedarrapidsdentist#10.example?subject=quick%20question%20regarding%20Cedar%20Rapids%20Dentist%20%2310%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Cedar%20Rapids%20Dentist%20%2310%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:42"
+  }
+]

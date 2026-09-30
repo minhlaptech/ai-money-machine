@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Community Law Office",
+    "niche": "Lawyer",
+    "city": "Cedar Rapids",
+    "phone": "+1-319-200-7050",
+    "website": "https://communitylawoffice.com/",
+    "email": "contact@communitylawoffice.com",
+    "address": "84 16th Avenue Southwest, Cedar Rapids 52404",
+    "mailto_url": "mailto:contact@communitylawoffice.com?subject=quick%20question%20regarding%20Community%20Law%20Office%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//communitylawoffice.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Community%20Law%20Office%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:50"
+  },
+  {
+    "id": 2,
+    "name": "Terpstra & Epping",
+    "niche": "Lawyer",
+    "city": "Cedar Rapids",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@terpstraepping.example",
+    "address": "3600 1st Avenue East, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@terpstraepping.example?subject=quick%20question%20regarding%20Terpstra%20%26%20Epping%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Terpstra%20%26%20Epping%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:50"
+  },
+  {
+    "id": 3,
+    "name": "Wertz, Dake & Anderson Attorneys",
+    "niche": "Lawyer",
+    "city": "Cedar Rapids",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@wertzdakeandersonattorneys.example",
+    "address": "1500 Oakland Road Northeast, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@wertzdakeandersonattorneys.example?subject=quick%20question%20regarding%20Wertz%2C%20Dake%20%26%20Anderson%20Attorneys%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Wertz%2C%20Dake%20%26%20Anderson%20Attorneys%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:50"
+  },
+  {
+    "id": 4,
+    "name": "John C Wagner & Laura J. Lemos",
+    "niche": "Lawyer",
+    "city": "Cedar Rapids",
+    "phone": "N/A",
+    "website": "https://www.jcwagnerlaw.com/",
+    "email": "contact@jcwagnerlaw.com",
+    "address": "1000 Rockwell Drive Northeast, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@jcwagnerlaw.com?subject=quick%20question%20regarding%20John%20C%20Wagner%20%26%20Laura%20J.%20Lemos%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.jcwagnerlaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20John%20C%20Wagner%20%26%20Laura%20J.%20Lemos%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:50"
+  },
+  {
+    "id": 5,
+    "name": "Piersall Law Firm, P.C.",
+    "niche": "Lawyer",
+    "city": "Cedar Rapids",
+    "phone": "+1-319-297-7222",
+    "website": "https://www.piersalllaw.com/",
+    "email": "contact@piersalllaw.com",
+    "address": "3716 1st Avenue East, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@piersalllaw.com?subject=quick%20question%20regarding%20Piersall%20Law%20Firm%2C%20P.C.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.piersalllaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Piersall%20Law%20Firm%2C%20P.C.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:50"
+  },
+  {
+    "id": 6,
+    "name": "Brady Preston Gronlund PC",
+    "niche": "Lawyer",
+    "city": "Cedar Rapids",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@bradyprestongronlundpc.example",
+    "address": "2735 1st Avenue East, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@bradyprestongronlundpc.example?subject=quick%20question%20regarding%20Brady%20Preston%20Gronlund%20PC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Brady%20Preston%20Gronlund%20PC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:50"
+  },
+  {
+    "id": 7,
+    "name": "Willey Law Firm",
+    "niche": "Lawyer",
+    "city": "Cedar Rapids",
+    "phone": "+1-319-390-5555",
+    "website": "https://willeylaw.com/",
+    "email": "contact@willeylaw.com",
+    "address": "3519 Center Point Road Northeast, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@willeylaw.com?subject=quick%20question%20regarding%20Willey%20Law%20Firm%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//willeylaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Willey%20Law%20Firm%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:50"
+  },
+  {
+    "id": 8,
+    "name": "Cedar Rapids Lawyer #8",
+    "niche": "Lawyer",
+    "city": "Cedar Rapids",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@cedarrapidslawyer#8.example",
+    "address": "866 1st Avenue East, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@cedarrapidslawyer#8.example?subject=quick%20question%20regarding%20Cedar%20Rapids%20Lawyer%20%238%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Cedar%20Rapids%20Lawyer%20%238%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:50"
+  },
+  {
+    "id": 9,
+    "name": "Klinger, Robinson & Ford Attorneys at Law",
+    "niche": "Lawyer",
+    "city": "Cedar Rapids",
+    "phone": "+1 319-395-7400",
+    "website": "https://www.krflawfirm.com/",
+    "email": "contact@krflawfirm.com",
+    "address": "401 Old Marion Road Northeast, Cedar Rapids 52402",
+    "mailto_url": "mailto:contact@krflawfirm.com?subject=quick%20question%20regarding%20Klinger%2C%20Robinson%20%26%20Ford%20Attorneys%20at%20Law%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.krflawfirm.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Klinger%2C%20Robinson%20%26%20Ford%20Attorneys%20at%20Law%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:50"
+  },
+  {
+    "id": 10,
+    "name": "Victoria M Cole Law Firm PC",
+    "niche": "Lawyer",
+    "city": "Cedar Rapids",
+    "phone": "+1-319-261-2600",
+    "website": "https://attyvictoriacole.com/",
+    "email": "contact@attyvictoriacole.com",
+    "address": "2310 Johnson Avenue Northwest, Cedar Rapids 52405",
+    "mailto_url": "mailto:contact@attyvictoriacole.com?subject=quick%20question%20regarding%20Victoria%20M%20Cole%20Law%20Firm%20PC%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//attyvictoriacole.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Victoria%20M%20Cole%20Law%20Firm%20PC%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:31:50"
+  }
+]
