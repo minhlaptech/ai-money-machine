@@ -1,16 +1,16 @@
 # 📅 KẾ HOẠCH TÁC CHIẾN HÀNG NGÀY (DAILY PLAN)
 > AI đọc file này đầu mỗi phiên chat để biết kế hoạch ngày hôm nay
-> Cập nhật lần cuối: 2026-09-30 21:40 (GMT+7) — Phiên #94
+> Cập nhật lần cuối: 2026-09-30 21:45 (GMT+7) — Phiên #95
 
 ---
 
 ## 📆 NGÀY HIỆN TẠI: 2026-09-30 (Thứ Tư)
 
-### 🎯 Mục tiêu trọng tâm Phiên #94:
+### 🎯 Mục tiêu trọng tâm Phiên #95:
 1. Duy trì tính toàn vẹn hệ thống 100%: 29/29 Cloud Applications đạt HTTP 200, Binary Parity `index.html` == `dashboard.html`.
-2. Khởi động AI Market Scout quét Hacker News, GitHub Trending, Dev.to cập nhật 17 cơ hội thị trường nóng và bắn Telegram.
-3. Xuất lịch đăng nội dung mạng xã hội Buffer CSV 30 ngày (20 bài đăng đa kênh) & kho cơ sở dữ liệu `social_content_hub.json`.
-4. Kiểm thử luồng tiếp nhận khách hàng VIP Onboarding (`/api/contact`) & Webhook thanh toán ReviewGenius Pro (`/api/webhook`).
+2. Kiểm toán toàn diện kho Media YouTube Faceless (40 Video MP4, 388 MB) gồm 10 Full Episodes 1080p và 30 Viral Shorts.
+3. Xuất bản Lịch phát sóng YouTube Publish Manifest (JSON & CSV) sẵn sàng cho TubeBuddy / Metricool.
+4. Bắn bản kế hoạch phát sóng 30 ngày qua Telegram `@Minhpv_bot`.
 
 ### 📋 Checklist Tác Vụ Trong Ngày:
 
@@ -18,11 +18,10 @@
 |---|----------|------------------|------------|-------------------|
 | 1 | Kiểm tra sức khỏe toàn hệ thống | `scripts/system_health_check.py` | ✅ Hoàn thành | 29/29 Cloud Hubs HTTP 200 (~120ms) |
 | 2 | Kiểm tra Binary Parity giao diện | `fc.exe /b index.html dashboard.html` | ✅ Hoàn thành | Khớp 100% từng byte (0 byte diff) |
-| 3 | Quét Radar Cơ Hội Toàn Cầu | `autonomous_agent/market_scout.py` | ✅ Hoàn thành | 17 cơ hội High-Intent & Telegram Ping |
-| 4 | Xuất Lịch Buffer Schedule 30 Ngày | `scripts/social_post_scheduler.py` | ✅ Hoàn thành | 20 bài đăng CSV & 10 chủ đề JSON |
-| 5 | Kiểm thử Onboarding Intake API | `scripts/test_client_onboarding.py` | ✅ Hoàn thành | HTTP 200 & Telegram Alert |
-| 6 | Kiểm thử Sales Webhook ReviewGenius | `scripts/test_sales_webhook.py` | ✅ Hoàn thành | HTTP 200 & Telegram Sale Alert |
-| 7 | Cập nhật Master Control & Daily Plan | `MASTER_CONTROL.md`, `DAILY_PLAN.md` | ✅ Hoàn thành | Đồng bộ phiên #94 |
+| 3 | Kiểm toán kho Media 40 Video | `scripts/youtube_publisher.py --audit` | ✅ Hoàn thành | 40 Video MP4 (388.0 MB) 100% sẵn sàng |
+| 4 | Xuất bản YouTube Manifest JSON/CSV | `scripts/youtube_publisher.py --manifest` | ✅ Hoàn thành | Sẵn sàng nạp TubeBuddy/Metricool |
+| 5 | Bắn Kế hoạch phát sóng Telegram | `scripts/youtube_publisher.py --telegram` | ✅ Hoàn thành | Dispatch kế hoạch tới `@Minhpv_bot` |
+| 6 | Cập nhật Master Control & Daily Plan | `MASTER_CONTROL.md`, `DAILY_PLAN.md` | ✅ Hoàn thành | Đồng bộ phiên #95 |
 
 ---
 
