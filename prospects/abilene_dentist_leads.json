@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Abilene Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Abilene",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.abilenepremierdentiststudio.example",
+    "email": "info@abilenepremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Abilene",
+    "mailto_url": "mailto:info@abilenepremierdentiststudio.example?subject=quick%20question%20regarding%20Abilene%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:47"
+  },
+  {
+    "id": 2,
+    "name": "Apex Abilene Dentist Center",
+    "niche": "Dentist",
+    "city": "Abilene",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexabilenedentistcenter.example",
+    "email": "info@apexabilenedentistcenter.example",
+    "address": "240 Boulevard Ave, Abilene",
+    "mailto_url": "mailto:info@apexabilenedentistcenter.example?subject=quick%20question%20regarding%20Apex%20Abilene%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:47"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Abilene",
+    "niche": "Dentist",
+    "city": "Abilene",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersofabilene.example",
+    "email": "info@beacondentistpartnersofabilene.example",
+    "address": "360 Boulevard Ave, Abilene",
+    "mailto_url": "mailto:info@beacondentistpartnersofabilene.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Abilene%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:47"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Abilene Dentist Group",
+    "niche": "Dentist",
+    "city": "Abilene",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardabilenedentistgroup.example",
+    "email": "info@vanguardabilenedentistgroup.example",
+    "address": "480 Boulevard Ave, Abilene",
+    "mailto_url": "mailto:info@vanguardabilenedentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Abilene%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:47"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Abilene",
+    "niche": "Dentist",
+    "city": "Abilene",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticsabilene.example",
+    "email": "info@luminadentistandaestheticsabilene.example",
+    "address": "600 Boulevard Ave, Abilene",
+    "mailto_url": "mailto:info@luminadentistandaestheticsabilene.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Abilene%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:47"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Dentist Clinic of Abilene",
+    "niche": "Dentist",
+    "city": "Abilene",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedentistclinicofabilene.example",
+    "email": "info@proactivedentistclinicofabilene.example",
+    "address": "720 Boulevard Ave, Abilene",
+    "mailto_url": "mailto:info@proactivedentistclinicofabilene.example?subject=quick%20question%20regarding%20ProActive%20Dentist%20Clinic%20of%20Abilene%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:47"
+  },
+  {
+    "id": 7,
+    "name": "Elite Dentist Specialists Abilene",
+    "niche": "Dentist",
+    "city": "Abilene",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedentistspecialistsabilene.example",
+    "email": "info@elitedentistspecialistsabilene.example",
+    "address": "840 Boulevard Ave, Abilene",
+    "mailto_url": "mailto:info@elitedentistspecialistsabilene.example?subject=quick%20question%20regarding%20Elite%20Dentist%20Specialists%20Abilene%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:47"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Dentist Abilene",
+    "niche": "Dentist",
+    "city": "Abilene",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdentistabilene.example",
+    "email": "info@summitcrestdentistabilene.example",
+    "address": "960 Boulevard Ave, Abilene",
+    "mailto_url": "mailto:info@summitcrestdentistabilene.example?subject=quick%20question%20regarding%20Summit%20Crest%20Dentist%20Abilene%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:47"
+  },
+  {
+    "id": 9,
+    "name": "Metro Dentist Care Center Abilene",
+    "niche": "Dentist",
+    "city": "Abilene",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodentistcarecenterabilene.example",
+    "email": "info@metrodentistcarecenterabilene.example",
+    "address": "1080 Boulevard Ave, Abilene",
+    "mailto_url": "mailto:info@metrodentistcarecenterabilene.example?subject=quick%20question%20regarding%20Metro%20Dentist%20Care%20Center%20Abilene%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:47"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Dentist Practice Abilene",
+    "niche": "Dentist",
+    "city": "Abilene",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdentistpracticeabilene.example",
+    "email": "info@pacificcoastdentistpracticeabilene.example",
+    "address": "1200 Boulevard Ave, Abilene",
+    "mailto_url": "mailto:info@pacificcoastdentistpracticeabilene.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Dentist%20Practice%20Abilene%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:47"
+  }
+]

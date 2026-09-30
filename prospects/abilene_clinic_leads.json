@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Abilene Clinic #1",
+    "niche": "Clinic",
+    "city": "Abilene",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@abileneclinic#1.example",
+    "address": "Abilene",
+    "mailto_url": "mailto:contact@abileneclinic#1.example?subject=quick%20question%20regarding%20Abilene%20Clinic%20%231%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Abilene%20Clinic%20%231%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:54"
+  },
+  {
+    "id": 2,
+    "name": "Baylor Scott & White Urgent Care+ Abilene (Catclaw)",
+    "niche": "Clinic",
+    "city": "Abilene",
+    "phone": "N/A",
+    "website": "https://www.bswhealth.com/locations/urgent-care/uc-plus-abilene-catclaw",
+    "email": "contact@bswhealth.com",
+    "address": "3802 Catclaw Drive, Abilene 79606",
+    "mailto_url": "mailto:contact@bswhealth.com?subject=quick%20question%20regarding%20Baylor%20Scott%20%26%20White%20Urgent%20Care%2B%20Abilene%20%28Catclaw%29%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.bswhealth.com/locations/urgent-care/uc-plus-abilene-catclaw%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Baylor%20Scott%20%26%20White%20Urgent%20Care%2B%20Abilene%20%28Catclaw%29%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:54"
+  },
+  {
+    "id": 3,
+    "name": "Hendrick Dialysis Center, 820 N. 19th St.",
+    "niche": "Clinic",
+    "city": "Abilene",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@hendrickdialysiscenter820n19thst.example",
+    "address": "Abilene",
+    "mailto_url": "mailto:contact@hendrickdialysiscenter820n19thst.example?subject=quick%20question%20regarding%20Hendrick%20Dialysis%20Center%2C%20820%20N.%2019th%20St.%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hendrick%20Dialysis%20Center%2C%20820%20N.%2019th%20St.%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:54"
+  },
+  {
+    "id": 4,
+    "name": "Hendrick Urgent Care",
+    "niche": "Clinic",
+    "city": "Abilene",
+    "phone": "N/A",
+    "website": "https://hendrickurgentcare.com/locations/buffalo-gap-road/",
+    "email": "contact@hendrickurgentcare.com",
+    "address": "4424 Buffalo Gap Road, Abilene 79606",
+    "mailto_url": "mailto:contact@hendrickurgentcare.com?subject=quick%20question%20regarding%20Hendrick%20Urgent%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//hendrickurgentcare.com/locations/buffalo-gap-road/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Hendrick%20Urgent%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:54"
+  },
+  {
+    "id": 5,
+    "name": "Express ER",
+    "niche": "Clinic",
+    "city": "Abilene",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@expresser.example",
+    "address": "Abilene",
+    "mailto_url": "mailto:contact@expresser.example?subject=quick%20question%20regarding%20Express%20ER%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Express%20ER%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:49:54"
+  }
+]
