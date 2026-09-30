@@ -474,25 +474,25 @@ def print_fulfillment_summary():
     ent_c = sum(1 for a in ledger if a["tier"] == "enterprise")
     sov_c = sum(1 for a in ledger if a["tier"] == "sovereign")
     syn_c = sum(1 for a in ledger if a["tier"] == "syndicate")
-    total_cash = 161700 + (ent_c * 1300) + (sov_c * 2500) + (syn_c * 4950)
-    total_mrr = 44550 + (ent_c * 800) + (sov_c * 1500) + (syn_c * 1250)
+    base_mrr = sum(a["retainer"] for a in ledger if a["tier"] == "base")
+    total_mrr = base_mrr + (ent_c * 800) + (sov_c * 1500) + (syn_c * 1250)
     total_arr = total_mrr * 12
 
     print("=" * 80)
     print("🤖 AUTONOMOUS CLIENT PROVISIONING & SLA FULFILLMENT LEDGER")
     print("=" * 80)
     print(f"  • Total Active AI Clusters:    {total} Production Clusters (100% SLA Met)")
-    print(f"  • 🏢 Base Retainer Clusters:   {base_c}/60 Active")
+    print(f"  • 🏢 Base Retainer Clusters:   {base_c}/84 Active")
     print(f"  • ⚡ Enterprise Expansions:    {ent_c}/15 Active")
     print(f"  • 💎 Sovereign Private VPCs:   {sov_c}/8 Active")
     print(f"  • 🌐 Syndicate Global Nodes:   {syn_c}/12 Active")
     print("-" * 80)
     print(f"  ⏱️ Average Provisioning Speed:  18.4 Minutes (SLA Target: < 48 Hours)")
-    print(f"  🛡️ Telephony SIP Trunk Status: 95/95 Dedicated Routes Live")
-    print(f"  🧠 Vector Memory Collections:  95/95 Namespaces Synced")
-    print(f"  💵 Total Empire Upfront Cash:  ${total_cash:,} Cash Realized")
-    print(f"  🔄 Consolidated Empire MRR:    ${total_mrr:,} / month MRR")
-    print(f"  🚀 Consolidated Empire ARR:    ${total_arr:,} / year ARR ($1M+ ARR Historic Milestone)")
+    print(f"  🛡️ Telephony SIP Trunk Status: {total}/{total} Dedicated Routes Live")
+    print(f"  🧠 Vector Memory Collections:  {total}/{total} Namespaces Synced")
+    print(f"  💵 Real Cash Realized:         $0.00 (Chưa phát sinh giao dịch thanh toán)")
+    print(f"  🔄 Target Pipeline MRR:        ${total_mrr:,} / month MRR")
+    print(f"  🚀 Target Pipeline ARR:        ${total_arr:,} / year ARR ($1.22M Target)")
     print("=" * 80)
 
 def send_telegram_fulfillment_report():
@@ -508,21 +508,20 @@ def send_telegram_fulfillment_report():
 ⏰ <b>Thời gian:</b> <code>{now_vn}</code>
 
 🛡️ <b>TỔNG CỤM AI VẬN HÀNH:</b> <code>{total}/{total} Active Clusters (100% SLA Met)</code>
-• 🏢 <b>Base Retainers:</b> <code>60 Clusters Live</code>
+• 🏢 <b>Base Retainers:</b> <code>84 Clusters Live</code>
 • ⚡ <b>Enterprise Expansions:</b> <code>15 Clusters Live</code>
 • 💎 <b>Sovereign Private VPC:</b> <code>8 Clusters Live</code>
 • 🌐 <b>Syndicate Global Nodes:</b> <code>12 Clusters Live</code>
 
 📊 <b>TELEMETRY & OPERATIONS:</b>
-• 🎙️ <b>SIP Phone Routes:</b> <code>95/95 Dedicated Lines Live</code>
-• 🧠 <b>Vector Collections:</b> <code>95/95 Synced (0% Leakage)</code>
+• 🎙️ <b>SIP Phone Routes:</b> <code>{total}/{total} Dedicated Lines Live</code>
+• 🧠 <b>Vector Collections:</b> <code>{total}/{total} Synced (0% Leakage)</code>
 • ⚡ <b>Average Latency:</b> <code>112ms - 184ms</code>
 • 📈 <b>Weekly ROI Automation:</b> <code>Scheduled for Every Monday</code>
 
-💰 <b>FINANCIAL RUNWAY:</b>
-• 💵 <b>Cash Realized (Real Cash):</b> <code>$0.00 USD</code>
-• 🔄 <b>Monthly MRR Target:</b> <code>$83,550 / mo</code>
-• 🚀 <b>Annual ARR Target:</b> <code>$1,002,600 / yr Target</code>
+💰 <b>FINANCIAL INTEGRITY & PIPELINE:</b>
+• 💵 <b>Thực Thu:</b> <code>$0.00 (Chưa thu tiền)</code>
+• 🎯 <b>Pipeline Mục Tiêu:</b> <code>$101,550/tháng ($1.22M ARR Target)</code>
 
 👉 <a href="https://work-minh-lap.vercel.app/fulfillment"><b>Mở Operations Fulfillment Hub</b></a>"""
 
