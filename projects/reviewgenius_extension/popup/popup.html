@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReviewGenius AI</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="app-wrap">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-icon">⭐</div>
+        <div class="brand-info">
+          <h1>ReviewGenius <span class="accent-text">AI</span></h1>
+          <p class="tagline">Google Reviews & Reputation Copilot</p>
+        </div>
+      </div>
+      <div class="badge-slot">
+        <span id="tierBadge" class="badge badge-free">FREE (10/MO)</span>
+      </div>
+    </header>
+
+    <!-- Main Generator Form -->
+    <main class="form-body">
+      <div class="field-group">
+        <label for="reviewInput">Paste Customer Review:</label>
+        <textarea id="reviewInput" placeholder="e.g., 'The staff was friendly, but the waiting time was almost 45 minutes...'" rows="3"></textarea>
+      </div>
+
+      <div class="field-row">
+        <div class="field-col">
+          <label for="starRating">Star Rating:</label>
+          <select id="starRating" class="form-select">
+            <option value="5">⭐⭐⭐⭐⭐ (5 Stars)</option>
+            <option value="4">⭐⭐⭐⭐ (4 Stars)</option>
+            <option value="3">⭐⭐⭐ (3 Stars)</option>
+            <option value="2">⭐⭐ (2 Stars)</option>
+            <option value="1">⭐ (1 Star - Complaint)</option>
+          </select>
+        </div>
+        <div class="field-col">
+          <label for="toneSelect">Response Tone:</label>
+          <select id="toneSelect" class="form-select">
+            <option value="warm">Warm & Grateful</option>
+            <option value="professional">Executive & Formal</option>
+            <option value="empathetic">Empathetic / Defusing</option>
+            <option value="seo">SEO Keyword Focused</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field-col">
+          <label for="businessName">Your Business Name:</label>
+          <input type="text" id="businessName" placeholder="e.g. Apex Dental Care" class="form-input">
+        </div>
+        <div class="field-col">
+          <label for="seoKeywords">Target SEO Keywords:</label>
+          <input type="text" id="seoKeywords" placeholder="e.g. cosmetic dentistry, implants" class="form-input">
+        </div>
+      </div>
+
+      <button id="btnGenerate" class="btn btn-primary btn-block">
+        <span>⚡ Generate 3 AI Responses</span>
+      </button>
+
+      <!-- Results Area -->
+      <section class="results-section" id="resultsSection" style="display: none;">
+        <div class="results-header">
+          <h3>Generated Variations</h3>
+          <span class="tip-seo">🎯 Local SEO Optimized</span>
+        </div>
+        <div class="variations-container" id="variationsContainer"></div>
+      </section>
+    </main>
+
+    <!-- Footer Promo -->
+    <footer class="app-footer">
+      <div class="pro-card" id="proCard">
+        <div class="pro-meta">
+          <strong>⚡ Unlimited Review Responses</strong>
+          <small>Automate Google Maps, Yelp & TripAdvisor</small>
+        </div>
+        <button id="btnUpgrade" class="btn btn-emerald btn-sm">Get Pro ($19)</button>
+      </div>
+      <div class="footer-bottom">
+        <a href="#" id="linkEnterKey">Enter License Key</a> •
+        <a href="https://work-minh-lap.vercel.app" target="_blank">AI Empire Hub</a>
+      </div>
+    </footer>
+
+    <!-- License Modal -->
+    <div class="modal-backdrop" id="licenseModal" style="display: none;">
+      <div class="modal-box">
+        <div class="modal-header">
+          <h3>Activate ReviewGenius Pro</h3>
+          <button class="btn-close" id="btnCloseModal">&times;</button>
+        </div>
+        <div class="modal-content">
+          <p>Enter the license key delivered upon purchase on Lemon Squeezy:</p>
+          <input type="text" id="licenseKeyInput" placeholder="REV-PRO-XXXX-XXXX" class="form-input">
+          <div id="licenseFeedback" class="feedback-text"></div>
+          <button id="btnActivateKey" class="btn btn-primary btn-block">Activate License</button>
+          <hr class="modal-divider">
+          <a href="https://minhlap.lemonsqueezy.com" target="_blank" class="btn btn-outline btn-block">
+            Buy Lifetime License ($19 USD)
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

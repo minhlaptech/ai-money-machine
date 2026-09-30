@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "ReviewGenius AI — Google Reviews & Reputation Assistant",
+  "short_name": "ReviewGenius",
+  "version": "1.0.0",
+  "description": "Instantly generate professional, SEO-optimized AI responses to Google Maps, Yelp, and TripAdvisor customer reviews with 1 click.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "ReviewGenius AI — Respond to Reviews"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.google.com/*",
+        "*://business.google.com/*",
+        "*://*.tripadvisor.com/*",
+        "*://*.yelp.com/*"
+      ],
+      "js": ["content/injector.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
