@@ -527,10 +527,10 @@
     "city": "Austin, TX",
     "to": "growth@kineticgrowthmedia.example",
     "doc": "Alex Rivera",
-    "status": "day1",
+    "status": "day3",
     "value": 2800,
     "retainer": 750,
-    "last_touch": "2026-09-30 23:06"
+    "last_touch": "2026-09-30 23:24"
   },
   {
     "id": 42,
@@ -540,10 +540,10 @@
     "city": "San Francisco, CA",
     "to": "talent@hyperscalesearch.example",
     "doc": "Samantha Reed",
-    "status": "day1",
+    "status": "day3",
     "value": 4500,
     "retainer": 900,
-    "last_touch": "2026-09-30 23:06"
+    "last_touch": "2026-09-30 23:24"
   },
   {
     "id": 43,
@@ -553,10 +553,10 @@
     "city": "Los Angeles, CA",
     "to": "producers@cinemacraftstudios.example",
     "doc": "Julian Mercer",
-    "status": "day1",
+    "status": "day3",
     "value": 3200,
     "retainer": 750,
-    "last_touch": "2026-09-30 23:06"
+    "last_touch": "2026-09-30 23:24"
   },
   {
     "id": 44,
@@ -566,10 +566,10 @@
     "city": "New York, NY",
     "to": "strategy@searchvelocityai.example",
     "doc": "Nathan Ross",
-    "status": "day1",
+    "status": "day3",
     "value": 3000,
     "retainer": 800,
-    "last_touch": "2026-09-30 23:06"
+    "last_touch": "2026-09-30 23:24"
   },
   {
     "id": 45,
@@ -579,10 +579,10 @@
     "city": "Chicago, IL",
     "to": "advisory@fractionalcfochi.example",
     "doc": "William Thornton",
-    "status": "day1",
+    "status": "day3",
     "value": 4000,
     "retainer": 900,
-    "last_touch": "2026-09-30 23:06"
+    "last_touch": "2026-09-30 23:24"
   },
   {
     "id": 46,
@@ -592,10 +592,10 @@
     "city": "Seattle, WA",
     "to": "hello@brandforgecreative.example",
     "doc": "Maya Lin",
-    "status": "day1",
+    "status": "day3",
     "value": 2600,
     "retainer": 700,
-    "last_touch": "2026-09-30 23:06"
+    "last_touch": "2026-09-30 23:24"
   },
   {
     "id": 47,
@@ -605,10 +605,10 @@
     "city": "Boston, MA",
     "to": "pipeline@leadigniteb2b.example",
     "doc": "Connor Hayes",
-    "status": "day1",
+    "status": "day3",
     "value": 2400,
     "retainer": 700,
-    "last_touch": "2026-09-30 23:06"
+    "last_touch": "2026-09-30 23:24"
   },
   {
     "id": 48,
@@ -618,10 +618,10 @@
     "city": "Miami, FL",
     "to": "engineers@devsprintstaffing.example",
     "doc": "Ricardo Silva",
-    "status": "day1",
+    "status": "day3",
     "value": 3500,
     "retainer": 800,
-    "last_touch": "2026-09-30 23:06"
+    "last_touch": "2026-09-30 23:24"
   },
   {
     "id": 49,
@@ -631,10 +631,10 @@
     "city": "Denver, CO",
     "to": "editors@quantumcontentlab.example",
     "doc": "Hannah Brooks",
-    "status": "day1",
+    "status": "day3",
     "value": 2200,
     "retainer": 650,
-    "last_touch": "2026-09-30 23:06"
+    "last_touch": "2026-09-30 23:24"
   },
   {
     "id": 50,
@@ -644,10 +644,10 @@
     "city": "Atlanta, GA",
     "to": "success@retentionloopcrm.example",
     "doc": "Marcus Bell",
-    "status": "day1",
+    "status": "day3",
     "value": 2500,
     "retainer": 700,
-    "last_touch": "2026-09-30 23:06"
+    "last_touch": "2026-09-30 23:24"
   },
   {
     "id": 51,
