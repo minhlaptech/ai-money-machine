@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Allen Women's Health - Waterloo",
+    "niche": "Doctor",
+    "city": "Waterloo",
+    "phone": "+1-319-235-5090",
+    "website": "https://www.unitypoint.org/waterloo/clinic.aspx?id=399",
+    "email": "contact@unitypoint.org",
+    "address": "233 Vold Drive, Waterloo 50703",
+    "mailto_url": "mailto:contact@unitypoint.org?subject=quick%20question%20regarding%20Allen%20Women%27s%20Health%20-%20Waterloo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.unitypoint.org/waterloo/clinic.aspx%3Fid%3D399%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Allen%20Women%27s%20Health%20-%20Waterloo%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:38"
+  },
+  {
+    "id": 2,
+    "name": "Dr. John Lu",
+    "niche": "Doctor",
+    "city": "Waterloo",
+    "phone": "+1-519-884-3800",
+    "website": "N/A",
+    "email": "contact@drjohnlu.example",
+    "address": "81 Cardill Crescent, Waterloo N2L 3Y9",
+    "mailto_url": "mailto:contact@drjohnlu.example?subject=quick%20question%20regarding%20Dr.%20John%20Lu%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dr.%20John%20Lu%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:38"
+  },
+  {
+    "id": 3,
+    "name": "Eastbridge Walk-in Clinic",
+    "niche": "Doctor",
+    "city": "Waterloo",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@eastbridgewalk-inclinic.example",
+    "address": "Waterloo",
+    "mailto_url": "mailto:contact@eastbridgewalk-inclinic.example?subject=quick%20question%20regarding%20Eastbridge%20Walk-in%20Clinic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Eastbridge%20Walk-in%20Clinic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:38"
+  },
+  {
+    "id": 4,
+    "name": "DR. Pierre Kugler",
+    "niche": "Doctor",
+    "city": "Waterloo",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@drpierrekugler.example",
+    "address": "Waterloo",
+    "mailto_url": "mailto:contact@drpierrekugler.example?subject=quick%20question%20regarding%20DR.%20Pierre%20Kugler%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20DR.%20Pierre%20Kugler%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:38"
+  },
+  {
+    "id": 5,
+    "name": "K. Papp",
+    "niche": "Doctor",
+    "city": "Waterloo",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@kpapp.example",
+    "address": "Waterloo",
+    "mailto_url": "mailto:contact@kpapp.example?subject=quick%20question%20regarding%20K.%20Papp%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20K.%20Papp%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:38"
+  },
+  {
+    "id": 6,
+    "name": "Waterloo Doctor #6",
+    "niche": "Doctor",
+    "city": "Waterloo",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@waterloodoctor#6.example",
+    "address": "Waterloo",
+    "mailto_url": "mailto:contact@waterloodoctor#6.example?subject=quick%20question%20regarding%20Waterloo%20Doctor%20%236%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Waterloo%20Doctor%20%236%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:38"
+  },
+  {
+    "id": 7,
+    "name": "Juliens Chantal",
+    "niche": "Doctor",
+    "city": "Waterloo",
+    "phone": "+32 2 384 44 93",
+    "website": "N/A",
+    "email": "contact@julienschantal.example",
+    "address": "Waterloo",
+    "mailto_url": "mailto:contact@julienschantal.example?subject=quick%20question%20regarding%20Juliens%20Chantal%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Juliens%20Chantal%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:38"
+  },
+  {
+    "id": 8,
+    "name": "Healthcare Family Medical Centre",
+    "niche": "Doctor",
+    "city": "Waterloo",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@healthcarefamilymedicalcentre.example",
+    "address": "Waterloo",
+    "mailto_url": "mailto:contact@healthcarefamilymedicalcentre.example?subject=quick%20question%20regarding%20Healthcare%20Family%20Medical%20Centre%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Healthcare%20Family%20Medical%20Centre%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:38"
+  },
+  {
+    "id": 9,
+    "name": "Albert Huard",
+    "niche": "Doctor",
+    "city": "Waterloo",
+    "phone": "+32 2 351 42 47",
+    "website": "N/A",
+    "email": "contact@alberthuard.example",
+    "address": "36 Avenue des Mésanges, Waterloo",
+    "mailto_url": "mailto:contact@alberthuard.example?subject=quick%20question%20regarding%20Albert%20Huard%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Albert%20Huard%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:38"
+  },
+  {
+    "id": 10,
+    "name": "Bruno BUGNON",
+    "niche": "Doctor",
+    "city": "Waterloo",
+    "phone": "+32 2 354 35 00",
+    "website": "N/A",
+    "email": "contact@brunobugnon.example",
+    "address": "33 Avenue des Mésanges, Waterloo",
+    "mailto_url": "mailto:contact@brunobugnon.example?subject=quick%20question%20regarding%20Bruno%20BUGNON%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bruno%20BUGNON%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:38"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Waterloo Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Waterloo",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.waterloopremierclinicstudio.example",
+    "email": "info@waterloopremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Waterloo",
+    "mailto_url": "mailto:info@waterloopremierclinicstudio.example?subject=quick%20question%20regarding%20Waterloo%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:48"
+  },
+  {
+    "id": 2,
+    "name": "Apex Waterloo Clinic Center",
+    "niche": "Clinic",
+    "city": "Waterloo",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexwaterloocliniccenter.example",
+    "email": "info@apexwaterloocliniccenter.example",
+    "address": "240 Boulevard Ave, Waterloo",
+    "mailto_url": "mailto:info@apexwaterloocliniccenter.example?subject=quick%20question%20regarding%20Apex%20Waterloo%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:48"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Waterloo",
+    "niche": "Clinic",
+    "city": "Waterloo",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofwaterloo.example",
+    "email": "info@beaconclinicpartnersofwaterloo.example",
+    "address": "360 Boulevard Ave, Waterloo",
+    "mailto_url": "mailto:info@beaconclinicpartnersofwaterloo.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Waterloo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:48"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Waterloo Clinic Group",
+    "niche": "Clinic",
+    "city": "Waterloo",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardwaterlooclinicgroup.example",
+    "email": "info@vanguardwaterlooclinicgroup.example",
+    "address": "480 Boulevard Ave, Waterloo",
+    "mailto_url": "mailto:info@vanguardwaterlooclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Waterloo%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:48"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Waterloo",
+    "niche": "Clinic",
+    "city": "Waterloo",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticswaterloo.example",
+    "email": "info@luminaclinicandaestheticswaterloo.example",
+    "address": "600 Boulevard Ave, Waterloo",
+    "mailto_url": "mailto:info@luminaclinicandaestheticswaterloo.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Waterloo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:48"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Waterloo",
+    "niche": "Clinic",
+    "city": "Waterloo",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofwaterloo.example",
+    "email": "info@proactiveclinicclinicofwaterloo.example",
+    "address": "720 Boulevard Ave, Waterloo",
+    "mailto_url": "mailto:info@proactiveclinicclinicofwaterloo.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Waterloo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:48"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Waterloo",
+    "niche": "Clinic",
+    "city": "Waterloo",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistswaterloo.example",
+    "email": "info@eliteclinicspecialistswaterloo.example",
+    "address": "840 Boulevard Ave, Waterloo",
+    "mailto_url": "mailto:info@eliteclinicspecialistswaterloo.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Waterloo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:48"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Waterloo",
+    "niche": "Clinic",
+    "city": "Waterloo",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicwaterloo.example",
+    "email": "info@summitcrestclinicwaterloo.example",
+    "address": "960 Boulevard Ave, Waterloo",
+    "mailto_url": "mailto:info@summitcrestclinicwaterloo.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Waterloo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:48"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Waterloo",
+    "niche": "Clinic",
+    "city": "Waterloo",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecenterwaterloo.example",
+    "email": "info@metrocliniccarecenterwaterloo.example",
+    "address": "1080 Boulevard Ave, Waterloo",
+    "mailto_url": "mailto:info@metrocliniccarecenterwaterloo.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Waterloo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:48"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Waterloo",
+    "niche": "Clinic",
+    "city": "Waterloo",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticewaterloo.example",
+    "email": "info@pacificcoastclinicpracticewaterloo.example",
+    "address": "1200 Boulevard Ave, Waterloo",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticewaterloo.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Waterloo%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:39:48"
+  }
+]

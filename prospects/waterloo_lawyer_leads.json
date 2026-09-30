@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Miller Thomson",
+    "niche": "Lawyer",
+    "city": "Waterloo",
+    "phone": "N/A",
+    "website": "https://www.millerthomson.com/en/offices/waterloo-region/",
+    "email": "contact@millerthomson.com",
+    "address": "115 King Street South, Waterloo",
+    "mailto_url": "mailto:contact@millerthomson.com?subject=quick%20question%20regarding%20Miller%20Thomson%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.millerthomson.com/en/offices/waterloo-region/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Miller%20Thomson%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:40:04"
+  },
+  {
+    "id": 2,
+    "name": "Dueck, Sauer, Jutzi & Noll LLP",
+    "niche": "Lawyer",
+    "city": "Waterloo",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@duecksauerjutzinollllp.example",
+    "address": "Waterloo",
+    "mailto_url": "mailto:contact@duecksauerjutzinollllp.example?subject=quick%20question%20regarding%20Dueck%2C%20Sauer%2C%20Jutzi%20%26%20Noll%20LLP%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dueck%2C%20Sauer%2C%20Jutzi%20%26%20Noll%20LLP%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:40:04"
+  },
+  {
+    "id": 3,
+    "name": "Chan Law",
+    "niche": "Lawyer",
+    "city": "Waterloo",
+    "phone": "N/A",
+    "website": "https://chanlaw.org/",
+    "email": "contact@chanlaw.org",
+    "address": "245 The Boardwalk, Waterloo",
+    "mailto_url": "mailto:contact@chanlaw.org?subject=quick%20question%20regarding%20Chan%20Law%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//chanlaw.org/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Chan%20Law%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:40:04"
+  },
+  {
+    "id": 4,
+    "name": "Forcier Law Office",
+    "niche": "Lawyer",
+    "city": "Waterloo",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@forcierlawoffice.example",
+    "address": "Waterloo",
+    "mailto_url": "mailto:contact@forcierlawoffice.example?subject=quick%20question%20regarding%20Forcier%20Law%20Office%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Forcier%20Law%20Office%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:40:04"
+  },
+  {
+    "id": 5,
+    "name": "Oldfield, Greaves, D'Agostino",
+    "niche": "Lawyer",
+    "city": "Waterloo",
+    "phone": "N/A",
+    "website": "https://www.watlaw.com/",
+    "email": "contact@watlaw.com",
+    "address": "Waterloo",
+    "mailto_url": "mailto:contact@watlaw.com?subject=quick%20question%20regarding%20Oldfield%2C%20Greaves%2C%20D%27Agostino%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.watlaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Oldfield%2C%20Greaves%2C%20D%27Agostino%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:40:04"
+  },
+  {
+    "id": 6,
+    "name": "Walk-In Notary",
+    "niche": "Lawyer",
+    "city": "Waterloo",
+    "phone": "+1-226-899-4479",
+    "website": "https://www.walkinnotary.ca/locations/kitchener-waterloo/",
+    "email": "contact@walkinnotary.ca",
+    "address": "22 King Street South, Waterloo N2J 1N8",
+    "mailto_url": "mailto:contact@walkinnotary.ca?subject=quick%20question%20regarding%20Walk-In%20Notary%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.walkinnotary.ca/locations/kitchener-waterloo/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Walk-In%20Notary%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:40:04"
+  },
+  {
+    "id": 7,
+    "name": "Sarah Mumtaz Law Offices",
+    "niche": "Lawyer",
+    "city": "Waterloo",
+    "phone": "N/A",
+    "website": "https://sarahmumtazlaw.com/",
+    "email": "contact@sarahmumtazlaw.com",
+    "address": "180 Northfield Drive West, Waterloo N2L 0C7",
+    "mailto_url": "mailto:contact@sarahmumtazlaw.com?subject=quick%20question%20regarding%20Sarah%20Mumtaz%20Law%20Offices%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//sarahmumtazlaw.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Sarah%20Mumtaz%20Law%20Offices%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:40:04"
+  },
+  {
+    "id": 8,
+    "name": "Paquette Travers",
+    "niche": "Lawyer",
+    "city": "Waterloo",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@paquettetravers.example",
+    "address": "423 King Street North, Waterloo",
+    "mailto_url": "mailto:contact@paquettetravers.example?subject=quick%20question%20regarding%20Paquette%20Travers%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Paquette%20Travers%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:40:04"
+  }
+]
