@@ -173,7 +173,7 @@ def update_lead_status(lead_id, new_status, notify_tg=False):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Manage B2B Client Pipeline CRM")
     parser.add_argument("--summary", action="store_true", help="Print pipeline summary")
-    parser.add_argument("--id", type=int, help="Lead ID to update (1-60)")
+    parser.add_argument("--id", type=int, help="Lead ID to update (1-84)")
     parser.add_argument("--status", choices=["new", "day1", "day3", "day7", "booked", "won"], help="New status for lead")
     parser.add_argument("--telegram", action="store_true", help="Send deal status alert to Telegram")
 
