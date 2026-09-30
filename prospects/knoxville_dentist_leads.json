@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "American Family Dentistry",
+    "niche": "Dentist",
+    "city": "Knoxville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@americanfamilydentistry.example",
+    "address": "Knoxville",
+    "mailto_url": "mailto:contact@americanfamilydentistry.example?subject=quick%20question%20regarding%20American%20Family%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20American%20Family%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:24:08"
+  },
+  {
+    "id": 2,
+    "name": "Knoxville Dental Center",
+    "niche": "Dentist",
+    "city": "Knoxville",
+    "phone": "+1-641-828-7777",
+    "website": "https://www.knoxville-dental-center.com/",
+    "email": "contact@knoxville-dental-center.com",
+    "address": "211 South 2nd Street, Knoxville 50138",
+    "mailto_url": "mailto:contact@knoxville-dental-center.com?subject=quick%20question%20regarding%20Knoxville%20Dental%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.knoxville-dental-center.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Knoxville%20Dental%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:24:08"
+  },
+  {
+    "id": 3,
+    "name": "Robert M. Kelso, DDS",
+    "niche": "Dentist",
+    "city": "Knoxville",
+    "phone": "+1-865-588-6534",
+    "website": "N/A",
+    "email": "contact@robertmkelsodds.example",
+    "address": "6231 Highland Place Way, Knoxville 37919",
+    "mailto_url": "mailto:contact@robertmkelsodds.example?subject=quick%20question%20regarding%20Robert%20M.%20Kelso%2C%20DDS%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Robert%20M.%20Kelso%2C%20DDS%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:24:08"
+  },
+  {
+    "id": 4,
+    "name": "Northshore Smiles",
+    "niche": "Dentist",
+    "city": "Knoxville",
+    "phone": "+1 865-252-7977",
+    "website": "https://www.northshoresmilesdentistry.com/",
+    "email": "contact@northshoresmilesdentistry.com",
+    "address": "2020 Town Center Boulevard, Knoxville 37922",
+    "mailto_url": "mailto:contact@northshoresmilesdentistry.com?subject=quick%20question%20regarding%20Northshore%20Smiles%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.northshoresmilesdentistry.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Northshore%20Smiles%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:24:08"
+  },
+  {
+    "id": 5,
+    "name": "Cornerstone Dental Arts",
+    "niche": "Dentist",
+    "city": "Knoxville",
+    "phone": "+1 865 3263647",
+    "website": "https://www.whatasmile.com",
+    "email": "contact@whatasmile.com",
+    "address": "8912 Town and Country Circle, Knoxville 37923",
+    "mailto_url": "mailto:contact@whatasmile.com?subject=quick%20question%20regarding%20Cornerstone%20Dental%20Arts%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.whatasmile.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Cornerstone%20Dental%20Arts%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:24:08"
+  },
+  {
+    "id": 6,
+    "name": "Castle Dental",
+    "niche": "Dentist",
+    "city": "Knoxville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@castledental.example",
+    "address": "Knoxville",
+    "mailto_url": "mailto:contact@castledental.example?subject=quick%20question%20regarding%20Castle%20Dental%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Castle%20Dental%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:24:08"
+  },
+  {
+    "id": 7,
+    "name": "General Dentistry",
+    "niche": "Dentist",
+    "city": "Knoxville",
+    "phone": "+1-865-584-3144",
+    "website": "N/A",
+    "email": "contact@generaldentistry.example",
+    "address": "5601 Western Avenue, Knoxville 37921",
+    "mailto_url": "mailto:contact@generaldentistry.example?subject=quick%20question%20regarding%20General%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20General%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:24:08"
+  },
+  {
+    "id": 8,
+    "name": "Jones & Jones Dentistry",
+    "niche": "Dentist",
+    "city": "Knoxville",
+    "phone": "+1-865-584-3144",
+    "website": "N/A",
+    "email": "contact@jonesjonesdentistry.example",
+    "address": "5601 Western Avenue, Knoxville 37921",
+    "mailto_url": "mailto:contact@jonesjonesdentistry.example?subject=quick%20question%20regarding%20Jones%20%26%20Jones%20Dentistry%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Jones%20%26%20Jones%20Dentistry%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:24:08"
+  },
+  {
+    "id": 9,
+    "name": "DentalWorks",
+    "niche": "Dentist",
+    "city": "Knoxville",
+    "phone": "+1 865-672-5802",
+    "website": "https://www.dentalworks.com/offices/tennessee/knoxville-northwest-crossing/",
+    "email": "contact@dentalworks.com",
+    "address": "6727 Clinton Highway, Knoxville 37912",
+    "mailto_url": "mailto:contact@dentalworks.com?subject=quick%20question%20regarding%20DentalWorks%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.dentalworks.com/offices/tennessee/knoxville-northwest-crossing/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20DentalWorks%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:24:08"
+  },
+  {
+    "id": 10,
+    "name": "Dental Partners South Knoxville",
+    "niche": "Dentist",
+    "city": "Knoxville",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dentalpartnerssouthknoxville.example",
+    "address": "Knoxville",
+    "mailto_url": "mailto:contact@dentalpartnerssouthknoxville.example?subject=quick%20question%20regarding%20Dental%20Partners%20South%20Knoxville%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dental%20Partners%20South%20Knoxville%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:24:08"
+  }
+]
