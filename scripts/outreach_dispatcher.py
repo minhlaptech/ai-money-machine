@@ -729,9 +729,9 @@ def update_pipeline_status(leads_to_update, stage):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Multi-Touch Outreach Campaign Dispatcher")
-    parser.add_argument("--batch", type=int, choices=[1, 2, 3, 4, 5, 6], help="Filter by Batch (1-6: SMBs, E-Com, High-Ticket, Luxury Home, B2B Agencies, Luxury Health)")
+    parser.add_argument("--batch", type=int, choices=[1, 2, 3, 4, 5, 6, 7], help="Filter by Batch (1-7: SMBs, E-Com, High-Ticket, Luxury Home, B2B Agencies, Luxury Health, Dallas & Miami Live)")
     parser.add_argument("--stage", type=int, default=1, choices=[1, 2, 3], help="Stage (1: Day 1 Hook, 2: Day 3 ROI, 3: Day 7 Break-Up)")
-    parser.add_argument("--lead", type=int, help="Single Lead ID (1-60)")
+    parser.add_argument("--lead", type=int, help="Single Lead ID (1-84)")
     parser.add_argument("--telegram", action="store_true", help="Send campaign digest to Telegram")
     parser.add_argument("--mark-sent", action="store_true", help="Update CRM pipeline status to sent stage (day1/day3/day7)")
 
