@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Little Rock Premier Dentist Studio",
+    "niche": "Dentist",
+    "city": "Little Rock",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.littlerockpremierdentiststudio.example",
+    "email": "info@littlerockpremierdentiststudio.example",
+    "address": "120 Boulevard Ave, Little Rock",
+    "mailto_url": "mailto:info@littlerockpremierdentiststudio.example?subject=quick%20question%20regarding%20Little%20Rock%20Premier%20Dentist%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:01:37"
+  },
+  {
+    "id": 2,
+    "name": "Apex Little Rock Dentist Center",
+    "niche": "Dentist",
+    "city": "Little Rock",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexlittlerockdentistcenter.example",
+    "email": "info@apexlittlerockdentistcenter.example",
+    "address": "240 Boulevard Ave, Little Rock",
+    "mailto_url": "mailto:info@apexlittlerockdentistcenter.example?subject=quick%20question%20regarding%20Apex%20Little%20Rock%20Dentist%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:01:37"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Dentist Partners of Little Rock",
+    "niche": "Dentist",
+    "city": "Little Rock",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beacondentistpartnersoflittlerock.example",
+    "email": "info@beacondentistpartnersoflittlerock.example",
+    "address": "360 Boulevard Ave, Little Rock",
+    "mailto_url": "mailto:info@beacondentistpartnersoflittlerock.example?subject=quick%20question%20regarding%20Beacon%20Dentist%20Partners%20of%20Little%20Rock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:01:37"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Little Rock Dentist Group",
+    "niche": "Dentist",
+    "city": "Little Rock",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardlittlerockdentistgroup.example",
+    "email": "info@vanguardlittlerockdentistgroup.example",
+    "address": "480 Boulevard Ave, Little Rock",
+    "mailto_url": "mailto:info@vanguardlittlerockdentistgroup.example?subject=quick%20question%20regarding%20Vanguard%20Little%20Rock%20Dentist%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:01:37"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Dentist & Aesthetics Little Rock",
+    "niche": "Dentist",
+    "city": "Little Rock",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminadentistandaestheticslittlerock.example",
+    "email": "info@luminadentistandaestheticslittlerock.example",
+    "address": "600 Boulevard Ave, Little Rock",
+    "mailto_url": "mailto:info@luminadentistandaestheticslittlerock.example?subject=quick%20question%20regarding%20Lumina%20Dentist%20%26%20Aesthetics%20Little%20Rock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:01:37"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Dentist Clinic of Little Rock",
+    "niche": "Dentist",
+    "city": "Little Rock",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivedentistclinicoflittlerock.example",
+    "email": "info@proactivedentistclinicoflittlerock.example",
+    "address": "720 Boulevard Ave, Little Rock",
+    "mailto_url": "mailto:info@proactivedentistclinicoflittlerock.example?subject=quick%20question%20regarding%20ProActive%20Dentist%20Clinic%20of%20Little%20Rock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:01:37"
+  },
+  {
+    "id": 7,
+    "name": "Elite Dentist Specialists Little Rock",
+    "niche": "Dentist",
+    "city": "Little Rock",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitedentistspecialistslittlerock.example",
+    "email": "info@elitedentistspecialistslittlerock.example",
+    "address": "840 Boulevard Ave, Little Rock",
+    "mailto_url": "mailto:info@elitedentistspecialistslittlerock.example?subject=quick%20question%20regarding%20Elite%20Dentist%20Specialists%20Little%20Rock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:01:37"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Dentist Little Rock",
+    "niche": "Dentist",
+    "city": "Little Rock",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestdentistlittlerock.example",
+    "email": "info@summitcrestdentistlittlerock.example",
+    "address": "960 Boulevard Ave, Little Rock",
+    "mailto_url": "mailto:info@summitcrestdentistlittlerock.example?subject=quick%20question%20regarding%20Summit%20Crest%20Dentist%20Little%20Rock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:01:37"
+  },
+  {
+    "id": 9,
+    "name": "Metro Dentist Care Center Little Rock",
+    "niche": "Dentist",
+    "city": "Little Rock",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrodentistcarecenterlittlerock.example",
+    "email": "info@metrodentistcarecenterlittlerock.example",
+    "address": "1080 Boulevard Ave, Little Rock",
+    "mailto_url": "mailto:info@metrodentistcarecenterlittlerock.example?subject=quick%20question%20regarding%20Metro%20Dentist%20Care%20Center%20Little%20Rock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:01:37"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Dentist Practice Little Rock",
+    "niche": "Dentist",
+    "city": "Little Rock",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastdentistpracticelittlerock.example",
+    "email": "info@pacificcoastdentistpracticelittlerock.example",
+    "address": "1200 Boulevard Ave, Little Rock",
+    "mailto_url": "mailto:info@pacificcoastdentistpracticelittlerock.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Dentist%20Practice%20Little%20Rock%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 02:01:37"
+  }
+]
