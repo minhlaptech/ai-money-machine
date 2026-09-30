@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "St Cloud Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.stcloudpremiercpastudio.example",
+    "email": "info@stcloudpremiercpastudio.example",
+    "address": "120 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@stcloudpremiercpastudio.example?subject=quick%20question%20regarding%20St%20Cloud%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:14"
+  },
+  {
+    "id": 2,
+    "name": "Apex St Cloud Cpa Center",
+    "niche": "Cpa",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexstcloudcpacenter.example",
+    "email": "info@apexstcloudcpacenter.example",
+    "address": "240 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@apexstcloudcpacenter.example?subject=quick%20question%20regarding%20Apex%20St%20Cloud%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:14"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of St Cloud",
+    "niche": "Cpa",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersofstcloud.example",
+    "email": "info@beaconcpapartnersofstcloud.example",
+    "address": "360 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@beaconcpapartnersofstcloud.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:14"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard St Cloud Cpa Group",
+    "niche": "Cpa",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardstcloudcpagroup.example",
+    "email": "info@vanguardstcloudcpagroup.example",
+    "address": "480 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@vanguardstcloudcpagroup.example?subject=quick%20question%20regarding%20Vanguard%20St%20Cloud%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:14"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics St Cloud",
+    "niche": "Cpa",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticsstcloud.example",
+    "email": "info@luminacpaandaestheticsstcloud.example",
+    "address": "600 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@luminacpaandaestheticsstcloud.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:14"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Cpa Clinic of St Cloud",
+    "niche": "Cpa",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivecpaclinicofstcloud.example",
+    "email": "info@proactivecpaclinicofstcloud.example",
+    "address": "720 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@proactivecpaclinicofstcloud.example?subject=quick%20question%20regarding%20ProActive%20Cpa%20Clinic%20of%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:14"
+  },
+  {
+    "id": 7,
+    "name": "Elite Cpa Specialists St Cloud",
+    "niche": "Cpa",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitecpaspecialistsstcloud.example",
+    "email": "info@elitecpaspecialistsstcloud.example",
+    "address": "840 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@elitecpaspecialistsstcloud.example?subject=quick%20question%20regarding%20Elite%20Cpa%20Specialists%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:14"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Cpa St Cloud",
+    "niche": "Cpa",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestcpastcloud.example",
+    "email": "info@summitcrestcpastcloud.example",
+    "address": "960 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@summitcrestcpastcloud.example?subject=quick%20question%20regarding%20Summit%20Crest%20Cpa%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:14"
+  },
+  {
+    "id": 9,
+    "name": "Metro Cpa Care Center St Cloud",
+    "niche": "Cpa",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocpacarecenterstcloud.example",
+    "email": "info@metrocpacarecenterstcloud.example",
+    "address": "1080 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@metrocpacarecenterstcloud.example?subject=quick%20question%20regarding%20Metro%20Cpa%20Care%20Center%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:14"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Cpa Practice St Cloud",
+    "niche": "Cpa",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastcpapracticestcloud.example",
+    "email": "info@pacificcoastcpapracticestcloud.example",
+    "address": "1200 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@pacificcoastcpapracticestcloud.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Cpa%20Practice%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:14"
+  }
+]

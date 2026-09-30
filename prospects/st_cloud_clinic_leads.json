@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "St Cloud Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.stcloudpremierclinicstudio.example",
+    "email": "info@stcloudpremierclinicstudio.example",
+    "address": "120 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@stcloudpremierclinicstudio.example?subject=quick%20question%20regarding%20St%20Cloud%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:08:52"
+  },
+  {
+    "id": 2,
+    "name": "Apex St Cloud Clinic Center",
+    "niche": "Clinic",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexstcloudcliniccenter.example",
+    "email": "info@apexstcloudcliniccenter.example",
+    "address": "240 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@apexstcloudcliniccenter.example?subject=quick%20question%20regarding%20Apex%20St%20Cloud%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:08:52"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of St Cloud",
+    "niche": "Clinic",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersofstcloud.example",
+    "email": "info@beaconclinicpartnersofstcloud.example",
+    "address": "360 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@beaconclinicpartnersofstcloud.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:08:52"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard St Cloud Clinic Group",
+    "niche": "Clinic",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardstcloudclinicgroup.example",
+    "email": "info@vanguardstcloudclinicgroup.example",
+    "address": "480 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@vanguardstcloudclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20St%20Cloud%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:08:52"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics St Cloud",
+    "niche": "Clinic",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticsstcloud.example",
+    "email": "info@luminaclinicandaestheticsstcloud.example",
+    "address": "600 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@luminaclinicandaestheticsstcloud.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:08:52"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of St Cloud",
+    "niche": "Clinic",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicofstcloud.example",
+    "email": "info@proactiveclinicclinicofstcloud.example",
+    "address": "720 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@proactiveclinicclinicofstcloud.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:08:52"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists St Cloud",
+    "niche": "Clinic",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialistsstcloud.example",
+    "email": "info@eliteclinicspecialistsstcloud.example",
+    "address": "840 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@eliteclinicspecialistsstcloud.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:08:52"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic St Cloud",
+    "niche": "Clinic",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinicstcloud.example",
+    "email": "info@summitcrestclinicstcloud.example",
+    "address": "960 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@summitcrestclinicstcloud.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:08:52"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center St Cloud",
+    "niche": "Clinic",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecenterstcloud.example",
+    "email": "info@metrocliniccarecenterstcloud.example",
+    "address": "1080 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@metrocliniccarecenterstcloud.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:08:52"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice St Cloud",
+    "niche": "Clinic",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticestcloud.example",
+    "email": "info@pacificcoastclinicpracticestcloud.example",
+    "address": "1200 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticestcloud.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:08:52"
+  }
+]

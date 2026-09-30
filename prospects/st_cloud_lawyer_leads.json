@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "St Cloud Premier Lawyer Studio",
+    "niche": "Lawyer",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.stcloudpremierlawyerstudio.example",
+    "email": "info@stcloudpremierlawyerstudio.example",
+    "address": "120 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@stcloudpremierlawyerstudio.example?subject=quick%20question%20regarding%20St%20Cloud%20Premier%20Lawyer%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:04"
+  },
+  {
+    "id": 2,
+    "name": "Apex St Cloud Lawyer Center",
+    "niche": "Lawyer",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apexstcloudlawyercenter.example",
+    "email": "info@apexstcloudlawyercenter.example",
+    "address": "240 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@apexstcloudlawyercenter.example?subject=quick%20question%20regarding%20Apex%20St%20Cloud%20Lawyer%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:04"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Lawyer Partners of St Cloud",
+    "niche": "Lawyer",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconlawyerpartnersofstcloud.example",
+    "email": "info@beaconlawyerpartnersofstcloud.example",
+    "address": "360 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@beaconlawyerpartnersofstcloud.example?subject=quick%20question%20regarding%20Beacon%20Lawyer%20Partners%20of%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:04"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard St Cloud Lawyer Group",
+    "niche": "Lawyer",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardstcloudlawyergroup.example",
+    "email": "info@vanguardstcloudlawyergroup.example",
+    "address": "480 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@vanguardstcloudlawyergroup.example?subject=quick%20question%20regarding%20Vanguard%20St%20Cloud%20Lawyer%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:04"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Lawyer & Aesthetics St Cloud",
+    "niche": "Lawyer",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminalawyerandaestheticsstcloud.example",
+    "email": "info@luminalawyerandaestheticsstcloud.example",
+    "address": "600 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@luminalawyerandaestheticsstcloud.example?subject=quick%20question%20regarding%20Lumina%20Lawyer%20%26%20Aesthetics%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:04"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Lawyer Clinic of St Cloud",
+    "niche": "Lawyer",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivelawyerclinicofstcloud.example",
+    "email": "info@proactivelawyerclinicofstcloud.example",
+    "address": "720 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@proactivelawyerclinicofstcloud.example?subject=quick%20question%20regarding%20ProActive%20Lawyer%20Clinic%20of%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:04"
+  },
+  {
+    "id": 7,
+    "name": "Elite Lawyer Specialists St Cloud",
+    "niche": "Lawyer",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitelawyerspecialistsstcloud.example",
+    "email": "info@elitelawyerspecialistsstcloud.example",
+    "address": "840 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@elitelawyerspecialistsstcloud.example?subject=quick%20question%20regarding%20Elite%20Lawyer%20Specialists%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:04"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Lawyer St Cloud",
+    "niche": "Lawyer",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestlawyerstcloud.example",
+    "email": "info@summitcrestlawyerstcloud.example",
+    "address": "960 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@summitcrestlawyerstcloud.example?subject=quick%20question%20regarding%20Summit%20Crest%20Lawyer%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:04"
+  },
+  {
+    "id": 9,
+    "name": "Metro Lawyer Care Center St Cloud",
+    "niche": "Lawyer",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrolawyercarecenterstcloud.example",
+    "email": "info@metrolawyercarecenterstcloud.example",
+    "address": "1080 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@metrolawyercarecenterstcloud.example?subject=quick%20question%20regarding%20Metro%20Lawyer%20Care%20Center%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:04"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Lawyer Practice St Cloud",
+    "niche": "Lawyer",
+    "city": "St Cloud",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastlawyerpracticestcloud.example",
+    "email": "info@pacificcoastlawyerpracticestcloud.example",
+    "address": "1200 Boulevard Ave, St Cloud",
+    "mailto_url": "mailto:info@pacificcoastlawyerpracticestcloud.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Lawyer%20Practice%20St%20Cloud%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:09:04"
+  }
+]
