@@ -67,6 +67,7 @@ LIVE_URLS = [
     ("Executive Deliverables & Dossier Hub (/packages)", "https://work-minh-lap.vercel.app/packages"),
     ("Global NOC & Edge Telemetry Hub (/telemetry)", "https://work-minh-lap.vercel.app/telemetry"),
     ("Developer Documentation & API Hub (/docs)", "https://work-minh-lap.vercel.app/docs"),
+    ("Enterprise Security & Trust Center (/trust)", "https://work-minh-lap.vercel.app/trust"),
     ("Serverless Telemetry API (/api/telemetry)", "https://work-minh-lap.vercel.app/api/telemetry"),
     ("Serverless Health API (/api/health)", "https://work-minh-lap.vercel.app/api/health"),
 ]

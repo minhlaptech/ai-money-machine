@@ -62,6 +62,9 @@
     { "source": "/docs", "destination": "/docs/index.html" },
     { "source": "/developers", "destination": "/docs/index.html" },
     { "source": "/api-docs", "destination": "/docs/index.html" },
-    { "source": "/developer", "destination": "/docs/index.html" }
+    { "source": "/developer", "destination": "/docs/index.html" },
+    { "source": "/trust", "destination": "/trust/index.html" },
+    { "source": "/compliance", "destination": "/trust/index.html" },
+    { "source": "/security", "destination": "/trust/index.html" }
   ]
 }
