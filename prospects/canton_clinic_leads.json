@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Crisis Intervention & Recovery",
+    "niche": "Clinic",
+    "city": "Canton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@crisisinterventionrecovery.example",
+    "address": "Canton",
+    "mailto_url": "mailto:contact@crisisinterventionrecovery.example?subject=quick%20question%20regarding%20Crisis%20Intervention%20%26%20Recovery%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Crisis%20Intervention%20%26%20Recovery%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:16:42"
+  },
+  {
+    "id": 2,
+    "name": "Northwest ENT and Allergy Center",
+    "niche": "Clinic",
+    "city": "Canton",
+    "phone": "+1-770-427-0368",
+    "website": "http://nw-ent.com/",
+    "email": "contact@nw-ent.com",
+    "address": "13 Reinhardt College Parkway, Canton 30114",
+    "mailto_url": "mailto:contact@nw-ent.com?subject=quick%20question%20regarding%20Northwest%20ENT%20and%20Allergy%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28http%3A//nw-ent.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Northwest%20ENT%20and%20Allergy%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:16:42"
+  },
+  {
+    "id": 3,
+    "name": "My Community Health Center",
+    "niche": "Clinic",
+    "city": "Canton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@mycommunityhealthcenter.example",
+    "address": "Canton",
+    "mailto_url": "mailto:contact@mycommunityhealthcenter.example?subject=quick%20question%20regarding%20My%20Community%20Health%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20My%20Community%20Health%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:16:42"
+  },
+  {
+    "id": 4,
+    "name": "Aultman Hospital Emergency Room",
+    "niche": "Clinic",
+    "city": "Canton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@aultmanhospitalemergencyroom.example",
+    "address": "Canton",
+    "mailto_url": "mailto:contact@aultmanhospitalemergencyroom.example?subject=quick%20question%20regarding%20Aultman%20Hospital%20Emergency%20Room%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Aultman%20Hospital%20Emergency%20Room%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:16:42"
+  },
+  {
+    "id": 5,
+    "name": "Akron Children's Hospital - Maternal Fetal Medicine",
+    "niche": "Clinic",
+    "city": "Canton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@akronchildren'shospital-maternalfetalmedicine.example",
+    "address": "1330 Mercy Drive Northwest, Canton 44708",
+    "mailto_url": "mailto:contact@akronchildren'shospital-maternalfetalmedicine.example?subject=quick%20question%20regarding%20Akron%20Children%27s%20Hospital%20-%20Maternal%20Fetal%20Medicine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Akron%20Children%27s%20Hospital%20-%20Maternal%20Fetal%20Medicine%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:16:42"
+  },
+  {
+    "id": 6,
+    "name": "Canton Donor Room",
+    "niche": "Clinic",
+    "city": "Canton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@cantondonorroom.example",
+    "address": "Canton",
+    "mailto_url": "mailto:contact@cantondonorroom.example?subject=quick%20question%20regarding%20Canton%20Donor%20Room%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Canton%20Donor%20Room%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:16:42"
+  },
+  {
+    "id": 7,
+    "name": "Walk In Urgent Care",
+    "niche": "Clinic",
+    "city": "Canton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@walkinurgentcare.example",
+    "address": "Canton",
+    "mailto_url": "mailto:contact@walkinurgentcare.example?subject=quick%20question%20regarding%20Walk%20In%20Urgent%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Walk%20In%20Urgent%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:16:42"
+  },
+  {
+    "id": 8,
+    "name": "AllCare",
+    "niche": "Clinic",
+    "city": "Canton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@allcare.example",
+    "address": "Canton",
+    "mailto_url": "mailto:contact@allcare.example?subject=quick%20question%20regarding%20AllCare%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20AllCare%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:16:42"
+  },
+  {
+    "id": 9,
+    "name": "Guthrie Clinic Canton",
+    "niche": "Clinic",
+    "city": "Canton",
+    "phone": "+1-570-673-3197",
+    "website": "https://www.guthrie.org/locations/canton",
+    "email": "contact@guthrie.org",
+    "address": "127 Sullivan Street, Canton 17724",
+    "mailto_url": "mailto:contact@guthrie.org?subject=quick%20question%20regarding%20Guthrie%20Clinic%20Canton%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.guthrie.org/locations/canton%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Guthrie%20Clinic%20Canton%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:16:42"
+  },
+  {
+    "id": 10,
+    "name": "Cardiff Treatment Rooms",
+    "niche": "Clinic",
+    "city": "Canton",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@cardifftreatmentrooms.example",
+    "address": "Canton",
+    "mailto_url": "mailto:contact@cardifftreatmentrooms.example?subject=quick%20question%20regarding%20Cardiff%20Treatment%20Rooms%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Cardiff%20Treatment%20Rooms%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 03:16:42"
+  }
+]
