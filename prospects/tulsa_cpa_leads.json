@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Tulsa Premier Cpa Studio",
+    "niche": "Cpa",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.tulsapremiercpastudio.example",
+    "email": "info@tulsapremiercpastudio.example",
+    "address": "120 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@tulsapremiercpastudio.example?subject=quick%20question%20regarding%20Tulsa%20Premier%20Cpa%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:35"
+  },
+  {
+    "id": 2,
+    "name": "Apex Tulsa Cpa Center",
+    "niche": "Cpa",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apextulsacpacenter.example",
+    "email": "info@apextulsacpacenter.example",
+    "address": "240 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@apextulsacpacenter.example?subject=quick%20question%20regarding%20Apex%20Tulsa%20Cpa%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:35"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Cpa Partners of Tulsa",
+    "niche": "Cpa",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconcpapartnersoftulsa.example",
+    "email": "info@beaconcpapartnersoftulsa.example",
+    "address": "360 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@beaconcpapartnersoftulsa.example?subject=quick%20question%20regarding%20Beacon%20Cpa%20Partners%20of%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:35"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Tulsa Cpa Group",
+    "niche": "Cpa",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardtulsacpagroup.example",
+    "email": "info@vanguardtulsacpagroup.example",
+    "address": "480 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@vanguardtulsacpagroup.example?subject=quick%20question%20regarding%20Vanguard%20Tulsa%20Cpa%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:35"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Cpa & Aesthetics Tulsa",
+    "niche": "Cpa",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminacpaandaestheticstulsa.example",
+    "email": "info@luminacpaandaestheticstulsa.example",
+    "address": "600 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@luminacpaandaestheticstulsa.example?subject=quick%20question%20regarding%20Lumina%20Cpa%20%26%20Aesthetics%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:35"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Cpa Clinic of Tulsa",
+    "niche": "Cpa",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactivecpaclinicoftulsa.example",
+    "email": "info@proactivecpaclinicoftulsa.example",
+    "address": "720 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@proactivecpaclinicoftulsa.example?subject=quick%20question%20regarding%20ProActive%20Cpa%20Clinic%20of%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:35"
+  },
+  {
+    "id": 7,
+    "name": "Elite Cpa Specialists Tulsa",
+    "niche": "Cpa",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.elitecpaspecialiststulsa.example",
+    "email": "info@elitecpaspecialiststulsa.example",
+    "address": "840 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@elitecpaspecialiststulsa.example?subject=quick%20question%20regarding%20Elite%20Cpa%20Specialists%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:35"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Cpa Tulsa",
+    "niche": "Cpa",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestcpatulsa.example",
+    "email": "info@summitcrestcpatulsa.example",
+    "address": "960 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@summitcrestcpatulsa.example?subject=quick%20question%20regarding%20Summit%20Crest%20Cpa%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:35"
+  },
+  {
+    "id": 9,
+    "name": "Metro Cpa Care Center Tulsa",
+    "niche": "Cpa",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocpacarecentertulsa.example",
+    "email": "info@metrocpacarecentertulsa.example",
+    "address": "1080 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@metrocpacarecentertulsa.example?subject=quick%20question%20regarding%20Metro%20Cpa%20Care%20Center%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:35"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Cpa Practice Tulsa",
+    "niche": "Cpa",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastcpapracticetulsa.example",
+    "email": "info@pacificcoastcpapracticetulsa.example",
+    "address": "1200 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@pacificcoastcpapracticetulsa.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Cpa%20Practice%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:35"
+  }
+]

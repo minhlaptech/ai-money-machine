@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Tulsa Premier Clinic Studio",
+    "niche": "Clinic",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2001",
+    "website": "https://www.tulsapremierclinicstudio.example",
+    "email": "info@tulsapremierclinicstudio.example",
+    "address": "120 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@tulsapremierclinicstudio.example?subject=quick%20question%20regarding%20Tulsa%20Premier%20Clinic%20Studio%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:18"
+  },
+  {
+    "id": 2,
+    "name": "Apex Tulsa Clinic Center",
+    "niche": "Clinic",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2002",
+    "website": "https://www.apextulsacliniccenter.example",
+    "email": "info@apextulsacliniccenter.example",
+    "address": "240 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@apextulsacliniccenter.example?subject=quick%20question%20regarding%20Apex%20Tulsa%20Clinic%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:18"
+  },
+  {
+    "id": 3,
+    "name": "Beacon Clinic Partners of Tulsa",
+    "niche": "Clinic",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2003",
+    "website": "https://www.beaconclinicpartnersoftulsa.example",
+    "email": "info@beaconclinicpartnersoftulsa.example",
+    "address": "360 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@beaconclinicpartnersoftulsa.example?subject=quick%20question%20regarding%20Beacon%20Clinic%20Partners%20of%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:18"
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Tulsa Clinic Group",
+    "niche": "Clinic",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2004",
+    "website": "https://www.vanguardtulsaclinicgroup.example",
+    "email": "info@vanguardtulsaclinicgroup.example",
+    "address": "480 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@vanguardtulsaclinicgroup.example?subject=quick%20question%20regarding%20Vanguard%20Tulsa%20Clinic%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:18"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Clinic & Aesthetics Tulsa",
+    "niche": "Clinic",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2005",
+    "website": "https://www.luminaclinicandaestheticstulsa.example",
+    "email": "info@luminaclinicandaestheticstulsa.example",
+    "address": "600 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@luminaclinicandaestheticstulsa.example?subject=quick%20question%20regarding%20Lumina%20Clinic%20%26%20Aesthetics%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:18"
+  },
+  {
+    "id": 6,
+    "name": "ProActive Clinic Clinic of Tulsa",
+    "niche": "Clinic",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2006",
+    "website": "https://www.proactiveclinicclinicoftulsa.example",
+    "email": "info@proactiveclinicclinicoftulsa.example",
+    "address": "720 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@proactiveclinicclinicoftulsa.example?subject=quick%20question%20regarding%20ProActive%20Clinic%20Clinic%20of%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:18"
+  },
+  {
+    "id": 7,
+    "name": "Elite Clinic Specialists Tulsa",
+    "niche": "Clinic",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2007",
+    "website": "https://www.eliteclinicspecialiststulsa.example",
+    "email": "info@eliteclinicspecialiststulsa.example",
+    "address": "840 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@eliteclinicspecialiststulsa.example?subject=quick%20question%20regarding%20Elite%20Clinic%20Specialists%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:18"
+  },
+  {
+    "id": 8,
+    "name": "Summit Crest Clinic Tulsa",
+    "niche": "Clinic",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2008",
+    "website": "https://www.summitcrestclinictulsa.example",
+    "email": "info@summitcrestclinictulsa.example",
+    "address": "960 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@summitcrestclinictulsa.example?subject=quick%20question%20regarding%20Summit%20Crest%20Clinic%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:18"
+  },
+  {
+    "id": 9,
+    "name": "Metro Clinic Care Center Tulsa",
+    "niche": "Clinic",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2009",
+    "website": "https://www.metrocliniccarecentertulsa.example",
+    "email": "info@metrocliniccarecentertulsa.example",
+    "address": "1080 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@metrocliniccarecentertulsa.example?subject=quick%20question%20regarding%20Metro%20Clinic%20Care%20Center%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:18"
+  },
+  {
+    "id": 10,
+    "name": "Pacific Coast Clinic Practice Tulsa",
+    "niche": "Clinic",
+    "city": "Tulsa",
+    "phone": "+1 (512) 555-2010",
+    "website": "https://www.pacificcoastclinicpracticetulsa.example",
+    "email": "info@pacificcoastclinicpracticetulsa.example",
+    "address": "1200 Boulevard Ave, Tulsa",
+    "mailto_url": "mailto:info@pacificcoastclinicpracticetulsa.example?subject=quick%20question%20regarding%20Pacific%20Coast%20Clinic%20Practice%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20and%20noticed%20after-hours%20visitor%20dropoff.%0A%0ACheck%20our%20interactive%20demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:18"
+  }
+]

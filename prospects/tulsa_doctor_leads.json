@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "King's Court Family Medicine",
+    "niche": "Doctor",
+    "city": "Tulsa",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@king'scourtfamilymedicine.example",
+    "address": "1615 South Eucalyptus Avenue, Tulsa 74012",
+    "mailto_url": "mailto:contact@king'scourtfamilymedicine.example?subject=quick%20question%20regarding%20King%27s%20Court%20Family%20Medicine%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20King%27s%20Court%20Family%20Medicine%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:08"
+  },
+  {
+    "id": 2,
+    "name": "Physical Therapy of Tulsa",
+    "niche": "Doctor",
+    "city": "Tulsa",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@physicaltherapyoftulsa.example",
+    "address": "6767 South Yale Avenue East, Tulsa 74136",
+    "mailto_url": "mailto:contact@physicaltherapyoftulsa.example?subject=quick%20question%20regarding%20Physical%20Therapy%20of%20Tulsa%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Physical%20Therapy%20of%20Tulsa%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:08"
+  },
+  {
+    "id": 3,
+    "name": "MedFusion",
+    "niche": "Doctor",
+    "city": "Tulsa",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@medfusion.example",
+    "address": "Tulsa",
+    "mailto_url": "mailto:contact@medfusion.example?subject=quick%20question%20regarding%20MedFusion%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20MedFusion%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:08"
+  },
+  {
+    "id": 4,
+    "name": "Access Medical Center",
+    "niche": "Doctor",
+    "city": "Tulsa",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@accessmedicalcenter.example",
+    "address": "9716 Riverside Parkway, Tulsa 74137",
+    "mailto_url": "mailto:contact@accessmedicalcenter.example?subject=quick%20question%20regarding%20Access%20Medical%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Access%20Medical%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:08"
+  },
+  {
+    "id": 5,
+    "name": "Abundant Wellness MD",
+    "niche": "Doctor",
+    "city": "Tulsa",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@abundantwellnessmd.example",
+    "address": "8787 North Owasso Expressway East, Tulsa 74055",
+    "mailto_url": "mailto:contact@abundantwellnessmd.example?subject=quick%20question%20regarding%20Abundant%20Wellness%20MD%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Abundant%20Wellness%20MD%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:08"
+  },
+  {
+    "id": 6,
+    "name": "Frisillo Chiropractic",
+    "niche": "Doctor",
+    "city": "Tulsa",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@frisillochiropractic.example",
+    "address": "Tulsa",
+    "mailto_url": "mailto:contact@frisillochiropractic.example?subject=quick%20question%20regarding%20Frisillo%20Chiropractic%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Frisillo%20Chiropractic%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:08"
+  },
+  {
+    "id": 7,
+    "name": "Trapp Spinal Carr",
+    "niche": "Doctor",
+    "city": "Tulsa",
+    "phone": "+1-918-449-4555",
+    "website": "https://www.trappspinal.com/",
+    "email": "contact@trappspinal.com",
+    "address": "307 West Washington Street, Tulsa 74012",
+    "mailto_url": "mailto:contact@trappspinal.com?subject=quick%20question%20regarding%20Trapp%20Spinal%20Carr%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.trappspinal.com/%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Trapp%20Spinal%20Carr%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:08"
+  },
+  {
+    "id": 8,
+    "name": "Premier Family Care",
+    "niche": "Doctor",
+    "city": "Tulsa",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@premierfamilycare.example",
+    "address": "Tulsa",
+    "mailto_url": "mailto:contact@premierfamilycare.example?subject=quick%20question%20regarding%20Premier%20Family%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Premier%20Family%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:08"
+  },
+  {
+    "id": 9,
+    "name": "BA Urgent Care",
+    "niche": "Doctor",
+    "city": "Tulsa",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@baurgentcare.example",
+    "address": "Tulsa",
+    "mailto_url": "mailto:contact@baurgentcare.example?subject=quick%20question%20regarding%20BA%20Urgent%20Care%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20BA%20Urgent%20Care%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:08"
+  },
+  {
+    "id": 10,
+    "name": "Spine and Pain Center",
+    "niche": "Doctor",
+    "city": "Tulsa",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@spineandpaincenter.example",
+    "address": "Tulsa",
+    "mailto_url": "mailto:contact@spineandpaincenter.example?subject=quick%20question%20regarding%20Spine%20and%20Pain%20Center%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Spine%20and%20Pain%20Center%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-10-01 04:36:08"
+  }
+]
