@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "The Kinderhook Group",
+    "niche": "Realestate",
+    "city": "New York",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@thekinderhookgroup.example",
+    "address": "4350 State Highway 150, New York 12196",
+    "mailto_url": "mailto:contact@thekinderhookgroup.example?subject=quick%20question%20regarding%20The%20Kinderhook%20Group%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20The%20Kinderhook%20Group%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:36:55"
+  },
+  {
+    "id": 2,
+    "name": "RealtyUSA",
+    "niche": "Realestate",
+    "city": "New York",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@realtyusa.example",
+    "address": "New York",
+    "mailto_url": "mailto:contact@realtyusa.example?subject=quick%20question%20regarding%20RealtyUSA%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20RealtyUSA%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:36:55"
+  },
+  {
+    "id": 3,
+    "name": "Bovair Real Estate",
+    "niche": "Realestate",
+    "city": "New York",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@bovairrealestate.example",
+    "address": "4482 State Highway 150, New York",
+    "mailto_url": "mailto:contact@bovairrealestate.example?subject=quick%20question%20regarding%20Bovair%20Real%20Estate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Bovair%20Real%20Estate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:36:55"
+  },
+  {
+    "id": 4,
+    "name": "FD Edwards Real Estate",
+    "niche": "Realestate",
+    "city": "New York",
+    "phone": "+1-718-467-7477",
+    "website": "N/A",
+    "email": "contact@fdedwardsrealestate.example",
+    "address": "New York",
+    "mailto_url": "mailto:contact@fdedwardsrealestate.example?subject=quick%20question%20regarding%20FD%20Edwards%20Real%20Estate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20FD%20Edwards%20Real%20Estate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:36:55"
+  },
+  {
+    "id": 5,
+    "name": "Saunders & Associates",
+    "niche": "Realestate",
+    "city": "New York",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@saundersassociates.example",
+    "address": "2287 Montauk Highway, New York 11932",
+    "mailto_url": "mailto:contact@saundersassociates.example?subject=quick%20question%20regarding%20Saunders%20%26%20Associates%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Saunders%20%26%20Associates%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:36:55"
+  },
+  {
+    "id": 6,
+    "name": "Dott Realty",
+    "niche": "Realestate",
+    "city": "New York",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@dottrealty.example",
+    "address": "New York",
+    "mailto_url": "mailto:contact@dottrealty.example?subject=quick%20question%20regarding%20Dott%20Realty%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Dott%20Realty%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:36:55"
+  },
+  {
+    "id": 7,
+    "name": "Coldwell Banker",
+    "niche": "Realestate",
+    "city": "New York",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@coldwellbanker.example",
+    "address": "New York",
+    "mailto_url": "mailto:contact@coldwellbanker.example?subject=quick%20question%20regarding%20Coldwell%20Banker%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Coldwell%20Banker%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:36:55"
+  },
+  {
+    "id": 8,
+    "name": "Compass",
+    "niche": "Realestate",
+    "city": "New York",
+    "phone": "+1-347-682-3727",
+    "website": "https://www.compass.com",
+    "email": "contact@compass.com",
+    "address": "212 Court Street, New York 11201",
+    "mailto_url": "mailto:contact@compass.com?subject=quick%20question%20regarding%20Compass%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28https%3A//www.compass.com%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Compass%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:36:55"
+  },
+  {
+    "id": 9,
+    "name": "Chiarelli Real Estate",
+    "niche": "Realestate",
+    "city": "New York",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@chiarellirealestate.example",
+    "address": "1700 74th Street, New York 11204",
+    "mailto_url": "mailto:contact@chiarellirealestate.example?subject=quick%20question%20regarding%20Chiarelli%20Real%20Estate%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Chiarelli%20Real%20Estate%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:36:55"
+  },
+  {
+    "id": 10,
+    "name": "Realty USA",
+    "niche": "Realestate",
+    "city": "New York",
+    "phone": "N/A",
+    "website": "N/A",
+    "email": "contact@realtyusa.example",
+    "address": "71 Denison Parkway West, New York 14830",
+    "mailto_url": "mailto:contact@realtyusa.example?subject=quick%20question%20regarding%20Realty%20USA%27s%20after-hours%20inquiries&body=Hi%20there%2C%0A%0AI%20was%20reviewing%20your%20website%20%28N/A%29%20and%20noticed%20that%20when%20a%20prospective%20client%20visits%20outside%20standard%20hours%2C%20their%20only%20option%20is%20waiting%20until%20morning.%0A%0AWe%20built%20an%20automated%2024/7%20AI%20Receptionist%20that%20answers%20common%20treatment%20%26%20pricing%20questions%20and%20locks%20appointments%20directly%20into%20your%20calendar%3A%0A%F0%9F%91%89%20Live%20Demo%3A%20https%3A//work-minh-lap.vercel.app/chatbotdemo%0A%0AWould%20you%20be%20against%20me%20sending%20over%20a%202-minute%20walkthrough%20showing%20how%20this%20works%20for%20Realty%20USA%3F%0A%0ABest%20regards%2C%0AAI%20Solutions%20Team",
+    "discovered_at": "2026-09-30 22:36:55"
+  }
+]
