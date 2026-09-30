@@ -26,7 +26,7 @@ def clear_screen():
 def print_banner():
     print("""
 ======================================================================
-  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v25.0 ⚡
+  ⚡ SYNAPSE AI MONEY MACHINE — MASTER COMMAND CENTER CLI v26.0 ⚡
   Tác giả: Minh Lap | 8 Nguồn Thu Nhập Số Độc Lập & Tự Động Hóa
 ======================================================================
   [1] 🩺 Chạy Kiểm Tra Sức Khỏe Toàn Diện Hệ Thống (Health Check & Ping)
@@ -84,6 +84,9 @@ def print_banner():
   [53] 🧠 Mở Self-Service Knowledge Base & AI Studio (/knowledge - 119 Client Agent Workspaces)
   [54] 📬 Mở Omnichannel Unified Inbox & HITL Dispatch (/inbox - Human-in-the-Loop Triaging)
   [55] 📈 Mở Client Value Attribution Engine (/attribution - $3.50M/mo Empirical ROI Ledger)
+  [56] 👁️ Mở & Trải Nghiệm SnapOCR Pro (Windows 11 Fluent App / Desktop PWA - $14.99 Pro)
+  [57] 🕷️ Mở & Trải Nghiệm OmniScrape AI Extractor (Chrome/Edge Extension Web Simulator - $19 Pro)
+  [58] ⭐ Mở & Trải Nghiệm ReviewGenius Pro Copilot (Local SEO Extension Assistant - $19 Pro)
   [0] Thoát
 ======================================================================
 """)
@@ -103,7 +106,7 @@ def run_script(rel_path, args=None):
 def main_loop():
     while True:
         print_banner()
-        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-55]: ").strip()
+        choice = input("👉 Nhập số lựa chọn tác vụ của bạn [0-58]: ").strip()
 
         if choice == '1':
             ping = input("Bạn có muốn gửi báo cáo về Telegram không? (y/n, mặc định y): ").strip().lower()
@@ -683,11 +686,50 @@ def main_loop():
                 except Exception:
                     webbrowser.open(local.as_uri())
 
+        elif choice == '56':
+            action = input("1: Mở trình duyệt (/snapocr) / 2: Bắn báo cáo Telegram (1/2, mặc định 1): ").strip()
+            if action == '2':
+                run_script("scripts/dispatch_software_products_briefing.py")
+            else:
+                url = "https://work-minh-lap.vercel.app/snapocr"
+                local = ROOT_DIR / "projects" / "snap_ocr_windows" / "index.html"
+                print(f"[*] Đang mở SnapOCR Pro trên trình duyệt: {url}")
+                try:
+                    webbrowser.open(url)
+                except Exception:
+                    webbrowser.open(local.as_uri())
+
+        elif choice == '57':
+            action = input("1: Mở trình duyệt (/omniscrape) / 2: Bắn báo cáo Telegram (1/2, mặc định 1): ").strip()
+            if action == '2':
+                run_script("scripts/dispatch_software_products_briefing.py")
+            else:
+                url = "https://work-minh-lap.vercel.app/omniscrape"
+                local = ROOT_DIR / "projects" / "omni_scrape_extension" / "popup" / "popup.html"
+                print(f"[*] Đang mở OmniScrape AI trên trình duyệt: {url}")
+                try:
+                    webbrowser.open(url)
+                except Exception:
+                    webbrowser.open(local.as_uri())
+
+        elif choice == '58':
+            action = input("1: Mở trình duyệt (/reviewgenius-app) / 2: Bắn báo cáo Telegram (1/2, mặc định 1): ").strip()
+            if action == '2':
+                run_script("scripts/dispatch_software_products_briefing.py")
+            else:
+                url = "https://work-minh-lap.vercel.app/reviewgenius-app"
+                local = ROOT_DIR / "projects" / "reviewgenius_extension" / "popup" / "popup.html"
+                print(f"[*] Đang mở ReviewGenius Pro Copilot trên trình duyệt: {url}")
+                try:
+                    webbrowser.open(url)
+                except Exception:
+                    webbrowser.open(local.as_uri())
+
         elif choice == '0':
             print("\n👋 Tạm biệt! Chúc bạn kinh doanh thành công và tạo dòng tiền mạnh mẽ với AI.\n")
             break
         else:
-            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 55.")
+            print("[!] Lựa chọn không hợp lệ. Vui lòng nhập số từ 0 đến 58.")
 
         input("\n[Nhấn Enter để quay lại menu chính...]")
 
